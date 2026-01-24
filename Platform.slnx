@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="CHANGELOG.md" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="src/SkillCraft.Cms.Core/SkillCraft.Cms.Core.csproj" Id="be890a45-07ff-4505-a010-504e86cebcd7" />
+  <Project Path="src/SkillCraft.Cms.Infrastructure/SkillCraft.Cms.Infrastructure.csproj" Id="314599ae-3c37-41c4-adda-8cdadf670823" />
+  <Project Path="src/SkillCraft.Cms.PostgreSQL/SkillCraft.Cms.PostgreSQL.csproj" Id="db9a2d1d-be60-4b92-a23d-bdc38d431bf5" />
+  <Project Path="src/SkillCraft.Cms/SkillCraft.Cms.csproj" />
+</Solution>
