@@ -59,7 +59,7 @@
     "RichText": {
       "ContentType": "text/plain",
       "MinimumLength": null,
-      "MaximumLength": 160
+      "MaximumLength": 80
     }
   }
 ]
