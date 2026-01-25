@@ -21,8 +21,10 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<IEventHandler<ContentLocaleUnpublished>, ContentMaterializationHandlers>();
 
     services.AddTransient<ICommandHandler<PublishAttributeCommand, Unit>, PublishAttributeCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishStatisticCommand, Unit>, PublishStatisticCommandHandler>();
 
-    services.AddTransient<ICommandHandler<UnpublishAttributeCommand, Unit>, UnpublishAttributeCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishAttributeCommand, Unit>, PublishAttributeCommandHandler>();
+    services.AddTransient<ICommandHandler<UnpublishStatisticCommand, Unit>, UnpublishStatisticCommandHandler>();
   }
 
   private readonly ICommandBus _commandBus;
@@ -91,6 +93,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Attribute:
           await _commandBus.ExecuteAsync(new PublishAttributeCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
+        case EntityKind.Statistic:
+          await _commandBus.ExecuteAsync(new PublishStatisticCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
         default:
           _logger.LogWarning("Event 'Id={EventId}' is being ignored because the entity kind '{Kind}' is not supported.", @event.Id, kind);
           return;
@@ -140,6 +145,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
       {
         case EntityKind.Attribute:
           await _commandBus.ExecuteAsync(new UnpublishAttributeCommand(@event), cancellationToken);
+          break;
+        case EntityKind.Statistic:
+          await _commandBus.ExecuteAsync(new UnpublishStatisticCommand(@event), cancellationToken);
           break;
         default:
           _logger.LogWarning("Event 'Id={EventId}' is being ignored because the entity kind '{Kind}' is not supported.", @event.Id, kind);
