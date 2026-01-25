@@ -32,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Using Include="System.Text.Json" />
     <Using Include="Xunit" />
   </ItemGroup>
 
