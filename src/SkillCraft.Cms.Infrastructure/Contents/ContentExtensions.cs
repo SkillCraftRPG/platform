@@ -16,7 +16,6 @@ public static class ContentExtensions
       : null;
   }
 
-
   public static IReadOnlyCollection<string> GetSelect(this ContentLocale locale, Guid fieldId, IReadOnlyCollection<string>? defaultValue = null)
   {
     return locale.TryGetSelect(fieldId) ?? defaultValue ?? [];
