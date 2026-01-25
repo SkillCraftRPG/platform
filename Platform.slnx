@@ -9,6 +9,7 @@
     <File Path="README.md" />
   </Folder>
   <Folder Name="/Tests/">
+    <Project Path="tests/SkillCraft.Cms.IntegrationTests/SkillCraft.Cms.IntegrationTests.csproj" Id="33bb0def-34e6-48d3-a36b-b8ada308e672" />
     <Project Path="tests/SkillCraft.Cms.Tests/SkillCraft.Cms.Tests.csproj" Id="277f5136-be2c-4114-9773-e53c600effc7" />
     <Project Path="tests/SkillCraft.Cms.UnitTests/SkillCraft.Cms.UnitTests.csproj" Id="515accca-b6e0-4646-9832-9303e8a7a995" />
   </Folder>
