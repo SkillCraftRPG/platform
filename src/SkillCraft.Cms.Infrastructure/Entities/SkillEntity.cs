@@ -1,14 +1,14 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
-using SkillCraft.Cms.Core.Attributes;
+using SkillCraft.Cms.Core.Skills;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class AttributeEntity : AggregateEntity
+internal class SkillEntity : AggregateEntity
 {
-  public int AttributeId { get; private set; }
+  public int SkillId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -19,24 +19,23 @@ internal class AttributeEntity : AggregateEntity
     get => Helper.Normalize(Slug);
     private set { }
   }
-  public GameAttribute Value { get; set; }
+  public GameSkill Value { get; set; }
   public string Name { get; set; } = string.Empty;
 
-  public AttributeCategory? Category { get; set; }
+  public AttributeEntity? Attribute { get; private set; }
+  public int? AttributeId { get; private set; }
+  public Guid? AttributeUid { get; private set; }
 
   public string? MetaDescription { get; set; }
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
-  public List<SkillEntity> Skills { get; private set; } = [];
-  public List<StatisticEntity> Statistics { get; private set; } = [];
-
-  public AttributeEntity(ContentLocalePublished @event) : base(@event)
+  public SkillEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private AttributeEntity() : base()
+  private SkillEntity() : base()
   {
   }
 
@@ -45,6 +44,13 @@ internal class AttributeEntity : AggregateEntity
     Update(@event);
 
     IsPublished = true;
+  }
+
+  public void SetAttribute(AttributeEntity? attribute)
+  {
+    Attribute = attribute;
+    AttributeId = attribute?.AttributeId;
+    AttributeUid = attribute?.Id;
   }
 
   public void Unpublish(ContentLocaleUnpublished @event)
