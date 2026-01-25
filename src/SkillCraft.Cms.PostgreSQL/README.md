@@ -1,6 +1,6 @@
 ﻿# SkillCraft.Cms.PostgreSQL
 
-TODO(fpion): Provides an implementation of a relational event store to be used with Krakenar application management tool suite, Entity Framework Core and PostgreSQL.
+Provides the PostgreSQL-specific infrastructure implementation for the project’s persistence, migrations, and data access concerns.
 
 ## Migrations
 
