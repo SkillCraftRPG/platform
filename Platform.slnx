@@ -8,6 +8,10 @@
     <File Path="LICENSE" />
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/SkillCraft.Cms.Tests/SkillCraft.Cms.Tests.csproj" Id="277f5136-be2c-4114-9773-e53c600effc7" />
+    <Project Path="tests/SkillCraft.Cms.UnitTests/SkillCraft.Cms.UnitTests.csproj" Id="515accca-b6e0-4646-9832-9303e8a7a995" />
+  </Folder>
   <Project Path="src/SkillCraft.Cms.Core/SkillCraft.Cms.Core.csproj" Id="be890a45-07ff-4505-a010-504e86cebcd7" />
   <Project Path="src/SkillCraft.Cms.Infrastructure/SkillCraft.Cms.Infrastructure.csproj" Id="314599ae-3c37-41c4-adda-8cdadf670823" />
   <Project Path="src/SkillCraft.Cms.PostgreSQL/SkillCraft.Cms.PostgreSQL.csproj" Id="db9a2d1d-be60-4b92-a23d-bdc38d431bf5" />
