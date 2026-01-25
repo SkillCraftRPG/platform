@@ -53,6 +53,9 @@ internal class SeedingWorker : BackgroundService
       _applicationContext.ActorId = new ActorId(new UserId(user.Id).Value);
 
       await ExecuteAsync(new SeedUsersTask(), cancellationToken);
+      await ExecuteAsync(new SeedContentTypesTask(), cancellationToken);
+      await ExecuteAsync(new SeedFieldTypesTask(), cancellationToken);
+      await ExecuteAsync(new SeedContentTypesTask(fieldDefinitions: true), cancellationToken);
     }
     catch (Exception exception)
     {

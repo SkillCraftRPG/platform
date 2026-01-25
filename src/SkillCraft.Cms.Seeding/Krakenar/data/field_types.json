@@ -1,0 +1,65 @@
+﻿[
+  {
+    "Id": "9b47287c-9a90-4e3a-ba41-3e020ca3721a",
+    "UniqueName": "AttributeCategory",
+    "DisplayName": null,
+    "Description": null,
+    "Select": {
+      "IsMultiple": false,
+      "Options": [
+        {
+          "Text": "Physique",
+          "Value": "Physical"
+        },
+        {
+          "Text": "Mental",
+          "Value": "Mental"
+        }
+      ]
+    }
+  },
+  {
+    "Id": "236d7923-356f-4a8f-8952-646b0f04bdb4",
+    "UniqueName": "HtmlContent",
+    "DisplayName": null,
+    "Description": null,
+    "RichText": {
+      "ContentType": "text/html",
+      "MinimumLength": null,
+      "MaximumLength": null
+    }
+  },
+  {
+    "Id": "74e3a033-4c7f-471a-b8f9-90591792403a",
+    "UniqueName": "MetaDescription",
+    "DisplayName": null,
+    "Description": null,
+    "RichText": {
+      "ContentType": "text/plain",
+      "MinimumLength": null,
+      "MaximumLength": 160
+    }
+  },
+  {
+    "Id": "c1c161a1-d6bd-4e41-aa5c-3db07405f01c",
+    "UniqueName": "Slug",
+    "DisplayName": null,
+    "Description": null,
+    "String": {
+      "MinimumLength": null,
+      "MaximumLength": 100,
+      "Pattern": "^[A-Za-z0-9]+(?:-[A-Za-z0-9]+)*$"
+    }
+  },
+  {
+    "Id": "c9cf3897-d14e-4ae7-ae32-2357c440b32a",
+    "UniqueName": "Summary",
+    "DisplayName": null,
+    "Description": null,
+    "RichText": {
+      "ContentType": "text/plain",
+      "MinimumLength": null,
+      "MaximumLength": 80
+    }
+  }
+]
