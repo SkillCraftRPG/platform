@@ -10,6 +10,32 @@ public class ContentExtensionsTests
 {
   private readonly UniqueNameSettings _uniqueNameSettings = new();
 
+  [Fact(DisplayName = "GetRelatedContent: it should return the default value when not found.")]
+  public void Given_NotFound_When_GetRelatedContent_Then_DefaultReturned()
+  {
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Dodge"));
+    Assert.Empty(locale.FieldValues);
+
+    Guid[] defaultValue = [Guid.Empty];
+    Assert.True(defaultValue.SequenceEqual(locale.GetRelatedContent(Guid.Empty, defaultValue)));
+  }
+
+  [Fact(DisplayName = "GetRelatedContent: it should return the value found.")]
+  public void Given_Found_When_GetRelatedContent_Then_ValueReturned()
+  {
+    Guid fieldId = Guid.NewGuid();
+    Guid[] values = [Guid.NewGuid()];
+
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Dodge"), fieldValues: new Dictionary<Guid, FieldValue>
+    {
+      [fieldId] = new FieldValue(JsonSerializer.Serialize(values))
+    });
+    Assert.NotEmpty(locale.FieldValues);
+
+    IReadOnlyCollection<Guid> result = locale.GetRelatedContent(fieldId);
+    Assert.True(values.SequenceEqual(result));
+  }
+
   [Fact(DisplayName = "GetSelect: it should return the default value when not found.")]
   public void Given_NotFound_When_GetSelect_Then_DefaultReturned()
   {
@@ -59,6 +85,31 @@ public class ContentExtensionsTests
     Assert.NotEmpty(locale.FieldValues);
 
     Assert.Equal(value, locale.GetString(fieldId));
+  }
+
+  [Fact(DisplayName = "TryGetRelatedContent: it should return null when not found.")]
+  public void Given_NotFound_When_TryGetRelatedContent_Then_NullReturned()
+  {
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Dodge"));
+    Assert.Empty(locale.FieldValues);
+    Assert.Null(locale.TryGetRelatedContent(Guid.Empty));
+  }
+
+  [Fact(DisplayName = "TryGetRelatedContent: it should return the value found.")]
+  public void Given_Found_When_TryGetRelatedContent_Then_ValueReturned()
+  {
+    Guid fieldId = Guid.NewGuid();
+    Guid[] values = [Guid.NewGuid()];
+
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Dodge"), fieldValues: new Dictionary<Guid, FieldValue>
+    {
+      [fieldId] = new FieldValue(JsonSerializer.Serialize(values))
+    });
+    Assert.NotEmpty(locale.FieldValues);
+
+    IReadOnlyCollection<Guid>? result = locale.TryGetRelatedContent(fieldId);
+    Assert.NotNull(result);
+    Assert.True(values.SequenceEqual(result));
   }
 
   [Fact(DisplayName = "TryGetSelect: it should return null when not found.")]
