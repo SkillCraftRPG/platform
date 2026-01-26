@@ -5,6 +5,17 @@ namespace SkillCraft.Cms.Infrastructure.Contents;
 
 public static class ContentExtensions
 {
+  public static bool GetBoolean(this ContentLocale locale, Guid fieldId, bool defaultValue = false)
+  {
+    return locale.TryGetBoolean(fieldId) ?? defaultValue;
+  }
+  public static bool? TryGetBoolean(this ContentLocale locale, Guid fieldId)
+  {
+    return locale.FieldValues.TryGetValue(fieldId, out FieldValue? value) && bool.TryParse(value.Value, out bool boolean)
+      ? boolean
+      : null;
+  }
+
   public static double GetNumber(this ContentLocale locale, Guid fieldId, double defaultValue = 0.0)
   {
     return locale.TryGetNumber(fieldId) ?? defaultValue;

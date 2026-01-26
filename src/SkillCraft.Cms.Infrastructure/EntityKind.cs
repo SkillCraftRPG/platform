@@ -11,5 +11,6 @@ internal enum EntityKind
   Language,
   Script,
   Skill,
-  Statistic
+  Statistic,
+  Talent
 }

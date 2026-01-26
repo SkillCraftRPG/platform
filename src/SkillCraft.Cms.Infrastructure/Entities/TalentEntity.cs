@@ -1,14 +1,13 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
-using SkillCraft.Cms.Core.Skills;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class SkillEntity : AggregateEntity
+internal class TalentEntity : AggregateEntity
 {
-  public int SkillId { get; private set; }
+  public int TalentId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -19,27 +18,31 @@ internal class SkillEntity : AggregateEntity
     get => Helper.Normalize(Slug);
     private set { }
   }
-  public GameSkill Value { get; set; }
   public string Name { get; set; } = string.Empty;
 
-  public AttributeEntity? Attribute { get; private set; }
-  public int? AttributeId { get; private set; }
-  public Guid? AttributeUid { get; private set; }
+  public int Tier { get; set; }
+  public bool AllowMultiplePurchases { get; set; }
+
+  public SkillEntity? Skill { get; private set; }
+  public int? SkillId { get; private set; }
+  public Guid? SkillUid { get; private set; }
+
+  public TalentEntity? RequiredTalent { get; private set; }
+  public int? RequiredTalentId { get; private set; }
+  public Guid? RequiredTalentUid { get; private set; }
 
   public string? MetaDescription { get; set; }
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
-  public List<CasteEntity> Castes { get; private set; } = [];
-  public List<EducationEntity> Educations { get; private set; } = [];
-  public List<TalentEntity> Talents { get; private set; } = [];
+  public List<TalentEntity> RequiringTalents { get; private set; } = [];
 
-  public SkillEntity(ContentLocalePublished @event) : base(@event)
+  public TalentEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private SkillEntity() : base()
+  private TalentEntity() : base()
   {
   }
 
@@ -50,11 +53,18 @@ internal class SkillEntity : AggregateEntity
     IsPublished = true;
   }
 
-  public void SetAttribute(AttributeEntity? attribute)
+  public void SetRequiredTalent(TalentEntity? talent)
   {
-    Attribute = attribute;
-    AttributeId = attribute?.AttributeId;
-    AttributeUid = attribute?.Id;
+    RequiredTalent = talent;
+    RequiredTalentId = talent?.TalentId;
+    RequiredTalentUid = talent?.Id;
+  }
+
+  public void SetSkill(SkillEntity? skill)
+  {
+    Skill = skill;
+    SkillId = skill?.SkillId;
+    SkillUid = skill?.Id;
   }
 
   public void Unpublish(ContentLocaleUnpublished @event)
