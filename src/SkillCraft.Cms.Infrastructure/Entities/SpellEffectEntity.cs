@@ -19,7 +19,7 @@ internal class SpellEffectEntity : AggregateEntity
     get => Helper.Normalize(Key);
     private set { }
   }
-  public string Name { get; set; } = string.Empty;
+  public string? Name { get; set; }
 
   public SpellEntity? Spell { get; private set; }
   public int SpellId { get; private set; }
@@ -73,5 +73,5 @@ internal class SpellEffectEntity : AggregateEntity
     IsPublished = false;
   }
 
-  public override string ToString() => $"{Name} | {base.ToString()}";
+  public override string ToString() => $"{Name ?? Key} | {base.ToString()}";
 }

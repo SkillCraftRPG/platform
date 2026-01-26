@@ -41,7 +41,7 @@ internal class PublishSpellEffectCommandHandler : ICommandHandler<PublishSpellEf
     List<ValidationFailure> failures = new(capacity: 3);
 
     spellEffect.Key = locale.UniqueName.Value;
-    spellEffect.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
+    spellEffect.Name = locale.DisplayName?.Value;
 
     await SetSpellAsync(spellEffect, invariant, failures, cancellationToken);
     spellEffect.Level = (int)invariant.GetNumber(SpellEffectDefinition.Level);
