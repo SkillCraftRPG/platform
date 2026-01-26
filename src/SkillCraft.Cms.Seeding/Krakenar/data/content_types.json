@@ -526,5 +526,143 @@
         "Placeholder": null
       }
     ]
+  },
+  {
+    "Id": "0bebf870-0a58-46cb-9b1e-141e020019f4",
+    "IsInvariant": false,
+    "UniqueName": "Script",
+    "DisplayName": "Système d’écriture",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "36234b88-34e3-4be3-adae-6de76cb9c582",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "f8946f6e-291d-4eb8-9c2d-42ba570e03d7",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "853b8df0-8c88-4ecc-a6f3-f231d6b8ab97",
+        "FieldType": "Summary",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Summary",
+        "DisplayName": "Résumé",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "724fa172-3c28-45fc-9167-f9ca405f2345",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
+    "Id": "68e69278-4103-4ab3-8388-222c6d4e9f92",
+    "IsInvariant": false,
+    "UniqueName": "Language",
+    "DisplayName": "Langue",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "9ee86492-a998-4a00-ac6e-2d05465d0e9d",
+        "FieldType": "Script",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Script",
+        "DisplayName": "Système d’écriture",
+        "Description": null,
+        "Placeholder": "Sélectionnez un système d’écriture"
+      },
+      {
+        "Id": "b191115d-c38c-4d00-816f-1a9f31f3d2ca",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "8ecd06bc-5315-436d-be8a-2827e6af285a",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "TypicalSpeakers",
+        "DisplayName": "Locuteurs typiques",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "be2176a3-64f4-4999-a5f7-d8bc5b3db1c2",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "9f4820a5-fde3-40ca-90dd-7d446e05181b",
+        "FieldType": "Summary",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Summary",
+        "DisplayName": "Résumé",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "63ac017c-2773-435c-b0bb-a3bcdfc7d599",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
   }
 ]
