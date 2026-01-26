@@ -5,6 +5,17 @@ namespace SkillCraft.Cms.Infrastructure.Contents;
 
 public static class ContentExtensions
 {
+  public static double GetNumber(this ContentLocale locale, Guid fieldId, double defaultValue = 0.0)
+  {
+    return locale.TryGetNumber(fieldId) ?? defaultValue;
+  }
+  public static double? TryGetNumber(this ContentLocale locale, Guid fieldId)
+  {
+    return locale.FieldValues.TryGetValue(fieldId, out FieldValue? value) && double.TryParse(value.Value, out double number)
+      ? number
+      : null;
+  }
+
   public static IReadOnlyCollection<Guid> GetRelatedContent(this ContentLocale locale, Guid fieldId, IReadOnlyCollection<Guid>? defaultValue = null)
   {
     return locale.TryGetRelatedContent(fieldId) ?? defaultValue ?? [];

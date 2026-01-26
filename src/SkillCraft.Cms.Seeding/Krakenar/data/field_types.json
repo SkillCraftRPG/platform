@@ -29,6 +29,16 @@
     }
   },
   {
+    "Id": "20321755-8659-4733-ad1a-de0e3c8295df",
+    "UniqueName": "Feature",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "3dd6e07f-bab9-4fa7-a956-bc2e5f41ff3f",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "236d7923-356f-4a8f-8952-646b0f04bdb4",
     "UniqueName": "HtmlContent",
     "DisplayName": null,
@@ -51,6 +61,27 @@
     }
   },
   {
+    "Id": "52a7692c-8e59-4fa4-b2ea-f76e285f1154",
+    "UniqueName": "Roll",
+    "DisplayName": null,
+    "Description": null,
+    "String": {
+      "MinimumLength": 3,
+      "MaximumLength": 10,
+      "Pattern": "^(?:(?:[1-9][0-9]{0,2})\\+)?(?:[1-9][0-9]?)d(?:4|6|8|10|12|20|100)$"
+    }
+  },
+  {
+    "Id": "4a338816-2d6f-423f-a679-ee160bdb439d",
+    "UniqueName": "Skill",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "d90f5df9-1bc2-4ee6-b433-376773ca2973",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "c1c161a1-d6bd-4e41-aa5c-3db07405f01c",
     "UniqueName": "Slug",
     "DisplayName": null,
@@ -70,6 +101,17 @@
       "ContentType": "text/plain",
       "MinimumLength": null,
       "MaximumLength": 80
+    }
+  },
+  {
+    "Id": "365c508b-6a96-4b54-bc5b-304032ef93e3",
+    "UniqueName": "WealthMultiplier",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 4,
+      "MaximumValue": 12,
+      "Step": 2
     }
   }
 ]

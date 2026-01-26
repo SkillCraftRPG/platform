@@ -82,14 +82,18 @@ internal class PublishSkillCommandHandler : ICommandHandler<PublishSkillCommand,
   private async Task SetAttributeAsync(SkillEntity skill, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
     IReadOnlyCollection<Guid> attributeIds = invariant.GetRelatedContent(SkillDefinition.Attribute);
-    if (attributeIds.Count > 1)
+    if (attributeIds.Count < 1)
+    {
+      skill.SetAttribute(null);
+    }
+    else if (attributeIds.Count > 1)
     {
       failures.Add(new ValidationFailure(nameof(SkillDefinition.Attribute), "'{PropertyName}' must contain exactly one element.", attributeIds)
       {
         ErrorCode = ErrorCodes.TooManyValues
       });
     }
-    else if (attributeIds.Count == 1)
+    else
     {
       Guid attributeId = attributeIds.Single();
       AttributeEntity? attribute = await _rules.Attributes.SingleOrDefaultAsync(x => x.Id == attributeId, cancellationToken);
