@@ -29,6 +29,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<PublishLanguageCommand, Unit>, PublishLanguageCommandHandler>();
     services.AddTransient<ICommandHandler<PublishScriptCommand, Unit>, PublishScriptCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSkillCommand, Unit>, PublishSkillCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishSpellCommand, Unit>, PublishSpellCommandHandler>();
     services.AddTransient<ICommandHandler<PublishStatisticCommand, Unit>, PublishStatisticCommandHandler>();
     services.AddTransient<ICommandHandler<PublishTalentCommand, Unit>, PublishTalentCommandHandler>();
 
@@ -40,6 +41,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<UnpublishLanguageCommand, Unit>, UnpublishLanguageCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishScriptCommand, Unit>, UnpublishScriptCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishSkillCommand, Unit>, UnpublishSkillCommandHandler>();
+    services.AddTransient<ICommandHandler<UnpublishSpellCommand, Unit>, UnpublishSpellCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishStatisticCommand, Unit>, UnpublishStatisticCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishTalentCommand, Unit>, UnpublishTalentCommandHandler>();
   }
@@ -134,6 +136,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Skill:
           await _commandBus.ExecuteAsync(new PublishSkillCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
+        case EntityKind.Spell:
+          await _commandBus.ExecuteAsync(new PublishSpellCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
         case EntityKind.Statistic:
           await _commandBus.ExecuteAsync(new PublishStatisticCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
@@ -211,6 +216,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Skill:
           await _commandBus.ExecuteAsync(new UnpublishSkillCommand(@event), cancellationToken);
+          break;
+        case EntityKind.Spell:
+          await _commandBus.ExecuteAsync(new UnpublishSpellCommand(@event), cancellationToken);
           break;
         case EntityKind.Statistic:
           await _commandBus.ExecuteAsync(new UnpublishStatisticCommand(@event), cancellationToken);
