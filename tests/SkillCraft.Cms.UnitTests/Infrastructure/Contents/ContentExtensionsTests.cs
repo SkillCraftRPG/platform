@@ -10,6 +10,31 @@ public class ContentExtensionsTests
 {
   private readonly UniqueNameSettings _uniqueNameSettings = new();
 
+  [Fact(DisplayName = "GetNumber: it should return the default value when not found.")]
+  public void Given_NotFound_When_GetNumber_Then_DefaultReturned()
+  {
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Math"));
+    Assert.Empty(locale.FieldValues);
+
+    double defaultValue = double.Pi;
+    Assert.Equal(defaultValue, locale.GetNumber(Guid.Empty, defaultValue));
+  }
+
+  [Fact(DisplayName = "GetNumber: it should return the value found.")]
+  public void Given_Found_When_GetNumber_Then_ValueReturned()
+  {
+    Guid fieldId = Guid.NewGuid();
+    double value = double.Pi;
+
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Math"), fieldValues: new Dictionary<Guid, FieldValue>
+    {
+      [fieldId] = new FieldValue(value.ToString())
+    });
+    Assert.NotEmpty(locale.FieldValues);
+
+    Assert.Equal(value, locale.GetNumber(fieldId));
+  }
+
   [Fact(DisplayName = "GetRelatedContent: it should return the default value when not found.")]
   public void Given_NotFound_When_GetRelatedContent_Then_DefaultReturned()
   {
@@ -85,6 +110,29 @@ public class ContentExtensionsTests
     Assert.NotEmpty(locale.FieldValues);
 
     Assert.Equal(value, locale.GetString(fieldId));
+  }
+
+  [Fact(DisplayName = "TryGetNumber: it should return null when not found.")]
+  public void Given_NotFound_When_TryGetNumber_Then_NullReturned()
+  {
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Math"));
+    Assert.Empty(locale.FieldValues);
+    Assert.Null(locale.TryGetNumber(Guid.Empty));
+  }
+
+  [Fact(DisplayName = "TryGetNumber: it should return the value found.")]
+  public void Given_Found_When_TryGetNumber_Then_ValueReturned()
+  {
+    Guid fieldId = Guid.NewGuid();
+    double value = double.Pi;
+
+    ContentLocale locale = new(new UniqueName(_uniqueNameSettings, "Math"), fieldValues: new Dictionary<Guid, FieldValue>
+    {
+      [fieldId] = new FieldValue(value.ToString())
+    });
+    Assert.NotEmpty(locale.FieldValues);
+
+    Assert.Equal(value, locale.TryGetNumber(fieldId));
   }
 
   [Fact(DisplayName = "TryGetRelatedContent: it should return null when not found.")]
