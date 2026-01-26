@@ -88,7 +88,7 @@ internal class PublishStatisticCommandHandler : ICommandHandler<PublishStatistic
       AttributeEntity? attribute = await _rules.Attributes.SingleOrDefaultAsync(x => x.Id == attributeId, cancellationToken);
       if (attribute is null)
       {
-        failures.Add(new ValidationFailure(nameof(StatisticDefinition.Attribute), "'{PropertyName}' did not reference an existing entity.", attributeId)
+        failures.Add(new ValidationFailure(nameof(StatisticDefinition.Attribute), "'{PropertyName}' must reference an existing entity.", attributeId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

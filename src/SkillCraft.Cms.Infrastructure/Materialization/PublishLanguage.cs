@@ -83,7 +83,7 @@ internal class PublishLanguageCommandHandler : ICommandHandler<PublishLanguageCo
       ScriptEntity? script = await _rules.Scripts.SingleOrDefaultAsync(x => x.Id == scriptId, cancellationToken);
       if (script is null)
       {
-        failures.Add(new ValidationFailure(nameof(LanguageDefinition.Script), "'{PropertyName}' did not reference an existing entity.", scriptId)
+        failures.Add(new ValidationFailure(nameof(LanguageDefinition.Script), "'{PropertyName}' must reference an existing entity.", scriptId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
