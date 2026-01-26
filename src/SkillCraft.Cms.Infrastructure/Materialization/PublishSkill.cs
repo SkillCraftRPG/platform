@@ -41,7 +41,7 @@ internal class PublishSkillCommandHandler : ICommandHandler<PublishSkillCommand,
     List<ValidationFailure> failures = new(capacity: 2);
 
     skill.Slug = locale.GetString(SkillDefinition.Slug);
-    skill.Value = GetValue(invariant, failures);
+    SetValue(skill, invariant, failures);
     skill.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
     await SetAttributeAsync(skill, invariant, failures, cancellationToken);
@@ -64,19 +64,19 @@ internal class PublishSkillCommandHandler : ICommandHandler<PublishSkillCommand,
     return Unit.Value;
   }
 
-  private static GameSkill GetValue(ContentLocale invariant, List<ValidationFailure> failures)
+  private static void SetValue(SkillEntity skill, ContentLocale invariant, List<ValidationFailure> failures)
   {
     if (Enum.TryParse(invariant.UniqueName.Value, out GameSkill value) && Enum.IsDefined(value))
     {
-      return value;
+      skill.Value = value;
     }
-
-    failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameSkill)}.", invariant.UniqueName.Value)
+    else
     {
-      ErrorCode = ErrorCodes.InvalidEnumValue
-    });
-
-    return default;
+      failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameSkill)}.", invariant.UniqueName.Value)
+      {
+        ErrorCode = ErrorCodes.InvalidEnumValue
+      });
+    }
   }
 
   private async Task SetAttributeAsync(SkillEntity skill, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
@@ -88,7 +88,7 @@ internal class PublishSkillCommandHandler : ICommandHandler<PublishSkillCommand,
     }
     else if (attributeIds.Count > 1)
     {
-      failures.Add(new ValidationFailure(nameof(SkillDefinition.Attribute), "'{PropertyName}' must contain exactly one element.", attributeIds)
+      failures.Add(new ValidationFailure(nameof(SkillDefinition.Attribute), "'{PropertyName}' must contain at most one element.", attributeIds)
       {
         ErrorCode = ErrorCodes.TooManyValues
       });

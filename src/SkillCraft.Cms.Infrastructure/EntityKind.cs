@@ -12,6 +12,7 @@ internal enum EntityKind
   Script,
   Skill,
   Spell,
+  SpellEffect,
   Statistic,
   Talent
 }

@@ -41,7 +41,7 @@ internal class PublishStatisticCommandHandler : ICommandHandler<PublishStatistic
     List<ValidationFailure> failures = new(capacity: 2);
 
     statistic.Slug = locale.GetString(StatisticDefinition.Slug);
-    statistic.Value = GetValue(invariant, failures);
+    SetValue(statistic, invariant, failures);
     statistic.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
     await SetAttributeAsync(statistic, invariant, failures, cancellationToken);
@@ -64,39 +64,25 @@ internal class PublishStatisticCommandHandler : ICommandHandler<PublishStatistic
     return Unit.Value;
   }
 
-  private static GameStatistic GetValue(ContentLocale invariant, List<ValidationFailure> failures)
+  private static void SetValue(StatisticEntity statistic, ContentLocale invariant, List<ValidationFailure> failures)
   {
     if (Enum.TryParse(invariant.UniqueName.Value, out GameStatistic value) && Enum.IsDefined(value))
     {
-      return value;
+      statistic.Value = value;
     }
-
-    failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameStatistic)}.", invariant.UniqueName.Value)
+    else
     {
-      ErrorCode = ErrorCodes.InvalidEnumValue
-    });
-
-    return default;
+      failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameStatistic)}.", invariant.UniqueName.Value)
+      {
+        ErrorCode = ErrorCodes.InvalidEnumValue
+      });
+    }
   }
 
   private async Task SetAttributeAsync(StatisticEntity statistic, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
     IReadOnlyCollection<Guid> attributeIds = invariant.GetRelatedContent(StatisticDefinition.Attribute);
-    if (attributeIds.Count < 1)
-    {
-      failures.Add(new ValidationFailure(nameof(StatisticDefinition.Attribute), "'{PropertyName}' must contain exactly one element.", attributeIds)
-      {
-        ErrorCode = ErrorCodes.EmptyValue
-      });
-    }
-    else if (attributeIds.Count > 1)
-    {
-      failures.Add(new ValidationFailure(nameof(StatisticDefinition.Attribute), "'{PropertyName}' must contain exactly one element.", attributeIds)
-      {
-        ErrorCode = ErrorCodes.TooManyValues
-      });
-    }
-    else
+    if (attributeIds.Count == 1)
     {
       Guid attributeId = attributeIds.Single();
       AttributeEntity? attribute = await _rules.Attributes.SingleOrDefaultAsync(x => x.Id == attributeId, cancellationToken);
@@ -111,6 +97,13 @@ internal class PublishStatisticCommandHandler : ICommandHandler<PublishStatistic
       {
         statistic.SetAttribute(attribute);
       }
+    }
+    else
+    {
+      failures.Add(new ValidationFailure(nameof(StatisticDefinition.Attribute), "'{PropertyName}' must contain exactly one element.", attributeIds)
+      {
+        ErrorCode = attributeIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
+      });
     }
   }
 }
