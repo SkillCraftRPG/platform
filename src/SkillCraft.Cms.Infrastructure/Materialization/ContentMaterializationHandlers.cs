@@ -30,6 +30,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<PublishScriptCommand, Unit>, PublishScriptCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSkillCommand, Unit>, PublishSkillCommandHandler>();
     services.AddTransient<ICommandHandler<PublishStatisticCommand, Unit>, PublishStatisticCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishTalentCommand, Unit>, PublishTalentCommandHandler>();
 
     services.AddTransient<ICommandHandler<UnpublishAttributeCommand, Unit>, UnpublishAttributeCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishCasteCommand, Unit>, UnpublishCasteCommandHandler>();
@@ -40,6 +41,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<UnpublishScriptCommand, Unit>, UnpublishScriptCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishSkillCommand, Unit>, UnpublishSkillCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishStatisticCommand, Unit>, UnpublishStatisticCommandHandler>();
+    services.AddTransient<ICommandHandler<UnpublishTalentCommand, Unit>, UnpublishTalentCommandHandler>();
   }
 
   private readonly ICommandBus _commandBus;
@@ -135,6 +137,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Statistic:
           await _commandBus.ExecuteAsync(new PublishStatisticCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
+        case EntityKind.Talent:
+          await _commandBus.ExecuteAsync(new PublishTalentCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
         default:
           _logger.LogWarning("Event 'Id={EventId}' is being ignored because the entity kind '{Kind}' is not supported.", @event.Id, kind);
           return;
@@ -209,6 +214,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Statistic:
           await _commandBus.ExecuteAsync(new UnpublishStatisticCommand(@event), cancellationToken);
+          break;
+        case EntityKind.Talent:
+          await _commandBus.ExecuteAsync(new UnpublishTalentCommand(@event), cancellationToken);
           break;
         default:
           _logger.LogWarning("Event 'Id={EventId}' is being ignored because the entity kind '{Kind}' is not supported.", @event.Id, kind);

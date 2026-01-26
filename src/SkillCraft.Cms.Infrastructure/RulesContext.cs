@@ -20,6 +20,7 @@ public class RulesContext : DbContext
   internal DbSet<ScriptEntity> Scripts => Set<ScriptEntity>();
   internal DbSet<SkillEntity> Skills => Set<SkillEntity>();
   internal DbSet<StatisticEntity> Statistics => Set<StatisticEntity>();
+  internal DbSet<TalentEntity> Talents => Set<TalentEntity>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
