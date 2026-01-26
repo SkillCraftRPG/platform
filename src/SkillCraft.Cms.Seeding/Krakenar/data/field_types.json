@@ -72,6 +72,16 @@
     }
   },
   {
+    "Id": "4ce92fbe-3f40-4846-9203-769071ea86b6",
+    "UniqueName": "Script",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "0bebf870-0a58-46cb-9b1e-141e020019f4",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "4a338816-2d6f-423f-a679-ee160bdb439d",
     "UniqueName": "Skill",
     "DisplayName": null,
