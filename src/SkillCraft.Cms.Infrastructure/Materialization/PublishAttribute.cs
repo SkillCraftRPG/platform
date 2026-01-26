@@ -41,10 +41,10 @@ internal class PublishAttributeCommandHandler : ICommandHandler<PublishAttribute
     List<ValidationFailure> failures = new(capacity: 2);
 
     attribute.Slug = locale.GetString(AttributeDefinition.Slug);
-    attribute.Value = GetValue(invariant, failures);
+    SetValue(attribute, invariant, failures);
     attribute.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
-    attribute.Category = GetCategory(invariant, failures);
+    SetCategory(attribute, invariant, failures);
 
     attribute.MetaDescription = locale.TryGetString(AttributeDefinition.MetaDescription);
     attribute.Summary = locale.TryGetString(AttributeDefinition.Summary);
@@ -64,21 +64,12 @@ internal class PublishAttributeCommandHandler : ICommandHandler<PublishAttribute
     return Unit.Value;
   }
 
-  private static AttributeCategory? GetCategory(ContentLocale invariant, List<ValidationFailure> failures)
+  private static void SetCategory(AttributeEntity attribute, ContentLocale invariant, List<ValidationFailure> failures)
   {
     IReadOnlyCollection<string> categories = invariant.GetSelect(AttributeDefinition.Category);
-    if (categories.Count == 1)
+    if (categories.Count < 1)
     {
-      string categoryValue = categories.Single();
-      if (Enum.TryParse(categoryValue, out AttributeCategory category) && Enum.IsDefined(category))
-      {
-        return category;
-      }
-
-      failures.Add(new ValidationFailure(nameof(AttributeDefinition.Category), $"'{{PropertyName}}' must be parseable as an {nameof(AttributeCategory)}.", categoryValue)
-      {
-        ErrorCode = ErrorCodes.InvalidEnumValue
-      });
+      attribute.Category = null;
     }
     else if (categories.Count > 1)
     {
@@ -87,22 +78,35 @@ internal class PublishAttributeCommandHandler : ICommandHandler<PublishAttribute
         ErrorCode = ErrorCodes.TooManyValues
       });
     }
-
-    return null;
+    else
+    {
+      string categoryValue = categories.Single();
+      if (Enum.TryParse(categoryValue, out AttributeCategory category) && Enum.IsDefined(category))
+      {
+        attribute.Category = category;
+      }
+      else
+      {
+        failures.Add(new ValidationFailure(nameof(AttributeDefinition.Category), $"'{{PropertyName}}' must be parseable as an {nameof(AttributeCategory)}.", categoryValue)
+        {
+          ErrorCode = ErrorCodes.InvalidEnumValue
+        });
+      }
+    }
   }
 
-  private static GameAttribute GetValue(ContentLocale invariant, List<ValidationFailure> failures)
+  private static void SetValue(AttributeEntity attribute, ContentLocale invariant, List<ValidationFailure> failures)
   {
     if (Enum.TryParse(invariant.UniqueName.Value, out GameAttribute value) && Enum.IsDefined(value))
     {
-      return value;
+      attribute.Value = value;
     }
-
-    failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameAttribute)}.", invariant.UniqueName.Value)
+    else
     {
-      ErrorCode = ErrorCodes.InvalidEnumValue
-    });
-
-    return default;
+      failures.Add(new ValidationFailure(nameof(ContentLocale.UniqueName), $"'{{PropertyName}}' must be parseable as a {nameof(GameAttribute)}.", invariant.UniqueName.Value)
+      {
+        ErrorCode = ErrorCodes.InvalidEnumValue
+      });
+    }
   }
 }
