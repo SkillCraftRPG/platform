@@ -116,7 +116,7 @@ internal class PublishSpellEffectCommandHandler : ICommandHandler<PublishSpellEf
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(SpellEffectDefinition.DurationUnit), $"'{{PropertyName}}' must be parseable as an {nameof(TimeUnit)}.", durationUnitValue)
+        failures.Add(new ValidationFailure(nameof(SpellEffectDefinition.DurationUnit), $"'{{PropertyName}}' must be parseable as a {nameof(TimeUnit)}.", durationUnitValue)
         {
           ErrorCode = ErrorCodes.InvalidEnumValue
         });
@@ -133,7 +133,7 @@ internal class PublishSpellEffectCommandHandler : ICommandHandler<PublishSpellEf
       SpellEntity? spell = await _rules.Spells.SingleOrDefaultAsync(x => x.Id == spellId, cancellationToken);
       if (spell is null)
       {
-        failures.Add(new ValidationFailure(nameof(SpellEffectDefinition.Spell), "'{PropertyName}' did not reference an existing entity.", spellId)
+        failures.Add(new ValidationFailure(nameof(SpellEffectDefinition.Spell), "'{PropertyName}' must reference an existing entity.", spellId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

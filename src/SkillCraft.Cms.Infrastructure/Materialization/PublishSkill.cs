@@ -99,7 +99,7 @@ internal class PublishSkillCommandHandler : ICommandHandler<PublishSkillCommand,
       AttributeEntity? attribute = await _rules.Attributes.SingleOrDefaultAsync(x => x.Id == attributeId, cancellationToken);
       if (attribute is null)
       {
-        failures.Add(new ValidationFailure(nameof(SkillDefinition.Attribute), "'{PropertyName}' did not reference an existing entity.", attributeId)
+        failures.Add(new ValidationFailure(nameof(SkillDefinition.Attribute), "'{PropertyName}' must reference an existing entity.", attributeId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

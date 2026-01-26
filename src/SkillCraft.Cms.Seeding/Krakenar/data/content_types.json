@@ -1003,5 +1003,206 @@
         "Placeholder": null
       }
     ]
+  },
+  {
+    "Id": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
+    "IsInvariant": false,
+    "UniqueName": "Lineage",
+    "DisplayName": "Lignée",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "0e5f3fb1-6f13-47bb-9c49-e54201b663fc",
+        "FieldType": "Lineage",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Parent",
+        "DisplayName": "Parent",
+        "Description": null,
+        "Placeholder": "Sélectionnez une lignée parente"
+      },
+      {
+        "Id": "2bcc6f71-3205-4d58-9149-267ebdecd537",
+        "FieldType": "Features",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Features",
+        "DisplayName": "Particularités",
+        "Description": null,
+        "Placeholder": "Sélectionnez une ou plusieurs particularités"
+      },
+      {
+        "Id": "060dff93-77c8-40dd-8ed1-7accdf3f80be",
+        "FieldType": "Languages",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Languages",
+        "DisplayName": "Langues",
+        "Description": null,
+        "Placeholder": "Sélectionnez une ou plusieurs langues"
+      },
+      {
+        "Id": "29e049d0-3318-4a52-a3ea-08bff95894a5",
+        "FieldType": "ExtraLanguages",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "ExtraLanguages",
+        "DisplayName": "Langues supplémentaires",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "c88e08b0-8136-4a91-9d58-2c9bf56d8533",
+        "FieldType": "LineageSpeed",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Speeds",
+        "DisplayName": "Vitesses",
+        "Description": null,
+        "Placeholder": "Entrez les vitesses au format \"Type:Value,Type:Value,…\""
+      },
+      {
+        "Id": "ba9f7c73-599a-4006-98d1-6d82a64abe50",
+        "FieldType": "SizeCategory",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "SizeCategory",
+        "DisplayName": "Catégorie de taille",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "6172ac09-5cde-43b3-8503-d77cc5495b84",
+        "FieldType": "Roll",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "SizeRoll",
+        "DisplayName": "Taille (jet de dés)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "7fc66901-2fe6-4595-8158-6e39d7b669e0",
+        "FieldType": "LineageWeight",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Weight",
+        "DisplayName": "Poids",
+        "Description": null,
+        "Placeholder": "Entrez les jets de poids au format \"{Dénutrition},{Maigre},{Normal},{Surpoids},{Obèse}\""
+      },
+      {
+        "Id": "c24ca3ad-0762-47be-9a80-b4757b285e35",
+        "FieldType": "LineageAge",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Age",
+        "DisplayName": "Âge",
+        "Description": null,
+        "Placeholder": "Entrez les seuils de vieillissement au format \"{Adolescent},{Adulte},{Mature},{Vénérable}\""
+      },
+      {
+        "Id": "f814a0a3-dd37-414e-9eff-1711b42b7103",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "0fc62b34-59b5-4ca4-a818-66a303b3c743",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "9e075562-10a7-4ea3-9928-aad32a7f29c6",
+        "FieldType": "Summary",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Summary",
+        "DisplayName": "Résumé",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "7f570012-8254-4f9a-a561-c18a332b2d28",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "17cd5dc5-ddc8-4558-afd6-77e1e7ea933b",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "LanguagesText",
+        "DisplayName": "Langues (texte)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "31619dca-8655-46bd-a9ed-5ffdc08f1f00",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "NamesText",
+        "DisplayName": "Noms (texte)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "443063e3-5df2-4f08-a82c-f3aed1b7c0ce",
+        "FieldType": "LineageNames",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "NamesSelection",
+        "DisplayName": "Noms (sélection)",
+        "Description": null,
+        "Placeholder": "Une catégorie par ligne, au format \"{Key}:{Name},{Name},…\" ; catégories : Family, Female, Male, Unisex"
+      }
+    ]
   }
 ]

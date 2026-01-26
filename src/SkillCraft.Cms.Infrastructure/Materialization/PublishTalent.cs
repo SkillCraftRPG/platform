@@ -85,7 +85,7 @@ internal class PublishTalentCommandHandler : ICommandHandler<PublishTalentComman
       TalentEntity? requiredTalent = await _rules.Talents.SingleOrDefaultAsync(x => x.Id == requiredTalentId, cancellationToken);
       if (requiredTalent is null)
       {
-        failures.Add(new ValidationFailure(nameof(TalentDefinition.RequiredTalent), "'{PropertyName}' did not reference an existing entity.", requiredTalentId)
+        failures.Add(new ValidationFailure(nameof(TalentDefinition.RequiredTalent), "'{PropertyName}' must reference an existing entity.", requiredTalentId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -117,7 +117,7 @@ internal class PublishTalentCommandHandler : ICommandHandler<PublishTalentComman
       SkillEntity? skill = await _rules.Skills.SingleOrDefaultAsync(x => x.Id == skillId, cancellationToken);
       if (skill is null)
       {
-        failures.Add(new ValidationFailure(nameof(TalentDefinition.Skill), "'{PropertyName}' did not reference an existing entity.", skillId)
+        failures.Add(new ValidationFailure(nameof(TalentDefinition.Skill), "'{PropertyName}' must reference an existing entity.", skillId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

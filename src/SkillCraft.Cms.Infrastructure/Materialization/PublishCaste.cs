@@ -84,7 +84,7 @@ internal class PublishCasteCommandHandler : ICommandHandler<PublishCasteCommand,
       FeatureEntity? feature = await _rules.Features.SingleOrDefaultAsync(x => x.Id == featureId, cancellationToken);
       if (feature is null)
       {
-        failures.Add(new ValidationFailure(nameof(CasteDefinition.Feature), "'{PropertyName}' did not reference an existing entity.", featureId)
+        failures.Add(new ValidationFailure(nameof(CasteDefinition.Feature), "'{PropertyName}' must reference an existing entity.", featureId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -116,7 +116,7 @@ internal class PublishCasteCommandHandler : ICommandHandler<PublishCasteCommand,
       SkillEntity? skill = await _rules.Skills.SingleOrDefaultAsync(x => x.Id == skillId, cancellationToken);
       if (skill is null)
       {
-        failures.Add(new ValidationFailure(nameof(CasteDefinition.Skill), "'{PropertyName}' did not reference an existing entity.", skillId)
+        failures.Add(new ValidationFailure(nameof(CasteDefinition.Skill), "'{PropertyName}' must reference an existing entity.", skillId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

@@ -30,6 +30,8 @@ internal class LanguageEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public List<LineageLanguageEntity> Lineages { get; private set; } = [];
+
   public LanguageEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;

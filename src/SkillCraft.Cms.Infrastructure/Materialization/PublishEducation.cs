@@ -86,7 +86,7 @@ internal class PublishEducationCommandHandler : ICommandHandler<PublishEducation
       FeatureEntity? feature = await _rules.Features.SingleOrDefaultAsync(x => x.Id == featureId, cancellationToken);
       if (feature is null)
       {
-        failures.Add(new ValidationFailure(nameof(EducationDefinition.Feature), "'{PropertyName}' did not reference an existing entity.", featureId)
+        failures.Add(new ValidationFailure(nameof(EducationDefinition.Feature), "'{PropertyName}' must reference an existing entity.", featureId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -118,7 +118,7 @@ internal class PublishEducationCommandHandler : ICommandHandler<PublishEducation
       SkillEntity? skill = await _rules.Skills.SingleOrDefaultAsync(x => x.Id == skillId, cancellationToken);
       if (skill is null)
       {
-        failures.Add(new ValidationFailure(nameof(EducationDefinition.Skill), "'{PropertyName}' did not reference an existing entity.", skillId)
+        failures.Add(new ValidationFailure(nameof(EducationDefinition.Skill), "'{PropertyName}' must reference an existing entity.", skillId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
