@@ -29,6 +29,13 @@
     }
   },
   {
+    "Id": "70916d92-11ca-4505-8b5e-51c91c33c9e4",
+    "UniqueName": "Boolean",
+    "DisplayName": null,
+    "Description": null,
+    "Boolean": {}
+  },
+  {
     "Id": "20321755-8659-4733-ad1a-de0e3c8295df",
     "UniqueName": "Feature",
     "DisplayName": null,
@@ -111,6 +118,27 @@
       "ContentType": "text/plain",
       "MinimumLength": null,
       "MaximumLength": 80
+    }
+  },
+  {
+    "Id": "9d840d69-9e3f-4c53-93df-2bc5c99e6ac3",
+    "UniqueName": "Talent",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "0ea520cb-f612-48b2-af23-fb0b64a2e97c",
+      "IsMultiple": false
+    }
+  },
+  {
+    "Id": "c059d066-a9eb-4649-b9c4-7b3f59df87b4",
+    "UniqueName": "TalentTier",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 3,
+      "Step": 1
     }
   },
   {
