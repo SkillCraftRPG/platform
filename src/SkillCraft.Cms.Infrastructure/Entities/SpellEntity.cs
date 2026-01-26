@@ -26,6 +26,8 @@ internal class SpellEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public List<SpellEffectEntity> Effects { get; private set; } = [];
+
   public SpellEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;

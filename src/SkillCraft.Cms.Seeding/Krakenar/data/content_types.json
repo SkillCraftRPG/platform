@@ -842,8 +842,8 @@
   {
     "Id": "7d8f12b5-2399-4fed-a3b6-b7a914637a94",
     "IsInvariant": false,
-    "UniqueName": "SpellLevel",
-    "DisplayName": "Niveau de pouvoir",
+    "UniqueName": "SpellEffect",
+    "DisplayName": "Effet de pouvoir",
     "Description": null,
     "Fields": [
       {
