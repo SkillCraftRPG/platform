@@ -1,5 +1,26 @@
 ﻿[
   {
+    "Id": "3dd6e07f-bab9-4fa7-a956-bc2e5f41ff3f",
+    "IsInvariant": false,
+    "UniqueName": "Feature",
+    "DisplayName": "Particularité",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "81fb1f77-55a3-41fd-ae3f-40fd5c7a7c56",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
     "Id": "fb78ad6b-8522-4037-ae1e-650c38c54165",
     "IsInvariant": false,
     "UniqueName": "Attribute",
@@ -308,6 +329,192 @@
       },
       {
         "Id": "6852b9ed-54c8-481b-88d9-72452fd97c23",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
+    "Id": "e7ffc352-7ce6-4157-885f-fbd153c7bf18",
+    "IsInvariant": false,
+    "UniqueName": "Caste",
+    "DisplayName": "Caste",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "7c1c2dc8-fb97-4ddd-bbee-922a066d48eb",
+        "FieldType": "Roll",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "WealthRoll",
+        "DisplayName": "Richesse de départ (jet)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "143caff1-feb7-4e3f-9389-fbe8c47ac668",
+        "FieldType": "Skill",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Skill",
+        "DisplayName": "Compétence",
+        "Description": null,
+        "Placeholder": "Sélectionnez une compétence"
+      },
+      {
+        "Id": "5939b09d-3140-4d98-aff2-f89de7581657",
+        "FieldType": "Feature",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Feature",
+        "DisplayName": "Particularité",
+        "Description": null,
+        "Placeholder": "Sélectionnez une particularité"
+      },
+      {
+        "Id": "f9438fee-d26c-43dd-a06a-c6534215f109",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "1e54bfb6-81dd-4810-b822-44f375d7f618",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "7a1061fb-d83d-4377-b8f0-bb452bd9abf6",
+        "FieldType": "Summary",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Summary",
+        "DisplayName": "Résumé",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "d07259ce-64aa-42ae-9574-ab9575aa0e66",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
+    "Id": "e3cd11f6-bc56-466b-a45e-f41da22c3dd3",
+    "IsInvariant": false,
+    "UniqueName": "Education",
+    "DisplayName": "Éducation",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "a252f2b3-dc4a-4e52-9ee0-f8ed698779bc",
+        "FieldType": "WealthMultiplier",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "WealthMultiplier",
+        "DisplayName": "Richesse de départ (facteur)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "1063ac5e-9270-4918-aa59-8d33f158f2a4",
+        "FieldType": "Skill",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Skill",
+        "DisplayName": "Compétence",
+        "Description": null,
+        "Placeholder": "Sélectionnez une compétence"
+      },
+      {
+        "Id": "ccc56b41-4cb7-4cc0-afee-2f0865275d64",
+        "FieldType": "Feature",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Feature",
+        "DisplayName": "Particularité",
+        "Description": null,
+        "Placeholder": "Sélectionnez une particularité"
+      },
+      {
+        "Id": "c3b373c3-d261-4b48-9106-39855e4f0dff",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "89d90940-138a-4cd4-954d-65a2811b1dfb",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "890275ad-1988-44d1-b83d-c78d7dfce3e9",
+        "FieldType": "Summary",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Summary",
+        "DisplayName": "Résumé",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "df0c2b7f-dd53-4d29-b1ae-01845f457252",
         "FieldType": "HtmlContent",
         "IsInvariant": false,
         "IsRequired": false,
