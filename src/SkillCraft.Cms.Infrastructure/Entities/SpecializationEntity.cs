@@ -34,7 +34,7 @@ internal class SpecializationEntity : AggregateEntity
   public string? HtmlContent { get; set; }
 
   public List<SpecializationOptionalTalentEntity> OptionalTalents { get; private set; } = [];
-  public ReservedTalentEntity? ReservedTalent { get; private set; }
+  public ExclusiveTalentEntity? ExclusiveTalent { get; private set; }
 
   public SpecializationEntity(ContentLocalePublished @event) : base(@event)
   {

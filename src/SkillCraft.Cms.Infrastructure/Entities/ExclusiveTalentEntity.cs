@@ -5,9 +5,9 @@ using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggrega
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class ReservedTalentEntity : AggregateEntity
+internal class ExclusiveTalentEntity : AggregateEntity
 {
-  public int ReservedTalentId { get; private set; }
+  public int ExclusiveTalentId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -26,26 +26,26 @@ internal class ReservedTalentEntity : AggregateEntity
 
   public string? HtmlContent { get; set; }
 
-  public List<ReservedTalentDiscountedTalentEntity> DiscountedTalents { get; private set; } = [];
-  public List<ReservedTalentFeatureEntity> Features { get; private set; } = [];
+  public List<ExclusiveTalentDiscountedTalentEntity> DiscountedTalents { get; private set; } = [];
+  public List<ExclusiveTalentFeatureEntity> Features { get; private set; } = [];
 
-  public ReservedTalentEntity(ContentLocalePublished @event) : base(@event)
+  public ExclusiveTalentEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private ReservedTalentEntity() : base()
+  private ExclusiveTalentEntity() : base()
   {
   }
 
   public void AddDiscountedTalent(TalentEntity talent)
   {
-    DiscountedTalents.Add(new ReservedTalentDiscountedTalentEntity(this, talent));
+    DiscountedTalents.Add(new ExclusiveTalentDiscountedTalentEntity(this, talent));
   }
 
   public void AddFeature(FeatureEntity feature)
   {
-    Features.Add(new ReservedTalentFeatureEntity(this, feature));
+    Features.Add(new ExclusiveTalentFeatureEntity(this, feature));
   }
 
   public void Publish(ContentLocalePublished @event)

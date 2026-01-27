@@ -35,8 +35,8 @@ internal class TalentEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public List<ExclusiveTalentDiscountedTalentEntity> ExclusiveTalentsDiscounted { get; private set; } = [];
   public List<TalentEntity> RequiringTalents { get; private set; } = [];
-  public List<ReservedTalentDiscountedTalentEntity> ReservedTalentsDiscounted { get; private set; } = [];
   public List<SpecializationEntity> SpecializationsMandatory { get; private set; } = [];
   public List<SpecializationOptionalTalentEntity> SpecializationsOptional { get; private set; } = [];
 

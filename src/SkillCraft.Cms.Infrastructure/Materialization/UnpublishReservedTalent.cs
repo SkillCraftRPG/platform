@@ -6,34 +6,34 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Materialization;
 
-internal record UnpublishReservedTalentCommand(ContentLocaleUnpublished Event) : ICommand;
+internal record UnpublishExclusiveTalentCommand(ContentLocaleUnpublished Event) : ICommand;
 
-internal class UnpublishReservedTalentCommandHandler : ICommandHandler<UnpublishReservedTalentCommand, Unit>
+internal class UnpublishExclusiveTalentCommandHandler : ICommandHandler<UnpublishExclusiveTalentCommand, Unit>
 {
-  private readonly ILogger<UnpublishReservedTalentCommandHandler> _logger;
+  private readonly ILogger<UnpublishExclusiveTalentCommandHandler> _logger;
   private readonly RulesContext _rules;
 
-  public UnpublishReservedTalentCommandHandler(ILogger<UnpublishReservedTalentCommandHandler> logger, RulesContext rules)
+  public UnpublishExclusiveTalentCommandHandler(ILogger<UnpublishExclusiveTalentCommandHandler> logger, RulesContext rules)
   {
     _logger = logger;
     _rules = rules;
   }
 
-  public async Task<Unit> HandleAsync(UnpublishReservedTalentCommand command, CancellationToken cancellationToken)
+  public async Task<Unit> HandleAsync(UnpublishExclusiveTalentCommand command, CancellationToken cancellationToken)
   {
     ContentLocaleUnpublished @event = command.Event;
     string streamId = @event.StreamId.Value;
-    ReservedTalentEntity? reservedTalent = await _rules.ReservedTalents.SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
-    if (reservedTalent is null)
+    ExclusiveTalentEntity? exclusiveTalent = await _rules.ExclusivedTalents.SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
+    if (exclusiveTalent is null)
     {
-      _logger.LogWarning("The reserved talent 'StreamId={StreamId}' was not found.", streamId);
+      _logger.LogWarning("The exclusive talent 'StreamId={StreamId}' was not found.", streamId);
     }
     else
     {
-      reservedTalent.Unpublish(@event);
+      exclusiveTalent.Unpublish(@event);
 
       await _rules.SaveChangesAsync(cancellationToken);
-      _logger.LogInformation("The reserved talent '{ReservedTalent}' has been unpublished.", reservedTalent);
+      _logger.LogInformation("The exclusive talent '{ExclusiveTalent}' has been unpublished.", exclusiveTalent);
     }
 
     return Unit.Value;

@@ -15,14 +15,14 @@ public class RulesContext : DbContext
   internal DbSet<CasteEntity> Castes => Set<CasteEntity>();
   internal DbSet<CustomizationEntity> Customizations => Set<CustomizationEntity>();
   internal DbSet<EducationEntity> Educations => Set<EducationEntity>();
+  internal DbSet<ExclusiveTalentDiscountedTalentEntity> ExclusiveTalentDiscountedTalents => Set<ExclusiveTalentDiscountedTalentEntity>();
+  internal DbSet<ExclusiveTalentEntity> ExclusivedTalents => Set<ExclusiveTalentEntity>();
+  internal DbSet<ExclusiveTalentFeatureEntity> ExclusiveTalentFeatures => Set<ExclusiveTalentFeatureEntity>();
   internal DbSet<FeatureEntity> Features => Set<FeatureEntity>();
   internal DbSet<LanguageEntity> Languages => Set<LanguageEntity>();
   internal DbSet<LineageEntity> Lineages => Set<LineageEntity>();
   internal DbSet<LineageFeatureEntity> LineageFeatures => Set<LineageFeatureEntity>();
   internal DbSet<LineageLanguageEntity> LineageLanguages => Set<LineageLanguageEntity>();
-  internal DbSet<ReservedTalentDiscountedTalentEntity> ReservedTalentDiscountedTalents => Set<ReservedTalentDiscountedTalentEntity>();
-  internal DbSet<ReservedTalentEntity> ReservedTalents => Set<ReservedTalentEntity>();
-  internal DbSet<ReservedTalentFeatureEntity> ReservedTalentFeatures => Set<ReservedTalentFeatureEntity>();
   internal DbSet<ScriptEntity> Scripts => Set<ScriptEntity>();
   internal DbSet<SkillEntity> Skills => Set<SkillEntity>();
   internal DbSet<SpecializationEntity> Specializations => Set<SpecializationEntity>();
