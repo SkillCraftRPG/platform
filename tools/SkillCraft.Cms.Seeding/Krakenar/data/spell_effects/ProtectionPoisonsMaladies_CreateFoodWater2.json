@@ -1,0 +1,31 @@
+﻿{
+  "Id": "3cf37046-1931-48d0-af71-70b26bcdb45b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionPoisonsMaladies_CreateFoodWater2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5552740d-a6ae-4279-9cf9-8d1d30ce1421\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionPoisonsMaladies_CreateFoodWater2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une feuille d’if.",
+        "HtmlContent": "Le personnage crée 20 kilogrammes de nourriture et 100 litres d’eau fraîche sur le sol ou dans des [contenants](/regles/equipement/general/contenants) qu’il peut voir, ce qui permet de [nourrir](/regles/aventure/environnement/alimentation) et d’[abreuver](/regles/aventure/environnement/alimentation) jusqu’à 20&nbsp;humanoïdes pour une journée."
+      }
+    }
+  }
+}

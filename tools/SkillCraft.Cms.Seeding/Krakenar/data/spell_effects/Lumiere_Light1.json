@@ -1,0 +1,31 @@
+﻿{
+  "Id": "c3c3dca8-38a3-4f8b-b7db-6a9b53467ca9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Lumiere_Light1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cba08313-bd3f-4529-b474-2dce47309769\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Lumiere_Light1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la mousse phosphorescente ou une luciole.",
+        "HtmlContent": "Le personnage touche un objet dont les dimensions sont inférieures à celle d’un cube de 3 mètres d’arête.\n\nL’objet dégage de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 6 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 6 mètres additionnels. La lumière ne peut traverser un objet opaque telle une couverture.\n\nUne seule lumière peut être active à la fois, et le personnage peut éteindre la lumière par une [action](/regles/combat/deroulement/tour).\n\nS’il cible un objet tenu ou porté par une créature ennemie, celle-ci peut effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin d’éviter les effets du [pouvoir](/regles/magie/pouvoirs)."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "Id": "5552740d-a6ae-4279-9cf9-8d1d30ce1421",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "protection-contre-les-poisons-et-maladies",
+    "DisplayName": "Protection contre les poisons et maladies",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "protection-contre-les-poisons-et-maladies",
+      "DisplayName": "Protection contre les poisons et maladies",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "protection-contre-les-poisons-et-maladies",
+        "Summary": "Détecte et purge toxines, puis crée eau et nourriture pour tout un groupe.",
+        "MetaDescription": "Découvrez un pouvoir qui détecte poisons et maladies, purifie aliments et crée eau et nourriture pour subvenir aux besoins d’un groupe entier.",
+        "HtmlContent": "Pouvoir utilitaire détectant poisons et maladies, purifiant repas et breuvages, et créant eau fraîche et nourriture pour nourrir efficacement plusieurs créatures."
+      }
+    }
+  }
+}

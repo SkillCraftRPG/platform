@@ -1,0 +1,31 @@
+﻿{
+  "Id": "91bf862d-cac6-463e-9da0-f3b66032b891",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VignesEpineuses_ThornWhip",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VignesEpineuses_ThornWhip",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
+        "HtmlContent": "Le personnage fait apparaître un long fouet constitué d’une vigne épineuse dans une de ses mains libres, puis [attaque](/regles/magie/effets/attaque) une créature.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](/regles/combat/degats/jet) [perçants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nSi la [taille](/regles/especes/taille) de la cible est d’au plus une catégorie supérieure à celle du personnage, alors la cible est rapprochée de 3 mètres en direction du personnage.\n\nLe fouet disparaît à la suite à l’attaque dans un nuage de poussière de bois."
+      }
+    }
+  }
+}

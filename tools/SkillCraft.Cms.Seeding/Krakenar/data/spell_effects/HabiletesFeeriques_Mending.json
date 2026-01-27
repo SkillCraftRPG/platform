@@ -1,0 +1,29 @@
+﻿{
+  "Id": "1f68766b-d5a1-4589-a277-0baad02fbe75",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HabiletesFeeriques_Mending",
+    "DisplayName": "Réparation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HabiletesFeeriques_Mending",
+      "DisplayName": "Réparation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un objet afin de le réparer. La réparation ne laisse aucune trace. Si la taille de l’objet est supérieure à celle d’un cube de 30 centimètres d’arête, alors le pouvoir ne répare qu’une section pouvant être contenue dans un cube de cette taille."
+      }
+    }
+  }
+}

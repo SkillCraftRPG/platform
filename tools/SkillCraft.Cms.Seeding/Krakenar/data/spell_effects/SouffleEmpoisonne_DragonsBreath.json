@@ -1,0 +1,31 @@
+﻿{
+  "Id": "f7160007-9242-43da-bfa7-ec38cf9e9985",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SouffleEmpoisonne_DragonsBreath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aff74ada-a168-48b2-9929-a79b9d17c9b4\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SouffleEmpoisonne_DragonsBreath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert la capacité d’expirer un souffle empoisonné par une [action](/regles/combat/deroulement/tour) une fois par [tour](/regles/combat/deroulement/tour).\n\nLorsqu’il en fait ainsi, il exhale un souffle empoisonné dans un cône de 4,5 mètres. Toute créature se trouvant dans le cône doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance).\n\nEn cas d’échec, une créature reçoit [2d12 points de dégâts](/regles/combat/degats/jet) de [poison](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. En cas de réussite, elle ne reçoit que la moitié des [dégâts](/regles/combat/degats)."
+      }
+    }
+  }
+}

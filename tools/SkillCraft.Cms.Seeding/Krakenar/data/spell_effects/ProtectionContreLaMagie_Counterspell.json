@@ -1,0 +1,29 @@
+﻿{
+  "Id": "1dd53f88-1ad3-44e7-88e7-675e7499b43d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLaMagie_Counterspell",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ace29da4-7f8f-4188-b83b-257df2361551\"]",
+      "Level": "2",
+      "CastingTime": "[\"R\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLaMagie_Counterspell",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ce pouvoir peut être [canalisé](/regles/magie/pouvoirs/canalisation) à un [niveau](/regles/magie/pouvoirs/niveau) compris entre 4 et 7, si le [tiers](/regles/personnages/progression/tiers) du personnage le permet.\n\nLe personnage tente d’interrompre la canalisation d’une créature qu’il peut [voir](/regles/aventure/environnement/vision).\n\nSi le niveau du pouvoir canalisé par la créature est inférieur ou égal au niveau canalisé de ce pouvoir, alors la canalisation est interrompue.\n\nSinon, la canalisation est interrompue si le résultat du [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) du personnage dépasse celui de la créature d’un certain nombre. Ce nombre varie en fonction de la différence de niveau de pouvoir :\n\n- 2 pour une différence d’un niveau\n- 5 pour une différence de 2 niveaux\n- 10 pour une différence de 3 niveaux\n\nSi la canalisation est interrompue, le pouvoir ne prend jamais effet. La créature perd les [actions](/regles/combat/deroulement/tour), [composantes](/regles/magie/parametres/composantes) et points d’[Énergie](/regles/statistiques/energie) dépensés."
+      }
+    }
+  }
+}

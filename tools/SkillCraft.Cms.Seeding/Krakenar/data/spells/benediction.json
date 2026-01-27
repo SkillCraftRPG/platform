@@ -1,0 +1,26 @@
+﻿{
+  "Id": "72fc7eea-282c-4789-877b-15c6843a2b45",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "benediction",
+    "DisplayName": "Bénédiction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "benediction",
+      "DisplayName": "Bénédiction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "benediction",
+        "MetaDescription": "Découvrez Bénédiction, un pouvoir sacré offrant un bonus aux tests, ou sa version maudite qui affaiblit et entrave les adversaires.",
+        "Summary": "Octroie un bonus sacré aux alliés ou inflige un malus maudit aux ennemis.",
+        "HtmlContent": "Sort lumineux ou occulte qui améliore les tests d’alliés ou réduit ceux des ennemis, selon qu’il s’agisse d’une bénédiction protectrice ou d’une malédiction affaiblissante."
+      }
+    }
+  }
+}

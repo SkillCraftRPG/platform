@@ -1,0 +1,26 @@
+﻿{
+  "Id": "7c19f9ee-7079-471c-b601-504fba54dbfc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "liberte",
+    "DisplayName": "Liberté",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "liberte",
+      "DisplayName": "Liberté",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "liberte",
+        "Summary": "Mobilité accrue, évasion totale et déplacement sans contraintes.",
+        "MetaDescription": "Découvrez Liberté : un pouvoir de mobilité qui amplifie les sauts, efface les traces, ignore le terrain difficile et confère nage, évasion et vol temporaire.",
+        "HtmlContent": "Ce pouvoir décuple la mobilité : sauts amplifiés, furtivité sans traces, ignorance du terrain difficile, évasion des entraves et même vol temporaire selon le niveau utilisé."
+      }
+    }
+  }
+}

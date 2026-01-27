@@ -1,0 +1,26 @@
+﻿{
+  "Id": "1a7ad8e0-6e14-41ac-a39d-5cdcad5181a2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "augmentation-naturelle",
+    "DisplayName": "Augmentation naturelle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "augmentation-naturelle",
+      "DisplayName": "Augmentation naturelle",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Bénédictions animales variées, respiration aquatique et formes druidiques puissantes.",
+        "Slug": "augmentation-naturelle",
+        "MetaDescription": "Découvrez Augmentation naturelle, un pouvoir versatile offrant bénédictions animales, respiration aquatique ou formes druidiques renforçant les capacités.",
+        "HtmlContent": "Pouvoir polyvalent accordant des atouts inspirés des animaux, la respiration sous l’eau ou une métamorphose druidique offrant force, défense, sens accrus et énergie temporaire."
+      }
+    }
+  }
+}

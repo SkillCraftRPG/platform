@@ -1,0 +1,26 @@
+﻿{
+  "Id": "ace29da4-7f8f-4188-b83b-257df2361551",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "protection-contre-la-magie",
+    "DisplayName": "Protection contre la magie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "protection-contre-la-magie",
+      "DisplayName": "Protection contre la magie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "protection-contre-la-magie",
+        "Summary": "Détection, dissipation et interruption des effets magiques adverses.",
+        "MetaDescription": "Découvrez Protection contre la magie : pouvoir polyvalent permettant de détecter la magie, dissiper les enchantements et interrompre les incantations ennemies.",
+        "HtmlContent": "Pouvoir défensif et utilitaire permettant de détecter la magie, dissiper les effets surnaturels actifs et interrompre les incantations ennemies en réaction."
+      }
+    }
+  }
+}

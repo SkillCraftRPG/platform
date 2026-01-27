@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a1846027-64a4-4484-9251-e8e12f4a077e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsGardiens_SpiritGuardians",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"459daeec-d147-4cea-8d5f-df0bb9a3a375\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsGardiens_SpiritGuardians",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole divin.",
+        "HtmlContent": "Le personnage invoque des esprits invulnérables et intangibles qui flottent autour de lui dans un rayon de 4,5 mètres. Ces esprits prennent une forme appropriée aux croyances du personnage, par exemple des célestiels, des infernaux, ou des fées.\n\nLe personnage désigne toutes les créatures de son choix qui ne sont pas affectées par ce pouvoir.\n\nLorsqu’une créature affectée entre volontairement dans la zone ou y débute son [tour](/regles/combat/deroulement/tour), elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline).\n\nEn cas d’échec, sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite de moitié lorsqu’elle se trouve dans la zone, et elle reçoit \uD83D\uDEA7.\n\nEn cas de réussite, sa vitesse n’est pas affectée, et elle ne reçoit que la moitié des [points de dégâts](/regles/combat/degats)."
+      }
+    }
+  }
+}

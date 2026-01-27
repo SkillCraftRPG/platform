@@ -1,0 +1,31 @@
+﻿{
+  "Id": "2abc6eaa-df4e-49b6-84f1-5810c6725589",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Liberte_Jump",
+    "DisplayName": "Sauterelle",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7c19f9ee-7079-471c-b601-504fba54dbfc\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Liberte_Jump",
+      "DisplayName": "Sauterelle",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une patte arrière de sauterelle.",
+        "HtmlContent": "Le personnage touche une créature consentante. La distance des [sauts](/regles/aventure/mouvement/types) de la cible est triplée et celle-ci se voit conférer un bonus (+2) de [points de mouvement](/regles/aventure/mouvement/vitesse)."
+      }
+    }
+  }
+}

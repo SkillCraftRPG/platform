@@ -1,0 +1,30 @@
+﻿{
+  "Id": "69602a4f-13ce-44e8-8bc8-a9301a005e39",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HabiletesFeeriques_PlantGrowth_2Actions",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HabiletesFeeriques_PlantGrowth_2Actions",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision). Il peut exclure certaines zones qui ne seront pas envahies lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir. Toute plante non magique située à 30 mètres ou moins de ce point pousse et envahit la zone. Une créature désirant [se déplacer](/regles/combat/activites/deplacement) dans une zone envahie voit sa [vitesse](/regles/aventure/mouvement/vitesse) réduite à un quart de sa vitesse normale."
+      }
+    }
+  }
+}

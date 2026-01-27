@@ -1,0 +1,29 @@
+﻿{
+  "Id": "094e1266-8faf-45d7-b1ea-cbd4183857ba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_Thaumaturgy",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_Thaumaturgy",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un effet surnaturel et inoffensif parmi la liste suivante.\n\n- Sa voix est amplifiée pendant [une minute](/regles/aventure/temps).\n- Il fait vaciller, assombrir, éclaircir ou change la couleur de flammes pendant une minute.\n- Il fait vibrer doucement la terre pendant une minute.\n- Il crée un son instantané provenant d’un point de son choix, par exemple un grondement de tonnerre, le cri d’un oiseau ou des murmures sinistres.\n- Une porte ou une fenêtre non verrouillée s’ouvre ou se ferme violemment.\n- Le personnage modifie l’apparence de ses yeux pendant une minute."
+      }
+    }
+  }
+}

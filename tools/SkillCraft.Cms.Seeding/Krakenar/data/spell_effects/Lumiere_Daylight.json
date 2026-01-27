@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e14ddfd8-9653-408b-8374-4796a9f9bc47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Lumiere_Daylight",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cba08313-bd3f-4529-b474-2dce47309769\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Lumiere_Daylight",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait apparaître une sphère de lumière centrée sur un point qu’il peut [voir](/regles/aventure/environnement/vision).\n\nLa sphère émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 18 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 18 mètres additionnels.\n\nSi le point se trouve sur un objet qui est tenu mais qui n’est pas porté, la sphère se déplace avec l’objet. La lumière ne peut traverser un objet opaque telle une couverture."
+      }
+    }
+  }
+}

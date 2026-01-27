@@ -1,0 +1,31 @@
+﻿{
+  "Id": "09bcacc7-ea46-4f7a-bcfc-db6e5126fbb3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Benediction_Guidance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"72fc7eea-282c-4789-877b-15c6843a2b45\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Benediction_Guidance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante qu’il peut [voir](/regles/aventure/environnement/vision) et celle-ci peut ajouter 1d4 à un [test](/regles/competences/tests) de [compétence](/regles/competences) de son choix avant d’en connaître le résultat. Le pouvoir prend ensuite fin."
+      }
+    }
+  }
+}

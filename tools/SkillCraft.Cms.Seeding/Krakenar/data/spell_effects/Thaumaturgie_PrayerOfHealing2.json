@@ -1,0 +1,29 @@
+﻿{
+  "Id": "b38f6fe6-3dce-4c6c-a623-73a6e58e3081",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_PrayerOfHealing2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "2",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_PrayerOfHealing2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce une prière de guérison. Il sélectionne ensuite un nombre de créatures inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1) et peut s’inclure dans ce nombre. Il doit pouvoir [voir](/regles/aventure/environnement/vision) les créatures et celles-ci doivent avoir écouté consciemment la prière. Chaque créature [récupère](/regles/combat/degats/soins) 3d10 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage. Les morts-vivants et les constructions ne sont pas affectés par ce pouvoir."
+      }
+    }
+  }
+}

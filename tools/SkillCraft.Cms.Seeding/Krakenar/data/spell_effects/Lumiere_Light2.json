@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e227ae11-c0b8-4dcb-898e-948418556afb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Lumiere_Light2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cba08313-bd3f-4529-b474-2dce47309769\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Lumiere_Light2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La lumière dégagée par l’objet augmente à 12 mètres de [clarté](/regles/aventure/environnement/vision) et 12 mètres additionnels de [pénombre](/regles/aventure/environnement/vision).\n\nSi le personnage cible un objet tenu ou porté par une créature ennemie, celle-ci échoue automatiquement le [jet de sauvegarde](/regles/competences/tests/sauvegarde).",
+        "Focus": "De la mousse phosphorescente ou une luciole."
+      }
+    }
+  }
+}

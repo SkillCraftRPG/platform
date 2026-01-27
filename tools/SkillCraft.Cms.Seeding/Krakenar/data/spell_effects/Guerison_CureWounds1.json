@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2e03c84a-d428-4466-8224-4e36871983fe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_CureWounds1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_CureWounds1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante, et celle-ci [récupère](/regles/combat/degats/soins) 1d8 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

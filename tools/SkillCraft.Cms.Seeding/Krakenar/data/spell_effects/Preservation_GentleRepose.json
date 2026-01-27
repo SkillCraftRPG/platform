@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a82f41bc-4dde-4420-b917-d1818e9172d0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Preservation_GentleRepose",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"885ad842-47ea-43b5-9cd3-361fee8631d6\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Day\"]",
+      "IsRitual": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Preservation_GentleRepose",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de sel et un centime placé dans chaque œil de la cible.",
+        "HtmlContent": "Le personnage touche un cadavre, protégeant celui-ci de la décomposition et des effets créant un mort-vivant. Le pouvoir ajoute également 10 jours à la limite de [temps](/regles/aventure/temps) imposée par le talent [Réanimation](/regles/talents/reanimation) et par les pouvoirs [Réincarnation](/regles/magie/pouvoirs/reincarnation) et [Résurrection](/regles/magie/pouvoirs/resurrection)."
+      }
+    }
+  }
+}

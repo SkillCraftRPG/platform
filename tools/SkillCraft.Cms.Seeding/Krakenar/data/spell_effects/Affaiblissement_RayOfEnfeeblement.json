@@ -1,0 +1,31 @@
+﻿{
+  "Id": "38c45d1e-8bc7-4ee9-8cec-81eb82d1db4f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Affaiblissement_RayOfEnfeeblement",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Affaiblissement_RayOfEnfeeblement",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage projette un rayon d’énergie verdâtre en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si l’[attaque](/regles/magie/effets/attaque) réussit, elle inflige [2d8 points de dégâts](/regles/combat/degats/jet) [nécrotiques](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage, et la [Force](/regles/statistiques/force) de la cible chute à 0. De plus, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, la cible est [empoisonnée](/regles/combat/conditions/empoisonne) pendant la durée du pouvoir. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours. Si elle réussit, le pouvoir prend fin."
+      }
+    }
+  }
+}

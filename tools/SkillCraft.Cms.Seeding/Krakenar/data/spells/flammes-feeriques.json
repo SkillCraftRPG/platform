@@ -1,0 +1,26 @@
+﻿{
+  "Id": "2f31e9f8-4123-4c7c-8332-68db49ecddd2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "flammes-feeriques",
+    "DisplayName": "Flammes féériques",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "flammes-feeriques",
+      "DisplayName": "Flammes féériques",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "flammes-feeriques",
+        "Summary": "Feux féeriques, auras révélatrices et flammes radiantes poursuivant les cibles.",
+        "MetaDescription": "Découvrez Flammes féériques, un pouvoir lumineux invoquant feux arc-en-ciel, auras révélatrices et flammes radiantes traquant même les métamorphes.",
+        "HtmlContent": "Pouvoir féerique créant des flammes colorées, révélant les créatures, illuminant les invisibles et infligeant de lourds dégâts radiants, surtout contre les métamorphes."
+      }
+    }
+  }
+}

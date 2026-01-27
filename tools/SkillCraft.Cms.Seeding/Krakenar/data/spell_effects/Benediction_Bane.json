@@ -1,0 +1,32 @@
+﻿{
+  "Id": "96dca6ec-c6bc-4527-81dc-e9a549ce475a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Benediction_Bane",
+    "DisplayName": "Malédiction",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"72fc7eea-282c-4789-877b-15c6843a2b45\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Benediction_Bane",
+      "DisplayName": "Malédiction",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de sang.",
+        "HtmlContent": "Le personnage maudit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Chaque créature doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, une créature est maudite, et elle retire 1d4 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences)."
+      }
+    }
+  }
+}

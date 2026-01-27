@@ -1,0 +1,30 @@
+﻿{
+  "Id": "ee7c0441-5e5f-4a99-bb2c-a687069eee93",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_MassCureWounds",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_MassCureWounds",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un nombre de créatures consentantes inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1), et il peut s’inclure dans ce nombre.\n\nChaque créature [récupère](/regles/combat/degats/soins) 1d8 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

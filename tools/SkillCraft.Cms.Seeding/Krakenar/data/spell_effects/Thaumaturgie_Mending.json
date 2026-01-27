@@ -1,0 +1,29 @@
+﻿{
+  "Id": "1a559cc8-3012-4917-b82e-18681f8b17bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_Mending",
+    "DisplayName": "Réparation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_Mending",
+      "DisplayName": "Réparation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un objet afin de le réparer. La réparation ne laisse aucune trace. Si la taille de l’objet est supérieure à celle d’un cube de 30 centimètres d’arête, alors le pouvoir ne répare qu’une section pouvant être contenue dans un cube de cette taille."
+      }
+    }
+  }
+}

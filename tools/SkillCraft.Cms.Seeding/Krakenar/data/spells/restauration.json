@@ -1,0 +1,26 @@
+﻿{
+  "Id": "e48cbe2c-80d9-463f-b777-9e6be9e08d50",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "restauration",
+    "DisplayName": "Restauration",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "restauration",
+      "DisplayName": "Restauration",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "restauration",
+        "Summary": "Purifie une créature en levant maladies, malédictions ou afflictions.",
+        "MetaDescription": "Découvrez un pouvoir sacré qui libère une créature des maladies, malédictions et afflictions graves, dissipant conditions, malédictions et réductions nuisibles.",
+        "HtmlContent": "Ce pouvoir purifie une créature consentante en supprimant maladies, malédictions et conditions majeures, et peut aussi restaurer attributs, Vitalité maximale ou effets nuisibles persistants."
+      }
+    }
+  }
+}

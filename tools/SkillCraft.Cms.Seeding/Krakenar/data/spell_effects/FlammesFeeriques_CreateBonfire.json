@@ -1,0 +1,31 @@
+﻿{
+  "Id": "78041255-61b5-4b09-b7bb-89a1dfdae36f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FlammesFeeriques_CreateBonfire",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FlammesFeeriques_CreateBonfire",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un feu de camp dans un espace cubique de 1,5 mètres d’arête qu’il peut [voir](/regles/aventure/environnement/vision). Toute créature se trouvant dans la zone lorsque les flammes apparaissent doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Une créature doit également effectuer le jet de sauvegarde lorsqu’elle entre dans la zone pour la première fois pendant son [tour](/regles/combat/deroulement/tour), ou si elle y termine son tour. En cas d’échec, une créature reçoit [1d6 points de dégâts](/regles/combat/degats/jet) de [feu](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. Les flammes illuminent d’une ou de plusieurs couleurs de l’arc-en-ciel, au choix du personnage au moment où il [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir. Les objets dans la zone qui ne sont pas tenus ni portés s’enflamment."
+      }
+    }
+  }
+}

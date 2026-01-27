@@ -1,0 +1,26 @@
+﻿{
+  "Id": "df0e01f9-bdcd-4a2f-9ea7-a09407bf3336",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "guerison",
+    "DisplayName": "Guérison",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "guerison",
+      "DisplayName": "Guérison",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "guerison",
+        "Summary": "Guérit une ou plusieurs créatures au toucher ou par un mot à distance.",
+        "MetaDescription": "Découvrez un pouvoir de guérison flexible permettant de soigner une ou plusieurs créatures, au toucher ou à distance, selon le niveau utilisé.",
+        "HtmlContent": "Pouvoir de guérison permettant de restaurer la Vitalité d’une ou plusieurs créatures, au toucher ou à distance. Les morts-vivants et les constructions ne sont pas affectés par ce pouvoir."
+      }
+    }
+  }
+}

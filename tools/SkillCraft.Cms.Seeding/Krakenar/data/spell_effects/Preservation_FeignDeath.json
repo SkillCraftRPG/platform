@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a7d42bb6-13cd-4ac2-871d-05aa311e6a10",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Preservation_FeignDeath",
+    "DisplayName": "Feindre la mort",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"885ad842-47ea-43b5-9cd3-361fee8631d6\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Preservation_FeignDeath",
+      "DisplayName": "Feindre la mort",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de terre issue d’un cimetière.",
+        "HtmlContent": "Le personnage touche une créature consentante et la place dans un état cataleptique indistinguable de la [mort](/regles/combat/mort-agonie), même par [magie](/regles/magie).\n\nL’effet dure [une heure](/regles/aventure/temps), ou jusqu’à ce que le personnage le dissipe par une [action](/regles/combat/deroulement/tour) en touchant la cible.\n\nLa cible est [aveuglée](/regles/combat/conditions/aveugle), [incapable](/regles/combat/conditions/incapable), et sa [vitesse](/regles/aventure/mouvement/vitesse) tombe nulle.\n\nElle devient [résistante](/regles/combat/degats/efficacite) à tout [dégât](/regles/combat/degats), à l’exception des dégâts [psychiques](/regles/combat/degats/types).\n\nSi elle est affligée par une maladie ou par un [poison](/regles/herboristerie/poisons), alors elle n’est pas affectée pendant la durée du pouvoir."
+      }
+    }
+  }
+}

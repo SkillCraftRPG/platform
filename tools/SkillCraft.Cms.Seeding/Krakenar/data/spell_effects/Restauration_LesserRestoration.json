@@ -1,0 +1,31 @@
+﻿{
+  "Id": "f1ad0165-d53d-4e29-97d6-485d9f801593",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Restauration_LesserRestoration",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e48cbe2c-80d9-463f-b777-9e6be9e08d50\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Restauration_LesserRestoration",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la poussière de diamant d’une valeur supérieure ou égale à 100 deniers.",
+        "HtmlContent": "Le personnage touche une créature consentante et met fin à une maladie ou une [condition](/regles/combat/conditions) l’affligeant. La condition peut être [aveuglé](/regles/combat/conditions/aveugle), [assourdi](/regles/combat/conditions/assourdi), [empoisonné](/regles/combat/conditions/empoisonne) ou [paralysé](/regles/combat/conditions/paralyse)."
+      }
+    }
+  }
+}

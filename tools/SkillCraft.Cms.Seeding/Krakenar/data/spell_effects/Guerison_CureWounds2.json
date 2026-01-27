@@ -1,0 +1,30 @@
+﻿{
+  "Id": "46247d1e-7b74-4d3a-9e9a-044407cecf1a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_CureWounds2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_CureWounds2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d8 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

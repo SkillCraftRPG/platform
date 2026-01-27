@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e8fd9d7b-fed1-4ab1-befc-7275e25ad2d2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Frisson_WitherAndBloom",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9477c73d-443e-41b2-9896-0561572876c3\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Frisson_WitherAndBloom",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une vigne flétrie tordue en une boucle.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision) et invoque les forces de la vie et de la mort dans une sphère de 3 mètres centrée sur ce point.\n\nToute créature de son choix dans la zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance).\n\nEn cas d’échec, une créature reçoit [3d6 points de dégâts](/regles/combat/degats/jet) [nécrotiques](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. Elle ne reçoit que la moitié des [points de dégâts](/regles/combat/degats) en cas de réussite.\n\nLe personnage peut également désigner une créature dans la zone. Cette créature [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal aux points de dégâts infligés.\n\nToute végétation non magique dans la zone fane. Les morts-vivants et constructions ne sont pas affectés par ce pouvoir."
+      }
+    }
+  }
+}

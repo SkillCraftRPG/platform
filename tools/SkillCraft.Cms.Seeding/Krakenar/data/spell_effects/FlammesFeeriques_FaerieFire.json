@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0391baf7-466d-47e6-ad33-55578b4bfbe2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FlammesFeeriques_FaerieFire",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FlammesFeeriques_FaerieFire",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision), et un cube de 6 mètres d’arête de lumière féérique apparaît centré sur ce point. Toute créature située à l’intérieur du cube au moment où il apparaît doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une aura de 3 mètres de pénombre colorée (bleue, verte ou violette, au choix du personnage) émane de la créature, ce qui confère l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) ciblant la créature. Une aura colorée émane également des objets se trouvant dans la zone. Un objet ou une créature [invisible](/regles/combat/conditions/invisible) émanant cette aura ne bénéficie pas des effets de l’invisibilité."
+      }
+    }
+  }
+}

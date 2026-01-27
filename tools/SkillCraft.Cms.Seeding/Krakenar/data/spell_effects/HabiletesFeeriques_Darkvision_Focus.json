@@ -1,0 +1,31 @@
+﻿{
+  "Id": "deaac9ff-a919-4735-bba5-8a924f6ccf43",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HabiletesFeeriques_Darkvision_Focus",
+    "DisplayName": "Focus",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HabiletesFeeriques_Darkvision_Focus",
+      "DisplayName": "Focus",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une agate.",
+        "HtmlContent": "Le personnage touche une créature consentante, et celle-ci acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "38ceb8d1-bb5d-4d6e-bac7-38ace814280f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FlammeSacree_GuidingBolt1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"04939981-ec6a-4ea7-b917-946120cb0863\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FlammeSacree_GuidingBolt1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les [points de dégâts](/regles/combat/degats) infligés augmentent à 2d6 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage, et la faible lumière divine dure jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

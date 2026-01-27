@@ -1,0 +1,32 @@
+﻿{
+  "Id": "47b43174-f5a3-4b79-bdbf-df20addeaf80",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Liberte_Fly",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7c19f9ee-7079-471c-b601-504fba54dbfc\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Liberte_Fly",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une plume d’aile d’oiseau attachée à un bras de la cible par une sangle de cuir.",
+        "HtmlContent": "Le personnage touche une créature consentante. Celle-ci acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) de 3 mètres par seconde (12 points de mouvement par [action](/regles/combat/deroulement/tour)). Elle se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) afin d’éviter d’être [agrippée](/regles/combat/conditions/agrippe), [paralysée](/regles/combat/conditions/paralyse) ou [restreinte](/regles/combat/conditions/restreint). Lorsque le pouvoir prend fin, la cible [chute](/regles/aventure/environnement/chute) si elle se trouve dans les airs et qu’elle n’a aucun moyen d’arrêter cette chute."
+      }
+    }
+  }
+}

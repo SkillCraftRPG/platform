@@ -1,0 +1,31 @@
+﻿{
+  "Id": "7c47d6f0-2b00-4b42-829b-f8cc6e7a234d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Restauration_GreaterRestoration",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e48cbe2c-80d9-463f-b777-9e6be9e08d50\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Restauration_GreaterRestoration",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De la poussière de diamant d’une valeur supérieure ou égale à 100 deniers.",
+        "HtmlContent": "Le personnage répand la poussière de diamant sur une créature consentante et met fin à un des effets suivants l’affligeant.\n\n- Un niveau de [Fatigue](/regles/combat/conditions/fatigue) ;\n- Un [charme](/regles/combat/conditions/charme) ou une [pétrification](/regles/combat/conditions/petrifie) ;\n- Toute réduction ciblant un même [attribut](/regles/attributs) ;\n- Une réduction de points de [Vitalité](/regles/statistiques/vitalite) maximum."
+      }
+    }
+  }
+}

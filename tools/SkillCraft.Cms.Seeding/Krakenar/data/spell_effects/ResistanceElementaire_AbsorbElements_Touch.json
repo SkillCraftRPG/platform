@@ -1,0 +1,32 @@
+﻿{
+  "Id": "2c321383-cbe3-4274-81fe-eb4dbb938ebb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResistanceElementaire_AbsorbElements_Touch",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResistanceElementaire_AbsorbElements_Touch",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une cape miniature.",
+        "HtmlContent": "Le personnage touche une créature consentante. La prochaine fois que la créature reçoit des [points de dégâts](/regles/combat/degats) élémentaires ([acide, électricité, feu, froid ou tonnerre](/regles/combat/degats/types)), elle absorbe une portion des points de dégâts reçus.\n\nElle devient [résistante](/regles/combat/degats/efficacite) à ce type de dégâts à partir du moment où le pouvoir prend effet et jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). Jusqu’à la fin de son prochain tour, la prochaine [attaque](/regles/combat/attaque) réussie par la cible inflige 1d6 points de dégâts supplémentaires du type absorbé, additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

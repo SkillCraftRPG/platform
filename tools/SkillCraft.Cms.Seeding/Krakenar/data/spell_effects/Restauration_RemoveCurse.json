@@ -1,0 +1,31 @@
+﻿{
+  "Id": "5ae5eaaa-f7b3-4c5c-83dc-e5d475b928eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Restauration_RemoveCurse",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e48cbe2c-80d9-463f-b777-9e6be9e08d50\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Restauration_RemoveCurse",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la poussière de diamant d’une valeur supérieure ou égale à 100 deniers.",
+        "HtmlContent": "Le personnage touche une créature consentante et retire une malédiction l’affligeant. Si la source de la malédiction est un [artefact magique](/regles/magie/artefacts), l’artefact reste maudit, mais le [pouvoir](/regles/magie/pouvoirs) met fin à l’[harmonisation](/regles/magie/artefacts/harmonisation). La créature est ainsi libérée de la malédiction, ce qui lui permet de se débarrasser de l’objet si elle le désire."
+      }
+    }
+  }
+}

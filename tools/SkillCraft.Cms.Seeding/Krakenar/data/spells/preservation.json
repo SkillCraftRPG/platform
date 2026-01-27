@@ -1,0 +1,26 @@
+﻿{
+  "Id": "885ad842-47ea-43b5-9cd3-361fee8631d6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "preservation",
+    "DisplayName": "Préservation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "preservation",
+      "DisplayName": "Préservation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "preservation",
+        "Summary": "Stabilise un mourant, préserve un corps ou simule la mort pour protéger.",
+        "MetaDescription": "Découvrez Préservation, un pouvoir protecteur stabilisant les mourants, préservant les corps et feignant la mort pour protéger une créature des dangers.",
+        "HtmlContent": "Pouvoir axé sur la survie : stabilisation immédiate, conservation prolongée des corps, imitation parfaite de la mort et garde vitale empêchant l’agonie fatale."
+      }
+    }
+  }
+}
