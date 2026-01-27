@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "1",
       "MandatoryTalent": "[\"a8d60fd0-9754-4179-ad92-1cfcaa0df43a\"]",
-      "OptionalTalents": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\",\"89552d5e-05f9-4482-bc86-19cbf4fc9c03\",\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\",\"9bb1f8de-2120-4796-8271-a3d2ace4d053\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"ca25c64d-b500-473a-9919-e61d500692eb\",\"a215357d-53e8-4d1c-a471-4c1dd88915dd\"]",
-      "DiscountedTalents": "[\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\"]",
-      "Features": "[\"bd10409d-cd26-402c-abbe-56c465a9605d\",\"d65b6abd-a99d-4722-85c9-6c45e86b7764\"]"
+      "OptionalTalents": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\",\"89552d5e-05f9-4482-bc86-19cbf4fc9c03\",\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\",\"9bb1f8de-2120-4796-8271-a3d2ace4d053\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"ca25c64d-b500-473a-9919-e61d500692eb\",\"a215357d-53e8-4d1c-a471-4c1dd88915dd\"]"
     }
   },
   "Locales": {
@@ -23,8 +21,6 @@
         "Slug": "roublard",
         "Summary": "Spécialiste des ruses, des outils et des frappes rapides et précises.",
         "HtmlContent": "Le terme roublard désigne tout individu utilisant l’astuce et la ruse afin de parvenir à ses fins. Il englobe généralement les voleurs, les égorgeurs, les espions, les bandits et les escrocs. Ils n’utilisent pas toujours leurs aptitudes à des fins malfaisantes, mais ces aptitudes ont néanmoins toujours un aspect illégal ou immoral.",
-        "ReservedTalentName": "Subterfuge",
-        "ReservedTalentHtmlContent": "La prochaine fois qu’il [acquiert](/regles/talents/acquisition) le talent [Expertise](/regles/talents/expertise), alors il acquiert gratuitement ce [talent](/regles/talents) pour une autre [compétence](/regles/competences) de son choix.",
         "MetaDescription": "Découvrez le roublard, maître du subterfuge, des outils de voleur et des mouvements furtifs entre ombre et opportunité."
       }
     }

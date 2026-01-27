@@ -8,8 +8,7 @@
     "FieldValues": {
       "Tier": "1",
       "MandatoryTalent": "[\"7ba4f81d-f04b-43ed-8d2e-b5d3f17e2094\"]",
-      "OptionalTalents": "[\"e3bb71cc-8513-4bf0-b9ad-69e158fde51b\",\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"6651cbd0-51d8-4391-8385-7207c8ed80db\",\"9bb1f8de-2120-4796-8271-a3d2ace4d053\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"ca25c64d-b500-473a-9919-e61d500692eb\",\"fb688c0c-e651-4b21-8f50-d595291efb13\"]",
-      "Features": "[\"0e7176d0-367d-459e-be87-2ca170ac95eb\"]"
+      "OptionalTalents": "[\"e3bb71cc-8513-4bf0-b9ad-69e158fde51b\",\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"6651cbd0-51d8-4391-8385-7207c8ed80db\",\"9bb1f8de-2120-4796-8271-a3d2ace4d053\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"ca25c64d-b500-473a-9919-e61d500692eb\",\"fb688c0c-e651-4b21-8f50-d595291efb13\"]"
     }
   },
   "Locales": {
@@ -22,8 +21,6 @@
         "Slug": "elementariste",
         "Summary": "Il utilise son énergie vitale pour libérer la puissance de son élément.",
         "HtmlContent": "Un Élémentariste s’est découvert la faculté de manipuler l’énergie d’un élément. Cette faculté est innée et généralement développée par l’expérience car les mentors sont rares. Le contrôle de toute cette énergie brute est généralement associé à une personnalité farouche et polyvalente. Cette faculté leur permet de combiner l’énergie élémentaire à leur force vitale, ce qui leur permet d’accroître grandement leur puissance au risque de causer des dommages irréparables à leur âme.",
-        "ReservedTalentName": "Élémentarisme",
-        "ReservedTalentHtmlContent": "Il peut convertir des points d’[Énergie](/regles/statistiques/energie) en points d’[essence élémentaire](#) afin d’utiliser de puissantes [capacités élémentaires](#) de tiers 1.",
         "MetaDescription": "Découvrez l’Élémentariste, maître de l’énergie élémentaire, capable de canaliser sa force vitale pour libérer des pouvoirs destructeurs ou protecteurs."
       }
     }

@@ -8,8 +8,7 @@
     "FieldValues": {
       "Tier": "1",
       "MandatoryTalent": "[\"d8473b88-7dc6-436b-9f92-9936e07362c4\"]",
-      "OptionalTalents": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"6651cbd0-51d8-4391-8385-7207c8ed80db\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"c95f665e-2da3-455f-a87e-2e38d4988a26\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"ca25c64d-b500-473a-9919-e61d500692eb\"]",
-      "Features": "[\"3b91802e-596b-4a16-a490-c1f020f55117\"]"
+      "OptionalTalents": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"6651cbd0-51d8-4391-8385-7207c8ed80db\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"c95f665e-2da3-455f-a87e-2e38d4988a26\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"ca25c64d-b500-473a-9919-e61d500692eb\"]"
     }
   },
   "Locales": {
@@ -23,8 +22,6 @@
         "Summary": "Adepte religieux invoquant pouvoirs divins pour servir sa communauté.",
         "HtmlContent": "Les clercs sont des adeptes religieux d’une divinité. Ils représentent celle-ci dans le monde matériel, faisant régner ses préceptes et tentant d’agrandir son cercle de croyants. En échange de cette mission, cette divinité leur prête une partie de ses pouvoirs, qu’ils peuvent utiliser afin d’étendre la portée de leur divinité.",
         "OtherRequirements": "Le personnage doit avoir sélectionné un [domaine divin](/regles/domaines/divins) lorsqu’il a acquis le talent [Spiritualité](/regles/talents/spiritualite).",
-        "ReservedTalentName": "Clergé",
-        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 1 spécifique à son [domaine divin](/regles/domaines/divins).",
         "MetaDescription": "Découvrez le Clerc, serviteur d’une divinité, qui invoque des pouvoirs divins et propage les préceptes de son culte à travers foi et discipline."
       }
     }

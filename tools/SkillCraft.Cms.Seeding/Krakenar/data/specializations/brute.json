@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "2",
       "MandatoryTalent": "[\"1b374cfe-6709-43e4-a6d9-61c637e0c8a4\"]",
-      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"273dcbee-6b36-43f0-b28a-bd1784ec066a\",\"33973454-6d35-4fab-949f-d671b279a179\",\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"c00d8449-0195-4f6d-8443-5bb252154a6b\",\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]",
-      "DiscountedTalents": "[\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"5815f9d0-9e4c-426f-b103-0490535796cc\",\"ccd64cee-29c5-46f5-b2d0-b1c9160aa759\"]",
-      "Features": "[\"c1b110bc-16ab-4d43-b9ea-d8f8bb82a532\",\"44def412-2137-4ac7-baa7-3e84ac3198e1\",\"a0d08837-4198-4fef-9fda-c7a4cd68e30e\"]"
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"273dcbee-6b36-43f0-b28a-bd1784ec066a\",\"33973454-6d35-4fab-949f-d671b279a179\",\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"c00d8449-0195-4f6d-8443-5bb252154a6b\",\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
     }
   },
   "Locales": {
@@ -23,7 +21,6 @@
         "Slug": "brute",
         "Summary": "Colosse téméraire, il fonce au combat avec une puissance inarrêtable.",
         "HtmlContent": "Dépourvu des subtilités tactiques, la brute compense par un courage et une fougue inébranlable. Tel un titan, il émerge des affrontements, des cicatrices s’ajoutant comme trophées sur son physique imposant, insufflant la terreur dans le cœur de ses ennemis. Sa présence sur le champ de bataille rappelle brutalement que la force pure peut parfois être la tactique la plus redoutable.",
-        "ReservedTalentName": "Impétuosité",
         "MetaDescription": "Découvrez la Brute, incarnation de la force et du courage brut. Dépourvue de finesse, elle terrasse ses ennemis par sa témérité et sa puissance physique."
       }
     }

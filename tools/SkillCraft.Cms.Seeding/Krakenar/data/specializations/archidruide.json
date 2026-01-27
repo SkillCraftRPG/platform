@@ -22,8 +22,6 @@
         "Slug": "archidruide",
         "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Druide](/regles/specialisations/druide).\nIl ne doit pas avoir acquis la spécialisation [Gardien](/regles/specialisations/gardien).\nIl doit avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 associé à son [domaine d’animisme](/regles/domaines/animisme). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
         "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme).",
-        "ReservedTalentName": "Incantation sauvage",
-        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut canaliser des [pouvoirs](/regles/magie/pouvoirs) lorsqu’il assume sa forme sauvage. S’il est en mesure d’émettre des sons et qu’il n’est pas immobilisé, alors il peut ignorer les [composantes](/regles/magie/parametres/composantes) Focus, Somatique et Verbal.",
         "MetaDescription": "Découvrez l’Archidruide : maître suprême de l’animisme, fondateur de cercle, capable de pouvoirs naturels de tiers 3 et de magie en forme sauvage."
       }
     }

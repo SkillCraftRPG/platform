@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "1",
       "MandatoryTalent": "[\"ca25c64d-b500-473a-9919-e61d500692eb\"]",
-      "OptionalTalents": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\",\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\",\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"c95f665e-2da3-455f-a87e-2e38d4988a26\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"1945b4c7-fcf5-442f-ad92-ad8e9105ecc6\",\"8b38975a-dbb1-448e-9a5b-ff1637b3a77f\",\"e52ed8a6-fd09-4b4c-a894-770ca354acc9\"]",
-      "DiscountedTalents": "[\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\"]",
-      "Features": "[\"a304cfeb-1041-4328-94e5-26cc4f15b4b0\",\"82f46d82-efbd-4ba0-84ba-5125f8420509\"]"
+      "OptionalTalents": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\",\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\",\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"c95f665e-2da3-455f-a87e-2e38d4988a26\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"3c5bf24b-6c5a-44ac-9553-0954af589b77\",\"1945b4c7-fcf5-442f-ad92-ad8e9105ecc6\",\"8b38975a-dbb1-448e-9a5b-ff1637b3a77f\",\"e52ed8a6-fd09-4b4c-a894-770ca354acc9\"]"
     }
   },
   "Locales": {
@@ -23,8 +21,6 @@
         "Slug": "menestrel",
         "Summary": "Un artiste polyvalent qui charme, distrait et inspire par son art.",
         "HtmlContent": "Le ménestrel est un saltimbanque, un danseur, un musicien, un conteur, un poète, un artiste ambulant. Il gagne sa vie par son art, qu’il utilise avec brio afin de faire vivre une palette d’émotions à son audience. Il est apprécié pour ses multiples talents ainsi que son art procurant des effets mystiques.",
-        "ReservedTalentName": "Inspiration artistique",
-        "ReservedTalentHtmlContent": "La prochaine fois qu’il [acquiert](/regles/talents/acquisition) le talent [Expertise](/regles/talents/expertise), alors il acquiert gratuitement ce [talent](/regles/talents) pour une autre [compétence](/regles/competences) de son choix.",
         "MetaDescription": "Découvrez le ménestrel, artiste ambulant qui enchante, divertit et inspire par ses talents multiples, procurant effets mystiques et soutien."
       }
     }

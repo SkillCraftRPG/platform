@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "2",
       "MandatoryTalent": "[\"2e928d87-34eb-4a26-8dd0-453c021fda61\"]",
-      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"fec766e0-1278-4091-876e-4f03b4964ff5\",\"66def333-62b6-414d-b35a-d80ae0207140\"]",
-      "DiscountedTalents": "[\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"ea127043-238b-46d6-aab8-809a908f3c75\"]",
-      "Features": "[\"3b3e6ecc-0174-4c48-9f74-bc2d9cf30061\",\"36c7ac70-86a1-46d0-b0ce-28b80dc47abc\",\"dc25d4af-a842-4483-ac0d-39a2a9b36f06\"]"
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"fec766e0-1278-4091-876e-4f03b4964ff5\",\"66def333-62b6-414d-b35a-d80ae0207140\"]"
     }
   },
   "Locales": {
@@ -20,11 +18,9 @@
       "DisplayName": "Duelliste",
       "Description": null,
       "FieldValues": {
-        "ReservedTalentName": "Escrime",
         "Summary": "Bretteur agile et hardi, alliant panache, précision et audace en duel.",
         "Slug": "duelliste",
         "HtmlContent": "Doté de la grâce d’un chat, rugissant comme un lion, rapide comme un lynx, le duelliste bondit d’un adversaire à un autre au combat et provoque ou manipule adroitement pendant une joute diplomatique. Sa cape virevolte et son chapeau plumé danse en suivant ses mouvements. Ses mots précis font naître des émotions d’espoir et de courage, ou au contraire, ses insultes justes piquent au vif ses belligérants. Il est doté d’un humour audacieux et sa réputation exhibe son élégance. Il est parfois vu comme un héros romantique, parfois comme un imprudent, un téméraire et un saboteur.",
-        "ReservedTalentHtmlContent": "Il peut acquérir le talent [Provocation](/regles/talents/provocation) au coût de 2 [points de talent](/regles/talents/points) plutôt que 4.",
         "MetaDescription": "Découvrez le Duelliste, spécialiste élégant et téméraire, maître de l’escrime, des provocations fines et des attaques rapides qui renversent le cours d’un combat."
       }
     }

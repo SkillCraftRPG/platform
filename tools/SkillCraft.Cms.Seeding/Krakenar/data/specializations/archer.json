@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "2",
       "MandatoryTalent": "[\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\"]",
-      "Features": "[\"679867e2-c237-4751-bce5-78b7af15397e\",\"20ff03cf-6ca0-4c93-8d43-7d1e59773f67\",\"01e353af-16ed-43d5-9106-94d561bba842\"]",
-      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]",
-      "DiscountedTalents": "[\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"09a52559-3dd9-4556-a4e8-c222585b3b2f\"]"
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
     }
   },
   "Locales": {
@@ -23,7 +21,6 @@
         "Slug": "archer",
         "Summary": "Spécialiste du tir à distance, précision, vigilance et mobilité fluides.",
         "HtmlContent": "L’archer se tient fièrement sur le champ de bataille, une silhouette gracieuse déployant l’arc avec une maîtrise inégalée. Vêtu d’un gambison ou d’une armure n’entravant pas ses mouvements, son regard perçant scrute l’horizon. Les doigts habiles manipulent la corde, libérant des flèches d’une précision redoutable. Son art transcende la simple compétence, l’archer incarne la symbiose entre la nature et la guerre, une force mortelle capable de façonner le destin à travers la danse gracieuse de ses flèches.",
-        "ReservedTalentName": "Archerie",
         "MetaDescription": "Découvrez l’archer, maître du tir à distance. Alliant précision, perception et grâce martiale, il frappe juste, observe tout et contrôle le champ de bataille."
       }
     }

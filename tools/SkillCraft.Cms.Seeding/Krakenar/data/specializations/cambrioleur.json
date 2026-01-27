@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "2",
       "MandatoryTalent": "[\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\"]",
-      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\",\"fec766e0-1278-4091-876e-4f03b4964ff5\"]",
-      "DiscountedTalents": "[\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\"]",
-      "Features": "[\"6ce546b9-c037-4962-a74e-389c6bbd9f28\",\"f4f397df-2f75-4c76-812e-9e9706fd983d\",\"c4b86ec3-6b31-4e41-ad1b-93fe93409d67\"]"
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\",\"fec766e0-1278-4091-876e-4f03b4964ff5\"]"
     }
   },
   "Locales": {
@@ -23,7 +21,6 @@
         "Slug": "cambrioleur",
         "Summary": "Maître de l’infiltration, discret, précis et expert en sabotage furtif.",
         "HtmlContent": "Grâce à un entraînement physique et intellectuel, le cambrioleur est un expert de l’infiltration. Il sait se glisser partout sans être repéré et possède une attention raffinée du détail. Il n’hésite également pas à faire l’usage de stratèges afin de parvenir à ses fins, manipulant ou dirigeant avec soin ses complices.",
-        "ReservedTalentName": "Clandestin",
         "MetaDescription": "Découvrez le Cambrioleur, maître de l’infiltration et de la furtivité, expert en sabotage précis, déplacements discrets et stratégies d’évasion."
       }
     }

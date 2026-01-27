@@ -8,9 +8,7 @@
     "FieldValues": {
       "Tier": "2",
       "MandatoryTalent": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\"]",
-      "Features": "[\"da862fa7-bcae-4c8d-a8db-c0680b46c9f4\"]",
-      "OptionalTalents": "[\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"4000f081-3804-4735-a29a-c70ffbe39aa7\",\"6e31c8e4-b48c-42f3-9024-e972ac256728\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"c00d8449-0195-4f6d-8443-5bb252154a6b\",\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\"]",
-      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]"
+      "OptionalTalents": "[\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"4000f081-3804-4735-a29a-c70ffbe39aa7\",\"6e31c8e4-b48c-42f3-9024-e972ac256728\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"c00d8449-0195-4f6d-8443-5bb252154a6b\",\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\"]"
     }
   },
   "Locales": {
@@ -25,8 +23,6 @@
         "HtmlContent": "La puissance du Catalyste provient de son contrôle de plusieurs éléments et de sa capacité à combiner ces éléments afin de produire des pouvoirs et effets surnaturels inhabituels. Parfois, cette combinaison est harmonieuse, particulièrement lorsque deux éléments similaires sont combinés. En revanche, lorsque deux éléments sont opposés, soit l’Air et la Terre ou l’Eau et le Feu, cette combinaison peut être dévastatrice et causer d’importants cataclysmes.",
         "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Élémentariste](/regles/specialisations/elementariste).\nIl doit avoir acquis le talent [Combinaison élémentaire](/regles/talents/combinaison-elementaire).\nIl doit également avoir acquis deux [pouvoirs](/regles/magie/pouvoirs) issus d’une [combinaison élémentaire](#). Les pouvoirs [acquis](/regles/magie/pouvoirs/acquisition) gratuitement ne satisfont pas cette condition. Ces deux pouvoirs sont inclus dans les talents optionnels de cette spécialisation.",
         "OtherOptions": "Deux [pouvoirs](/regles/magie/pouvoirs) issus d’une [combinaison élémentaire](#).",
-        "ReservedTalentName": "Fusion élémentaire",
-        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste). Le prochain pouvoir qu’il acquiert parmi cette liste est acquis [à rabais](/regles/magie/pouvoirs/acquisition).\nIl peut également acquérir les pouvoirs de tiers 2 associés à une [combinaison élémentaire](#) incluant sa spécialité, et acquiert gratuitement un de ces pouvoirs.\nEnfin, il peut acquérir les pouvoirs de tiers 1 associés aux autres [éléments qu’il contrôle](/regles/talents/elementarisme), ainsi que ceux associés à une combinaison de ces éléments.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 2.",
         "MetaDescription": "Découvrez le Catalyste, manipulateur des forces primordiales. Grâce à la fusion élémentaire, il unit plusieurs éléments pour créer des effets dévastateurs."
       }
     }
