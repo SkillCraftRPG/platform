@@ -54,10 +54,10 @@ internal class ArticleEntity : AggregateEntity
     CollectionUid = collection.Id;
   }
 
-  public void SetParent(ArticleEntity parent)
+  public void SetParent(ArticleEntity? parent)
   {
     Parent = parent;
-    ParentId = parent?.ParentId;
+    ParentId = parent?.ArticleId;
     ParentUid = parent?.Id;
   }
 

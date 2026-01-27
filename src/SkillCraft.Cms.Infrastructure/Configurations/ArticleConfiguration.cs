@@ -18,7 +18,7 @@ internal class ArticleConfiguration : AggregateConfiguration<ArticleEntity>, IEn
     builder.HasIndex(x => x.Id).IsUnique();
     builder.HasIndex(x => x.IsPublished);
     builder.HasIndex(x => x.Slug);
-    builder.HasIndex(x => x.SlugNormalized).IsUnique();
+    builder.HasIndex(x => x.SlugNormalized);
     builder.HasIndex(x => x.Title);
     builder.HasIndex(x => x.CollectionId);
     builder.HasIndex(x => x.CollectionUid);
