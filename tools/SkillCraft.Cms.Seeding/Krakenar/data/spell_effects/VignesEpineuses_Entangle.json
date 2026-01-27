@@ -1,0 +1,32 @@
+﻿{
+  "Id": "7af23cdf-4d54-436f-9dcb-375bf46dfab3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VignesEpineuses_Entangle",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VignesEpineuses_Entangle",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision).\n\nUn carré de 6 mètres de côté centré sur ce point se remplit d’herbes et de vignes saisissantes, et la zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nToute créature se trouvant à l’intérieur du carré lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme).\n\nEn cas d’échec, elle est [restreinte](/regles/combat/conditions/restreint) par les herbes et les vignes.\n\nUne fois par [tour](/regles/combat/deroulement/tour), elle peut tenter de [s’échapper](/regles/combat/activites/echapper) et tentant le jet de sauvegarde à nouveau. Les plantes disparaissent lorsque le pouvoir prend fin."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "64e831b4-6ec1-4f5b-9eab-601e2c5d0a0b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apprenti-d-un-maitre",
+    "DisplayName": "Apprenti d’un maître",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "12",
+      "Skill": "[\"4153ec24-3cb6-4e5e-93e6-c80853e5688b\"]",
+      "Feature": "[\"cf048f2c-05b4-4815-bd62-62000275ed1b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apprenti-d-un-maitre",
+      "DisplayName": "Apprenti d’un maître",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apprenti-d-un-maitre",
+        "Summary": "Formé par un maître, il maîtrise parfaitement un art précis.",
+        "HtmlContent": "Le personnage a tout appris d’un maître partageant un art ou une profession avec lui.\n\nCe maître lui a enseigné les subtilités qui permettront au personnage d’être éventuellement reconnu comme un maître lui aussi.\n\nCet apprentissage a été effectué dans l’ordre et la discipline, sous la direction du maître.",
+        "MetaDescription": "Découvrez l’éducation Apprenti d’un maître, symbole d’un apprentissage rigoureux et d’une maîtrise transmise par un mentor."
+      }
+    }
+  }
+}

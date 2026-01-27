@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6f33cdc7-3943-4e6c-ace6-32165093d9e5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Affaiblissement_BlindnessDeafness",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Level": "1",
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Affaiblissement_BlindnessDeafness",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce un mot maudit signifiant « Surdité » ou « Cécité » en désignant une créature qu’il peut [voir](/regles/aventure/environnement/vision). Celle-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, la cible est [assourdie](/regles/combat/conditions/assourdi) ou [aveuglée](/regles/combat/conditions/aveugle) pendant la durée du pouvoir. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses [tours](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c80753c1-85f0-4faf-aa78-ee8e5bc8ef42",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Infernon_PorteurDeFlambeau",
+    "DisplayName": "Porteur de flambeau",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Infernon_PorteurDeFlambeau",
+      "DisplayName": "Porteur de flambeau",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage [acquiert gratuitement](/regles/magie/pouvoirs/acquisition) le pouvoir [Souffle empoisonné](/regles/magie/pouvoirs/souffle-empoisonne).\n\nIl peut canaliser son [niveau 2](/regles/magie/pouvoirs/niveau) dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et son niveau 3 dès qu’il atteint le tiers 2, et ce même s’il n’a pas [acquis](/regles/talents/acquisition) le talent [Magie puissante](/regles/talents/magie-puissante).\n\nPar une [action](/regles/combat/deroulement/tour) et un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), il peut cracher des flammes dans un cône de 4,5 mètres. Il peut effectuer un [test passif](/regles/competences/tests/passif) s’il le désire.\n\nToute créature se trouvant dans la zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test.\n\nEn cas d’échec, une créature reçoit un nombre de [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) égal à 1 + tiers d4 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage.\n\nEn cas de réussite, une créature ne reçoit que la moitié des points de dégâts.\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

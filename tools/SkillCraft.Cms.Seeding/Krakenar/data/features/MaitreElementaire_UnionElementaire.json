@@ -1,0 +1,21 @@
+﻿{
+  "Id": "187a2842-754d-49d8-a5ba-6dccb51f943c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreElementaire_UnionElementaire",
+    "DisplayName": "Union élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreElementaire_UnionElementaire",
+      "DisplayName": "Union élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La première fois que le personnage acquiert le talent [Fermeté élémentaire](/regles/talents/fermete-elementaire) en sélectionnant l’élément de sa [spécialité élémentaire](/regles/specialisations/elementariste), il le fait au coût de [2 points de talent](/regles/talents/points) seulement.\n\nIl peut également acquérir [à rabais](/regles/talents/points) un talent en fonction de sa spécialité élémentaire.\n\n- Air : [Mythomane](/regles/talents/mythomane)\n- Eau : [Conjecture](/regles/talents/conjecture)\n- Feu : [Poigne de fer](/regles/talents/poigne-de-fer)\n- Terre : [Robustesse extraordinaire](/regles/talents/robustesse-extraordinaire)"
+      }
+    }
+  }
+}

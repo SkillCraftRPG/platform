@@ -1,0 +1,28 @@
+﻿{
+  "Id": "97c10f43-c82d-41b1-b241-9b6cace8e9ab",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orientation",
+    "DisplayName": "Orientation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7dea15b0-82f6-455a-ab74-ae6b10e7e2b7\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orientation",
+      "DisplayName": "Orientation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orientation",
+        "Summary": "Forme au tir à distance, à la visée et à la perception des trajectoires.",
+        "HtmlContent": "[Forme](/regles/equipement/armes/formation) le personnage au maniement des [armes simples](/regles/equipement/armes/simples) à distance.\n\nIl est également [formé au port](/regles/equipement/armures/formation) des [armures légères](/regles/equipement/armures/legeres) et à l’utilisation des [boucliers légers](/regles/equipement/boucliers).",
+        "MetaDescription": "Découvrez le talent Orientation, formant le personnage au tir à distance, à la visée précise et à l’usage des armures légères et boucliers légers."
+      }
+    }
+  }
+}

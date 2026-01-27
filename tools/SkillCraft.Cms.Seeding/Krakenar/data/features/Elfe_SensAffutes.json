@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c661dc84-1ea7-4163-bc0b-c61f96445e42",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_SensAffutes",
+    "DisplayName": "Sens affûtés",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_SensAffutes",
+      "DisplayName": "Sens affûtés",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Orientation](/regles/talents/orientation) et [Perception](/regles/talents/perception)."
+      }
+    }
+  }
+}

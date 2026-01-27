@@ -1,0 +1,27 @@
+﻿{
+  "Id": "df4606f0-7b13-4a52-a0ff-2ecfdc40b4b5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrainement-i",
+    "DisplayName": "Entraînement I",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrainement-i",
+      "DisplayName": "Entraînement I",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrainement-i",
+        "Summary": "Augmente de façon permanente un attribut (0 ou moins).",
+        "HtmlContent": "Augmente (+1) de manière permanente un [attribut](/regles/attributs) du personnage dont la valeur était inférieure ou égale à 0 avant l’acquisition de ce talent.",
+        "MetaDescription": "Découvrez le talent Entraînement I, qui améliore définitivement un attribut faible du personnage, renforçant ses capacités physiques ou mentales."
+      }
+    }
+  }
+}

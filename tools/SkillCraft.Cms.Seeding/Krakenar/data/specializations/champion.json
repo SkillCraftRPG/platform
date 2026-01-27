@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6b15354e-1841-4a94-8e7a-117184cb44ff",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "champion",
+    "DisplayName": "Champion",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"6e31c8e4-b48c-42f3-9024-e972ac256728\"]",
+      "OptionalTalents": "[\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"81c3ae91-c25f-481b-9628-0cc4ceb868c5\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"1b374cfe-6709-43e4-a6d9-61c637e0c8a4\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"0a9e78a0-14db-465d-a10d-8673b83c77ef\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "champion",
+      "DisplayName": "Champion",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "champion",
+        "Summary": "Guerrier sacré protecteur, guidé par l’énergie et la volonté divines.",
+        "HtmlContent": "Le champion se dresse tel un rempart entre sa foi et les ennemis de celle-ci. Il protège les fervents de sa foi et ceux qui ne peuvent se protéger eux-mêmes. Sélectionné parmi son culte ou sa religion, ses armes scintillent de lueur divine lorsqu’il châtie ses ennemis. Il possède la capacité de sentir la présence d’énergie sacrée ou profane, que cette énergie se manifeste sous la forme d’une créature, d’un objet ou même d’un lieu.",
+        "OtherRequirements": "Le personnage ne doit pas avoir acquis la spécialisation [Prêtre](/regles/specialisations/pretre).\nIl doit avoir acquis le talent [Spiritualité](/regles/talents/spiritualite), et doit avoir sélectionné un [domaine divin](/regles/domaines/divins) lorsqu’il a acquis ce talent.",
+        "OtherOptions": "Un [pouvoir](/regles/magie/pouvoirs) de tiers 1 associé à son [domaine divin](/regles/domaines/divins).",
+        "MetaDescription": "Découvrez le Champion, un défenseur sacré qui protège les siens, perçoit l’énergie divine et frappe ses ennemis avec une puissance sanctifiée."
+      }
+    }
+  }
+}

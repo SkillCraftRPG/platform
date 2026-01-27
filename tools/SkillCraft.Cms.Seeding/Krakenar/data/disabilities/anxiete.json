@@ -1,0 +1,24 @@
+﻿{
+  "Id": "b702bafd-9ba2-4ebd-90f3-27b86876cc5b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "anxiete",
+    "DisplayName": "Anxiété",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "anxiete",
+      "DisplayName": "Anxiété",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "anxiete",
+        "Summary": "Rend vulnérable et diminue initiative et défenses contre la peur.",
+        "HtmlContent": "Face au danger, le personnage fige complètement sur place, ce qui le rend vulnérable, et est incapable de prendre une décision sous pression.\n\nSes [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets de [peur](/regles/combat/conditions/apeure) sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n\nLorsqu’il effectue un [test d’Initiative](/regles/combat/deroulement/initiative), il doit effectuer le test à nouveau, et utiliser le résultat le plus faible.",
+        "MetaDescription": "Découvrez le handicap Anxiété : une peur paralysante qui affaiblit l’initiative et les défenses face à la peur, rendant le personnage vulnérable."
+      }
+    }
+  }
+}

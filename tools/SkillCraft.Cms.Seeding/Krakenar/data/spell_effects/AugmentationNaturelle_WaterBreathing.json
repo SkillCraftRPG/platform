@@ -1,0 +1,32 @@
+﻿{
+  "Id": "15dbd343-4c00-436e-aed8-b42fce0c795d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AugmentationNaturelle_WaterBreathing",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1a7ad8e0-6e14-41ac-a39d-5cdcad5181a2\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AugmentationNaturelle_WaterBreathing",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des écailles de poisson.",
+        "HtmlContent": "Le personnage désigne un nombre de créatures qu’il peut [voir](/regles/aventure/environnement/vision) inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum 1) et peut s’inclure dans ce nombre. Une écaille est consommée pour chaque créature désignée. Les créatures désignées acquièrent la capacité à [respirer sous l’eau](/regles/aventure/environnement/suffocation) pour la durée du pouvoir."
+      }
+    }
+  }
+}

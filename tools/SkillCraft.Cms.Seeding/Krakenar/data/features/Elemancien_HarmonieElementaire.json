@@ -1,0 +1,21 @@
+﻿{
+  "Id": "508fd232-1d8f-475c-94f2-b34478194ab7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elemancien_HarmonieElementaire",
+    "DisplayName": "Harmonie élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elemancien_HarmonieElementaire",
+      "DisplayName": "Harmonie élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) un [talent](/regles/talents) en fonction de sa [spécialité élémentaire](/regles/specialisations/elementariste).\n\n- Air : [Fourberie](/regles/talents/fourberie)\n- Eau : [Discernement](/regles/talents/discernement)\n- Feu : [Manœuvres de combat](/regles/talents/manoeuvres-de-combat)\n- Terre : [Robustesse supérieure](/regles/talents/robustesse-superieure)"
+      }
+    }
+  }
+}

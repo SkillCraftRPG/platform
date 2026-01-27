@@ -1,0 +1,26 @@
+﻿{
+  "Id": "044b648d-005a-4ec4-9996-de338d8e5138",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "resistance-elementaire",
+    "DisplayName": "Résistance élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "resistance-elementaire",
+      "DisplayName": "Résistance élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Renforce les sauvegardes, absorbe un élément et confère une résistance durable.",
+        "MetaDescription": "Découvrez Résistance élémentaire, un pouvoir protecteur qui renforce les sauvegardes, absorbe énergie élémentaire et confère une résistance durable aux dégâts.",
+        "HtmlContent": "Pouvoir défensif modulable permettant d’améliorer un jet, d’absorber un élément pour riposter ou de conférer une résistance élémentaire, seul ou à un groupe entier.",
+        "Slug": "resistance-elementaire"
+      }
+    }
+  }
+}

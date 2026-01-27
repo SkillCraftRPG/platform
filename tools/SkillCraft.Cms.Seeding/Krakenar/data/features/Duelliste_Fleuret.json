@@ -1,0 +1,21 @@
+﻿{
+  "Id": "dc25d4af-a842-4483-ac0d-39a2a9b36f06",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Duelliste_Fleuret",
+    "DisplayName": "Fleuret",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Duelliste_Fleuret",
+      "DisplayName": "Fleuret",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il réussit une [attaque de mêlée](/regles/combat/attaque/melee) en maniant une [arme](/regles/equipement/armes) possédant la propriété [Finesse](/regles/equipement/armes/proprietes), alors il se voit conférer un bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse) au prochain [déplacement](/regles/combat/activites/deplacement) effectué avant la fin de son tour.\n\nÉgalement, il peut bénéficier d’un des effets suivants au choix :\n\n- Il ajoute son [Intellect](/regles/attributs/intellect) à son [Esquive](/regles/combat/attaque/esquive) jusqu’au début de son prochain tour.\n- Il inflige un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à son Intellect (minimum 1) si aucune autre créature qui n’est pas [incapable](/regles/combat/conditions/incapable) se trouve à 1,5 mètres ou moins de sa position. Sinon, il peut tenter de blesser cette autre créature en réutilisant le résultat du [test](/regles/competences/tests) de l’[attaque](/regles/combat/attaque). Si l’attaque réussit, il inflige un nombre de points de dégâts égal à son Intellect (minimum 1).\n- Si la [taille](/regles/especes/taille) de la cible est inférieure ou égale à la sienne, alors elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de l’attaque effectuée par le personnage. En cas d’échec, la cible est [renversée](/regles/combat/conditions/renverse) au sol, ou repoussée de 1,5 mètres, au choix du personnage."
+      }
+    }
+  }
+}

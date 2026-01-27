@@ -1,0 +1,28 @@
+﻿{
+  "Id": "4000f081-3804-4735-a29a-c70ffbe39aa7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "combinaison-elementaire",
+    "DisplayName": "Combinaison élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"7ba4f81d-f04b-43ed-8d2e-b5d3f17e2094\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "combinaison-elementaire",
+      "DisplayName": "Combinaison élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "combinaison-elementaire",
+        "Summary": "Permet d’unir deux éléments pour utiliser des pouvoirs combinés.",
+        "HtmlContent": "Le personnage peut acquérir les [pouvoirs](#) de tiers 0 issus d’une combinaison de deux éléments pour lesquels il a acquis le talent [Élémentarisme](/regles/talents/elementarisme).\n\nIl peut acquérir [à rabais](/regles/magie/pouvoirs/apprentissage) ses deux premiers pouvoirs issus d’une combinaison élémentaire.",
+        "MetaDescription": "Découvrez le talent Combinaison élémentaire, qui permet d’unir deux éléments maîtrisés pour apprendre leurs pouvoirs conjoints à prix réduit."
+      }
+    }
+  }
+}

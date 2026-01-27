@@ -1,0 +1,24 @@
+﻿{
+  "Id": "ec87f740-1843-4388-a886-43d282e2b8d7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orateur",
+    "DisplayName": "Orateur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orateur",
+      "DisplayName": "Orateur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orateur",
+        "Summary": "Permet de captiver ou motiver les alliés par des discours inspirants.",
+        "HtmlContent": "### Captivant\n\nLorsque le personnage effectue une représentation d’une durée minimale de [10 minutes](/regles/aventure/temps), il peut captiver son audience pendant les 10 prochaines minutes.\n\nIl soustrait 20 puis divise par 2 le résultat de son [test](/regles/competences/tests) de [Représentation](/regles/competences/representation). S’il n’a pas effectué de test, alors il doit en effectuer un.\n\nToute créature parmi l’audience dont l’[Intellect](/regles/attributs/intellect) et les [Sens](/regles/attributs/sens) sont inférieurs à cette valeur est captivée.\n\nLe personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests de [Diplomatie](/regles/competences/diplomatie), de Représentation et de [Tromperie](/regles/competences/tromperie) contre une créature captivée.\n\n### Motivateur\n\nLe personnage peut motiver ses alliés par un discours engageant d’une durée minimale de [10 minutes](/regles/aventure/temps).\n\nIl effectue un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) et sélectionne un nombre de cibles inférieur ou égal à la valeur de l’[attribut](/regles/attributs) utilisé pour le test (minimum 1).\n\nUne créature doit pouvoir le [voir](/regles/aventure/environnement/vision) et l’entendre, et être située à 9 mètres ou moins de sa position pendant la durée du discours afin d’être ciblée par cette capacité.\n\nChaque cible se voit conférer un nombre de [points de Vitalité temporaires](/regles/combat/degats/temporaire) égal au résultat du test (minimum 1).\n\nUne cible doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de pouvoir être affectée à nouveau par cette capacité.",
+        "MetaDescription": "Découvrez le don Orateur, permettant de captiver une audience ou de motiver ses alliés par des discours inspirants, accordant avantage et vitalité temporaire."
+      }
+    }
+  }
+}

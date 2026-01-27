@@ -1,0 +1,28 @@
+﻿{
+  "Id": "66def333-62b6-414d-b35a-d80ae0207140",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tolerance-a-l-alcool-ii",
+    "DisplayName": "Tolérance à l’alcool II",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"1945b4c7-fcf5-442f-ad92-ad8e9105ecc6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tolerance-a-l-alcool-ii",
+      "DisplayName": "Tolérance à l’alcool II",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tolerance-a-l-alcool-ii",
+        "Summary": "Renforce la résistance et libère l’Effort dès 2 points d’ivresse.",
+        "HtmlContent": "Augmente de manière permanente (+2) le [seuil de tolérance à l’alcool](/regles/aventure/environnement/alcoolemie) du personnage.\n\nÉgalement, le personnage peut utiliser l’**Effort débridé** dès qu’il a acquis 2 points d’alcoolémie ou plus. Il n’a pas besoin d’être en première phase d’alcoolémie afin d’utiliser cette capacité.",
+        "MetaDescription": "Découvrez le talent Tolérance à l’alcool II, qui accroît la résistance à l’alcool et permet d’utiliser l’Effort débridé dès un état d’ivresse modéré."
+      }
+    }
+  }
+}

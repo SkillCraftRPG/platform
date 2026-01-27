@@ -1,0 +1,24 @@
+﻿{
+  "Id": "0ad7aea4-60b2-47ce-b551-345e23362d0d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementariste_Elementarisme",
+    "DisplayName": "Élémentarisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"d5f60efb-32b9-4180-965f-fec617e79c74\"]",
+      "Features": "[\"0e7176d0-367d-459e-be87-2ca170ac95eb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementariste_Elementarisme",
+      "DisplayName": "Élémentarisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut convertir des points d’[Énergie](/regles/statistiques/energie) en points d’[essence élémentaire](#) afin d’utiliser de puissantes [capacités élémentaires](#) de tiers 1."
+      }
+    }
+  }
+}

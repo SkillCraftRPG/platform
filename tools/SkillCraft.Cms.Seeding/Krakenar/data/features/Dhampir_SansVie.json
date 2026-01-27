@@ -1,0 +1,21 @@
+﻿{
+  "Id": "fe94b10d-b9cf-47f2-a88b-dbaf6fbad5fe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir_SansVie",
+    "DisplayName": "Sans vie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir_SansVie",
+      "DisplayName": "Sans vie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage n’a pas besoin de [respirer](/regles/aventure/environnement/suffocation)."
+      }
+    }
+  }
+}

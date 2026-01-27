@@ -1,0 +1,28 @@
+﻿{
+  "Id": "88d3074d-98b1-472d-88bf-95a7bb252968",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "brigand",
+    "DisplayName": "Brigand",
+    "Description": null,
+    "FieldValues": {
+      "MandatoryTalent": "[\"7105682d-e30d-445c-869f-7a59e1500bf6\"]",
+      "Tier": "2",
+      "OptionalTalents": "[\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"1b374cfe-6709-43e4-a6d9-61c637e0c8a4\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"81c3ae91-c25f-481b-9628-0cc4ceb868c5\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"66def333-62b6-414d-b35a-d80ae0207140\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "brigand",
+      "DisplayName": "Brigand",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "brigand",
+        "Summary": "Forban rusé misant sur l’audace, l’improvisation et la chance brute.",
+        "HtmlContent": "Le brigand est souvent vu comme une racaille, un bandit des grands chemins, un cruel tyran et un malfrat. En réalité, il s’agit plutôt d’un être naturellement chaotique, utilisant les moyens du bord et doté d’audace afin de parvenir à ses fins. Son utilisation de stratégies non conventionnelles, une chance fabuleuse et une bravoure sans limite lui permettent de se tirer de la plupart des situations fâcheuses et lui valent une certaine réputation.",
+        "MetaDescription": "Découvrez le Brigand, opportuniste audacieux qui improvise, frappe avec ruse, détourne les règles et transforme les situations désespérées en succès inattendus."
+      }
+    }
+  }
+}

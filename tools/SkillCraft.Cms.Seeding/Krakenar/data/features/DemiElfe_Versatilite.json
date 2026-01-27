@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2e60a89c-8e08-4732-93fb-a7071257f4bf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiElfe_Versatilite",
+    "DisplayName": "Versatilité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiElfe_Versatilite",
+      "DisplayName": "Versatilité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) deux [talents](/regles/talents) le [formant](/regles/competences/formation) pour une [compétence](/regles/competences)."
+      }
+    }
+  }
+}

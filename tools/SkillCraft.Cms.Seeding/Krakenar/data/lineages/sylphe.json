@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8f4bd80b-a3d6-4f68-8b16-a4bbcf568410",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sylphe",
+    "DisplayName": "Sylphe",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:4,Fly:4",
+      "SizeCategory": "[\"Small\"]",
+      "SizeRoll": "80+2d10"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sylphe",
+      "DisplayName": "Sylphe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les sylphes sont des humanoïdes similaires aux humains, mais dotés de caractéristiques féériques, telles des ailes de papillon, une peau scintillante et multicolore, et une odeur naturelle similaire rappelant la pluie ou la rosée du matin. Ce sont des élémentaires associés à l’Air qu’on peut retrouver dans des forêts d’arbres anciens. Les sylphes sont des êtres gracieux, se manœuvrant avec allégresse dans les vents, et sont dotés de magie leur permettant d’interagir avec la nature.",
+        "Slug": "sylphe",
+        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

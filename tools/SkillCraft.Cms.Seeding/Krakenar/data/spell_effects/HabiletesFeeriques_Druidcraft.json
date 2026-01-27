@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3831c4c3-eaf5-46e9-8c8c-9f4bf8108fce",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HabiletesFeeriques_Druidcraft",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HabiletesFeeriques_Druidcraft",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un effet surnaturel et inoffensif parmi la liste suivante.\n\n- Il crée un effet sensoriel permettant de prédire la météo des [24 prochaines heures](/regles/aventure/temps). L’effet pourrait se manifester par exemple par un orbe doré pour un ciel dégagé, un nuage pour de la pluie, des flocons de neige pour une chute de neige. L’effet dure quelques secondes.\n- Il fait fleurir une fleur ou un bourgeon, ou fait éclore une graine.\n- Il fait tomber les feuilles d’un arbre, provoque un souffle de vent, crée un effet sensoriel instantané provenant d’un point de son choix, par exemple le bruit d’un petit animal ou l’odeur distante d’une moufette.\n- Il allume ou éteint une chandelle, une torche ou un petit feu de camp."
+      }
+    }
+  }
+}

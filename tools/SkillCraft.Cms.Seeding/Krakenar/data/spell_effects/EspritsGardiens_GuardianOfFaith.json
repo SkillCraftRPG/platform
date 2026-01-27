@@ -1,0 +1,31 @@
+﻿{
+  "Id": "de1848b3-c7ac-4d6c-bf37-490b41888565",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsGardiens_GuardianOfFaith",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"459daeec-d147-4cea-8d5f-df0bb9a3a375\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsGardiens_GuardianOfFaith",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole divin.",
+        "HtmlContent": "Le personnage invoque un gardien spirituel de [grande taille](/regles/especes/taille), invulnérable et intangible, dans un espace libre de son choix qu’il peut [voir](/regles/aventure/environnement/vision).\n\nLe gardien [occupe](/regles/aventure/mouvement/espace-occupe) l’espace dans lequel il se trouve, mais il est [invisible](/regles/combat/conditions/invisible). On peut toutefois voir luire une arme et un bouclier arborant le symbole divin utilisé afin de canaliser le pouvoir.\n\nToute créature hostile envers le personnage [se déplaçant](/regles/combat/activites/deplacement) à 3 mètres ou moins du gardien pour la première fois pendant son [tour](/regles/combat/deroulement/tour) doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/talents/acrobaties).\n\nEn cas d’échec, elle reçoit \uD83D\uDEA720 [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) ou [nécrotiques](/regles/combat/degats/types), selon les croyances du personnage.\n\nElle ne reçoit que la moitié des points de dégâts en cas de réussite.\n\nLe gardien disparaît lorsqu’il a infligé \uD83D\uDEA760 points de dégâts ou plus."
+      }
+    }
+  }
+}

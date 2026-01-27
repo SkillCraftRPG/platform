@@ -1,0 +1,28 @@
+﻿{
+  "Id": "194bc5f5-6951-47c1-b618-9272c0dc3711",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "resilience",
+    "DisplayName": "Résilience",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "resilience",
+      "DisplayName": "Résilience",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "resilience",
+        "HtmlContent": "Lorsque le personnage utilise sa [barrière mentale](/regles/talents/barriere-mentale) et que celle-ci échoue à le protéger, il peut tenter un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au nombre de points d’[Énergie](/regles/statistiques/energie) dépensés afin de canaliser la capacité, ou 15 si la capacité surnaturelle n’a pas de dépense associée.\n\nEn cas de réussite, il réduit de moitié les [points de dégâts](/regles/combat/degats) reçus, ou la [durée](/regles/magie/parametres/duree) de l’effet si celui-ci n’inflige aucun point de dégâts.\n\nIl peut utiliser cette capacité même si la capacité surnaturelle initiale ne lui imposait pas un jet de sauvegarde ou si elle n’était pas une [attaque](/regles/magie/effets/attaque).",
+        "Summary": "Renforce la défense mentale et atténue les dégâts psychiques.",
+        "MetaDescription": "Découvrez le talent Résilience, qui renforce la barrière mentale et réduit les effets des attaques mentales."
+      }
+    }
+  }
+}

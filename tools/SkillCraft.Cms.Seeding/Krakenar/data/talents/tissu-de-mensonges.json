@@ -1,0 +1,29 @@
+﻿{
+  "Id": "fec766e0-1278-4091-876e-4f03b4964ff5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tissu-de-mensonges",
+    "DisplayName": "Tissu de mensonges",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7b327339-488b-447d-a9b3-fbaa6d65d864\"]",
+      "RequiredTalent": "[\"3c5bf24b-6c5a-44ac-9553-0954af589b77\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tissu-de-mensonges",
+      "DisplayName": "Tissu de mensonges",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tissu-de-mensonges",
+        "Summary": "Accorde relance et bonus lors des tentatives de duperie.",
+        "HtmlContent": "Lorsque le personnage échoue un [test](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie), si le test n’a pas été effectué avec [désavantage](/regles/competences/tests/avantage-desavantage), alors il peut relancer [un des d10](/regles/competences/tests/2d10) et doit utiliser le nouveau résultat.\n\nÉgalement, lorsqu’il tente de faire croire à une créature qu’il est en train d’accomplir une tâche, son test de Tromperie se voit conférer un bonus égal à la moitié du [rang](/regles/competences/rang) de la [compétence](/regles/competences) associée à cette tâche.",
+        "MetaDescription": "Découvrez le talent Tissu de mensonges, qui améliore la Tromperie et accorde une relance partielle ou un bonus lors des tentatives de duperie."
+      }
+    }
+  }
+}

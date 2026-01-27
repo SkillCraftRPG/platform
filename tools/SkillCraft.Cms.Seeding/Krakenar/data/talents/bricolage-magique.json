@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ce806d91-5235-4237-92e9-9a01fde44500",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "bricolage-magique",
+    "DisplayName": "Bricolage magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "bricolage-magique",
+      "DisplayName": "Bricolage magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "bricolage-magique",
+        "Summary": "Imprègne de petits objets d’effets magiques simples et variés.",
+        "HtmlContent": "Le personnage peut désormais acquérir les [bricolages magiques](#) de tiers 0, et il acquiert gratuitement un de ces bricolages.\n\nÉgalement, il peut utiliser des [outils de bricoleur](/regles/equipement/outils), toucher un objet de très petite [taille](/regles/especes/taille) par une [action](/regles/combat/deroulement/tour) et dépenser 5 points d’[Énergie](/regles/statistiques/energie) afin de l’imprégner de magie, choisissant une des propriétés suivantes.\n\nL’effet dure indéfiniment et il peut l’arrêter en touchant l’objet par une action.\n\nIl peut maintenir ces effets sur un nombre d’objets différents égal à son [Intellect](/regles/attributs/intellect) (minimum 1).\n\nS’il dépasse cette limite en ajoutant un effet sur un nouvel objet, alors l’effet le plus ancien conféré à un objet cesse immédiatement.\n\n- L’objet dégage une lumière de [clarté](/regles/aventure/environnement/vision) dans un rayon de 1,5 mètres ainsi qu’une faible lumière de [pénombre](/regles/aventure/environnement/vision) dans un rayon additionnel de 1,5 mètres.\n- Lorsque touché par une créature, l’objet émet un message préenregistré pouvant être entendu à une distance maximale de 3 mètres. L’enregistrement imite la voix du personnage et dure un maximum de [6&nbsp;secondes](/regles/combat/deroulement) (environ 25 mots en langue française).\n- L’objet émet de manière continue une odeur ou un son non verbal au choix du personnage (par exemple, le vent, la marée, des oiseaux, etc.). Cet effet peut être perçu à une distance de 3 mètres.\n- L’objet fait apparaître un effet visuel, par exemple une image, un texte de 25 mots ou moins, un schéma composé de formes et de lignes, ou un mélange de ces éléments.\n- Un ou plusieurs effets visuels statiques au choix du personnage apparaissent sur la surface de l’objet (par exemple, une image, un texte d’au plus 25 mots, un schéma composé de lignes et formes géométriques).",
+        "MetaDescription": "Découvrez le talent Bricolage magique, permettant d’imprégner de magie de petits objets pour leur conférer lumière, son, odeur ou message."
+      }
+    }
+  }
+}

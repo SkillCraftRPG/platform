@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ff67585b-bfd7-4965-a660-1fbdf0547c12",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "perception",
+    "DisplayName": "Perception",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"626b3491-ce0f-41ba-82bf-27c1d6432caf\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "perception",
+      "DisplayName": "Perception",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "perception",
+        "Summary": "Aiguise les sens pour repérer sons, détails et éléments dissimulés.",
+        "HtmlContent": "Le personnage peut déceler des détails ou du texte précis depuis un document, un objet ou toute autre surface.\n\nIl peut également entendre clairement une discussion chuchotée.\n\nLa portée de cette capacité est de 30 centimètres multipliés par son [test passif](/regles/competences/tests/passif) de [Perception](/regles/competences/perception).",
+        "MetaDescription": "Découvrez le talent Perception, qui améliore l’acuité sensorielle du personnage et sa capacité à remarquer les détails ou sons cachés autour de lui."
+      }
+    }
+  }
+}

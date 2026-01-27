@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1b042423-2a30-4ef6-9fbb-4170c02b2d57",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SousContrainte_VieEnCoulisses",
+    "DisplayName": "Vie en coulisses",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SousContrainte_VieEnCoulisses",
+      "DisplayName": "Vie en coulisses",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ayant grandi sous une supervision constante, le personnage a développé l’art de s’effacer lorsqu’il doit préserver sa tranquillité ou ses secrets face à l’autorité.\n\nIl se voit conférer un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite) effectués afin de se soustraire d’une figure d’autorité.\n\nIl peut également ajouter ce bonus à ses tests de [Tromperie](/regles/competences/tromperie) effectués afin de persuader qu’il est innocent alors que c’est faux, sans toutefois rejeter le blâme sur quelqu’un d’autre."
+      }
+    }
+  }
+}

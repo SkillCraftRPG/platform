@@ -1,0 +1,21 @@
+﻿{
+  "Id": "beeb713c-89ca-4a5b-b715-4aa116d14c6d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_Gris_ResilienceMarecageuse",
+    "DisplayName": "Résilience marécageuse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_Gris_ResilienceMarecageuse",
+      "DisplayName": "Résilience marécageuse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Résistance](/regles/talents/resistance).\n\nIl se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) causant l’[empoisonnement](/regles/combat/conditions/empoisonne).\n\nEnfin, il est [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

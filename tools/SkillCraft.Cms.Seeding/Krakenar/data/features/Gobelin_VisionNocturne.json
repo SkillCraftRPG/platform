@@ -1,0 +1,21 @@
+﻿{
+  "Id": "bd18eb61-92c0-4235-88ae-0cc118aa40f5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelin_VisionNocturne",
+    "DisplayName": "Vision nocturne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelin_VisionNocturne",
+      "DisplayName": "Vision nocturne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres."
+      }
+    }
+  }
+}

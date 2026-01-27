@@ -1,0 +1,26 @@
+﻿{
+  "Id": "49846982-70fe-4bce-bcf1-a39693c7ea99",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Initiative",
+    "DisplayName": "Initiative",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"11fd3351-7937-4697-8e02-1bc5b2a61a91\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Initiative",
+      "DisplayName": "Initiative",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "initiative",
+        "Summary": "Mesure la rapidité de réaction et l’ordre d’action en combat.",
+        "HtmlContent": "L’**Initiative** représente la vitesse de réaction du personnage dans une situation particulièrement stressante.\n\nElle détermine l’[ordre des tours](/regles/combat/deroulement/initiative) des créatures en situation de combat.\n\nL’équation suivante calcule l’Initiative d’une créature :\n\n<code>Initiative = 2 × Sens</code>",
+        "MetaDescription": "Découvrez la statistique Initiative, qui mesure la rapidité de réaction et détermine l’ordre d’action des créatures lors des affrontements."
+      }
+    }
+  }
+}

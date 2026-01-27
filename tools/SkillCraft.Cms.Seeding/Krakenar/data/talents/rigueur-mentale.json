@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6b0985c6-4e77-403e-b1a3-9c8473b6ed12",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "rigueur-mentale",
+    "DisplayName": "Rigueur mentale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"a6995524-b7b5-4511-8790-ef0e3b687442\"]",
+      "RequiredTalent": "[\"208f05b5-cf04-4640-ab8c-92d540a65fc4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "rigueur-mentale",
+      "DisplayName": "Rigueur mentale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "rigueur-mentale",
+        "Summary": "Analyse experte et maîtrise de l’Investigation par force mentale.",
+        "HtmlContent": "Le personnage est [résistant](/regles/combat/degats/efficacite) aux [dégâts psychiques](/regles/combat/degats/types).\n\n### Exploit\n\nÀ tout moment, il peut dépenser 20 points d’[Énergie](/regles/statistiques/energie) afin de [Faire 20](/regles/competences/tests/faire-20) à un [test](/regles/competences/tests) d’[Investigation](/regles/competences).\n\nL’action intentée doit être possible, et il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\n### Mémétique\n\nLe personnage peut analyser du matériel de référence à propos d’une [compétence](/regles/competences), d’un ensemble d’[outils](/regles/equipement/outils) ou d’une [trousse](/regles/equipement/outils), d’un [instrument de musique](/regles/equipement/outils/musique), d’un type d’art ou d’un [ensemble de jeu](/regles/equipement/outils/jeux) pour lequel il n’est pas [formé](/regles/competences/formation).\n\nCette analyse dure [une heure](/regles/aventure/temps) et peut être effectuée pendant une [halte](/regles/aventure/repos/halte).\n\nPar la suite, il peut remplacer le [rang](/regles/competences/rang) de cette compétence par la moitié de son rang d'Investigation.\n\nCette capacité dure un nombre d’heures égal au double de son [Intellect](/regles/attributs/intellect) (minimum 2), et il doit compléter une nuit de sommeil afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez Rigueur mentale : réussites automatiques en Investigation, analyse poussée de compétences et mémétique prolongée grâce à un intellect affûté."
+      }
+    }
+  }
+}

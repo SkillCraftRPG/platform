@@ -1,0 +1,24 @@
+﻿{
+  "Id": "801e7d2c-42d8-4e07-a31b-f363be462995",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chaman_Chamanisme",
+    "DisplayName": "Chamanisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"9be57a08-8a3d-482f-a3db-9460c39f90a4\"]",
+      "Features": "[\"7f632223-7644-4446-b028-e3a41fb09ea1\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chaman_Chamanisme",
+      "DisplayName": "Chamanisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme)."
+      }
+    }
+  }
+}

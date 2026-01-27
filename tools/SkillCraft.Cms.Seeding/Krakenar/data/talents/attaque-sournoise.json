@@ -1,0 +1,27 @@
+﻿{
+  "Id": "4a72617a-6415-4afe-9b2d-cd0eeae6ae39",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-sournoise",
+    "DisplayName": "Attaque sournoise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-sournoise",
+      "DisplayName": "Attaque sournoise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-sournoise",
+        "Summary": "Inflige 2d6 dégâts bonus lors d’une attaque scrupuleuse et rusée.",
+        "HtmlContent": "Lorsque le personnage réussit une [attaque](/regles/combat/attaque) par un [test](/regles/competences/tests) d’[Orientation](/regles/competences/orientation), il peut infliger [2d6 points de dégâts](/regles/combat/degats/jet) supplémentaires.\n\nIl doit effectuer une [attaque de mêlée](/regles/combat/attaque/melee) en maniant une arme possédant la propriété [Finesse](/regles/equipement/armes/proprietes), ou une [attaque à distance](/regles/combat/attaque/distance) en maniant une arme possédant la propriété [Munition](/regles/equipement/armes/proprietes).\n\nIl peut utiliser cette capacité une fois par [tour](/regles/combat/deroulement/tour), et il doit être [formé](/regles/equipement/armes/formation) au maniement de l’arme utilisée.\n\nAfin d’utiliser cette capacité, le test de l’attaque doit être effectué avec [avantage](/regles/competences/tests/avantage-desavantage).\n\nLe personnage peut également utiliser cette capacité lorsque le test n’est pas effectué avec [désavantage](/regles/competences/tests/avantage-desavantage) et qu’une créature hostile envers la cible se trouve à 1,5 mètres ou moins de celle-ci, et que cette créature n’est pas [incapable](/regles/combat/conditions/incapable).",
+        "MetaDescription": "Découvrez le talent Attaque sournoise, qui permet d’infliger 2d6 dégâts supplémentaires lors d’une frappe précise et avantageuse."
+      }
+    }
+  }
+}

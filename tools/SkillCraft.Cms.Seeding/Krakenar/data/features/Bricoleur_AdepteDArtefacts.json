@@ -1,0 +1,21 @@
+﻿{
+  "Id": "41bf8836-a50c-4bd4-9e10-e41dc1b8efdf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Bricoleur_AdepteDArtefacts",
+    "DisplayName": "Adepte d’artefacts",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Bricoleur_AdepteDArtefacts",
+      "DisplayName": "Adepte d’artefacts",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut s’[harmoniser](/regles/magie/artefacts/harmonisation) à un [artefact magique](/regles/magie/artefacts) supplémentaire.\n\nLorsqu’il atteint le [tiers 3](/regles/personnages/progression/tiers), ce nombre augmente à deux artefacts supplémentaires, et il ignore les [prérequis](/regles/magie/artefacts/harmonisation) (par exemple d’[espèce](/regles/especes) ou de [spécialisation](/regles/specialisations)) lorsqu’il s’harmonise à un artefact magique.\n\nÉgalement, lorsqu’il fabrique un artefact magique de rareté commune ou peu fréquente, il réduit de moitié le temps et les matériaux nécessaires à la fabrication."
+      }
+    }
+  }
+}

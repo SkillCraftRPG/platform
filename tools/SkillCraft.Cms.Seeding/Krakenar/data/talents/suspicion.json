@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8ede9dff-faf5-49b9-88c0-ac8963ba83dc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "suspicion",
+    "DisplayName": "Suspicion",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"93dbef75-5f50-4462-bd9b-43303b781443\"]",
+      "RequiredTalent": "[\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "suspicion",
+      "DisplayName": "Suspicion",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "suspicion",
+        "Summary": "Permet de percer les mensonges et détecter les émotions cachées.",
+        "HtmlContent": "Lorsque le personnage effectue un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) afin de déterminer si une créature dit la vérité, le joueur peut rejouer le test avant d’en connaître le résultat. Il utilise le résultat de son choix.\n\nÉgalement, le personnage peut observer ou interagir avec une créature pendant [une minute](/regles/aventure/temps) afin de déterminer son humeur, ou si elle est influencée par un [effet surnaturel](/regles/combat/conditions/charme). Il peut également utiliser cette capacité par une [action](/regles/combat/deroulement/tour) ([Jugement](/regles/combat/activites/jugement)) s’il peut examiner de près la cible en la tâtant et en sentant son odeur.",
+        "MetaDescription": "Découvrez le talent Suspicion, qui permet de percer les mensonges et de détecter les émotions, intentions ou influences surnaturelles d’autrui."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "725c5c9c-82de-42e3-8dd1-2f7b5f5efbcd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "classique",
+    "DisplayName": "Classique",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "12",
+      "Skill": "[\"ba600891-151b-44f0-a2ed-b3e3ccb10cd7\"]",
+      "Feature": "[\"0697c1bb-130b-47d3-9036-208bb0900781\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "classique",
+      "DisplayName": "Classique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "classique",
+        "Summary": "Éducation érudite, savoir étendu et réseau d’influence académique.",
+        "HtmlContent": "Peu peuvent se vanter d’avoir reçu une éducation traditionnelle comme celle du personnage.\n\nIl a suivi un parcours scolaire conforme et sans dérogation ayant mené à une instruction de haute qualité.\n\nMalgré son manque d’expériences personnelles, son grand savoir lui permet de se débrouiller même dans les situations les plus difficiles.",
+        "MetaDescription": "Découvrez une éducation traditionnelle d’élite, fondée sur le savoir, la rigueur et un réseau d’anciens contacts utiles dans les milieux cultivés."
+      }
+    }
+  }
+}

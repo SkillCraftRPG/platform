@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d3844424-e0bd-4516-b08b-3edd8c72b805",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrainement-ii",
+    "DisplayName": "Entraînement II",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrainement-ii",
+      "DisplayName": "Entraînement II",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrainement-ii",
+        "Summary": "Augmente de façon permanente un attribut (1 ou moins).",
+        "HtmlContent": "Augmente (+1) de manière permanente un [attribut](/regles/attributs) du personnage dont la valeur était inférieure ou égale à 1 avant l’acquisition de ce talent.",
+        "MetaDescription": "Découvrez le talent Entraînement II, qui améliore définitivement un attribut faible du personnage, renforçant ses capacités physiques ou mentales."
+      }
+    }
+  }
+}

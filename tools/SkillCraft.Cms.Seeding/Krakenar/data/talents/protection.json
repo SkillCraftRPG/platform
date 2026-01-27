@@ -1,0 +1,28 @@
+﻿{
+  "Id": "f49126be-c2f2-49f3-8d2e-20cc0c140200",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "protection",
+    "DisplayName": "Protection",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"81c3ae91-c25f-481b-9628-0cc4ceb868c5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "protection",
+      "DisplayName": "Protection",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "protection",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il donne un [coup de bouclier](/regles/talents/coup-de-bouclier), les [points de dégâts](/regles/combat/degats) augmentent à [1d4/1d6/1d8](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) selon la catégorie du [bouclier](/regles/equipement/boucliers) (léger/moyen/lourd).\n- Lorsqu’il [bouscule](/regles/combat/activites/bousculer) une créature avec son bouclier, son [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n- Lorsqu’il utilise sa [réaction](/regles/combat/deroulement/tour) afin de protéger un allié avec son bouclier, si l’[attaque](/regles/combat/attaque) réussit tout de même, alors la cible ne reçoit que la moitié des points de dégâts.\n- Lorsqu’il utilise sa réaction afin d’ajouter la Défense de son bouclier à un de ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) effectué afin de réduire de moitié des points de dégâts et qu’il réussit le jet de sauvegarde, alors il ne reçoit aucun point de dégât.\n\nAfin d’utiliser ces capacités, il doit être [formé](/regles/equipement/boucliers) avec le bouclier qu’il tient.",
+        "Summary": "Renforce la défense au bouclier et protège efficacement les alliés.",
+        "MetaDescription": "Découvrez le talent Protection, qui améliore l’efficacité du bouclier, renforce la défense d’un allié et réduit les dégâts subis."
+      }
+    }
+  }
+}

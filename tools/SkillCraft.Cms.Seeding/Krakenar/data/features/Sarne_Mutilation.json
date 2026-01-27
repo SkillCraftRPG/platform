@@ -1,0 +1,21 @@
+﻿{
+  "Id": "81d82a3f-22ce-49a8-87eb-389b80772f45",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sarne_Mutilation",
+    "DisplayName": "Mutilation",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sarne_Mutilation",
+      "DisplayName": "Mutilation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) le talent [Athlétisme](/regles/talents/athletisme).\n\nÉgalement, il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses défenses en [action libre](/regles/combat/deroulement/tour) lorsqu’il [court](/regles/aventure/mouvement/types) en ligne droite sur une distance d’au moins 4,5 mètres immédiatement avant d’effectuer cette [attaque](/regles/combat/attaque). Si l’attaque réussit, il inflige [1d6 points de dégâts](/regles/combat/degats/jet) supplémentaires. Tous les [dégâts](/regles/combat/degats) infligés sont [létaux](/regles/combat/degats/letalite) et [tranchants](/regles/combat/degats/types).\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à celle du personnage, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de l’attaque effectuée par le personnage. En cas d’échec, la cible tombe [renversée](/regles/combat/conditions/renverse) au sol.\n\nCette capacité peut être combinée au talent [Charge](/regles/talents/charge)."
+      }
+    }
+  }
+}

@@ -14,3 +14,6 @@ internal class Program
     host.Run();
   }
 }
+
+// TODO(fpion): Encryption Key
+// TODO(fpion): Progress Content

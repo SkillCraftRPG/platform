@@ -1,0 +1,33 @@
+﻿{
+  "Id": "33bbed9e-1279-4b0c-aed7-6ad6ea490e3b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "humain",
+    "DisplayName": "Humain",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "140+2d20",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
+      "Age": "8,15,30,55",
+      "Features": "[\"7381d243-6db4-4320-88ab-6616de4f9ab2\",\"4e069106-b461-49ae-a378-2c1fac66c81f\",\"33f9b3a7-99de-4417-924f-5668df5d3548\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "humain",
+      "DisplayName": "Humain",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "humain",
+        "Summary": "Êtres polyvalents et adaptables, maîtres de l’apprentissage rapide.",
+        "HtmlContent": "Les humains représentent le commun des mortels. Répandus sur toute la surface du monde, ils s’adaptent au climat des territoires sur lesquels ils s’installent. Leur apparence physique et leurs traits psychologiques varient grandement en fonction de leur habitat et de leurs traditions. Leur capacité d’apprentissage constitue une caractéristique qui leur est unique et qui surpasse celle des autres espèces.",
+        "NamesText": "Les humains portent généralement un prénom et un nom de famille.",
+        "MetaDescription": "Découvrez les humains : espèce adaptable et polyvalente, douée d’apprentissage accéléré, langues variées et talents flexibles pour tous les styles de jeu."
+      }
+    }
+  }
+}

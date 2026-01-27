@@ -1,0 +1,24 @@
+﻿{
+  "Id": "f4f3d40f-0e2e-4f9c-804f-ca7cc797b7e4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Troubadour_Fascination",
+    "DisplayName": "Fascination",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"e4133c80-ce3f-4816-a576-8bb851a519ab\"]",
+      "Features": "[\"59a49578-c9ec-413e-aa1a-46aa2ff7dad2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Troubadour_Fascination",
+      "DisplayName": "Fascination",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) trois [talents](/regles/talents) parmi la liste suivante : [Érudition](/regles/talents/erudition), [Hostilité perturbatrice](/regles/talents/hostilite-perturbatrice), [Mythologie](/regles/talents/mythologie) et [Provocation](/regles/talents/provocation).\nLorsqu’il joue une [Berceuse apaisante](/regles/specialisations/menestrel), il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) supplémentaires afin d’ajouter la moitié de son [Stratagème](/regles/statistiques/stratageme) aux points de [Vitalité](/regles/statistiques/vitalite) [récupérés](/regles/combat/degats/soins).\nLorsqu’il joue un [Boléro héroïque](/regles/specialisations/menestrel), la cible peut utiliser le d10 autrement. Elle peut l’ajouter aux [points de dégâts](/regles/combat/degats) infligés par une [attaque](/regles/combat/attaque) ou un [pouvoir](/regles/magie/pouvoirs) à une seule créature. Elle peut également utiliser sa [réaction](/regles/combat/deroulement/tour) afin de l’ajouter à son [Esquive](/regles/combat/attaque/esquive) lorsqu’elle est ciblée par une attaque avant de savoir si l’attaque réussit ou échoue."
+      }
+    }
+  }
+}

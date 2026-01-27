@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8d0d6200-205c-40b9-8634-89170cd8eea9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_HealingWord2",
+    "DisplayName": "Mot de guérison",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_HealingWord2",
+      "DisplayName": "Mot de guérison",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d4 additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

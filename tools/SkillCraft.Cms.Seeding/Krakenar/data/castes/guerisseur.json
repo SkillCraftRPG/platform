@@ -1,0 +1,28 @@
+﻿{
+  "Id": "f74c59c9-a678-40d5-8ac8-47cb6878d42f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "guerisseur",
+    "DisplayName": "Guérisseur",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "7d6",
+      "Skill": "[\"786e509e-ea89-4a51-b144-b84352f91b0f\"]",
+      "Feature": "[\"1c651703-22f3-4dd2-892d-b61fc66842d8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "guerisseur",
+      "DisplayName": "Guérisseur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le guérisseur est responsable du maintien et de l’amélioration de la santé de la communauté ou de la société pour laquelle il œuvre.\n\nSa clientèle est vaste : il doit soigner les citadins bourgeois, la haute noblesse, mais aussi les pauvres paysans, et parfois même les chasseurs en territoire sauvage et les soldats blessés sur un champ de bataille.",
+        "Slug": "guerisseur",
+        "Summary": "Soigneur respecté, reconnu pour ses conseils et son expertise médicale.",
+        "MetaDescription": "Découvrez la caste du Guérisseur, maître de la médecine et du soin, dont la notoriété médicale inspire confiance et ouvre les portes de toutes classes."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "797df013-dc89-4ccb-8959-40ee174fbf81",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Frisson_Fear",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9477c73d-443e-41b2-9896-0561572876c3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Frisson_Fear",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage évoque un mot d’effroi en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision).\n\nLes morts-vivants, constructions et créatures immunisées à la peur ne sont pas affectées.\n\nSi la cible échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline), alors elle est [apeurée](/regles/combat/conditions/apeure) par le personnage pendant la durée du pouvoir.\n\nElle peut répéter le jet de sauvegarde à la fin de chacun de ses [tours](/regles/combat/deroulement/tour), mettant fin à l’effet si elle réussit."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ebef8be0-23d3-416a-81b4-ce86ab43904a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "marchand",
+    "DisplayName": "Marchand",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "8d6",
+      "Skill": "[\"a6995524-b7b5-4511-8790-ef0e3b687442\"]",
+      "Feature": "[\"5a009ec8-7f50-4179-aaa3-e881134b0af1\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "marchand",
+      "DisplayName": "Marchand",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "marchand",
+        "HtmlContent": "Propriétaire d’une boutique ou vendeur ambulant, le marchand est un des derniers maillons de la chaîne de production de sa société.\n\nSa profession requiert de sa part une excellente communication ainsi qu’un bon sens d’analyse afin de s’assurer de la qualité des produits vendus.",
+        "Summary": "Négociateur habile, il échange, analyse et tisse des relations utiles.",
+        "MetaDescription": "Découvrez la caste du Marchand, expert en communication et en analyse, capable de négocier, commercer et tisser des liens dans tous les milieux."
+      }
+    }
+  }
+}

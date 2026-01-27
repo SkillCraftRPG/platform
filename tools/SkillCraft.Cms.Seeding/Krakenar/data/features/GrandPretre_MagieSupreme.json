@@ -1,0 +1,21 @@
+﻿{
+  "Id": "339611b3-edfc-4cb2-bf8b-80edd1997598",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GrandPretre_MagieSupreme",
+    "DisplayName": "Magie suprême",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GrandPretre_MagieSupreme",
+      "DisplayName": "Magie suprême",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) associé à son [domaine divin](/regles/domaines/divins) et infligeant des [points de dégâts](/regles/combat/degats), il peut ajouter ses [Sens](/regles/attributs/sens) (minimum&nbsp;1) aux points de dégâts infligés."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "7a8e3824-57a5-44e3-ad85-d2443f72ca4c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "furtivite",
+    "DisplayName": "Furtivité",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"68f61feb-b81f-45bd-8de7-7ee6389b47aa\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "furtivite",
+      "DisplayName": "Furtivité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "furtivite",
+        "Summary": "Permet de se cacher lorsqu’on est légèrement obscurci.",
+        "HtmlContent": "Permet au personnage de tenter de [se cacher](/regles/combat/activites/cacher) d’une créature qui le voit lorsqu’il est [légèrement obscurci](/regles/aventure/environnement/vision).",
+        "MetaDescription": "Découvrez le talent Furtivité, qui permet de se cacher des ennemis visibles lorsqu’on est légèrement obscurci, en usant de discrétion et de ruse."
+      }
+    }
+  }
+}

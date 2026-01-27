@@ -1,0 +1,28 @@
+﻿{
+  "Id": "1326391b-d2d3-463e-9fa3-5c2242b5f17c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "duelliste",
+    "DisplayName": "Duelliste",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"2e928d87-34eb-4a26-8dd0-453c021fda61\"]",
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"b94abe2c-7691-419d-af10-7cea5747bb52\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"fec766e0-1278-4091-876e-4f03b4964ff5\",\"66def333-62b6-414d-b35a-d80ae0207140\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "duelliste",
+      "DisplayName": "Duelliste",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Bretteur agile et hardi, alliant panache, précision et audace en duel.",
+        "Slug": "duelliste",
+        "HtmlContent": "Doté de la grâce d’un chat, rugissant comme un lion, rapide comme un lynx, le duelliste bondit d’un adversaire à un autre au combat et provoque ou manipule adroitement pendant une joute diplomatique. Sa cape virevolte et son chapeau plumé danse en suivant ses mouvements. Ses mots précis font naître des émotions d’espoir et de courage, ou au contraire, ses insultes justes piquent au vif ses belligérants. Il est doté d’un humour audacieux et sa réputation exhibe son élégance. Il est parfois vu comme un héros romantique, parfois comme un imprudent, un téméraire et un saboteur.",
+        "MetaDescription": "Découvrez le Duelliste, bretteur élégant et téméraire, maître de l’escrime, des provocations fines et des attaques rapides capables de renverser un combat."
+      }
+    }
+  }
+}

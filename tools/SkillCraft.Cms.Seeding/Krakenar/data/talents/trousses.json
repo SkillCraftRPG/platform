@@ -1,0 +1,28 @@
+﻿{
+  "Id": "a8d60fd0-9754-4179-ad92-1cfcaa0df43a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "trousses",
+    "DisplayName": "Trousses",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "trousses",
+      "DisplayName": "Trousses",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "trousses",
+        "Summary": "Permet d’utiliser les outils de déguisement et de falsification.",
+        "HtmlContent": "Le personnage est formé à l’utilisation de la [trousse de déguisement](/regles/equipement/outils) ([Tromperie](/regles/competences/tromperie)) et de la [trousse de falsification](/regles/equipement/outils) ([Linguistique](/regles/competences/linguistique)).\n\nLorsqu’il utilise une de ces trousses, il peut le faire par un [test](/regles/competences/tests) de [Roublardise](/regles/competences/roublardise) plutôt que par un test de Tromperie ou de Linguistique.",
+        "MetaDescription": "Découvrez le talent Trousse, qui forme à l’usage des outils de déguisement et de falsification, pour manipuler objets et documents avec ruse."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a617f987-f003-4f92-a69a-6686e560098a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "grossier",
+    "DisplayName": "Grossier",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "grossier",
+      "DisplayName": "Grossier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "grossier",
+        "HtmlContent": "L’apparence et les manières du personnage sont naturellement désagréables.\n\nSon éloquence laisse également à désirer : il est affligé de graves bégaiements ou d’autres problèmes de prononciation évidents.\n\nSes [tests](/regles/competences/tests) de [Diplomatie](/regles/competences/diplomatie), de [Représentation](/regles/competences/representation) et de [Tromperie](/regles/competences/tromperie) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Summary": "Maladroit et peu éloquent, subit un désavantage social.",
+        "MetaDescription": "Découvrez le handicap Grossier, qui réduit les talents sociaux et rend le personnage maladroit et désagréable."
+      }
+    }
+  }
+}

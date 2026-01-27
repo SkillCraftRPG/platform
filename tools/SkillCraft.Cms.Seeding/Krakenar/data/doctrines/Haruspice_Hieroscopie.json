@@ -1,0 +1,25 @@
+﻿{
+  "Id": "f77e997b-b6b2-43b3-9ac3-27e51a14db98",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Haruspice_Hieroscopie",
+    "DisplayName": "Hiéroscopie",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"9a72eb55-a360-4ccb-b62b-069810f171fe\"]",
+      "Features": "[\"66b80472-5273-408b-8c64-c3e02c702069\"]",
+      "DiscountedTalents": "[\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Haruspice_Hieroscopie",
+      "DisplayName": "Hiéroscopie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l'élément Esprit ([Nécromancie](#)) et acquiert gratuitement un de ces pouvoirs.\nIl peut désormais utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+      }
+    }
+  }
+}

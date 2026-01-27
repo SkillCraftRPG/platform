@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6f0caed3-3d02-4369-835f-af58423155bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Soldat_ArdeurAuCombat",
+    "DisplayName": "Ardeur au combat",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Soldat_ArdeurAuCombat",
+      "DisplayName": "Ardeur au combat",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En situation de [combat](/regles/combat), permet au personnage de dépenser 15, 30 ou 45 points d’[Énergie](/regles/statistiques/energie) à la fin de son [tour](/regles/combat/deroulement/tour).\n\nPour chaque tranche de 15 points d’Énergie dépensés, il peut effectuer une [action](/regles/combat/deroulement/tour) supplémentaire pendant ce tour.\n\nIl peut effectuer un total de 3 actions supplémentaires, et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer cette capacité."
+      }
+    }
+  }
+}

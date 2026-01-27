@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6694982d-66a3-49d0-9857-7a01ead402c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "magelame",
+    "DisplayName": "Magelame",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "OptionalTalents": "[\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"1b374cfe-6709-43e4-a6d9-61c637e0c8a4\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "magelame",
+      "DisplayName": "Magelame",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "magelame",
+        "Summary": "Combattant mystique mêlant arcanes et combat avec des armes d’énergie.",
+        "HtmlContent": "Les magelames forment un ordre d’Astromanciens ne sacrifiant nullement les arts martiaux, alliant la maîtrise des arcanes à celle de l’épée. Le magelame possède une ou plusieurs armes vibrant d’une énergie mystique, lui permettant d’incarner une tempête sur le champ de bataille. Ceux qui osent l’affronter peuvent difficilement prédire si le prochain coup sera celui de son arme ou une puissante déflagration énergétique. Il est un véritable tourbillon de lumière et de métal.",
+        "OtherRequirements": "Le personnage doit avoir acquis le talent [Formation martiale](/regles/talents/formation-martiale).\nIl doit également avoir acquis la spécialisation [Astromancien](/regles/specialisations/astromancien).\nIl ne doit pas avoir acquis la spécialisation [Mage](/regles/specialisations/mage).",
+        "OtherOptions": "Pouvoirs de tiers 1 d’[astromancie](#) appartenant au cercle d’Abjuration.",
+        "MetaDescription": "Découvrez le Magelame, un guerrier mystique liant arts martiaux et arcanes pour manier des armes d’énergie et dominer le champ de bataille."
+      }
+    }
+  }
+}

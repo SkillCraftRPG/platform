@@ -1,0 +1,28 @@
+﻿{
+  "Id": "7f59aab9-2398-4b3d-be64-3be095114f51",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-incapacitante",
+    "DisplayName": "Attaque incapacitante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"f97bed18-fa69-4dfc-86c5-d0759a26732a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-incapacitante",
+      "DisplayName": "Attaque incapacitante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-incapacitante",
+        "Summary": "Inflige des coups non létaux et affaiblit fortement la cible.",
+        "HtmlContent": "Lorsque le personnage effectue une attaque neutralisante, il peut tenter de pénaliser davantage sa cible.\n\nIl dépense 15 points d’[Énergie](/regles/statistiques/energie) supplémentaires, pour un total de 30, avant de savoir si l’[attaque](/regles/combat/attaque) réussit ou échoue.\n\nSi l’attaque réussit, l’entièreté des [points de dégâts](/regles/combat/degats) sont convertis en [dégâts non létaux](/regles/combat/degats/letalite).\n\nLa cible reçoit des pénalités additionnelles si elle obtient un [échec critique](/regles/competences/tests/critique) à un de ses [jets de sauvegarde](/regles/competences/tests/sauvegarde), ou si son [dé de Damnation](/regles/competences/tests/2d10) est supérieur à son [dé d’Espérance](/regles/competences/tests/2d10). Ces pénalités sont supplémentaires à celles spécifiées par l’attaque neutralisante.\n\n- Si elle échoue n’importe lequel des jets de sauvegarde, ses [tests](/regles/competences/tests) de [compétence](/regles/competences) et d’attaque sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).\n- Si elle échoue le jet de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme) de cette manière, sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite de moitié jusqu’à la fin de son prochain tour.\n- Si elle échoue le jet de sauvegarde de [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance) de cette manière, elle est [incapable](/regles/combat/conditions/incapable) jusqu’à la fin de son prochain tour.\n- Si elle échoue les deux jets de sauvegarde, elle est [paralysée](/regles/combat/conditions/paralyse) jusqu’à la fin de son prochain tour.",
+        "MetaDescription": "Découvrez le talent Attaque incapacitante, permettant d’infliger des coups non létaux et d’affaiblir durablement les ennemis."
+      }
+    }
+  }
+}

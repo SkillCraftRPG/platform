@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5346f2ab-fc5d-4820-b552-4f89487323f0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Illusionniste_IllusionMajeure",
+    "DisplayName": "Illusion majeure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Illusionniste_IllusionMajeure",
+      "DisplayName": "Illusion majeure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [canalise](/regles/combat/activites/canaliser) le pouvoir [Hallucination](#), il peut produire simultanément un effet visuel et un effet sonore en une seule [canalisation](/regles/magie/pouvoirs/canalisation).\n\nÉgalement, lorsqu’il canalise une [illusion](#) dont la durée est supérieure ou égale à [une minute](/regles/aventure/temps), alors il peut modifier cette illusion une fois par [tour](/regles/combat/deroulement/tour) par une [action](/regles/combat/deroulement/tour).\n\nIl doit [voir](/regles/aventure/environnement/vision) son illusion afin d’en faire ainsi et doit respecter les caractéristiques décrites par le [pouvoir](/regles/magie/pouvoirs/canalisation)."
+      }
+    }
+  }
+}

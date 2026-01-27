@@ -1,0 +1,24 @@
+﻿{
+  "Id": "9633349b-8bb9-4bf7-8f46-59d738c9fd50",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Animiste_Animisme",
+    "DisplayName": "Animisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"f8f5ac5a-e082-49c1-a4f6-4f30e9c6646a\"]",
+      "Features": "[\"31c8550e-6451-4f70-beb5-89cdbbc9d169\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Animiste_Animisme",
+      "DisplayName": "Animisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 1 spécifique à son [domaine d’animisme](/regles/domaines/animisme)."
+      }
+    }
+  }
+}

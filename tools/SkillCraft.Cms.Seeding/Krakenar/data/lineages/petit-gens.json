@@ -1,0 +1,33 @@
+﻿{
+  "Id": "f8e9eccf-0355-4fe1-81c0-11973747b4f9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "petit-gens",
+    "DisplayName": "Petit-Gens",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:4",
+      "SizeCategory": "[\"Small\"]",
+      "SizeRoll": "80+2d10",
+      "Weight": "11+1d4,15+1d4,19+1d6,25+1d6,31+1d8",
+      "Age": "10,20,55,100",
+      "Features": "[\"1b07cfb6-337d-4067-99e9-0f472b671a2d\",\"d7a918d3-7a2d-4547-882b-4d043ba342a9\",\"ef97d709-e880-4a3d-9afd-75f905e9dce1\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "petit-gens",
+      "DisplayName": "Petit-Gens",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "petit-gens",
+        "Summary": "Petit-Gens agiles et chanceux, petits humanoïdes habiles et vifs.",
+        "HtmlContent": "Les Petit-Gens sont des humanoïdes de petite taille au gabarit similaire à celui des [elfes](/regles/especes/elfe). Sveltes et élancés, leurs oreilles sont courtes et pointues. Malgré ces ressemblances, ils partagent plutôt leurs origines avec les [nains](/regles/especes/nain), ce qui explique leurs nombreux talents, leur affinité avec les collines et les montagnes, ainsi que leur amour des objets brillants ou précieux. Leur corps se meut facilement et ils sont incroyablement habiles. La chance semble leur sourire lorsqu’ils en ont le plus besoin. Craintifs envers les inconnus et le danger, ils sont néanmoins de bons vivants et apprécient le succès et la victoire.",
+        "NamesText": "Les Petit-Gens ne portent pas de nom de famille.\n\nIls portent souvent un surnom court, composé de 2 ou 3 mots qui décrivent bien les décrivent bien.\n\nIl n’est pas rare que ce surnom soit transmis à leurs descendants, de la même manière qu’un nom de famille, si ce surnom s’applique également à ces descendants.",
+        "MetaDescription": "Découvrez les Petit-Gens : humanoïdes agiles et chanceux, proches des nains, habiles, prudents mais audacieux face à l’adversité."
+      }
+    }
+  }
+}

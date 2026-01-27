@@ -1,0 +1,26 @@
+﻿{
+  "Id": "4e58d109-8f36-40cd-9d6f-646b0d0d4256",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vignes-epineuses",
+    "DisplayName": "Vignes épineuses",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vignes-epineuses",
+      "DisplayName": "Vignes épineuses",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Fouet de ronces, zone entravante ou ronces camouflées infligeant des dégâts.",
+        "MetaDescription": "Découvrez Vignes épineuses, un pouvoir druidique qui fouette, entrave ou blesse les créatures grâce à des ronces et plantes animées surgissant du sol.",
+        "HtmlContent": "Pouvoir végétal invoquant un fouet épineux, des vignes saisissantes ou des ronces camouflées qui ralentissent, restreignent ou blessent les créatures prises dans la zone.",
+        "Slug": "vignes-epineuses"
+      }
+    }
+  }
+}

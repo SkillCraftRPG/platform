@@ -1,0 +1,30 @@
+﻿{
+  "Id": "735d2706-44ad-42ae-bce8-2b799dfe93a7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Affaiblissement_InflictWounds",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Affaiblissement_InflictWounds",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de toucher une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si l’[attaque](/regles/magie/effets/attaque) réussit, elle inflige [3d10 points de dégâts](/regles/combat/degats/jet) [nécrotiques](/regles/combat/degats/types) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

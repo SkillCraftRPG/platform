@@ -1,0 +1,21 @@
+﻿{
+  "Id": "de7b1429-9ba5-4284-9b7a-64486a67d9b2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sarne_Defenses",
+    "DisplayName": "Défenses",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sarne_Defenses",
+      "DisplayName": "Défenses",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté de redoutables défenses. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses défenses par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

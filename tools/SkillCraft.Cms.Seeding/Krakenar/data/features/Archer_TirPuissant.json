@@ -1,0 +1,21 @@
+﻿{
+  "Id": "01e353af-16ed-43d5-9106-94d561bba842",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Archer_TirPuissant",
+    "DisplayName": "Tir puissant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Archer_TirPuissant",
+      "DisplayName": "Tir puissant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il effectue l’activité [Viser et tirer](/regles/combat/activites/viser-tirer), il peut cibler deux créatures par une même [attaque](/regles/combat/attaque) en dépensant 10 points d’[Énergie](/regles/statistiques/energie).\n\nCes deux créatures doivent être situées à 1,5 mètres l’une de l’autre, elles doivent se trouver dans la [portée](/regles/equipement/armes/proprietes) de l’[arme](/regles/equipement/armes), et une de ces créatures doit être placée derrière l’autre, de manière qu’elles se trouvent toutes deux dans la ligne de mire du personnage.\n\nLe même [test](/regles/competences/tests) d’attaque et le même [jet de dégâts](/regles/combat/degats/jet) sont utilisés contre ces deux créatures."
+      }
+    }
+  }
+}

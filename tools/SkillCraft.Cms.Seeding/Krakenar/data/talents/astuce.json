@@ -1,0 +1,29 @@
+﻿{
+  "Id": "e434855f-3fac-4ff0-bca9-8807ec4ca19d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "astuce",
+    "DisplayName": "Astuce",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"70c5ac59-ed69-42e7-aa17-2720d98ae81a\"]",
+      "RequiredTalent": "[\"6c169831-5295-45ee-a1fc-f77d8ee92b23\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "astuce",
+      "DisplayName": "Astuce",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "astuce",
+        "Summary": "Furtivité accrue, méfaits cachés et actions répétées avec adresse.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il est [dissimulé](/regles/combat/activites/cacher) d’une créature, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Roublardise](/regles/competences/roublardise) effectués contre cette créature.\n- Lorsqu’il [dissimule un méfait](/regles/talents/mefait-feutre), les tests de [Perception](/regles/competences/perception) et d’[Investigation](/regles/competences/investigation) effectués afin de détecter le méfait sont affligés du désavantage.\n- Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il effectue une l’activité [Objet](/regles/combat/activites/objet) ou une activité requérant un test de Roublardise, alors il peut effectuer exactement la même action une seconde fois en [action libre](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez le talent Astuce : avantages en furtivité, méfaits difficiles à détecter et actions duplicables pour les experts de la roublardise."
+      }
+    }
+  }
+}

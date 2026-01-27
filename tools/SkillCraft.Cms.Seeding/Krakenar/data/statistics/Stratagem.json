@@ -1,0 +1,26 @@
+﻿{
+  "Id": "40134f6c-4de0-40e5-8a60-e73b1c5f8e34",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stratagem",
+    "DisplayName": "Stratagème",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"781cd30c-4341-4083-9d9e-a42c4104f7a6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stratagem",
+      "DisplayName": "Stratagème",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "stratageme",
+        "Summary": "Mesure la ruse et la stratégie, ajoutant des dégâts intellectuels.",
+        "HtmlContent": "Le **Stratagème** représente l’impact des attaques physiques astucieuses du personnage.\n\nElle est ajoutée aux [points de dégâts](/regles/combat/degats) infligés lorsqu’une de ces attaques est réussie.\n\nL’équation suivante calcule le Stratagème d’une créature :\n\n<code>Stratagème = 5 + (Intellect × 2)</code>",
+        "MetaDescription": "Découvrez le Stratagème, la statistique qui mesure la ruse et l’ingéniosité, ajoutant des dégâts aux attaques basées sur l’intellect et la stratégie."
+      }
+    }
+  }
+}

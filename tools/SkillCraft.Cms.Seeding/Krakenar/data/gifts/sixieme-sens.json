@@ -1,0 +1,24 @@
+﻿{
+  "Id": "8d33b0fa-8670-47b8-bcdd-a2ee3444fb75",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sixieme-sens",
+    "DisplayName": "Sixième sens",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sixieme-sens",
+      "DisplayName": "Sixième sens",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sixieme-sens",
+        "HtmlContent": "Une fois par jour, en [action libre](/regles/combat/deroulement/tour), le personnage peut activer son sixième sens pendant une période de [10 minutes](/regles/aventure/temps).\n\nPendant cette période, par une [action](/regles/combat/deroulement/tour), il peut voir un faible aura autour de tout objet magique ou toute créature magique située à 9 mètres ou moins de sa position jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour).\n\nÉgalement, une fois par jour, il peut [Faire 20](/regles/competences/tests/faire-20) à un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition).\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces capacités.",
+        "Summary": "Perçoit les auras magiques et anticipe par instinct.",
+        "MetaDescription": "Découvrez le don Sixième sens, qui accorde une perception magique temporaire des auras et un instinct affûté."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "73bf30d0-02e8-4b97-ab9e-d07408a5b675",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "initiative-superieure",
+    "DisplayName": "Initiative supérieure",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"10b43316-6e48-4336-a446-a58475c6fa6a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "initiative-superieure",
+      "DisplayName": "Initiative supérieure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "initiative-superieure",
+        "HtmlContent": "Confère au personnage un bonus permanent (+3) à l’[Initiative](/regles/statistiques/initiative).\n\nÉgalement, lorsqu’il effectue un [test d’Initiative](/regles/combat/deroulement/initiative), il peut jeter 2d10 et conserver le dé de son choix.",
+        "Summary": "Renforce vos réflexes et améliore vos jets d’initiative en combat.",
+        "MetaDescription": "Découvrez le talent Initiative supérieure, qui augmente vos réflexes et vos chances d’agir avant vos adversaires en combat."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "c3fe7488-7720-4616-90f5-2ce0c2d08325",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResistanceElementaire_AbsorbElements_Self",
+    "DisplayName": "Objection",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "1",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResistanceElementaire_AbsorbElements_Self",
+      "DisplayName": "Objection",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une cape miniature.",
+        "HtmlContent": "Lorsque le personnage reçoit des [points de dégâts](/regles/combat/degats) élémentaires ([acide, électricité, feu, froid ou tonnerre](/regles/combat/degats/types)), il absorbe une portion des points de dégâts reçus.\n\nIl devient [résistant](/regles/combat/degats/efficacite) à ce type de dégâts à partir du moment où le pouvoir prend effet et jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). Jusqu’à la fin de son prochain tour, la prochaine [attaque](/regles/combat/attaque) qu’il réussit inflige 1d6 points de dégâts supplémentaires du type absorbé, additionnés à la moitié de sa [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

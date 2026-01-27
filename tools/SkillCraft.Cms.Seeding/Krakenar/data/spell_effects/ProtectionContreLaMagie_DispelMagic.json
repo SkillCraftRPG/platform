@@ -1,0 +1,30 @@
+﻿{
+  "Id": "8c1ac5a8-5ac8-486b-b009-b7e257ee5d4a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLaMagie_DispelMagic",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ace29da4-7f8f-4188-b83b-257df2361551\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLaMagie_DispelMagic",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ce pouvoir peut être [canalisé](/regles/magie/pouvoirs/canalisation) à un [niveau](/regles/magie/pouvoirs/niveau) compris entre 3 et 7, si le [tiers](/regles/personnages/progression/tiers) du personnage le permet.\n\nLe personnage désigne une créature, un objet ou un effet surnaturel dont il est certain de l’existence.\n\nTout [pouvoir](/regles/magie/pouvoirs) affectant le cible, dont le niveau est inférieur ou égal au niveau canalisé de ce pouvoir, est dissipé et prend immédiatement fin.\n\nPour chaque pouvoir de niveau supérieur, le personnage effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) de [difficulté](/regles/competences/tests/difficulte) égale à 20 + niveau du pouvoir. En cas de réussite, le pouvoir est dissipé et prend immédiatement fin."
+      }
+    }
+  }
+}

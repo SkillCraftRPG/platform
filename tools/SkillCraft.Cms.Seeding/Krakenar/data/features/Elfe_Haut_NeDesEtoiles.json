@@ -1,0 +1,21 @@
+﻿{
+  "Id": "641d8c6d-b9a3-43d4-af18-bab179f79e7d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Haut_NeDesEtoiles",
+    "DisplayName": "Né des étoiles",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Haut_NeDesEtoiles",
+      "DisplayName": "Né des étoiles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage [acquiert](/regles/magie/pouvoirs/acquisition) gratuitement un [pouvoir](/regles/magie/pouvoirs) de tiers 0 d’[astromancie](#) et un des [signes astrologiques](#) associés au pouvoir.\n\nIl est né alors que cette constellation était à son paroxysme dans le ciel et lui accorde une importance significative.\n\nIl porte probablement un exemplaire de ce signe sur lui, par exemple un tatouage, un maquillage, une broderie, un bijou."
+      }
+    }
+  }
+}

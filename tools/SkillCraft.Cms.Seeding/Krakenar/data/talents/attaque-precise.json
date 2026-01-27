@@ -1,0 +1,28 @@
+﻿{
+  "Id": "9f0c90cc-29b8-4fb6-b4c8-fe930b3042d7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-precise",
+    "DisplayName": "Attaque précise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"29265217-194b-4aa1-b812-2fca7b9bc390\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-precise",
+      "DisplayName": "Attaque précise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-precise",
+        "HtmlContent": "Le personnage peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) par deux [actions](/regles/combat/deroulement/tour) plutôt qu’une.\n\nL’[attaque](/regles/combat/attaque) doit être effectuée par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee), et il doit manier une [arme](/regles/equipement/armes) à une main pour laquelle il est [formé](/regles/equipement/armes/formation).\n\nLorsqu’il en fait ainsi, il bénéficie de :\n\n- Bonus (+5) à son test d’attaque.\n- Bonus d’un [dé de dégâts](/regles/combat/degats/jet).\n- Les [points de dégâts](/regles/combat/degats) infligés ignorent la [résistance](/regles/combat/degats/efficacite) de la cible.",
+        "Summary": "Renforce les attaques de mêlée avec précision et puissance accrue.",
+        "MetaDescription": "Découvrez le talent Attaque précise, qui améliore les frappes de mêlée en ajoutant puissance, précision et pénétration des résistances ennemies."
+      }
+    }
+  }
+}

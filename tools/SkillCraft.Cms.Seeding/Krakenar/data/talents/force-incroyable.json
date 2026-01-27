@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5815f9d0-9e4c-426f-b103-0490535796cc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "force-incroyable",
+    "DisplayName": "Force incroyable",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"21877dfa-439f-4dce-8235-556d311e1c54\"]",
+      "RequiredTalent": "[\"973edb2d-facb-473b-9fe9-cb59fce38349\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "force-incroyable",
+      "DisplayName": "Force incroyable",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "force-incroyable",
+        "Summary": "Accroît la force, l’endurance et la puissance des armes maniées.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il est dans l’eau, il peut [traîner une autre créature](/regles/equipement/encombrement) avec lui sans subir de pénalité à sa [vitesse](/regles/aventure/mouvement/vitesse) de nage. La [taille](/regles/especes/taille) de la créature doit être d’au plus une catégorie supérieure à la sienne.\n- Il peut [escalader](/regles/competences/athletisme) des surfaces horizontales, tel un plafond, comme si elles étaient verticales.\n- Lorsqu’il combat en maniant à une main une [arme](/regles/equipement/armes) possédant la propriété [Versatile](/regles/equipement/armes/proprietes), il inflige les [points de dégâts](/regles/combat/degats) de l’arme comme si elle était maniée à deux mains.",
+        "MetaDescription": "Découvrez le talent Force incroyable, qui augmente la puissance physique, la nage, l’escalade et la maîtrise des armes polyvalentes."
+      }
+    }
+  }
+}

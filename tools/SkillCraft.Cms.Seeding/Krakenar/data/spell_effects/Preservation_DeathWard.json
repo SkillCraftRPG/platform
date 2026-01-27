@@ -1,0 +1,31 @@
+﻿{
+  "Id": "34fa94b7-3b74-4250-80f9-554d0e1ac539",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Preservation_DeathWard",
+    "DisplayName": "Garde vitale",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"885ad842-47ea-43b5-9cd3-361fee8631d6\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Preservation_DeathWard",
+      "DisplayName": "Garde vitale",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de terre issue d’un cimetière.",
+        "HtmlContent": "Le personnage touche une créature consentante et lui place une garde contre la [mort](/regles/combat/mort-agonie). Si les points de [Vitalité](/regles/statistiques/vitalite) de la cible chutent à 0 pendant la durée du pouvoir, celle-ci [récupère](/regles/combat/degats/soins) instantanément 1 point de Vitalité, évitant la mort. Le pouvoir prend ensuite fin. Une créature ne peut bénéficier que d’une seule garde vitale à la fois."
+      }
+    }
+  }
+}

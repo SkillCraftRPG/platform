@@ -1,0 +1,25 @@
+﻿{
+  "Id": "c81b0158-e4d6-465e-8af7-2a9fec4a0a3f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Duelliste_Escrime",
+    "DisplayName": "Escrime",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"1326391b-d2d3-463e-9fa3-5c2242b5f17c\"]",
+      "DiscountedTalents": "[\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"ea127043-238b-46d6-aab8-809a908f3c75\"]",
+      "Features": "[\"3b3e6ecc-0174-4c48-9f74-bc2d9cf30061\",\"36c7ac70-86a1-46d0-b0ce-28b80dc47abc\",\"dc25d4af-a842-4483-ac0d-39a2a9b36f06\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Duelliste_Escrime",
+      "DisplayName": "Escrime",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir le talent [Provocation](/regles/talents/provocation) au coût de 2 [points de talent](/regles/talents/points) plutôt que 4."
+      }
+    }
+  }
+}

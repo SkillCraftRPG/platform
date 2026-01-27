@@ -1,0 +1,28 @@
+﻿{
+  "Id": "273dcbee-6b36-43f0-b28a-bd1784ec066a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armes-a-deux-mains",
+    "DisplayName": "Armes à deux mains",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"6651cbd0-51d8-4391-8385-7207c8ed80db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armes-a-deux-mains",
+      "DisplayName": "Armes à deux mains",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armes-a-deux-mains",
+        "Summary": "Optimise les dégâts des armes à deux mains ou versatiles.",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque](/regles/combat/attaque) en maniant une [arme](/regles/equipement/armes) à deux mains, il peut relancer les [dés de dégâts](/regles/combat/degats/jet) qui tombent sur les faces 1 et 2 du dé.\n\nIl doit conserver le résultat des dés relancés, même si ceux-ci sont tombés sur les faces 1 et 2 du dé.\n\nAfin d’utiliser cette capacité, il doit tenir l’arme à deux mains, et celle-ci doit posséder la propriété [Deux mains](/regles/equipement/armes/proprietes) ou [Versatile](/regles/equipement/armes/proprietes).",
+        "MetaDescription": "Découvrez Armes à deux mains, un talent améliorant les attaques lourdes en relançant les dés de dégâts faibles avec des armes à deux mains ou versatiles."
+      }
+    }
+  }
+}

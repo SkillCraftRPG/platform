@@ -1,0 +1,31 @@
+﻿{
+  "Id": "59bc0994-f5e5-44b5-b4e5-dbc986fca211",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Multiple",
+    "DisplayName": "Résistance collective",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Multiple",
+      "DisplayName": "Résistance collective",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une gemme associée à l’élément sélectionné d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage touche un nombre de créatures consentantes inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1), et peut s’inclure dans ce nombre.\n\nIl sélectionne un [type](/regles/combat/degats/types) de [dégâts](/regles/combat/degats) élémentaires (acide, électricité, feu, froid ou tonnerre), et les créatures sélectionnées se voient conférer la [résistance](/regles/combat/degats/efficacite) aux dégâts de ce type.\n\n<table class=\"table table-striped text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-50\">Élément</th>\n      <th scope=\"col\" class=\"w-50\">Gemme</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Acide</td>\n      <td>Émeraude</td>\n    </tr>\n    <tr>\n      <td>Électricité</td>\n      <td>Topaze</td>\n    </tr>\n    <tr>\n      <td>Feu</td>\n      <td>Rubis</td>\n    </tr>\n    <tr>\n      <td>Froid</td>\n      <td>Saphir</td>\n    </tr>\n    <tr>\n      <td>Tonnerre</td>\n      <td>Ambre</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

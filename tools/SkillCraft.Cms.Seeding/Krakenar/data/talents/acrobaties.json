@@ -1,0 +1,28 @@
+﻿{
+  "Id": "081ac23a-7d82-4fab-ae4e-55692267c3d9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "acrobaties",
+    "DisplayName": "Acrobaties",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"38b875a0-6519-4c8b-bff6-02c151e6a5fe\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "acrobaties",
+      "DisplayName": "Acrobaties",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "acrobaties",
+        "Summary": "Réduit drastiquement le coût pour se relever lorsqu’on est renversé.",
+        "HtmlContent": "[Se relever](/regles/aventure/mouvement/types) ne coûte qu’un seul [point de mouvement](/regles/aventure/mouvement/vitesse).",
+        "MetaDescription": "Découvrez Acrobaties, compétence d’adresse mesurant l’équilibre, l’agilité et la maîtrise corporelle à travers figures complexes et esquives physiques."
+      }
+    }
+  }
+}

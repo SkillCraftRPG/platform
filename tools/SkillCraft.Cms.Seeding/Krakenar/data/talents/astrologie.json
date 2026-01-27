@@ -1,0 +1,28 @@
+﻿{
+  "Id": "66e561e9-ef67-4ff7-8615-121e461b9916",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "astrologie",
+    "DisplayName": "Astrologie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "astrologie",
+      "DisplayName": "Astrologie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "astrologie",
+        "Summary": "Permet d’étudier les signes célestes et d’en extraire des pouvoirs.",
+        "HtmlContent": "### Grimoire\n\nAfin de bénéficier de de talent, le personnage doit posséder un [grimoire](/regles/equipement/general) d’une valeur minimale de [50 deniers](/regles/equipement/monnaie).\n\nIl y transcrit les [signes astrologiques](#) qu’il découvre ainsi que ses observations astronomiques de ces signes.\n\nIl peut y transcrire un nombre maximal de signes astrologiques égal à 2 + [Intellect](/regles/attributs/intellect) + [rang](/regles/competences/rang) d’[Occultisme](/regles/competences/occultisme) (minimum 2).\n\nChaque fois que son rang d’Occultisme augmente, il acquiert également un signe astrologique de son choix et le transcrit gratuitement dans son grimoire.\n\n### Transcription\n\nLe personnage peut transcrire un signe astrologique dans son grimoire lorsqu’il possède une représentation exacte de ce signe (par exemple, un autre grimoire, signe gravé sur une stèle, une table d’astronomie, etc.).\n\nLe processus de transcription nécessite [deux heures](/regles/aventure/temps) consécutives pendant lesquelles le personnage s’efforce de transcrire le signe à plusieurs reprises afin de le mémoriser. Cette transcription peut s’effectuer pendant deux [haltes](/regles/aventure/repos/halte) consécutives.\n\nAfin de transcrire un signe astrologique dans son grimoire, le personnage doit consommer des composantes matérielles, par exemple de l’[encre de qualité](/regles/equipement/general), d’une valeur minimale de [100&nbsp;deniers](/regles/equipement/monnaie).\n\n### Pouvoirs\n\nLe personnage peut désormais acquérir les pouvoirs d’[astromancie](#) de tiers 0, et il acquiert gratuitement un de ces pouvoirs.\n\nIl sélectionne un des signes astrologiques associés à ce pouvoir. Il acquiert ce signe et le signe opposé, et les transcrit gratuitement dans son grimoire.",
+        "MetaDescription": "Découvrez le talent Astrologie, qui permet d’étudier et de consigner des signes astrologiques, et d’en tirer des pouvoirs d’astromancie."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "09c9e3a2-5c58-44e9-a574-06c0fa49a3b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chetif",
+    "DisplayName": "Chétif",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chetif",
+      "DisplayName": "Chétif",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "chetif",
+        "Summary": "Santé fragile : régénération réduite et résistance affaiblie.",
+        "HtmlContent": "La circulation sanguine du personnage est peu efficace, son teint est blême et sa santé est frêle.\n\nSa [régénération](/regles/aventure/repos) de [Vitalité](/regles/statistiques/vitalite) est réduite de moitié de manière permanente, et ses [tests](/regles/competences/tests) de [Résistance](/regles/competences/resistance) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "MetaDescription": "Découvrez le handicap Chétif, qui affaiblit la santé du personnage en réduisant sa régénération et en rendant ses tests de résistance plus difficiles."
+      }
+    }
+  }
+}

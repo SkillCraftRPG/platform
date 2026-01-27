@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ef97d709-e880-4a3d-9afd-75f905e9dce1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Agile",
+    "DisplayName": "Agile",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Agile",
+      "DisplayName": "Agile",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut traverser une [case occupée](/regles/aventure/mouvement/espace-occupe) par une créature hostile si la différence entre leur [taille](/regles/especes/taille) est d’au moins une catégorie.\n\nÉgalement, lorsqu’il traverse une case occupée par une créature hostile, cette case n’est pas considérée comme du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nIl peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Acrobaties](/regles/talents/acrobaties), et sa première acquisition du talent [Accélération](/regles/talents/acceleration) ne lui coûte que 2 points de talent."
+      }
+    }
+  }
+}

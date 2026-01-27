@@ -1,0 +1,21 @@
+﻿{
+  "Id": "350caa24-b15e-471a-bfba-a9415896824f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiElfe_HeritageElfique",
+    "DisplayName": "Héritage elfique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiElfe_HeritageElfique",
+      "DisplayName": "Héritage elfique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant le sommeil et l’[inconscience](/regles/combat/conditions/inconscient)."
+      }
+    }
+  }
+}

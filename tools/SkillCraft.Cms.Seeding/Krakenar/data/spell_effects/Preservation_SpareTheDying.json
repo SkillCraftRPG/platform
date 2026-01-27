@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c7efe210-856c-4082-98bc-fd8dfd3de71a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Preservation_SpareTheDying",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"885ad842-47ea-43b5-9cd3-361fee8631d6\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Preservation_SpareTheDying",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature [agonisante](/regles/combat/conditions/agonisant) et [stabilise](/regles/combat/activites/stabiliser) celle-ci. Les morts-vivants et constructions ne sont pas affectés par ce pouvoir."
+      }
+    }
+  }
+}

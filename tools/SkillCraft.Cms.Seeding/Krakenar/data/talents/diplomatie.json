@@ -1,0 +1,28 @@
+﻿{
+  "Id": "3968f65a-586b-4c4c-b71e-f888c321697d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "diplomatie",
+    "DisplayName": "Diplomatie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"2a49d787-e957-4fe0-afe7-3de5b6ebb214\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "diplomatie",
+      "DisplayName": "Diplomatie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "diplomatie",
+        "Summary": "Permet d’aider un allié et d’accroître ses talents sociaux.",
+        "HtmlContent": "Permet au personnage d’[aider](/regles/combat/activites/aider) une créature située à 4,5 mètres ou moins de sa position.",
+        "MetaDescription": "Découvrez le talent Diplomatie, qui permet d’aider une créature proche et d’améliorer sa finesse sociale pour inspirer confiance et susciter la coopération."
+      }
+    }
+  }
+}

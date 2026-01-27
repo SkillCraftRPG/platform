@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ca911841-4a4c-4933-a279-65dff54f65fe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "fermete-elementaire",
+    "DisplayName": "Fermeté élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "true",
+      "RequiredTalent": "[\"7ba4f81d-f04b-43ed-8d2e-b5d3f17e2094\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "fermete-elementaire",
+      "DisplayName": "Fermeté élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fermete-elementaire",
+        "Summary": "Résistances élémentaires renforcées et réduction fiable des dégâts magiques.",
+        "HtmlContent": "Pour chaque acquisition de ce talent, le personnage devient [résistant](/regles/combat/degats/efficacite) à un [type de dégâts](/regles/combat/degats/types) de son choix.\n\nIl doit préalablement avoir acquis le talent [Élémentarisme](/regles/talents/elementarisme) en sélectionnant l’élément associé :\n\n- Air : foudre, tonnerre\n- Eau : froid\n- Feu : feu\n- Terre : acide, poison\n- Esprit : nécrotique, radiant\n\nÉgalement, lorsqu’il tente de créer des [points d’essence élémentaire](/regles/elementarisme/essence), il bénéficie des capacités suivantes :\n\n- Il peut toujours [Faire 10](/regles/competences/tests/faire-10) au [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme).\n- Le test n’est jamais affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il réduit de moitié  les [points de dégâts magiques](/regles/combat/degats/types) reçus.",
+        "MetaDescription": "Découvrez Fermeté élémentaire : talent défensif offrant des résistances élémentaires durables et une protection accrue contre les dégâts magiques."
+      }
+    }
+  }
+}

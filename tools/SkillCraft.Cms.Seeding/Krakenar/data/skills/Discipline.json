@@ -1,0 +1,26 @@
+﻿{
+  "Id": "4153ec24-3cb6-4e5e-93e6-c80853e5688b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Discipline",
+    "DisplayName": "Discipline",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"bbc1fb7f-2637-4056-ac52-3b6b309bb256\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Discipline",
+      "DisplayName": "Discipline",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "discipline",
+        "Summary": "Renforce la volonté et la résistance physique et mentale.",
+        "HtmlContent": "La compétence Discipline permet au personnage de :\n\n- conserver son sang-froid dans une situation difficile\n- [maintenir](/regles/combat/activites/concentration) un [Pouvoir](/regles/magie/pouvoirs) actif malgré les perturbations\n- rester en position malgré une blessure ou un environnement hostile\n- résister à certaines formes d’influence surnaturelle",
+        "MetaDescription": "Découvrez la compétence Discipline, qui renforce la volonté, la résistance physique et mentale, et la stabilité face aux influences surnaturelles."
+      }
+    }
+  }
+}

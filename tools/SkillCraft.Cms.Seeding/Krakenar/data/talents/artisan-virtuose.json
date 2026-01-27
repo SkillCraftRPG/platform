@@ -1,0 +1,29 @@
+﻿{
+  "Id": "1cc8a4b4-e5af-4a51-9295-448b43304b5e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "artisan-virtuose",
+    "DisplayName": "Artisan virtuose",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"56ffe0d3-6271-4ca7-badf-d227d7785767\"]",
+      "RequiredTalent": "[\"5b25e5de-53dc-443a-b9e0-71e3c251c3c5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "artisan-virtuose",
+      "DisplayName": "Artisan virtuose",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "artisan-virtuose",
+        "Summary": "Perfection artisanale et maîtrise totale des outils spécialisés.",
+        "HtmlContent": "### Expertise\n\nLe personnage désigne trois types d’[outils d’artisan](/regles/equipement/outils) de son choix parmi ceux qu’il formé à utiliser et développe une expertise avec le type d’outils choisi.\n\nLorsqu’il utilise ce type d’outils, il peut conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) d’[Artisanat](/regles/competences/artisanat) ou y ajouter un bonus égal à son [Adresse](/regles/attributs/adresse).\n\n### Virtuose\n\nLe personnage est capable de fabriquer des objets d’une qualité s’approchant de la perfection.\n\nÀ la discrétion du maître de jeu, en augmentant jusqu’à 100 % la quantité de matériaux requis et/ou la durée de la tâche, l’objet qu’il fabrique possède des caractéristiques hors-normes, et sa valeur est bien plus grande que les autres objets semblables.\n\nPar exemple, l’objet peut être plus résistant, mieux accomplir sa tâche, ou être beaucoup plus plaisant au regard.",
+        "MetaDescription": "Découvrez le talent Artisan virtuose : expertise d’outils, créations d’exception et objets presque parfaits pour artisans chevronnés."
+      }
+    }
+  }
+}

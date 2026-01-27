@@ -1,0 +1,24 @@
+﻿{
+  "Id": "1486eebd-7e0c-41e2-ad91-625b93645403",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Bricoleur_IngeniositeMagique",
+    "DisplayName": "Ingéniosité magique",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"da1297f8-8a85-48e8-83da-e5c6c90d5dfd\"]",
+      "Features": "[\"41bf8836-a50c-4bd4-9e10-e41dc1b8efdf\",\"cccd3f97-57f7-4deb-a8cd-5a0acccd9f54\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Bricoleur_IngeniositeMagique",
+      "DisplayName": "Ingéniosité magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [bricolages magiques](#) de tiers 2 et acquiert gratuitement un de ces bricolages magiques. Afin de [canaliser](/regles/magie/pouvoirs/canalisation) ces bricolages magiques à un [niveau](/regles/magie/pouvoirs/niveau) supérieur, il doit avoir acquis le talent [Magie puissante](/regles/talents/magie-puissante) ainsi qu’une des spécialisations suivantes : [Alchimiste](/regles/specialisations/alchimiste) ou [Artificier](/regles/specialisations/artificier)."
+      }
+    }
+  }
+}

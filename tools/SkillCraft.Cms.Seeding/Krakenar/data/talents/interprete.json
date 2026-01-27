@@ -1,0 +1,29 @@
+﻿{
+  "Id": "714ef5e8-e70a-4c79-98c2-4213f1c9abfe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "interprete",
+    "DisplayName": "Interprète",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"d227627b-acc4-4483-b45a-a82729d6c415\"]",
+      "RequiredTalent": "[\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "interprete",
+      "DisplayName": "Interprète",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "interprete",
+        "Summary": "Compréhension et lecture rapides des langues proches et apparentées.",
+        "HtmlContent": "Le personnage apprend une [langue](/regles/langues) de son choix.\n\n### Discussion\n\nLorsque le personnage écoute une discussion dans une langue qu’il ne connait pas pendant [une minute](/regles/aventure/temps), si cette langue est dans la même famille linguistique qu’une des langues qu’il connait, alors il peut comprendre approximativement le sens de la discussion.\n\nIl continue à comprendre la discussion tant que la langue et le sujet discuté ne changent pas.\n\nIl peut tenter de communiquer des idées simples dans cette langue par un [test](/regles/competences/tests) de [Linguistique](/regles/competences/linguistique).\n\n### Lecture\n\nÉgalement, il peut lire un texte rédigé dans une langue qu’il ne connait pas, mais qui utilise le même alphabet et qui se trouve dans la même famille linguistique qu’une des langues qu’il connait.\n\nIl peut lire le texte à la vitesse d’un mot par seconde et en saisit approximativement la signification.",
+        "MetaDescription": "Découvrez Interprète : compréhension approximative des langues proches, lecture accélérée et communication simplifiée grâce à une maîtrise linguistique accrue."
+      }
+    }
+  }
+}

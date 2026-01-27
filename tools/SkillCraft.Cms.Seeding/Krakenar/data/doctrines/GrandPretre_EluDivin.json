@@ -1,0 +1,24 @@
+﻿{
+  "Id": "884f9d7a-0c7a-4dfd-855a-fcd633ab459a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GrandPretre_EluDivin",
+    "DisplayName": "Élu divin",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"98239036-9dd2-4738-8bed-e9f52a0b1ed0\"]",
+      "Features": "[\"e8257110-377c-4ce1-a80f-4ca1ca72fb38\",\"339611b3-edfc-4cb2-bf8b-80edd1997598\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GrandPretre_EluDivin",
+      "DisplayName": "Élu divin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl peut maintenant invoquer un [pouvoir divin](/regles/specialisations/clerc) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

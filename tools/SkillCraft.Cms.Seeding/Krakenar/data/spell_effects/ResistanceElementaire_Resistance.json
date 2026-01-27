@@ -1,0 +1,32 @@
+﻿{
+  "Id": "88d9cc18-3c55-407e-ae9d-17d094e4f12b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResistanceElementaire_Resistance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResistanceElementaire_Resistance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une cape miniature.",
+        "HtmlContent": "Le personnage touche une créature consentante. Pendant la durée du pouvoir, la cible peut ajouter 1d4 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de son choix avant d’en connaître le résultat. Le pouvoir prend ensuite fin.\n\nSi elle ajoute 1d4 à un jet de sauvegarde contre un pouvoir élémentaire (infligeant des [points de dégâts](/regles/combat/degats) d’un des [types](/regles/combat/degats/types) suivants : acide, électricité, feu, froid ou tonnerre), alors elle se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet de sauvegarde."
+      }
+    }
+  }
+}

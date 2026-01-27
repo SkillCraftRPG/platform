@@ -1,0 +1,23 @@
+﻿{
+  "Id": "6b4ce985-ad3a-45e3-8e1b-5bf68c2645bd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Eclaireur_AvantGarde",
+    "DisplayName": "Avant-garde",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"88454a0c-8521-4cba-a8e4-2a4e7886aaf3\"]",
+      "DiscountedTalents": "[\"066f198d-e331-4006-8bd9-2831aff258de\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\"]",
+      "Features": "[\"c968fa05-5d67-4ac4-ae6f-321d094d3091\",\"a0bc7b66-8b55-44fa-a7d0-f9f9d660e9d5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Eclaireur_AvantGarde",
+      "DisplayName": "Avant-garde",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

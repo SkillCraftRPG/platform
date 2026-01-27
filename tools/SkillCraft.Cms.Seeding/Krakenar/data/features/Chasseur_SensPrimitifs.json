@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1322e149-27f2-4767-a388-b471721a03d9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chasseur_SensPrimitifs",
+    "DisplayName": "Sens primitifs",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chasseur_SensPrimitifs",
+      "DisplayName": "Sens primitifs",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il ne se trouve pas en milieu urbain, le personnage peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) par une [action](/regles/combat/deroulement/tour) afin d’observer son [environnement](/regles/aventure/environnement).\n\nIl observe par exemple les traces au sol, de l’écorce griffée, une ou plusieurs carcasses, les mouvements de la faune ou encore le climat général.\n\nPour chacun des types suivants, il détermine si une créature appartenant à ce type se trouve à 1,5 kilomètres ou moins de sa position : aberration, célestiel, dragon, élémentaire, fée, infernal et mort-vivant.\n\nIl détermine seulement la présence de ces créatures, pas leur emplacement."
+      }
+    }
+  }
+}

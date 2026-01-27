@@ -1,0 +1,28 @@
+﻿{
+  "Id": "2bfe4b67-df40-4d2b-ac88-7809dd607ab8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "boheme",
+    "DisplayName": "Bohème",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "6d6",
+      "Skill": "[\"70c5ac59-ed69-42e7-aa17-2720d98ae81a\"]",
+      "Feature": "[\"9b91a934-e79c-44f1-9160-1272f59f1f9f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "boheme",
+      "DisplayName": "Bohème",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "boheme",
+        "HtmlContent": "Le bohème ne possède aucun domicile fixe ni occupation permanente.\n\nIl doit sa survie à la bonté des autres lorsqu’il mendie ou aux crimes qu’il perpètre dans les centres urbains.\n\nIl est incapable de s’intégrer à la société dont laquelle il dépend afin de survivre, il est donc fréquemment rejeté par celle-ci.",
+        "Summary": "Vagabond rusé, vivant d’expédients et de réseaux clandestins.",
+        "MetaDescription": "Découvrez la caste Bohème, marginale et rusée, vivant d’expédients, de marchés noirs et d’alliances avec les hors-la-loi pour survivre aux marges du monde."
+      }
+    }
+  }
+}

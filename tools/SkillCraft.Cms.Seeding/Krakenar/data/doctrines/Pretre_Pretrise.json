@@ -1,0 +1,24 @@
+﻿{
+  "Id": "50ca8e36-5bac-44b3-a510-b55e148ac607",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pretre_Pretrise",
+    "DisplayName": "Prêtrise",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"8d8f989a-6b50-475c-8d1a-38dcae61c61b\"]",
+      "Features": "[\"49022307-f9f6-4da4-a58f-8ca1fa376fda\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pretre_Pretrise",
+      "DisplayName": "Prêtrise",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine divin](/regles/domaines/divins).\nIl peut maintenant invoquer un [pouvoir divin](/regles/specialisations/clerc) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

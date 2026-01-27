@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e8257110-377c-4ce1-a80f-4ca1ca72fb38",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GrandPretre_InterventionDivine",
+    "DisplayName": "Intervention divine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GrandPretre_InterventionDivine",
+      "DisplayName": "Intervention divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut implorer l’aide de sa divinité par une prière personnalisée d’une durée minimale d’[une minute](/regles/aventure/temps) afin de formuler une requête.\n\nLe maître de jeu décide si la divinité lui accorde sa requête, l’ignore, ou laisse le hasard décider en jetant 1d100 (la divinité intervient si le résultat est inférieur ou égal au [niveau](/regles/personnages/progression/niveau) du personnage).\n\nSi la divinité intervient, le personnage ne peut réutiliser cette capacité pendant les 7 prochains jours. Sinon, il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

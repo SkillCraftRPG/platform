@@ -1,0 +1,34 @@
+﻿{
+  "Id": "704b828f-7ce6-4aba-8602-1c8bdec458e8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "infernon",
+    "DisplayName": "Infernon",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeRoll": "140+2d20",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
+      "Age": "8,15,40,160",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"b61b393f-91df-435a-a082-f59bb7300d99\",\"c80753c1-85f0-4faf-aa78-ee8e5bc8ef42\",\"67f264e7-57f4-4f58-a389-cefd7eba8ab6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "infernon",
+      "DisplayName": "Infernon",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "infernon",
+        "Summary": "Origine infernale, résistance et pouvoirs de feu et de ténèbres.",
+        "LanguagesText": "Le personnage apprend la langue du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
+        "HtmlContent": "L’Infernon est un [humain](/regles/especes/humain) ayant une ascendance infernale, soit un parent ou un lointain ancêtre appartenant à une espèce infernale, par exemple un démon. Cet ancêtre leur confère certains pouvoirs et une robustesse surnaturelle en lien avec leur origine ténébreuse. Physiquement, ils ressemblent en tout point aux humains. Leur teint, leur pilosité et leurs yeux sont généralement très foncés. Leur peau les trahit par de faibles reflets rougeâtres, pourpres, violacés, ou un mélange de ces couleurs, agrémentant leur beauté. Également, ils sont également trahis par certains traits infernaux lorsqu’ils apprennent à contrôler et à manifester ceux-ci. On peut retrouver des Infernons partout en Ouespéro, mais leur présence est souvent associée à de sombres présages, si bien que le commun des mortels les évite, et certains tenteront même de les éliminer.",
+        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé.\n\nSon prénom est généralement sélectionné afin d’évoquer ses origines infernales.",
+        "MetaDescription": "Découvrez l’Infernon : humain d’ascendance infernale, capable de transformations ténébreuses, pouvoirs de feu ou poison et doté d’une résistance surnaturelle."
+      }
+    }
+  }
+}

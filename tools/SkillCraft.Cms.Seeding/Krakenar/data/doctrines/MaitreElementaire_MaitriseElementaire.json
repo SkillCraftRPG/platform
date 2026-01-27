@@ -1,0 +1,24 @@
+﻿{
+  "Id": "f17050f5-0716-45d1-925a-ddf6d08fd3ee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreElementaire_MaitriseElementaire",
+    "DisplayName": "Maîtrise élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"0d5c14d0-d968-4091-be46-3d6ac3446cee\"]",
+      "Features": "[\"187a2842-754d-49d8-a5ba-6dccb51f943c\",\"db565775-3e5f-440e-bf22-6c976a8a3fda\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreElementaire_MaitriseElementaire",
+      "DisplayName": "Maîtrise élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert gratuitement un de ces pouvoirs.\nIl peut également acquérir les pouvoirs de tiers 3 associés à une [combinaison élémentaire](#) incluant sa spécialité.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 3."
+      }
+    }
+  }
+}

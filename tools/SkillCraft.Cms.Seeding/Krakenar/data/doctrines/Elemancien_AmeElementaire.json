@@ -1,0 +1,25 @@
+﻿{
+  "Id": "3d1e4471-2c2b-46df-9456-50a914d5a540",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elemancien_AmeElementaire",
+    "DisplayName": "Âme élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"42816767-12ec-4f5f-9fca-26791071cc96\"]",
+      "Features": "[\"9a1879cb-87a2-48be-b07e-a476da8671ad\",\"508fd232-1d8f-475c-94f2-b34478194ab7\"]",
+      "DiscountedTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elemancien_AmeElementaire",
+      "DisplayName": "Âme élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert gratuitement un de ces pouvoirs.\nIl peut également acquérir les pouvoirs de tiers 2 associés à une [combinaison élémentaire](#) incluant sa spécialité.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+      }
+    }
+  }
+}

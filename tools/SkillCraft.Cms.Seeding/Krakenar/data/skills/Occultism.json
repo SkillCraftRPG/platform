@@ -1,0 +1,26 @@
+﻿{
+  "Id": "f356649f-b39f-4db6-93f4-a2e0f8c2b841",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Occultism",
+    "DisplayName": "Occultisme",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"11fd3351-7937-4697-8e02-1bc5b2a61a91\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Occultism",
+      "DisplayName": "Occultisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "occultisme",
+        "Summary": "Permet d’analyser, canaliser et optimiser les forces surnaturelles.",
+        "HtmlContent": "La compétence **Occultisme** permet au personnage de :\n\n- activer ou de manipuler un objet magique\n- [canaliser](/regles/combat/activites/canaliser) un [Pouvoir](/regles/magie/pouvoirs) ou utiliser une capacité surnaturelle\n- faire des liens entre des effets magiques connus\n- identifier la nature surnaturelle d’un effet\n- s’adapter à un artefact",
+        "MetaDescription": "Découvrez la compétence Occultisme, essentielle pour comprendre, canaliser et maîtriser les phénomènes et pouvoirs surnaturels du monde magique."
+      }
+    }
+  }
+}

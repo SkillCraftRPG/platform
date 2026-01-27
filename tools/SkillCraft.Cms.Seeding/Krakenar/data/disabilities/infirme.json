@@ -1,0 +1,24 @@
+﻿{
+  "Id": "5a32e8d9-c03f-46c8-ba57-a59600718c85",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "infirme",
+    "DisplayName": "Infirme",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "infirme",
+      "DisplayName": "Infirme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "infirme",
+        "HtmlContent": "Le personnage est né dépourvu ou a perdu au cours de son passé l’usage d’un de ses bras ou d’une de ses jambes.\n\nSes [vitesses](/regles/aventure/mouvement/vitesse) sont réduites de moitié s’il s’agit d’une jambe.\n\nIl ne peut manier d’[armes](/regles/equipement/armes) à deux mains s’il s’agit d’un bras.",
+        "Summary": "Perte d’un bras ou d’une jambe limitant vitesse ou maniement.",
+        "MetaDescription": "Découvrez le handicap Infirme, qui réduit la mobilité ou empêche l’usage d’armes à deux mains selon le membre perdu ou inutilisable."
+      }
+    }
+  }
+}

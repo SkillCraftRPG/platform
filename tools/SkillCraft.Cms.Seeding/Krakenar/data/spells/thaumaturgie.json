@@ -1,0 +1,26 @@
+﻿{
+  "Id": "67cb93d4-a102-4217-8890-b1402eb5d5e3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "thaumaturgie",
+    "DisplayName": "Thaumaturgie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "thaumaturgie",
+      "DisplayName": "Thaumaturgie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "thaumaturgie",
+        "Summary": "Effets mineurs, réparation d’objets et prières soignantes pour plusieurs alliés.",
+        "MetaDescription": "Découvrez Thaumaturgie, un pouvoir polyvalent permettant petits miracles, réparations fines et prières de guérison affectant plusieurs alliés.",
+        "HtmlContent": "Pouvoir polyvalent offrant effets surnaturels mineurs, réparation précise d’objets et prières de guérison pouvant restaurer de nombreux alliés selon la puissance du lanceur."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "82f46d82-efbd-4ba0-84ba-5125f8420509",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Menestrel_BoleroHeroique",
+    "DisplayName": "Boléro héroïque",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Menestrel_BoleroHeroique",
+      "DisplayName": "Boléro héroïque",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), le personnage dépense 5 points d’[Énergie](/regles/statistiques/energie) afin de jouer un boléro inspirant la gloire à une créature qu’il peut voir, qui peut l’entendre, et qui est située à 18 mètres ou moins de sa position.\n\nCelle-ci peut ajouter 1d10 à n’importe quel [test](/regles/competences/tests) de [compétence](/regles/competences) pendant la prochaine [heure](/regles/aventure/temps), avant de savoir si le résultat est une réussite ou un échec.\n\nUne créature ne peut bénéficier que d’une seule inspiration à la fois. L’inspiration est perdue si elle n’est pas utilisée à la fin de l’heure.\n\nLe personnage peut utiliser cette capacité un nombre de fois égal à son [Intellect](/regles/attributs/intellect) (minimum 1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

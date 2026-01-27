@@ -1,0 +1,26 @@
+﻿{
+  "Id": "aff74ada-a168-48b2-9929-a79b9d17c9b4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "souffle-empoisonne",
+    "DisplayName": "Souffle empoisonné",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "souffle-empoisonne",
+      "DisplayName": "Souffle empoisonné",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "souffle-empoisonne",
+        "Summary": "Souffle toxique infligeant du poison, purge l’empoisonnement ou frappe en cône.",
+        "MetaDescription": "Découvrez Souffle empoisonné, un pouvoir toxique qui inflige des dégâts de poison, neutralise l’empoisonnement ou libère un cône venimeux dévastateur.",
+        "HtmlContent": "Pouvoir toxique variant entre souffle ciblé, purification d’un empoisonnement et exhalation en cône infligeant de lourds dégâts de poison aux créatures touchées."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b61b393f-91df-435a-a082-f59bb7300d99",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Infernon_FormeInfernale",
+    "DisplayName": "Forme infernale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Infernon_FormeInfernale",
+      "DisplayName": "Forme infernale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Chaque fois que le [tiers](/regles/personnages/progression/tiers) du personnage augmente, il acquiert une des transformations suivantes.\n\nUne fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut activer une transformation qu’il a acquise.\n\nIl peut mettre fin à la transformation par une action. La durée maximale de la transformation est d’[une minute](/regles/aventure/temps).\n\nUne fois par tour, lorsqu’il [blesse](/regles/combat/degats) une créature par une [attaque](/regles/combat/attaque) ou un [pouvoir](/regles/magie/pouvoirs) alors qu’une transformation est active, alors il peut infliger un nombre de points de dégâts de [feu](/regles/combat/degats/types) (ou de [poison](/regles/combat/degats/types) si la transformation est _Émanation ténébreuse_) égal à 2 + tiers.\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\n- **Émanation ténébreuse.** Un épais nuage de ténèbres émane de la bouche et des yeux du personnage. Il émet des [ténèbres](/regles/aventure/environnement/vision) dans un rayon de 4,5 mètres. L’effet compte comme un pouvoir de niveau 2 + [tiers](/regles/personnages/progression/tiers) du personnage. Toute créature terminant son [tour](/regles/combat/deroulement/tour) dans la zone de ténèbres reçoit un nombre de [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) égal à 2 + tiers.\n- **Voile infernal.** Les yeux du personnage s’enflamment et des ailes de feu apparaissent dans son dos. Toute créature ennemie débutant son [tour](/regles/combat/deroulement/tour) en se trouvant à 3&nbsp;mètres ou moins de la position du personnage et voyant celui-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au [test passif](/regles/competences/tests/passif) de [Représentation](/regles/competences/representation) ([Sens](/regles/attributs/sens)) de celui-ci. En cas d’échec, une créature est [apeurée](/regles/combat/conditions/apeure) par le personnage jusqu’à la fin de son tour.\n- **Âme infernale.** _(Tiers 2 ou 3)_ Une paire d’ailes spectrales et ténébreuses apparaissent dans le dos du personnage, lui conférant une [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types)."
+      }
+    }
+  }
+}

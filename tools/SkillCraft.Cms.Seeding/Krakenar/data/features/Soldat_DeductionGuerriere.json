@@ -1,0 +1,21 @@
+﻿{
+  "Id": "58543662-f9fc-420d-acdd-9f9eb6a2c4f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Soldat_DeductionGuerriere",
+    "DisplayName": "Déduction guerrière",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Soldat_DeductionGuerriere",
+      "DisplayName": "Déduction guerrière",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il n’est pas en situation de [combat](/regles/combat), le personnage peut observer ou interagir avec une créature pendant [une minute](/regles/aventure/temps).\n\nCela lui permet de déterminer si les caractéristiques suivantes de cette créature sont supérieures, inférieures ou égales aux siennes, à la discrétion du maître de jeu :\n\n- [Adresse](/regles/attributs/adresse)\n- [Santé](/regles/attributs/sante)\n- [Vigueur](/regles/attributs/vigueur)\n- [Vitalité courante et maximale](/regles/statistiques/vitalite)\n- [Énergie courante et maximale](/regles/statistiques/energie)\n- [Esquive](/regles/combat/attaque/esquive)\n- [Défense](/regles/combat/attaque/defense)"
+      }
+    }
+  }
+}

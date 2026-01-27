@@ -1,0 +1,29 @@
+﻿{
+  "Id": "74548cb7-c65b-4882-b353-5bbb0d760a7a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "fourberie",
+    "DisplayName": "Fourberie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7b327339-488b-447d-a9b3-fbaa6d65d864\"]",
+      "RequiredTalent": "[\"fec766e0-1278-4091-876e-4f03b4964ff5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "fourberie",
+      "DisplayName": "Fourberie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fourberie",
+        "Summary": "Permet de feinter et manipuler l’adversaire grâce à la tromperie.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il doit effectuer un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) [opposé](/regles/competences/tests/oppose) à un test de [Tromperie](/regles/competences/tromperie), il peut substituer son [rang](/regles/competences/rang) d’Intuition par son rang de Tromperie.\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests d’Intuition opposés à un test de Tromperie.\n- En [situation de combat](/regles/combat), par une [action](/regles/combat/deroulement/tour) et en dépensant 15 points d’[Énergie](/regles/statistiques/energie), il peut tenter une feinte contre une cible par un test de Tromperie. Si la cible échoue un test opposé d’Intuition, elle est déconcertée par la feinte. Les ennemis de la cible peuvent effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite), et la cible est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). La cible est ensuite immunisée contre cette capacité pendant les [24 prochaines heures](/regles/aventure/temps).",
+        "MetaDescription": "Découvrez le talent Fourberie, qui transforme la ruse en arme, permettant de tromper, feinter et désorienter les ennemis."
+      }
+    }
+  }
+}

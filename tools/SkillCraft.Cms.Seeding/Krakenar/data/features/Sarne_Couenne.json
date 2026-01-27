@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c32a2d74-85c0-4d13-8f9b-974f137d927e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sarne_Couenne",
+    "DisplayName": "Couenne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sarne_Couenne",
+      "DisplayName": "Couenne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer un bonus (+1) à l’[Esquive](/regles/statistiques/esquive). Il peut également substituer son [Adresse](/regles/attributs/adresse) par sa [Santé](/regles/attributs/sante) dans le calcul de son Esquive s’il le désire."
+      }
+    }
+  }
+}

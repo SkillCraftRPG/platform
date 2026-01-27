@@ -1,0 +1,29 @@
+﻿{
+  "Id": "0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "robustesse-accrue",
+    "DisplayName": "Robustesse accrue",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"5921b392-2010-4347-8492-1307291a74ef\"]",
+      "RequiredTalent": "[\"e3bb71cc-8513-4bf0-b9ad-69e158fde51b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "robustesse-accrue",
+      "DisplayName": "Robustesse accrue",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "robustesse-accrue",
+        "Summary": "Confère +10 Vitalité et une résistance accrue à la Fatigue.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 10 points de [Vitalité](/regles/statistiques/vitalite).\n\nÉgalement, il peut ignorer les effets des niveaux 1 à 3 de [Fatigue](/regles/combat/conditions/fatigue) en s’infligeant 10 [points de dégâts létaux](/regles/combat/degats/letalite) par [test](/regles/competences/tests) ou [déplacement](/regles/combat/activites/deplacement).",
+        "MetaDescription": "Découvrez le talent Robustesse accrue, conférant un bonus de 10 Vitalité et la résistance aux effets de Fatigue grâce à une endurance physique exceptionnelle."
+      }
+    }
+  }
+}

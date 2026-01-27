@@ -1,0 +1,28 @@
+﻿{
+  "Id": "6ac040b1-ce86-4577-970c-b12bf4d4c9cc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Assassin",
+    "DisplayName": "Assassin",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"3a318dfc-40ef-4d1c-ae76-9ca8c2a35565\"]",
+      "OptionalTalents": "[\"55be09ee-01f1-4ed4-a3e7-ef44c4619f2f\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"268502a7-a973-4741-874b-61354c9b3610\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"09a52559-3dd9-4556-a4e8-c222585b3b2f\",\"0b64a74b-9acf-4187-93e8-6c457fe1aa93\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Assassin",
+      "DisplayName": "Assassin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "assassin",
+        "Summary": "Égorgeur furtif, spécialiste des attaques surprises et de l’élimination.",
+        "HtmlContent": "L’assassin maîtrise l’art de la dissimulation, se tapissant dans l’ombre avec une discrétion inégalée. Il maîtrise également les sournoiseries, n’hésitant pas à utiliser des moyens considérés déshonorables mais très efficaces, par l’exemple l’usage de poisons ou encore d’attaques surprises. Certains assassins sont si efficaces qu’on leur attribue des facultés ou une origine mystique alors qu’ils sont autant mortels que leurs victimes.",
+        "MetaDescription": "Découvrez l’Assassin : maître de la dissimulation et des attaques surprises, expert en poisons, sournoiseries et éliminations rapides et fatales."
+      }
+    }
+  }
+}

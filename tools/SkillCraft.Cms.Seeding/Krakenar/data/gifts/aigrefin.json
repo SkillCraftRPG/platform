@@ -1,0 +1,24 @@
+﻿{
+  "Id": "b85b4be7-8002-4637-8735-cfb744e08f6f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "aigrefin",
+    "DisplayName": "Aigrefin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "aigrefin",
+      "DisplayName": "Aigrefin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "aigrefin",
+        "Summary": "Permet d’utiliser des objets plus librement en combat et hors combat.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Pendant son [tour](/regles/combat/deroulement/tour), il peut effectuer jusqu’à deux [interactions simples avec un objet](/regles/combat/activites/deplacement) en [action libre](/regles/combat/deroulement/tour) s’il prend plusieurs actions [Déplacement](/regles/combat/activites/deplacement).\n- Lorsqu’il entre en situation de [combat](/regles/combat) et qu’il n’est pas [surpris](/regles/combat/deroulement/surprise), il peut effectuer l’activité [Objet](/regles/combat/activites/objet) en [action libre](/regles/combat/deroulement/tour) au moment où l’[Initiative](/regles/combat/deroulement/initiative) est déterminée.\n- Lorsqu’il peut effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite), alors il peut remplacer l’[attaque](/regles/combat/attaque) par une activité [Objet](/regles/combat/activites/objet).",
+        "MetaDescription": "Découvrez Aigrefin, le don qui accorde des interactions rapides avec les objets, une action libre au début des combats et plus de flexibilité en opportunité."
+      }
+    }
+  }
+}

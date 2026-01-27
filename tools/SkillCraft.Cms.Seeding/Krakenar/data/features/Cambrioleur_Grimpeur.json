@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6ce546b9-c037-4962-a74e-389c6bbd9f28",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Cambrioleur_Grimpeur",
+    "DisplayName": "Grimpeur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Cambrioleur_Grimpeur",
+      "DisplayName": "Grimpeur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert une [vitesse](/regles/aventure/mouvement/vitesse) d’[escalade](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types).\n\nÉgalement, lorsqu’il effectue un [saut en longueur](/regles/aventure/mouvement/types) en prenant son élan, il peut parcourir une distance supplémentaire de 30 centimètres multipliés par son [Adresse](/regles/attributs/adresse) (minimum&nbsp;30&nbsp;centimètres).\n\nEnfin, il peut escalader des surfaces horizontales comme si elles étaient verticales, tel un plafond.\n\nIl ne bénéficie pas de ces capacités s’il porte une [armure lourde](/regles/equipement/armures/lourdes) ou un [bouclier lourd](/regles/equipement/boucliers)."
+      }
+    }
+  }
+}

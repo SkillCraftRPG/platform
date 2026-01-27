@@ -1,0 +1,28 @@
+﻿{
+  "Id": "b07dff39-8085-4afa-8397-ad677520bd93",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "soldat",
+    "DisplayName": "Soldat",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"c8b0b178-8436-4343-8c89-83c4ff3b9d56\"]",
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"273dcbee-6b36-43f0-b28a-bd1784ec066a\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"81c3ae91-c25f-481b-9628-0cc4ceb868c5\",\"6e31c8e4-b48c-42f3-9024-e972ac256728\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "soldat",
+      "DisplayName": "Soldat",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "soldat",
+        "Summary": "Maître du combat et des manœuvres tactiques disciplinées.",
+        "HtmlContent": "Le soldat est un professionnel hautement discipliné entraîné au combat, ardent défenseur des intérêts de l’armée qu’il a intégrée. Il est vêtu d’une armure forgée avec précision et d’armes sélectionnées avec discernement, paré de son fidèle bouclier, sans oublier son arc de prédilection ou quelques javelots. Sa force ou sa précision légendaire, son regard scrutateur, sa résilience et sa loyauté indéfectible en font un allié remarquable.",
+        "MetaDescription": "Découvrez la spécialisation Soldat, experte en combat discipliné, manœuvres tactiques et endurance martiale, symbole de puissance et de loyauté."
+      }
+    }
+  }
+}

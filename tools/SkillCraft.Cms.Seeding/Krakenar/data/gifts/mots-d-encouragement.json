@@ -1,0 +1,24 @@
+﻿{
+  "Id": "6fde608d-586b-4567-96c1-c9d2faef8933",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mots-d-encouragement",
+    "DisplayName": "Mots d’encouragement",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mots-d-encouragement",
+      "DisplayName": "Mots d’encouragement",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mots-d-encouragement",
+        "HtmlContent": "Lorsque le personnage [aide](/regles/combat/activites/aider) une créature en situation de [combat](/regles/combat), celle-ci se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à tout [test](/regles/competences/tests) jugé pertinent par le maître de jeu jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).\n\nÉgalement, lorsqu’une créature située à 9 mètres ou moins du personnage est victime d’une [attaque](/regles/combat/attaque), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’aider cette créature, affligeant du [désavantage](/regles/competences/tests/avantage-desavantage) le test de l’attaque.\n\nIl doit [voir](/regles/aventure/environnement/vision) la source de l’attaque afin d’utiliser cette capacité.",
+        "Summary": "Encourage ses alliés au combat, leur offrant soutien et protection.",
+        "MetaDescription": "Découvrez le don Mots d’encouragement, qui permet d’inspirer et protéger les alliés en combat grâce à des paroles motivantes et des réflexes héroïques."
+      }
+    }
+  }
+}

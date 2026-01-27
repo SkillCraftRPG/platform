@@ -1,0 +1,24 @@
+﻿{
+  "Id": "dc5ac805-5e16-438b-9bbf-5cae99007e68",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "abruti",
+    "DisplayName": "Abruti",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "abruti",
+      "DisplayName": "Abruti",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "abruti",
+        "Summary": "Limité, maladroit et désavantagé dans l’usage de son intellect.",
+        "HtmlContent": "Simple d’esprit et bon vivant ou complètement taré, le personnage est dénué de sens commun et n’est pas doté d’une bonne mémoire.\n\nSes [tests](/regles/competences/tests) d’[Intellect](/regles/attributs/intellect) et des [compétences](/regles/competences) associées ([Connaissance](/regles/competences/connaissance), [Investigation](/regles/competences/investigation), [Linguistique](/regles/competences/linguistique) et [Médecine](/regles/competences/medecine)) sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "MetaDescription": "Découvrez l’Abruti, un personnage simple d’esprit ou étourdi, pénalisé dans ses compétences intellectuelles et sociales les plus fines."
+      }
+    }
+  }
+}

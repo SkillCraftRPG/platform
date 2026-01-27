@@ -1,0 +1,21 @@
+﻿{
+  "Id": "bd10409d-cd26-402c-abbe-56c465a9605d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Roublard_Escarmouche",
+    "DisplayName": "Escarmouche",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Roublard_Escarmouche",
+      "DisplayName": "Escarmouche",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’une créature ennemie termine son [tour](/regles/combat/deroulement/tour) à 1,5 mètres ou moins de la position du personnage, alors celui-ci peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer un [Déplacement](/regles/combat/activites/deplacement) à la moitié de sa [vitesse](/regles/aventure/mouvement/vitesse) ou un [Pas prudent](/regles/combat/activites/pas-prudent).\n\nLe [test](/regles/competences/tests) des [attaques d’opportunité](/regles/combat/attaque/opportunite) déclenchées par ce déplacement est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "fff4d66c-fbbb-44ba-a1f6-609d642f32bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sentinelle",
+    "DisplayName": "Sentinelle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"ecd7e18e-2055-44c4-9b9d-8057af7f6dc5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sentinelle",
+      "DisplayName": "Sentinelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sentinelle",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Une créature déclenche désormais une [attaque d’opportunité](/regles/combat/attaque/opportunite) de la part du personnage lorsqu’elle effectue un [Pas prudent](/regles/combat/activites/pas-prudent).\n- Une créature déclenche une attaque d’opportunité de la part du personnage lorsqu’elle [attaque](/regles/combat/attaque) une créature différente de celui-ci.\n- Lorsque le personnage réussit une attaque d’opportunité, la cible perd sa [vitesse](/regles/aventure/mouvement/vitesse) restante si elle était en train de [se déplacer](/regles/combat/activites/deplacement).\n\nUne créature est immunisée à ces capacités si elle a également le talent Sentinelle.",
+        "Summary": "Permet d’interrompre et ralentir les ennemis lors de leurs mouvements.",
+        "MetaDescription": "Découvrez le talent Sentinelle, qui permet de bloquer, punir ou ralentir les ennemis lors d’attaques d’opportunité et de protéger ses alliés en combat."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ebb1c9e1-425c-4c56-b374-a2f6f2e1a2fc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ChampsDeBataille_ResolutionInebranlable",
+    "DisplayName": "Résolution inébranlable",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ChampsDeBataille_ResolutionInebranlable",
+      "DisplayName": "Résolution inébranlable",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ayant grandi au milieu des atrocités de la guerre, le personnage est doté d’une résolution exceptionnelle.\n\nLorsqu’il échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre un effet de [peur](/regles/combat/conditions/apeure) ou d’[étourdissement](/regles/combat/conditions/etourdi), alors il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) afin de rejouer le [test](/regles/competences/tests).\n\nAlternativement, il peut dépenser 15 points d’Énergie afin d’éviter les effets de la [Fatigue](/regles/combat/conditions/fatigue) pour un test ou [déplacement](/regles/combat/activites/deplacement).\n\nIl peut utiliser ces capacités un nombre de fois égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1), et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

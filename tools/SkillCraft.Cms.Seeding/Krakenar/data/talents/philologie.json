@@ -1,0 +1,29 @@
+﻿{
+  "Id": "17dcdec1-469d-452b-bf94-c225ddc3017a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "philologie",
+    "DisplayName": "Philologie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"d227627b-acc4-4483-b45a-a82729d6c415\"]",
+      "RequiredTalent": "[\"c95f665e-2da3-455f-a87e-2e38d4988a26\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "philologie",
+      "DisplayName": "Philologie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "philologie",
+        "Summary": "Permet d’apprendre et reconnaître les langues et textes anciens.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut désormais apprendre les [langues anciennes](/regles/langues).\n- Il apprend une langue de son choix.\n- Lorsqu’il écoute une discussion parlée dans une langue qu’il ne connait pas, il identifie néanmoins cette langue si elle appartient à la même famille linguistique qu’une des langues qu’il connait. Il peut également analyser un texte rédigé dans une langue qu’il ne connait pas pendant au moins [une minute](/regles/aventure/temps). S’il connait une langue partageant son alphabet avec la langue de rédaction du texte, alors il identifie cette langue.",
+        "MetaDescription": "Découvrez le talent Philologie, qui permet d’apprendre les langues anciennes, d’en reconnaître de nouvelles et d’analyser des textes étrangers."
+      }
+    }
+  }
+}

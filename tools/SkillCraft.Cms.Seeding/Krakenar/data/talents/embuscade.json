@@ -1,0 +1,29 @@
+﻿{
+  "Id": "4db1e8cf-f0f0-41e9-8023-2a4db68d56c1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "embuscade",
+    "DisplayName": "Embuscade",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"68f61feb-b81f-45bd-8de7-7ee6389b47aa\"]",
+      "RequiredTalent": "[\"0daa9126-6911-4cc8-a960-d0898e31c27e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "embuscade",
+      "DisplayName": "Embuscade",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "embuscade",
+        "Summary": "Optimise les attaques et déplacements furtifs.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il réussit une [attaque](/regles/combat/attaque) en étant [dissimulé](/regles/combat/attaque/dissimulee), il peut rouler deux fois les [dés de dégâts](/regles/combat/degats/jet) et conserver le résultat de son choix.\n- Lorsqu’il voit une créature tenter de [se cacher](/regles/combat/activites/cacher), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de tenter de se cacher lui aussi. Il effectue un [Pas prudent](/regles/combat/activites/pas-prudent) en direction de la créature (si possible) tout en se [jetant au sol](/regles/combat/activites/jeter-sol) avant d’effectuer son [test](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite).\n- Lorsqu’il tente de se cacher, il peut effectuer un Pas prudent en [action libre](/regles/combat/deroulement/tour) tout en se jetant au sol. Celui lui permet de rejouer le test de Furtivité, mais il doit conserver le nouveau résultat.",
+        "MetaDescription": "Découvrez le talent Embuscade, qui renforce les attaques depuis la dissimulation et permet de se cacher ou se repositionner avec agilité."
+      }
+    }
+  }
+}

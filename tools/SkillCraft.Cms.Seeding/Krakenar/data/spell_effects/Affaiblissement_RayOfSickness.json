@@ -1,0 +1,30 @@
+﻿{
+  "Id": "331a4b8d-74e9-4ba6-9957-06175e686d1e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Affaiblissement_RayOfSickness",
+    "DisplayName": "Rayon d’affaiblissement",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Affaiblissement_RayOfSickness",
+      "DisplayName": "Rayon d’affaiblissement",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage projette un rayon d’énergie verdâtre en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si l’[attaque](/regles/magie/effets/attaque) réussit, elle inflige [2d8 points de dégâts](/regles/combat/degats/jet) [nécrotiques](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage, et la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, la cible est [empoisonnée](/regles/combat/conditions/empoisonne) jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

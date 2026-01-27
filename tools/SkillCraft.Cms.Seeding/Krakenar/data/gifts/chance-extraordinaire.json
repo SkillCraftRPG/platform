@@ -1,0 +1,24 @@
+﻿{
+  "Id": "ebdcf1d3-e5d5-4a52-b6fb-f490fcdfe3c7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chance-extraordinaire",
+    "DisplayName": "Chance extraordinaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chance-extraordinaire",
+      "DisplayName": "Chance extraordinaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "chance-extraordinaire",
+        "Summary": "Confère 3 points de chance pour imiter les effets d’Espérance.",
+        "HtmlContent": "Confère 3 points de chance au personnage.\n\n- Il peut dépenser 1 point de chance afin de produire un effet équivalant à 2 [points d’Espérance](/regles/competences/esperance-damnation).\n- Il peut dépenser 2 points de chance afin de produire un effet équivalant à 4 [points d’Espérance](/regles/competences/esperance-damnation).\n- Il peut dépenser 3 points de chance afin de produire un effet équivalant à 5 [points d’Espérance](/regles/competences/esperance-damnation), avec l’approbation du maître de jeu.\n\nIl récupère ses points de chance lorsqu’il complète une [nuit de sommeil](/regles/aventure/repos/sommeil).",
+        "MetaDescription": "Découvrez le don Chance extraordinaire, qui confère 3 points de chance permettant d’imiter des effets d’Espérance et de renverser le destin du personnage."
+      }
+    }
+  }
+}

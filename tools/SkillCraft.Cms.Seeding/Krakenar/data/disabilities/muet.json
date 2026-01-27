@@ -1,0 +1,24 @@
+﻿{
+  "Id": "760f44c8-19be-4d22-b7ea-ca4d92679dd4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "muet",
+    "DisplayName": "Muet",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "muet",
+      "DisplayName": "Muet",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "muet",
+        "HtmlContent": "Les parents du personnage ne sont jamais parvenus à lui apprendre à parler convenablement.\n\nIl est complètement incapable de parler ou de formuler des phrases complètes.\n\nIl ne peut dire que quelques mots courts, simples et faciles à prononcer.\n\nSes capacités télépathiques ne sont pas affectées.\n\nIl est incapable de [canaliser](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) requérant une composante [Verbale](/regles/magie/parametres/composantes).",
+        "Summary": "Incapable de parler ou canaliser un pouvoir verbal.",
+        "MetaDescription": "Découvrez le handicap Muet, qui empêche tout discours articulé, limite la parole à quelques mots simples et préserve les capacités télépathiques."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2f561935-0b99-4247-af9e-8bf8551cffa2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SouffleEmpoisonne_PoisonSpray",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aff74ada-a168-48b2-9929-a79b9d17c9b4\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SouffleEmpoisonne_PoisonSpray",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage expire un souffle empoisonné en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si la créature échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance), elle reçoit [1d12 points de dégâts](/regles/combat/degats/jet) de [poison](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

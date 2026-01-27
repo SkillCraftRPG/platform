@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "occultisme",
+    "DisplayName": "Occultisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"f356649f-b39f-4db6-93f4-a2e0f8c2b841\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "occultisme",
+      "DisplayName": "Occultisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "occultisme",
+        "Summary": "Permet de lire, comprendre et identifier les pouvoirs surnaturels.",
+        "HtmlContent": "Le personnage est formé à l’utilisation des [parchemins](/regles/magie/pouvoirs/parchemins) de pouvoir.\n\nIl peut lire un parchemin afin de déterminer quel [pouvoir](/regles/magie/pouvoirs) est inscrit sur le parchemin, à quel [niveau](/regles/magie/pouvoirs/niveau) le pouvoir sera canalisé, et quels effets seront produits par son utilisation.\n\nÉgalement, lorsqu’il voit une créature canaliser un pouvoir, il peut déterminer en [action libre](/regles/combat/deroulement/tour) si les capacités surnaturelles de la créature sont inférieures, supérieures ou équivalentes aux siennes.",
+        "MetaDescription": "Découvrez le talent Occultisme, formant à la compréhension des phénomènes surnaturels et à l’analyse intuitive des pouvoirs et entités mystiques."
+      }
+    }
+  }
+}

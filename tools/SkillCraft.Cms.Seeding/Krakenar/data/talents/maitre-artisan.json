@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5b25e5de-53dc-443a-b9e0-71e3c251c3c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maitre-artisan",
+    "DisplayName": "Maître-artisan",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"56ffe0d3-6271-4ca7-badf-d227d7785767\"]",
+      "RequiredTalent": "[\"97bc80a5-4c5f-4e79-806f-83587553d743\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maitre-artisan",
+      "DisplayName": "Maître-artisan",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "maitre-artisan",
+        "Summary": "Optimise l’usage d’outils artisanaux et réduit le temps de fabrication.",
+        "HtmlContent": "### Expertise\n\nLe personnage désigne deux types d’[outils d’artisan](/regles/equipement/outils) de son choix parmi ceux qu’il formé à utiliser et développe une expertise avec le type d’outils choisi.\n\nLorsqu’il utilise ce type d’outils, il peut conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) d’[Artisanat](/regles/competences/artisanat) ou y ajouter un bonus égal à son [Adresse](/regles/attributs/adresse).\n\n### Maîtrise\n\nLe personnage sait faire plus avec moins lorsqu’il effectue une tâche simple d’artisanat en utilisant des outils avec lesquels il a développé une expertise.\n\nÀ la discrétion du maître de jeu, il peut réduire jusqu’à 50 % la quantité de matériaux requis et/ou la durée de la tâche sans compromettre la qualité du résultat.",
+        "MetaDescription": "Découvrez le talent Maître-artisan, qui offre une expertise supérieure avec deux types d’outils d’artisan et améliore la qualité et la rapidité des créations."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "82dae8d7-512f-4ac1-961f-6343799c7315",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Liberte_FreedomOfMovement",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7c19f9ee-7079-471c-b601-504fba54dbfc\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Liberte_FreedomOfMovement",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un fragment de toile de navire attaché à une jambe de la cible par une sangle de cuir.",
+        "HtmlContent": "Le personnage touche une créature consentante. Pendant la durée du pouvoir, elle n’est pas affectée par le [terrain difficile](/regles/aventure/mouvement/terrain-difficile), sa [vitesse](/regles/aventure/mouvement/vitesse) ne peut être réduite et elle ne peut être [paralysée](/regles/combat/conditions/paralyse) ni [restreinte](/regles/combat/conditions/restreint). Elle peut également dépenser un [point de mouvement](/regles/aventure/mouvement/vitesse) afin de s’échapper de n’importe quelle contrainte non magique, elle acquiert une vitesse de [nage](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types) et elle n’est affligée d’aucune pénalité lorsqu’elle [combat sous l’eau](/regles/combat/sous-eau)."
+      }
+    }
+  }
+}

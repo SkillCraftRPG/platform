@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5b1cf18c-f787-49f9-9881-d2086df74664",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "herboristerie",
+    "DisplayName": "Herboristerie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"786e509e-ea89-4a51-b144-b84352f91b0f\"]",
+      "RequiredTalent": "[\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "herboristerie",
+      "DisplayName": "Herboristerie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "herboristerie",
+        "Summary": "Permet de concocter remèdes et poisons naturels.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est formé à l’utilisation de la [trousse d’herboristerie](/regles/equipement/outils), qui lui permet de concocter des [remèdes](/regles/herboristerie/remedes) à partir de ressources naturelles telles des herbes médicinales qu’il peut acheter, cultiver lui-même ou trouver dans la nature.\n- Il est également formé à l’utilisation de la [trousse d’empoisonneur](/regles/equipement/outils), qui lui permet de concocter des [poisons](/regles/herboristerie/poisons) à partir de ressources naturelles telles du venin ou des plantes vénéneuses qu’il peut acheter, cultiver lui-même ou récolter dans la nature. L’acquisition de ce talent ne lui permet pas d’extraire le venin d’une créature morte ou vivante.\n- Il peut désormais apprendre les remèdes et poisons de base.\n- Il peut apprendre un nombre de remèdes et de poisons égal à son [rang](/regles/competences/rang) de [Médecine](/regles/competences/medecine).\n- Il peut identifier un remède ou un poison qu’il connait par un [test](/regles/competences/tests) de Médecine de [difficulté faible](/regles/competences/tests/difficulte). S’il ne connait pas le remède ou le poison, la difficulté est élevée. Il peut également tenter de la même manière d’identifier les herbes médicinales et vénéneuses, ainsi que les créatures venimeuses.",
+        "MetaDescription": "Découvrez le talent Herboristerie, qui enseigne la création de remèdes et poisons à partir de plantes naturelles et améliore la compétence de Médecine."
+      }
+    }
+  }
+}

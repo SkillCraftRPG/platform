@@ -1,0 +1,29 @@
+﻿{
+  "Id": "066f198d-e331-4006-8bd9-2831aff258de",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "observateur",
+    "DisplayName": "Observateur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"626b3491-ce0f-41ba-82bf-27c1d6432caf\"]",
+      "RequiredTalent": "[\"ff67585b-bfd7-4965-a660-1fbdf0547c12\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "observateur",
+      "DisplayName": "Observateur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "observateur",
+        "Summary": "Reste toujours alerte et peut lire sur les lèvres pour comprendre.",
+        "HtmlContent": "Le personnage ne peut être [surpris](/regles/combat/deroulement/surprise) lorsqu’il est conscient.\n\nÉgalement, il peut comprendre ce qu’une créature dit seulement en observant les mouvements de sa bouche si elle parle une [langue](/regles/langues) qu’il comprend.",
+        "MetaDescription": "Découvrez le talent Observateur, qui permet de rester vigilant en toute circonstance et de lire sur les lèvres pour comprendre sans entendre."
+      }
+    }
+  }
+}

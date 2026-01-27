@@ -1,0 +1,21 @@
+﻿{
+  "Id": "66b80472-5273-408b-8c64-c3e02c702069",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Haruspice_AttaqueElementaire",
+    "DisplayName": "Attaque élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Haruspice_AttaqueElementaire",
+      "DisplayName": "Attaque élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts nécrotiques](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

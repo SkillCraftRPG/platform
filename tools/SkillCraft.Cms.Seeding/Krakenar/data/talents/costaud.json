@@ -1,0 +1,29 @@
+﻿{
+  "Id": "973edb2d-facb-473b-9fe9-cb59fce38349",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "costaud",
+    "DisplayName": "Costaud",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"21877dfa-439f-4dce-8235-556d311e1c54\"]",
+      "RequiredTalent": "[\"89552d5e-05f9-4482-bc86-19cbf4fc9c03\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "costaud",
+      "DisplayName": "Costaud",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "costaud",
+        "Summary": "Accorde vitesse de nage/escalade et facilite l’usage de plusieurs armes.",
+        "HtmlContent": "Le personnage acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) et d’[escalade](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types).\n\nÉgalement, il n’est pas pénalisé lorsqu’il [combat en maniant plusieurs armes](/regles/combat/attaque/deux-armes) n’étant pas [légères](/regles/equipement/armes/proprietes).",
+        "MetaDescription": "Découvrez Costaud, un talent athlétique qui confère vitesse de nage et d’escalade égales à la marche, et facilite le combat avec plusieurs armes."
+      }
+    }
+  }
+}

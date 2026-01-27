@@ -1,0 +1,21 @@
+﻿{
+  "Id": "757cd5ab-a409-43b4-9598-3f1a208aee61",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chasseur_ProiePrivilegiee",
+    "DisplayName": "Proie privilégiée",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chasseur_ProiePrivilegiee",
+      "DisplayName": "Proie privilégiée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il attaque sa [cible privilégiée](/regles/specialisations/eclaireur), il ajoute [1d8 points de dégâts](/regles/combat/degats/jet) supplémentaires plutôt que 1d4.\n\nÉgalement, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme) et les effets de [peur](/regles/combat/conditions/apeure) provenant de sa cible privilégiée."
+      }
+    }
+  }
+}

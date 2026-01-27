@@ -1,0 +1,29 @@
+﻿{
+  "Id": "67a9983f-4a92-46e6-a5b9-6c4d09e531c2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tir-rapide",
+    "DisplayName": "Tir rapide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7dea15b0-82f6-455a-ab74-ae6b10e7e2b7\"]",
+      "RequiredTalent": "[\"881700ba-f7d3-4425-b38c-86bc6e75fb08\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tir-rapide",
+      "DisplayName": "Tir rapide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tir-rapide",
+        "Summary": "Permet d’attaquer à distance en une seule action et rapproché.",
+        "HtmlContent": "Permet au personnage d’effectuer une [attaque](/regles/combat/attaque) avec une arme à [munition](/regles/equipement/armes/proprietes) par l’activité [Viser et tirer](/regles/combat/activites/viser-tirer) en une seule [action](/regles/combat/deroulement/tour).\n\nDe plus, il ne subit pas de [désavantage](/regles/competences/tests/avantage-desavantage) lorsqu’il effectue un [tir à bout portant](/regles/combat/attaque/distance) avec une telle [arme](/regles/equipement/armes).",
+        "MetaDescription": "Découvrez le talent Tir rapide, qui permet d’effectuer une attaque à distance en un seul geste fluide, sans désavantage à bout portant."
+      }
+    }
+  }
+}

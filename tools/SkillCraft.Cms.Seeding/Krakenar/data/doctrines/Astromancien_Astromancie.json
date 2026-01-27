@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2fbbea7b-6141-4ebc-9ee3-f1f1547c1a6b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancien_Astromancie",
+    "DisplayName": "Astromancie",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"5dee7c12-f29d-4a09-b828-38b8ca102ed7\"]",
+      "Features": "[\"9a5b7bff-374e-40cc-80ac-0e8c1e39691a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancien_Astromancie",
+      "DisplayName": "Astromancie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nLorsqu’il [acquiert](/regles/talents/acquisition) un des [talents](/regles/talents) suivants, il acquiert gratuitement l’autre : [Initiation magique](/regles/talents/initiation-magique), [Méditation](/regles/talents/meditation)."
+      }
+    }
+  }
+}

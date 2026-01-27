@@ -1,0 +1,24 @@
+﻿{
+  "Id": "839d4ddc-d715-4299-9d04-ae1db773cfdc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chaotique",
+    "DisplayName": "Chaotique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chaotique",
+      "DisplayName": "Chaotique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "chaotique",
+        "Summary": "Tendance à défier l’ordre ; malus aux tests de Discipline.",
+        "HtmlContent": "Affligé d’un grand besoin de liberté, le personnage a tendance à désobéir dès qu’il le peut, à contredire les lois ainsi, à ruiner les plans de ses alliés, et à effectuer des actions illogiques ou contradictoires.\n\nSes [tests](/regles/competences/tests) de [Discipline](/regles/competences/discipline) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "MetaDescription": "Découvrez le handicap Chaotique, qui pousse le personnage à défier les règles et rend ses tests de Discipline plus difficiles."
+      }
+    }
+  }
+}

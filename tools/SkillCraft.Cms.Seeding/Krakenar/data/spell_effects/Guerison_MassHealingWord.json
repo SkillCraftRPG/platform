@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3485eaaf-38d0-4c46-9941-96c71e353058",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_MassHealingWord",
+    "DisplayName": "Mot de guérison",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_MassHealingWord",
+      "DisplayName": "Mot de guérison",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce un mot de guérison en direction de créatures qu’il peut [voir](/regles/aventure/environnement/vision).\n\nCe nombre doit être inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1), et il peut s’inclure dans ce nombre.\n\nChaque créature [récupère](/regles/combat/degats/soins) 1d4 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

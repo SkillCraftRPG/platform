@@ -1,0 +1,26 @@
+﻿{
+  "Id": "cba08313-bd3f-4529-b474-2dce47309769",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lumiere",
+    "DisplayName": "Lumière",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lumiere",
+      "DisplayName": "Lumière",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Illumine un objet ou crée une sphère de lumière mobile.",
+        "Slug": "lumiere",
+        "MetaDescription": "Découvrez un pouvoir qui illumine un objet ou crée une sphère lumineuse étendue, offrant clarté et pénombre selon le niveau employé.",
+        "HtmlContent": "Ce pouvoir éclaire durablement un objet ou génère une large sphère lumineuse, offrant clarté et pénombre pour révéler l’environnement selon le niveau."
+      }
+    }
+  }
+}

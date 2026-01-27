@@ -1,0 +1,21 @@
+﻿{
+  "Id": "63b0309a-e75b-4087-a94c-e989c4563b8d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Soldat_AthleteRemarquable",
+    "DisplayName": "Athlète remarquable",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Soldat_AthleteRemarquable",
+      "DisplayName": "Athlète remarquable",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un [test](/regles/competences/tests) d’une des [compétences](/regles/competences) suivantes, si son [tiers](/regles/personnages/progression/tiers) est supérieur à son [rang](/regles/competences/rang), alors il remplace son rang par son tiers.\n\n- [Acrobaties](/regles/competences/acrobaties)\n- [Artisanat](/regles/competences/artisanat)\n- [Athlétisme](/regles/competences/athletisme)\n- [Furtivité](/regles/competences/furtivite)\n- [Mêlée](/regles/competences/melee)\n- [Orientation](/regles/competences/orientation)\n- [Résistance](/regles/competences/resistance)\n- [Roublardise](/regles/competences/roublardise)"
+      }
+    }
+  }
+}

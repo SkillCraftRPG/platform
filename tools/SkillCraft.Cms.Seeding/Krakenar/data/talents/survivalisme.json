@@ -1,0 +1,29 @@
+﻿{
+  "Id": "96522676-0e8d-4ee9-8435-b0f4d5ae5c27",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "survivalisme",
+    "DisplayName": "Survivalisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ecdcb4fb-13bc-498c-8222-40e0900c23e8\"]",
+      "RequiredTalent": "[\"e7282746-a39b-4f5b-b356-022579e09001\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "survivalisme",
+      "DisplayName": "Survivalisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "survivalisme",
+        "Summary": "Permet d’improviser outils et abris, et de survivre sans équipement.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il réussit automatiquement ses [tests](/regles/competences/tests) de [Survie](/regles/competences/survie) lorsqu’il effectue une tâche banale sans posséder les outils nécessaires et en utilisant les ressources du milieu naturel et sauvage dans lequel il se trouve, par exemple allumer un feu, fabriquer un abri ou cuisiner.\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests de Survie afin de déterminer l’espèce d’une créature en examinant les traces de celle-ci.\n- Pendant une [halte](/regles/aventure/repos/halte), il peut utiliser des [outils de bricoleur](/regles/equipement/outils) afin d’améliorer un objet de type piège, par exemple des [billes](/regles/equipement/general), des [chausse-trapes](/regles/equipement/general) ou un [piège de chasse](/regles/equipement/general). Il doit utiliser des matériaux d’une [valeur](/regles/equipement/monnaie) supérieure ou égale à celle de l’objet afin de l’améliorer. Il choisit un nombre compris entre 1 et son [rang](/regles/competences/rang) de Survie, et doit réussir un test de Survie de [degré de difficulté](/regles/competences/tests/difficulte) égal au double de ce nombre. Si le test est réussi, le nombre choisi est ajouté au degré de difficulté de l’objet amélioré.",
+        "MetaDescription": "Découvrez le talent Survivalisme, qui permet d’improviser outils, abris et pièges dans la nature tout en maîtrisant la survie en milieu sauvage."
+      }
+    }
+  }
+}

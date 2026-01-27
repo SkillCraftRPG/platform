@@ -1,0 +1,26 @@
+﻿{
+  "Id": "e85b6ed2-8c96-4137-a379-2928860343d1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Strength",
+    "DisplayName": "Force",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"45fc0f30-4e06-4ab3-8b51-2b193e92a632\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Strength",
+      "DisplayName": "Force",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "force",
+        "Summary": "Mesure la puissance et l’impact des attaques de mêlée.",
+        "HtmlContent": "La **Force** représente l’impact des attaques physiques de [mêlée](/regles/combat/attaque/melee) du personnage.\n\nElle est ajoutée aux [points de dégâts](/regles/combat/degats) infligés lorsqu’une de ces attaques est réussie.\n\nL’équation suivante calcule la Force d’une créature :\n\n<code>Force = 5 + (Vigueur × 2)</code>",
+        "MetaDescription": "Découvrez la Force, mesure de l’impact des attaques de mêlée et reflet de la puissance physique brute d’un personnage."
+      }
+    }
+  }
+}

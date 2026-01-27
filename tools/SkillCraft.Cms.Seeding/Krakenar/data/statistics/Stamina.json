@@ -1,0 +1,26 @@
+﻿{
+  "Id": "c3eaee5d-58d3-440a-9401-1d899cbe333e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stamina",
+    "DisplayName": "Énergie",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"bbc1fb7f-2637-4056-ac52-3b6b309bb256\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stamina",
+      "DisplayName": "Énergie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "energie",
+        "Summary": "Mesure l’endurance mentale et physique, ressource clé de survie.",
+        "HtmlContent": "L’**Énergie** est une abstraction de la force mentale, de l’ardeur et de l’endurance d’un personnage.\n\nToute créature est dotée d’une valeur courante et d’une valeur maximale.\n\nLorsqu’elle dépense des points d’Énergie, sa valeur courante diminue. Lorsqu’elle se [repose](/regles/aventure/repos), elle récupère des points et sa valeur courante augmente.\n\nLorsque sa valeur courante chute à 0, elle sombre dans l’[inconscience](/regles/combat/conditions/inconscient).\n\nL’équation suivante calcule l’Énergie d’une créature :\n\n<code>Énergie = (25 + Niveau)(5 + Santé) ÷ 5</code>",
+        "MetaDescription": "Découvrez l’Énergie, ressource mentale et physique représentant l’endurance, la volonté et la force vitale, essentielle à la survie et aux pouvoirs."
+      }
+    }
+  }
+}

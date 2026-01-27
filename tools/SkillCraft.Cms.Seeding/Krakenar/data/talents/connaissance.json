@@ -1,0 +1,28 @@
+﻿{
+  "Id": "98a688eb-10d5-4db5-ac37-64c8c4f6ad34",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "connaissance",
+    "DisplayName": "Connaissance",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ba600891-151b-44f0-a2ed-b3e3ccb10cd7\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "connaissance",
+      "DisplayName": "Connaissance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "connaissance",
+        "Summary": "Octroie des savoirs spécialisés selon le rang de Connaissance.",
+        "HtmlContent": "Le personnage acquiert des connaissances sur un nombre de domaines spécifiques égal à son [rang](/regles/competences/rang) de [Connaissance](/regles/competences/connaissance).\n\nLe joueur et le maître de jeu collaborent afin de définir les sujets pouvant constituer un domaine de connaissances.",
+        "MetaDescription": "Découvrez le talent Connaissance, qui permet d’acquérir des savoirs spécifiques selon le rang du personnage dans divers domaines choisis."
+      }
+    }
+  }
+}

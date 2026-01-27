@@ -1,0 +1,29 @@
+﻿{
+  "Id": "09a52559-3dd9-4556-a4e8-c222585b3b2f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tir-precis",
+    "DisplayName": "Tir précis",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7dea15b0-82f6-455a-ab74-ae6b10e7e2b7\"]",
+      "RequiredTalent": "[\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tir-precis",
+      "DisplayName": "Tir précis",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tir-precis",
+        "HtmlContent": "Le personnage peut effectuer une [attaque à distance](/regles/combat/attaque/distance) en utilisant une [arme](/regles/equipement/armes) possédant la propriété [Munition](/regles/equipement/armes/proprietes) par deux [actions](/regles/combat/deroulement/tour) plutôt qu’une.\n\nLorsqu’il en fait ainsi, il bénéficie des capacités suivantes :\n\n- Il ignore le [demi-abri](/regles/combat/attaque/abri) et l’[abri aux trois-quarts](/regles/combat/attaque/abri) de sa cible.\n- Il ne subit pas de [désavantage](/regles/competences/tests/avantage-desavantage) lorsqu’il utilise son arme à [longue portée](/regles/equipement/armes/proprietes).\n- Il ne subit pas de désavantage lorsqu’il cible une créature [renversée](/regles/combat/conditions/renverse).\n- Bonus (+5) à son [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque).\n- Bonus d’un [dé de dégâts](/regles/combat/degats/jet).",
+        "Summary": "Améliore la précision au tir et ignore les abris défensifs.",
+        "MetaDescription": "Découvrez le talent Tir précis, qui améliore la visée à distance et permet d’ignorer les abris ou désavantages au tir."
+      }
+    }
+  }
+}

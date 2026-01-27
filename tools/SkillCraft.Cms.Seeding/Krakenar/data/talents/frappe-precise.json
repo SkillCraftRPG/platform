@@ -1,0 +1,28 @@
+﻿{
+  "Id": "69c6a792-9570-4acb-a081-ba9fa11f2c1e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frappe-precise",
+    "DisplayName": "Frappe précise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"c00d8449-0195-4f6d-8443-5bb252154a6b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frappe-precise",
+      "DisplayName": "Frappe précise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frappe-precise",
+        "HtmlContent": "Le personnage inflige désormais 1d8 + [Force](/regles/statistiques/force) ou [Précision](/regles/statistiques/precision) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) [non létaux](/regles/combat/degats/letalite) lorsqu’il [combat à mains nues](/regles/combat/attaque/mains-nues).\n\nÉgalement, il peut effectuer une [attaque](/regles/combat/attaque) à mains nues par deux [actions](/regles/combat/deroulement/tour) plutôt qu’une.\n\nLorsqu’il en fait ainsi, il bénéficie de :\n\n- Bonus (+5) à son [test](/regles/competences/tests) d’attaque.\n- Bonus d’un [dé de dégâts](/regles/combat/degats/jet).\n- Les [points de dégâts](/regles/combat/degats) infligés ignorent la [résistance](/regles/combat/degats/efficacite) de la cible.",
+        "Summary": "Renforce les attaques à mains nues avec précision et puissance accrue.",
+        "MetaDescription": "Découvrez le talent Frappe précise, qui améliore les attaques à mains nues en ajoutant puissance, précision et pénétration des résistances."
+      }
+    }
+  }
+}

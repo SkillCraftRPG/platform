@@ -1,0 +1,26 @@
+﻿{
+  "Id": "39a1638c-734b-4aab-97d4-9a4af948efac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "habiletes-feeriques",
+    "DisplayName": "Habiletés féériques",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "habiletes-feeriques",
+      "DisplayName": "Habiletés féériques",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "habiletes-feeriques",
+        "Summary": "Effets féeriques, réparation d’objets, vision nocturne et croissance végétale.",
+        "MetaDescription": "Découvrez les Habiletés féériques, un pouvoir versatile alliant effets naturels, petites réparations, vision nocturne et croissance végétale magique.",
+        "HtmlContent": "Pouvoir féerique mêlant présages naturels, floraison magique, petites réparations, vision dans le noir et contrôle de la végétation, jusqu’à enrichir durablement un territoire."
+      }
+    }
+  }
+}

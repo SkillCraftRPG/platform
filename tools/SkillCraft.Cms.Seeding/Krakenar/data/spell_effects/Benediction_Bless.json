@@ -1,0 +1,32 @@
+﻿{
+  "Id": "065c11ed-1370-4653-841c-423fdff67558",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Benediction_Bless",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"72fc7eea-282c-4789-877b-15c6843a2b45\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Benediction_Bless",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’eau bénite.",
+        "HtmlContent": "Le personnage bénit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Jusqu’à la fin du pouvoir, une créature bénite peut ajouter 1d4 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences)."
+      }
+    }
+  }
+}

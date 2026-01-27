@@ -1,0 +1,28 @@
+﻿{
+  "Id": "fee5ff76-ad82-4450-9060-9c80fac5c072",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sous-contrainte",
+    "DisplayName": "Sous contrainte",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "6",
+      "Skill": "[\"68f61feb-b81f-45bd-8de7-7ee6389b47aa\"]",
+      "Feature": "[\"1b042423-2a30-4ef6-9fbb-4170c02b2d57\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sous-contrainte",
+      "DisplayName": "Sous contrainte",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sous-contrainte",
+        "Summary": "Enfant surveillé devenu expert pour s’effacer et dissimuler ses actions.",
+        "HtmlContent": "Le personnage a vécu sous une supervision étroite au sein d’une famille stricte.\n\nIl s’est conformé aux demandes de ses parents et a coopéré lorsqu’il le jugeait nécessaire.\n\nIl a appris à dissimuler ses erreurs et fautes de parcours, et mène une double-vie dont ses parents n’en savent rien.",
+        "MetaDescription": "Découvrez l’éducation Sous contrainte, forgée par la surveillance stricte et l’art d’agir en silence pour préserver sa tranquillité et ses secrets."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9cd53a44-c794-4b13-a7d0-213eadf87759",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brigand_GuetApens",
+    "DisplayName": "Guet-apens",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brigand_GuetApens",
+      "DisplayName": "Guet-apens",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[attaque](/regles/combat/attaque) effectués contre une créature [prise au dépourvu](/regles/combat/deroulement/depourvu).\n\nÉgalement, en situation de [combat](/regles/combat), la première attaque qu’il effectue contre une créature [surprise](/regles/combat/deroulement/surprise) est automatiquement une [réussite critique](/regles/competences/tests/critique)."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "79724be6-3d64-4686-9a3a-6f2afe0960be",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "judicieux",
+    "DisplayName": "Judicieux",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "10",
+      "Skill": "[\"7dea15b0-82f6-455a-ab74-ae6b10e7e2b7\"]",
+      "Feature": "[\"981b0947-5a63-4052-8bb6-5b08967a537f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "judicieux",
+      "DisplayName": "Judicieux",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "judicieux",
+        "Summary": "Esprit posé et analytique, prêt à guider par des décisions avisées.",
+        "HtmlContent": "Peu importe le mode de vie dans lequel il a été élevé, le personnage prend des décisions sensées et éclairées au moment opportun.\n\nIl saisit les opportunités et on lui demande souvent conseil.\n\nIl sait mettre en exécution des plans complexes et trier les informations pertinentes.",
+        "MetaDescription": "Découvrez l’éducation Judicieux, une formation qui forge un esprit calme, analytique et expert en décisions éclairées."
+      }
+    }
+  }
+}

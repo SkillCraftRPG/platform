@@ -1,0 +1,24 @@
+﻿{
+  "Id": "66ff2422-270f-43dc-a84d-3f5e78852113",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "fignolage",
+    "DisplayName": "Fignolage",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "fignolage",
+      "DisplayName": "Fignolage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fignolage",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut [Faire 20](/regles/competences/tests/faire-20) à un [test](/regles/competences/tests) d’[Artisanat](/regles/competences/artisanat) lorsqu’il n’est pas [menacé](/regles/combat), qu’il n’est pas distrait, et qu’il n’est pas contraint par le [temps](/regles/aventure/temps).\n- Il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à un de ses tests d’Artisanat.\n- Il peut [Faire 10](/regles/competences/tests/faire-10) lorsqu’il utilise une [trousse de réparation](/regles/equipement/outils) pour [réparer un objet](/regles/talents/artisanat), même lorsqu’il est menacé ou distrait.",
+        "Summary": "Permet de perfectionner ses créations et réparer sous pression.",
+        "MetaDescription": "Découvrez le don Fignolage, qui permet d’exceller dans les travaux minutieux, d’améliorer les tests d’Artisanat et de réparer les objets même sous pression."
+      }
+    }
+  }
+}

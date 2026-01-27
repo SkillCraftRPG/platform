@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e3bb71cc-8513-4bf0-b9ad-69e158fde51b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "resistance",
+    "DisplayName": "Résistance",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"5921b392-2010-4347-8492-1307291a74ef\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "resistance",
+      "DisplayName": "Résistance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "resistance",
+        "Summary": "Renforce la vitalité et la résistance physique du personnage.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 5 points de [Vitalité](/regles/statistiques/vitalite).",
+        "MetaDescription": "Découvrez le talent Résistance, qui accroît la vitalité et la robustesse face à la douleur, aux blessures et aux chocs physiques."
+      }
+    }
+  }
+}

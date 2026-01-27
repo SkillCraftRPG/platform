@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a3d63ea4-2b91-4c28-b62e-4a51e9e425ea",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiElfe_ApprentissageAccelere",
+    "DisplayName": "Apprentissage accéléré",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiElfe_ApprentissageAccelere",
+      "DisplayName": "Apprentissage accéléré",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage débute avec 4 points d’[Apprentissage](/regles/statistiques/apprentissage) supplémentaires.\n\nIl acquiert également 1 point d’Apprentissage supplémentaire chaque fois que son [tiers](/regles/personnages/progression/tiers) augmente."
+      }
+    }
+  }
+}

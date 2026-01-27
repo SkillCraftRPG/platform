@@ -1,0 +1,28 @@
+﻿{
+  "Id": "43774d2a-52d3-4b69-b75a-4432a0ef3b56",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-mortelle",
+    "DisplayName": "Attaque mortelle",
+    "Description": null,
+    "FieldValues": {
+      "AllowMultiplePurchases": "false",
+      "Tier": "3",
+      "RequiredTalent": "[\"3a318dfc-40ef-4d1c-ae76-9ca8c2a35565\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-mortelle",
+      "DisplayName": "Attaque mortelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-mortelle",
+        "Summary": "Amplifie les attaques sournoises pour infliger des dégâts fatals.",
+        "HtmlContent": "Lorsque le personnage effectue une attaque sournoise, il inflige [2d6 points de dégâts](/regles/combat/degats/jet) supplémentaires (pour un total de 6d6).\n\nIl peut remplacer les dés de dégâts de l’attaque sournoise et de l’hémorragie qui sont tombés sur les faces 1 et 2 du dé par la valeur 3.",
+        "MetaDescription": "Découvrez le talent Attaque mortelle, qui transforme les frappes sournoises en coups fatals, amplifiant leurs dégâts pour des blessures dévastatrices."
+      }
+    }
+  }
+}

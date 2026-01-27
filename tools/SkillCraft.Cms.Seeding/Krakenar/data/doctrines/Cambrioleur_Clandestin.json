@@ -1,0 +1,23 @@
+﻿{
+  "Id": "0b12b478-32a1-4a17-9fa8-ac0098da0a92",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Cambrioleur_Clandestin",
+    "DisplayName": "Clandestin",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"9e1e47c1-ba7e-453e-95d0-aa120fb39bb6\"]",
+      "DiscountedTalents": "[\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\"]",
+      "Features": "[\"6ce546b9-c037-4962-a74e-389c6bbd9f28\",\"f4f397df-2f75-4c76-812e-9e9706fd983d\",\"c4b86ec3-6b31-4e41-ad1b-93fe93409d67\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Cambrioleur_Clandestin",
+      "DisplayName": "Clandestin",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

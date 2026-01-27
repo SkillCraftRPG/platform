@@ -1,0 +1,21 @@
+﻿{
+  "Id": "3b91802e-596b-4a16-a490-c1f020f55117",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Clerc_PouvoirDivin",
+    "DisplayName": "Pouvoir divin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Clerc_PouvoirDivin",
+      "DisplayName": "Pouvoir divin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par jour, le personnage peut invoquer un pouvoir divin spécifique à son [domaine divin](/regles/domaines/divins).\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

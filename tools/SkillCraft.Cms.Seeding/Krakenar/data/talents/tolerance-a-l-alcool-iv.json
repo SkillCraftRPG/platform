@@ -1,0 +1,28 @@
+﻿{
+  "Id": "3a24e93b-19da-4917-92f4-881ee0e1bdd1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tolerance-a-l-alcool-iv",
+    "DisplayName": "Tolérance à l’alcool IV",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"5d05b6c8-3aed-471c-8748-228dd3bbb875\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tolerance-a-l-alcool-iv",
+      "DisplayName": "Tolérance à l’alcool IV",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tolerance-a-l-alcool-iv",
+        "Summary": "Résistance extrême à l’alcool et suppression totale des effets négatifs.",
+        "HtmlContent": "Augmente de manière permanente (+4) le [seuil de tolérance à l’alcool](/regles/aventure/environnement/alcoolemie) du personnage.\n\nÉgalement, le personnage n’est jamais affligé de la [gueule de bois](/regles/combat/conditions/gueule-bois) lorsqu’il atteint la deuxième phase d’alcoolémie, peu importe le résultat de son [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance), et il ne titube jamais lorsqu’il est seulement en deuxième phase d’alcoolémie.",
+        "MetaDescription": "Découvrez Tolérance à l’alcool IV : augmente fortement le seuil d’alcoolémie, évite la gueule de bois et supprime tout titubement en seconde phase."
+      }
+    }
+  }
+}

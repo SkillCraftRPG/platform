@@ -1,0 +1,33 @@
+﻿{
+  "Id": "86790d39-59d0-4df6-b174-bd8d0e1715dd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FlammesFeeriques_Moonbeam",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FlammesFeeriques_Moonbeam",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un feldspath opalescent.",
+        "Material": "Une semence de ménispermacée.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision). Un cylindre de 1,5 mètres de rayon et de 12 mètres de hauteur de [pénombre](/regles/aventure/environnement/vision) argentée émane, centré sur ce point. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut déplacer le cylindre de 18 mètres dans n’importe quelle direction.\n\nLorsqu’une créature débute son tour dans la zone ou qu’elle y entre pour la première fois pendant son tour, elle s’immole de douloureuses flammes féériques et doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [2d12 points de dégâts](/regles/combat/degats/jet) [radiants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. En cas de réussite, elle ne reçoit que la moitié des points de dégâts.\n\nSi la créature est un métamorphe, son jet de sauvegarde est effectué avec [désavantage](/regles/competences/tests/avantage-desavantage), les [points de dégâts](/regles/combat/degats) reçus sont doublés, et elle reprend instantanément sa forme d’origine si elle échoue le jet de sauvegarde. Une créature ne peut se métamorphoser à l’intérieur de la zone."
+      }
+    }
+  }
+}

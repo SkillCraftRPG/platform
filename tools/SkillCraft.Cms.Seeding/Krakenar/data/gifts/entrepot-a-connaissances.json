@@ -1,0 +1,24 @@
+﻿{
+  "Id": "e6ff4688-c203-46d3-afa9-de57f2ea38fc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrepot-a-connaissances",
+    "DisplayName": "Entrepôt à connaissances",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrepot-a-connaissances",
+      "DisplayName": "Entrepôt à connaissances",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrepot-a-connaissances",
+        "HtmlContent": "Par ses études intensives, le personnage est devenu un véritable entrepôt à connaissances.\n\nPendant [une minute](/regles/aventure/temps), il peut consulter ses connaissances à propos d’un sujet, ce qui est équivalent à feuilleter un bestiaire, fouiller dans une bibliothèque ou interroger un guide de voyage.\n\nS’il a la moindre chance d’avoir lu ou entendu quelque information à propos de ce sujet, alors il peut se souvenir d’un passage d’au plus 100 mots à propos de ce sujet, même si l’information n’est pas applicable ou pertinente à la situation actuelle.\n\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) si un tel test est nécessaire.\n\nIl doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "Summary": "Consulte sa mémoire comme une bibliothèque vivante.",
+        "MetaDescription": "Découvrez le don Entrepôt à connaissances, qui permet de consulter sa mémoire comme une bibliothèque vivante pour obtenir des informations cruciales."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "751b7b7a-2975-4830-8769-6d56a48430f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Illusionniste_PotentielHeroique",
+    "DisplayName": "Potentiel héroïque",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Illusionniste_PotentielHeroique",
+      "DisplayName": "Potentiel héroïque",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage joue un [Boléro héroïque](/regles/specialisations/menestrel), il peut dépenser 5 points d’[Énergie](/regles/statistiques/energie) supplémentaires afin d’en jouer une version endiablée.\n\nLorsqu’il en fait ainsi, une illusion prenant la forme d’une note de musique apparaît autour de la cible et orbite autour de sa tête. Elle est intangible et invulnérable, translucide et dégage une lumière négligeable.\n\nLorsque la cible utilise le dé conféré par le boléro héroïque, l’illusion prend fin, procurant un effet supplémentaire à la cible en fonction de la nature du [test](/regles/competences/tests).\n\n- [Attaque.](/regles/combat/attaque) Immédiatement après le test, l’illusion explose en produisant un son violent et soudain. Toute créature située à 1,5 mètres ou moins de la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) de [difficulté](/regles/competences/tests/difficulte) égale au [test passif](/regles/competences/tests/passif) de [Représentation](/regles/competences/representation) ([Intellect](/regles/attributs/intellect)) du personnage. En cas d’échec, une créature reçoit un nombre de [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types) égal au résultat du dé additionné à l’Intellect du personnage et est repoussée de 1,5 mètres si sa [taille](/regles/especes/taille) est de catégorie inférieure ou égale à celle de la cible.\n- [Compétence.](/regles/competences) L’illusion éclate comme une bulle en émettant des étincelles colorées et inoffensives. La cible peut jeter deux fois le dé et conserver le résultat de son choix.\n- [Jet de sauvegarde.](/regles/competences/tests/sauvegarde) Immédiatement après le jet de sauvegarde, l’illusion disparaît sous une douce musique. La cible se voit conférer un nombre de [points de Vitalité temporaires](/regles/combat/degats/temporaire) égal au résultat du dé additionné à l’[Intellect](/regles/attributs/intellect) du personnage."
+      }
+    }
+  }
+}

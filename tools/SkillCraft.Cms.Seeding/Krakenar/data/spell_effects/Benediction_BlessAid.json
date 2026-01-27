@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0d397612-3d6d-46cd-8682-35621a549bd9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Benediction_BlessAid",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"72fc7eea-282c-4789-877b-15c6843a2b45\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Benediction_BlessAid",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une ou plusieurs petites bandes de tissu blanc imbibé d’eau bénite.",
+        "HtmlContent": "Le personnage bénit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Une bande de tissu est consommée pour chaque créature bénite.\n\nJusqu’à la fin du pouvoir, une créature bénite peut ajouter 1d6 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences).\n\nElle se voit également conférer un nombre de [points de Vitalité temporaires](/regles/combat/degats/temporaire) égal à 5 + [Sens](/regles/attributs/sens) du personnage (minimum 5)."
+      }
+    }
+  }
+}

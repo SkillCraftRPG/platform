@@ -1,0 +1,29 @@
+﻿{
+  "Id": "492f7ba3-fa75-4cf7-875a-717eeb756997",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerison_HealingWord1",
+    "DisplayName": "Mot de guérison",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"df0e01f9-bdcd-4a2f-9ea7-a09407bf3336\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerison_HealingWord1",
+      "DisplayName": "Mot de guérison",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce un mot de guérison en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) et celle-ci [récupère](/regles/combat/degats/soins) 1d4 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a0d08837-4198-4fef-9fda-c7a4cd68e30e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brute_Temerite",
+    "DisplayName": "Témérité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brute_Temerite",
+      "DisplayName": "Témérité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En situation de [combat](/regles/combat), le personnage peut entrer en état de témérité en [action libre](/regles/combat/deroulement/tour) au début de son [tour](/regles/combat/deroulement/tour), avant d’avoir effectué quelconque [action](/regles/combat/deroulement/tour).\n\nIl ne doit pas porter d’[armure lourde](/regles/equipement/armures/lourdes) ni de [bouclier lourd](/regles/equipement/boucliers) afin de pouvoir entrer en état de témérité.\n\nLes effets de cet état sont les suivants, et ils durent jusqu’au début de son prochain tour.\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Mêlée](/regles/competences/melee).\n- Bonus de [1d6 points de dégâts](/regles/combat/degats/jet) supplémentaires lorsqu’il réussit une attaque effectuée par un test de Mêlée.\n- Bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse).\n- Bonus de 1d6 à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde).\n- Le test des [attaques](/regles/combat/attaque) dirigées contre lui se voit conférer l’avantage."
+      }
+    }
+  }
+}

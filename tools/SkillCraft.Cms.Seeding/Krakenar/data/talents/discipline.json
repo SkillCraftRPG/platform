@@ -1,0 +1,28 @@
+﻿{
+  "Id": "71d95a8e-e487-4fef-bbe2-b6a6c903ebfd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "discipline",
+    "DisplayName": "Discipline",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"4153ec24-3cb6-4e5e-93e6-c80853e5688b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "discipline",
+      "DisplayName": "Discipline",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "discipline",
+        "Summary": "Octroie un bonus d’Énergie et renforce la stabilité mentale.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 5 points d’[Énergie](/regles/statistiques/energie).",
+        "MetaDescription": "Découvrez le talent Discipline, qui renforce la stabilité mentale et confère 5 points d’énergie supplémentaires au personnage."
+      }
+    }
+  }
+}

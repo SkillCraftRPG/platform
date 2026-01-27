@@ -1,0 +1,29 @@
+﻿{
+  "Id": "0daa9126-6911-4cc8-a960-d0898e31c27e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maraudage",
+    "DisplayName": "Maraudage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"68f61feb-b81f-45bd-8de7-7ee6389b47aa\"]",
+      "RequiredTalent": "[\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maraudage",
+      "DisplayName": "Maraudage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "maraudage",
+        "Summary": "Permet de se déplacer furtivement sans perdre de vitesse.",
+        "HtmlContent": "Permet au personnage de se [déplacer furtivement](/regles/aventure/mouvement/furtif) sans réduire sa [vitesse](/regles/aventure/mouvement/vitesse) lorsqu’il est [dissimulé](/regles/combat/activites/cacher).\n\nS’il [court](/regles/aventure/mouvement/types) ou adopte une [cadence hâtive](/regles/aventure/mouvement/voyage), il n’est plus dissimulé.\n\nÉgalement, il ne révèle pas sa position lorsqu’il échoue une [attaque à distance](/regles/combat/attaque/distance) en [étant dissimulé](/regles/combat/attaque/dissimulee).",
+        "MetaDescription": "Découvrez le talent Maraudage, qui permet de se déplacer furtivement sans ralentir sa vitesse et d’attaquer sans révéler sa position."
+      }
+    }
+  }
+}

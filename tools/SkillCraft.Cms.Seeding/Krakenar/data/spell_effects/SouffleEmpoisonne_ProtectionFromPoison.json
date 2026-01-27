@@ -1,0 +1,30 @@
+﻿{
+  "Id": "a8bfcc2b-a31f-46db-9451-db7ea6332b92",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SouffleEmpoisonne_ProtectionFromPoison",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aff74ada-a168-48b2-9929-a79b9d17c9b4\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SouffleEmpoisonne_ProtectionFromPoison",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage inspire le souffle d’une créature [empoisonnée](/regles/combat/conditions/empoisonne) dans la portée du pouvoir, retirant un effet d’empoisonnement. Il peut également se cibler.\n\nSi un ou plusieurs poisons affectent la cible, un de ces poisons est neutralisé, au choix du personnage s’il a identifié ces poisons, sinon un poison est choisi aléatoirement par le maître de jeu.\n\nPendant la durée du pouvoir, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets de poison."
+      }
+    }
+  }
+}

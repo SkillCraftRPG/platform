@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7381d243-6db4-4320-88ab-6616de4f9ab2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Humain_ApprentissageAccelere",
+    "DisplayName": "Apprentissage accéléré",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Humain_ApprentissageAccelere",
+      "DisplayName": "Apprentissage accéléré",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage débute avec 4 points d’[Apprentissage](/regles/statistiques/apprentissage) supplémentaires.\n\nIl acquiert également 1 point d’Apprentissage supplémentaire chaque fois que son [tiers](/regles/personnages/progression/tiers) augmente."
+      }
+    }
+  }
+}

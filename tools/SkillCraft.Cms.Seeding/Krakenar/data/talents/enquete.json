@@ -1,0 +1,29 @@
+﻿{
+  "Id": "f7fd8d17-57e9-418e-802f-a8aeaa443e4e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "enquete",
+    "DisplayName": "Enquête",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"a6995524-b7b5-4511-8790-ef0e3b687442\"]",
+      "RequiredTalent": "[\"381cff49-da31-45f8-9e13-f054ce52327d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "enquete",
+      "DisplayName": "Enquête",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "enquete",
+        "Summary": "Améliore l’investigation, la détection et l’analyse d’indices.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il découvre un piège ou un passage secret, il apprend les informations suivantes : quand est-ce que le piège a été posé ou que le passage secret a été utilisé pour la dernière fois, les éléments requis afin de réarmer le piège ou de sceller la passage secret à nouveau.\n- Lorsqu’il [trouve](/regles/combat/activites/chercher) une créature [dissimulée](/regles/combat/attaque/dissimulee) par un [test](/regles/competences/tests) d’[Investigation](/regles/competences/investigation), le test de ses [attaques](/regles/combat/attaque) dirigées contre cette créature se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour).\n- Lorsqu’il effectue un test de [Connaissance](/regles/competences/connaissance), de [Linguistique](/regles/competences/linguistique) ou de [Médecine](/regles/competences/medecine), s’il n’est pas [formé](/regles/competences/formation) pour cette [compétence](/regles/competences) mais qu’il possède du matériel de référence, alors il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) et remplacer le [rang](/regles/competences/rang) de cette compétence par la moitié de son rang d’Investigation.",
+        "MetaDescription": "Découvrez le talent Enquête, qui améliore l’investigation, la détection des pièges, des passages secrets et des créatures dissimulées."
+      }
+    }
+  }
+}

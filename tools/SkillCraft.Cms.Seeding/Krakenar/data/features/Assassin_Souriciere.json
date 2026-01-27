@@ -1,0 +1,21 @@
+﻿{
+  "Id": "eef7017f-7ad1-46ac-b017-dd1368c39aa7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Assassin_Souriciere",
+    "DisplayName": "Souricière",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Assassin_Souriciere",
+      "DisplayName": "Souricière",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pendant le premier [tour](/regles/combat/deroulement/tour) d’un [combat](/regles/combat), lorsque le personnage réussit une [attaque](/regles/combat/attaque) contre une créature, alors le [test](/regles/competences/tests) de toute attaque dirigée contre cette créature se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) jusqu’au début du prochain tour du personnage."
+      }
+    }
+  }
+}

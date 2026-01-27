@@ -1,0 +1,21 @@
+﻿{
+  "Id": "fafbb833-1ff3-481c-8473-7442146b172c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Barde_InspirationContagieuse",
+    "DisplayName": "Inspiration contagieuse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Barde_InspirationContagieuse",
+      "DisplayName": "Inspiration contagieuse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut jouer son [boléro héroïque](/regles/specialisations/menestrel) par deux [actions](/regles/combat/deroulement/tour) et en dépensant 10 points d’[Énergie](/regles/statistiques/energie). Lorsqu’il en fait ainsi, il est lui aussi inspiré.\n\nÉgalement, lorsqu’il [voit](/regles/aventure/environnement/vision) une créature située à 18 mètres ou moins de sa position utiliser l’inspiration et réussir son [test](/regles/competences/tests), alors il peut dépenser 5 points d’Énergie en [réaction](/regles/combat/deroulement/tour) afin d’inspirer une autre créature.\n\nCette créature doit être différente du personnage et de la créature ayant déclenché cette capacité, le personnage doit voir cette créature, celle-ci doit entendre le personnage, et elle doit se trouver à 18 mètres ou moins du personnage."
+      }
+    }
+  }
+}

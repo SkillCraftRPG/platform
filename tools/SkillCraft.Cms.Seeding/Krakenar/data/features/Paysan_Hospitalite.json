@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b4b17a8f-8724-4e74-9702-db0342ca4e8e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Paysan_Hospitalite",
+    "DisplayName": "Hospitalité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Paysan_Hospitalite",
+      "DisplayName": "Hospitalité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par son humilité, sa simplicité et ses manières rustiques, le rang social du personnage transparait sans équivoque.\n\nIl sait comment subvenir à ses besoins au plus faible prix, comment exploiter, troquer, et trouver les matières brutes.\n\nLes roturiers reconnaissent qu’il est du même rang social et seront prêts a lui offrir gite, couvert et parfois même protection contre la loi, toutefois sans risquer leur propre vie."
+      }
+    }
+  }
+}

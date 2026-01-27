@@ -1,0 +1,21 @@
+﻿{
+  "Id": "33f9b3a7-99de-4417-924f-5668df5d3548",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Humain_Aspect",
+    "DisplayName": "Aspect",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Humain_Aspect",
+      "DisplayName": "Aspect",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert gratuitement le talent [Entraînement I](/regles/talents/entrainement-i)."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿{
+  "Id": "d41a3e88-ded9-4bcc-8f96-36c3ca08abdd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Commandant_StrategeMilitaire",
+    "DisplayName": "Stratège militaire",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"6b1903bc-0f68-4e80-bc9e-710635808787\"]",
+      "Features": "[\"79c27e73-25aa-414e-9e9f-408b31e327e8\",\"f1d278cd-ca5b-4fae-ac30-f94818ccb27e\",\"ad9e2e04-569d-4efb-a347-1e174f390191\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Commandant_StrategeMilitaire",
+      "DisplayName": "Stratège militaire",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

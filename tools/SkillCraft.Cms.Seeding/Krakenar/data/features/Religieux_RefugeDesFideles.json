@@ -1,0 +1,21 @@
+﻿{
+  "Id": "41047e74-e51d-42f2-9851-6a8c3c59e390",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Religieux_RefugeDesFideles",
+    "DisplayName": "Refuge des fidèles",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Religieux_RefugeDesFideles",
+      "DisplayName": "Refuge des fidèles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est membre d’un culte ou d’une religion. Il œuvre à un temple ou à un lieu spirituel, et est connu des autres fidèles de son culte. Il sait où sont établis les lieux de son culte et où se rassemblent ses fidèles.\n\nSon temple et les fidèles de son culte sont prêts à l’héberger et à le sauver en cas de nécessité, souvent en échange de faveurs équivalentes ou d’une aumône quelconque.\n\nSa religion peut également lui permettre d’accéder à des reliques, des services spirituels particuliers, ou des personnalités religieuses."
+      }
+    }
+  }
+}

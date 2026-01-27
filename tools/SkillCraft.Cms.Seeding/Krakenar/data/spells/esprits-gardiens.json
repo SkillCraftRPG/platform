@@ -1,0 +1,26 @@
+﻿{
+  "Id": "459daeec-d147-4cea-8d5f-df0bb9a3a375",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "esprits-gardiens",
+    "DisplayName": "Esprits gardiens",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "esprits-gardiens",
+      "DisplayName": "Esprits gardiens",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Esprits protecteurs infligeant des dégâts et entravant les ennemis.",
+        "HtmlContent": "Pouvoir divin invoquant des esprits gardiens qui protègent le lanceur, ralentissent les ennemis proches et infligent des dégâts sacrés ou nécrotiques selon le niveau.",
+        "MetaDescription": "Découvrez Esprits gardiens : pouvoir divin invoquant des entités protectrices infligeant des dégâts sacrés, ralentissant les ennemis et contrôlant la zone.",
+        "Slug": "esprits-gardiens"
+      }
+    }
+  }
+}

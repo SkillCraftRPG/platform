@@ -1,0 +1,24 @@
+﻿{
+  "Id": "02f96bac-63a8-41e5-bb2a-e8093634bf4c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "faiblesse",
+    "DisplayName": "Faiblesse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "faiblesse",
+      "DisplayName": "Faiblesse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "faiblesse",
+        "HtmlContent": "Plutôt svelte, la musculature du personnage est largement inférieure à celle des autres individus de son espèce.\n\nSes [tests](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) et de [Mêlée](/regles/competences/melee) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Summary": "Réduit la force du personnage et pénalise l’Athlétisme et la Mêlée.",
+        "MetaDescription": "Découvrez le handicap Faiblesse, qui réduit la force physique du personnage et lui impose un désavantage à l’Athlétisme et à la Mêlée."
+      }
+    }
+  }
+}

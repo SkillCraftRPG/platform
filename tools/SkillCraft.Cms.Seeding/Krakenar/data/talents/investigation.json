@@ -1,0 +1,28 @@
+﻿{
+  "Id": "381cff49-da31-45f8-9e13-f054ce52327d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "investigation",
+    "DisplayName": "Investigation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"a6995524-b7b5-4511-8790-ef0e3b687442\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "investigation",
+      "DisplayName": "Investigation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "investigation",
+        "Summary": "Analyse et déduction logique pour découvrir ce qui est caché.",
+        "HtmlContent": "Lorsque le personnage [cherche](/regles/combat/activites/chercher) une créature ou un objet [dissimulé](/regles/combat/activites/cacher), il peut remplacer le [test](/regles/competences/tests) de [Perception](/regles/competences/perception) par un test d’[Investigation](/regles/competences/investigation).\n\nAfin d’utiliser cette capacité, il doit y avoir présence d’indices indiquant une possible créature ou objet dissimulé.",
+        "MetaDescription": "Découvrez le talent Investigation, qui permet d’analyser les indices logiquement pour déduire la présence d’une créature ou d’un objet dissimulé."
+      }
+    }
+  }
+}

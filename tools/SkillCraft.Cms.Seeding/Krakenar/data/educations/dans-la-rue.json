@@ -1,0 +1,28 @@
+﻿{
+  "Id": "de0dbf6f-bc97-4f19-9b48-6b279583aebb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "dans-la-rue",
+    "DisplayName": "Dans la rue",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "4",
+      "Skill": "[\"38b875a0-6519-4c8b-bff6-02c151e6a5fe\"]",
+      "Feature": "[\"4984804a-1c44-4497-8da4-2232c1f029c0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "dans-la-rue",
+      "DisplayName": "Dans la rue",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "dans-la-rue",
+        "Summary": "Enfant des ruelles, agile et rusé, il a appris à survivre sans règles.",
+        "HtmlContent": "Élevé dans la rue, le personnage est peut-être issu d’une famille de sans-abris.\n\nIl peut également avoir été élevé par d’autres clochards, n’ayant jamais connu ses parents.\n\nRecruté par un cirque ambulant ou esquivant les situations malencontreuses par ses prouesses physiques, ses mouvements sont prompts et souples.",
+        "MetaDescription": "Découvrez l’éducation *Dans la rue*, forgée par la faim et l’instinct. Souple et débrouillard, l’enfant des ruelles survit parmi les faubourgs et la misère."
+      }
+    }
+  }
+}

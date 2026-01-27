@@ -1,0 +1,33 @@
+﻿{
+  "Id": "94466358-cd25-4bca-b111-9fdd6ad4a262",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Liberte_PassWithoutTrace",
+    "DisplayName": "Passage naturel",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7c19f9ee-7079-471c-b601-504fba54dbfc\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Liberte_PassWithoutTrace",
+      "DisplayName": "Passage naturel",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un brin d’épinette.",
+        "Material": "Des cendres de feuille de gui.",
+        "HtmlContent": "Le personnage touche un nombre de créatures inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1) et doit s’inclure dans ce nombre. Les cibles se voient conférer un bonus (+10) à leurs [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite) et ne peuvent être pistées par des moyens non magiques. Lorsqu’elles se [déplacent](/regles/combat/activites/deplacement), elles ne laissent aucune trace derrière elles."
+      }
+    }
+  }
+}

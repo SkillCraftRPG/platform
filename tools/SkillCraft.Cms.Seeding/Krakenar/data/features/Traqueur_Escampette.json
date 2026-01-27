@@ -1,0 +1,21 @@
+﻿{
+  "Id": "25f9e852-3246-4713-8b22-ba47885d8c1b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Traqueur_Escampette",
+    "DisplayName": "Escampette",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Traqueur_Escampette",
+      "DisplayName": "Escampette",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’un des déclencheurs suivants se produit, le personnage peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de bénéficier d’une capacité spécifique au déclencheur.\n\n<table class=\"table table-scoped text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-50\">Déclencheur</th>\n      <th scope=\"col\" class=\"w-50\">Capacité</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Il est ciblé par une <a href=\"/regles/combat/attaque/opportunite\">attaque d’opportunité</a>.</td>\n      <td>\n        Le <a href=\"/regles/competences/tests\">test</a> des attaques d’opportunité dirigées contre lui est affligé du\n        <a href=\"/regles/competences/tests/avantage-desavantage\">désavantage</a> jusqu’au début de son prochain\n        <a href=\"/regles/combat/deroulement/tour\">tour</a>, incluant l’attaque ayant provoqué le déclencheur.\n      </td>\n    </tr>\n    <tr>\n      <td>Une <a href=\"/regles/combat/attaque\">attaque</a> dirigée contre lui réussit, pendant le tour d’une autre créature.</td>\n      <td>Bonus (+5) à l’<a href=\"/regles/statistiques/esquive\">Esquive</a> jusqu’à la fin du tour de cette créature.</td>\n    </tr>\n    <tr>\n      <td>Une <a href=\"/regles/combat/attaque/melee\">attaque de mêlée</a> dirigée contre lui échoue.</td>\n      <td>Il redirige cette attaque contre une autre créature dans la portée de l’attaque. Le résultat du test est réutilisé.</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

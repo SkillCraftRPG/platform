@@ -1,0 +1,24 @@
+﻿{
+  "Id": "12760c34-13e1-47d2-8d0e-33bae4003a47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "feroce",
+    "DisplayName": "Féroce",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "feroce",
+      "DisplayName": "Féroce",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "feroce",
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), le personnage peut [rouler deux fois les dégâts](/regles/combat/degats/jet) d’une [attaque](/regles/combat/attaque) et utiliser le résultat de son choix.",
+        "Summary": "Permet de relancer les dés de dégâts et garder le meilleur jet.",
+        "MetaDescription": "Découvrez le don Féroce, qui permet au personnage de lancer deux fois les dés de dégâts d’une attaque et de choisir le meilleur résultat."
+      }
+    }
+  }
+}

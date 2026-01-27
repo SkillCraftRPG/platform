@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a689c986-b36e-4fdb-8809-dabc457751ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "reflexes",
+    "DisplayName": "Réflexes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "reflexes",
+      "DisplayName": "Réflexes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "reflexes",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[Acrobaties](/regles/competences/acrobaties) afin d’éviter les pièges, et il devient [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) infligés par les pièges.\n- Lorsqu’il réussit un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’Acrobaties, alors il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer un [pas prudent](/regles/combat/activites/pas-prudent).\n- Il peut [Faire 20](/regles/competences/tests/faire-20) à un test pour s’échapper d’une contrainte physique par [deux actions](/regles/combat/deroulement/tour). Il ne peut [se déplacer](/regles/combat/activites/deplacement) jusqu’à la fin de son [tour](/regles/combat/deroulement/tour) lorsqu’il en fait ainsi.",
+        "Summary": "Accorde l’avantage pour éviter les pièges et esquiver les entraves.",
+        "MetaDescription": "Découvrez le don Réflexes, qui accorde l’avantage contre les pièges et permet d’esquiver les dangers grâce à une agilité instinctive."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "Id": "bd6bedde-2e50-493f-a1cc-8e23123c45c4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Melee",
+    "DisplayName": "Mêlée",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"45fc0f30-4e06-4ab3-8b51-2b193e92a632\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Melee",
+      "DisplayName": "Mêlée",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "melee",
+        "Summary": "Compétence de combat rapproché fondée sur la force et la maîtrise.",
+        "HtmlContent": "La compétence **Mêlée** permet au personnage d’effectuer une [attaque](/regles/combat/attaque) avec un membre de son corps ou une [arme](/regles/equipement/armes) de [mêlée](/regles/combat/attaque/melee).",
+        "MetaDescription": "Découvrez la compétence Mêlée, dédiée au combat rapproché, à la maîtrise des armes simples et à la puissance physique brute incarnée par la Vigueur."
+      }
+    }
+  }
+}

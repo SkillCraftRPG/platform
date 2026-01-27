@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ccd64cee-29c5-46f5-b2d0-b1c9160aa759",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "onde-de-choc",
+    "DisplayName": "Onde de choc",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"33973454-6d35-4fab-949f-d671b279a179\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "onde-de-choc",
+      "DisplayName": "Onde de choc",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "onde-de-choc",
+        "Summary": "Propage ses frappes pour ébranler les ennemis proches.",
+        "HtmlContent": "Lorsque le personnage réussit une [attaque brutale](/regles/talents/attaque-brutale), il peut déclencher une onde de choc afin d’impacter toute créature située à 1,5 mètres ou moins de la cible, excluant lui-même.\n\nIl utilise cette capacité en [action libre](/regles/combat/deroulement/tour) et dépense 15 points d’[Énergie](/regles/statistiques/energie) avant de savoir si l’[attaque](/regles/combat/attaque) réussit ou échoue.\n\nChaque créature touchée par l’attaque (le résultat original est réutilisé) reçoit un nombre de points de dégâts [non létaux](/regles/combat/degats/letalite) égal à la moitié des [points de dégâts](/regles/combat/degats) reçus par la cible originale.\n\nDe plus, si sa [taille](/regles/especes/taille) est inférieure ou égale à celle du personnage, une créature doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) de l’attaque effectuée par le personnage.\n\nEn cas d’échec, la créature est [renversée](/regles/combat/conditions/renverse) au sol ou repoussée de 1,5 mètres, selon l’option choisie contre la cible originale.",
+        "MetaDescription": "Découvrez le talent Onde de choc, permettant de propager un impact physique à plusieurs ennemis autour de la cible."
+      }
+    }
+  }
+}

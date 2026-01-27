@@ -1,0 +1,30 @@
+﻿{
+  "Id": "99c09d8b-12e8-4177-9d51-71141c91fe45",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FlammeSacree_SacredFlame",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"04939981-ec6a-4ea7-b917-946120cb0863\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FlammeSacree_SacredFlame",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de châtier une créature en lui projetant une flamme sacrée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties).\n\nEn cas d’échec, elle reçoit 1d6 [points de dégâts radiants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nElle émet également une faible lumière divine qui confère l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de la prochaine [attaque](/regles/combat/attaque) dirigée contre la cible jusqu’à la fin du [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "339c4304-0c1c-42ba-bc8f-141e70c67ab7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mentor-venerable",
+    "DisplayName": "Mentor vénérable",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "8",
+      "Skill": "[\"626b3491-ce0f-41ba-82bf-27c1d6432caf\"]",
+      "Feature": "[\"61abcdbb-cff7-4eb0-b167-e0880196524b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mentor-venerable",
+      "DisplayName": "Mentor vénérable",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mentor-venerable",
+        "HtmlContent": "Le personnage a été confié à un vieux sage, par exemple ses grands-parents ou aux moines d’un sanctuaire.\n\nIl aura développé un tempérament serein pendant son enfance.\n\nSon mentor lui aura également enseigné à prendre le temps d’observer son environnement et à porter attention aux détails afin de poser des conclusions rationnelles.",
+        "Summary": "A grandi auprès d’un sage, cultivant la patience et la clairvoyance.",
+        "MetaDescription": "Découvrez l’éducation Mentor vénérable, symbole d’un apprentissage calme et réfléchi transmis par un sage observateur du monde."
+      }
+    }
+  }
+}

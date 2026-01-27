@@ -1,0 +1,24 @@
+﻿{
+  "Id": "e892053f-0800-428b-bcac-2b0d6f017b4c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "pensee-claire",
+    "DisplayName": "Pensée claire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "pensee-claire",
+      "DisplayName": "Pensée claire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "pensee-claire",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il se souvient exactement de tout ce qu’il a vu ou entendu pendant le dernier mois.\n- S’il observe le ciel pendant [une minute](/regles/aventure/temps), il peut déterminer où se trouve le Nord ainsi que le nombre d’heures restant avant le prochain coucher ou lever de soleil.\n- Il peut réfléchir pendant une minute à propos d’un sujet avant d’effectuer un [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance), d’[Investigation](/regles/competences/investigation), de [Linguistique](/regles/competences/linguistique) ou de [Médecine](/regles/competences/medecine) afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son test. Il doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n- Bonus permanent (+5) à ses [tests passifs](/regles/competences/tests/passif) d’Investigation.",
+        "Summary": "Accorde mémoire parfaite et clarté d’esprit pour l’investigation.",
+        "MetaDescription": "Découvrez le don Pensée claire, qui accorde une mémoire parfaite, une lucidité accrue et un bonus d’analyse pour les tests d’Investigation."
+      }
+    }
+  }
+}

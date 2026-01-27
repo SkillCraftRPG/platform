@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8457ebd2-0fa1-4315-94cb-3de7760cae02",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "rescape",
+    "DisplayName": "Rescapé",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ecdcb4fb-13bc-498c-8222-40e0900c23e8\"]",
+      "RequiredTalent": "[\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "rescape",
+      "DisplayName": "Rescapé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "rescape",
+        "Summary": "Conscience et survie prolongées même aux portes de l’agonie.",
+        "HtmlContent": "Si les [Sens](/regles/attributs/sens) du personnage sont supérieurs à sa [Vigueur](/regles/attributs/vigueur), alors il peut utiliser ses Sens dans le calcul du [nombre de tours qu’il reste à l’agonie](/regles/combat/mort-agonie).\n\nÉgalement, lorsqu’il tombe [agonisant](/regles/combat/conditions/agonisant), il reste conscient de son environnement et de ce qui se déroule autour de lui. Cependant, les autres pénalités de l’[inconscience](/regles/combat/conditions/inconscient) s’appliquent quand même.\n\nÀ son [tour](/regles/combat/deroulement/tour), il ne peut utiliser qu’une seule action ou ne rien faire. Il ne peut utiliser sa réaction. Il reste conscient s’il ne fait rien.\n\nIl tombe inconscient s’il reçoit des [points de dégâts](/regles/combat/degats), ou s’il utilise une action, immédiatement après l’avoir effectuée.\n\nIl ne peut se [relever](/regles/aventure/mouvement/types), et ne peut [se déplacer](/regles/combat/activites/deplacement) qu’en [rampant](/regles/aventure/mouvement/types).\n\nS’il tente de se [stabiliser](/regles/combat/activites/stabiliser), son [test](/regles/competences/tests/avantage-desavantage) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage). Étant limité à une seule action, il lui est impossible d’utiliser une [trousse de premiers soins](/regles/equipement/outils).",
+        "MetaDescription": "Découvrez Rescapé : restez conscient en agonie, agissez une dernière fois et repoussez l’inconscience grâce à une volonté de survie exceptionnelle."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ac76e322-95b6-4bf5-a9c7-80ba7a91da79",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "magie-puissante",
+    "DisplayName": "Magie puissante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"f356649f-b39f-4db6-93f4-a2e0f8c2b841\"]",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "magie-puissante",
+      "DisplayName": "Magie puissante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "magie-puissante",
+        "Summary": "Permet de canaliser ses pouvoirs magiques à un niveau accru.",
+        "HtmlContent": "Permet au personnage de [canaliser](/regles/magie/pouvoirs/canalisation) ses [pouvoirs](/regles/magie/pouvoirs) au [niveau](/regles/magie/pouvoirs/niveau) intermédiaire.\n\nÉgalement, lorsqu’il atteint le [tiers 2](/regles/personnages/progression/tiers), il peut canaliser ses pouvoirs au niveau maximal.",
+        "MetaDescription": "Découvrez le talent Magie puissante, qui permet de canaliser ses pouvoirs à un niveau supérieur et d’amplifier leur efficacité magique."
+      }
+    }
+  }
+}

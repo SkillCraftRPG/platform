@@ -1,0 +1,27 @@
+﻿{
+  "Id": "aa6905b3-98d0-4ea6-8fc3-06f47aed66db",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "meditation",
+    "DisplayName": "Méditation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "meditation",
+      "DisplayName": "Méditation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "meditation",
+        "HtmlContent": "Le personnage peut méditer lorsqu’il fait [halte](/regles/aventure/repos/halte).\n\nIl peut également remplacer 2 heures de sommeil et 2 heures de halte par 4 heures de méditation pendant une [nuit de sommeil](/regles/aventure/repos/sommeil).\n\nPendant qu’il médite, sa [régénération](/regles/aventure/repos) d’[Énergie](/regles/statistiques/energie) est doublée. Il reste conscient, mais il n’est pas attentif à son environnement.\n\nS’il doit effectuer un [test](/regles/competences/tests), par exemple de [Perception](/regles/competences/perception), alors il doit effectuer un [test passif](/regles/competences/tests/passif).",
+        "Summary": "Double la régénération d’Énergie pendant un repos méditatif.",
+        "MetaDescription": "Découvrez le talent Méditation, qui permet de régénérer plus d’Énergie en remplaçant partiellement le sommeil par un repos concentré."
+      }
+    }
+  }
+}

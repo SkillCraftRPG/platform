@@ -1,0 +1,28 @@
+﻿{
+  "Id": "10b43316-6e48-4336-a446-a58475c6fa6a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "initiative-accrue",
+    "DisplayName": "Initiative accrue",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"ecd7e18e-2055-44c4-9b9d-8057af7f6dc5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "initiative-accrue",
+      "DisplayName": "Initiative accrue",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "initiative-accrue",
+        "Summary": "Accorde +2 à l’Initiative et améliore les réflexes au combat.",
+        "HtmlContent": "Confère au personnage un bonus permanent (+2) à l’[Initiative](/regles/statistiques/initiative).\n\nÉgalement, lorsqu’il obtient une valeur inférieure à ses [Sens](/regles/attributs/sens) (minimum 2) sur le dé d’un [test d’Initiative](/regles/combat/deroulement/initiative), il remplace cette valeur par ses Sens.",
+        "MetaDescription": "Découvrez le talent Initiative accrue, qui confère un bonus permanent à l’Initiative et améliore les réflexes du personnage lors des tests basés sur ses Sens."
+      }
+    }
+  }
+}

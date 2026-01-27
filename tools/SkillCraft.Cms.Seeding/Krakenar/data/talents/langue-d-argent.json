@@ -1,0 +1,29 @@
+﻿{
+  "Id": "38173a78-554b-4d1b-928b-a7d61d8c8ace",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "langue-d-argent",
+    "DisplayName": "Langue d’argent",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"2a49d787-e957-4fe0-afe7-3de5b6ebb214\"]",
+      "RequiredTalent": "[\"3b6590da-409b-4c4d-94a0-648630de73da\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "langue-d-argent",
+      "DisplayName": "Langue d’argent",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "langue-d-argent",
+        "Summary": "Suggestions persuasives et charme temporaire par maîtrise diplomatique.",
+        "HtmlContent": "Permet au personnage de suggérer un cours d’action d’une à deux phrases à une créature par [deux actions](/regles/combat/deroulement/tour), un [test](/regles/competences/tests) de [Diplomatie](/regles/competences/diplomatie) et en dépensant 20 points d’[Énergie](/regles/statistiques/energie).\n\nLa suggestion doit sembler raisonnable pour la cible : cette capacité n’a aucun effet si la suggestion cause directement du tort à la créature.\n\nLe personnage peut également inclure un déclencheur afin de retarder l’effet de la suggestion.\n\nLa cible doit l’entendre et le [comprendre](/regles/langues), et doit se situer à 9 mètres ou moins de sa position.\n\nSi celle-ci échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test, elle est [charmée](/regles/combat/conditions/charme) par celui-ci pendant un nombre d’[heures](/regles/aventure/temps) égal à la moitié de son [rang](/regles/competences/rang) de Diplomatie et est contrainte d’accomplir la suite d’actions suggérées.\n\nSi le personnage ou un allié commet une action hostile envers la cible, l’effet prend fin.\n\nLa cible ne sait pas qu’elle a été charmée lorsque l’effet prend fin, mais elle est immunisée à cet effet pendant les 24 prochaines heures.",
+        "MetaDescription": "Découvrez Langue d’argent : influencez une cible par une suggestion habile, charme temporaire et maîtrise avancée de la Diplomatie."
+      }
+    }
+  }
+}

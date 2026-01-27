@@ -1,0 +1,29 @@
+﻿{
+  "Id": "f7157b4f-b65e-4eff-a66e-58d0a5c7f7be",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "extraction-du-poison",
+    "DisplayName": "Extraction du poison",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"786e509e-ea89-4a51-b144-b84352f91b0f\"]",
+      "RequiredTalent": "[\"5b1cf18c-f787-49f9-9881-d2086df74664\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "extraction-du-poison",
+      "DisplayName": "Extraction du poison",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "extraction-du-poison",
+        "Summary": "Permet d’extraire, purifier ou stocker des poisons pour les réutiliser.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes. Il doit posséder du charbon de bois activé afin de pouvoir utiliser ces capacités.\n\n- Il peut extraire un [poison](/regles/herboristerie/poisons) naturel affligeant une créature empoisonnée. Il traite la créature pendant [une minute](/regles/aventure/temps) et consomme une charge d’une [trousse de premiers soins](/regles/equipement/outils). Il effectue un [test](/regles/competences/tests) de [Médecine](/regles/competences/medecine) contre le [degré de difficulté](/regles/competences/tests/difficulte) du poison et dépense 15 points d’[Énergie](/regles/statistiques/energie). S’il réussit le test, le poison est extrait et détruit, et la créature est soignée du poison.\n- S’il a acquis le talent [Apothicairerie](/regles/talents/apothicairerie), il peut consommer une charge supplémentaire de sa trousse de premiers soins afin de concocter un antidote à usage unique contre le poison extrait.\n- S’il a acquis le talent [Toxicologie](/regles/talents/toxicologie) et qu’il possède un [contenant](/regles/equipement/general/contenants) vide telle une fiole, alors il peut extraire la dose de poison dans cette fiole. La dose n’est pas détruite et le personnage peut réutiliser le poison par la même méthode qu’il a été utilisé à l’origine.\n- S’il possède une [trousse d’empoisonneur](/regles/equipement/outils) et une fiole vide, il peut extraire le venin d’une créature venimeuse. Par une action, il effectue un test de Médecine contre le degré de difficulté du poison et dépense 15 points d’Énergie. S’il réussit le test, le venin est extrait dans cette fiole, ce qui lui permet de l’utiliser.",
+        "MetaDescription": "Découvrez le talent Extraction du poison, permettant de neutraliser, stocker ou réutiliser des toxines grâce à la médecine et l’herboristerie."
+      }
+    }
+  }
+}

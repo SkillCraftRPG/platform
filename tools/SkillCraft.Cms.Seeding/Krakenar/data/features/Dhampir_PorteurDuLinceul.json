@@ -1,0 +1,21 @@
+﻿{
+  "Id": "8849cb61-0838-43e8-902b-2a13e722bb82",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir_PorteurDuLinceul",
+    "DisplayName": "Porteur du linceul",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir_PorteurDuLinceul",
+      "DisplayName": "Porteur du linceul",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage [acquiert gratuitement](/regles/magie/pouvoirs/acquisition) le pouvoir [Frisson](/regles/magie/pouvoirs/frisson).\n\nIl peut canaliser son [niveau 2](/regles/magie/pouvoirs/niveau) dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et son niveau 3 dès qu’il atteint le tiers 2, et ce même s’il n’a pas [acquis](/regles/talents/acquisition) le talent [Magie puissante](/regles/talents/magie-puissante)."
+      }
+    }
+  }
+}

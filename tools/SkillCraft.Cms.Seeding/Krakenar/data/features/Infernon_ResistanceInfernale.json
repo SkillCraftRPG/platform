@@ -1,0 +1,21 @@
+﻿{
+  "Id": "67f264e7-57f4-4f58-a389-cefd7eba8ab6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Infernon_ResistanceInfernale",
+    "DisplayName": "Résistance infernale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Infernon_ResistanceInfernale",
+      "DisplayName": "Résistance infernale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

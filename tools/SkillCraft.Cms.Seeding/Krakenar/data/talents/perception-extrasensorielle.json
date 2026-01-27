@@ -1,0 +1,28 @@
+﻿{
+  "Id": "1fb719d3-cb6a-4ce2-b43a-9ae1cd7dff25",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "perception-extrasensorielle",
+    "DisplayName": "Perception extrasensorielle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "perception-extrasensorielle",
+      "DisplayName": "Perception extrasensorielle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "perception-extrasensorielle",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Après avoir [médité](/regles/talents/meditation) pendant au moins [une heure](/regles/aventure/temps), il acquiert une perception extrasensorielle. Tant qu’il n’interrompt pas sa méditation, il peut détecter la présence de [magie](/regles/magie) à une distance de 9 mètres. La détection est bloquée par 30 centimètres de pierre, 3 centimètres de métal ou 1 mètre de bois ou de saleté.\n- En méditant pendant une heure en étant en contact ininterrompu avec un [artefact magique](/regles/magie/artefacts), il peut identifier celui-ci. Il identifie les propriétés de l’objet, comment l’utiliser, ses restrictions d’[harmonisation](/regles/magie/artefacts/harmonisation) ainsi que le nombre de charges qu’il possède. Il identifie également les effets surnaturels affectant présentement l’objet et par quel [pouvoir](/regles/magie/pouvoirs) il a été fabriqué, s’il a été fabriqué par un pouvoir.\n- En situation de [combat](/regles/combat), lorsqu’il effectue l’activité [Jugement](/regles/combat/activites/jugement), il peut sentir la présence d’illusions, de créatures métamorphes et de magie trompant les sens à une distance de 9 mètres s’il n’est pas [aveuglé](/regles/combat/conditions/aveugle) ni [assourdi](/regles/combat/conditions/assourdi). Il ne détecte que la présence de ces effets et non leur source. Il doit compléter une heure de méditation afin de réutiliser cette capacité.",
+        "Summary": "Détection de magie et illusions grâce à une profonde méditation.",
+        "MetaDescription": "Découvrez Perception extrasensorielle : détectez la magie, identifiez les objets enchantés et percevez illusions et métamorphes après méditation."
+      }
+    }
+  }
+}

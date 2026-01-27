@@ -1,0 +1,24 @@
+﻿{
+  "Id": "f24624cd-c430-4be9-922e-447e9202802d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "malchanceux",
+    "DisplayName": "Malchanceux",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "malchanceux",
+      "DisplayName": "Malchanceux",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "malchanceux",
+        "HtmlContent": "Reconnu pour sa mauvaise fortune, les proches du personnage l’évitent ou rient des situations cocasses qui en découlent.\n\nLe maître de jeu est doté de 3 points de malchance qu’il peut utiliser contre le personnage.\n\n- Il peut dépenser 1 point de malchance afin de produire un effet équivalant à 2 [points de Damnation](/regles/competences/esperance-damnation).\n- Il peut dépenser 2 points de malchance afin de produire un effet équivalant à 4 [points de Damnation](/regles/competences/esperance-damnation).\n- Il peut dépenser 3 points de malchance afin de produire un effet équivalant à 5 [points de Damnation](/regles/competences/esperance-damnation).\n\nIl récupère ces points lorsque le personnage complète une [nuit de sommeil](/regles/aventure/repos/sommeil).",
+        "Summary": "Le personnage attire la malchance, au profit du maître du jeu.",
+        "MetaDescription": "Découvrez le handicap Malchanceux, où la poisse poursuit le personnage, offrant au maître du jeu des points de malchance à utiliser contre lui."
+      }
+    }
+  }
+}

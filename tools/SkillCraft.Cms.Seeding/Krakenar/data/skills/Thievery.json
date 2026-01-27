@@ -1,0 +1,26 @@
+﻿{
+  "Id": "70c5ac59-ed69-42e7-aa17-2720d98ae81a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thievery",
+    "DisplayName": "Roublardise",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thievery",
+      "DisplayName": "Roublardise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "roublardise",
+        "Summary": "Maîtrise la dextérité, le vol et les actes discrets.",
+        "HtmlContent": "La compétence **Roublardise** permet au personnage de :\n\n- manipuler de petits objets — que ce soit pour les dérober, les dissimuler ou les déposer\n- activer un mécanisme\n- crocheter une serrure\n- désamorcer un piège\n- manipuler avec précision de petits objets\n- nouer ou dénouer un nœud simple ou complexe\n- saboter un mécanisme",
+        "MetaDescription": "Découvrez la compétence Roublardise, dédiée à la manipulation précise, au crochetage, au sabotage et aux actes discrets ou rusés."
+      }
+    }
+  }
+}

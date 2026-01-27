@@ -1,0 +1,26 @@
+﻿{
+  "Id": "04939981-ec6a-4ea7-b917-946120cb0863",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "flamme-sacree",
+    "DisplayName": "Flamme sacrée",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "flamme-sacree",
+      "DisplayName": "Flamme sacrée",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "flamme-sacree",
+        "Summary": "Frappe une cible d’une flamme divine et facilite la prochaine attaque.",
+        "MetaDescription": "Découvrez une flamme divine qui châtie une cible à distance, inflige des dégâts radiants croissants et confère un avantage à la prochaine attaque contre elle.",
+        "HtmlContent": "Une flamme divine frappe une cible à distance, lui infligeant des dégâts radiants croissants selon le niveau et offrant un avantage à la prochaine attaque dirigée contre elle."
+      }
+    }
+  }
+}

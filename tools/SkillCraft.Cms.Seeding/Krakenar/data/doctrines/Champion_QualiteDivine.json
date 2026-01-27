@@ -1,0 +1,23 @@
+﻿{
+  "Id": "7bf844dd-85c3-4542-8241-a61d5be5352f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Champion_QualiteDivine",
+    "DisplayName": "Qualité divine",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"6b15354e-1841-4a94-8e7a-117184cb44ff\"]",
+      "DiscountedTalents": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"f49126be-c2f2-49f3-8d2e-20cc0c140200\"]",
+      "Features": "[\"44820c12-61b1-495c-9e01-3595670ffafa\",\"0766a65d-9b22-4a25-85cf-41ec67abb4e5\",\"f7d0fce8-bfed-4d69-a3da-3aa41fc2189d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Champion_QualiteDivine",
+      "DisplayName": "Qualité divine",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

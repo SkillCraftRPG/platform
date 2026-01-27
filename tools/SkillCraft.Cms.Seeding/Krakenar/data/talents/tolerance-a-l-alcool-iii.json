@@ -1,0 +1,28 @@
+﻿{
+  "Id": "5d05b6c8-3aed-471c-8748-228dd3bbb875",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tolerance-a-l-alcool-iii",
+    "DisplayName": "Tolérance à l’alcool III",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"66def333-62b6-414d-b35a-d80ae0207140\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tolerance-a-l-alcool-iii",
+      "DisplayName": "Tolérance à l’alcool III",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tolerance-a-l-alcool-iii",
+        "Summary": "Augmente la tolérance et accorde vitalité via l’alcoolémie.",
+        "HtmlContent": "Augmente de manière permanente (+3) le [seuil de tolérance à l’alcool](/regles/aventure/environnement/alcoolemie) du personnage.\n\nÉgalement, chaque fois qu’il acquiert des points d’alcoolémie, il peut se conférer des [points de Vitalité temporaires](/regles/combat/degats/temporaire) en dépensant un nombre égal de points d’[Énergie](/regles/statistiques/energie). Il peut se conférer 2 points de Vitalité temporaires par point d’alcoolémie, ou 5 points de Vitalité temporaires pour 2 points d’alcoolémie.",
+        "MetaDescription": "Découvrez le talent Tolérance à l’alcool III, qui augmente la résistance à l’ivresse et confère de la vitalité temporaire via l’alcoolémie."
+      }
+    }
+  }
+}

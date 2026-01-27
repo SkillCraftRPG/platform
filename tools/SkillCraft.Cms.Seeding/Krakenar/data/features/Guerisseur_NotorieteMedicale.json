@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1c651703-22f3-4dd2-892d-b61fc66842d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Guerisseur_NotorieteMedicale",
+    "DisplayName": "Notoriété médicale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Guerisseur_NotorieteMedicale",
+      "DisplayName": "Notoriété médicale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les conseils et directions donnés par le personnage en lien avec la médecine et la santé sont rarement pris à la légère.\n\nCela lui confère une certaine notoriété à tous les niveaux de la pyramide sociale, et peut également lui permettre de se procurer du matériel médical à prix réduit, ou d’échanger ses services de guérison contre diverses faveurs."
+      }
+    }
+  }
+}

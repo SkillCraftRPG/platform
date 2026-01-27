@@ -1,0 +1,24 @@
+﻿{
+  "Id": "cf99d263-8e12-4f34-a405-35358fdb52c8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maladroit",
+    "DisplayName": "Maladroit",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maladroit",
+      "DisplayName": "Maladroit",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "maladroit",
+        "HtmlContent": "Le corps du personnage n’est pas souple ni agile.\n\nSes [tests](/regles/competences/tests) d’[Acrobaties](/regles/competences/acrobaties) et de [Furtivité](/regles/competences/furtivite) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Summary": "Réduit l’agilité et pénalise les tests d’Acrobaties et de Furtivité.",
+        "MetaDescription": "Découvrez le handicap Maladroit, qui réduit l’agilité du personnage et lui impose un désavantage à ses tests d’Acrobaties et de Furtivité."
+      }
+    }
+  }
+}

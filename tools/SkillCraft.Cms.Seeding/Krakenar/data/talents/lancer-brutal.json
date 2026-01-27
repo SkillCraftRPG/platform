@@ -1,0 +1,28 @@
+﻿{
+  "Id": "70ba6c8f-af9a-4586-812f-f15e1e36ace8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lancer-brutal",
+    "DisplayName": "Lancer brutal",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lancer-brutal",
+      "DisplayName": "Lancer brutal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lancer-brutal",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque à distance](/regles/combat/attaque/distance), il peut ajouter des [dés de dégâts](/regles/combat/degats/jet).\n\nIl peut utiliser cette capacité une fois par [tour](/regles/combat/deroulement/tour), il doit lancer une [arme](/regles/equipement/armes) possédant la propriété [Jet](/regles/equipement/armes/proprietes) et pour laquelle il est [formé](/regles/equipement/armes/formation), et l’[attaque](/regles/combat/attaque) doit être effectuée par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee).\n\nIl peut ajouter un nombre de dés inférieur ou égal à son [tiers](/regles/personnages/progression/tiers) et dépense 15 points d’[Énergie](/regles/statistiques/energie) par dé avant de savoir si l’attaque réussit ou échoue.\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à la sienne, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de Mêlée de l’attaque effectuée par le personnage.\n\nEn cas d’échec, elle est [renversée](/regles/combat/conditions/renverse) au sol, ou repoussée de 1,5 mètres, au choix du personnage.",
+        "Summary": "Ajoute des dés de dégâts et peut renverser la cible au lancer.",
+        "MetaDescription": "Découvrez le talent Lancer brutal, qui permet d’ajouter des dés de dégâts supplémentaires aux attaques de jet et de renverser la cible à l’impact."
+      }
+    }
+  }
+}

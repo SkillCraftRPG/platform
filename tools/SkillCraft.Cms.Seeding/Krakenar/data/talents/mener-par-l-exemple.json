@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3b6590da-409b-4c4d-94a0-648630de73da",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mener-par-l-exemple",
+    "DisplayName": "Mener par l’exemple",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"2a49d787-e957-4fe0-afe7-3de5b6ebb214\"]",
+      "RequiredTalent": "[\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mener-par-l-exemple",
+      "DisplayName": "Mener par l’exemple",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mener-par-l-exemple",
+        "Summary": "Inspire les alliés à reproduire vos actions avec efficacité.",
+        "HtmlContent": "Après avoir effectué une action, le personnage peut inspirer d’autres créatures à effectuer la même action.\n\nPar une [action](/regles/combat/deroulement/tour), il sélectionne un nombre de créatures inférieur ou égal à la moitié de son [rang](/regles/competences/rang) de [Diplomatie](/regles/competences/diplomatie), situées à 9 mètres ou moins de sa position.\n\nJusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour), une créature ciblée se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) si elle effectue la même action que le personnage.\n\nÉgalement, si le personnage [interagit](/regles/aventure/interaction-sociale) continuellement pendant [10 minutes](/regles/aventure/temps) avec une créature qui peut le comprendre, par le langage [verbal](/regles/langues) ou corporel, il peut tenter de la [charmer](/regles/combat/conditions/charme) par un test de Diplomatie et en dépensant 15 points d’[Énergie](/regles/statistiques/energie).\n\nSi celle-ci échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test, elle est charmée par celui-ci pendant un nombre de minutes égal à la moitié de son rang de Diplomatie.\n\nL’effet prend fin si le personnage ou un de ses alliés commet une action hostile contre la cible ou contre une créature alliée de celle-ci.\n\nLa cible ne sait pas qu’elle a été charmée lorsque l’effet prend fin, mais elle est immunisée à cet effet pendant les 24 prochaines heures.",
+        "MetaDescription": "Découvrez le talent Mener par l’exemple, permettant d’inspirer ses alliés à imiter vos actions et à obtenir des bonus grâce à votre leadership."
+      }
+    }
+  }
+}

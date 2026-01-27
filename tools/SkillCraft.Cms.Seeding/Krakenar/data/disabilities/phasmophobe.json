@@ -1,0 +1,24 @@
+﻿{
+  "Id": "e97d29f6-3538-4c82-800e-b3464184d964",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "phasmophobe",
+    "DisplayName": "Phasmophobe",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "phasmophobe",
+      "DisplayName": "Phasmophobe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "phasmophobe",
+        "HtmlContent": "Le personnage est terriblement effrayé par le surnaturel.\n\nSes [tests](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) et [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets surnaturels sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n\nÉgalement, lorsqu’il [voit](/regles/aventure/environnement/vision) une créature morte-vivante de [niveau](/regles/personnages/progression/niveau) supérieur à son [tiers](/regles/personnages/progression/tiers), alors il doit effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline) de [difficulté moyenne](/regles/competences/tests/difficulte).\n\nEn cas d’échec, il est [apeuré](/regles/combat/conditions/apeure) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).",
+        "Summary": "Terreur du surnaturel, désavantage face aux effets mystiques.",
+        "MetaDescription": "Découvrez le handicap Phasmophobe, où la peur panique du surnaturel affaiblit la volonté face aux morts-vivants et aux phénomènes occultes."
+      }
+    }
+  }
+}

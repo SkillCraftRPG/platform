@@ -1,0 +1,23 @@
+﻿{
+  "Id": "7e429445-53ef-4242-a7ac-f5582f385146",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brigand_Sournoiseries",
+    "DisplayName": "Sournoiseries",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"88d3074d-98b1-472d-88bf-95a7bb252968\"]",
+      "DiscountedTalents": "[\"3a318dfc-40ef-4d1c-ae76-9ca8c2a35565\",\"c2a0e512-521c-485d-a7e4-784b74e37e40\",\"eb0632dc-3008-425d-a1b8-3bb438ee6201\"]",
+      "Features": "[\"acfda8bd-02ac-4965-b061-39abb48327d0\",\"9cd53a44-c794-4b13-a7d0-213eadf87759\",\"bb3abac1-62b8-401b-962d-f9b63b583428\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brigand_Sournoiseries",
+      "DisplayName": "Sournoiseries",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

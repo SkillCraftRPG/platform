@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d7a918d3-7a2d-4547-882b-4d043ba342a9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Chanceux",
+    "DisplayName": "Chanceux",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Chanceux",
+      "DisplayName": "Chanceux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage possède 2 points de chance.\n\nLeur fonctionnement est identique à ceux du don [Chance extraordinaire](/regles/dons-handicaps/chance-extraordinaire), et ces points sont cumulables avec les points conférés par ce don."
+      }
+    }
+  }
+}

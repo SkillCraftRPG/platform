@@ -1,0 +1,32 @@
+﻿{
+  "Id": "cd73ca6e-9b07-4ed3-a9ce-2532df763e6f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsGardiens_SpiritShroud",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"459daeec-d147-4cea-8d5f-df0bb9a3a375\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsGardiens_SpiritShroud",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole divin.",
+        "HtmlContent": "Le personnage invoque des esprits invulnérables et intangibles qui flottent autour de lui.\n\nIl sélectionne un des [types de dégâts](/regles/combat/degats/types) suivants : froid, nécrotique ou radiant.\n\nLorsqu’il réussit une [attaque](/regles/combat/attaque) ciblant une créature située à 3 mètres ou moins de sa position, alors il inflige [1d12 points de dégâts](/regles/combat/degats/jet) supplémentaires de ce type, et cette créature ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n\nÉgalement, toute créature désignée par le personnage débutant son tour à 3 mètres ou moins de celui-ci voit sa [vitesse](/regles/aventure/mouvement/vitesse) réduite de 2 points de mouvement (-0,5 mètres par seconde)."
+      }
+    }
+  }
+}

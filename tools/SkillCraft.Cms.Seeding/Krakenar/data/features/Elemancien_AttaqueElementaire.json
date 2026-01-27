@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9a1879cb-87a2-48be-b07e-a476da8671ad",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elemancien_AttaqueElementaire",
+    "DisplayName": "Attaque élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elemancien_AttaqueElementaire",
+      "DisplayName": "Attaque élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts du type](/regles/combat/degats/types) associé à sa [spécialité élémentaire](/regles/specialisations/elementariste)."
+      }
+    }
+  }
+}

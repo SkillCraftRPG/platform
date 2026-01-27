@@ -1,0 +1,29 @@
+﻿{
+  "Id": "f8f5ac5a-e082-49c1-a4f6-4f30e9c6646a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "animiste",
+    "DisplayName": "Animiste",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "MandatoryTalent": "[\"d8473b88-7dc6-436b-9f92-9936e07362c4\"]",
+      "OptionalTalents": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"e7282746-a39b-4f5b-b356-022579e09001\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"8b38975a-dbb1-448e-9a5b-ff1637b3a77f\",\"7dd9ed2f-377b-4199-ba60-0d24240804e5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "animiste",
+      "DisplayName": "Animiste",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "animiste",
+        "Summary": "Spécialisation spirituelle liée à la nature et à la transformation en bête.",
+        "HtmlContent": "L’animiste est un adepte d’un culte spirituel voué à un élément naturel. Ces éléments peuvent concerner par exemple les animaux, la chasse et le climat, ou encore la nuit et la Lune. Ils peuvent également concerner les esprits des défunts et ancestraux, ou encore les croyances des peuples archaïques. L’animiste jongle avec les forces féériques ou ombrageuses qui régissent ces éléments naturels, et adoptent généralement une posture de devin et de guérisseur auprès d’un culte ou d’une communauté primitive.",
+        "OtherRequirements": "Le personnage doit avoir sélectionné un [domaine d’animisme](/regles/domaines/animisme) lorsqu’il a acquis le talent [Spiritualité](/regles/talents/spiritualite).",
+        "MetaDescription": "Découvrez l’Animiste, un culte spirituel lié aux éléments naturels, capable d’assumer une forme sauvage et d’invoquer les pouvoirs de l’animisme."
+      }
+    }
+  }
+}

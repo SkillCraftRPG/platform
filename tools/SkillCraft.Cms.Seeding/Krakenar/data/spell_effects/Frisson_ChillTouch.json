@@ -1,0 +1,30 @@
+﻿{
+  "Id": "500a7a7f-e4dc-4562-bef7-b59255d2dd16",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Frisson_ChillTouch",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9477c73d-443e-41b2-9896-0561572876c3\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Frisson_ChillTouch",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée une main spectrale et squelettique, qui [attaque](/regles/magie/effets/attaque) une cible.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](a/regles/combat/degats/jet) [perçants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nDe plus, la main s’accroche sur la cible jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. La cible ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) pendant cette durée.\n\nSi la cible est un mort-vivant, le test de ses [attaques](/regles/combat/attaque) dirigées contre le personnage se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage) pendant cette durée."
+      }
+    }
+  }
+}

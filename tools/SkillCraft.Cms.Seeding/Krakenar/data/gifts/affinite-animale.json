@@ -1,0 +1,24 @@
+﻿{
+  "Id": "cd3e4047-047b-484c-bb44-62e421ea30a1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "affinite-animale",
+    "DisplayName": "Affinité animale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "affinite-animale",
+      "DisplayName": "Affinité animale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "affinite-animale",
+        "Summary": "Permet de communiquer et d’interagir plus facilement avec les animaux.",
+        "HtmlContent": "En interagissant ou en observant un animal pendant au moins [une minute](/regles/aventure/temps), permet au personnage de communiquer des idées simples à l’animal, et de comprendre son comportement et ses réactions.\n\nÉgalement, il peut donner un ordre en [action libre](/regles/combat/deroulement/tour) à un animal qu’il a [dressé](/regles/talents/dressage) un nombre de fois par [tour](/regles/combat/deroulement/tour) égal à son [tiers](/regles/personnages/progression/tiers).",
+        "MetaDescription": "Découvrez Affinité animale, un don permettant de communiquer avec les bêtes, comprendre leur comportement et leur donner des ordres simples."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "19f90d6c-92a6-4c0b-9d19-0b52f928dade",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionPoisonsMaladies_CreateFoodWater1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5552740d-a6ae-4279-9cf9-8d1d30ce1421\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionPoisonsMaladies_CreateFoodWater1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une feuille d’if.",
+        "HtmlContent": "Le personnage crée 10 kilogrammes de nourriture et 50 litres d’eau fraîche sur le sol ou dans des [contenants](/regles/equipement/general/contenants) qu’il peut voir, ce qui permet de [nourrir](/regles/aventure/environnement/alimentation) et d’[abreuver](/regles/aventure/environnement/alimentation) jusqu’à 10&nbsp;humanoïdes pour une journée.\n\nLa nourriture est fade mais nourrissante et disparaît après [24 heures](/regles/aventure/temps) si elle n’est pas consommée. L’eau reste fraîche et propre même après cette période.\n\nLa nourriture et l’eau peuvent également abreuver et nourrir une monture, mais cette monture mange et boit la même quantité que 5 humanoïdes."
+      }
+    }
+  }
+}

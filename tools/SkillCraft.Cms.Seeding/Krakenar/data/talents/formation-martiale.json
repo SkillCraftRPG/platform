@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5601b8cb-9061-4a44-9dfe-2ac1fdd46f46",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "formation-martiale",
+    "DisplayName": "Formation martiale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"bd6bedde-2e50-493f-a1cc-8e23123c45c4\"]",
+      "RequiredTalent": "[\"6651cbd0-51d8-4391-8385-7207c8ed80db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "formation-martiale",
+      "DisplayName": "Formation martiale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "formation-martiale",
+        "Summary": "Accorde la maîtrise des armes et armures moyennes en combat.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est [formé](/regles/equipement/armes/formation) au maniement des [armes martiales](/regles/equipement/armes/martiales) de mêlée.\n- Il est [formé](/regles/equipement/armures/formation) au port des [armures moyennes](/regles/equipement/armures/moyennes) et à l’utilisation des [boucliers moyens](/regles/equipement/boucliers).\n- Lorsqu’il dégaine ou rengaine une arme, il peut en faire de même avec un bouclier en [action libre](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez le talent Formation martiale, qui forme le personnage aux armes et armures moyennes, ainsi qu’à l’usage efficace des boucliers."
+      }
+    }
+  }
+}

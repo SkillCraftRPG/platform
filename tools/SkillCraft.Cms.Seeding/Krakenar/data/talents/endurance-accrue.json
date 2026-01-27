@@ -1,0 +1,29 @@
+﻿{
+  "Id": "da6a0b6e-4ff7-402e-9959-f5a12ff10362",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "endurance-accrue",
+    "DisplayName": "Endurance accrue",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"4153ec24-3cb6-4e5e-93e6-c80853e5688b\"]",
+      "RequiredTalent": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "endurance-accrue",
+      "DisplayName": "Endurance accrue",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "endurance-accrue",
+        "Summary": "Octroie 10 points d’énergie et réduit les effets de la fatigue.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 10 points d’[Énergie](/regles/statistiques/energie).\n\nÉgalement, il peut ignorer les effets des niveaux 1 à 3 de [Fatigue](/regles/combat/conditions/fatigue) en dépensant 10 points d’Énergie par [test](/regles/competences/tests) ou [déplacement](/regles/combat/activites/deplacement).",
+        "MetaDescription": "Découvrez le talent Endurance accrue, qui accorde un bonus permanent d’énergie et permet d’ignorer partiellement les effets de la fatigue."
+      }
+    }
+  }
+}

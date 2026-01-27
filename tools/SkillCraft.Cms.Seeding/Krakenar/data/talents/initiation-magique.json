@@ -1,0 +1,28 @@
+﻿{
+  "Id": "650d5c63-6463-4a39-aaab-626f45789784",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "initiation-magique",
+    "DisplayName": "Initiation magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "true",
+      "RequiredTalent": "[\"66e561e9-ef67-4ff7-8615-121e461b9916\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "initiation-magique",
+      "DisplayName": "Initiation magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "initiation-magique",
+        "Summary": "Un premier accès aux cercles de magie d’astromancie.",
+        "HtmlContent": "Le personnage sélectionne un des cinq [cercles de magie](/regles/astromancie) et acquiert une capacité spécifique à ce cercle.\n\nIl peut acquérir ce talent [plusieurs fois](/regles/talents/acquisition) s’il a acquis la spécialisation [Astromancien](/regles/specialisations/astromancien).\n\n### Cercle d’Abjuration\n\n**Garde magique.** Lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) du [cercle d’Abjuration](/regles/astromancie), il peut créer une garde magique sur lui-même en [action libre](/regles/combat/deroulement/tour). Cette garde possède un nombre de [points de Vitalité](/regles/statistiques/vitalite) égal au double du [rang](/regles/competences/rang) d’[Occultisme](/regles/competences/occultisme) du personnage additionné à ses [Sens](/regles/attributs/sens) (minimum 1), et elle persiste même si elle perd tous ses points de Vitalité. Lorsque le personnage canalise à nouveau un pouvoir du cercle d’Abjuration, la garde [récupère](/regles/combat/degats/soins) un nombre de points de Vitalité égal au [niveau](/regles/magie/pouvoirs/niveau) du pouvoir canalisé. La garde disparaît lorsqu’il complète une [nuit de sommeil](/regles/aventure/repos/sommeil).\n\n### Cercle de Divination\n\n**Prédiction.** Lorsque le personnage effectue une action ou qu’il [voit](/regles/aventure/environnement/vision) une autre créature agir, il peut prédire une partie du résultat avant que le [test](/regles/competences/tests) ne soit joué. Il choisit une option parmi la liste suivante : Réussite, Échec, Espérance, ou Damnation. Le test est ensuite joué, et cette option est appliquée au [résultat](/regles/competences/tests/2d10) du test, remplaçant le résultat obtenu. Il peut utiliser cette capacité deux fois et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Il ne peut sélectionner qu’une option par utilisation de cette capacité, et il ne peut réutiliser cette option avant de compléter une nuit de sommeil.\n\n### Cercle d’Envoûtement\n\n**Regard hypnotique.** Permet au personnage d’hypnotiser une créature qui peut le [voir](/regles/aventure/environnement/vision) ou l’entendre située à 1,5 mètres ou moins de sa position. Par une [action](/regles/combat/deroulement/tour), il effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), et la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test. En cas d’échec, la cible est hypnotisée par le personnage jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) de celui-ci. Elle est immobile et devient [incapable](/regles/combat/conditions/incapable). À chaque tour subséquent, le personnage peut utiliser une action afin d’étendre la durée de l’effet jusqu’à la fin de son prochain tour. L’effet prend fin si le personnage s’éloigne de la cible, si celle-ci ne peut plus voir ni entendre le personnage, ou si elle reçoit des [points de dégâts](/regles/combat/degats). Si la cible réussit le jet de sauvegarde, ou lorsque l’effet prend fin, alors la cible est immunisée contre cette capacité pendant les [24 prochaines heures](/regles/aventure/temps).\n\n### Cercle d’Invocation\n\n**Invocation mineure.** Par une [action](/regles/combat/deroulement/tour), le personnage peut invoquer un objet inanimé dans sa main ou dans un espace inoccupé situé à 3 mètres ou moins de sa position. L’objet doit prendre la forme d’un objet non magique que le personnage a déjà vu, il doit entrer dans un cube d’un mètre d’arête et son poids doit être d’au plus 5 kilogrammes. L’objet apparaît magique, dégageant de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 1,5 mètres. Il disparaît après [une heure](/regles/aventure/temps), si le personnage réutilise cette capacité, ou si l’objet reçoit des [points de dégâts](/regles/combat/degats).\n\n### Cercle de Transmutation\n\n**Alchimie précaire.** Permet au personnage de changer temporairement la composition d’un objet non magique. L’objet doit être composé entièrement de bois, de pierre (excluant les gemmes), de fer, de cuivre ou d’argent. Le rituel change le matériau le composant par un autre matériau parmi cette même liste. Pour chaque période de [dix minutes](/regles/aventure/temps) passées à effectuer le rituel, le personnage peut transformer un cube de 30 centimètres d’arête. Il doit [se concentrer](/regles/combat/activites/concentration) sur l’objet. S’il perd la concentration, l’objet reprend sa composition d’origine. L’effet prend fin après une heure.",
+        "MetaDescription": "Découvrez Initiation magique : talent réservé à l’Astromancien, ouvrant l’accès à un cercle de magie et à une capacité unique et spécialisée."
+      }
+    }
+  }
+}

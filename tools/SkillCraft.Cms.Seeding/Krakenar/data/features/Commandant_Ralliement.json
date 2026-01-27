@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f1d278cd-ca5b-4fae-ac30-f94818ccb27e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Commandant_Ralliement",
+    "DisplayName": "Ralliement",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Commandant_Ralliement",
+      "DisplayName": "Ralliement",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut pousser un cri de ralliement lorsqu’il utilise une des capacités suivantes. L’effet du cri dépend de la capacité utilisée.\n\nIl doit avoir acquis la spécialisation lui permettant d’utiliser cette capacité.\n\nAfin de bénéficier des effets du cri, une créature doit être située à 18 mètres ou moins du personnage, elle doit pouvoir l’entendre, le personnage doit la [voir](/regles/aventure/environnement/vision), et cette créature ne doit être ni [incapable](/regles/combat/conditions/incapable), ni [inconsciente](/regles/combat/conditions/inconscient).\n\n- [Ardeur au combat](/regles/specialisations/soldat). Le personnage désigne une créature alliée. Celle-ci peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) et utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer une [action](/regles/combat/deroulement/tour) de son choix.\n- [Indomptable](/regles/specialisations/combattant). Le personnage désigne une créature alliée ayant échoué un [jet de sauvegarde](/regles/competences/tests/sauvegarde). Celle-ci peut dépenser 25 points d’[Énergie](/regles/statistiques/energie) en [action libre](/regles/combat/deroulement/tour) afin de rejouer le jet de sauvegarde, et elle doit utiliser le nouveau résultat.\n- [Second souffle](/regles/specialisations/combattant). Le personnage désigne un nombre de créatures alliées inférieur ou égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1). Chaque créature peut dépenser le même nombre de points d’[Énergie](/regles/statistiques/energie) que le personnage en [action libre](/regles/combat/deroulement/tour) afin de [récupérer](/regles/combat/degats/soins) un nombre égal de points de [Vitalité](/regles/statistiques/vitalite)."
+      }
+    }
+  }
+}

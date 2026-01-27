@@ -1,0 +1,28 @@
+﻿{
+  "Id": "54221c09-acc1-48d6-a39f-1c7a4bcbb572",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "desarconnement",
+    "DisplayName": "Désarçonnement",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"dc53c886-b804-46fd-8d0c-86e5e0079a58\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "desarconnement",
+      "DisplayName": "Désarçonnement",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "desarconnement",
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), le personnage peut se conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à un [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) effectué par une [main secondaire](/regles/combat/attaque/deux-armes).\n\nÉgalement, lorsqu’il combat en maniant une [arme](/regles/equipement/armes) différente dans plusieurs mains, alors il se voit conférer un bonus (+1) à l’[Esquive](/regles/combat/attaque/esquive) par arme s’il ne bénéficie pas d’un [bouclier](/regles/equipement/boucliers).",
+        "Summary": "Avantage et meilleure esquive avec armes multiples.",
+        "MetaDescription": "Découvrez Désarçonnement : avantage aux attaques secondaires et bonus d’Esquive en maniant plusieurs armes sans bouclier."
+      }
+    }
+  }
+}

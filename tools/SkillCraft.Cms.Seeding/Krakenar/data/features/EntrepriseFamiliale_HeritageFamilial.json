@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6807b84e-d664-47b3-9ffe-aea785ec8aac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EntrepriseFamiliale_HeritageFamilial",
+    "DisplayName": "Héritage familial",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EntrepriseFamiliale_HeritageFamilial",
+      "DisplayName": "Héritage familial",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Issu d’un milieu où chaque membre contribue à un même héritage, il a grandi au cœur d’un réseau soudé par le travail et les liens du sang.\n\nIl peut solliciter l’aide ou les compétences de ses proches lorsque la situation s’y prête.\n\nLa notoriété associée à sa famille, favorable ou non, influence aussi la manière dont les autres le perçoivent et réagissent à sa présence."
+      }
+    }
+  }
+}

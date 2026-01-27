@@ -1,0 +1,29 @@
+﻿{
+  "Id": "4cedddb9-9286-47ae-b9ba-c6a17fc75a80",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "robustesse-extraordinaire",
+    "DisplayName": "Robustesse extraordinaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"5921b392-2010-4347-8492-1307291a74ef\"]",
+      "RequiredTalent": "[\"2c09d822-56f7-45bc-a6c7-8a281013e682\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "robustesse-extraordinaire",
+      "DisplayName": "Robustesse extraordinaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "robustesse-extraordinaire",
+        "Summary": "Vitalité accrue et meilleure résistance aux coups critiques physiques.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 20 points de [Vitalité](/regles/statistiques/vitalite).\n\nÉgalement, lorsqu’il est victime d’un [coup critique](/regles/competences/tests/critique) provenant d’une [attaque](/regles/combat/attaque) infligeant des [points de dégâts létaux](/regles/combat/degats/letalite) physiques, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de remplacer le coup critique par une réussite simple.",
+        "MetaDescription": "Découvrez Robustesse extraordinaire : +20 vitalité permanente et réduction des coups critiques physiques pour des héros endurants et résistants."
+      }
+    }
+  }
+}

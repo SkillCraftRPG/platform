@@ -1,0 +1,32 @@
+﻿{
+  "Id": "66213f46-a1a6-4972-bc9b-2190ae1f9122",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VignesEpineuses_SpikeGrowth",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VignesEpineuses_SpikeGrowth",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision). Des ronces et racines épineuses poussent dans un rayon de 6 mètres centré sur ce point.\n\nCes plantes sont camouflées et semblent naturelles, une créature doit donc réussir un [test](/regles/competences/tests) de [Perception](/regles/competences/perception) [opposé](/regles/competences/tests/oppose) au test d’[Occultisme](/regles/competences/occultisme) du personnage afin de détecter leur présence.\n\nLa zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile), et une créature reçoit [3d4 points de dégâts](/regles/combat/degats/jet) [perçants](/regles/combat/degats/types) pour chaque case traversée dans la zone."
+      }
+    }
+  }
+}

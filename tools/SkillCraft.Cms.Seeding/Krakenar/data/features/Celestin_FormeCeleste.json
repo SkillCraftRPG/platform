@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5b39d46c-8570-440a-9bd3-29f3d4fd05d7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Celestin_FormeCeleste",
+    "DisplayName": "Forme céleste",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Celestin_FormeCeleste",
+      "DisplayName": "Forme céleste",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Chaque fois que le [tiers](/regles/personnages/progression/tiers) du personnage augmente, il acquiert une des transformations suivantes.\n\nUne fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut activer une transformation qu’il a acquise.\n\nIl peut mettre fin à la transformation par une action. La durée maximale de la transformation est d’[une minute](/regles/aventure/temps).\n\nUne fois par tour, lorsqu’il [blesse](/regles/combat/degats) une créature par une [attaque](/regles/combat/attaque) ou un [pouvoir](/regles/magie/pouvoirs) alors qu’une transformation est active, alors il peut infliger un nombre de points de dégâts [radiants](/regles/combat/degats/types) (ou [nécrotiques](/regles/combat/degats/types) si la transformation est _Voile sombre_) égal à 2 + tiers.\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\n- **Émanation lumineuse.** De la radiance brûlante est émise de la bouche et des yeux du personnage. Il émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 3 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 3 mètres additionnels. Toute créature terminant son [tour](/regles/combat/deroulement/tour) dans la zone de clarté reçoit un nombre de [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) égal à 2 + [tiers](/regles/personnages/progression/tiers) du personnage.\n- **Voile sombre.** Les yeux du personnage deviennent ténébreux et des ailes fantomatiques apparaissent dans son dos. Toute créature ennemie débutant son [tour](/regles/combat/deroulement/tour) en se trouvant à 3&nbsp;mètres ou moins de la position du personnage et voyant celui-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au [test passif](/regles/competences/tests/passif) de [Représentation](/regles/competences/representation) ([Sens](/regles/attributs/sens)) de celui-ci. En cas d’échec, une créature est [apeurée](/regles/combat/conditions/apeure) par le personnage jusqu’à la fin de son tour.\n- **Âme radiante.** _(Tiers 2 ou 3)_ Une paire d’ailes spectrales et lumineuses apparaissent dans le dos du personnage, lui conférant une [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types)."
+      }
+    }
+  }
+}

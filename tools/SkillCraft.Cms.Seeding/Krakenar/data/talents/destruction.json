@@ -1,0 +1,28 @@
+﻿{
+  "Id": "c2a0e512-521c-485d-a7e4-784b74e37e40",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "destruction",
+    "DisplayName": "Destruction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"7105682d-e30d-445c-869f-7a59e1500bf6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "destruction",
+      "DisplayName": "Destruction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "destruction",
+        "Summary": "Brise son arme pour infliger plus de dégâts ou assommer l’ennemi.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il tente d’endommager ou de [briser un objet](/regles/aventure/interaction-objets) sans être [menacé](/regles/combat) ni distrait, il peut [Faire 20](/regles/competences/tests/faire-20) s’il n’est pas contraint par le [temps](/regles/aventure/temps).\n- Lorsqu’il [cible une arme](/regles/talents/bris) tenue par une autre créature, alors son [test](/regles/competences/tests) n’est pas affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Lorsqu’il [brise son arme](/regles/talents/bris) contre une créature et que celle-ci échoue un des [jets de sauvegarde](/regles/competences/tests/sauvegarde), elle reçoit des pénalités additionnelles si elle obtient un [échec critique](/regles/competences/tests/critique), ou que son [dé de Damnation](/regles/competences/tests/2d10) est supérieur à son [dé d’Espérance](/regles/competences/tests/2d10). Ces pénalités sont supplémentaires à celles spécifiées par le talent [Bris](/regles/talents/bris).\n  - Si elle échoue le jet de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme) de cette manière, alors la créature reçoit un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à la valeur maximale du [dé de dégâts](/regles/combat/degats/jet) de l’arme brisée.\n  - Si elle échoue le jet de sauvegarde [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance) de cette manière, alors la créature est [assommée](/regles/combat/conditions/assomme) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez le talent Destruction, permettant d’infliger des dégâts accrus en brisant son arme contre l’ennemi et d’assommer les cibles affaiblies."
+      }
+    }
+  }
+}

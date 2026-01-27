@@ -1,0 +1,28 @@
+﻿{
+  "Id": "b94abe2c-7691-419d-af10-7cea5747bb52",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "critique-accru",
+    "DisplayName": "Critique accru",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"a215357d-53e8-4d1c-a471-4c1dd88915dd\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "critique-accru",
+      "DisplayName": "Critique accru",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "critique-accru",
+        "Summary": "Coups critiques facilités et inspiration tactique.",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque](/regles/combat/attaque), il obtient une [réussite critique](/regles/competences/tests/critique) si la somme des [dés](/regles/competences/tests/2d10) égale 17.\n\nÉgalement, lorsqu’il obtient une réussite critique pour une attaque, alors il peut inspirer une créature qui a [vu](/regles/aventure/environnement/vision) sa réussite critique. Jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage, la cible peut ajouter 1d10 à un de ses [tests](/regles/competences/tests), ou à un [jet de dégâts](/regles/combat/degats/jet).",
+        "MetaDescription": "Découvrez Critique accru : talent offensif augmentant la fréquence des coups critiques et permettant d’inspirer un allié après une réussite critique."
+      }
+    }
+  }
+}

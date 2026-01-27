@@ -1,0 +1,29 @@
+﻿{
+  "Id": "208f05b5-cf04-4640-ab8c-92d540a65fc4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "prediction",
+    "DisplayName": "Prédiction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"a6995524-b7b5-4511-8790-ef0e3b687442\"]",
+      "RequiredTalent": "[\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "prediction",
+      "DisplayName": "Prédiction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "prediction",
+        "Summary": "Anticipe les menaces et esquive grâce à l’analyse et l’intuition.",
+        "HtmlContent": "Lorsqu’il est ciblé par une [attaque](/regles/combat/attaque), le personnage peut utiliser sa [réaction](/regles/combat/deroulement/tour) et dépenser 15 points d’[Énergie](/regles/statistiques/energie) afin de remplacer son [Esquive](/regles/combat/attaque/esquive) par son [test passif](/regles/competences/tests/passif) d’[Investigation](/regles/competences/investigation) contre cette attaque. S’il ne [voit](/regles/aventure/environnement/vision) pas son assaillant, il doit préalablement avoir repéré des indices quelconques lui signalant le danger.\n\nÉgalement, lorsqu’il effectue un [test](/regles/competences/tests) d’une [compétence](/regles/competences) (excluant les attaques et [jets de sauvegarde](/regles/competences/tests/sauvegarde)) pour laquelle il n’est pas [formé](/regles/competences/formation) et qu’il possède du matériel de référence, alors il peut dépenser 15 points d’Énergie et remplacer le [rang](/regles/competences/rang) de cette compétence par la moitié de son rang d’Investigation.",
+        "MetaDescription": "Découvrez le talent Prédiction, qui permet d’anticiper les attaques et d’utiliser la logique et l’intuition pour esquiver le danger."
+      }
+    }
+  }
+}

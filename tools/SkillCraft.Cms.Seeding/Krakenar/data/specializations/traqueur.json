@@ -1,0 +1,28 @@
+﻿{
+  "Id": "2ff6fde0-056e-4bf5-8996-10a6bf3ffaac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "traqueur",
+    "DisplayName": "Traqueur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"7f59aab9-2398-4b3d-be64-3be095114f51\"]",
+      "OptionalTalents": "[\"55be09ee-01f1-4ed4-a3e7-ef44c4619f2f\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"fff4d66c-fbbb-44ba-a1f6-609d642f32bc\",\"09a52559-3dd9-4556-a4e8-c222585b3b2f\",\"0b64a74b-9acf-4187-93e8-6c457fe1aa93\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "traqueur",
+      "DisplayName": "Traqueur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "traqueur",
+        "HtmlContent": "Le traqueur est redouté pour son approche silencieuse et méthodique. Il arpente aussi bien les terres sauvages que les ruines et les grandes cités, traquant ses cibles avec une précision implacable. Employé comme chasseur de primes ou tueur de monstres, aucune proie ne lui échappe grâce à ses sens aiguisés semblables à ceux d’un prédateur. Il sait comment pister ses proies, peut identifier leurs forces et faiblesses, et sait également s’éclipser en cas de danger afin de revenir à la charge mieux préparé.",
+        "Summary": "Chasseur méthodique aux sens affûtés, traquant sans relâche.",
+        "MetaDescription": "Découvrez le Traqueur, chasseur implacable spécialisé dans le pistage, l’embuscade et l’analyse des proies, capable de frapper puis disparaître."
+      }
+    }
+  }
+}

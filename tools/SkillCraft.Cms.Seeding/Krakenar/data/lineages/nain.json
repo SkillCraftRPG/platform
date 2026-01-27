@@ -1,0 +1,33 @@
+﻿{
+  "Id": "1aefb67d-7138-448e-b6f5-749edb4b5ef6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nain",
+    "DisplayName": "Nain",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:5",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "120+3d10",
+      "Age": "15,50,150,350",
+      "Weight": "22+1d4,26+1d6,32+1d8,40+1d8,48+1d10",
+      "Features": "[\"c216021d-cf30-4cff-86c2-c682eb8f5d9c\",\"5cd4d5a5-4839-4090-8804-659b1b3a4298\",\"e6505b1b-33c1-40d4-919d-11404db016d3\",\"9a5f44e4-8bb2-42d5-8f00-cefe725c6e86\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nain",
+      "DisplayName": "Nain",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "nain",
+        "Summary": "Nain robuste des souterrains, endurant, artisan et vision nocturne.",
+        "HtmlContent": "Les nains sont des êtres trapus et poilus. Malgré leur petite taille, leur force physique et leur endurance ne doivent pas être sous-estimées. Leur corps s’est adapté à leur mode de vie dans des réseaux souterrains de grottes et de tunnels. Cette dure réalité exige d’eux qu’ils contribuent à toutes les facettes de leur communauté, il est donc rare de voir un nain se spécialiser dans un seul domaine d’expertise.",
+        "NamesText": "Les nains habitent en clans rassemblant les membres d’une même famille.\n\nLorsqu’un nain naît, les aînés du clan lui assignent un prénom et il adopte le nom de famille du clan.\n\nCes noms appartiennent au clan, si bien que lorsqu’un individu déshonore son clan, ses noms peuvent lui être retirés.\n\nIl est ensuite interdit à l’individu de porter ces noms par les lois sacrées naines.",
+        "MetaDescription": "Découvrez le nain : être trapu et endurant des profondeurs, maître de l’artisanat, doté d’une vision nocturne et d’une force insoupçonnée."
+      }
+    }
+  }
+}

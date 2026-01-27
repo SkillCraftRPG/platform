@@ -1,0 +1,24 @@
+﻿{
+  "Id": "7b327339-488b-447d-a9b3-fbaa6d65d864",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Deception",
+    "DisplayName": "Tromperie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Deception",
+      "DisplayName": "Tromperie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tromperie",
+        "Summary": "Permet de mentir, manipuler et tromper avec ruse.",
+        "HtmlContent": "La compétence **Tromperie** permet au personnage de :\n\n- imiter une créature d’une autre espèce ou d’un autre genre avec vraisemblance\n- [manipuler](/regles/aventure/interaction-sociale) sans contredire la vérité directement\n- mentir de façon crédible ou non\n- se faire passer pour autrui\n- utiliser un déguisement convaincant",
+        "MetaDescription": "Découvrez la compétence Tromperie, utilisée pour mentir, manipuler, imiter autrui et créer des déguisements crédibles avec ruse et finesse."
+      }
+    }
+  }
+}

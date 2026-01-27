@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c98f4f83-dc04-4c5f-91a5-07b45a6848b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HabiletesFeeriques_PlantGrowth_8Hours",
+    "DisplayName": "Croissance végétale",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "2",
+      "CastingTime": "[\"8h\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Year\"]",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HabiletesFeeriques_PlantGrowth_8Hours",
+      "DisplayName": "Croissance végétale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage enrichit le sol autour d’un point qu’il peut [voir](/regles/aventure/environnement/vision). Toute plante située dans un cercle de 1 kilomètre de rayon centré sur ce point est enchantée, et sa production est doublée."
+      }
+    }
+  }
+}

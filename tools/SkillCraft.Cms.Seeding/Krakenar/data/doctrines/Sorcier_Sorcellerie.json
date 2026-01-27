@@ -1,0 +1,25 @@
+﻿{
+  "Id": "e7591aff-9eb7-4ca3-82fc-ccf71eefdaf9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sorcier_Sorcellerie",
+    "DisplayName": "Sorcellerie",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"bb04ecfd-b806-44ff-8b9d-ef5482f32642\"]",
+      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]",
+      "Features": "[\"1f9d60f2-b727-4bbe-9eeb-7519ec860670\",\"9c9d7317-b6bb-4f3e-87b7-95764e0c3804\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sorcier_Sorcellerie",
+      "DisplayName": "Sorcellerie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) dès qu’il acquiert la spécialisation [Astromancien](/regles/specialisations/astromancien).\nIl peut acquérir les pouvoirs de tiers 2 associés à l’[élément Esprit](#) dès qu’il acquiert la spécialisation [Élémentariste](/regles/specialisations/elementariste), si sa spécialité élémentaire est l’Esprit.\nIl peut utiliser une capacité de [Méta-magie](/regles/talents/meta-magie) en dépensant des [points d’essence élémentaire](#) associés à l’Esprit plutôt que des points d’[Énergie](/regles/statistiques/energie). Lorsqu’il en fait ainsi, il peut remplacer une ou plusieurs tranches de 10 points d’Énergie par un point d’essence élémentaire par tranche."
+      }
+    }
+  }
+}

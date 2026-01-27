@@ -1,0 +1,29 @@
+﻿{
+  "Id": "55998f0a-5eee-40e5-aa8a-345b4a8a376a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maximisation-magique",
+    "DisplayName": "Maximisation magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"f356649f-b39f-4db6-93f4-a2e0f8c2b841\"]",
+      "RequiredTalent": "[\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maximisation-magique",
+      "DisplayName": "Maximisation magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "maximisation-magique",
+        "Summary": "Pouvoirs plus fiables, difficulté réduite et incantations optimisées.",
+        "HtmlContent": "Lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs), le [degré de difficulté](/regles/competences/tests/difficulte) de son [test](/regles/competences/test) d’[Occultisme](/regles/competences/occultisme) est réduit de 5 points supplémentaires.\n\nÉgalement, il peut canaliser un pouvoir en multipliant par 1,5 la durée de l’[incantation](/regles/magie/parametres/incantation), par exemple utiliser 3 actions plutôt que 2, ou canaliser pendant 15 minutes au lieu de 10 minutes.\n\nLorsqu’il en fait ainsi, il réussit automatiquement à canaliser le pouvoir s’il n’obtient pas un [échec critique](/regles/competences/tests/critique) à son test d’Occultisme, et le niveau canalisé est réduit de 1 pour le calcul des [points d’Énergie dépensés](/regles/magie/pouvoirs/energie) (minimum 1 point d’Énergie dépensé). Cette réduction est additionnelle à la réduction conférée par le talent [Optimisation magique](/regles/talents/optimisation-magique).",
+        "MetaDescription": "Découvrez Maximisation magique : réduisez la difficulté des pouvoirs, allongez l’incantation pour garantir la réussite et diminuez le coût énergétique."
+      }
+    }
+  }
+}

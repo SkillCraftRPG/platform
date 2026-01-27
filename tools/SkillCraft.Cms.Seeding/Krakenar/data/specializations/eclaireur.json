@@ -1,0 +1,28 @@
+﻿{
+  "Id": "88454a0c-8521-4cba-a8e4-2a4e7886aaf3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "eclaireur",
+    "DisplayName": "Éclaireur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "MandatoryTalent": "[\"e7282746-a39b-4f5b-b356-022579e09001\"]",
+      "OptionalTalents": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\",\"89552d5e-05f9-4482-bc86-19cbf4fc9c03\",\"6651cbd0-51d8-4391-8385-7207c8ed80db\",\"5601b8cb-9061-4a44-9dfe-2ac1fdd46f46\",\"7a8e3824-57a5-44e3-ad85-d2443f72ca4c\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"ff67585b-bfd7-4965-a660-1fbdf0547c12\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"ecd7e18e-2055-44c4-9b9d-8057af7f6dc5\",\"7dd9ed2f-377b-4199-ba60-0d24240804e5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "eclaireur",
+      "DisplayName": "Éclaireur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "eclaireur",
+        "Summary": "Expert en repérage, survie et reconnaissance tactique.",
+        "HtmlContent": "À l’avant-garde de sa troupe, l’éclaireur sonde les défenses ennemies afin d’établir le meilleur plan et de profiter des brèches. Ses habiletés sont multiples et polyvalentes, ce qui lui permet de se débrouiller autant en milieu sauvage que dans une cité peuplée, dans des contextes sociaux et même dans une escarmouche dangereuse.",
+        "MetaDescription": "Découvrez l’Éclaireur, spécialiste de reconnaissance et de survie, capable de sonder l’ennemi, tendre des embuscades et exploiter ses sens aiguisés."
+      }
+    }
+  }
+}

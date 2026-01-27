@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5b2904bd-5e73-458e-a37d-d2d1d15e003f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mefait-feutre",
+    "DisplayName": "Méfait feutré",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"70c5ac59-ed69-42e7-aa17-2720d98ae81a\"]",
+      "RequiredTalent": "[\"a5692e61-f95e-4147-ae10-174dcd2a8e7f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mefait-feutre",
+      "DisplayName": "Méfait feutré",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mefait-feutre",
+        "Summary": "Améliore la discrétion et la précision des actes de sabotage ou vol.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Roublardise](/regles/competences/roublardise) lorsqu’il manipule (déplace ou dissimule) un objet d’au plus la grosseur de la paume de sa main.\n- Lorsqu’il [bouscule](/regles/combat/activites/bousculer) une créature, il peut remplacer le test d’[Athlétisme](/regles/competences/athletisme) par un test de Roublardise.\n- Il peut doubler le temps nécessaire afin d’accomplir une tâche nécessitant un test de Roublardise, par exemple crocheter une serrure, activer ou désamorcer un piège, ou encore saboter un mécanisme. Lorsqu’il en fait ainsi, le méfait est dissimulé et difficilement discernable. Afin de découvrir le méfait, une créature doit réussir un test de [Perception](/regles/competences/perception) ou d’[Investigation](/regles/competences/investigation) [opposé](/regles/competences/tests/oppose) au test de Roublardise du personnage.",
+        "MetaDescription": "Découvrez le talent Méfait feutré, qui perfectionne la Roublardise et permet de dissimuler ses actions ou saboter un mécanisme sans être repéré."
+      }
+    }
+  }
+}

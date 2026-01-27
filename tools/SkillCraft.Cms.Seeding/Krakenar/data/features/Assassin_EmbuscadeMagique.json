@@ -1,0 +1,21 @@
+﻿{
+  "Id": "326e4df7-38c9-4471-a210-df5fe812f839",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Assassin_EmbuscadeMagique",
+    "DisplayName": "Embuscade magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Assassin_EmbuscadeMagique",
+      "DisplayName": "Embuscade magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) contre une créature tout en étant [dissimulé](/regles/combat/attaque/dissimulee) de celle-ci, alors tout [jet de sauvegarde](/regles/competences/tests/sauvegarde) de cette créature contre le pouvoir est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

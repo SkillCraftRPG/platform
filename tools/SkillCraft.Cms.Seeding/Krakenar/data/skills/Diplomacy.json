@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2a49d787-e957-4fe0-afe7-3de5b6ebb214",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Diplomacy",
+    "DisplayName": "Diplomatie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Diplomacy",
+      "DisplayName": "Diplomatie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "diplomatie",
+        "Summary": "Permet d’influencer, négocier et obtenir des faveurs par le tact.",
+        "HtmlContent": "La compétence **Diplomatie** permet au personnage de :\n\n- [influencer l’attitude d’autrui](/regles/aventure/interaction-sociale) par le tact, les mots justes ou une étiquette appropriée\n- obtenir des informations précises en interagissant habilement avec les bonnes personnes\n- se fondre dans une foule sans attirer l’attention",
+        "MetaDescription": "Découvrez la compétence Diplomatie, qui permet d’influencer autrui, d’obtenir des informations ou de se fondre dans la foule avec tact et justesse."
+      }
+    }
+  }
+}

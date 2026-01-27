@@ -1,0 +1,21 @@
+﻿{
+  "Id": "da862fa7-bcae-4c8d-a8db-c0680b46c9f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Catalyste_AttaqueElementaire",
+    "DisplayName": "Attaque élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Catalyste_AttaqueElementaire",
+      "DisplayName": "Attaque élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts d’un type](/regles/combat/degats/types) associé à une combinaison élémentaire. Un des éléments de cette combinaison doit être sa [spécialité](/regles/specialisations/elementariste)."
+      }
+    }
+  }
+}

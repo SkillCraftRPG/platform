@@ -1,0 +1,21 @@
+﻿{
+  "Id": "47a6e879-081d-4067-b3cb-850ed0fd477a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Augure_AttaqueElementaire",
+    "DisplayName": "Attaque élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Augure_AttaqueElementaire",
+      "DisplayName": "Attaque élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts radiants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

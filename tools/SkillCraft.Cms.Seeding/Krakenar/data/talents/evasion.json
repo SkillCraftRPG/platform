@@ -1,0 +1,28 @@
+﻿{
+  "Id": "a7abe59c-1c5c-43f8-b938-df2690cf437f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "evasion",
+    "DisplayName": "Évasion",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"4791665a-cdab-406d-a938-1cfc0fea2e23\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "evasion",
+      "DisplayName": "Évasion",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "evasion",
+        "HtmlContent": "Lorsque le personnage effectue une [parade](/regles/talents/parade) ([posture défensive](/regles/combat/activites/defense) ou [réaction](/regles/combat/deroulement/tour)), il acquiert les capacités suivantes :\n\n- Il peut remplacer le bonus d’[Attaque](/regles/equipement/armes/attaque) de son [arme](/regles/equipement/armes) par son [rang](/regles/competences/rang) d’[Acrobaties](/regles/competences/acrobaties). Il déduit de ce nombre tout bonus de [Défense](/regles/equipement/defense) conféré par son [équipement](/regles/equipement), notamment [armures](/regles/equipement/armures) et [boucliers](/regles/equipement/boucliers) dont il bénéficie. Ce bonus ne peut descendre en-deçà de 0.\n- Lorsqu’il réussit un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties), il ne reçoit aucun [point de dégâts](/regles/combat/degats). Il n’en reçoit que la moitié s’il échoue le jet de sauvegarde.\n- Il peut [Faire 20](/regles/competences/tests/faire-20) à un jet de sauvegarde d’Acrobaties. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n- Il peut réduire à 0 les points de dégâts reçus d’une [attaque](/regles/combat/attaque) le prenant pour cible. Il doit compléter une nuit de sommeil afin de réutiliser cette capacité.\n- Si une de ses mains est libre, que l’attaque échoue et qu’il s’agissait d’une [attaque à distance](/regles/combat/attaque/distance), il peut saisir le projectile au vol (arme de [Jet](/regles/equipement/armes/proprietes) ou [munition](/regles/equipement/armes/munitions)).",
+        "Summary": "Permet d’éviter les attaques et de saisir les projectiles au vol.",
+        "MetaDescription": "Découvrez le talent Évasion, ultime maîtrise de la parade permettant d’éviter totalement les attaques et même d’attraper les projectiles en plein vol."
+      }
+    }
+  }
+}

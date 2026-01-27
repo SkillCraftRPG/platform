@@ -1,0 +1,28 @@
+﻿{
+  "Id": "fd7175cc-ec35-4345-b736-d467b4d67241",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "compagnon-animal",
+    "DisplayName": "Compagnon animal",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"1d2d6d96-7eb5-49f1-aa90-2d5a4aa0fc1b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "compagnon-animal",
+      "DisplayName": "Compagnon animal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "compagnon-animal",
+        "Summary": "Bête dressée, actions coordonnées et soutien tactique en combat.",
+        "HtmlContent": "Le personnage peut désormais apprivoiser et dresser une bête de niveau 1 et moins.\n\n### Entraînement singulier\n\nIl peut entraîner une des bêtes qu’il a [dressées](/regles/talents/dressage) pendant [8 heures](/regles/aventure/temps) afin de la désigner comme compagnon animal. Cet entraînement peut être fractionné en plusieurs périodes, et s’effectuer à la [halte](/regles/aventure/repos/halte).\n\nIl ne peut avoir qu’un seul compagnon à la fois. S’il entraîne une autre bête comme compagnon, la précédente bête oublie son entraînement.\n\n- Le compagnon peut apprendre un nombre de tours illimités.\n- Le personnage ajoute ses [Sens](/regles/attributs/sens) (minimum&nbsp;1) à l’[Esquive](/regles/statistiques/esquive) du compagnon, à ses [tests](/regles/competences/tests) ainsi qu’à ses [jets de dégâts](/regles/combat/degats/jet).\n- Si le nombre maximum de points de [Vitalité](/regles/statistiques/vitalite) du compagnon est inférieur au [niveau](/regles/personnages/progression/niveau) du personnage, alors il augmente à cette valeur.\n- Lorsque le personnage est ciblé par un [pouvoir](/regles/magie/pouvoirs), alors il peut étendre les effets du pouvoir à son compagnon s’il le désire, à la discrétion du maître de jeu. Lorsqu’il en fait ainsi, le compagnon n’est pas compté dans le nombre de cibles. Afin d’utiliser cette capacité, le personnage doit [voir](/regles/aventure/environnement/vision) son compagnon, et ils ne peuvent être séparés de plus de 9 mètres.\n\nEn situation de [combat](/regles/combat), le compagnon agit pendant le [tour](/regles/combat/deroulement/tour) du personnage, ou il possède sa propre valeur d’[Initiative](/regles/combat/deroulement/initiative), au choix du personnage.\n\n- S’il n’est pas [incapable](/regles/combat/conditions/incapable), le personnage peut donner des ordres à son compagnon en [action libre](/regles/combat/deroulement/tour).\n- Si le personnage est incapable ou que le compagnon ne reçoit pas d’ordre, alors le compagnon peut agir comme bon lui semble, mais il priorise la protection de son maître et se place en [posture défensive](/regles/combat/activites/defense) s’il se sent menacé.\n- Le compagnon peut utiliser sa [réaction](/regles/combat/deroulement/tour) sans en recevoir l’ordre de son maître. Néanmoins, afin d’effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite), il doit satisfaire l’une des conditions suivantes.\n  - Il doit avoir déjà reçu l’ordre d’[attaquer](/regles/combat/attaque) la cible.\n  - Il doit avoir [perçu](/regles/competences/perception) son maître, ou une créature alliée, attaquer la cible.\n  - Il doit avoir perçu la cible attaquer son maître, ou une créature alliée.",
+        "MetaDescription": "Découvrez Compagnon animal : talent avancé permettant de dresser une bête fidèle, lui donner des ordres tactiques et combattre en parfaite coordination."
+      }
+    }
+  }
+}

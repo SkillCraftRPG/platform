@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a6b2ec3e-4b81-48ff-856b-f89d420014b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sourd",
+    "DisplayName": "Sourd",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sourd",
+      "DisplayName": "Sourd",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sourd",
+        "HtmlContent": "Le personnage a perdu son sens de l’audition ou en est né dépourvu.\n\nIl échoue automatiquement ses [tests](/regles/competences/tests) liés à l’ouïe.\n\nLorsqu’il effectue un test de [Perception](/regles/competences/perception) et qu’il n’est pas [aveuglé](/regles/combat/conditions/aveugle), alors il peut substituer son ouïe par sa [vue](/regles/aventure/environnement/vision) si la situation le permet.",
+        "Summary": "Le personnage est privé d’audition et échoue ses tests liés à l’ouïe.",
+        "MetaDescription": "Découvrez le handicap Sourd, qui prive le personnage de son audition et influence ses tests liés à l’ouïe et à la perception."
+      }
+    }
+  }
+}

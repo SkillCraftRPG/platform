@@ -1,0 +1,33 @@
+﻿{
+  "Id": "a5478c0e-884f-4b6e-ac18-a67970a91e8c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionPoisonsMaladies_DetectPoisonDiseasePurifyFoodDrink",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5552740d-a6ae-4279-9cf9-8d1d30ce1421\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionPoisonsMaladies_DetectPoisonDiseasePurifyFoodDrink",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage détecte la présence et l’emplacement précis des [poisons](/regles/herboristerie/poisons), venins et maladies situés à 9 mètres ou moins de sa position. Il peut également identifier la nature du poison, du venin ou de la maladie. Le pouvoir pénètre la plupart des barrières, mais il est arrêté par 30 centimètres de pierre, 3 centimètres de métal ou 1 mètre de bois ou de saleté.\n\nLorsqu’il perd ou lâche sa [concentration](/regles/magie/parametres/duree), le personnage peut également purifier tout breuvage et toute nourriture de tout poison, venin ou maladie. Les breuvages et la nourriture doivent se trouver dans une sphère de 1,5 mètres de rayon centré sur un point que le personnage peut [voir](/regles/aventure/environnement/vision).",
+        "Focus": "Une feuille d’if."
+      }
+    }
+  }
+}

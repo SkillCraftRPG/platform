@@ -1,0 +1,28 @@
+﻿{
+  "Id": "6e31c8e4-b48c-42f3-9024-e972ac256728",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cuirasse",
+    "DisplayName": "Cuirassé",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"5601b8cb-9061-4a44-9dfe-2ac1fdd46f46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cuirasse",
+      "DisplayName": "Cuirassé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cuirasse",
+        "Summary": "Permet de porter des armures lourdes et boucliers lourds sans pénalités.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est [formé](/regles/equipement/armures/formation) au port des [armures lourdes](/regles/equipement/armures/lourdes) et à l’utilisation des [boucliers lourds](/regles/equipement/boucliers).\n- Il ignore la propriété [Bruyante](/regles/equipement/armures/proprietes) des [armures légères](/regles/equipement/armures/legeres) et [moyennes](/regles/equipement/armures/moyennes) qu’il porte.\n- Il peut [dormir](/regles/aventure/repos/sommeil) en portant une armure légère ou moyenne sans subir de pénalité à sa [régénération](/regles/aventure/repos).",
+        "MetaDescription": "Découvrez le talent Cuirassé, qui offre la maîtrise des armures lourdes et des boucliers, permettant de dormir en armure et d’ignorer le bruit du métal."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "Id": "ecdcb4fb-13bc-498c-8222-40e0900c23e8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Survival",
+    "DisplayName": "Survie",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"11fd3351-7937-4697-8e02-1bc5b2a61a91\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Survival",
+      "DisplayName": "Survie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "survie",
+        "Summary": "Maîtrise la survie, la chasse et l’adaptation en nature.",
+        "HtmlContent": "La compétence **Survie** permet au personnage de :\n\n- interagir avec des animaux sauvages ou dressés\n- prédire le climat\n- suivre une piste\n- s’orienter et de se déplacer sans se perdre en pleine nature\n- trouver un abri et de la [nourriture](/regles/aventure/environnement/alimentation)\n- éviter les dangers naturels",
+        "MetaDescription": "Découvrez la compétence Survie, dédiée à l’orientation, la chasse, la protection contre les éléments et l’improvisation en pleine nature."
+      }
+    }
+  }
+}

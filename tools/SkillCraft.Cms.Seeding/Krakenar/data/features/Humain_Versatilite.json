@@ -1,0 +1,21 @@
+﻿{
+  "Id": "4e069106-b461-49ae-a378-2c1fac66c81f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Humain_Versatilite",
+    "DisplayName": "Versatilité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Humain_Versatilite",
+      "DisplayName": "Versatilité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) deux [talents](/regles/talents) le [formant](/regles/competences/formation) pour une [compétence](/regles/competences)."
+      }
+    }
+  }
+}

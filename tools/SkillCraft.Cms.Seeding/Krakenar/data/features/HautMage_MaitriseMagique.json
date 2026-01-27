@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e33273ff-96d6-4731-b55f-661a1d2b9bcc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HautMage_MaitriseMagique",
+    "DisplayName": "Maîtrise magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HautMage_MaitriseMagique",
+      "DisplayName": "Maîtrise magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage sélectionne un [pouvoir](/regles/magie/pouvoirs) d’[astromancie](/regles/astromancie) de tiers 0 ou 1 qu’il connaît.\n\nLorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) ce pouvoir au [niveau](/regles/magie/pouvoirs/niveau) 2 ou moins, il ne [dépense](/regles/magie/pouvoirs/energie) qu’un seul point d’[Énergie](/regles/statistiques/energie), et son [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n\nIl peut changer ce pouvoir lorsqu’il complète une [nuit de sommeil](/regles/aventure/repos/sommeil), ou en étudiant un autre pouvoir pendant [8 heures](/regles/aventure/temps) consécutives, sans interruption. Il peut effectuer cette analyse à la [halte](/regles/aventure/repos/halte) et en [méditant](/regles/talents/meditation)."
+      }
+    }
+  }
+}

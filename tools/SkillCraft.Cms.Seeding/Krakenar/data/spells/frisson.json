@@ -1,0 +1,26 @@
+﻿{
+  "Id": "9477c73d-443e-41b2-9896-0561572876c3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frisson",
+    "DisplayName": "Frisson",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frisson",
+      "DisplayName": "Frisson",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frisson",
+        "Summary": "Main spectrale, mot d’effroi ou onde vitale infligeant peur, drains ou soins.",
+        "MetaDescription": "Découvrez Frisson, un pouvoir spectral alliant main glaciale entravant la vitalité, mot d’effroi terrifiant et onde nécrotique drainant vie ou soignant.",
+        "HtmlContent": "Pouvoir spectral mêlant attaque nécrotique, entrave de la régénération, terreur ciblée et onde de vie ou de mort capable d’infliger de lourds dégâts ou de soigner."
+      }
+    }
+  }
+}

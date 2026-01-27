@@ -1,0 +1,26 @@
+﻿{
+  "Id": "2494eb6f-c59d-44e7-8b46-9fbea9fedc87",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dodge",
+    "DisplayName": "Esquive",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dodge",
+      "DisplayName": "Esquive",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "esquive",
+        "Summary": "Mesure la rapidité et la précision pour éviter les attaques ennemies.",
+        "HtmlContent": "L’**Esquive** détermine le résultat d’une [attaque](/regles/combat/attaque) dirigée contre le personnage.\n\nPlus elle est élevée, moins sont grandes les chances de réussite de cette attaque, qu’elle soit physique ou surnaturelle.\n\nL’équation suivante calcule l’Esquive d’une créature :\n\n<code>Esquive = 10 + Adresse</code>",
+        "MetaDescription": "Découvrez l’Esquive, la statistique qui détermine la capacité d’un personnage à éviter les attaques physiques ou surnaturelles."
+      }
+    }
+  }
+}

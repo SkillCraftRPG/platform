@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2597408d-262a-4587-9a6c-4fe974d5dd9a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Illusionniste_Illusionnisme",
+    "DisplayName": "Illusionnisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"031d639d-26cc-4ffe-ab94-c81e2ab7dfb4\"]",
+      "Features": "[\"2c60cb3e-4af5-4b47-b496-e18f19a0778c\",\"5346f2ab-fc5d-4820-b552-4f89487323f0\",\"751b7b7a-2975-4830-8769-6d56a48430f4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Illusionniste_Illusionnisme",
+      "DisplayName": "Illusionnisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [illusions](#) de tiers 2 et acquiert gratuitement un de ces [pouvoirs](/regles/magie/pouvoirs)."
+      }
+    }
+  }
+}

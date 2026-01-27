@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c4b86ec3-6b31-4e41-ad1b-93fe93409d67",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Cambrioleur_Tacticien",
+    "DisplayName": "Tacticien",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Cambrioleur_Tacticien",
+      "DisplayName": "Tacticien",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Permet au personnage d’[aider](/regles/combat/activites/aider) un allié à [attaquer](/regles/combat/attaque) une créature située à 9 mètres ou moins de sa position. Son allié et la créature ciblée doivent pouvoir [voir](/regles/aventure/environnement/vision) et entendre le personnage.\n\nÉgalement, lorsqu’il n’est pas en situation de [combat](/regles/combat), il peut observer ou interagir avec une créature pendant [une minute](/regles/aventure/temps). Cela lui permet de déterminer si les caractéristiques suivantes de cette créature sont supérieures, inférieures ou égales aux siennes :\n\n- [Niveau](/regles/personnages/progression/niveau)\n- [Intellect](/regles/attributs/intellect)\n- [Sensibilité](/regles/attributs/sens)\n- [Santé](/regles/attributs/sante)\n\nÀ la discrétion du maître de jeu, il peut également découvrir un trait de personnalité ou un événement faisant partie de l’histoire de cette créature."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "bb3abac1-62b8-401b-962d-f9b63b583428",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brigand_PenseesIntrusives",
+    "DisplayName": "Pensées intrusives",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brigand_PenseesIntrusives",
+      "DisplayName": "Pensées intrusives",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il réussit une [attaque](/regles/combat/attaque) en maniant une [arme improvisée](/regles/equipement/armes/improvisees), le ou les [dés de dégâts](/regles/combat/degats/jet) sont au moins des d8.\n\nÉgalement, lorsqu’il tente une attaque en maniant une arme improvisée, il peut décider si les [dégâts](/regles/combat/degats) infligés sont [létaux](/regles/combat/degats/letalite) ou non avant de connaître le résultat du [test](/regles/competences/tests).\n\nEnfin, il peut utiliser une [arme](/regles/equipement/armes) d’une manière non conventionnelle afin que celle-ci soit considérée comme une arme improvisée, par exemple le pommeau d’une épée, le manche d’une hache, ou encore le corps d’un arc.\n\nLorsqu’il en fait ainsi, il peut utiliser les talents [Bris](/regles/talents/bris) et [Destruction](/regles/talents/destruction) avec cette arme."
+      }
+    }
+  }
+}

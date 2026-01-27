@@ -1,0 +1,28 @@
+﻿{
+  "Id": "1d2d6d96-7eb5-49f1-aa90-2d5a4aa0fc1b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "obeissance-animale",
+    "DisplayName": "Obéissance animale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"60c63539-0bf4-42c5-9cfb-84602a45b37f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "obeissance-animale",
+      "DisplayName": "Obéissance animale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "obeissance-animale",
+        "Summary": "Renforce l’entraînement et la coordination des bêtes alliées.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut désormais apprivoiser et dresser une bête de niveau ½ et moins.\n- Il peut apprendre à ses bêtes des tours complexes tels trouver un objet précis dans un sac, surveiller un lieu, suivre une piste, effectuer des attaques multiples, etc. par une série de [tests](/regles/competences/tests) de [Survie](/regles/competences/survie).\n- Le nombre de tours que ses bêtes dressées peuvent apprendre est doublé.\n- Il peut entraîner une de ses bêtes dressées pendant [une heure](/regles/aventure/temps) afin de lui conférer des [points de Vitalité temporaires](/regles/combat/degats/temporaire).\n  - Cet entraînement peut être effectué pendant une [halte](/regles/aventure/repos/halte) et il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n  - À la fin de l’entraînement, le personnage effectue un test de Survie. Il peut [Faire 10](/regles/competences/tests/faire-10) à ce test, mais il ne peut pas [Faire 20](/regles/competences/tests/faire-20). La bête se voit conférer un nombre de points de Vitalité temporaires égal au résultat du test.",
+        "MetaDescription": "Découvrez le talent Obéissance animale, qui renforce le lien entre le dresseur et ses bêtes, leur conférant discipline et vitalité."
+      }
+    }
+  }
+}

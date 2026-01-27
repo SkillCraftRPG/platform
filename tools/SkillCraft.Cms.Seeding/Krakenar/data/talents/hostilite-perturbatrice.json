@@ -1,0 +1,28 @@
+﻿{
+  "Id": "2bfa4236-95c0-4128-aee4-2bc68e4b330e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "hostilite-perturbatrice",
+    "DisplayName": "Hostilité perturbatrice",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "hostilite-perturbatrice",
+      "DisplayName": "Hostilité perturbatrice",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "hostilite-perturbatrice",
+        "HtmlContent": "Lorsqu’une créature est intimidée par la [présence terrifiante](/regles/talents/presence-terrifiante) du personnage, les [tests](/regles/competences/tests) des [compétences](/regles/competences) suivantes et des [attaques à distance](/regles/combat/attaque/distance) de cette créature sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage) lorsqu’elle se trouve dans la zone.\n\n- [Connaissance](/regles/competences/connaissance)\n- [Diplomatie](/regles/competences/diplomatie)\n- [Intuition](/regles/competences/intuition)\n- [Investigation](/regles/competences/investigation)\n- [Linguistique](/regles/competences/linguistique)\n- [Médecine](/regles/competences/medecine)\n- [Perception](/regles/competences/perception)\n- [Représentation](/regles/competences/representation)\n- [Survie](/regles/competences/survie)\n- [Tromperie](/regles/competences/tromperie)\n\nÉgalement, lorsqu’il fait chuter à 0 les points de [Vitalité](/regles/statistiques/vitalite) d’une créature ennemie, il peut tenter d’effrayer les alliés de cette créature situés dans sa zone de présence terrifiante en [action libre](/regles/combat/deroulement/tour) et en dépensant 25 points d’[Énergie](/regles/statistiques/energie).\n\nChaque créature effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’Intuition de [difficulté](/regles/competences/tests/difficulte) égale au [test passif](/regles/competences/tests/passif) de Représentation du personnage.\n\nEn cas d’échec, une créature est [apeurée](/regles/combat/conditions/apeure) par le personnage pendant la prochaine [minute](/regles/aventure/temps).\n\nUne créature apeurée peut répéter le jet de sauvegarde au début de chacun de ses [tours](/regles/combat/deroulement/tour) si elle se trouve à l’extérieur de la zone de présence terrifiante du personnage.\n\nAfin de réutiliser cette capacité, le personnage doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil).",
+        "Summary": "Effraie et perturbe les ennemis proches de sa présence.",
+        "MetaDescription": "Découvrez le talent Hostilité perturbatrice, qui renforce la présence terrifiante et affaiblit les ennemis proches."
+      }
+    }
+  }
+}

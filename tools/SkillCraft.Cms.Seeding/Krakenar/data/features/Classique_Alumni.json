@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0697c1bb-130b-47d3-9036-208bb0900781",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Classique_Alumni",
+    "DisplayName": "Alumni",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Classique_Alumni",
+      "DisplayName": "Alumni",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Grâce à son parcours académique, le personnage entretient un réseau de contacts issus de divers milieux.\n\nIl peut mobiliser ces relations pour obtenir des informations, un service, une recommandation ou un appui ponctuel, selon la nature de sa formation et les circonstances.\n\nCes connaissances peuvent lui apporter un avantage social, une ressource rare ou un contact utile à la mission."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0766a65d-9b22-4a25-85cf-41ec67abb4e5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Champion_PerceptionDivine",
+    "DisplayName": "Perception divine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Champion_PerceptionDivine",
+      "DisplayName": "Perception divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), il peut dépenser 10 points d’[Énergie](/regles/statistiques/energie) afin d’ouvrir ses sens aux forces mystiques l’entourant.\n\nPendant la prochaine [minute](/regles/aventure/temps), il peut détecter la présence et la nature des créatures célestes, infernales ou mortes-vivantes situées à 18 mètres ou moins de sa position appartenant à ces types et ne bénéficiant pas d’un [abri total](/regles/combat/attaque/abri).\n\nIl peut également détecter la présence d’objets ou de lieux maudits ou sacrés dans la portée de l’effet.\n\nIl peut utiliser cette capacité un nombre de fois égal à ses [Sens](/regles/attributs/sens) (minimum 1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

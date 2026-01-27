@@ -1,0 +1,21 @@
+﻿{
+  "Id": "198b3f9c-993e-4f65-bebf-c2ad089542a9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiOrque_ApprentissageAccelere",
+    "DisplayName": "Apprentissage accéléré",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiOrque_ApprentissageAccelere",
+      "DisplayName": "Apprentissage accéléré",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage débute avec 4 points d’[Apprentissage](/regles/statistiques/apprentissage) supplémentaires.\n\nIl acquiert également 1 point d’Apprentissage supplémentaire chaque fois que son [tiers](/regles/personnages/progression/tiers) augmente."
+      }
+    }
+  }
+}

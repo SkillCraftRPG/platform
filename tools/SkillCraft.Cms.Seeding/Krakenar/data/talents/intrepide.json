@@ -1,0 +1,28 @@
+﻿{
+  "Id": "36d6b4b3-1ce4-4aa4-8382-d08596c338d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "intrepide",
+    "DisplayName": "Intrépide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "intrepide",
+      "DisplayName": "Intrépide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "intrepide",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est immunisé à la [peur](/regles/combat/conditions/apeure).\n- Toute créature alliée se trouvant dans sa zone de [présence terrifiante](/regles/talents/presence-terrifiante) se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre la peur.\n- Lorsqu’une créature tente d’apeurer le personnage ou un de ses alliés se trouvant dans sa zone de présence terrifiante, cette créature déclenche une [attaque d’opportunité](/regles/combat/attaque/opportunite) de la part du personnage.\n  - Celui-ci peut également utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’intimider ses ennemis se trouvant dans sa zone de présence terrifiante.\n  - Il se voit également conférer l’avantage au [test](/regles/competences/tests) de sa prochaine [attaque](/regles/combat/attaque) dirigée contre cette créature.",
+        "Summary": "Immunité à la peur et force protectrice face à la peur.",
+        "MetaDescription": "Découvrez Intrépide : immunité à la peur, protection des alliés, représailles contre les intimidations et avantage accru face aux créatures terrifiantes."
+      }
+    }
+  }
+}

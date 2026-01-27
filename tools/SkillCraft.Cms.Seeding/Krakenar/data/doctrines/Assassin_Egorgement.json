@@ -1,0 +1,23 @@
+﻿{
+  "Id": "50d85bb7-f866-49f6-afea-0f472edadebe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Assassin_Egorgement",
+    "DisplayName": "Égorgement",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"6ac040b1-ce86-4577-970c-b12bf4d4c9cc\"]",
+      "DiscountedTalents": "[\"43774d2a-52d3-4b69-b75a-4432a0ef3b56\",\"0c29208b-a5b4-4876-b53a-65ea25ec0ffb\",\"54221c09-acc1-48d6-a39f-1c7a4bcbb572\",\"d801c31b-ae74-4f12-ba4e-8869f68453f4\"]",
+      "Features": "[\"6da9a1c2-c977-4e1e-be48-967189df17ec\",\"eef7017f-7ad1-46ac-b017-dd1368c39aa7\",\"326e4df7-38c9-4471-a210-df5fe812f839\",\"4706bbc2-2c6f-41f1-b176-eb503ee19ba2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Assassin_Egorgement",
+      "DisplayName": "Égorgement",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
