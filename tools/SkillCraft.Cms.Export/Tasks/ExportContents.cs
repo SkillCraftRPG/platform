@@ -63,6 +63,11 @@ internal class ExportContentsTaskHandler : ICommandHandler<ExportContentsTask, U
 
     foreach (Content content in contents)
     {
+      if (content.IsDeleted)
+      {
+        continue;
+      }
+
       ContentPayload payload = new()
       {
         Id = content.EntityId
