@@ -1,4 +1,4 @@
-﻿namespace SkillCraft.Cms.Seeding.Krakenar.Models;
+﻿namespace SkillCraft.Cms.Export.Models;
 
 internal record ContentPayload
 {

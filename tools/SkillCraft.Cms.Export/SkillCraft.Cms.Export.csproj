@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-SkillCraft.Cms.Seeding-fde41d1f-3d39-442e-94d7-0badac7c35fe</UserSecretsId>
+    <UserSecretsId>dotnet-SkillCraft.Cms.Export-838e2328-1932-4468-b44b-1b19c05ce828</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
+    <ProjectReference Include="..\..\src\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
   </ItemGroup>
 
   <ItemGroup>

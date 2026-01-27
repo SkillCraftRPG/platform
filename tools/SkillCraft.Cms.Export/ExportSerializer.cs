@@ -1,9 +1,9 @@
-﻿namespace SkillCraft.Cms.Seeding;
+﻿namespace SkillCraft.Cms.Export;
 
-internal static class SeedingSerializer
+internal static class ExportSerializer
 {
   private static readonly JsonSerializerOptions _serializerOptions = new();
-  static SeedingSerializer()
+  static ExportSerializer()
   {
     _serializerOptions.Converters.Add(new JsonStringEnumConverter());
     _serializerOptions.Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping;

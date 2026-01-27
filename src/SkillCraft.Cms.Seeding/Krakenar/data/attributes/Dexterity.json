@@ -1,0 +1,26 @@
+﻿{
+  "Id": "4e23a288-1086-441f-9bd9-9f3f0b8d200f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dexterity",
+    "DisplayName": "Adresse",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"Physical\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dexterity",
+      "DisplayName": "Adresse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "adresse",
+        "Summary": "Coordination motrice, vitesse d’exécution et précision dans les mouvements.",
+        "HtmlContent": "**Adresse** est l’attribut mesurant l’équilibre, le contrôle du corps, la flexibilité, la vitesse, la dextérité manuelle et le sens spatial du personnage.\n\nUn personnage adroit est agile et gracieux, ses mouvements sont vifs, précis, et il est habile de ses mains. Il possède une bonne visée ainsi qu’un excellent sens de l’orientation.\n\nLes archétypes de personnages suivants bénéficieront particulièrement de cet attribut :\n\n- Artilleur\n- Assassin ou ninja\n- Conducteur ou pilote\n- Danseur, espion ou prestidigitateur\n- Tireur d’élite ou sniper cybernétique\n- Voleur acrobatique",
+        "MetaDescription": "Découvrez l’Adresse, attribut clé de l’agilité, de la précision et de la furtivité, influençant l’esquive, le tir et la maîtrise corporelle du personnage."
+      }
+    }
+  }
+}

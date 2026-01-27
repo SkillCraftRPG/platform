@@ -38,12 +38,13 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
 
   public async Task<Unit> HandleAsync(SeedContentsTask task, CancellationToken cancellationToken)
   {
+    Directory.CreateDirectory(task.Directory);
+
     HashSet<Guid> existingIds = await _krakenar.Contents
       .Where(x => x.ContentTypeUid == task.ContentTypeId)
       .Select(x => x.Id)
       .ToHashSetAsync(cancellationToken);
 
-    Directory.CreateDirectory(task.Directory);
     string[] paths = Directory.GetFiles(task.Directory, "*.json");
     foreach (string path in paths)
     {

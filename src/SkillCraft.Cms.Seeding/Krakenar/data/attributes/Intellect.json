@@ -1,0 +1,26 @@
+﻿{
+  "Id": "781cd30c-4341-4083-9d9e-a42c4104f7a6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Intellect",
+    "DisplayName": "Intellect",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"Mental\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Intellect",
+      "DisplayName": "Intellect",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "intellect",
+        "Summary": "Cognition consciente : analyse, mémoire, logique, apprentissage et stratégie.",
+        "HtmlContent": "**Intellect** est l’attribut mesurant la logique, l’esprit critique, la mémoire, la capacité de rétention des savoirs, la sagacité et l’adaptabilité.\n\nUn personnage intellectuel est réfléchi et posé : il évalue les possibilités avant d’agir, fait preuve de ruse et d’astuce, et se passionne souvent pour les arts, les sciences ou la technologie.\n\nLes archétypes de personnages suivants bénéficieront particulièrement de cet attribut :\n\n- Cybercriminel, informaticien\n- Historien, érudit ou linguiste\n- Inquisiteur\n- Médecin, chirurgien\n- Scientifique ou ingénieur\n- Stratège militaire ou commandant d’escouade",
+        "MetaDescription": "Découvrez l’Intellect, attribut de logique et de mémoire, influençant l’apprentissage, la stratégie, l’investigation et la maîtrise des savoirs."
+      }
+    }
+  }
+}
