@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e52ed8a6-fd09-4b4c-a894-770ca354acc9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "langue-supplementaire",
+    "DisplayName": "Langue supplémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "langue-supplementaire",
+      "DisplayName": "Langue supplémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "langue-supplementaire",
+        "Summary": "Permet d’apprendre une nouvelle langue parmi celles accessibles.",
+        "HtmlContent": "Le personnage apprend une [langue](/regles/langues) supplémentaire de son choix.\n\nIl doit avoir accès à un interlocuteur pouvant lui apprendre cette langue, ou suffisamment de source écrites.\n\nLa langue doit également figurer parmi les catégories de langues auxquelles il a accès.",
+        "MetaDescription": "Découvrez le talent Langue supplémentaire, qui permet au personnage d’apprendre une nouvelle langue parmi celles accessibles à son univers."
+      }
+    }
+  }
+}

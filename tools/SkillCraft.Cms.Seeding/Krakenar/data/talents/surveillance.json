@@ -1,0 +1,29 @@
+﻿{
+  "Id": "619e0540-95ba-4bf5-be23-c4a7b1f70b0c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "surveillance",
+    "DisplayName": "Surveillance",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"626b3491-ce0f-41ba-82bf-27c1d6432caf\"]",
+      "RequiredTalent": "[\"a2e6a255-f877-4929-8c73-226557bdffea\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "surveillance",
+      "DisplayName": "Surveillance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "surveillance",
+        "Summary": "Maîtrise de la vigilance extrême et du suivi précis d’une créature.",
+        "HtmlContent": "Lorsque le personnage est en état de focus, il ne peut être [aveuglé](/regles/combat/conditions/aveugle) ni [assourdi](/regles/combat/conditions/assourdi), puisque ses autres sens viennent combler ces lacunes.\n\nPar une [action](/regles/combat/deroulement/tour) ou en entrant en état de focus, il peut diriger son attention vers une créature qu’il peut voir et qui se situe à 36 mètres ou moins de sa position.\n\nPendant la [prochaine minute](/regles/aventure/temps), la créature ne peut [se cacher](/regles/combat/activites/cacher) naturellement du personnage.\n\nSi elle se cache magiquement, le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Perception](/regles/competences/perception) afin de [localiser](/regles/combat/activites/chercher) cette créature.\n\nIl ne peut diriger son attention envers qu’une seule créature à la fois.",
+        "MetaDescription": "Découvrez Surveillance : concentrez vos sens pour ignorer cécité et surdité, traquer une cible à distance et obtenir l’avantage pour la localiser précisément."
+      }
+    }
+  }
+}

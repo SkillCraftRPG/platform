@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8b38975a-dbb1-448e-9a5b-ff1637b3a77f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armes-improvisees",
+    "DisplayName": "Armes improvisées",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armes-improvisees",
+      "DisplayName": "Armes improvisées",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armes-improvisees",
+        "Summary": "Maniement d’armes de fortune avec dégâts et bonus garantis.",
+        "HtmlContent": "[Forme](/regles/equipement/armes/formation) le personnage au maniement des [armes improvisées](/regles/equipement/armes/improvisees).\n\nLorsqu’il utilise une arme improvisée, le bonus à l’[Attaque](/regles/equipement/armes/attaque) est toujours d’au moins 1, et le [dé de dégâts](/regles/combat/degats/jet) est toujours au minimum 1d4.",
+        "MetaDescription": "Découvrez Armes improvisées, un talent permettant de manier tout objet en arme fiable, assurant un bonus minimal et des dégâts garantis."
+      }
+    }
+  }
+}

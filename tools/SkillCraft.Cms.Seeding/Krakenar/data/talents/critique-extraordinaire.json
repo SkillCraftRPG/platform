@@ -1,0 +1,28 @@
+﻿{
+  "Id": "0c29208b-a5b4-4876-b53a-65ea25ec0ffb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "critique-extraordinaire",
+    "DisplayName": "Critique extraordinaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"268502a7-a973-4741-874b-61354c9b3610\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "critique-extraordinaire",
+      "DisplayName": "Critique extraordinaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "critique-extraordinaire",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque](/regles/combat/attaque), il obtient un [coup critique](/regles/competences/tests/critique) si la somme des [dés](/regles/competences/tests/2d10) égale 15.\n\nÉgalement, lorsqu’il obtient un coup critique, le personnage peut dépenser en [action libre](/regles/combat/deroulement/tour) un nombre de points d’[Énergie](/regles/statistiques/energie) égal à la face d’un des [deux dés](/regles/competences/tests/2d10) afin de récupérer un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à la face de l’autre dé. L’excédent de [soins](/regles/combat/degats/soins) est transféré en [points de Vitalité temporaires](/regles/combat/degats/temporaire).",
+        "Summary": "Coups critiques très fréquents et récupération de vitalité en combat.",
+        "MetaDescription": "Découvrez Critique extraordinaire : talent ultime augmentant fortement les coups critiques et permettant de convertir l’Énergie en régénération de Vitalité."
+      }
+    }
+  }
+}

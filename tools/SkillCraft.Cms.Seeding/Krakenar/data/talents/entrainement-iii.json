@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1ac401a4-3bc0-42fd-95fb-1c2871d03fba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrainement-iii",
+    "DisplayName": "Entraînement III",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrainement-iii",
+      "DisplayName": "Entraînement III",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrainement-iii",
+        "Summary": "Augmente de façon permanente un attribut (2 ou moins).",
+        "HtmlContent": "Augmente (+1) de manière permanente un [attribut](/regles/attributs) du personnage dont la valeur était inférieure ou égale à 2 avant l’acquisition de ce talent.",
+        "MetaDescription": "Découvrez le talent Entraînement III, qui améliore définitivement un attribut faible du personnage, renforçant ses capacités physiques ou mentales."
+      }
+    }
+  }
+}

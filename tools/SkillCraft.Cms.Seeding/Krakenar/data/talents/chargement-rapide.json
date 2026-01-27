@@ -1,0 +1,28 @@
+﻿{
+  "Id": "9d6b0831-d4c7-4218-9a25-2e91f31370c2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chargement-rapide",
+    "DisplayName": "Chargement rapide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chargement-rapide",
+      "DisplayName": "Chargement rapide",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Permet au personnage de [charger une arme](/regles/combat/activites/chargement) en une seule [action](/regles/combat/deroulement/tour) plutôt que deux.\n\nDésormais, lorsqu’il charge une arme, il ne déclenche pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite).",
+        "Slug": "chargement-rapide",
+        "Summary": "Recharge les armes plus vite sans déclencher d’attaque adverse.",
+        "MetaDescription": "Découvrez le talent Chargement rapide, qui permet de recharger une arme en une seule action sans subir d’attaque d’opportunité."
+      }
+    }
+  }
+}

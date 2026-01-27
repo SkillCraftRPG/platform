@@ -1,0 +1,28 @@
+﻿{
+  "Id": "268502a7-a973-4741-874b-61354c9b3610",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "critique-superieur",
+    "DisplayName": "Critique supérieur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"b94abe2c-7691-419d-af10-7cea5747bb52\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "critique-superieur",
+      "DisplayName": "Critique supérieur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "critique-superieur",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque](/regles/combat/attaque), il obtient un [coup critique](/regles/competences/tests/critique) si la somme des [dés](/regles/competences/tests/2d10) égale 16.\n\nÉgalement, lorsqu’il obtient une réussite critique pour une attaque, alors il remplace les [dés de dégâts](/regles/combat/degats/jet) par leur valeur maximale.",
+        "Summary": "Coups critiques facilités et dégâts maximisés en cas de critique.",
+        "MetaDescription": "Découvrez Critique supérieur : talent avancé qui facilite les coups critiques et maximise automatiquement les dégâts lors d’une réussite critique."
+      }
+    }
+  }
+}

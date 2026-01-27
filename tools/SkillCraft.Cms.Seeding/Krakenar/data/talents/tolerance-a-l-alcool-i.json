@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1945b4c7-fcf5-442f-ad92-ad8e9105ecc6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tolerance-a-l-alcool-i",
+    "DisplayName": "Tolérance à l’alcool I",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tolerance-a-l-alcool-i",
+      "DisplayName": "Tolérance à l’alcool I",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tolerance-a-l-alcool-i",
+        "Summary": "Augmente la résistance à l’alcool et limite les effets de l’ivresse.",
+        "HtmlContent": "Augmente de manière permanente (+1) le [seuil de tolérance à l’alcool](/regles/aventure/environnement/alcoolemie) du personnage.\n\nÉgalement, elle ne subit pas de [désavantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[Adresse](/regles/attributs/adresse) et des [compétences](/regles/competences) associées lorsqu’elle est en première phase d’alcoolémie.",
+        "MetaDescription": "Découvrez le talent Tolérance à l’alcool I, qui accroît la résistance à l’alcool et prévient les effets négatifs légers de l’ivresse sur l’Adresse."
+      }
+    }
+  }
+}

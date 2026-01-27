@@ -1,0 +1,28 @@
+﻿{
+  "Id": "ca25c64d-b500-473a-9919-e61d500692eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "representation",
+    "DisplayName": "Représentation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"82a59add-a0e2-4d7b-8513-5eaa0f60e11b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "representation",
+      "DisplayName": "Représentation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "representation",
+        "Summary": "Formé à un nombre d’arts ou d’instruments égal à son rang.",
+        "HtmlContent": "Le personnage est formé à l’utilisation d’un nombre d’[instruments de musique](/regles/equipement/outils/musique), de types d’art ou d’[ensembles de jeu](/regles/equipement/outils/jeux) égal à son [rang](/regles/competences/rang) de [Représentation](/regles/competences/representation).",
+        "MetaDescription": "Découvrez le talent Représentation, qui unit art et stratégie pour influencer les émotions et détourner l’attention en combat."
+      }
+    }
+  }
+}

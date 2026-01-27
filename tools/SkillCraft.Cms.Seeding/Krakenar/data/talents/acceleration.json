@@ -1,0 +1,27 @@
+﻿{
+  "Id": "55be09ee-01f1-4ed4-a3e7-ef44c4619f2f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "acceleration",
+    "DisplayName": "Accélération",
+    "Description": null,
+    "FieldValues": {
+      "AllowMultiplePurchases": "true",
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "acceleration",
+      "DisplayName": "Accélération",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "acceleration",
+        "HtmlContent": "Confère au personnage un bonus permanent (+2) de [points de mouvement](/regles/aventure/mouvement/vitesse) (ou 3 mètres par seconde) à sa vitesse de [marche](/regles/aventure/mouvement/types).",
+        "Summary": "Augmente la vitesse de marche grâce à un bonus de mouvement.",
+        "MetaDescription": "Découvrez le talent Accélération, qui augmente la vitesse de marche du personnage grâce à un bonus permanent de points de mouvement."
+      }
+    }
+  }
+}

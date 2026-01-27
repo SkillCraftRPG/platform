@@ -1,0 +1,27 @@
+﻿{
+  "Id": "fb688c0c-e651-4b21-8f50-d595291efb13",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "arts-martiaux",
+    "DisplayName": "Arts martiaux",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "arts-martiaux",
+      "DisplayName": "Arts martiaux",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "arts-martiaux",
+        "Summary": "Combat à mains nues, inflige 1d4 dégâts non létaux avec Force ou Précision.",
+        "HtmlContent": "Le personnage est formé au [combat à mains nues](/regles/combat/attaque/mains-nues).\n\nLorsqu’il effectue une [attaque](/regles/combat/attaque) avec un membre de son corps, il ne déclenche pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite).\n\nIl peut également choisir s’il effectue un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation).\n\nIl inflige 1d4 [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) [non létaux](/regles/combat/degats/letalite). Il y ajoute sa [Force](/regles/statistiques/force) s’il a effectué un test de Mêlée, ou sa [Précision](/regles/statistiques/precision) s’il a effectué un test d’Orientation.",
+        "MetaDescription": "Découvrez le talent Arts martiaux : combat à mains nues, choix entre Mêlée ou Orientation, infligeant 1d4 dégâts contondants non létaux avec Force ou Précision."
+      }
+    }
+  }
+}

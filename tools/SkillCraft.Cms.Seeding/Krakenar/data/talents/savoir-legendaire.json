@@ -1,0 +1,29 @@
+﻿{
+  "Id": "56afacb4-dedf-44c2-b1be-73712119ecc0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "savoir-legendaire",
+    "DisplayName": "Savoir légendaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ba600891-151b-44f0-a2ed-b3e3ccb10cd7\"]",
+      "RequiredTalent": "[\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "savoir-legendaire",
+      "DisplayName": "Savoir légendaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "savoir-legendaire",
+        "Summary": "Pouvoirs narratifs et mécaniques liés aux lieux anciens et mythiques.",
+        "HtmlContent": "Lorsque le personnage entre ou se prépare à entrer dans un lieu historique, telle une cité, des ruines, un champ de bataille ou une forteresse, il peut régaler ses compagnons de faits historiques et de mythes fictifs en lien avec cet endroit pendant [10 minutes](/regles/aventure/temps).\n\nIl désigne ensuite un nombre de créatures inférieur à son [Intellect](/regles/attributs/intellect) (minimum 0), effectue un [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance), et dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au résultat du test.\n\nPendant les 24 prochaines heures, le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests de Connaissance effectués à propos du lieu historique, d’une créature ou d’un objet s’y trouvant.\n\nÉgalement, pendant les 24 prochaines heures, le personnage et les créatures désignées se voient conférer les bonus suivants lorsqu’ils se trouvent dans ce lieu historique :\n\n- Un nombre de [points de Vitalité temporaires](/regles/combat/degats/temporaire) égal à la moitié du résultat du test de Connaissance.\n- [Régénération](/regles/aventure/repos) doublée.\n- Une fois par [test](/regles/competences/tests) de [compétence](/regles/competences), peut ajouter 1d10 en dépensant un nombre de points d’Énergie égal au résultat du d10.\n- Peut rejouer ses [tests d’Initiative](/regles/combat/deroulement/initiative) et conserver le résultat de son choix.\n\nUne créature ne peut bénéficier simultanément de plusieurs utilisations de cette capacité.\n\nLe personnage ne peut réutiliser cette capacité pendant les 24 prochaines heures.",
+        "MetaDescription": "Découvrez Savoir légendaire : exploitez vos connaissances pour accorder avantages, vitalité temporaire, régénération et bonus aux alliés dans les lieux historiques."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "5c973df2-d892-4283-a1e4-8bf30946f57a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "initiative-extraordinaire",
+    "DisplayName": "Initiative extraordinaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "initiative-extraordinaire",
+      "DisplayName": "Initiative extraordinaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "initiative-extraordinaire",
+        "HtmlContent": "Confère au personnage un bonus permanent (+4) à l’[Initiative](/regles/statistiques/initiative).\n\nÉgalement, lorsqu’il débute un [combat](/regles/combat) sans être [surpris](/regles/combat/deroulement/surprise), alors il peut prendre son [tour](/regles/combat/deroulement/tour) à n’importe quel moment pendant le [round](/regles/combat/deroulement) : au début, à la fin, ou entre le tour de deux créatures.",
+        "Summary": "Bonus d’Initiative et liberté d’agir à tout moment en situation de combat.",
+        "MetaDescription": "Découvrez Initiative extraordinaire : un bonus d’initiative permanent et la capacité d’agir à n’importe quel moment du round lorsque vous n’êtes pas surpris."
+      }
+    }
+  }
+}

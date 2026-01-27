@@ -1,0 +1,28 @@
+﻿{
+  "Id": "a5692e61-f95e-4147-ae10-174dcd2a8e7f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "roublardise",
+    "DisplayName": "Roublardise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"70c5ac59-ed69-42e7-aa17-2720d98ae81a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "roublardise",
+      "DisplayName": "Roublardise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "roublardise",
+        "Summary": "Formé aux outils de voleur et peut manipuler un objet par l’activité Objet.",
+        "HtmlContent": "Le personnage est formé à l’utilisation des [outils de voleur](/regles/equipement/outils).\n\nÉgalement, il peut effectuer l’activité [Objet](/regles/combat/activites/objet) (une [action](/regles/combat/deroulement/tour)) afin de manipuler (déplacer, ou dissimuler sur lui ou quelqu’un d’autre) un objet d’au plus la grosseur de la paume de sa main.",
+        "MetaDescription": "Découvrez le talent Roublardise, qui développe la dextérité, la ruse et la précision pour manipuler objets, pièges et mécanismes délicats."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "d3042400-af91-41df-b7ce-2c36ed19df6e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mythologie",
+    "DisplayName": "Mythologie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"c23cf3b8-baaf-4ccb-9870-03053037086c\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mythologie",
+      "DisplayName": "Mythologie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mythologie",
+        "Summary": "Permet d’identifier artefacts, portails et créatures mythiques.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il voit un artefact magique, il reconnaît la rareté de cet objet.\n  - S’il s’agit d’un objet légendaire, alors il identifie le nom de l’objet ainsi que son précédent propriétaire, à la discrétion du maître de jeu.\n  - Il se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) effectués afin d’obtenir plus d’informations au sujet de cet objet.\n  - Il peut aussi utiliser cette capacité sans voir l’objet, si l’objet est évoqué ou décrit de manière qu’il puisse se constituer un modèle mental fidèle à l’objet.\n- Il possède un savoir détaillé à propos des créatures issues d’une autre réalité ou dimension. Lorsqu’il réussit un [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) contre une de ces créatures :\n  - Il se remémore certaines capacités de cette créature, telles ses habiletés physiques et surnaturelles, ses [attaques](/regles/combat/attaque) habituelles et si elle est considérée dangereuse pour lui et son groupe.\n  - Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il réussit une [attaque](/regles/combat/attaque) dirigée contre cette créature ou une autre créature de la même espèce, il inflige un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à son [Intellect](/regles/attributs/intellect) (minimum 1).\n- En étudiant un portail ouvert pendant [une minute](/regles/aventure/temps), il peut identifier si le portail mène vers une autre dimension ou non.\n  - Si le portail mène vers une autre dimension et qu’il connaît celle-ci, il peut également l’identifier.\n  - S’il ne connaît pas cette dimension, il se voit conférer l’avantage à ses [tests](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) effectués afin de l’identifier.",
+        "MetaDescription": "Découvrez le talent Mythologie, qui permet d’identifier artefacts légendaires, portails et créatures d’autres réalités grâce à un savoir ancien."
+      }
+    }
+  }
+}

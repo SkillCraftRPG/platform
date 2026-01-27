@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ff8c43d2-eaf6-4f05-9d7f-61f699a5294c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "endurance-extraordinaire",
+    "DisplayName": "Endurance extraordinaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"4153ec24-3cb6-4e5e-93e6-c80853e5688b\"]",
+      "RequiredTalent": "[\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "endurance-extraordinaire",
+      "DisplayName": "Endurance extraordinaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "endurance-extraordinaire",
+        "Summary": "Endurance accrue, énergie renforcée et résistance supérieure aux critiques.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 20 points d’[Énergie](/regles/statistiques/energie).\n\nÉgalement, lorsqu’il est victime d’un [coup critique](/regles/competences/tests/critique) provenant d’une [attaque](/regles/combat/attaque) infligeant des [points de dégâts non létaux ou surnaturels](/regles/combat/degats/letalite), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de remplacer le coup critique par une réussite simple.",
+        "MetaDescription": "Découvrez Endurance extraordinaire : +20 énergie permanente et réduction des coups critiques non létaux ou surnaturels grâce à une discipline inébranlable."
+      }
+    }
+  }
+}

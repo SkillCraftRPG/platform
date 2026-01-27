@@ -1,0 +1,28 @@
+﻿{
+  "Id": "7105682d-e30d-445c-869f-7a59e1500bf6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "bris",
+    "DisplayName": "Bris",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"8b38975a-dbb1-448e-9a5b-ff1637b3a77f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "bris",
+      "DisplayName": "Bris",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "bris",
+        "Summary": "Permet de briser, désarmer ou renverser ses adversaires.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il tente d’endommager ou de [briser un objet](/regles/aventure/interaction-objets) sans être [menacé](/regles/combat) ni distrait, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) s’il ne peut [Faire 10](/regles/competences/tests/faire-10).\n- Lorsqu’il effectue une [attaque](/regles/combat/attaque) en maniant ou en lançant une [arme improvisée](/regles/equipement/armes/improvisees) par un test de [Mêlée](/regles/competences/melee), alors il peut tenter de cibler une [arme](/regles/equipement/armes) tenue par une autre créature.\n  - Son test est alors affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n  - La créature reçoit la moitié des [points de dégâts](/regles/combat/degats) en [non létal](/regles/combat/degats/letalite).\n  - L’arme ayant la valeur de [Défense](/regles/aventure/interaction-objets) la plus faible reçoit l’autre moitié. En cas d’égalité, les deux armes reçoivent le quart des points de dégâts.\n  - Si le résultat du test est inférieur à cette valeur de Défense, les deux armes ne reçoivent aucun point de dégâts.\n- Lorsqu’il effectue une attaque en maniant ou en lançant une arme improvisée par un test de Mêlée et que l’arme brise, alors la cible risque de recevoir des pénalités additionnelles si sa [taille](/regles/especes/taille) est inférieure ou égale à celle du personnage.\n  - La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme), au choix. En cas d’échec, elle est [renversée](/regles/combat/conditions/renverse) au sol, ou repoussée de 1,5 mètres, au choix du personnage.\n  - Elle doit également effectuer jet de sauvegarde de [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance), à son choix. En cas d’échec, elle est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour).\n  - La cible peut réutiliser les mêmes [dés](/regles/competences/tests/2d10) pour les deux jets de sauvegarde, à la discrétion du maître de jeu.\n  - La [difficulté](/regles/competences/tests/difficulte) des jets de sauvegarde correspond au résultat du test de Mêlée effectué par le personnage.",
+        "MetaDescription": "Découvrez le talent Bris, permettant d’endommager ou de briser les armes adverses et de renverser ou étourdir ses ennemis avec des armes improvisées."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "a215357d-53e8-4d1c-a471-4c1dd88915dd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "coup-critique",
+    "DisplayName": "Coup critique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "coup-critique",
+      "DisplayName": "Coup critique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "coup-critique",
+        "Summary": "Augmente les chances de coups critiques selon l’adresse du héros.",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque](/regles/combat/attaque), il obtient une [réussite critique](/regles/competences/tests/critique) si la somme des [dés](/regles/competences/tests/2d10) égale 18 ou 19.\n\nIl obtient également une réussite critique lorsque la face des deux dés est la même, en fonction de son [Adresse](/regles/attributs/adresse).\n\n<table class=\"table table-striped text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-50\">Adresse</th>\n      <th scope=\"col\" class=\"w-50\">Face</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tbody>\n      <tr>\n        <td>+2</td>\n        <td>5</td>\n      </tr>\n      <tr>\n        <td>+3</td>\n        <td>4 et 5</td>\n      </tr>\n      <tr>\n        <td>+4</td>\n        <td>3, 4 et 5</td>\n      </tr>\n      <tr>\n        <td>+5 et plus</td>\n        <td>2, 3, 4 et 5</td>\n      </tr>\n    </tbody>\n  </tbody>\n</table>",
+        "MetaDescription": "Découvrez le talent Coup critique, qui augmente vos chances de réussite critique et transforme parfois l’échec en coup décisif selon votre adresse."
+      }
+    }
+  }
+}

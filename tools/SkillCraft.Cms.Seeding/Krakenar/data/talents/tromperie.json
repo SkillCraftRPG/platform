@@ -1,0 +1,28 @@
+﻿{
+  "Id": "3c5bf24b-6c5a-44ac-9553-0954af589b77",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tromperie",
+    "DisplayName": "Tromperie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7b327339-488b-447d-a9b3-fbaa6d65d864\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tromperie",
+      "DisplayName": "Tromperie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tromperie",
+        "Summary": "Permet de mentir, manipuler et se déguiser avec ruse.",
+        "HtmlContent": "Forme le personnage à l’utilisation de la [trousse de déguisement](/regles/equipement/outils).\n\nÉgalement, lorsqu’il réussit un [test](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie) contre une créature, si celle-ci entre en situation de [combat](/regles/combat) contre lui pendant la prochaine [minute](/regles/aventure/temps), alors elle doit rejouer son [test d’Initiative](/regles/combat/deroulement/initiative), et conserve le résultat choisit par le personnage.",
+        "MetaDescription": "Découvrez le talent Tromperie, qui permet de manipuler, mentir et se déguiser avec adresse pour tromper les sens et l’esprit des autres."
+      }
+    }
+  }
+}

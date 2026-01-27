@@ -1,0 +1,28 @@
+﻿{
+  "Id": "89552d5e-05f9-4482-bc86-19cbf4fc9c03",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "athletisme",
+    "DisplayName": "Athlétisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"21877dfa-439f-4dce-8235-556d311e1c54\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "athletisme",
+      "DisplayName": "Athlétisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "athletisme",
+        "Summary": "Réduit la distance de son élan lors d’un saut.",
+        "HtmlContent": "Lorsque le personnage effectue un [saut](/regles/aventure/mouvement/types), sa distance minimale d’élan est réduite à 1,5 mètres.",
+        "MetaDescription": "Découvrez le talent Athlétisme, qui améliore les sauts et forme à la maîtrise physique dans l’escalade, la nage et les environnements exigeants."
+      }
+    }
+  }
+}

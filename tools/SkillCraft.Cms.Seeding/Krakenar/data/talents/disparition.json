@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d801c31b-ae74-4f12-ba4e-8869f68453f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "disparition",
+    "DisplayName": "Disparition",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"68f61feb-b81f-45bd-8de7-7ee6389b47aa\"]",
+      "RequiredTalent": "[\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "disparition",
+      "DisplayName": "Disparition",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "disparition",
+        "Summary": "Repositionnement furtif et dissimulation grâce aux distractions.",
+        "HtmlContent": "Permet au personnage de profiter d’une distraction causée par une créature ennemie située à 9 mètres ou moins de sa position afin de [se cacher](/regles/combat/activites/cacher) en [réaction](/regles/combat/deroulement/tour).\n\nCette distraction peut être un [déplacement](/regles/combat/activites/deplacement) s’éloignant du personnage, une [attaque](/regles/combat/attaque) ou la [canalisation](/regles/combat/activites/canaliser) d’un [pouvoir](/regles/magie/pouvoirs) ne ciblant pas le personnage, ou des [points de dégâts](/regles/combat/degats) reçus infligés par une créature différente du personnage.\n\nIl peut se déplacer à [vitesse](/regles/aventure/mouvement/vitesse) normale au cours de la même réaction en dépensant 5 points d’[Énergie](/regles/statistiques/energie) par tranche de 1,5 mètres traversés.\n\nPlutôt que de se déplacer, il peut effectuer un [Pas prudent](/regles/combat/activites/pas-prudent) en s’éloignant de la créature et en [se jetant au sol](/regles/combat/activites/jeter-sol). Lorsqu’il en fait ainsi, il peut rejouer le [test](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite) et doit conserver le nouveau résultat.",
+        "MetaDescription": "Découvrez Disparition : exploitez les distractions ennemies pour vous cacher, vous repositionner furtivement et relancer vos tests de Furtivité."
+      }
+    }
+  }
+}

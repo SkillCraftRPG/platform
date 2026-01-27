@@ -1,0 +1,29 @@
+﻿{
+  "Id": "2c09d822-56f7-45bc-a6c7-8a281013e682",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "robustesse-superieure",
+    "DisplayName": "Robustesse supérieure",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"5921b392-2010-4347-8492-1307291a74ef\"]",
+      "RequiredTalent": "[\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "robustesse-superieure",
+      "DisplayName": "Robustesse supérieure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "robustesse-superieure",
+        "Summary": "Accorde +15 vitalité et réduit les dégâts subis par endurance.",
+        "HtmlContent": "Confère au personnage un bonus permanent de 15 points de [Vitalité](/regles/statistiques/vitalite).\n\nÉgalement, lorsqu’il réussit un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) afin de réduire de moitié des [dégâts](/regles/combat/degats) reçus, il peut dépenser un nombre de points d’[Énergie](/regles/statistiques/energie) égal au nombre de points de dégâts reçus afin de ne recevoir aucun point de dégâts.\n\nS’il échoue le jet de sauvegarde, il peut également réduire les points de dégâts reçus de moitié en dépensant un nombre de points d’Énergie égal à la réduction de points de dégâts.\n\nIl peut réussir automatiquement un tel jet de sauvegarde, mais doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez le talent Robustesse supérieure, conférant vitalité accrue, résistance aux dégâts et endurance exceptionnelle."
+      }
+    }
+  }
+}

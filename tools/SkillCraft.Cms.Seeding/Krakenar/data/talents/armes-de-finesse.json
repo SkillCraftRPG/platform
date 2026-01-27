@@ -1,0 +1,27 @@
+﻿{
+  "Id": "23525c66-0331-44f2-97df-e51ec96c87d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armes-de-finesse",
+    "DisplayName": "Armes de finesse",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armes-de-finesse",
+      "DisplayName": "Armes de finesse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armes-de-finesse",
+        "Summary": "Maniement des armes de finesse et choix entre Force ou Précision.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est [formé](/regles/equipement/armes/formation) au maniement des armes [simples](/regles/equipement/armes/simples) et [martiales](/regles/equipement/armes/martiales) possédant la propriété [Finesse](/regles/equipement/armes/proprietes).\n- Lorsqu’il effectue une [attaque](/regles/combat/attaque) en maniant une telle [arme](/regles/equipement/armes), il choisit s’il effectue un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation). Il ajoute aux [points de dégâts](/regles/combat/degats) infligés sa [Force](/regles/statistiques/force) s’il a effectué un test de Mêlée, ou sa [Précision](/regles/statistiques/precision) s’il a effectué un test d’Orientation.\n- Lorsqu’il effectue une [attaque de mêlée](/regles/combat/attaque/melee) en maniant une telle arme, il inflige un [dé de dégâts](/regles/combat/degats/jet) supplémentaire s’il ne tient aucune autre arme.",
+        "MetaDescription": "Découvrez le talent Armes de finesse, qui permet d’utiliser précision ou force avec des armes légères et d’infliger des dégâts accrus en combat rapproché."
+      }
+    }
+  }
+}

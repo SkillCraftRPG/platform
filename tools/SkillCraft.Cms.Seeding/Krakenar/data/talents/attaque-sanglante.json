@@ -1,0 +1,28 @@
+﻿{
+  "Id": "3a318dfc-40ef-4d1c-ae76-9ca8c2a35565",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-sanglante",
+    "DisplayName": "Attaque sanglante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-sanglante",
+      "DisplayName": "Attaque sanglante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-sanglante",
+        "Summary": "Inflige une hémorragie continue après une attaque sournoise.",
+        "HtmlContent": "Lorsque le personnage effectue une attaque sournoise, il inflige [2d6 points de dégâts](/regles/combat/degats/jet) supplémentaires (pour un total de 4d6) ainsi qu’une hémorragie à sa cible.\n\nAu début de chacun de ses [tours](/regles/combat/deroulement/tour), la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du [test](/regles/competences/tests) de l’[attaque](/regles/combat/attaque), réduite de 2 par tour subséquent.\n\nSi la cible réussit le test, alors l’hémorragie cesse, sinon elle reçoit 2d6 points de dégâts létaux.\n\nLes dés de dégâts de l’hémorragie ne sont pas cumulables.\n\nEn revanche, lorsqu’une créature souffrant d’une hémorragie est affectée par une autre, la difficulté du jet de sauvegarde est remplacée par la difficulté du nouvel effet si celle-ci est supérieure à la difficulté de l’effet précédent.",
+        "MetaDescription": "Découvrez le talent Attaque sanglante, qui amplifie les frappes sournoises en infligeant une hémorragie continue à la cible jusqu’à sa résistance."
+      }
+    }
+  }
+}

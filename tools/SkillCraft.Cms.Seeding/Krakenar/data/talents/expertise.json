@@ -1,0 +1,27 @@
+﻿{
+  "Id": "74c481e8-56b0-4682-be8b-45d2fa23a80a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "expertise",
+    "DisplayName": "Expertise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "expertise",
+      "DisplayName": "Expertise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "expertise",
+        "Summary": "Octroie un bonus permanent aux tests d’une compétence choisie.",
+        "HtmlContent": "Ce talent peut être acquis une fois pour chaque [compétence](/regles/competences).\n\nÀ l’acquisition de ce talent, le personnage sélectionne une compétence.\n\nIl se voit conférer un bonus permanent de 2 + [tiers](/regles/personnages/progression/tiers) aux [tests](/regles/competences/tests) de cette compétence.",
+        "MetaDescription": "Découvrez le talent Expertise, qui accorde un bonus permanent aux tests d’une compétence choisie, selon le tiers du personnage."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "881700ba-f7d3-4425-b38c-86bc6e75fb08",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armes-de-tir",
+    "DisplayName": "Armes de tir",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7dea15b0-82f6-455a-ab74-ae6b10e7e2b7\"]",
+      "RequiredTalent": "[\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armes-de-tir",
+      "DisplayName": "Armes de tir",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armes-de-tir",
+        "Summary": "Formation aux armes martiales à distance avec bonus d’attaque.",
+        "HtmlContent": "[Forme](/regles/equipement/armes/formation) le personnage au maniement des [armes martiales](/regles/equipement/armes/martiales) à distance.\n\nIl bénéficie également d’un bonus de +1 aux [tests](/regles/competences/tests) d’[attaque](/regles/equipement/armes/attaque) effectués avec une [arme](/regles/equipement/armes) possédant la propriété [Munition](/regles/equipement/armes/proprietes).",
+        "MetaDescription": "Découvrez Armes de tir, un talent formant au maniement des armes martiales à distance et octroyant un bonus aux attaques avec munitions."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3acd933a-0e0d-44ce-ab18-0a4966734307",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaques-multiples",
+    "DisplayName": "Attaques multiples",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaques-multiples",
+      "DisplayName": "Attaques multiples",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaques-multiples",
+        "HtmlContent": "Permet au personnage d’effectuer plusieurs [attaques](/regles/combat/attaque) avec le même membre de corps pendant son [tour](/regles/combat/deroulement/tour).\n\nIl n’est pas exempt de la pénalité affligée aux [attaques multiples](/regles/combat/attaque/multiples).",
+        "Summary": "Permet d’attaquer plusieurs fois avec le même membre.",
+        "MetaDescription": "Découvrez le talent Attaques multiples, permettant d’enchaîner plusieurs frappes avec un même membre de corps durant un tour, malgré la pénalité habituelle."
+      }
+    }
+  }
+}

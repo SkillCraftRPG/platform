@@ -1,0 +1,28 @@
+﻿{
+  "Id": "c00d8449-0195-4f6d-8443-5bb252154a6b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frappe-puissante",
+    "DisplayName": "Frappe puissante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"fb688c0c-e651-4b21-8f50-d595291efb13\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frappe-puissante",
+      "DisplayName": "Frappe puissante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frappe-puissante",
+        "Summary": "Renforce vos coups à mains nues et peut étourdir vos adversaires.",
+        "HtmlContent": "Le personnage inflige désormais 1d6 + [Force](/regles/statistiques/force) ou [Précision](/regles/statistiques/precision) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) [non létaux](/regles/combat/degats/letalite) lorsqu’il [combat à mains nues](/regles/combat/attaque/mains-nues).\n\nLorsqu’il combat à mains nues, il peut remplacer des [dés de dégâts](/regles/combat/degats/jet) par leur valeur maximale.\n\nIl peut remplacer un nombre de dés inférieur ou égal à son [tiers](/regles/personnages/progression/tiers) et dépense 15 points d’[Énergie](/regles/statistiques/energie) par dé avant de savoir si l’attaque réussit ou échoue.\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à la sienne, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du [test](/regles/competences/tests) de l’[attaque](/regles/combat/attaque) effectuée par le personnage.\n\nEn cas d’échec, elle est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour).\n\nLe personnage peut utiliser cette capacité une fois par tour.",
+        "MetaDescription": "Découvrez le talent Frappe puissante, qui renforce vos attaques à mains nues, permettant d’infliger des dégâts maximaux et d’assommer vos adversaires."
+      }
+    }
+  }
+}

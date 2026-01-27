@@ -1,0 +1,28 @@
+﻿{
+  "Id": "846e2d4a-7885-4d51-bc3b-58abc9242465",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "erudition",
+    "DisplayName": "Érudition",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "erudition",
+      "DisplayName": "Érudition",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "erudition",
+        "Summary": "Analyse les ennemis ou objets pour en exploiter les faiblesses.",
+        "HtmlContent": "### Bestiaires\n\nLorsque le personnage réussit un [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) à propos d’une créature naturelle ou construite, il acquiert les capacités suivantes contre cette créature et les autres créatures de la même espèce pendant les 24 prochaines [heures](/regles/aventure/temps).\n\n- Il ne peut être [surpris](/regles/combat/deroulement/surprise) par ces créatures.\n- Lorsqu’il est victime d’un [coup critique](/regles/competences/tests/critique) de la part d’une de ces créatures, alors il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de transformer cette [attaque](/regles/combat/attaque) en réussite non critique.\n- Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il réussit une attaque dirigée contre une de ces créatures, il inflige un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à son [Intellect](/regles/attributs/intellect) (minimum 1).\n\n### Architecture\n\nLe personnage peut examiner une structure ou un objet inanimé pendant [10 minutes](/regles/aventure/temps).\n\nS’il réussit un [test](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) à propos de cette structure ou de cet objet, alors il peut discerner grossièrement l’âge de celui-ci ainsi que les points faibles des matériaux le composant.\n\nLorsqu’il [endommage](/regles/aventure/interaction-objets) cet objet ou cette structure, que cela soit en attaquant ses points faibles ou en utilisant une substance (par exemple en appliquant de l’acide sur du métal), il maximise les [dégâts](/regles/combat/degats) infligés en remplaçant les [dés de dégâts](/regles/combat/degats/jet) par leur valeur maximale.",
+        "MetaDescription": "Découvrez le talent Érudition, qui permet d’analyser créatures et structures pour exploiter leurs faiblesses et maximiser ses attaques."
+      }
+    }
+  }
+}

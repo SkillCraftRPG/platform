@@ -1,0 +1,29 @@
+﻿{
+  "Id": "c0763232-4170-4b97-a2d8-3fcd55ea5814",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "synergie-alphabetique",
+    "DisplayName": "Synergie alphabétique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"d227627b-acc4-4483-b45a-a82729d6c415\"]",
+      "RequiredTalent": "[\"17dcdec1-469d-452b-bf94-c225ddc3017a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "synergie-alphabetique",
+      "DisplayName": "Synergie alphabétique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "synergie-alphabetique",
+        "Summary": "Apprend une langue et facilite celles partageant le même alphabet.",
+        "HtmlContent": "Le personnage apprend une [langue](/regles/langues) de son choix.\n\nÉgalement, lorsqu’il acquiert le talent [Langue supplémentaire](/regles/talents/langue-supplementaire), si la langue qu’il désire apprendre partage son alphabet avec celui d’une langue qu’il connait déjà, alors il peut acquérir le talent à [rabais](/regles/talents/points).\n\nCette capacité ne s’applique pas aux langues anciennes, et le maître de jeu décide si elle s’applique aux langues exotiques en fonction de l’historique du personnage et de son contexte actuel.",
+        "MetaDescription": "Découvrez le talent Synergie alphabétique, facilitant l’apprentissage de nouvelles langues partageant le même alphabet et renforçant la linguistique."
+      }
+    }
+  }
+}

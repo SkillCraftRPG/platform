@@ -1,0 +1,29 @@
+﻿{
+  "Id": "e1c94ff1-b416-4d96-b378-908912b1e3d1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mythomane",
+    "DisplayName": "Mythomane",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"7b327339-488b-447d-a9b3-fbaa6d65d864\"]",
+      "RequiredTalent": "[\"74548cb7-c65b-4882-b353-5bbb0d760a7a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mythomane",
+      "DisplayName": "Mythomane",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mythomane",
+        "Summary": "Résistance mentale et art de feindre, mentir et tromper avec adresse.",
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme), les effets l’obligeant à dire la vérité ou le contraignant à effectuer une action ou une séquence d’actions, par exemple le contrôle mental, une suggestion ou la [peur](/regles/combat/conditions/apeure).\n\nIl peut renoncer à l’avantage afin de remplacer le jet de sauvegarde par un jet de sauvegarde de [Tromperie](/regles/competences/tromperie).\n\nEn cas d’échec, il est affecté normalement par l’effet.\n\nEn cas de réussite, il n’est pas affecté par l’effet. Cependant, il prétend l’être, et les créatures autour de lui, autant ses alliés que ses ennemis, ne savent pas qu’il prétend être affecté.\n\nS’il compromet le subterfuge par sa ruse, ses paroles ou ses actions, une créature peut [tenter de déceler](/regles/combat/activites/jugement) le subterfuge. La [difficulté](/regles/competences/tests/difficulte) est égale au résultat de son jet de sauvegarde de Tromperie.",
+        "MetaDescription": "Découvrez Mythomane : résistance accrue aux charmes et peurs, possibilité de feindre l’affliction et maîtrise experte de la tromperie."
+      }
+    }
+  }
+}

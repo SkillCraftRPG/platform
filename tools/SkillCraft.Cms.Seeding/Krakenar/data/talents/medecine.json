@@ -1,0 +1,28 @@
+﻿{
+  "Id": "9e59e2ba-adcc-4498-b4a1-4c8191ab11a4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "medecine",
+    "DisplayName": "Médecine",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"786e509e-ea89-4a51-b144-b84352f91b0f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "medecine",
+      "DisplayName": "Médecine",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "medecine",
+        "Summary": "Permet de stabiliser et soigner avec habileté et savoir médical.",
+        "HtmlContent": "Le personnage est formé à l’utilisation de la [trousse de premiers soins](/regles/equipement/outils).\n\nÉgalement, lorsqu’il utilise une charge pour [stabiliser](/regles/combat/activites/stabiliser) une créature, il peut réussir automatiquement le [test](/regles/competences/tests).",
+        "MetaDescription": "Découvrez le talent Médecine, qui enseigne à soigner les blessures, stabiliser les créatures et diagnostiquer les afflictions avec précision et savoir-faire."
+      }
+    }
+  }
+}

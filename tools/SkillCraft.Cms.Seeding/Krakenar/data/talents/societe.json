@@ -1,0 +1,29 @@
+﻿{
+  "Id": "c23cf3b8-baaf-4ccb-9870-03053037086c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "societe",
+    "DisplayName": "Société",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ba600891-151b-44f0-a2ed-b3e3ccb10cd7\"]",
+      "RequiredTalent": "[\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "societe",
+      "DisplayName": "Société",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "societe",
+        "Summary": "Accorde un avantage pour reconnaître ou imiter des cultures et ordres.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) lorsqu’il tente de reconnaître un élément historique ou culturel, par exemple un symbole religieux, un blason ou une insigne identifiant une entité géopolitique telle un ordre, une nation, une guilde, une entreprise, etc.\n- Il se voit conférer l’avantage à ses tests de [Tromperie](regles/competences/tromperie) lorsqu’il tente d’utiliser cet élément au sein d’un déguisement et d’agir comme un membre de cette société ou de cet ordre religieux.\n- Lorsqu’il entend une créature parler ou écrire une [langue](/regles/langues) qu’il connait, il peut déterminer la provenance de cette créature par son accent ou sa calligraphie. Il se voit conférer l’avantage à ses tests de Connaissance afin de déterminer la provenance approximative d’une créature qu’il entend parler ou écrire une langue qu’il ne connait pas.",
+        "MetaDescription": "Découvrez le talent Société, liant érudition et ruse pour reconnaître symboles, ordres et cultures, et agir sous déguisement avec avantage."
+      }
+    }
+  }
+}

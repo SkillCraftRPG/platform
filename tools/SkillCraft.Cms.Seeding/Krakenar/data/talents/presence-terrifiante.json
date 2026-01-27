@@ -1,0 +1,29 @@
+﻿{
+  "Id": "9252d1cb-a4d4-4273-88b9-cf419aa16f49",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "presence-terrifiante",
+    "DisplayName": "Présence terrifiante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"82a59add-a0e2-4d7b-8513-5eaa0f60e11b\"]",
+      "RequiredTalent": "[\"ca25c64d-b500-473a-9919-e61d500692eb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "presence-terrifiante",
+      "DisplayName": "Présence terrifiante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "presence-terrifiante",
+        "Summary": "Intimide les ennemis par une aura de peur et d’autorité au combat.",
+        "HtmlContent": "En [situation de combat](/regles/combat), permet au personnage d’intimider ses ennemis par une [action](/regles/combat/deroulement/tour).\n\nIl effectue un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) [opposé](/regles/competences/tests/oppose) à un test de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de toute cible qu’il désigne et qu’il peut atteindre par une [attaque de mêlée](/regles/combat/attaque/melee).\n\nLe terrain devient [difficile](/regles/aventure/mouvement/terrain-difficile) pour toute créature échouant le test opposé.\n\nUne créature immunisée à la [peur](/regles/combat/conditions/apeure) ou au terrain difficile n’est pas affectée par cette capacité.\n\nÉgalement, lorsque le personnage inflige des [points de dégâts](/regles/combat/degats) à une créature, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests de Représentation afin d’intimider cette créature jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez le talent Présence terrifiante, qui permet d’intimider les ennemis au combat et d’imposer sa volonté par une aura de peur et de domination."
+      }
+    }
+  }
+}

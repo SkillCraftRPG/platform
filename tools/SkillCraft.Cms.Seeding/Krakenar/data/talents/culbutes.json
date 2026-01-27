@@ -1,0 +1,29 @@
+﻿{
+  "Id": "55c22052-8b98-4155-9183-baa59aae999f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "culbutes",
+    "DisplayName": "Culbutes",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"38b875a0-6519-4c8b-bff6-02c151e6a5fe\"]",
+      "RequiredTalent": "[\"081ac23a-7d82-4fab-ae4e-55692267c3d9\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "culbutes",
+      "DisplayName": "Culbutes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "culbutes",
+        "Summary": "Traverse l’espace ennemi, réduit les chutes, bonus de mouvement.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut traverser l’[espace occupé](/regles/aventure/mouvement/espace-occupe) d’une créature hostile, quelle que soit sa [taille](/regles/especes/taille).\n- Lorsqu’il réussit un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin d’[amortir sa chute](/regles/aventure/environnement/chute), il ignore les [dégâts](/regles/combat/degats) de la première tranche de 1,5 mètres, et les dégâts des deux tranches suivantes sont [non létaux](/regles/combat/degats/letalite).\n- Bonus permanent d’un [point de mouvement](/regles/aventure/mouvement/vitesse).",
+        "MetaDescription": "Découvrez le talent Culbutes : traversez l’espace ennemi, réduisez les dégâts de chute et gagnez un bonus permanent de mouvement."
+      }
+    }
+  }
+}

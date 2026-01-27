@@ -1,0 +1,28 @@
+﻿{
+  "Id": "0a9e78a0-14db-465d-a10d-8673b83c77ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "renvoi-des-morts-vivants",
+    "DisplayName": "Renvoi des morts-vivants",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"d8473b88-7dc6-436b-9f92-9936e07362c4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "renvoi-des-morts-vivants",
+      "DisplayName": "Renvoi des morts-vivants",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "renvoi-des-morts-vivants",
+        "Summary": "Repousse ou détruit les morts-vivants par prière et symbole divin.",
+        "HtmlContent": "Le personnage peut utiliser son [pouvoir divin](/regles/specialisations/clerc) par une [action](/regles/combat/deroulement/tour) afin de présenter son [symbole divin](/regles/equipement/general) en récitant une prière châtiant les morts-vivants.\n\nS’il n’a pas acquis la spécialisation [Clerc](/regles/specialisations/clerc), alors il peut utiliser cette capacité une fois par jour et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nIl effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). Toute créature morte-vivante située à 9 mètres ou moins de sa position et qui peut le [voir](/regles/aventure/environnement/vision) ou l’entendre doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test.\n\nEn cas d’échec du jet de sauvegarde, une créature est [étourdie](/regles/combat/conditions/etourdi) et doit utiliser toutes ses actions afin de fuir le personnage.\n\nSi elle ne peut fuir, alors elle ne peut qu’effectuer les activités [Défense](/regles/combat/activites/defense) ou [S’échapper](/regles/combat/activites/echapper).\n\nL’effet dure [1 minute](/regles/aventure/temps) ou jusqu’à ce que la créature reçoive des [points de dégâts](/regles/combat/degats).\n\nDe plus, si le [niveau](/regles/personnages/progression/niveau) de la créature est inférieur ou égal au [tiers](/regles/personnages/progression/tiers) du personnage et que celui-ci a acquis la spécialisation [Clerc](/regles/specialisations/clerc), alors la créature est instantanément détruite.",
+        "MetaDescription": "Découvrez le talent Renvoi des morts-vivants, qui permet d’utiliser une prière divine pour repousser, étourdir ou détruire les créatures mortes-vivantes."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "959ac693-3553-4cc0-90ac-f892250d1f77",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "monture-de-combat",
+    "DisplayName": "Monture de combat",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"7dd9ed2f-377b-4199-ba60-0d24240804e5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "monture-de-combat",
+      "DisplayName": "Monture de combat",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "monture-de-combat",
+        "Summary": "Optimise combat et défense avec sa monture.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il [combat sur une monture](/regles/combat/monte), il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[attaques de mêlée](/regles/combat/attaque/melee) dirigées contre une créature n’étant pas sur une monture et dont la [taille](/regles/especes/taille) est inférieure à celle de sa monture.\n- Si la monture du personnage est affectée par un effet nécessitant un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin de réduire de moitié les [points de dégâts](/regles/combat/degats) reçus, alors la monture ne reçoit aucun dégât si elle réussit le test, et ne reçoit que la moitié des dégâts si elle l’échoue.\n- Lorsqu’une créature ennemie cible la monture du personnage par une [attaque](/regles/combat/attaque) ou un pouvoir, le personnage peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’épargner sa monture et devenir la cible de l’attaque ou du pouvoir.\n- Lorsque le personnage est ciblé par un [pouvoir](/regles/magie/pouvoirs), alors il peut étendre les effets du pouvoir à sa monture s’il le désire, à la discrétion du maître de jeu. Lorsqu’il en fait ainsi, la monture n’est pas comptée dans le nombre de cibles.",
+        "MetaDescription": "Découvrez le talent Monture de combat, qui améliore la coordination et la défense entre un cavalier et sa monture."
+      }
+    }
+  }
+}

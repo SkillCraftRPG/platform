@@ -1,0 +1,28 @@
+﻿{
+  "Id": "eb0632dc-3008-425d-a1b8-3bb438ee6201",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lancer-precis",
+    "DisplayName": "Lancer précis",
+    "Description": null,
+    "FieldValues": {
+      "AllowMultiplePurchases": "false",
+      "Tier": "2",
+      "RequiredTalent": "[\"70ba6c8f-af9a-4586-812f-f15e1e36ace8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lancer-precis",
+      "DisplayName": "Lancer précis",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lancer-precis",
+        "HtmlContent": "Le personnage peut effectuer une [attaque à distance](/regles/combat/attaque/distance) en lançant une [arme](/regles/equipement/armes) possédant la propriété [Jet](/regles/equipement/armes/proprietes) par deux [actions](/regles/combat/deroulement/tour) plutôt qu’une.\n\nLorsqu’il en fait ainsi, il bénéficie des capacités suivantes :\n\n- Il ignore le [demi-abri](/regles/combat/attaque/abri) et l’[abri aux trois-quarts](/regles/combat/attaque/abri) de sa cible.\n- Il ne subit pas de [désavantage](/regles/competences/tests/avantage-desavantage) lorsqu’il utilise son arme à [longue portée](/regles/equipement/armes/proprietes).\n- Il ne subit pas de désavantage lorsqu’il cible une créature [renversée](/regles/combat/conditions/renverse).\n- Bonus (+5) à son [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque).\n- Bonus d’un [dé de dégâts](/regles/combat/degats/jet).",
+        "Summary": "Rend les lancers plus précis et puissants, sans désavantage.",
+        "MetaDescription": "Découvrez le talent Lancer précis, qui perfectionne les attaques à distance en lançant des armes avec une précision et une puissance accrues."
+      }
+    }
+  }
+}

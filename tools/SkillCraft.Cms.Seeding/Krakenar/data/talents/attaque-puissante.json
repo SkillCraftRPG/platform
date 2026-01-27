@@ -1,0 +1,27 @@
+﻿{
+  "Id": "29265217-194b-4aa1-b812-2fca7b9bc390",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-puissante",
+    "DisplayName": "Attaque puissante",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-puissante",
+      "DisplayName": "Attaque puissante",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-puissante",
+        "Summary": "Maximise les dégâts et peut étourdir les cibles plus petites.",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque de mêlée](/regles/combat/attaque/melee), il peut remplacer des [dés de dégâts](/regles/combat/degats/jet) par leur valeur maximale.\n\nIl peut utiliser cette capacité une fois par [tour](/regles/combat/deroulement/tour), il doit manier une [arme](/regles/equipement/armes) à une main pour laquelle il est [formé](/regles/equipement/armes/formation), et l’[attaque](/regles/combat/attaque) doit être effectuée par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee).\n\nIl peut remplacer un nombre de dés inférieur ou égal à son [tiers](/regles/personnages/progression/tiers) et dépense 15 points d’[Énergie](/regles/statistiques/energie) par dé avant de savoir si l’attaque réussit ou échoue.\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à la sienne, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de Mêlée de l’attaque effectuée par le personnage.\n\nEn cas d’échec, elle est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain tour.",
+        "MetaDescription": "Découvrez le talent Attaque puissante, qui permet de maximiser les dés de dégâts et d’étourdir les cibles plus faibles au corps à corps."
+      }
+    }
+  }
+}

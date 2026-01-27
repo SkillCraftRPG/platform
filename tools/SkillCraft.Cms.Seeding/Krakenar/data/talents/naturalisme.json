@@ -1,0 +1,29 @@
+﻿{
+  "Id": "edc9b423-bb0b-4259-aaf0-8b22d2db3519",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "naturalisme",
+    "DisplayName": "Naturalisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ba600891-151b-44f0-a2ed-b3e3ccb10cd7\"]",
+      "RequiredTalent": "[\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "naturalisme",
+      "DisplayName": "Naturalisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "naturalisme",
+        "Summary": "Maîtrise la nature et les matériaux grâce à un savoir étendu.",
+        "HtmlContent": "### Créatures\n\nLe personnage possède de vastes connaissances à propos des créatures naturelles, par exemple les animaux, les plantes, les limons, les dragons et les monstruosités.\n\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Connaissance](/regles/competences/connaissance) envers ces créatures et reçoit de l’information supplémentaire lorsqu’il réussit un de ces tests.\n\nCette information correspond généralement aux habiletés de cette créature, à quel point celle-ci est dangereuse pour son groupe, la signification de ses comportements, les dangers naturels de son habitat, et quelles ressources de valeur peuvent être récoltées sur cette créature.\n\nIl peut utiliser cette capacité pour, par exemple, identifier une créature à partir des traces qu’elle a laissées au sol.\n\n### Matériaux\n\nÉgalement, il possède de vastes connaissances à propos des [matériaux](/regles/equipement/marchandise).\n\nIl reconnait instantanément la majorité des matériaux ainsi que leur rareté, sans nécessiter de test de Connaissance, à la discrétion du maître de jeu.\n\nIl se voit conférer l’avantage à ses tests de Connaissance afin de recevoir de l’information supplémentaire à propos de ces matériaux.",
+        "MetaDescription": "Découvrez le talent Naturalisme, qui offre un savoir approfondi sur les créatures naturelles et les matériaux, améliorant les tests de Connaissance."
+      }
+    }
+  }
+}

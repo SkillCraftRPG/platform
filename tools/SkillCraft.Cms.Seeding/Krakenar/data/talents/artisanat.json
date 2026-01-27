@@ -1,0 +1,28 @@
+﻿{
+  "Id": "9bb1f8de-2120-4796-8271-a3d2ace4d053",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "artisanat",
+    "DisplayName": "Artisanat",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"56ffe0d3-6271-4ca7-badf-d227d7785767\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "artisanat",
+      "DisplayName": "Artisanat",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "artisanat",
+        "Summary": "Permet de créer, réparer et démonter des objets à l’aide d’outils.",
+        "HtmlContent": "Le personnage est formé à l’utilisation d’un nombre d’[outils](/regles/equipement/outils) ou de [trousses d’artisan](/regles/equipement/outils) égal à son [rang](/regles/competences/rang) d’[Artisanat](/regles/competences/artisanat).\n\nS’il est formé à l’utilisation de la [trousse de réparation](/regles/equipement/outils), il peut tenter de [réparer](/regles/equipement/reparation) un objet. Par une [action](/regles/combat/deroulement/tour), il peut utiliser une des dix charges de la trousse et effectue un [test](/regles/competences/tests) d’Artisanat.\n\n- Si l’objet est une [armure](/regles/equipement/armures) ou un [bouclier](/regles/equipement/boucliers), le nombre de points de [Résistance](/regles/equipement/resistance) restaurés est égal au résultat du test divisé par 5 (minimum 1).\n- Si l’objet est une [arme](/regles/equipement/armes), le [degré de difficulté](/regles/competences/tests/difficulte) est égal au bonus à l’[Attaque](/regles/equipement/armes/attaque) de l’arme multiplié par 5. L’arme est réparée en cas de réussite.\n- Sinon, la difficulté est moyenne. L’objet est réparé en cas de réussite.",
+        "MetaDescription": "Découvrez Artisanat, le talent qui mesure la capacité à créer, réparer ou démonter des objets à l’aide d’outils, de l’improvisation à la fabrication complexe."
+      }
+    }
+  }
+}

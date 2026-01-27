@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e6626de7-06c5-41e9-8853-3917a829cf8d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "magie-precise",
+    "DisplayName": "Magie précise",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "magie-precise",
+      "DisplayName": "Magie précise",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "magie-precise",
+        "HtmlContent": "Le personnage peut canaliser un [pouvoir](/regles/magie/pouvoirs) d’[attaque](/regles/magie/effets/attaque) par une [action](/regles/combat/deroulement/tour) supplémentaire.\n\nLorsqu’il en fait ainsi, il bénéficie d’un bonus (+5) à son [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) et d’un [dé de dégâts](/regles/combat/degats/jet) supplémentaires.\n\nÉgalement, si le pouvoir a une portée supérieure à [Toucher](/regles/magie/parametres/portee) :\n\n- La [portée](/regles/magie/parametres/portee) du pouvoir est doublée.\n- Il ignore le [demi-abri](/regles/combat/attaque/abri) et l’[abri aux trois-quarts](/regles/combat/attaque/abri) de sa cible.\n- Il ne subit pas de [désavantage](/regles/competences/tests/avantage-desavantage) lorsqu’il cible une créature [renversée](/regles/combat/conditions/renverse).",
+        "Summary": "Double la portée et renforce la précision des pouvoirs d’attaque.",
+        "MetaDescription": "Découvrez le talent Magie précise, qui augmente la portée, la puissance et la précision des pouvoirs d’attaque à distance."
+      }
+    }
+  }
+}

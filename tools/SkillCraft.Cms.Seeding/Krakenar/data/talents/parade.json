@@ -1,0 +1,27 @@
+﻿{
+  "Id": "2e928d87-34eb-4a26-8dd0-453c021fda61",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "parade",
+    "DisplayName": "Parade",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "parade",
+      "DisplayName": "Parade",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "parade",
+        "Summary": "Ajoute le bonus d’arme à la défense pour parer les attaques.",
+        "HtmlContent": "Lorsque le personnage se place en [posture défensive](/regles/combat/activites/defense), il peut ajouter le bonus d’[Attaque](/regles/equipement/armes/attaque) de son [arme](/regles/equipement/armes) à sa [Défense](/regles/combat/attaque/defense) ainsi qu’à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties).\n\nAfin d’utiliser cette capacité, il doit manier une arme à une main pour laquelle il est [formé](/regles/equipement/armes/formation). Il ne peut manier aucune autre arme.\n\nS’il bénéficie d’un [bouclier](/regles/equipement/boucliers), il retire du bonus d’Attaque le bonus à la [Défense](/regles/equipement/defense) conféré par le bouclier. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0.\n\nÉgalement, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de tenter de parer une [attaque](/regles/combat/attaque/defense) le prenant pour cible, ou d’esquiver un effet nécessitant un jet de sauvegarde d’Acrobaties de sa part. Il doit [voir](/regles/aventure/environnement/vision) la source de l’attaque ou de l’effet.\n\nIl ajoute le même bonus que mentionné précédemment à sa Défense et à ses jets de sauvegarde, et doit respecter les mêmes conditions. L’effet dure jusqu’au début de son prochain&nbsp;[tour](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez le talent Parade, qui permet de détourner les attaques en posture défensive, ajoutant le bonus d’attaque de l’arme à la défense du combattant."
+      }
+    }
+  }
+}

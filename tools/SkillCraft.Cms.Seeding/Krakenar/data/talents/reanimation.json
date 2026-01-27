@@ -1,0 +1,29 @@
+﻿{
+  "Id": "0dfff246-b015-4444-ab3d-258bd5019e1b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "reanimation",
+    "DisplayName": "Réanimation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"786e509e-ea89-4a51-b144-b84352f91b0f\"]",
+      "RequiredTalent": "[\"5b1cf18c-f787-49f9-9881-d2086df74664\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "reanimation",
+      "DisplayName": "Réanimation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "reanimation",
+        "Summary": "Ramener une créature à la vie sous fortes contraintes et risques.",
+        "HtmlContent": "Permet au personnage de tenter de ramener à la vie une créature [décédée](/regles/combat/conditions/mort) dans les [dix dernières minutes](/regles/aventure/temps).\n\nIl doit dépenser 25 points d’[Énergie](/regles/statistiques/energie) et utilise des bandages, remèdes et autre matériel médical pour une valeur minimale de [250 deniers](/regles/equipement/monnaie).\n\nIl doit posséder ces matériaux avant de commencer la réanimation, et ces matériaux sont consommés par l’opération.\n\nUne créature ne peut être réanimée que si elle n’est pas morte de vieillesse, son corps possède encore ses [fonctions vitales](/regles/combat/mort-agonie), et son âme désire retourner dans son corps.\n\nPour chaque minute suivant le décès, la réanimation a un potentiel d’échec de 10% cumulatif.\n\nLe joueur lance donc 1d10 et la réanimation échoue si le résultat obtenu est inférieur ou égal au nombre de minutes écoulées depuis le décès.\n\nLa créature réanimée récupère immédiatement un point de [Vitalité](/regles/statistiques/vitalite) et est affligée de 5 niveaux de [Fatigue](/regles/combat/conditions/fatigue).",
+        "MetaDescription": "Découvrez Réanimation : ramenez une créature décédée à la vie en dix minutes, avec matériel médical, coût énergétique et risques croissants d’échec."
+      }
+    }
+  }
+}

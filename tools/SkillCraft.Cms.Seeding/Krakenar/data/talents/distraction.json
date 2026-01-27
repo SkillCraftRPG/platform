@@ -1,0 +1,29 @@
+﻿{
+  "Id": "4b19a88e-2d1b-4579-886c-3eb0b719fe4a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "distraction",
+    "DisplayName": "Distraction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"82a59add-a0e2-4d7b-8513-5eaa0f60e11b\"]",
+      "RequiredTalent": "[\"ca25c64d-b500-473a-9919-e61d500692eb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "distraction",
+      "DisplayName": "Distraction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "distraction",
+        "Summary": "Détourne l’attention des ennemis et lie art et combat.",
+        "HtmlContent": "### Distraction\n\nLorsque le personnage [aide](/regles/combat/activites/aider) un allié à [attaquer](/regles/combat/attaque) une créature, au moment où il utilise sa [réaction](/regles/combat/deroulement/tour), il peut tenter de distraire les créatures situées à 1,5 mètres ou moins de la cible.\n\nIl sélectionne un nombre de cibles inférieur ou égal à son [Intellect](/regles/attributs/intellect) (minimum 1). Ces créatures doivent pouvoir le voir ou l’entendre.\n\nIl effectue un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) [opposé](/regles/competences/tests/oppose) à un test de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de ces créatures.\n\nLe test de la prochaine attaque dirigée contre une créature ayant échoué le test opposé se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n\n### Combat de scène\n\nLe personnage sélectionne un type d’[arme](/regles/equipement/armes) et est [formé](/regles/equipement/armes/formation) au maniement des armes de ce type s’il ne l’est pas déjà.\n\nLorsque son [tiers](/regles/personnages/progression/tiers) augmente, il sélectionne un type d’arme additionnel.\n\nLorsqu’il effectue une attaque en maniant une arme appartenant à un de ces types, il peut remplacer le test de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation) par un test de Représentation en retirant la moitié de son [rang](/regles/competences/rang).\n\nLorsqu’il en fait ainsi, il remplace sa [Force](/regles/statistiques/force) ou sa [Précision](/regles/statistiques/precision) par la moitié de son [Stratagème](/regles/statistiques/stratageme) dans le calcul des [points de dégâts](/regles/combat/degats) infligés.",
+        "MetaDescription": "Découvrez le talent Distraction, permettant d’aider un allié en détournant l’attention des ennemis et d’utiliser la Représentation en combat."
+      }
+    }
+  }
+}

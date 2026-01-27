@@ -1,0 +1,29 @@
+﻿{
+  "Id": "db16d90c-099e-45ce-8321-c174eeb38a0b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "optimisation-magique",
+    "DisplayName": "Optimisation magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"f356649f-b39f-4db6-93f4-a2e0f8c2b841\"]",
+      "RequiredTalent": "[\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "optimisation-magique",
+      "DisplayName": "Optimisation magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "optimisation-magique",
+        "Summary": "Réduit la difficulté et le coût énergétique des pouvoirs magiques.",
+        "HtmlContent": "Lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs), le [degré de difficulté](/regles/competences/tests/difficulte) de son [test](/regles/competences/tests) d’[Occultisme](/regles/competences/tests/occultisme) est réduit de moitié.\n\nÉgalement, le niveau canalisé est réduit de 1 pour le calcul des [points d’Énergie dépensés](/regles/magie/pouvoirs/energie) (minimum 1 point d’Énergie dépensé).",
+        "MetaDescription": "Découvrez le talent Optimisation magique, qui réduit la difficulté et le coût en énergie des pouvoirs canalisés pour une magie plus efficiente."
+      }
+    }
+  }
+}

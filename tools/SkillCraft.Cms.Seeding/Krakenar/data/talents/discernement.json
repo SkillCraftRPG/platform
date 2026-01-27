@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ccb1a675-010b-4e51-b140-8cb7309438a9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "discernement",
+    "DisplayName": "Discernement",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"93dbef75-5f50-4462-bd9b-43303b781443\"]",
+      "RequiredTalent": "[\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "discernement",
+      "DisplayName": "Discernement",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "discernement",
+        "Summary": "Détecte mensonges et manipulations mentales.",
+        "HtmlContent": "Lorsque le personnage réussit un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) afin de déterminer si une créature dit la vérité, ses tests de [Diplomatie](/regles/competences/diplomatie), de [Représentation](/regles/competences/representation), de [Tromperie](/regles/competences/tromperie) et des [compétences](/regles/competences) associées à l’[Intellect](/regles/attributs/intellect) et aux [Sens](/regles/attributs/sens) contre cette créature se voient conférer l’[avantage](/regles/competences/tests/avantage-desavantage) pendant la [prochaine minute](/regles/aventure/temps), tant qu’il peut continuer à observer les yeux et la bouche de la créature.\n\nÉgalement, il peut discuter pendant 10 minutes avec une créature affectée par un effet ou un pouvoir la contraignant à [agir d’une certaine manière](/regles/combat/conditions/charme) ou ayant modifié sa mémoire.\n\nCelle-ci peut alors rejouer le [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre l’effet ou le pouvoir.\n\nLa créature doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de pouvoir bénéficier de cette capacité à nouveau.",
+        "MetaDescription": "Découvrez le talent Discernement, qui permet de percer la vérité, contrer les manipulations mentales et détecter les influences surnaturelles."
+      }
+    }
+  }
+}

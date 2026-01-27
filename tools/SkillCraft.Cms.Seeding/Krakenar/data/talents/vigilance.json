@@ -1,0 +1,27 @@
+﻿{
+  "Id": "ecd7e18e-2055-44c4-9b9d-8057af7f6dc5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vigilance",
+    "DisplayName": "Vigilance",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vigilance",
+      "DisplayName": "Vigilance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vigilance",
+        "Summary": "Augmente l’initiative et permet d’agir même pris par surprise.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Bonus permanent (+1) à l’[Initiative](/regles/statistiques/initiative).\n- Il n’est jamais [pris au dépourvu](/regles/combat/deroulement/depourvu) avant d’avoir joué son premier [tour](/regles/combat/deroulement/tour) en [combat](/regles/combat).\n- Lorsqu’il est [surpris](/regles/combat/deroulement/surprise), il peut dégainer une [arme](/regles/equipement/armes) en [action libre](/regles/combat/deroulement/tour) au début de son tour, et peut effectuer une [action](/regles/combat/deroulement/tour) pendant son tour.",
+        "MetaDescription": "Découvrez le talent Vigilance, qui améliore l’initiative et permet d’agir même pris par surprise au début d’un combat."
+      }
+    }
+  }
+}

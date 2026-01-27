@@ -1,0 +1,29 @@
+﻿{
+  "Id": "164431e1-ff43-4ad7-9fdd-0e8b8d03080d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "emboiter-le-pas",
+    "DisplayName": "Emboîter le pas",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"2a49d787-e957-4fe0-afe7-3de5b6ebb214\"]",
+      "RequiredTalent": "[\"3968f65a-586b-4c4c-b71e-f888c321697d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "emboiter-le-pas",
+      "DisplayName": "Emboîter le pas",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "emboiter-le-pas",
+        "Summary": "Inspire un allié à imiter son action ou à réussir grâce à lui.",
+        "HtmlContent": "Lorsque le personnage effectue une [action](/regles/combat/deroulement/tour), il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) de [Diplomatie](/regles/competences/tests/diplomatie) afin d’inciter une autre créature à effectuer la même action que lui.\n\nÉgalement, lorsqu’il [aide](/regles/combat/activites/aider) une créature, il peut conférer un bonus au test de cette créature égal à la moitié de son [rang](/regles/competences/rang) de Diplomatie en dépensant un nombre égal de points d’[Énergie](regles/statistiques/energie).",
+        "MetaDescription": "Découvrez le talent Emboîter le pas, qui permet d’inciter un allié à reproduire son action ou à bénéficier d’un bonus grâce à sa Diplomatie."
+      }
+    }
+  }
+}

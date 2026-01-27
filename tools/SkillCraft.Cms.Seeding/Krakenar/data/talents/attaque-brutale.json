@@ -1,0 +1,28 @@
+﻿{
+  "Id": "33973454-6d35-4fab-949f-d671b279a179",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "attaque-brutale",
+    "DisplayName": "Attaque brutale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"273dcbee-6b36-43f0-b28a-bd1784ec066a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "attaque-brutale",
+      "DisplayName": "Attaque brutale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "attaque-brutale",
+        "Summary": "Ajoute des dés de dégâts et peut renverser la cible au sol.",
+        "HtmlContent": "Lorsque le personnage effectue une [attaque de mêlée](/regles/combat/attaque/melee), il peut ajouter des [dés de dégâts](/regles/combat/degats/jet).\n\nIl peut utiliser cette capacité une fois par [tour](/regles/combat/deroulement/tour), il doit manier à deux mains une [arme](/regles/equipement/armes) possédant la propriété [Deux mains](/regles/equipement/armes/proprietes) ou [Versatile](/regles/equipement/armes/proprietes) et pour laquelle il est [formé](/regles/equipement/armes/formation), et l’[attaque](/regles/combat/attaque) doit être effectuée par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee).\n\nIl peut ajouter un nombre de dés inférieur ou égal à son [tiers](/regles/personnages/progression/tiers) et dépense 15 points d’[Énergie](/regles/statistiques/energie) par dé avant de savoir si l’attaque réussit ou échoue.\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à la sienne, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de Mêlée de l’attaque effectuée par le personnage.\n\nEn cas d’échec, elle est [renversée](/regles/combat/conditions/renverse) au sol, ou repoussée de 1,5 mètres, au choix du personnage.",
+        "MetaDescription": "Découvrez le talent Attaque brutale, qui permet d’ajouter des dés de dégâts supplémentaires aux attaques à deux mains, renversant parfois l’ennemi."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "c9abbe04-b581-4fc3-a815-8a7fe62c2dcb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "otage",
+    "DisplayName": "Otage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"a1aae77b-f08a-4c8a-9e83-b971ce674eba\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "otage",
+      "DisplayName": "Otage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "otage",
+        "HtmlContent": "Lorsque le personnage [agrippe](/regles/combat/activites/agripper) une créature, ses [tests](/regles/competences/tests) d’[attaque](/regles/combat/attaque) contre cette créature se voient conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n\nLes tests d’attaque de cette créature contre le personnage sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n\nÉgalement, lorsqu’il se trouve en situation de [lutte](/regles/talents/lutte) avec une créature qu’il agrippe, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) pour rediriger une attaque le ciblant contre cette créature.",
+        "Summary": "Domine et utilise l’ennemi qu’il agrippe à son avantage.",
+        "MetaDescription": "Découvrez le talent Otage, qui accorde un avantage en combat rapproché lors d’une prise et permet de manipuler les attaques ennemies."
+      }
+    }
+  }
+}

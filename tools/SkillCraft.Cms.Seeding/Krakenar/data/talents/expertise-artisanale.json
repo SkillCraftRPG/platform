@@ -1,0 +1,29 @@
+﻿{
+  "Id": "97bc80a5-4c5f-4e79-806f-83587553d743",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "expertise-artisanale",
+    "DisplayName": "Expertise artisanale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"56ffe0d3-6271-4ca7-badf-d227d7785767\"]",
+      "RequiredTalent": "[\"9bb1f8de-2120-4796-8271-a3d2ace4d053\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "expertise-artisanale",
+      "DisplayName": "Expertise artisanale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "expertise-artisanale",
+        "Summary": "Améliore la maîtrise et les bonus liés à un type d’outils d’artisan.",
+        "HtmlContent": "Le personnage désigne un type d’[outils d’artisan](/regles/equipement/outils) de son choix parmi ceux qu’il formé à utiliser et développe une expertise avec le type d’outils choisi.\n\nLorsqu’il utilise ce type d’outils, il peut conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) d’[Artisanat](/regles/competences/artisanat) ou y ajouter un bonus égal à son [Adresse](/regles/attributs/adresse).\n\nÉgalement, s’il possède des [outils de bricoleur](/regles/equipement/outils), alors il peut convertir des outils d’une spécialité d’artisanat à une autre spécialité en réussissant un test d’Artisanat de [difficulté élevée](/regles/competences/tests/difficulte).\n\nCette conversion nécessite [une heure](/regles/aventure/temps) et peut être effectuée pendant une [halte](/regles/aventure/repos/halte).",
+        "MetaDescription": "Découvrez le talent Expertise artisanale, qui améliore la maîtrise d’un type d’outils d’artisan et accorde des bonus accrus aux tests d’Artisanat spécialisés."
+      }
+    }
+  }
+}

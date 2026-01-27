@@ -1,0 +1,27 @@
+﻿{
+  "Id": "65bc0af2-1b12-4504-92ca-85463e7d2323",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "competence",
+    "DisplayName": "Compétence",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "competence",
+      "DisplayName": "Compétence",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "competence",
+        "Summary": "Accorde un bonus permanent (+4) à l’Apprentissage.",
+        "HtmlContent": "Confère au personnage un bonus permanent (+4) à l’[Apprentissage](/regles/statistiques/apprentissage).",
+        "MetaDescription": "Découvrez le talent Compétence, offrant un bonus permanent à l’Apprentissage pour améliorer la maîtrise et la progression du personnage."
+      }
+    }
+  }
+}

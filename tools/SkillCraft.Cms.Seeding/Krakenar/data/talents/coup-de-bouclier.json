@@ -1,0 +1,28 @@
+﻿{
+  "Id": "81c3ae91-c25f-481b-9628-0cc4ceb868c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "coup-de-bouclier",
+    "DisplayName": "Coup de bouclier",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"6651cbd0-51d8-4391-8385-7207c8ed80db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "coup-de-bouclier",
+      "DisplayName": "Coup de bouclier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "coup-de-bouclier",
+        "Summary": "Permet d’attaquer, repousser ou protéger un allié avec son bouclier.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Une fois par [tour](/regles/combat/deroulement/tour), il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) en donnant un coup de [bouclier](/regles/equipement/boucliers). Il ajoute la [Défense](/regles/equipement/defense) du bouclier au test de l’[attaque](/regles/combat/attaque) et inflige 1&nbsp;+&nbsp;[Force](/regles/statistiques/force) [points de dégâts non létaux](/regles/combat/degats/letalite).\n- Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il effectue une [Bousculade](/regles/combat/activites/bousculer), il peut le faire avec son bouclier. Il ajoute à son test d’[Athlétisme](/regles/competences/athletisme) un bonus égal à la Défense de son bouclier.\n- Lorsqu’il voit une créature attaquer un allié situé à 1,5 mètres ou moins de sa position, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de protéger son allié, lui conférant le bonus de Défense de son bouclier contre cette attaque.\n- Il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’ajouter la Défense de son bouclier à un de ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties).\n\nAfin d’utiliser ces capacités, il doit être [formé](/regles/equipement/boucliers) avec le bouclier qu’il tient.",
+        "MetaDescription": "Découvrez le talent Coup de bouclier, qui permet d’utiliser son bouclier pour attaquer, repousser ou protéger un allié grâce à sa Défense."
+      }
+    }
+  }
+}

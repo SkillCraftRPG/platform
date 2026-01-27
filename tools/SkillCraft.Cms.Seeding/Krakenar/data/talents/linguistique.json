@@ -1,0 +1,28 @@
+﻿{
+  "Id": "c95f665e-2da3-455f-a87e-2e38d4988a26",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "linguistique",
+    "DisplayName": "Linguistique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"d227627b-acc4-4483-b45a-a82729d6c415\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "linguistique",
+      "DisplayName": "Linguistique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "linguistique",
+        "Summary": "Permet d’apprendre des langues et de manier la trousse de falsification.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est formé à l’utilisation de la [trousse de falsification](/regles/equipement/outils).\n- Il peut désormais apprendre les [langues exotiques](/regles/langues).\n- Il apprend une langue de son choix.",
+        "MetaDescription": "Découvrez le talent Linguistique, qui permet d’apprendre de nouvelles langues, d’utiliser une trousse de falsification et de lire les textes exotiques."
+      }
+    }
+  }
+}

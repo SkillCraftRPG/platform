@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e7282746-a39b-4f5b-b356-022579e09001",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "survie",
+    "DisplayName": "Survie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"ecdcb4fb-13bc-498c-8222-40e0900c23e8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "survie",
+      "DisplayName": "Survie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "survie",
+        "Summary": "Permet de survivre, créer et s’abriter à partir de la nature.",
+        "HtmlContent": "Permet au personnage d’effectuer des tâches banales sans posséder les [outils](/regles/equipement/outils) nécessaires et en utilisant les ressources du milieu naturel et sauvage dans lequel il se trouve, par exemple allumer un feu, fabriquer un abri ou cuisiner.\n\nÉgalement, pendant une [halte](/regles/aventure/repos/halte) et en utilisant les ressources provenant d’une carcasse, il peut fabriquer un des objets suivants :\n\n- Un [bouclier léger](/regles/equipement/boucliers)\n- Une [arme simple](/regles/equipement/armes/simples) n’étant pas dotée de la propriété [Chargement](/regles/equipement/armes/proprietes)\n- 1d4 pièces de [munitions](/regles/equipement/armes/munitions) pour une arme simple n’étant pas dotée de la propriété [Chargement](/regles/equipement/armes/proprietes)\n\nLa carcasse doit être celle d’une bête, d’une construction, d’un dragon, d’une monstruosité, ou d’une plante, et la créature doit être de [taille](/regles/especes/taille) supérieure ou égale à Petite.",
+        "MetaDescription": "Découvrez le talent Survie, qui permet de fabriquer, chasser et s’abriter en milieu sauvage à partir des ressources naturelles disponibles."
+      }
+    }
+  }
+}

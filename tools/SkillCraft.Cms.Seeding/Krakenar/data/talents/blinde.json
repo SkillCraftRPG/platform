@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e4ab239d-5aff-4ba1-8a15-d467837cc0dc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "blinde",
+    "DisplayName": "Blindé",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"6e31c8e4-b48c-42f3-9024-e972ac256728\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "blinde",
+      "DisplayName": "Blindé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "blinde",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est formé au port de [deux couches d’armure](/regles/equipement/armures/multiples).\n- Lorsqu’il porte une [armure complète](/regles/equipement/armures/partielles), il se voit conférer un bonus (+1) à sa [Défense](/regles/combat/attaque/defense).\n- Lorsqu’il porte une [armure lourde](/regles/equipement/armures/lourdes), ou un [bouclier lourd](/regles/equipement/boucliers) en plus d’une [armure](/regles/equipement/armures) complète, alors il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) et [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets le déplaçant contre son gré, le repoussant ou le [renversant](/regles/combat/conditions/renverse).\n- Lorsqu’un effet menace d’[endommager](/regles/equipement/resistance) son armure (bris, corrosion, rouille, etc.), alors il peut utiliser sa réaction pour empêcher que son armure ne soit affectée.",
+        "Summary": "Renforce la défense et la résistance du porteur d’armures lourdes.",
+        "MetaDescription": "Découvrez le talent Blindé, offrant une maîtrise des armures lourdes, une défense accrue et une résistance exceptionnelle aux effets et aux dommages d’armure."
+      }
+    }
+  }
+}

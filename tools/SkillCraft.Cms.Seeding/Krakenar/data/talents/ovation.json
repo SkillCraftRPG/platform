@@ -1,0 +1,29 @@
+﻿{
+  "Id": "76600f51-f0e5-4544-bc0c-31fba6698164",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ovation",
+    "DisplayName": "Ovation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"82a59add-a0e2-4d7b-8513-5eaa0f60e11b\"]",
+      "RequiredTalent": "[\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ovation",
+      "DisplayName": "Ovation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ovation",
+        "Summary": "Performance envoûtante captivant les spectateurs ciblés.",
+        "HtmlContent": "Permet au personnage de débuter une performance spectaculaire d’une durée maximale d’[une minute](/regles/aventure/temps) par une [action](/regles/combat/deroulement/tour).\n\nÀ chaque [tour](/regles/combat/deroulement/tour) subséquent, il doit utiliser une action afin de maintenir le spectacle.\n\nLa [Distraction](/regles/talents/distraction) et la [Provocation](/regles/talents/provocation) peuvent être utilisées pour cette action.\n\nIl désigne toute créature de son choix qui peut le voir ou l’entendre et effectue un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation).\n\nChaque cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) afin de ne pas être envoûtée par le personnage.\n\nUne créature échouant le test est [paralysée](/regles/combat/conditions/paralyse) et ses tests de [Perception](/regles/competences/perception) afin de détecter une créature autre que le personnage sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n\nUne créature envoûtée peut répéter le jet de sauvegarde à la fin de chacun de ses tours.\n\nSi une créature envoûtée reçoit des [points de dégâts](/regles/combat/degats), elle est libérée de l’emprise du personnage.\n\nUne créature immunisée aux [charmes](/regles/combat/conditions/charme) n’est pas affectée par cet effet.\n\nLe personnage doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez Ovation : une performance qui envoûte, paralyse ou désoriente les ennemis, amplifiée par la représentation et la provocation du personnage."
+      }
+    }
+  }
+}

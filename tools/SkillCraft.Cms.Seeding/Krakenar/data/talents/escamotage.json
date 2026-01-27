@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6c169831-5295-45ee-a1fc-f77d8ee92b23",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "escamotage",
+    "DisplayName": "Escamotage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"70c5ac59-ed69-42e7-aa17-2720d98ae81a\"]",
+      "RequiredTalent": "[\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "escamotage",
+      "DisplayName": "Escamotage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "escamotage",
+        "Summary": "Permet de voler ou saboter avec adresse et discrétion.",
+        "HtmlContent": "### Chaparde\n\nLe personnage peut tenter de dérober un objet tenu ou attaché fermement à une autre créature par une [action](/regles/combat/deroulement/tour) si la [taille](/regles/especes/taille) de celle-ci est d’au plus une catégorie supérieure à la sienne.\n\nIl effectue un [test](/regles/competences/tests) de [Roublardise](/regles/competences/roublardise) [opposé](/regles/competences/tests/oppose) à un test d’[Athlétisme](/regles/competences/athletisme) (seulement si l’objet est tenu), d’[Acrobaties](/regles/competences/acrobaties) (seulement si l’objet est attaché), ou de Roublardise de la cible.\n\nLe test du personnage est affligé du [désavantage](/regles/competences/tests/avantage-desavantage) s’il n’est pas [dissimulé](/regles/combat/activites/cacher) aux yeux de la cible, ou s’il tente de lui arracher une [arme](/regles/equipement/armes) ou un [bouclier](/regles/equipement/boucliers).\n\nSi le personnage réussit le test, il peut s’emparer de l’objet s’il a une main libre, sinon l’objet tombe au sol.\n\n### Interruption\n\nLorsqu’une créature située à 1,5 mètres ou moins de sa position [canalise](/regles/combat/activites/canaliser) un [pouvoir](/regles/magie/pouvoirs) requérant une composante [Focus](/regles/magie/parametres/composantes) ou [Matériel](/regles/magie/parametres/composantes), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) et dépenser 20 points d’[Énergie](/regles/statistiques/energie) afin de tenter de saboter la [canalisation](/regles/magie/pouvoirs/canalisation).\n\nIl effectue un test de Roublardise, et si le résultat obtenu est supérieur ou égal au résultat du test d’[Occultisme](/regles/competences/occultisme) de la cible, la canalisation échoue.\n\nLe test du personnage est affligé du désavantage s’il n’est pas dissimulé aux yeux de la cible.\n\nLa cible ne perd pas ses points d’Énergie, ni ses composantes.",
+        "MetaDescription": "Découvrez le talent Escamotage, qui permet de subtiliser objets ou de saboter la magie ennemie avec une précision et une discrétion redoutables."
+      }
+    }
+  }
+}

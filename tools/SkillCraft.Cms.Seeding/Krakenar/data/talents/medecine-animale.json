@@ -1,0 +1,28 @@
+﻿{
+  "Id": "60c63539-0bf4-42c5-9cfb-84602a45b37f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "medecine-animale",
+    "DisplayName": "Médecine animale",
+    "Description": null,
+    "FieldValues": {
+      "AllowMultiplePurchases": "false",
+      "Tier": "1",
+      "RequiredTalent": "[\"7dd9ed2f-377b-4199-ba60-0d24240804e5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "medecine-animale",
+      "DisplayName": "Médecine animale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "medecine-animale",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut désormais apprivoiser et dresser une bête de niveau ¼ et moins.\n- Il se voit conférer l[’avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Survie](/regles/competences/survie) effectués afin d’apprivoiser ou de calmer une bête en détresse ou souffrante.\n- Il peut substituer un test de [Médecine](/regles/competences/medecine) par un test de Survie lorsqu’il tente de prodiguer des [soins](/regles/combat/degats/soins) à une bête ou de [stabiliser](/regles/combat/activites/stabiliser) une bête [agonisante](/regles/combat/conditions/agonisant).",
+        "Summary": "Permet d’apprivoiser et de soigner les bêtes blessées ou paniquées.",
+        "MetaDescription": "Découvrez le talent Médecine animale, qui permet d’apprivoiser, soigner et stabiliser des bêtes en détresse grâce à la Survie ou à la Médecine."
+      }
+    }
+  }
+}

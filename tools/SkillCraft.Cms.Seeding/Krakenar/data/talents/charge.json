@@ -1,0 +1,28 @@
+﻿{
+  "Id": "1b374cfe-6709-43e4-a6d9-61c637e0c8a4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "charge",
+    "DisplayName": "Charge",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"6651cbd0-51d8-4391-8385-7207c8ed80db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "charge",
+      "DisplayName": "Charge",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "charge",
+        "Summary": "Permet d’attaquer en courant et de renverser la cible touchée.",
+        "HtmlContent": "Le personnage peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) en [action libre](/regles/combat/deroulement/tour) lorsqu’il [court](/regles/aventure/mouvement/types) en ligne droite sur une distance d’au moins 4,5 mètres immédiatement avant d’effectuer cette [attaque](/regles/combat/attaque).\n\nIl peut ajouter un bonus (+5) à son [test](/regles/competences/tests) d’attaque ou un [dé de dégâts](/regles/combat/degats/jet) supplémentaire.\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à celle du personnage, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme).\n\nLa [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de l’attaque effectuée par le personnage.\n\nEn cas d’échec, elle est repoussée de 3 mètres, ou elle est repoussée de 1,5 mètres et tombe [renversée](/regles/combat/conditions/renverse) au sol, au choix du personnage.",
+        "MetaDescription": "Découvrez le talent Charge, qui permet d’attaquer en pleine course pour infliger des dégâts accrus ou renverser un ennemi sur son passage."
+      }
+    }
+  }
+}

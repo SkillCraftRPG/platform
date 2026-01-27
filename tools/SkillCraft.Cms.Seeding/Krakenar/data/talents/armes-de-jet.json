@@ -1,0 +1,27 @@
+﻿{
+  "Id": "297df6fe-d29a-4aa9-b9d1-34b8838850b6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armes-de-jet",
+    "DisplayName": "Armes de jet",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armes-de-jet",
+      "DisplayName": "Armes de jet",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armes-de-jet",
+        "Summary": "Armes de jet : formation, choix de compétence, bonus de dégâts, optimisation.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il est [formé](/regles/equipement/armes/formation) au maniement des armes [simples](/regles/equipement/armes/simples) et [martiales](/regles/equipement/armes/martiales) possédant la propriété [Jet](/regles/equipement/armes/proprietes).\n- Lorsqu’il effectue une [attaque](/regles/combat/attaque) en maniant une telle [arme](/regles/equipement/armes), il choisit s’il effectue un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation). Il ajoute aux [points de dégâts](/regles/combat/degats) infligés sa [Force](/regles/statistiques/force) s’il a effectué un test de Mêlée, ou sa [Précision](/regles/statistiques/precision) s’il a effectué un test d’Orientation.\n- Lorsqu’il effectue une [attaque à distance](/regles/combat/attaque/distance) en lançant une telle arme, il inflige [1d4 points de dégâts](/regles/combat/degats/jet) supplémentaires s’il ne tient aucune autre arme.\n- Il peut dégainer une telle [arme](/regles/equipement/armes) en [action libre](/regles/combat/deroulement/tour) lorsqu’il effectue une attaque à distance avec cette arme.",
+        "MetaDescription": "Découvrez le talent Armes de jet : entraînement aux armes de lancer, choix d’attaque mêlée ou distance, bonus de dégâts et dégainage rapide."
+      }
+    }
+  }
+}

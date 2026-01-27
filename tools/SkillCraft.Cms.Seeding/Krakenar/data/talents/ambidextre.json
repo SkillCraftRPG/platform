@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ambidextre",
+    "DisplayName": "Ambidextre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ambidextre",
+      "DisplayName": "Ambidextre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ambidextre",
+        "Summary": "Permet de combattre avec deux armes sans malus et avec bonus défensif.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Le [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) effectuées en maniant une [arme](/regles/equipement/armes) avec une [main secondaire](/regles/combat/attaque/deux-armes) n’est plus affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Lorsqu’il combat en maniant une arme différente dans chaque main, il se voit conférer un bonus (+1) à l’[Esquive](/regles/combat/attaque/esquive) s’il ne bénéficie pas d’un [bouclier](/regles/equipement/boucliers).\n- Lorsqu’il dégaine ou rengaine une arme, il peut rengainer ou dégainer une autre arme avec une autre main en [action libre](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez Ambidextre, un talent permettant de manier deux armes efficacement, d’améliorer l’esquive et de dégainer plus rapidement."
+      }
+    }
+  }
+}

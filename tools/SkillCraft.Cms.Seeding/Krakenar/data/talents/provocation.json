@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "provocation",
+    "DisplayName": "Provocation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "provocation",
+      "DisplayName": "Provocation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "provocation",
+        "Summary": "Provoque les ennemis et transforme la ruse en arme de combat.",
+        "HtmlContent": "### Provocation\n\nPermet au personnage de provoquer des créatures situées à 9 mètres ou moins de sa position par une [action](/regles/combat/deroulement/tour).\n\nIl peut cibler un nombre de créatures inférieur ou égal à son [Intellect](/regles/attributs/intellect) (minimum 1). Ces créatures doivent pouvoir le voir ou l’entendre.\n\nIl effectue un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) [opposé](/regles/competences/tests/oppose) à un test de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de toute cible.\n\nEn cas d’échec, une créature se voit affligée du [désavantage](/regles/competences/tests/avantage-desavantage) au test de ses [attaques](/regles/combat/attaque) dirigées contre une cible autre que le personnage jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) de celui-ci.\n\nLes créatures immunisées aux [charmes](/regles/combat/conditions/charme) ne sont pas affectées par cette capacité.\n\n### Combat de scène\n\nLorsqu’il effectue une [attaque](/regles/combat/attaque) en maniant une [arme](/regles/equipement/armes) appartenant à un des types sélectionnés avec le talent [Distraction](/regles/talents/distraction), il peut remplacer le test de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation) par un test de Représentation, sans réduction de [rang](/regles/competences/rang).\n\nLorsqu’il en fait ainsi, il remplace sa [Force](/regles/statistiques/force) ou sa [Précision](/regles/statistiques/precision) par son [Stratagème](/regles/statistiques/stratageme) (sans réduction) dans le calcul des [points de dégâts](/regles/combat/degats) infligés.\n\nÉgalement, lorsqu’il en fait ainsi et obtient une [réussite critique](/regles/competences/tests/critique), il peut immédiatement après l’attaque [aider](/regles/combat/activites/aider) un allié à attaquer une créature en [action libre](/regles/combat/deroulement/tour).\n\nIl doit tout de même utiliser sa [réaction](/regles/combat/deroulement/tour), et peut effectuer une distraction à ce moment.",
+        "MetaDescription": "Découvrez le talent Provocation, qui permet de détourner l’attention des ennemis et d’utiliser la ruse pour manipuler le champ de bataille."
+      }
+    }
+  }
+}

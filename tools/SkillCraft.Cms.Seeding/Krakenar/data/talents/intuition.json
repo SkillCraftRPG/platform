@@ -1,0 +1,28 @@
+﻿{
+  "Id": "966a84ab-ca0e-4460-b9d0-3a38c4c53ade",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "intuition",
+    "DisplayName": "Intuition",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"93dbef75-5f50-4462-bd9b-43303b781443\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "intuition",
+      "DisplayName": "Intuition",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "intuition",
+        "Summary": "Permet de deviner les émotions et motifs cachés d’un adversaire.",
+        "HtmlContent": "Lorsque le personnage réussit un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) [opposé](/regles/competences/tests/oppose) à un test de [Tromperie](/regles/competences/tromperie), il peut deviner le motif ayant motivé la créature à tenter de le tromper.\n\nCe motif correspond généralement à un seul mot, et très souvent est une émotion.",
+        "MetaDescription": "Découvrez le talent Intuition, qui permet de percer les motivations et émotions cachées d’autrui lors d’un test opposé à la Tromperie."
+      }
+    }
+  }
+}

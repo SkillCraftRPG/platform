@@ -1,0 +1,28 @@
+﻿{
+  "Id": "133da5f0-a957-4dbc-b1b8-7a9f35224223",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "illusions-mineures",
+    "DisplayName": "Illusions mineures",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "illusions-mineures",
+      "DisplayName": "Illusions mineures",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "illusions-mineures",
+        "Summary": "Permet d’acquérir des illusions de base et l’illusion Hallucination.",
+        "HtmlContent": "Le personnage peut désormais acquérir les [illusions](#) de tiers 0, des [pouvoirs](/regles/magie/pouvoirs) manipulant la réalité.\n\nIl acquiert également gratuitement l’illusion [Hallucination](#).",
+        "MetaDescription": "Découvrez le talent Illusions mineures, qui permet de manipuler la réalité en acquérant des pouvoirs illusoires de base, dont l’illusion Hallucination."
+      }
+    }
+  }
+}

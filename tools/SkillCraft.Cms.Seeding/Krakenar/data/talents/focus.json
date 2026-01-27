@@ -1,0 +1,29 @@
+﻿{
+  "Id": "a2e6a255-f877-4929-8c73-226557bdffea",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "focus",
+    "DisplayName": "Focus",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"626b3491-ce0f-41ba-82bf-27c1d6432caf\"]",
+      "RequiredTalent": "[\"066f198d-e331-4006-8bd9-2831aff258de\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "focus",
+      "DisplayName": "Focus",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "focus",
+        "Summary": "Améliore la vigilance et la précision en état de concentration.",
+        "HtmlContent": "Permet au personnage d’entrer en état de focus par une [action](/regles/combat/deroulement/tour).\n\nIl peut revenir à son état normal à tout moment en [action libre](/regles/combat/deroulement/tour).\n\nEn état de focus, s’il n’est pas [aveuglé](/regles/combat/conditions/aveugle), il peut ajouter 1d4+1 à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ainsi qu’à ses [tests](/regles/competences/tests) de [Perception](/regles/competences/perception).\n\nÀ la fin de chaque tour passé en état de focus, il dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au total des bonus ajoutés à ses tests.\n\nÉgalement, lorsqu’il est en état de focus, le test des [attaques](/regles/combat/attaque) en provenance d’une créature [dissimulée](/regles/combat/attaque/dissimulee) le prenant pour cible ne se voit pas conférer l’[avantage](/regles/competences/tests/avantage-desavantage).",
+        "MetaDescription": "Découvrez le talent Focus, qui aiguise les sens, renforce la perception et améliore la vigilance pendant les combats."
+      }
+    }
+  }
+}

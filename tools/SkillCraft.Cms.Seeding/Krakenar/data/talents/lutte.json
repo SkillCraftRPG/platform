@@ -1,0 +1,28 @@
+﻿{
+  "Id": "a1aae77b-f08a-4c8a-9e83-b971ce674eba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lutte",
+    "DisplayName": "Lutte",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"89552d5e-05f9-4482-bc86-19cbf4fc9c03\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lutte",
+      "DisplayName": "Lutte",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lutte",
+        "Summary": "Permet d’agripper, renverser ou immobiliser un adversaire.",
+        "HtmlContent": "### Renverser\n\nLorsque le personnage est [agrippé](/regles/combat/conditions/agrippe) par une créature dont la [taille](/regles/especes/taille) est d’au plus une catégorie supérieure à la sienne, il peut tenter de de renverser la situation.\n\nPar une [action](/regles/combat/deroulement/tour), il effectue un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) [opposé](/regles/competences/tests/oppose) à un test d’Athlétisme de la cible.\n\nS’il réussit le test, il n’est plus agrippé par la créature, et celle-ci est maintenant agrippée par le personnage.\n\n### Restreindre\n\nÉgalement, il peut tenter d’entrer en situation de lutte avec une créature qu’il [agrippe](/regles/combat/activites/agripper) et dont la [taille](/regles/especes/taille) est de catégorie inférieure ou égale à la sienne.\n\nPar une [action](/regles/combat/deroulement/tour), il effectue un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) [opposé](/regles/competences/tests/oppose) à un test d’[Acrobaties](/regles/competences/acrobaties) ou d’Athlétisme de la cible.\n\nS’il réussit le test, la créature est [restreinte](/regles/combat/conditions/restreint) par le personnage, et le personnage ne peut plus [se déplacer](/regles/combat/activites/deplacement) tant qu’il maintient la situation de lutte.",
+        "MetaDescription": "Découvrez le talent Lutte, qui permet de renverser, agripper ou restreindre une créature lors d’un combat grâce à des tests d’Athlétisme opposés."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "4791665a-cdab-406d-a938-1cfc0fea2e23",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "derobade",
+    "DisplayName": "Dérobade",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "RequiredTalent": "[\"2e928d87-34eb-4a26-8dd0-453c021fda61\"]",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "derobade",
+      "DisplayName": "Dérobade",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "derobade",
+        "Summary": "Permet d’esquiver et réduire les dégâts d’une attaque reçue.",
+        "HtmlContent": "Lorsque le personnage effectue une [parade](/regles/talents/parade) ([posture défensive](/regles/combat/activites/defense) ou [réaction](/regles/combat/deroulement/tour)), il acquiert les capacités suivantes :\n\n- Il peut remplacer le bonus d’[Attaque](/regles/equipement/armes/attaque) de son [arme](/regles/equipement/armes) par la moitié de son [rang](/regles/competences/rang) d’[Acrobaties](/regles/competences/acrobaties). Il déduit de ce nombre tout bonus de [Défense](/regles/equipement/defense) conféré par son [équipement](/regles/equipement), notamment [armures](/regles/equipement/armures) et [boucliers](/regles/equipement/boucliers) dont il bénéficie. Ce bonus ne peut descendre en-deçà de 0.\n- Il peut réduire de moitié les [points de dégâts](/regles/combat/degats) reçus d’une [attaque](/regles/combat/attaque) le prenant pour cible ou d’un effet nécessitant un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’Acrobaties de sa part, même s’il échoue le jet de sauvegarde. Il ne peut réutiliser cette capacité avant la fin de son prochain [tour](/regles/combat/deroulement/tour).\n- Il peut conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à un de ses jets de sauvegarde d’Acrobaties. Il doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez le talent Dérobade, une évolution de Parade permettant d’esquiver les attaques, réduire les dégâts reçus et améliorer ses jets d’Acrobaties."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e534cce8-dea6-4842-8aac-3d5e431301ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrainement-iv",
+    "DisplayName": "Entraînement IV",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "True"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrainement-iv",
+      "DisplayName": "Entraînement IV",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrainement-iv",
+        "Summary": "Augmente de façon permanente un attribut (3 ou moins).",
+        "HtmlContent": "Augmente (+1) de manière permanente un [attribut](/regles/attributs) du personnage dont la valeur était inférieure ou égale à 3 avant l’acquisition de ce talent.",
+        "MetaDescription": "Découvrez le talent Entraînement IV, qui améliore définitivement un attribut faible du personnage, renforçant ses capacités physiques ou mentales."
+      }
+    }
+  }
+}

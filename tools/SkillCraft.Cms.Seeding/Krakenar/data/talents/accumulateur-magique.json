@@ -1,0 +1,28 @@
+﻿{
+  "Id": "634decfb-bf76-4d96-87be-825993b67a38",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "accumulateur-magique",
+    "DisplayName": "Accumulateur magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "RequiredTalent": "[\"5817ba6d-1b15-432f-9fa7-1b004a3ae997\"]",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "accumulateur-magique",
+      "DisplayName": "Accumulateur magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "accumulateur-magique",
+        "Summary": "Stockage de pouvoirs magiques dans des objets pour utilisation différée.",
+        "HtmlContent": "Le personnage peut entreposer un [bricolage magique](#) dans une [arme](/regles/equipement/armes) ou dans des [outils de bricoleur](/regles/equipement/outils).\n\nPour se faire, il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) de tiers 0 dont l’[incantation](/regles/magie/parametres/incantation) est de [2 actions](/regles/combat/deroulement/tour). Il dépense les [composantes](/regles/magie/parametres/composantes) et points d’[Énergie](/regles/statistiques/energie) nécessaires, et entrepose le résultat du [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) dans l’objet. Il peut [Faire 10](/regles/competences/tests/faire-10) au test s’il le désire.\n\nUne créature peut activer l’[objet](/regles/combat/activites/objet) par deux actions afin de [canaliser](/regles/combat/activites/canaliser) le pouvoir au [niveau](/regles/magie/pouvoirs/niveau) entreposé. Cette activation ne requiert aucune composante [Focus](/regles/magie/parametres/composantes), ni [Matériel](/regles/magie/parametres/composantes), et ne coûte aucun point d’Énergie. Elle réutilise le résultat du test d’Occultisme entreposé, et utilise les caractéristiques du personnage ayant entreposé le pouvoir.\n\nSi le pouvoir requiert la [concentration](/regles/magie/parametres/duree), alors la créature doit [se concentrer](/regles/combat/activites/concentration) sur celui-ci.\n\nLe pouvoir reste entreposé dans l’objet jusqu’à ce que le personnage réutilise cette capacité, ou jusqu’à ce que l’objet ait été activé un nombre de fois égal au double de l’[Intellect](/regles/attributs/intellect) (minimum&nbsp;2) du personnage.\n\nLe personnage doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez Accumulateur magique : talent avancé permettant d’entreposer un pouvoir dans un objet et de le déclencher ultérieurement sans coût énergétique."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "398cfada-90d4-4e78-ad70-8a96c3f301cc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apothicairerie",
+    "DisplayName": "Apothicairerie",
+    "Description": null,
+    "FieldValues": {
+      "AllowMultiplePurchases": "false",
+      "Tier": "2",
+      "RequiredTalent": "[\"5b1cf18c-f787-49f9-9881-d2086df74664\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apothicairerie",
+      "DisplayName": "Apothicairerie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apothicairerie",
+        "HtmlContent": "Le personnage peut désormais apprendre les [remèdes avancés](/regles/herboristerie/remedes).\n\nÉgalement, il peut improviser un remède par une action [Objet](/regles/combat/activites/objet) en remplaçant les ingrédients conventionnels par des charges d’une [trousse de premiers soins](/regles/equipement/outils) et en dépensant des points d’[Énergie](/regles/statistiques/energie).\n\nIl peut concocter un remède de base en utilisant 5 charges d’une trousse de premiers soins et en dépensant 15 points d’Énergie, ou un remède avancé en utilisant 10 charges d’une trousse de premiers soins et en dépensant 25 points d’Énergie.\n\nCe remède ne peut soigner qu’une [condition](/regles/combat/conditions) naturelle (induite par une source non magique) et temporaire.\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.",
+        "Summary": "Permet de créer des remèdes avancés en dépensant de l’énergie.",
+        "MetaDescription": "Découvrez le talent d’Apothicairerie, permettant de concocter des remèdes avancés et d’utiliser l’énergie vitale pour soigner les afflictions naturelles."
+      }
+    }
+  }
+}

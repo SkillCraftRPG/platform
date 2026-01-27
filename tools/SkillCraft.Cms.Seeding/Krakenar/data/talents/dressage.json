@@ -1,0 +1,28 @@
+﻿{
+  "Id": "7dd9ed2f-377b-4199-ba60-0d24240804e5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "dressage",
+    "DisplayName": "Dressage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"e7282746-a39b-4f5b-b356-022579e09001\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "dressage",
+      "DisplayName": "Dressage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "dressage",
+        "Summary": "Permet d’apprivoiser et commander des bêtes alliées.",
+        "HtmlContent": "Permet au personnage d’apprivoiser et de dresser une bête de niveau ⅛ et moins par une série de [tests](/regles/competences/tests) de [Survie](/regles/competences/survie), à la discrétion du maître de jeu.\n\nIl peut lui apprendre des tours simples tels sauter, attaquer, récupérer un objet, etc.\n\nUne bête peut apprendre un nombre maximum de tours égal à son 6 + [Intellect](/regles/attributs/intellect).\n\nPar une [action](/regles/combat/deroulement/tour), le personnage peut ordonner à une bête d’effectuer un des tours pour lequel elle a été entraînée. La bête exécutera l’ordre si cela ne met pas directement sa vie en danger.\n\nIl peut également ordonner à une bête d’effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite) en [réaction](/regles/combat/deroulement/tour) si une créature située à 1,5 mètres ou moins de la bête déclenche une attaque d’opportunité.",
+        "MetaDescription": "Découvrez le talent Dressage, qui permet d’apprivoiser, dresser et commander des bêtes alliées capables d’exécuter des ordres ou d’agir en réaction."
+      }
+    }
+  }
+}

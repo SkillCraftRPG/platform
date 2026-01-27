@@ -1,0 +1,28 @@
+﻿{
+  "Id": "7ba4f81d-f04b-43ed-8d2e-b5d3f17e2094",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "elementarisme",
+    "DisplayName": "Élémentarisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "True",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "elementarisme",
+      "DisplayName": "Élémentarisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "elementarisme",
+        "Summary": "Permet de contrôler un élément et ses pouvoirs associés.",
+        "HtmlContent": "Le personnage sélectionne un des éléments pour lequel il n’a pas encore acquis ce talent et il peut désormais acquérir les [pouvoirs](#) de tiers 0 associés à cet élément.\n\nIl acquiert également gratuitement un pouvoir de tiers 0 associé à cet élément.\n\n- Air : [Contrôle de l’Air](#)\n- Eau : [Contrôle de l’Eau](#)\n- Feu : [Contrôle du Feu](#)\n- Terre : [Contrôle de la Terre](#)\n- Esprit : [au choix](#)",
+        "MetaDescription": "Découvrez le talent Élémentarisme, qui permet d’accéder à la maîtrise d’un élément — air, eau, feu, terre ou esprit — et d’en apprendre les pouvoirs associés."
+      }
+    }
+  }
+}

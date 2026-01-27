@@ -1,0 +1,28 @@
+﻿{
+  "Id": "6b200bdb-a4b7-43a2-92ab-7817608a46bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frenesie",
+    "DisplayName": "Frénésie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "false",
+      "RequiredTalent": "[\"3acd933a-0e0d-44ce-ab18-0a4966734307\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frenesie",
+      "DisplayName": "Frénésie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frenesie",
+        "HtmlContent": "Le personnage n’est plus affligé par la pénalité d’[attaques multiples](/regles/combat/attaque/multiples) lorsqu’il effectue plusieurs [attaques](/regles/combat/attaque) avec le même membre de son corps pendant son [tour](/regles/combat/deroulement/tour).",
+        "Summary": "Enchaînement d’attaques rapides sans pénalité avec un même membre.",
+        "MetaDescription": "Découvrez Frénésie : supprimez la pénalité d’attaques multiples et enchaînez plusieurs frappes avec le même membre en un seul tour."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "8e1217d7-0b04-4d96-82bb-22988521aa99",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "barriere-mentale",
+    "DisplayName": "Barrière mentale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "barriere-mentale",
+      "DisplayName": "Barrière mentale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "barriere-mentale",
+        "Summary": "Permet d’ériger une défense mentale contre les pouvoirs ennemis.",
+        "HtmlContent": "Lorsque le personnage est ciblé par une capacité surnaturelle tel un [pouvoir](/regles/magie/pouvoirs), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de lever ses barrières mentales pour s’en protéger.\n\nIl dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal à la moitié des [points d’Énergie dépensés](/regles/magie/pouvoirs/energie) afin de [canaliser](/regles/magie/pouvoirs/canalisation) le pouvoir, ou dépense 15 points d’Énergie si la capacité surnaturelle n’a pas de dépense associée.\n\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre la capacité et ajoute la moitié de son [rang](/regles/competences/rang) de [Discipline](/regles/competences/discipline) à sa [Défense](/regles/combat/attaque/defense) contre la capacité.",
+        "MetaDescription": "Découvrez le talent Barrière mentale, qui permet d’utiliser l’énergie et la Discipline pour ériger une défense psychique contre les pouvoirs surnaturels."
+      }
+    }
+  }
+}

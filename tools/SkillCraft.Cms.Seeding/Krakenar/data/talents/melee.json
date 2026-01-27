@@ -1,0 +1,28 @@
+﻿{
+  "Id": "6651cbd0-51d8-4391-8385-7207c8ed80db",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "melee",
+    "DisplayName": "Mêlée",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"bd6bedde-2e50-493f-a1cc-8e23123c45c4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "melee",
+      "DisplayName": "Mêlée",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "melee",
+        "Summary": "Forme au combat rapproché et au maniement des armes simples.",
+        "HtmlContent": "[Forme](/regles/equipement/armes/formation) le personnage au maniement des [armes simples](/regles/equipement/armes/simples) de mêlée.\n\nIl est également [formé](/regles/equipement/armures/formation) au port des [armures légères](/regles/equipement/armures/legeres) et à l’utilisation des [boucliers légers](/regles/equipement/boucliers).",
+        "MetaDescription": "Découvrez le talent Mêlée, formant le personnage au combat rapproché, au maniement des armes simples, des armures légères et des boucliers légers."
+      }
+    }
+  }
+}

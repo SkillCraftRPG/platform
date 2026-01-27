@@ -1,0 +1,29 @@
+﻿{
+  "Id": "36619d6e-77a9-4e89-8cf5-dae93755a94d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "conjecture",
+    "DisplayName": "Conjecture",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "AllowMultiplePurchases": "False",
+      "Skill": "[\"93dbef75-5f50-4462-bd9b-43303b781443\"]",
+      "RequiredTalent": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "conjecture",
+      "DisplayName": "Conjecture",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "conjecture",
+        "Summary": "Intuition renforcée et protection contre les manipulations mentales.",
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) contre les effets et pouvoirs le [contraignant à agir](/regles/combat/conditions/charme) d’une certaine manière, ou modifiant le contenu de sa mémoire.\n\nÉgalement, une fois par [round](/regles/combat/deroulement), il peut effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite) en [action libre](/regles/combat/deroulement/tour).",
+        "MetaDescription": "Découvrez Conjecture : résistance aux effets mentaux, détection accrue des influences et attaque d’opportunité supplémentaire grâce à une intuition affûtée."
+      }
+    }
+  }
+}
