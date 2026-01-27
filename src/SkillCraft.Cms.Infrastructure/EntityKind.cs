@@ -10,6 +10,7 @@ internal enum EntityKind
   Gift,
   Language,
   Lineage,
+  ReservedTalent,
   Script,
   Skill,
   Specialization,

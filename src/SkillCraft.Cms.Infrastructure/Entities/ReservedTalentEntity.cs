@@ -5,9 +5,9 @@ using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggrega
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class FeatureEntity : AggregateEntity
+internal class ReservedTalentEntity : AggregateEntity
 {
-  public int FeatureId { get; private set; }
+  public int ReservedTalentId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -20,19 +20,21 @@ internal class FeatureEntity : AggregateEntity
   }
   public string Name { get; set; } = string.Empty;
 
+  public SpecializationEntity? Specialization { get; private set; }
+  public int SpecializationId { get; private set; }
+  public Guid SpecializationUid { get; private set; }
+
   public string? HtmlContent { get; set; }
 
-  public List<CasteEntity> Castes { get; private set; } = [];
-  public List<EducationEntity> Educations { get; private set; } = [];
-  public List<LineageFeatureEntity> Lineages { get; private set; } = [];
-  public List<ReservedTalentFeatureEntity> ReservedTalents { get; private set; } = [];
+  public List<ReservedTalentDiscountedTalentEntity> DiscountedTalents { get; private set; } = [];
+  public List<ReservedTalentFeatureEntity> Features { get; private set; } = [];
 
-  public FeatureEntity(ContentLocalePublished @event) : base(@event)
+  public ReservedTalentEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private FeatureEntity() : base()
+  private ReservedTalentEntity() : base()
   {
   }
 
@@ -41,6 +43,13 @@ internal class FeatureEntity : AggregateEntity
     Update(@event);
 
     IsPublished = true;
+  }
+
+  public void SetSpecialization(SpecializationEntity specialization)
+  {
+    Specialization = specialization;
+    SpecializationId = specialization.SpecializationId;
+    SpecializationUid = specialization.Id;
   }
 
   public void Unpublish(ContentLocaleUnpublished @event)
