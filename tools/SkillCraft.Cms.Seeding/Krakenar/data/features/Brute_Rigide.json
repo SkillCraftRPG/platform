@@ -1,0 +1,21 @@
+﻿{
+  "Id": "44def412-2137-4ac7-baa7-3e84ac3198e1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brute_Rigide",
+    "DisplayName": "Rigide",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brute_Rigide",
+      "DisplayName": "Rigide",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage ajoute sa [Santé](/regles/attributs/sante) (minimum 1) à son [Esquive](/regles/combat/attaque/esquive).\n\nS’il porte une [armure](/regles/equipement/armures), il retire de ce bonus tout bonus de [Défense](/regles/equipement/defense) conféré par son armure. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0.\n\nLe bonus de Défense conféré par un [bouclier](/regles/equipement/boucliers) n’influence pas cette capacité."
+      }
+    }
+  }
+}

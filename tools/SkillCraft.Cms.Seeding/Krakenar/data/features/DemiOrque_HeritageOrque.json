@@ -1,0 +1,21 @@
+﻿{
+  "Id": "96a8f318-6aa2-4126-9a02-1ab2dd2a9a78",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiOrque_HeritageOrque",
+    "DisplayName": "Héritage orque",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiOrque_HeritageOrque",
+      "DisplayName": "Héritage orque",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant la [peur](/regles/combat/conditions/apeure)."
+      }
+    }
+  }
+}

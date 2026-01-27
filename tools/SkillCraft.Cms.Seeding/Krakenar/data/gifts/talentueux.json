@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2f75c8f7-0c1b-44a0-a5b0-aaf3b597d9c2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "talentueux",
+    "DisplayName": "Talentueux",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "talentueux",
+      "DisplayName": "Talentueux",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "talentueux",
+        "HtmlContent": "Le personnage [acquiert](/regles/talents/acquisition) gratuitement deux [talents](/regles/talents) de tiers 0 associés à une [compétence](/regles/competences), ou un talent de tiers 0 qui n’est pas associé à une compétence.\n\nCe talent ne peut être un [talent réservé](/regles/specialisations/talent-reserve).",
+        "Summary": "Octroie gratuitement deux talents de base ou un talent général.",
+        "MetaDescription": "Découvrez le don Talentueux, qui permet d’obtenir gratuitement des talents de base liés à une compétence ou indépendants."
+      }
+    }
+  }
+}

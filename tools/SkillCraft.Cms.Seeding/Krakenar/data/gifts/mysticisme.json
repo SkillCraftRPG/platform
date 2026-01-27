@@ -1,0 +1,24 @@
+﻿{
+  "Id": "8588162e-2ee6-4bda-b81a-fb40d21583b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mysticisme",
+    "DisplayName": "Mysticisme",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mysticisme",
+      "DisplayName": "Mysticisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mysticisme",
+        "Summary": "Relie le personnage à un domaine mystique et accorde des pouvoirs.",
+        "HtmlContent": "Le personnage sélectionne l’[astromancie](#), un [domaine divin](#), ou un domaine d’[animisme](#).\n\nIl [acquiert](/regles/magie/pouvoirs/acquisition) gratuitement un [pouvoir](/regles/magie/pouvoirs) de tiers 0 de son choix associé à cette sélection.\n\nIl acquiert également gratuitement un pouvoir de tiers 1 de son choix associé à cette sélection lorsqu’il atteint le [tiers](/regles/personnages/progression/tiers) 1.\n\nDe plus, il se voit conférer une des capacités suivantes en fonction de cette sélection :\n\n- **Perturbateur planaire (astromancie).** Une fois par [tour](/regles/combat/deroulement/tour), il peut ajouter ses [Sens](/regles/attributs/sens) (minimum 1) aux [points de dégâts](/regles/combat/degats) infligés par une [attaque](/regles/combat/attaque) dirigée contre une créature issue d’une autre réalité ou dimension.\n- **Liaison spirituelle (domaine divin ou d’animisme).** Pendant qu’il [dort](/regles/aventure/repos/sommeil), il peut communiquer avec une entité associée à son domaine afin de lui poser une question, ou de placer une requête. L’entité peut l’ignorer ou intervenir si elle le désire, à la discrétion du maître de jeu. S’il profane le dogme de sa religion ou de son culte, il perd cette capacité jusqu’à ce qu’il se repente auprès de l’entité. Il doit attendre [24 heures](/regles/aventure/temps) afin de réutiliser cette capacité.",
+        "MetaDescription": "Découvrez le don Mysticisme, qui lie le personnage à un domaine divin, animiste ou astrologique et lui confère des pouvoirs spirituels uniques."
+      }
+    }
+  }
+}

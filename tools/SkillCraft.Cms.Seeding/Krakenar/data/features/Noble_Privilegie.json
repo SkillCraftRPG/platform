@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b2c44089-545e-4183-9361-27b7de627660",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Noble_Privilegie",
+    "DisplayName": "Privilégié",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Noble_Privilegie",
+      "DisplayName": "Privilégié",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est connu de la noblesse par le prestige de sa famille et les actes accomplis par les membres de sa lignée.\n\nBien que les gens aient des attentes envers lui, ils sont tout de même disposés à l’accommoder, à lui offrir gite, couvert et protection contre des faveurs équivalentes.\n\nSon prestige lui ouvre des portes fermées au commun des mortels, ce qui lui permet d’être invité ou de demander une invitation à des événements de l’aristocratie, et d’entrer en contact avec d’autres membres de la noblesse.\n\nIl connait également les modalités et manières qui lui permettent d’être respecté auprès de la noblesse."
+      }
+    }
+  }
+}

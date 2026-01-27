@@ -1,0 +1,21 @@
+﻿{
+  "Id": "51a3f358-50d7-4588-a20c-80b26f84d3ce",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Barde_ContreCharme",
+    "DisplayName": "Contre-charme",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Barde_ContreCharme",
+      "DisplayName": "Contre-charme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), le personnage dépense 5 points d’[Énergie](/regles/statistiques/energie) afin de jouer une mélodie protectrice.\n\nJusqu’au début de son prochain [tour](/regles/combat/deroulement/tour), le personnage ainsi que toute créature de son choix qui peut l’entendre et située à 9 mètres ou moins de sa position se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets de [peur](/regles/combat/conditions/apeure) et contre les [charmes](/regles/combat/conditions/charme).\n\nLa performance cesse si le personnage devient [incapable](/regles/combat/conditions/incapable), [inconscient](/regles/combat/conditions/inconscient), ou est réduit au silence.\n\nIl peut arrêter la performance à tout moment en [action libre](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "4cb51fef-d211-42b5-9a86-8b7c2f50aecc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "adresse-legendaire",
+    "DisplayName": "Adresse légendaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "adresse-legendaire",
+      "DisplayName": "Adresse légendaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "adresse-legendaire",
+        "Summary": "Sens inné de l’orientation et précision exceptionnelle.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il peut [Faire 20](/regles/competences/tests/faire-20) à un [test](/regles/competences/tests) d’[Orientation](/regles/competences/orientation) lorsqu’il n’est pas [menacé](/regles/combat), qu’il n’est pas distrait, et qu’il n’est pas contraint par le matériel.\n- Il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à un de ses tests d’Orientation.\n- Grâce à son sens spatial fabuleux, il sait toujours où il se situe par rapport à des indices visuels. Par exemple, s’il remarque la forme particulière d’un nœud dans l’écorce d’un arbre, lorsqu’il verra à nouveau le nœud, il sera capable de comparer sa position actuelle avec sa position précédente. Cela lui permet par exemple de se rendre compte instinctivement qu’il est perdu et qu’il tourne en rond. Il est également doté d’un sens précis des distances, ce qui lui permet de dessiner avec précision des cartes.",
+        "MetaDescription": "Découvrez Adresse légendaire, un don rare qui confère un sens de l’orientation infaillible et une précision hors norme dans l’exploration."
+      }
+    }
+  }
+}

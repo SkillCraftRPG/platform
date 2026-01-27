@@ -1,0 +1,28 @@
+﻿{
+  "Id": "58dc24b0-2d17-49c7-954a-d183b35523a0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "milicien",
+    "DisplayName": "Milicien",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "7d6",
+      "Skill": "[\"bd6bedde-2e50-493f-a1cc-8e23123c45c4\"]",
+      "Feature": "[\"0f446958-f483-47fc-adb6-e9420a93b9ee\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "milicien",
+      "DisplayName": "Milicien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "milicien",
+        "HtmlContent": "Le milicien est responsable de protéger les citoyens sur les terres de son seigneur.\n\nIl possède les droits mais également la responsabilité de faire appliquer les lois.\n\nIl doit également parfois jouer le rôle d’éclaireur et de soldat au sein de l’armée de sa patrie.",
+        "Summary": "Protecteur du peuple, formé au combat et à la discipline militaire.",
+        "MetaDescription": "Découvrez la caste du Milicien, défenseur des citoyens et bras armé de la loi, formé au combat rapproché et habitué à un sommeil militaire rigoureux."
+      }
+    }
+  }
+}

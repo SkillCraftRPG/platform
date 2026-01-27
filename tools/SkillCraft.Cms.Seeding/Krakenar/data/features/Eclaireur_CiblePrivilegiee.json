@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c968fa05-5d67-4ac4-ae6f-321d094d3091",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Eclaireur_CiblePrivilegiee",
+    "DisplayName": "Cible privilégiée",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Eclaireur_CiblePrivilegiee",
+      "DisplayName": "Cible privilégiée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il réussit une [attaque](/regles/combat/attaque) contre une créature, il peut diriger toute son attention sur cette créature pendant la prochaine [minute](/regles/aventure/temps). Afin de maintenir son attention, il doit [se concentrer](/regles/magie/parametres/duree) sur cette créature, comme s’il maintenait un [pouvoir](/regles/magie/pouvoirs).\n\nLorsqu’il utilise cette capacité, ainsi qu’une fois par [tour](/regles/combat/deroulement/tour) pendant les [rounds](/regles/combat/deroulement) subséquents lorsqu’il réussit une attaque contre la créature sur laquelle il dirige son attention, il peut ajouter [1d4 points de dégâts](/regles/combat/degats/jet) supplémentaires.\n\nIl peut utiliser cette capacité (diriger son attention sur une créature) un nombre de fois égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

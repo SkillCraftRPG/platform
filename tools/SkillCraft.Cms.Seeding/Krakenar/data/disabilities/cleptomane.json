@@ -1,0 +1,24 @@
+﻿{
+  "Id": "134bc37e-8bae-4f32-8c58-c85d4d208bfd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cleptomane",
+    "DisplayName": "Cleptomane",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cleptomane",
+      "DisplayName": "Cleptomane",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cleptomane",
+        "HtmlContent": "Victime d’une étrange manie, le personnage ne peut s’empêcher de mettre la main sur tout objet de moindre valeur ou qui pourrait lui plaire d’une quelconque manière, même si cela met lui ou ses alliés en danger.",
+        "Summary": "Pousse le personnage à voler compulsivement tout objet convoité.",
+        "MetaDescription": "Découvrez le handicap Cleptomane, une manie irrésistible poussant le personnage à dérober tout objet convoité, quitte à mettre son groupe en péril."
+      }
+    }
+  }
+}

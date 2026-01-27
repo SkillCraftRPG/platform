@@ -1,0 +1,24 @@
+﻿{
+  "Id": "51ac502c-6468-4b31-b18f-b1a3b37c2b82",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "pauvrete",
+    "DisplayName": "Pauvreté",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "pauvrete",
+      "DisplayName": "Pauvreté",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "pauvrete",
+        "HtmlContent": "La [richesse de départ](/regles/equipement/depart) du personnage est divisée par 1d10 + 5 (ou 10, à la discrétion du maître de jeu).",
+        "Summary": "Divise la richesse de départ pour un passé modeste ou précaire.",
+        "MetaDescription": "Découvrez le handicap Pauvreté, réduisant la richesse de départ et représentant un passé modeste ou des difficultés financières."
+      }
+    }
+  }
+}

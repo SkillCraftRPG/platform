@@ -1,0 +1,24 @@
+﻿{
+  "Id": "8e3592b5-a928-45a9-80ca-d4f84854aeb1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "borgne",
+    "DisplayName": "Borgne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "borgne",
+      "DisplayName": "Borgne",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "borgne",
+        "Summary": "Perte d’un œil nuisant à la vue, l’intuition et le charisme.",
+        "HtmlContent": "Les [tests](/regles/competences/tests) d’[Intuition](/regles/competences/intuition), de [Perception](/regles/competences/perception) et de [Survie](/regles/competences/survie) du personnage requérant la [vision](/regles/aventure/environnement/vision), ainsi que ses tests associés à son apparence physique ou sa beauté (particulièrement [Diplomatie](/regles/competences/diplomatie), [Représentation](/regles/competences/representation) et [Tromperie](/regles/competences/tromperie)), sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "MetaDescription": "Découvrez le handicap Borgne, qui réduit la perception et l’intuition du personnage, affectant aussi son apparence et ses interactions sociales."
+      }
+    }
+  }
+}

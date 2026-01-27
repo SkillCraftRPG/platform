@@ -1,0 +1,26 @@
+﻿{
+  "Id": "5921b392-2010-4347-8492-1307291a74ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Resistance",
+    "DisplayName": "Résistance",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"bbc1fb7f-2637-4056-ac52-3b6b309bb256\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Resistance",
+      "DisplayName": "Résistance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "resistance",
+        "Summary": "Renforce la vitalité et la capacité à encaisser les chocs.",
+        "HtmlContent": "La compétence **Résistance** permet au personnage de :\n\n- ne pas s’effondrer sous un important choc physique\n- rester debout après avoir subi de lourds dégâts\n- résister aux effets directs d’un impact violent",
+        "MetaDescription": "Découvrez la compétence Résistance, qui renforce la vitalité, l’endurance et la capacité à supporter les chocs physiques ou mentaux extrêmes."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c7a6b7e5-b851-4df2-bd23-2cee8492b3a7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Magelame_RituelMartial",
+    "DisplayName": "Rituel martial",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Magelame_RituelMartial",
+      "DisplayName": "Rituel martial",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut effectuer un rituel d’une durée d’[une heure](/regles/aventure/temps) en tenant une de ses [armes](/regles/equipement/armes) de mêlée. Il peut effectuer ce rituel pendant une [halte](/regles/aventure/repos/halte).\n\nLe rituel crée un lien magique entre le personnage et cette arme. Il peut créer un nombre maximal de liens égal à son [tiers](/regles/personnages/progression/tiers). S’il effectue le rituel en ayant atteint cette limite, alors il doit briser un lien avec une autre arme.\n\nLorsqu’il manie une arme avec laquelle il a créé un lien, il ne peut être [désarmé](/regles/combat/activites/desarmer) de cette arme, même par [magie](/regles/magie), sauf s’il est [incapable](/regles/combat/conditions/incapable).\n\nPar une [action](/regles/combat/deroulement/tour), le personnage peut invoquer une arme avec laquelle il est lié. Si l’arme se trouve dans la même dimension que le personnage, alors celle-ci se téléporte instantanément dans sa main libre.\n\nIl acquiert également les capacités suivantes lorsqu’il manie une de ces armes.\n\n- Lorsqu’il effectue une [Charge](/regles/talents/charge), il peut se téléporter au lieu de courir. Le nombre d’[actions](/regles/combat/deroulement/tour) utilisées et la distance à parcourir restent les mêmes, mais le personnage évite les dangers dus à ce [déplacement](/regles/aventure/mouvement), tels les pièges, les [attaques d’opportunité](/regles/combat/attaque/opportunite) et le [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n- Lorsqu’il réussit une [attaque](/regles/combat/attaque), s’il a acquis le talent [Magie puissante](/regles/talents/magie-puissante), alors le prochain [jet de sauvegarde](/regles/competences/tests/sauvegarde) de la cible contre un [pouvoir](/regles/magie/pouvoirs) canalisé par le personnage avant la fin de son prochain [tour](/regles/combat/deroulement/tour) se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Lorsqu’il effectue l’activité [Canaliser](/regles/combat/activites/canaliser), s’il a acquis le talent [Magie guerrière](/regles/talents/magie-guerriere), alors cette activité ne déclenche pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite), peu importe la [portée](/regles/magie/parametres/portee) du pouvoir.\n- Lorsqu’il effectue l’activité [Canaliser](/regles/combat/activites/canaliser) par [deux actions](/regles/combat/deroulement/tour), s’il a acquis le talent [Attaque magique](/regles/talents/attaque-magique), alors il peut effectuer une [Attaque magique](/regles/talents/attaque-magique) en [action libre](/regles/combat/deroulement/tour) immédiatement après la canalisation."
+      }
+    }
+  }
+}

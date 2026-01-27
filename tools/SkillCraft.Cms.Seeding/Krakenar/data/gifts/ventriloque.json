@@ -1,0 +1,24 @@
+﻿{
+  "Id": "9eaaa699-40d5-4004-925c-b9b184a4bea7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ventriloque",
+    "DisplayName": "Ventriloque",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ventriloque",
+      "DisplayName": "Ventriloque",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ventriloque",
+        "HtmlContent": "Le personnage peut imiter avec exactitude la voix ou les sons d’une créature qu’il a préalablement écoutée et étudiée pendant au moins [une minute]().\n\nS’il dévie des paroles de la créature ou qu’il altère de quelconque manière les sons produits, les créatures l’écoutant peuvent détecter la supercherie par un [test](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) [opposé](/regles/competences/tests/oppose) à un test de [Tromperie](/regles/competences/tromperie) de sa part.\n\nÉgalement, lorsque le personnage parle, il peut donner l’impression que les paroles qu’il prononce ou les sons qu’il émet proviennent d’une source quelconque située à 9 mètres ou moins de sa position.\n\nLes créatures qui l’écoutent peuvent détecter la supercherie par un test d’Intuition opposé à un test de Tromperie de sa part.\n\nIl peut également utiliser cette capacité lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs).",
+        "Summary": "Imite des voix et fait croire que les sons viennent d’ailleurs.",
+        "MetaDescription": "Découvrez le don Ventriloque, qui permet d’imiter des voix ou sons et de projeter la parole à distance."
+      }
+    }
+  }
+}

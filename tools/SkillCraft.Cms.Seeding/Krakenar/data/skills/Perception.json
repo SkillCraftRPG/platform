@@ -1,0 +1,26 @@
+﻿{
+  "Id": "626b3491-ce0f-41ba-82bf-27c1d6432caf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Perception",
+    "DisplayName": "Perception",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"11fd3351-7937-4697-8e02-1bc5b2a61a91\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Perception",
+      "DisplayName": "Perception",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "perception",
+        "Summary": "Aiguise les sens et révèle les détails cachés.",
+        "HtmlContent": "La compétence **Perception** permet au personnage de :\n\n- capter des sons faibles comme une conversation chuchotée ou lointaine\n- [déceler](/regles/combat/activites/chercher) un piège ou un passage secret\n- repérer une créature [dissimulée](/regles/combat/activites/cacher), furtive ou discrète",
+        "MetaDescription": "Découvrez la compétence Perception, essentielle pour repérer les sons, pièges ou créatures dissimulées grâce à des sens aiguisés."
+      }
+    }
+  }
+}

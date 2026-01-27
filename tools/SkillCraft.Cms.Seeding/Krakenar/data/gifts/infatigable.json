@@ -1,0 +1,24 @@
+﻿{
+  "Id": "db9135fc-4deb-43ba-9729-1d86960115af",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "infatigable",
+    "DisplayName": "Infatigable",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "infatigable",
+      "DisplayName": "Infatigable",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "infatigable",
+        "HtmlContent": "Lorsque le personnage reçoit des [points de dégâts non létaux](/regles/combat/degats/letalite), il retire de ceux-ci sa [Santé](/regles/attributs/sante) (minimum 1).\n\nÉgalement, une fois par [tour](/regles/combat/deroulement/tour), il peut réduire une dépense de points d’[Énergie](/regles/statistiques/energie) d’un nombre égal à sa Santé (minimum 1).\n\nIl ne peut réduire des [points de dégâts](/regles/combat/degats) ou une dépense de points d’Énergie en-deçà de 0.",
+        "Summary": "Réduit les dégâts non létaux et la dépense d’énergie par la Santé.",
+        "MetaDescription": "Découvrez le don Infatigable, qui permet de réduire les dégâts non létaux et la dépense d’énergie grâce à une endurance physique exceptionnelle."
+      }
+    }
+  }
+}

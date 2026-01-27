@@ -1,0 +1,21 @@
+﻿{
+  "Id": "3b3e6ecc-0174-4c48-9f74-bc2d9cf30061",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Duelliste_Audace",
+    "DisplayName": "Audace",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Duelliste_Audace",
+      "DisplayName": "Audace",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Si l’[Intellect](/regles/attributs/intellect) du personnage est supérieur à ses [Sens](/regles/attributs/sens), alors il ajoute à son [Initiative](/regles/statistiques/initiative) un bonus égal à la différence.\n\nÉgalement, il peut effectuer une [Attaque sournoise](/regles/talents/attaque-sournoise) lorsqu’il se trouve à 1,5 mètres ou moins de sa cible, qu’aucune autre créature n’étant pas [incapable](/regles/combat/conditions/incapable) se trouve à 1,5 mètres ou moins de sa position, et que son [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) n’est pas affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

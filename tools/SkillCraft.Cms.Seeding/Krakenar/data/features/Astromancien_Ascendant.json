@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9a5b7bff-374e-40cc-80ac-0e8c1e39691a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancien_Ascendant",
+    "DisplayName": "Ascendant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancien_Ascendant",
+      "DisplayName": "Ascendant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le nombre maximal de [signes astrologiques](#) qu’il peut apprendre augmente de 21 à 35, suivant la formule 2 + [Intellect](/regles/attributs/intellect) + (2 × [rang](/regles/competences/rang) d’[Occultisme](/regles/competences/occultisme)).\n\nÉgalement, le temps et les matériaux nécessaires à la [transcription](/regles/talents/astrologie) d’un signe astrologique dans son grimoire sont réduits de moitié."
+      }
+    }
+  }
+}

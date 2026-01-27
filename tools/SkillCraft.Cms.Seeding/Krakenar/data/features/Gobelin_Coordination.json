@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5406f27a-cf09-4463-b254-d4e8056cff8f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelin_Coordination",
+    "DisplayName": "Coordination",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelin_Coordination",
+      "DisplayName": "Coordination",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) un des [talents](/regles/talents) parmi la liste suivante : [Artisanat](/regles/competences/artisanat), [Orientation](/regles/competences/orientation) ou [Roublardise](/regles/competences/roublardise)."
+      }
+    }
+  }
+}

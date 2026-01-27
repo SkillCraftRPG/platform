@@ -1,0 +1,26 @@
+﻿{
+  "Id": "ba600891-151b-44f0-a2ed-b3e3ccb10cd7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Knowledge",
+    "DisplayName": "Connaissance",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"781cd30c-4341-4083-9d9e-a42c4104f7a6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Knowledge",
+      "DisplayName": "Connaissance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "connaissance",
+        "Summary": "Utilise savoirs généraux et spécialisés pour comprendre le monde.",
+        "HtmlContent": "La compétence **Connaissance** permet au personnage de faire appel à ses savoirs généraux ou spécialisés pour répondre à une question précise, qu’elle concerne un sujet commun ou un domaine particulier.",
+        "MetaDescription": "Découvrez la compétence Connaissance, qui permet d’utiliser savoirs généraux ou spécialisés pour analyser, comprendre et reconnaître le monde qui vous entoure."
+      }
+    }
+  }
+}

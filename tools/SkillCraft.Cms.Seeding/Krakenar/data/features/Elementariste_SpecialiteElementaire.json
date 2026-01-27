@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0e7176d0-367d-459e-be87-2ca170ac95eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementariste_SpecialiteElementaire",
+    "DisplayName": "Spécialité élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementariste_SpecialiteElementaire",
+      "DisplayName": "Spécialité élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se spécialise dans un des éléments pour lesquels il a acquis le talent [Élémentarisme](/regles/talents/elementarisme).\n\n- Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à cet [élément](/regles/talents/elementarisme) et acquiert gratuitement un de ces pouvoirs.\n- S’il a acquis le talent [Combinaison élémentaire](/regles/talents/combinaison-elementaire), il peut également acquérir les pouvoirs de tiers 1 issus d’une combinaison de deux éléments pour lesquels il a acquis le talent [Élémentarisme](/regles/talents/elementarisme). L’élément de sa spécialité doit figurer dans la combinaison élémentaire.\n\nIl peut acquérir [à rabais](/regles/talents/points) deux [talents](/regles/talents) en fonction en fonction de cet élément. S’il a [acquis](/regles/talents/acquisition) un de ces deux talents, alors le rabais est transféré à l’autre talent. S’il a acquis ces deux talents, alors les deux rabais s’appliquent à l’acquisition de son prochain [pouvoir élémentaire]().\n\n- Air : [Tromperie](/regles/talents/tromperie) et [Tissu de mensonges](/regles/talents/tissu-de-mensonges)\n- Eau : [Intuition](/regles/talents/intuition) et [Suspicion](/regles/talents/suspicion)\n- Feu : [Mêlée](/regles/talents/melee) et [Formation martiale](/regles/talents/formation-martiale)\n- Terre : [Résistance](/regles/talents/resistance) et [Robustesse accrue](/regles/talents/robustesse-accrue)\n- Esprit : [Discipline](/regles/talents/discipline) et [Endurance accrue](/regles/talents/endurance-accrue)"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f797177f-a741-4733-8a46-4414996efbe3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chasseur_FoulerLaTerre",
+    "DisplayName": "Fouler la terre",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chasseur_FoulerLaTerre",
+      "DisplayName": "Fouler la terre",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage n’est pas ralenti par le [terrain difficile](/regles/aventure/mouvement/terrain-difficile) naturel, ni par la végétation naturelle.\n\nIl se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets entravant ses [mouvements](/regles/aventure/mouvement) provenant de la végétation surnaturelle ou d’une créature végétale.\n\nEnfin, lorsqu’il [voyage](/regles/aventure/mouvement/voyage) à cadence prudente ou normale, il ne laisse aucune trace, sauf s’il le fait intentionnellement."
+      }
+    }
+  }
+}

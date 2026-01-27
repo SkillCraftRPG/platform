@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a304cfeb-1041-4328-94e5-26cc4f15b4b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Menestrel_BerceuseApaisante",
+    "DisplayName": "Berceuse apaisante",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Menestrel_BerceuseApaisante",
+      "DisplayName": "Berceuse apaisante",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut jouer une douce berceuse aux propriétés régénératrices pendant une [halte](/regles/aventure/repos/halte). Il doit jouer de manière continue, et la halte ne doit pas être interrompue.\n\nIl dépense 15 points d’[Énergie](/regles/statistiques/energie) et sélectionne un nombre de créatures inférieur ou égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1). Il doit voir ces créatures, celles-ci doivent l’entendre, et elles doivent être situées à 4,5 mètres ou moins de sa position. Il peut se désigner lui-même comme cible.\n\nÀ la fin de la halte, chaque cible récupère 1d10 [points de Vitalité](/regles/statistiques/vitalite). Une créature doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de pouvoir bénéficier à nouveau de cette capacité.\n\nLorsqu’il atteint le [tiers 2](/regles/personnages/progression/tiers), le personnage peut dépenser 30 points d’Énergie afin d’augmenter à 2d10 les points de Vitalité récupérés. Lorsqu’il atteint le tiers 3, il peut dépenser 45 points d’Énergie afin d’augmenter à 3d10 les points de Vitalité récupérés."
+      }
+    }
+  }
+}

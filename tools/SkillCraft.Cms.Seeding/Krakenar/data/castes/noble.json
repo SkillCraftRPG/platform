@@ -1,0 +1,28 @@
+﻿{
+  "Id": "448f6802-01e5-4684-bfaa-9195430ab1b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "noble",
+    "DisplayName": "Noble",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "9d6",
+      "Skill": "[\"2a49d787-e957-4fe0-afe7-3de5b6ebb214\"]",
+      "Feature": "[\"b2c44089-545e-4183-9361-27b7de627660\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "noble",
+      "DisplayName": "Noble",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "noble",
+        "HtmlContent": "Riche propriétaire terrien ou lié par son sang à un seigneur, le noble est responsable de l’administration et de la gouvernance de terres.\n\nIl codifie les lois et tranche en cas de différents.\n\nL’ensemble de ses tâches est lourd de responsabilités et pousse parfois les héritiers nobles à quitter leur famille avant d’hériter de ces fonctions.",
+        "Summary": "Dirige, arbitre et rayonne grâce au prestige de la noblesse.",
+        "MetaDescription": "Découvrez la caste des Nobles, gardiens des lois et du prestige familial, maîtres de la diplomatie et du pouvoir au sein de l’aristocratie."
+      }
+    }
+  }
+}

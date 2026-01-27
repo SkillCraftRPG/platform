@@ -1,0 +1,21 @@
+﻿{
+  "Id": "db565775-3e5f-440e-bf22-6c976a8a3fda",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreElementaire_BrulureElementaire",
+    "DisplayName": "Brûlure élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreElementaire_BrulureElementaire",
+      "DisplayName": "Brûlure élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) associé à sa [spécialité élémentaire](/regles/specialisations/elementariste), il peut dépenser des points d’[essence élémentaire](#) en [action libre](/regles/combat/deroulement/tour). Pour chaque point d’essence élémentaire dépensé :\n\n- La [dépense d’Énergie](/regles/magie/pouvoirs/energie) est réduite de 10 points.\n- Le [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) se voit conférer un [avantage](/regles/competences/tests/avantage-desavantage).\n- Si le pouvoir inflige des [points de dégâts](/regles/combat/degats), alors il inflige [1d4 points de dégâts](/regles/combat/degats/jet) supplémentaires."
+      }
+    }
+  }
+}

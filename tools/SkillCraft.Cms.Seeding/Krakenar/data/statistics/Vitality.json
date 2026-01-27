@@ -1,0 +1,26 @@
+﻿{
+  "Id": "57fdface-9191-47a6-a0a3-e9dac3868c1c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vitality",
+    "DisplayName": "Vitalité",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"bbc1fb7f-2637-4056-ac52-3b6b309bb256\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vitality",
+      "DisplayName": "Vitalité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vitalite",
+        "Summary": "Mesure la force vitale et la résistance d’une créature.",
+        "HtmlContent": "La **Vitalité** est une abstraction de la force vitale, de la forme physique et de la constitution d’un personnage.\n\nToute créature est dotée d’une valeur courante et d’une valeur maximale.\n\nLorsqu’une créature est [blessée](/regles/combat/degats/letalite), sa valeur courante diminue. Lorsqu’elle est [soignée](/regles/combat/degats/soins) ou qu’elle se [repose](/regles/aventure/repos), elle récupère des points et sa valeur courante augmente.\n\nLorsque sa valeur courante chute à 0, elle tombe [agonisante](/regles/combat/conditions/agonisant) et risque la [mort](/regles/combat/mort-agonie).\n\nL’équation suivante calcule la Vitalité d’une créature :\n\n<code>Vitalité = (25 + Niveau)(5 + Santé) ÷ 5</code>",
+        "MetaDescription": "Découvrez la Vitalité, mesure de la force vitale et de la constitution d’une créature, représentant sa capacité à encaisser les blessures et à survivre."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "777338fa-00c9-4ea2-9913-b19fefa8ddd7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "rebelle",
+    "DisplayName": "Rebelle",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "6",
+      "Skill": "[\"7b327339-488b-447d-a9b3-fbaa6d65d864\"]",
+      "Feature": "[\"e111632f-19a1-4f98-a492-e22e27ba1c95\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "rebelle",
+      "DisplayName": "Rebelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "rebelle",
+        "Summary": "Esprit frondeur, expert en mensonge et en diversion subtile.",
+        "HtmlContent": "Malgré les efforts de ses parents à tenter d’élever un enfant calme et discipliné, le personnage désirait voler de ses propres ailes et faire ses expériences.\n\nIl a pu se soustraire à la surveillance de ses parents en camouflant ses méfaits par le mensonge, dupant ses parents ou les adultes qui l’ont pris la main dans le sac.",
+        "MetaDescription": "Découvrez l’éducation Rebelle, centrée sur la ruse, l’esquive et l’art de brouiller les pistes pour échapper aux ennuis."
+      }
+    }
+  }
+}

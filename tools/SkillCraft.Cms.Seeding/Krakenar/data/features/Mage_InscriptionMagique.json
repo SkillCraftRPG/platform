@@ -1,0 +1,21 @@
+﻿{
+  "Id": "546bc9ff-4b57-4b4d-b6e5-03055babcf74",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mage_InscriptionMagique",
+    "DisplayName": "Inscription magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mage_InscriptionMagique",
+      "DisplayName": "Inscription magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par jour, le personnage peut créer un parchemin de pouvoir. Pour se faire, il doit posséder le [matériel](/regles/equipement/general) suivant : de l’encre, une plume à écrire, ainsi qu’une feuille de papier ou un parchemin.\n\nIl inscrit sur le parchemin un [pouvoir](/regles/magie/pouvoirs) de tiers 1 ou moindre qu’il a acquis, dont l’[incantation](/regles/magie/parametres/incantation) est de [2 actions](/regles/combat/deroulement/tour), et qui ne spécifie aucune composante [Matériel](/regles/magie/parametres/composantes) indiquant un prix.\n\nCette inscription nécessite un nombre de [minutes](/regles/aventure/temps) égal à 1 + [niveau](/regles/magie/pouvoirs/niveau) du pouvoir. Il doit posséder son [grimoire](/regles/talents/astrologie) en tout temps pendant le processus.\n\nSeul le personnage peut lire et utiliser le parchemin de pouvoir. Le parchemin est réduit en cendres lorsqu’il est utilisé, si le personnage crée un nouveau parchemin, ou 24 heures après sa création.\n\nLe personnage doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de créer un nouveau parchemin par cette capacité."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7064aa48-1d22-45cb-b505-b2a496397bac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Gitan_Subtil",
+    "DisplayName": "Subtil",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Gitan_Subtil",
+      "DisplayName": "Subtil",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) un des [talents](/regles/talents) parmi la liste suivante : [Furtivité](/regles/talents/furtivite) ou [Roublardise](/regles/talents/roublardise).\n\nÉgalement, il peut tenter de [se cacher](/regles/combat/activites/cacher) d’une créature qui le voit lorsqu’il est [légèrement obscurci](/regles/aventure/environnement/vision) par la présence d’une autre créature de [taille](/regles/especes/taille) supérieure à la sienne."
+      }
+    }
+  }
+}

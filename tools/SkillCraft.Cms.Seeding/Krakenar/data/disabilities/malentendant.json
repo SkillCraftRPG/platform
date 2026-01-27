@@ -1,0 +1,24 @@
+﻿{
+  "Id": "58b7a409-a2c6-44f5-9b41-b8ac7c22b926",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "malentendant",
+    "DisplayName": "Malentendant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "malentendant",
+      "DisplayName": "Malentendant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est né pourvu d’une audition peu efficace.\n\nSes [tests](/regles/competences/tests) d’[Intuition](/regles/competences/intuition), de [Perception](/regles/competences/perception) et de [Survie](/regles/competences/survie) liés à l’ouïe sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Slug": "malentendant",
+        "Summary": "Audition réduite, désavantage aux tests liés à l’écoute.",
+        "MetaDescription": "Découvrez le handicap Malentendant, qui réduit l’efficacité auditive du personnage et lui impose un désavantage aux tests liés à l’ouïe."
+      }
+    }
+  }
+}

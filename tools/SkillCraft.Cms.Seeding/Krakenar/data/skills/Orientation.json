@@ -1,0 +1,26 @@
+﻿{
+  "Id": "7dea15b0-82f6-455a-ab74-ae6b10e7e2b7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Orientation",
+    "DisplayName": "Orientation",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Orientation",
+      "DisplayName": "Orientation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orientation",
+        "Summary": "Gère la précision du tir, la conduite et la visée à distance.",
+        "HtmlContent": "La compétence **Orientation** permet au personnage de :\n\n- conduire une [monture ou un véhicule](/regles/equipement/montures-vehicules)\n- effectuer une [attaque](/regles/combat/attaque) avec une [arme](/regles/equipement/armes) à [distance](/regles/combat/attaque/distance)\n- exécuter une manœuvre en réponse à un danger\n- lancer un objet vers une cible approximative ou précise\n- suivre une carte ou un plan",
+        "MetaDescription": "Découvrez la compétence Orientation, qui régit le tir à distance, la conduite et la maîtrise des trajectoires en combat ou en déplacement."
+      }
+    }
+  }
+}

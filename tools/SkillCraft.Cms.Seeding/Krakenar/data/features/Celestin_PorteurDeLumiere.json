@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d946ab18-52bc-4b99-a094-e2effff9182d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Celestin_PorteurDeLumiere",
+    "DisplayName": "Porteur de lumière",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Celestin_PorteurDeLumiere",
+      "DisplayName": "Porteur de lumière",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage [acquiert gratuitement](/regles/magie/pouvoirs/acquisition) le pouvoir [Lumière](/regles/magie/pouvoirs/lumiere).\n\nIl peut canaliser son [niveau 2](/regles/magie/pouvoirs/niveau) dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et son niveau 3 dès qu’il atteint le tiers 2, et ce même s’il n’a pas [acquis](/regles/talents/acquisition) le talent [Magie puissante](/regles/talents/magie-puissante).\n\nÉgalement, il peut toucher une créature consentante par une [action](/regles/combat/deroulement/tour) afin de la [guérir](/regles/combat/degats/soins) d’un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à 1 + tiers d4 additionnés à sa [Puissance](/regles/statistiques/puissance).\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

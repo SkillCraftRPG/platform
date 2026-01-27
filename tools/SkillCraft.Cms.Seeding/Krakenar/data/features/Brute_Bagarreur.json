@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c1b110bc-16ab-4d43-b9ea-d8f8bb82a532",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brute_Bagarreur",
+    "DisplayName": "Bagarreur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brute_Bagarreur",
+      "DisplayName": "Bagarreur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un test d’[Initiative](/regles/combat/deroulement/initiative), il peut jeter 2d10 et conserver le dé de son choix."
+      }
+    }
+  }
+}

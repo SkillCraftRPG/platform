@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1f9d60f2-b727-4bbe-9eeb-7519ec860670",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sorcier_ManipulationDuChaos",
+    "DisplayName": "Manipulation du chaos",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sorcier_ManipulationDuChaos",
+      "DisplayName": "Manipulation du chaos",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un [test](/regles/competences/tests) de [compétence](/regles/competences), avant d’en connaître le résultat, il peut dépenser un ou deux [points d’essence élémentaire](#) associés à l’Esprit en [action libre](/regles/combat/deroulement/tour) afin de jeter à nouveau [un ou deux dés](/regles/competences/tests/2d10). Cette capacité ne s’applique pas aux [attaques](/regles/combat/attaque), ni aux [jets de sauvegarde](/regles/competences/tests/sauvegarde). Il doit utiliser le nouveau résultat. S’il dépense trois points d’essence élémentaire, alors il peut conserver le résultat de son choix. \n\nÉgalement, lorsqu’il [voit](/regles/aventure/environnement/vision) une autre créature effectuer un test, incluant les attaques et les jets de sauvegarde, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) et dépenser deux points d’essence élémentaire afin de lui conférer un bonus ou de lui affliger une pénalité (1d10), au choix. Il doit utiliser cette capacité avant que le résultat du test ne prenne effet."
+      }
+    }
+  }
+}

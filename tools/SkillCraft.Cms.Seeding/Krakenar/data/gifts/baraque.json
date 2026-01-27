@@ -1,0 +1,24 @@
+﻿{
+  "Id": "1da0e99b-7a77-4165-8541-1d72e5604272",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "baraque",
+    "DisplayName": "Baraqué",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "baraque",
+      "DisplayName": "Baraqué",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "baraque",
+        "Summary": "Double portée, avantage et dégâts contre objets et structures.",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Lorsqu’il [bouscule](/regles/combat/activites/bousculer) ou repousse une créature par une capacité non magique, la distance est doublée.\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) lorsqu’il tente de briser ou d’[attaquer](/regles/combat/attaque) un [objet](/regles/aventure/interaction-objets), une structure, un bâtiment ou une construction non magique.\n- Il double les [points de dégâts](/regles/combat/degats) qu’il inflige aux objets, aux structures, aux bâtiments ainsi qu’aux constructions non magiques.",
+        "MetaDescription": "Découvrez le don Baraqué, qui double la portée des bousculades, accorde l’avantage pour briser des objets et double les dégâts infligés aux structures."
+      }
+    }
+  }
+}

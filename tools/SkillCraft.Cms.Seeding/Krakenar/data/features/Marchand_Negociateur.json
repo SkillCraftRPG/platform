@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5a009ec8-7f50-4179-aaa3-e881134b0af1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Marchand_Negociateur",
+    "DisplayName": "Négociateur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Marchand_Negociateur",
+      "DisplayName": "Négociateur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Qu’il soit un vendeur ambulant ou propriétaire d’une boutique stationnaire, le personnage fait un grand nombre de rencontres.\n\nCes rencontres lui permettent d’établir un réseau de contact étendu et lui apportent des connaissances générales variées.\n\nIl peut utiliser ces connexions pour établir facilement un lien avec une personne d’intérêt, se procurer un objet rare, et négocier le prix de ses achats.\n\nIl connait également la base du fonctionnement des systèmes économiques auxquels il a participé."
+      }
+    }
+  }
+}

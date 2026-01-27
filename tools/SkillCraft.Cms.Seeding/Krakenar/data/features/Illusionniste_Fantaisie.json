@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2c60cb3e-4af5-4b47-b496-e18f19a0778c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Illusionniste_Fantaisie",
+    "DisplayName": "Fantaisie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Illusionniste_Fantaisie",
+      "DisplayName": "Fantaisie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par [deux actions](/regles/combat/deroulement/tour) et en dépensant 15 points d’[Énergie](/regles/statistiques/energie), il peut faire apparaître un objet non magique dans un espace inoccupé de son choix sur une surface ou un liquide pouvant le supporter et situé à 10 mètres ou moins de sa position.\n\nLa valeur de l’objet ne peut dépasser un nombre de [deniers](/regles/equipement/monnaie) égal au [niveau](/regles/personnages/progression/niveau) du personnage multiplié par 4, et sa taille doit être au plus [Grande](/regles/especes/taille).\n\nL’objet scintille doucement, et une créature qui le touche entend une faible mélodie.\n\nL’objet disparaît après un nombre d’[heures](/regles/aventure/temps) égal à l’[Intellect](/regles/attributs/intellect) du personnage (minimum 1).\n\nUn seul de ces objets peut exister à la fois. Si le personnage crée un nouvel objet, le précédent disparaît immédiatement."
+      }
+    }
+  }
+}

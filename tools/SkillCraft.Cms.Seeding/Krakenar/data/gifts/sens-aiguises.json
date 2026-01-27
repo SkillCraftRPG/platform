@@ -1,0 +1,24 @@
+﻿{
+  "Id": "48e9e0f9-210f-4e3f-ad55-622bf57cbc45",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sens-aiguises",
+    "DisplayName": "Sens aiguisés",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sens-aiguises",
+      "DisplayName": "Sens aiguisés",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sens-aiguises",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Ses [tests](/regles/competences/tests) de [Perception](/regles/competences/perception) effectués dans une zone [légèrement obscurcie](/regles/aventure/environnement/vision) ne sont pas affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il acquiert une [vision aveugle](/regles/aventure/environnement/vision) de 1,5 mètres.\n- Par une [action](/regles/combat/deroulement/tour), il peut effleurer une surface afin d’en ressentir les vibrations. Jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour), il peut discerner la position de toute créature située à 4,5 mètres ou moins de la surface qu’il a effleurée. Il n’a pas besoin de voir ou d’entendre ces créatures.\n- Bonus permanent (+5) à ses [tests passifs](/regles/competences/tests/passif) de Perception.",
+        "Summary": "Accorde vision aveugle et bonus de perception en obscurité.",
+        "MetaDescription": "Découvrez le don Sens aiguisés, qui améliore la perception en obscurité, accorde une vision aveugle limitée et permet de sentir les vibrations environnantes."
+      }
+    }
+  }
+}

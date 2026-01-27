@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d65b6abd-a99d-4722-85c9-6c45e86b7764",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Roublard_CoupDeChance",
+    "DisplayName": "Coup de chance",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Roublard_CoupDeChance",
+      "DisplayName": "Coup de chance",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un [test](/regles/competences/tests) de [compétence](/regles/competences), il peut [Faire 10](/regles/competences/tests/faire-10) même s’il est menacé ou distrait.\n\nLe test ne doit pas être un test d’[attaque](/regles/combat/attaque), ni un [jet de sauvegarde](/regles/competences/tests/sauvegarde), et le personnage doit être [formé](/regles/competences/formation) pour cette compétence.\n\nIl peut utiliser cette capacité un nombre de fois égal à son [tiers](/regles/personnages/progression/tiers) de personnage et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n\nIl peut [Faire 20](/regles/competences/tests/faire-20) au coût de deux utilisations, malgré les contraintes de temps et matérielles.\n\nIl peut utiliser ces capacités avant d’effectuer le test, après avoir jeté les [dés](/regles/competences/tests/2d10), ou après avoir été informé du résultat."
+      }
+    }
+  }
+}

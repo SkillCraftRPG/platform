@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a9dd032e-6be9-4764-8f01-a3d066514f0c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Exile_Rancunier",
+    "DisplayName": "Rancunier",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Exile_Rancunier",
+      "DisplayName": "Rancunier",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage a renoncé à sa fidélité envers son seigneur ou sa patrie, ou il a été banni de sa patrie et chassé par son seigneur.\n\nVictime de nombreuses privations, il n’est pas pénalisé par la [faim](/regles/aventure/environnement/alimentation), ni par la [soif](/regles/aventure/environnement/alimentation).\n\nIl sait également faire plus avec moins. Lorsqu’il trouve de l’eau ou de la nourriture en milieu sauvage, il peut nourrir un nombre de personnes inférieur ou égal à ses [Sens](/regles/attributs/sens) (minimum 1)."
+      }
+    }
+  }
+}

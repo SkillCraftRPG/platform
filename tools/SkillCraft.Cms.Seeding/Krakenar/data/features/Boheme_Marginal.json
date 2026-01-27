@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9b91a934-e79c-44f1-9160-1272f59f1f9f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Boheme_Marginal",
+    "DisplayName": "Marginal",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Boheme_Marginal",
+      "DisplayName": "Marginal",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Grâce à son passé de vagabond, de hors-la-loi, ou une combinaison de ces éléments, le personnage connait les rouages du système et sait comment jouer avec les lois en place.\n\nIl sait comment éviter de payer des taxes, naviguer les marchés noirs et autres emplacements clandestins, et comment subvenir à ses besoins par des moyens hors de portée du grand public.\n\nCes savoirs peuvent lui permettre d’acquérir des objets interdits et de rencontrer des personnalités criminelles."
+      }
+    }
+  }
+}

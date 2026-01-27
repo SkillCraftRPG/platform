@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f4f397df-2f75-4c76-812e-9e9706fd983d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Cambrioleur_Mouchard",
+    "DisplayName": "Mouchard",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Cambrioleur_Mouchard",
+      "DisplayName": "Mouchard",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pendant son [tour](/regles/combat/deroulement/tour), s’il ne [se déplace](/regles/combat/activites/deplacement) pas ou qu’il n’effectue que des [déplacements furtifs](/regles/aventure/mouvement/furtif), alors il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite), d’[Investigation](/regles/competences/investigation) et de [Perception](/regles/competences/perception) lorsqu’il entreprend les activités [Chercher](/regles/combat/activites/chercher) et [Se cacher](/regles/combat/activites/cacher)."
+      }
+    }
+  }
+}

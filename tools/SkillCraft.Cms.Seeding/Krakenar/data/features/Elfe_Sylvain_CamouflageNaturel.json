@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5e9ba2d8-56c8-46dd-8d63-dcc4af1e47e2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Sylvain_CamouflageNaturel",
+    "DisplayName": "Camouflage naturel",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Sylvain_CamouflageNaturel",
+      "DisplayName": "Camouflage naturel",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut tenter de [se cacher](/regles/combat/activites/cacher) d’une créature qui le voit lorsqu’il est [légèrement obscurci](/regles/aventure/environnement/vision) par un phénomène naturel tel du feuillage, de la pluie battante, une tempête de neige ou du brouillard."
+      }
+    }
+  }
+}

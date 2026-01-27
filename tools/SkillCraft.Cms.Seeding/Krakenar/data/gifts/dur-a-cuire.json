@@ -1,0 +1,24 @@
+﻿{
+  "Id": "70b98a30-b427-4e49-99b4-8a90545b90ba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "dur-a-cuire",
+    "DisplayName": "Dur à cuire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "dur-a-cuire",
+      "DisplayName": "Dur à cuire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "dur-a-cuire",
+        "HtmlContent": "Lorsque le personnage reçoit des [points de dégâts létaux](/regles/combat/degats/letalite), il retire à ceux-ci sa [Santé](/regles/attributs/sante) (minimum 1).",
+        "Summary": "Réduit les dégâts létaux subis selon la Santé du personnage.",
+        "MetaDescription": "Découvrez le don Dur à cuire, qui réduit les dégâts létaux subis d’un montant égal à la Santé du personnage, reflétant sa résistance exceptionnelle."
+      }
+    }
+  }
+}

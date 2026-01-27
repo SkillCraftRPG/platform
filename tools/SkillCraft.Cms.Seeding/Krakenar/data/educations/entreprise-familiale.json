@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e15340ac-fb01-423a-9c01-b3aac489d2bb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entreprise-familiale",
+    "DisplayName": "Entreprise familiale",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "10",
+      "Skill": "[\"93dbef75-5f50-4462-bd9b-43303b781443\"]",
+      "Feature": "[\"6807b84e-d664-47b3-9ffe-aea785ec8aac\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entreprise-familiale",
+      "DisplayName": "Entreprise familiale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entreprise-familiale",
+        "Summary": "Élevé dans le travail familial, doté d’intuition et d’un réseau soudé.",
+        "HtmlContent": "Depuis sa tendre enfance, le personnage participe à l’activité principale de sa famille.\n\nPeu instruit, il a cependant développé une bonne intuition lui permettant de mener à bien ses tâches.\n\nPar la division du travail et la coopération avec sa fratrie, il a appris à collaborer et à partager.",
+        "MetaDescription": "Découvrez l’éducation Entreprise familiale, où intuition, entraide et héritage forgent un personnage issu d’un milieu soudé et travailleur."
+      }
+    }
+  }
+}

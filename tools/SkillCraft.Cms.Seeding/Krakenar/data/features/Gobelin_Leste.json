@@ -1,0 +1,21 @@
+﻿{
+  "Id": "246a1d4e-a6da-4c72-a8a4-80fb18f6a04e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelin_Leste",
+    "DisplayName": "Leste",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelin_Leste",
+      "DisplayName": "Leste",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut traverser une [case occupée](/regles/aventure/mouvement/espace-occupe) par une créature hostile si la différence entre leur [taille](/regles/especes/taille) est d’au moins une catégorie.\n\nÉgalement, lorsqu’il traverse une case occupée par une créature hostile, cette case n’est pas considérée comme du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nIl peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Furtivité](/regles/talents/furtivite), et sa première acquisition du talent [Accélération](/regles/talents/acceleration) ne lui coûte que 2 points de talent."
+      }
+    }
+  }
+}

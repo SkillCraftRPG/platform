@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6da9a1c2-c977-4e1e-be48-967189df17ec",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Assassin_Meurtrier",
+    "DisplayName": "Meurtrier",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Assassin_Meurtrier",
+      "DisplayName": "Meurtrier",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [attaque sournoise](/regles/talents/attaque-sournoise), il ajoute [2d6 points de dégâts](/regles/combat/degats/jet) supplémentaires, et les [points de dégâts](/regles/combat/degats) infligés par l’[hémorragie](/regles/talents/attaque-sanglante) augmentent à 3d6."
+      }
+    }
+  }
+}

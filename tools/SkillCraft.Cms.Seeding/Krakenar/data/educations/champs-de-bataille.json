@@ -1,0 +1,28 @@
+﻿{
+  "Id": "626e31f3-5a6e-410a-8188-409735c3a58f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "champs-de-bataille",
+    "DisplayName": "Champs de bataille",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "4",
+      "Skill": "[\"5921b392-2010-4347-8492-1307291a74ef\"]",
+      "Feature": "[\"ebb1c9e1-425c-4c56-b374-a2f6f2e1a2fc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "champs-de-bataille",
+      "DisplayName": "Champs de bataille",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "champs-de-bataille",
+        "Summary": "Éducation forgée par la guerre, résistance et volonté inébranlables.",
+        "HtmlContent": "Le personnage est un enfant de la guerre, un fugitif d’un conflit ayant affecté les civils.\n\nSon enfance est maigre enmoments heureux et aisés, ce a fait de lui une personne endurcie dotée d’une personnalité pragmatique.",
+        "MetaDescription": "Découvrez une éducation marquée par la guerre. Endurci par la survie, le personnage développe une résistance exceptionnelle et une détermination sans faille."
+      }
+    }
+  }
+}

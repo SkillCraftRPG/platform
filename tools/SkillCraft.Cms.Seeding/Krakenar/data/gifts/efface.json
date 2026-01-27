@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a59d286c-9502-4610-b49b-84406e055a47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "efface",
+    "DisplayName": "Effacé",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "efface",
+      "DisplayName": "Effacé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "efface",
+        "HtmlContent": "Le personnage est considéré [légèrement obscurci](/regles/aventure/environnement/vision) lorsqu’il est [renversé](/regles/combat/conditions/renverse).\n\nÉgalement, lorsqu’il bénéficie du [demi-abri](/regles/combat/attaque/abri), alors il traite l’abri comme un [abri aux trois-quarts](/regles/combat/attaque/abri).",
+        "Summary": "Accorde de meilleurs bonus d’abri et de discrétion en combat.",
+        "MetaDescription": "Découvrez le don Effacé, qui améliore la furtivité et la défense en offrant un abri supérieur lorsqu’il est renversé ou à couvert partiel."
+      }
+    }
+  }
+}

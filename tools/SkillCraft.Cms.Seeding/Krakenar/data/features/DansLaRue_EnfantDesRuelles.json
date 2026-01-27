@@ -1,0 +1,21 @@
+﻿{
+  "Id": "4984804a-1c44-4497-8da4-2232c1f029c0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DansLaRue_EnfantDesRuelles",
+    "DisplayName": "Enfant des ruelles",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DansLaRue_EnfantDesRuelles",
+      "DisplayName": "Enfant des ruelles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ayant grandi au cœur des ruelles et des faubourgs, il connaît les codes tacites de la survie urbaine.\n\nVictime de nombreuses privations, il n’est pas pénalisé par la [faim](/regles/aventure/environnement/alimentation), ni par la [soif](/regles/aventure/environnement/alimentation).\n\nIl se voit également conférer un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [tests](/regles/competences/tests) effectués afin de trouver ou d’éviter les représentants de la loi et/ou les criminels lorsqu’il se trouve dans un centre urbain."
+      }
+    }
+  }
+}

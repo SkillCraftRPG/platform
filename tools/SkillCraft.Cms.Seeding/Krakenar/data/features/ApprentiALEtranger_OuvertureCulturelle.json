@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d1d668eb-1a19-44e1-a627-963d09d22e06",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ApprentiALEtranger_OuvertureCulturelle",
+    "DisplayName": "Ouverture culturelle",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ApprentiALEtranger_OuvertureCulturelle",
+      "DisplayName": "Ouverture culturelle",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Du fait de son éducation effectuée à l’étranger, le personnage s’est formé un réseau de contacts dans cette région.\n\nS’il y retourne, il pourra certainement compter sur eux pour l’assister ou le diriger.\n\nIl y a également vécu une période d’adaptation plus ou moins difficile.\n\nIl se voit conférer un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [tests](/regles/competences/tests) de [Linguistique](/regles/competences/linguistique) effectués afin de communiquer une idée simple à une créature avec laquelle il ne partage aucune [langue](/regles/langues)."
+      }
+    }
+  }
+}

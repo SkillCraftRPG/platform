@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7f632223-7644-4446-b028-e3a41fb09ea1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chaman_FormeEtheree",
+    "DisplayName": "Forme éthérée",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chaman_FormeEtheree",
+      "DisplayName": "Forme éthérée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut maintenant assumer sa [forme sauvage](/regles/specialisations/animiste) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n\nPlutôt que de prendre la forme d’une bête, il peut assumer la forme d’un esprit marchant à la frontière de la dimension spirituelle. Il doit se trouver dans une dimension voisine à la dimension spirituelle afin d’en faire ainsi.\n\nLorsqu’il assume sa forme éthérée, il acquiert les capacités suivantes.\n\n- Il ajoute ses [Sens](/regles/attributs/sens) (minimum 1) à son [Esquive](/regles/combat/attaque/esquive).\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) lorsqu’il utilise sa [Barrière mentale](/regles/talents/barriere-mentale).\n- Il acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [lévitation](/regles/aventure/mouvement/types) égale à sa vitesse de marche. Lorsqu’il monte ou descend en altitude, sa vitesse est réduite de moitié.\n- Il est [résistant](/regles/combat/degats/efficacite) aux [dégâts physiques](/regles/combat/degats/types), mais ses [tests](/regles/competences/tests) d’[attaque](/regles/combat/attaque) se voient affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres. Il peut également percevoir faiblement ce qui se trouve dans la dimension spirituelle dans cette portée en teintes de gris, il lui est donc pratiquement impossible de discerner les couleurs. Il peut voir l’âme des créatures qui en sont dotées situées à 4,5 mètres ou moins de sa position, ce qui lui permet de détecter la présence de créatures [dissimulées](/regles/combat/activites/cacher) ou [invisibles](/regles/combat/conditions/invisible).\n- Il peut communiquer avec les esprits se trouvant dans la dimension spirituelle. Les créatures situées dans le monde matériel peuvent l’entendre communiquer avec l’esprit, et si l’esprit lui répond, les créatures situées dans la dimension spirituelle peuvent entendre l’esprit.\n- Il se voit conférer l’avantage à ses tests afin de ne pas être immobilisé ou de [se libérer](/regles/combat/activites/echapper) d’un effet l’immobilisant telle l’activité [Agripper](/regles/combat/activites/agripper), mais il se voit affligé du désavantage à ses tests lorsqu’il tente d’agripper une autre créature.\n- Il peut tenter de blesser l’âme d’une créature qui en est dotée en la [touchant](/regles/magie/parametres/portee) par une [action](/regles/combat/deroulement/tour). Il effectue un test d’[Occultisme](/regles/competences/occultisme) contre la [Défense](/regles/combat/attaque/defense) de la cible. Si l’[attaque](/regles/magie/effets/attaque) réussit, il inflige [1d4 points de dégâts](/regles/combat/degats/jet) [spectraux](/regles/combat/degats/types) additionnés à sa [Puissance](/regles/statistiques/puissance).\n- Il peut canaliser des [pouvoirs](/regles/magie/pouvoirs), mais ses cibles se voient conférer l’avantage à leurs jets de sauvegarde contre les pouvoirs canalisés par le personnage."
+      }
+    }
+  }
+}

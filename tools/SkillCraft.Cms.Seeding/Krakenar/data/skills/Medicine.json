@@ -1,0 +1,26 @@
+﻿{
+  "Id": "786e509e-ea89-4a51-b144-b84352f91b0f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Medicine",
+    "DisplayName": "Médecine",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"781cd30c-4341-4083-9d9e-a42c4104f7a6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Medicine",
+      "DisplayName": "Médecine",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "medecine",
+        "Summary": "Diagnostiquer, traiter et stabiliser grâce au savoir médical.",
+        "HtmlContent": "La compétence **Médecine** permet au personnage de :\n\n- appliquer les premiers soins\n- diagnostiquer une maladie, un poison ou une blessure\n- déterminer ou préparer le traitement approprié\n- [stabiliser](/regles/combat/activites/stabiliser) un allié mourant",
+        "MetaDescription": "Découvrez la compétence Médecine, qui permet de diagnostiquer, traiter, soigner et stabiliser les blessés grâce au savoir médical et à l’intellect du personnage."
+      }
+    }
+  }
+}

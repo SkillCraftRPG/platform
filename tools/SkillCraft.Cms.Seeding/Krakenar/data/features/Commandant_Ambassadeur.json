@@ -1,0 +1,21 @@
+﻿{
+  "Id": "79c27e73-25aa-414e-9e9f-408b31e327e8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Commandant_Ambassadeur",
+    "DisplayName": "Ambassadeur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Commandant_Ambassadeur",
+      "DisplayName": "Ambassadeur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir le talent [Commandement](/regles/talents/commandement) au coût de [2 points de talent](/regles/talents/points) seulement.\n\nIl peut également acquérir [à rabais](/regles/talents/points) le talent [Expertise](/regles/talents/expertise) pour la compétence [Diplomatie](/regles/competences/diplomatie).\n\nIl peut acquérir à rabais les talents suivants :\n\n- [Diplomatie](/regles/talents/diplomatie)\n- [Emboîter le pas](/regles/talents/emboiter-le-pas)\n- [Mener par l’exemple](/regles/talents/mener-par-l-exemple)\n- [Langue d’argent](/regles/talents/langue-d-argent)\n\nS'il a déjà acquis un ou plusieurs de ces talents, alors le rabais est transféré en priorité aux talents [Commandement](/regles/talents/commandement) et [Expertise](/regles/talents/expertise) pour la compétence [Diplomatie](/regles/competences/diplomatie)."
+      }
+    }
+  }
+}

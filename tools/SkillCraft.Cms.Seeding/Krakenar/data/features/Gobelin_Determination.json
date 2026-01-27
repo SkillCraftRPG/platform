@@ -1,0 +1,21 @@
+﻿{
+  "Id": "273e93d5-d53c-423d-a85e-27d10d2c446e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelin_Determination",
+    "DisplayName": "Détermination",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelin_Determination",
+      "DisplayName": "Détermination",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Malgré sa petitesse, le personnage ne manque pas de cran, ni de volonté. Il peut ajouter son [tiers](/regles/personnages/progression/tiers) (minimum 1) :\n\n- À ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) le [charmant](/regles/combat/conditions/charme) ou le contraignant à agir d’une certaine manière.\n- À son [Esquive](/regles/combat/attaque/esquive). S’il porte une [armure](/regles/equipement/armures), il retire de ce bonus tout bonus de [Défense](/regles/equipement/defense) conféré par son armure. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0. Le bonus de Défense conféré par un [bouclier](/regles/equipement/boucliers) n’influence pas cette capacité.\n- Aux [points de dégâts](/regles/combat/degats) infligés à une créature de [taille](/regles/especes/taille) supérieure à la sienne."
+      }
+    }
+  }
+}

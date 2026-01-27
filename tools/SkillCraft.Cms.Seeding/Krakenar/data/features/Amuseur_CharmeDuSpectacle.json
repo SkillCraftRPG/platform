@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2664d3ec-7c7e-44f2-a3eb-0ed5290aa20a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amuseur_CharmeDuSpectacle",
+    "DisplayName": "Charme du spectacle",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amuseur_CharmeDuSpectacle",
+      "DisplayName": "Charme du spectacle",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage trouve toujours un endroit pour se présenter en spectacle, habituellement dans [une taverne ou une auberge](/regles/equipement/services/peuplements), mais possiblement auprès d’une troupe de cirque, d’un groupe de comédiens, ou à la cour de nobles.\n\nIl peut demander [le gite ou le couvert](/regles/equipement/services/gite-couvert) en échange de divertissement.\n\nÉgalement, lorsqu’il se donne en spectacle, sa [notoriété](/regles/equipement/depenses) augmente localement, ce qui peut lui permettre d’obtenir certaines faveurs, comme une audience auprès d’un noble ou des privilèges réservés aux personnalités populaires."
+      }
+    }
+  }
+}

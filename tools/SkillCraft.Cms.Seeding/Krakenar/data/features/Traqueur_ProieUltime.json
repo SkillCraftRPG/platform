@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b74c52e7-65f0-4b18-aa23-9847ff86587d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Traqueur_ProieUltime",
+    "DisplayName": "Proie ultime",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Traqueur_ProieUltime",
+      "DisplayName": "Proie ultime",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il attaque sa [proie privilégiée](/regles/specialisations/chasseur), il ajoute [1d12 points de dégâts](/regles/combat/degats/jet) supplémentaires plutôt que 1d8.\n\nÉgalement, par une [action](/regles/combat/deroulement/tour), il peut étudier sa [proie privilégiée](/regles/specialisations/chasseur) afin d’acquérir les capacités suivantes. Il doit [voir](/regles/aventure/environnement/vision) la cible, et celle-ci doit se trouver à 18 mètres ou moins de sa position.\n\n- Il découvre les [résistances](/regles/combat/degats/efficacite), [vulnérabilités](/regles/combat/degats/efficacite) et [immunités](/regles/combat/degats/efficacite) de la cible. Si celle-ci est protégée contre les [pouvoirs](/regles/magie/pouvoirs) de [Divination](#), le personnage découvre qu’elle n’a aucune immunité, résistance ni vulnérabilité.\n- Il ajoute 1d10 à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les capacités de la cible, ainsi qu’à ses [tests](/regles/competences/tests) effectués afin de [s’en échapper](/regles/combat/activites/echapper).\n- Il peut effectuer une [attaque physique](/regles/combat/attaque) en [réaction](/regles/combat/deroulement/tour) contre la cible lorsqu’elle [canalise](/regles/magie/pouvoirs/canalisation) un pouvoir ou utilise une capacité nécessitant un jet de sauvegarde de la part du personnage.\n  - Le personnage ne peut utiliser cette capacité que si la cible se trouve à 18 mètres ou moins de sa position.\n  - Il effectue cette attaque immédiatement avant que la capacité de la cible ne prenne effet.\n  - Si l’attaque réussit, le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son jet de sauvegarde.\n  - La canalisation échoue si le résultat du test d’[Occultisme](/regles/competences/occultisme) de la cible est inférieur au résultat du test de l’attaque."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "981b0947-5a63-4052-8bb6-5b08967a537f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Judicieux_ConseillerAvise",
+    "DisplayName": "Conseiller avisé",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Judicieux_ConseillerAvise",
+      "DisplayName": "Conseiller avisé",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La nature calme et analytique du personnage lui permet d’être reconnu rapidement pour son jugement sûr.\n\nIl peut ajouter un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [tests](/regles/competences/tests) d’[Intuition](/regles/competences/intuition) ou d’[Investigation](/regles/competences/investigation) effectués afin de comprendre un plan, évaluer un risque ou choisir la meilleure approche de manière objective.\n\nÉgalement, il ajoute également ce bonus à ses tests de [Diplomatie](/regles/competences/diplomatie) effectués afin de convaincre un individue rationnel."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b3e7545b-c62e-46b9-b332-e4ec5d0f8d90",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Celestin_ResistanceCeleste",
+    "DisplayName": "Résistance céleste",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Celestin_ResistanceCeleste",
+      "DisplayName": "Résistance céleste",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) et [radiants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

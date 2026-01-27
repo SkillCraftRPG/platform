@@ -1,0 +1,26 @@
+﻿{
+  "Id": "76ef4ae4-1b1c-41e8-9ea0-4d77ff098066",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Power",
+    "DisplayName": "Puissance",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"11fd3351-7937-4697-8e02-1bc5b2a61a91\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Power",
+      "DisplayName": "Puissance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "puissance",
+        "Summary": "Mesure la force et l’impact des attaques d’origine surnaturelle.",
+        "HtmlContent": "La **Puissance** représente l’impact des [attaques surnaturelles](/regles/magie/effets/attaque) du personnage.\n\nElle est ajoutée aux [points de dégâts](/regles/combat/degats) infligés lorsqu’une de ces attaques est réussie.\n\nL’équation suivante calcule la Puissance d’une créature :\n\n<code>Puissance = 5 + (Sens × 2)</code>",
+        "MetaDescription": "Découvrez la statistique Puissance, représentant l’impact des attaques surnaturelles et déterminée par la perception et les sens mystiques du personnage."
+      }
+    }
+  }
+}

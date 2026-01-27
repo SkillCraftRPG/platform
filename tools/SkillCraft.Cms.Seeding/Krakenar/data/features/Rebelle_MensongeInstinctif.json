@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e111632f-19a1-4f98-a492-e22e27ba1c95",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Rebelle_MensongeInstinctif",
+    "DisplayName": "Mensonge instinctif",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Rebelle_MensongeInstinctif",
+      "DisplayName": "Mensonge instinctif",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En grandissant à contourner les interdits et à dissimuler ses incartades, le personnage a développé une aisance naturelle pour brouiller les pistes.\n\nIl peut ajouter un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [tests](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie) lorsqu’il tente de s’éviter des ennuis en détournant l’attention ou en masquant une action suspecte.\n\nIl peut également ajouter ce bonus à ses tests de Tromperie effectués afin de dissimuler ses réelles intentions et d’éviter les soupçons."
+      }
+    }
+  }
+}

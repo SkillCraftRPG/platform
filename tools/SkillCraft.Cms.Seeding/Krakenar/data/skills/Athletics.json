@@ -1,0 +1,26 @@
+﻿{
+  "Id": "21877dfa-439f-4dce-8235-556d311e1c54",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Athletics",
+    "DisplayName": "Athlétisme",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"45fc0f30-4e06-4ab3-8b51-2b193e92a632\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Athletics",
+      "DisplayName": "Athlétisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "athletisme",
+        "Summary": "Force, agilité et endurance pour grimper, sauter et nager.",
+        "HtmlContent": "La compétence **Athlétisme** permet au personnage de :\n\n- effectuer des [sauts](/regles/aventure/mouvement/types) en longueur et en hauteur\n- escalader des surfaces avec ou sans prises\n- nager ou se maintenir à la surface de l’eau",
+        "MetaDescription": "Découvrez la compétence Athlétisme, qui mesure la force physique, la vitesse et l’endurance pour sauter, grimper ou nager avec puissance et précision."
+      }
+    }
+  }
+}

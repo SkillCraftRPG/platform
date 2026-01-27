@@ -1,0 +1,24 @@
+﻿{
+  "Id": "7527d763-2043-4fa9-8e56-d2ba5169f7e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tremblements",
+    "DisplayName": "Tremblements",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tremblements",
+      "DisplayName": "Tremblements",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tremblements",
+        "HtmlContent": "Les mains du personnage tremblent de manière inexplicable et fréquente, nuisant à sa dextérité.\n\nSes [tests](/regles/competences/tests) d’[Artisanat](/regles/competences/artisanat), d’[Orientation](/regles/competences/orientation) et de [Roublardise](/regles/competences/roublardise) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Summary": "Tremblements involontaires nuisant à la précision.",
+        "MetaDescription": "Découvrez le handicap Tremblements, qui affecte la précision manuelle et réduit la dextérité."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "336f5b25-cf8e-4e6c-bd82-0973245755d3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir_SensibiliteSolaire",
+    "DisplayName": "Sensibilité solaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir_SensibiliteSolaire",
+      "DisplayName": "Sensibilité solaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [attaque](/regles/combat/attaque) une cible ou tente de [voir](/regles/aventure/environnement/vision) quelque chose situé sous la lumière directe du Soleil, alors son [test](/regles/competences/tests) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

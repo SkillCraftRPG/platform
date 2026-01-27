@@ -1,0 +1,21 @@
+﻿{
+  "Id": "8ee28c82-497b-4cb3-9c2e-8f05a314a96c",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "Bricoleur_AccumulateurMagique",
+    "DisplayName": "Accumulateur magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": false,
+      "UniqueName": "Bricoleur_AccumulateurMagique",
+      "DisplayName": "Accumulateur magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut entreposer un [bricolage magique](#) dans une [arme](/regles/equipement/armes) ou un objet approprié en le [canalisant](/regles/magie/pouvoirs/canalisation).\n\nIl doit ensuite compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nLe [pouvoir](/regles/magie/pouvoirs) doit être de tiers 0, et l’[incantation](/regles/magie/parametres/incantation) doit être exactement de [deux actions](/regles/combat/deroulement/tour).\n\nIl peut [Faire 10](/regles/competences/tests/faire-10) à son [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) s’il le désire.\n\nUne créature peut activer l’[objet](/regles/combat/activites/objet) par deux actions afin de [canaliser](/regles/combat/activites/canaliser) le pouvoir au [niveau](/regles/magie/pouvoirs/niveau) entreposé.\n\nElle ne dépense aucun point d’[Énergie](/regles/statistiques/energie), la canalisation ne requiert aucune [composante](/regles/magie/parametres/composantes), et elle réutilise le résultat du test d’Occultisme du personnage.\n\nSi le pouvoir requiert la [concentration](/regles/magie/parametres/duree), la créature doit [se concentrer](/regles/combat/activites/concentration) sur le pouvoir.\n\nL’objet peut être activé un nombre de fois égal à l’[Intellect](/regles/attributs/intellect) (minimum 1) du personnage, puis le pouvoir disparaît. Le pouvoir disparaît également si le personnage entrepose un pouvoir dans un autre objet.\n\nCe nombre d’activations est doublé lorsque le personnage atteint le [tiers 3](/regles/personnages/progression/tiers)."
+      }
+    }
+  }
+}

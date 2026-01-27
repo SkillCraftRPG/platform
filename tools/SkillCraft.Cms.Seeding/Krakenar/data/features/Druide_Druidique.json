@@ -1,0 +1,21 @@
+﻿{
+  "Id": "8bac5921-d827-43c6-8aac-a6f0ae3272ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Druide_Druidique",
+    "DisplayName": "Druidique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Druide_Druidique",
+      "DisplayName": "Druidique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage apprend le langage secret et mystique des druides.\n\nIl est impossible d’apprendre cette langue sans devenir Druide.\n\nUn mystérieux voile surnaturel l’empêche de l’apprendre à un non-Druide.\n\nCe voile permet à un pouvoir d’identifier qu’il s’agit du langage secret, mais pas de le comprendre ni de le parler."
+      }
+    }
+  }
+}

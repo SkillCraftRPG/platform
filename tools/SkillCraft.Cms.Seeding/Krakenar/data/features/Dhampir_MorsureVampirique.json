@@ -1,0 +1,21 @@
+﻿{
+  "Id": "da7596bf-4b69-42e9-af5a-d26be744d123",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir_MorsureVampirique",
+    "DisplayName": "Morsure vampirique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir_MorsureVampirique",
+      "DisplayName": "Morsure vampirique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’une paire de canines acérées.\n\nIl peut les utiliser par un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme), de [Mêlée](/regles/competences/melee) ou de [Résistance](/regles/competences/resistance), au choix.\n\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au test lorsque ses points de [Vitalité](/regles/statistiques/vitalite) courants sont inférieurs ou égaux à sa Vitalité maximale.\n\nLorsqu’il réussit une [attaque](/regles/combat/attaque) avec celles-ci, il inflige [1d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types) additionnés à sa [Force](/regles/statistiques/force).\n\nSi la cible n’est pas un mort-vivant ni une construction, il peut dépenser des points d’[Énergie](/regles/statistiques/energie) afin de bénéficier d’un des deux effets suivants.\n\n- **Élévation.** Il dépense un nombre de points compris entre 1 et le résultat du d4 additionné à sa [Santé](/regles/attributs/sante). Il ajoute un bonus égal à ce nombre à son prochain test de [compétence](/regles/competences).\n- **Guérison.** Il dépense un nombre de points compris entre 1 et la moitié des points de dégâts infligés, et récupère un nombre égal de points de Vitalité."
+      }
+    }
+  }
+}

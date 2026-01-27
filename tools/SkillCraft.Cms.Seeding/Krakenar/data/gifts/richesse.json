@@ -1,0 +1,24 @@
+﻿{
+  "Id": "6a3637fd-a9cb-46d2-a5ba-517009a883a3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "richesse",
+    "DisplayName": "Richesse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "richesse",
+      "DisplayName": "Richesse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "richesse",
+        "HtmlContent": "La [richesse de départ](/regles/equipement/depart) du personnage est multipliée par 1d10 + 5 (ou 10, à la discrétion du maître de jeu).",
+        "Summary": "Multiplie la richesse de départ pour un statut aisé ou noble.",
+        "MetaDescription": "Découvrez le don Richesse, augmentant la fortune initiale du personnage et reflétant son statut social ou son passé prospère."
+      }
+    }
+  }
+}

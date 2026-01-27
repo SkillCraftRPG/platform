@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e36d1f42-6c8b-4e83-b6b2-9fedab5f28f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir_Ascension",
+    "DisplayName": "Ascension",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir_Ascension",
+      "DisplayName": "Ascension",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le [tiers](/regles/personnages/progression/tiers) du personnage augmente, sa [vitesse](/regles/aventure/mouvement/vitesse) de [marche](/regles/aventure/mouvement/types) augmente également d’un point de mouvement.\n\nÉgalement, dès qu’il atteint le tiers 1, il peut canaliser le [niveau 3](/regles/magie/pouvoirs/niveau) du pouvoir [Aranéide](#) sur lui-même.\n\nCette [canalisation](/regles/magie/pouvoirs/canalisation) réussit automatiquement et ne nécessite aucune composante [Focus](/regles/magie/parametres/composantes)."
+      }
+    }
+  }
+}

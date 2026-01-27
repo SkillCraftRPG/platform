@@ -1,0 +1,21 @@
+﻿{
+  "Id": "49022307-f9f6-4da4-a58f-8ca1fa376fda",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pretre_AttaqueDivine",
+    "DisplayName": "Attaque divine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pretre_AttaqueDivine",
+      "DisplayName": "Attaque divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des dégâts du type associé à son [domaine divin](/regles/domaines/divins)."
+      }
+    }
+  }
+}

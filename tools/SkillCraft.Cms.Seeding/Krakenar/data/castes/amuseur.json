@@ -1,0 +1,28 @@
+﻿{
+  "Id": "28876b0a-2489-4950-b8a7-7009d26c9108",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "amuseur",
+    "DisplayName": "Amuseur",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "8d6",
+      "Skill": "[\"82a59add-a0e2-4d7b-8513-5eaa0f60e11b\"]",
+      "Feature": "[\"2664d3ec-7c7e-44f2-a3eb-0ed5290aa20a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "amuseur",
+      "DisplayName": "Amuseur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "amuseur",
+        "Summary": "Artiste itinérant gagnant prestige et faveurs par ses spectacles.",
+        "HtmlContent": "Adepte d’art, de poésie, de cirque ou de théâtre, l’amuseur ère de villages en cités afin d’offrir ses performances.\n\nBien plus qu’un simple gagne-pain, cela lui permet de former un réseau de contacts et de recueillir toutes sortes d’informations.",
+        "MetaDescription": "Découvrez la caste Amuseur, artiste itinérant dont les spectacles apportent joie, notoriété et influence auprès du peuple comme des nobles."
+      }
+    }
+  }
+}

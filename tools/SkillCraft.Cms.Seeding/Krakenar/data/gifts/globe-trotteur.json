@@ -1,0 +1,24 @@
+﻿{
+  "Id": "374223d0-99ef-49e8-a494-56738ffd8e9e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "globe-trotteur",
+    "DisplayName": "Globe-trotteur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "globe-trotteur",
+      "DisplayName": "Globe-trotteur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "globe-trotteur",
+        "HtmlContent": "Le personnage acquiert les capacités suivantes :\n\n- Il choisit un des types de terrains suivant : arctique, côte, désert, forêt, marécage, montagne, prairie ou souterrains. Lorsqu’il voyage dans sur un terrain appartenant à ce type, le [terrain difficile](/regles/aventure/mouvement/terrain-difficile) ne le ralentit pas, et il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) contre ce terrain difficile. S’il voyage en groupe, tout le groupe bénéficie de cette capacité. À la discrétion du maître de jeu, il peut acquérir cette capacité pour un autre type de terrain par un mélange d’études théoriques et d’observations pratiques effectuées sur une période de [7 jours](/regles/aventure/temps) ou plus.\n- Il ignore les effets du climat rigoureux, comme une température très chaude ou très froide.\n- Il se voit conférer l’avantage à ses [tests](/regles/competences/tests) effectués afin de détecter la présence de pièges et de passages secrets. En milieu naturel, il peut renoncer à l’avantage et remplacer le test par un test de [Survie](/regles/competences/survie).",
+        "Summary": "Maîtrise les terrains extrêmes et guide son groupe sans ralentir.",
+        "MetaDescription": "Découvrez le don Globe-trotteur, qui permet d’exceller en terrain difficile, d’ignorer les climats extrêmes et de guider un groupe à travers les environnements hostiles."
+      }
+    }
+  }
+}

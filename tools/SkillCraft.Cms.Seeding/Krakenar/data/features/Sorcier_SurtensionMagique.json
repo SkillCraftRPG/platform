@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9c9d7317-b6bb-4f3e-87b7-95764e0c3804",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sorcier_SurtensionMagique",
+    "DisplayName": "Surtension magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sorcier_SurtensionMagique",
+      "DisplayName": "Surtension magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), lorsque le personnage inflige des [points de dégâts](/regles/combat/degats) en [canalisant](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs), alors il peut dépenser un [point d’essence élémentaire](#) associé à l’Esprit afin d’infliger à une seule créature un nombre de points de dégâts supplémentaires de [force](/regles/combat/degats/types) égal à la moitié de sa [Puissance](/regles/statistiques/puissance).\n\nLorsqu’il atteint le [tiers 3](/regles/personnages/progression/tiers), il peut dépenser deux points d’essence élémentaire plutôt qu’un seul afin d’infliger un nombre de points de dégâts supplémentaires de force égal à sa Puissance.\n\nÉgalement, lorsqu’il met fin à un [pouvoir](/regles/magie/pouvoirs) en utilisant [Protection contre la magie](/regles/magie/pouvoirs/protection-contre-la-magie), il acquiert un nombre de points d’essence élémentaire associés à l’Esprit égal au tiers du pouvoir interrompu (minimum&nbsp;1)."
+      }
+    }
+  }
+}

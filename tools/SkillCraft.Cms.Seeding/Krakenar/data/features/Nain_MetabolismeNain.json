@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e6505b1b-33c1-40d4-919d-11404db016d3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_MetabolismeNain",
+    "DisplayName": "Métabolisme nain",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_MetabolismeNain",
+      "DisplayName": "Métabolisme nain",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer un bonus à son [seuil de tolérance à l’alcool](/regles/aventure/environnement/alcoolemie) égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1)."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "3018fac6-f702-47e6-8300-1d47e27a74e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "menace-ingenieuse",
+    "DisplayName": "Menace ingénieuse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "menace-ingenieuse",
+      "DisplayName": "Menace ingénieuse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "menace-ingenieuse",
+        "Summary": "Intimide par des moyens créatifs et accorde un avantage aux alliés.",
+        "HtmlContent": "Permet au personnage d’intimider une créature d’une manière créative et non conventionnelle, en utilisant une autre [compétence](/regles/competences).\n\nLorsqu’il en fait ainsi, il remplace son [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) par un test de cette compétence.\n\nÉgalement, lorsqu’il réussit à intimider une créature, le personnage et ses alliés se voient conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à leurs tests de [Diplomatie](/regles/competences/diplomatie), d’[Intuition](/regles/competences/intuition) et de [Tromperie](/regles/competences/tromperie) contre celle-ci pendant la prochaine [minute](/regles/aventure/temps).",
+        "MetaDescription": "Découvrez le don Menace ingénieuse, qui permet d’intimider avec créativité en utilisant d’autres compétences et en soutenant ses alliés par la ruse."
+      }
+    }
+  }
+}

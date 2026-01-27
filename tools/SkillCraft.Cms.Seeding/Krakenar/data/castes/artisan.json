@@ -1,0 +1,28 @@
+﻿{
+  "Id": "57a54399-3f66-40be-84fb-2e3a36c64bc7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "artisan",
+    "DisplayName": "Artisan",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "8d6",
+      "Skill": "[\"56ffe0d3-6271-4ca7-badf-d227d7785767\"]",
+      "Feature": "[\"ebd29e5a-b374-4f15-a741-36e4adb7dd49\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "artisan",
+      "DisplayName": "Artisan",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "artisan",
+        "HtmlContent": "L’artisan est un expert d’un procédé de transformation des matières brutes.\n\nIl peut être un boulanger, un forgeron, un orfèvre, un tisserand ou pratiquer tout genre de profession œuvrant dans la transformation des matières brutes.",
+        "Summary": "Expert des métiers manuels, membre d’une organisation d’artisans.",
+        "MetaDescription": "Découvrez la caste Artisan, experte en transformation des matières brutes, membre d’une organisation professionnelle et maître des outils et matériaux."
+      }
+    }
+  }
+}

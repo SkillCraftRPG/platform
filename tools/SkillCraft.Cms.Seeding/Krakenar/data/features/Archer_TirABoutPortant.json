@@ -1,0 +1,21 @@
+﻿{
+  "Id": "20ff03cf-6ca0-4c93-8d43-7d1e59773f67",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Archer_TirABoutPortant",
+    "DisplayName": "Tir à bout portant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Archer_TirABoutPortant",
+      "DisplayName": "Tir à bout portant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut effectuer l’activité [Viser et tirer](/regles/combat/activites/viser-tirer) lorsqu’il utilise sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite).\n\nIl ne peut utiliser qu’une seule [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

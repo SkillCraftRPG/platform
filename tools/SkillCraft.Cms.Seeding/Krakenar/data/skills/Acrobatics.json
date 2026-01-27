@@ -1,0 +1,26 @@
+﻿{
+  "Id": "38b875a0-6519-4c8b-bff6-02c151e6a5fe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Acrobatics",
+    "DisplayName": "Acrobaties",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Acrobatics",
+      "DisplayName": "Acrobaties",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "acrobaties",
+        "Summary": "Maîtrise du corps : équilibre, figures complexes et évasion physique.",
+        "HtmlContent": "La compétence **Acrobaties** permet au personnage de :\n\n- [amortir une chute](/regles/aventure/environnement/chute)\n- conserver son équilibre sur des surfaces instables\n- exécuter des manœuvres acrobatiques\n- se contorsionner pour [se libérer de liens](/regles/combat/activites/echapper)",
+        "MetaDescription": "Découvrez Acrobaties, compétence d’adresse permettant d’amortir les chutes, garder l’équilibre, exécuter des manœuvres agiles et se libérer de liens."
+      }
+    }
+  }
+}

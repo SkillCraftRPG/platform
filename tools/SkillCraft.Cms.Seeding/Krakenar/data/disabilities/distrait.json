@@ -1,0 +1,24 @@
+﻿{
+  "Id": "c1ccd735-8f06-434f-a76e-463cb9dc3a7c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "distrait",
+    "DisplayName": "Distrait",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "distrait",
+      "DisplayName": "Distrait",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "distrait",
+        "HtmlContent": "La tête dans les nuages, la pensée absente, le personnage entre souvent en collision avec des passants ou des objets se trouvant dans son chemin, et il peine à se concentrer sur ce qui se trouve devant ses yeux.\n\nSes [tests](/regles/competences/tests) de [Perception](/regles/competences/perception) et d’[Investigation](/regles/competences/investigation) sont effectués avec [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Summary": "Rêveur et inattentif, il subit un désavantage à ses tests.",
+        "MetaDescription": "Découvrez le handicap Distrait, qui rend le personnage rêveur et inattentif, subissant un désavantage à ses tests de Perception et d’Investigation."
+      }
+    }
+  }
+}

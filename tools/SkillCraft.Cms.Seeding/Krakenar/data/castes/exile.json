@@ -1,0 +1,28 @@
+﻿{
+  "Id": "6502055a-8cc3-4780-83bd-a019e4b666c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "exile",
+    "DisplayName": "Exilé",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "6d6",
+      "Skill": "[\"ecdcb4fb-13bc-498c-8222-40e0900c23e8\"]",
+      "Feature": "[\"a9dd032e-6be9-4764-8f01-a3d066514f0c\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "exile",
+      "DisplayName": "Exilé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "exile",
+        "HtmlContent": "Banni par son peuple ou par choix personnel, l’exilé a recours à son instinct de survie et à sa connaissance des milieux sauvages afin de survivre à son environnement.\n\nIl garde de souvenirs amers de son ancienne vie et prépare aigrement sa vengeance.",
+        "Summary": "Banni de son peuple, il survit seul grâce à ses sens affûtés.",
+        "MetaDescription": "Découvrez la caste des Exilés, survivants endurcis bannis de leur peuple, maîtres de la survie, du pistage et de la vengeance dans les terres sauvages."
+      }
+    }
+  }
+}

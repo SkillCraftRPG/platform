@@ -1,0 +1,26 @@
+﻿{
+  "Id": "c404341b-b4ef-4908-90fc-418146cc937d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Learning",
+    "DisplayName": "Apprentissage",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"781cd30c-4341-4083-9d9e-a42c4104f7a6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Learning",
+      "DisplayName": "Apprentissage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apprentissage",
+        "Summary": "Mesure la rapidité d’acquisition des savoirs et compétences.",
+        "HtmlContent": "L’**Apprentissage** représente la vitesse d’acquisition de savoirs et d’aptitudes du personnage, sa vivacité d’esprit.\n\nCela se traduit par le nombre de [points de compétence](/regles/competences/rang) disponibles.\n\nCette statistique n’est pas affectée par les bonus temporaires à l’Intellect.\n\nL’équation suivante calcule l’Apprentissage d’une créature :\n\n<code>Apprentissage = 5 + Intellect + (Niveau ÷ 5)(2 + Intellect)<br />Apprentissage<sub>minimum</sub> = 5 + (Niveau ÷ 5)</code>",
+        "MetaDescription": "Découvrez l’Apprentissage, statistique mesurant la vitesse d’acquisition des savoirs et compétences, influencée par l’Intellect du personnage."
+      }
+    }
+  }
+}

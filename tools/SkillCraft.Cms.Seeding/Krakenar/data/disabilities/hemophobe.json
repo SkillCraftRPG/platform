@@ -1,0 +1,24 @@
+﻿{
+  "Id": "4708a14a-f893-4d4b-ac6c-aa1c2f125696",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "hemophobe",
+    "DisplayName": "Hémophobe",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "hemophobe",
+      "DisplayName": "Hémophobe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "hemophobe",
+        "HtmlContent": "Peu n’effraie davantage le personnage que la vue du sang ou d’une plaie ouverte.\n\nLorsque lui-même ou un allié situé à 1,5 mètres ou moins de sa position est blessé par des [points de dégâts](/regles/combat/degats) [tranchants ou perforants](/regles/combat/degats/types), alors il doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale aux points de dégâts subis.\n\nEn cas d’échec, il est [apeuré](/regles/combat/conditions/apeure) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).",
+        "Summary": "Panique à la vue du sang, provoquant peur et perte de contrôle.",
+        "MetaDescription": "Découvrez le handicap Hémophobe, où la vue du sang déclenche la panique et affaiblit la concentration du personnage en combat."
+      }
+    }
+  }
+}

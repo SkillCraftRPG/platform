@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c216021d-cf30-4cff-86c2-c682eb8f5d9c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_Debrouillard",
+    "DisplayName": "Débrouillard",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_Debrouillard",
+      "DisplayName": "Débrouillard",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Artisanat](/regles/talents/artisanat)."
+      }
+    }
+  }
+}

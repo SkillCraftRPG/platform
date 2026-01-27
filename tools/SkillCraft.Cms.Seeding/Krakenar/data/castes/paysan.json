@@ -1,0 +1,28 @@
+﻿{
+  "Id": "71d70445-9e8b-4070-aed3-8cf8fed4d060",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "paysan",
+    "DisplayName": "Paysan",
+    "Description": null,
+    "FieldValues": {
+      "WealthRoll": "7d6",
+      "Skill": "[\"21877dfa-439f-4dce-8235-556d311e1c54\"]",
+      "Feature": "[\"b4b17a8f-8724-4e74-9702-db0342ca4e8e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "paysan",
+      "DisplayName": "Paysan",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "paysan",
+        "HtmlContent": "Les paysans représentent la base de la pyramide hiérarchique de leur société, bien que les plus nombreux.\n\nIls sont affectés aux tâches les moins louables mais les plus importantes au sein de la chaîne de production.\n\nMineurs, bûcherons, agriculteurs ou autres professionnels, leur mode de vie requiert une bonne forme physique et une tolérance exceptionnelle à l’effort.",
+        "Summary": "Travailleurs endurants, humbles et solidaires, maîtres du labeur.",
+        "MetaDescription": "Découvrez la caste des Paysans, piliers laborieux de la société, dotés d’une endurance hors pair et d’un savoir rustique ancré dans la simplicité."
+      }
+    }
+  }
+}

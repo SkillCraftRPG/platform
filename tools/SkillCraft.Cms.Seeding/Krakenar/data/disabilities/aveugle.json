@@ -1,0 +1,24 @@
+﻿{
+  "Id": "4c407d9f-d1fa-4851-ae3a-212951a207a7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "aveugle",
+    "DisplayName": "Aveugle",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "aveugle",
+      "DisplayName": "Aveugle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "aveugle",
+        "Summary": "Supprime la vue et oblige à compenser par l’ouïe en Perception.",
+        "HtmlContent": "Le personnage a perdu son sens de la vision ou en est né dépourvu.\n\nIl échoue automatiquement ses [tests](/regles/competences/tests) requérant la [vision](/regles/aventure/environnement/vision).\n\nLorsqu’il effectue un test de [Perception](/regles/competences/perception), qu’il n’est pas victime d’un effet d’[assourdissement](/regles/combat/conditions/aveugle) et que le contexte sonore lui est favorable, alors il peut utiliser son ouïe à la place de sa vue.",
+        "MetaDescription": "Découvrez le handicap Aveugle : perte de la vision, échec automatique aux tests visuels, mais possibilité d’utiliser l’ouïe en Perception."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "Id": "0f86ac8a-e3ca-4ee6-9494-a25880bff52c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Load",
+    "DisplayName": "Charge",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"45fc0f30-4e06-4ab3-8b51-2b193e92a632\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Load",
+      "DisplayName": "Charge",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "charge",
+        "Summary": "Mesure le poids qu’un personnage peut porter sans pénalité.",
+        "HtmlContent": "La **Charge**, ou capacité de portage, représente le poids qu’un personnage peut porter sans pénalité.\n\nLorsqu’une créature porte un poids supérieur à sa Charge, elle est [encombrée](/regles/equipement/encombrement).\n\nL’équation suivante calcule la Charge d’une créature :\n\n<code>Charge = 10 × (5 + Vigueur)</code>",
+        "MetaDescription": "Découvrez la Charge, statistique définissant la capacité de portage d’un personnage selon sa vigueur, et les pénalités en cas de surcharge."
+      }
+    }
+  }
+}

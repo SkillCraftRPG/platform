@@ -1,0 +1,26 @@
+﻿{
+  "Id": "56ffe0d3-6271-4ca7-badf-d227d7785767",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Crafting",
+    "DisplayName": "Artisanat",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Crafting",
+      "DisplayName": "Artisanat",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "artisanat",
+        "Summary": "Crée, répare ou démonte des objets à l’aide d’outils adaptés.",
+        "HtmlContent": "La compétence **Artisanat** permet au personnage de :\n\n- concevoir ou fabriquer un objet\n- démanteler un objet pour en récupérer les composantes utiles\n- [réparer](/regles/equipement/reparation) ou restaurer un objet\n\nCes actions nécessitent les [outils](/regles/equipement/outils), [matériaux](/regles/equipement/marchandise) et tables de travail appropriés.",
+        "MetaDescription": "Découvrez la compétence Artisanat, permettant de concevoir, réparer ou démonter des objets grâce à l’adresse, aux outils et aux matériaux appropriés."
+      }
+    }
+  }
+}

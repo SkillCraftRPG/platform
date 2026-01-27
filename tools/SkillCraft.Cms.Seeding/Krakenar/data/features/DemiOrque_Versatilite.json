@@ -1,0 +1,21 @@
+﻿{
+  "Id": "be10f2f8-fde9-4f02-b2fd-8faa0a465718",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiOrque_Versatilite",
+    "DisplayName": "Versatilité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiOrque_Versatilite",
+      "DisplayName": "Versatilité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) deux [talents](/regles/talents) le [formant](/regles/competences/formation) pour une [compétence](/regles/competences)."
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Id": "d7ce0c1a-a140-4759-accd-54fb1da8b237",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apprenti-a-l-etranger",
+    "DisplayName": "Apprenti à l’étranger",
+    "Description": null,
+    "FieldValues": {
+      "WealthMultiplier": "8",
+      "Skill": "[\"d227627b-acc4-4483-b45a-a82729d6c415\"]",
+      "Feature": "[\"d1d668eb-1a19-44e1-a627-963d09d22e06\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apprenti-a-l-etranger",
+      "DisplayName": "Apprenti à l’étranger",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apprenti-a-l-etranger",
+        "Summary": "Éducation axée sur la linguistique et l’ouverture culturelle mondiale.",
+        "HtmlContent": "L’éducation du personnage a été effectuée à l’étranger, dans une région différente de sa terre natale.\n\nIl y a appris une nouvelle langue ainsi que l’importance de s’ouvrir aux autres cultures différentes de la sienne.",
+        "MetaDescription": "Découvrez l’éducation Apprenti à l’étranger, formant à la linguistique et favorisant l’ouverture culturelle ainsi qu’un réseau de contacts internationaux."
+      }
+    }
+  }
+}

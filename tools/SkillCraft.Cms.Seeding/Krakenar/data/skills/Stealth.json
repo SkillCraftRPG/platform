@@ -1,0 +1,26 @@
+﻿{
+  "Id": "68f61feb-b81f-45bd-8de7-7ee6389b47aa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stealth",
+    "DisplayName": "Furtivité",
+    "Description": null,
+    "FieldValues": {
+      "Attribute": "[\"4e23a288-1086-441f-9bd9-9f3f0b8d200f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stealth",
+      "DisplayName": "Furtivité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "furtivite",
+        "Summary": "Permet de se dissimuler, se camoufler et agir sans être vu.",
+        "HtmlContent": "La compétence **Furtivité** permet au personnage de :\n\n- manipuler discrètement un objet sans être vu\n- minimiser les traces laissées lors d’un [déplacement](/regles/aventure/mouvement/furtif)\n- [se camoufler](/regles/combat/activites/cacher) dans un environnement\n- se dissimuler dans l’ombre ou au sein d’une foule\n- se déplacer silencieusement en terrain dégagé ou encombré",
+        "MetaDescription": "Découvrez la compétence Furtivité, qui permet de se déplacer, d’agir et de se dissimuler sans être vu, même en terrain découvert ou dans une foule."
+      }
+    }
+  }
+}

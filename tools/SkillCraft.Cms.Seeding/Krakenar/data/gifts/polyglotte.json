@@ -1,0 +1,24 @@
+﻿{
+  "Id": "d56194c2-bd54-46f8-8905-bbbd2fa189c6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "polyglotte",
+    "DisplayName": "Polyglotte",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "polyglotte",
+      "DisplayName": "Polyglotte",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "polyglotte",
+        "HtmlContent": "Le personnage apprend gratuitement deux [langues](/regles/langues) supplémentaires.\n\nUne de ces deux langues peut être une langue exotique, à la discrétion du maître de jeu.\n\nÉgalement, il apprend gratuitement une langue supplémentaire chaque fois que son [tiers](/regles/personnages/progression/tiers) augmente.",
+        "Summary": "Apprend de nouvelles langues gratuitement à chaque progression.",
+        "MetaDescription": "Découvrez le don Polyglotte, qui offre la maîtrise gratuite de plusieurs langues, incluant parfois des idiomes rares ou exotiques."
+      }
+    }
+  }
+}

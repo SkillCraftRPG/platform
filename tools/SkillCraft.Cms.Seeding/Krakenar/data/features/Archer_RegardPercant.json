@@ -1,0 +1,21 @@
+﻿{
+  "Id": "679867e2-c237-4751-bce5-78b7af15397e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Archer_RegardPercant",
+    "DisplayName": "Regard perçant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Archer_RegardPercant",
+      "DisplayName": "Regard perçant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il effectue l’activité [Viser et tirer](/regles/combat/activites/viser-tirer), il peut utiliser deux [actions](/regles/combat/deroulement/tour) et effectuer l’activité [Chercher](/regles/combat/activites/chercher) en même temps, en [action libre](/regles/combat/deroulement/tour).\n\nLorsqu’il en fait ainsi, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests) de [Perception](/regles/competences/perception)."
+      }
+    }
+  }
+}

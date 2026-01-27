@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1b07cfb6-337d-4067-99e9-0f472b671a2d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Bravoure",
+    "DisplayName": "Bravoure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Bravoure",
+      "DisplayName": "Bravoure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum 1) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant la [peur](/regles/combat/conditions/apeure)."
+      }
+    }
+  }
+}

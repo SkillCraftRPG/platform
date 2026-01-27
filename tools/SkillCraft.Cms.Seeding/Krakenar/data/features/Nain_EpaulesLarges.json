@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5cd4d5a5-4839-4090-8804-659b1b3a4298",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_EpaulesLarges",
+    "DisplayName": "Épaules larges",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_EpaulesLarges",
+      "DisplayName": "Épaules larges",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer un bonus permanent (50 %) à sa [Charge](/regles/statistiques/charge)."
+      }
+    }
+  }
+}

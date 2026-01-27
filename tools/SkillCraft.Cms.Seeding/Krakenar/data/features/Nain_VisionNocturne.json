@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9a5f44e4-8bb2-42d5-8f00-cefe725c6e86",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_VisionNocturne",
+    "DisplayName": "Vision nocturne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_VisionNocturne",
+      "DisplayName": "Vision nocturne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres."
+      }
+    }
+  }
+}

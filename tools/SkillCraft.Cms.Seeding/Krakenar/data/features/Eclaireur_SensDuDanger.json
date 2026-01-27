@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a0bc7b66-8b55-44fa-a7d0-f9f9d660e9d5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Eclaireur_SensDuDanger",
+    "DisplayName": "Sens du danger",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Eclaireur_SensDuDanger",
+      "DisplayName": "Sens du danger",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il n’est pas [aveuglé](/regles/combat/conditions/aveugle), [assourdi](/regles/combat/conditions/assourdi), ni [incapable](/regles/combat/conditions/incapable), il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) lorsqu’il [voit](/regles/aventure/environnement/vision) le déclencheur, par exemple un piège.\n\nÉgalement, lorsqu’il voit une créature dont la [taille](/regles/especes/taille) est supérieure d’au moins une catégorie à la sienne échouer une [attaque](/regles/combat/attaque) dirigée contre lui, alors il peut immédiatement effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite) en [réaction](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}
