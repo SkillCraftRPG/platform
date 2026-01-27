@@ -321,17 +321,15 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
   private void SetSpeed(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures)
   {
+    lineage.Walk = 0;
+    lineage.Climb = 0;
+    lineage.Swim = 0;
+    lineage.Fly = 0;
+    lineage.Hover = false;
+    lineage.Burrow = 0;
+
     string value = invariant.GetString(LineageDefinition.Speeds);
-    if (string.IsNullOrWhiteSpace(value))
-    {
-      lineage.Walk = 0;
-      lineage.Climb = 0;
-      lineage.Swim = 0;
-      lineage.Fly = 0;
-      lineage.Hover = false;
-      lineage.Burrow = 0;
-    }
-    else
+    if (!string.IsNullOrWhiteSpace(value))
     {
       string[] values = value.Trim().Split(Separator);
       foreach (string raw in values)
