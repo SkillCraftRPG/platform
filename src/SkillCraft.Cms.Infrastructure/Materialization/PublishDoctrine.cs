@@ -163,5 +163,3 @@ internal class PublishDoctrineCommandHandler : ICommandHandler<PublishDoctrineCo
     }
   }
 }
-
-// TODO(fpion): Migration
