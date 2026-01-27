@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6b1903bc-0f68-4e80-bc9e-710635808787",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "commandant",
+    "DisplayName": "Commandant",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"a9309936-48c7-4f01-be61-e0efb8525b7a\"]",
+      "OptionalTalents": "[\"9f0c90cc-29b8-4fb6-b4c8-fe930b3042d7\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\",\"5b25e5de-53dc-443a-b9e0-71e3c251c3c5\",\"959ac693-3553-4cc0-90ac-f892250d1f77\",\"c9abbe04-b581-4fc3-a815-8a7fe62c2dcb\",\"f49126be-c2f2-49f3-8d2e-20cc0c140200\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"2c09d822-56f7-45bc-a6c7-8a281013e682\",\"fff4d66c-fbbb-44ba-a1f6-609d642f32bc\"]",
+      "Features": "[\"79c27e73-25aa-414e-9e9f-408b31e327e8\",\"f1d278cd-ca5b-4fae-ac30-f94818ccb27e\",\"ad9e2e04-569d-4efb-a347-1e174f390191\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "commandant",
+      "DisplayName": "Commandant",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "commandant",
+        "Summary": "Stratège militaire coordonnant les alliés et influençant le combat.",
+        "HtmlContent": "L’espérance de vie des soldats n’est généralement pas très élevée. Néanmoins, certains réussissent mieux que d’autres, lorsqu’ils utilisent autant leurs facultés physiques qu’intellectuelles. Ces facultés, lorsque couplées à une expérience, permet à une poignée de soldats d’atteindre le rang de commandant au sein de leur armée. Le commandant est responsable du déploiement et de la coordination de ses troupes, et il n’est pas rare de le voir prendre un rôle de diplomate ou d’ambassadeur.",
+        "ReservedTalentName": "Stratège militaire",
+        "MetaDescription": "Découvrez le Commandant : stratège de terrain et meneur d’hommes, expert en coordination tactique, ralliement des troupes et influence diplomatique."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "5dee7c12-f29d-4a09-b828-38b8ca102ed7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "astromancien",
+    "DisplayName": "Astromancien",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "MandatoryTalent": "[\"66e561e9-ef67-4ff7-8615-121e461b9916\"]",
+      "OptionalTalents": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"381cff49-da31-45f8-9e13-f054ce52327d\",\"98a688eb-10d5-4db5-ac37-64c8c4f6ad34\",\"c95f665e-2da3-455f-a87e-2e38d4988a26\",\"9e59e2ba-adcc-4498-b4a1-4c8191ab11a4\",\"966a84ab-ca0e-4460-b9d0-3a38c4c53ade\",\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\",\"3968f65a-586b-4c4c-b71e-f888c321697d\",\"e52ed8a6-fd09-4b4c-a894-770ca354acc9\"]",
+      "Features": "[\"9a5b7bff-374e-40cc-80ac-0e8c1e39691a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "astromancien",
+      "DisplayName": "Astromancien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "astromancien",
+        "Summary": "Mage spécialisé dans l’astromancie et les signes astrologiques.",
+        "HtmlContent": "Les mages, appelés Astromanciens en raison de leur lien particulier avec les astres et les signes astrologiques, sont organisés en réseaux appartenant à une Tour de Magie. Chacun de ces réseaux remplit un objectif bien précis et conserve le secret à propos de ses opérations. De plus, les mages peuvent s’initier à un ou plusieurs cercles de magie afin d’acquérir des capacités propres à ces cercles.",
+        "ReservedTalentName": "Astromancie",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nLorsqu’il [acquiert](/regles/talents/acquisition) un des [talents](/regles/talents) suivants, il acquiert gratuitement l’autre : [Initiation magique](/regles/talents/initiation-magique), [Méditation](/regles/talents/meditation).",
+        "MetaDescription": "Découvrez l’Astromancien, mage des signes et des étoiles, maîtrisant l’astromancie et les grimoires pour percer les secrets du ciel et des arcanes."
+      }
+    }
+  }
+}

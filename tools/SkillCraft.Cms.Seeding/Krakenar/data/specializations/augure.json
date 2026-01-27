@@ -1,0 +1,34 @@
+﻿{
+  "Id": "74b56aac-1c53-4aca-89ce-deaf4a4c121e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "augure",
+    "DisplayName": "Augure",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]",
+      "Features": "[\"47a6e879-081d-4067-b3cb-850ed0fd477a\"]",
+      "OptionalTalents": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"17dcdec1-469d-452b-bf94-c225ddc3017a\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"fec766e0-1278-4091-876e-4f03b4964ff5\"]",
+      "DiscountedTalents": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "augure",
+      "DisplayName": "Augure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "augure",
+        "Summary": "Voyant inspiré lisant les signes divins pour prédire l’avenir des mortels.",
+        "HtmlContent": "Niché au sommet d’un mont, drapé dans ses toges sacrées, l’augure observe les oiseaux volant au-dessus de lui, scrutant les signes et présages que les dieux lui envoient. C’est à partir d’interprétations telles celles-ci que l’augure guide la populace, les généraux et même les nobles. Sa magie fait appel aux esprits qui peuvent prédire le futur et prédire le destin. Il souhaite ne pas se tromper dans ses prédictions et montrer la bonne voie dans sa sphère d’influence.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Élémentariste](/regles/specialisations/elementariste) et s’être spécialisé dans l’élément [Esprit](/regles/talents/elementarisme).\nIl ne doit pas avoir acquis la spécialisation [Haruspice](/regles/specialisations/haruspice).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à l’élément Esprit ([Divination](#)).",
+        "ReservedTalentName": "Présages",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l'élément Esprit ([Divination](#)) et acquiert gratuitement un de ces pouvoirs.\nIl peut désormais utiliser de puissantes [capacités élémentaires](#) de tiers 2.",
+        "MetaDescription": "Découvrez l’Augure, maître des présages et interprète des signes sacrés. Relié aux esprits, il lit le destin, dévoile la vérité et prédit l’avenir des hommes."
+      }
+    }
+  }
+}

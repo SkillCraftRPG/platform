@@ -1,0 +1,33 @@
+﻿{
+  "Id": "3a9d33b0-6e52-4dd6-bca5-77a945c1e450",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "haut-mage",
+    "DisplayName": "Haut Mage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"e6626de7-06c5-41e9-8853-3917a829cf8d\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]",
+      "Features": "[\"e33273ff-96d6-4731-b55f-661a1d2b9bcc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "haut-mage",
+      "DisplayName": "Haut Mage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "haut-mage",
+        "Summary": "Maîtrise érudite d’un cercle magique et accès aux arcanes majeurs.",
+        "HtmlContent": "Lorsqu’un mage maîtrise suffisamment le corpus d’un Cercle de Magie afin de pouvoir l’enseigner, alors il peut tenter l’examen qui lui permettra de devenir Haut Mage s’il le réussit. Cet examen est particulièrement difficile puisqu’il est composé d’épreuves surprises auxquelles on peut difficilement s’y préparer. De plus, après un certain nombre de tentatives échouées, le mage ne peut plus tenter cet examen à sa Tour de Magie. En devenant Haut Mage, il acquiert le respect de ses collègues et accède aux secrets de son Cercle de Magie.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Mage](/regles/specialisations/mage).\nIl ne doit pas avoir acquis la spécialisation [Archimage](/regles/specialisations/archimage).\nIl doit également avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) associé à son [cercle de magie. Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) associés à son cercle de magie.",
+        "ReservedTalentName": "Haute magie",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert les deux capacités de tiers 3 spécifiques au [cercle de magie](#) sélectionné lorsqu’il a acquis la spécialisation [Mage](/regles/specialisations/mage).",
+        "MetaDescription": "Découvrez le Haut Mage : maître érudit d’un cercle de magie, détenteur de secrets avancés d’astromancie et d’une maîtrise magique exceptionnelle."
+      }
+    }
+  }
+}

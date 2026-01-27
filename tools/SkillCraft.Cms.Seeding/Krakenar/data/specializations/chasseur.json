@@ -1,0 +1,31 @@
+﻿{
+  "Id": "656a91dd-ce68-4ca9-b3b1-061ca4592dbc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chasseur",
+    "DisplayName": "Chasseur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\"]",
+      "OptionalTalents": "[\"1f8cf0b2-edb9-4f9f-aa13-a78794b8c1ba\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"f97bed18-fa69-4dfc-86c5-d0759a26732a\",\"29265217-194b-4aa1-b812-2fca7b9bc390\",\"1b374cfe-6709-43e4-a6d9-61c637e0c8a4\",\"973edb2d-facb-473b-9fe9-cb59fce38349\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"60c63539-0bf4-42c5-9cfb-84602a45b37f\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\"]",
+      "DiscountedTalents": "[\"ea127043-238b-46d6-aab8-809a908f3c75\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"1d2d6d96-7eb5-49f1-aa90-2d5a4aa0fc1b\"]",
+      "Features": "[\"f797177f-a741-4733-8a46-4414996efbe3\",\"757cd5ab-a409-43b4-9598-3f1a208aee61\",\"1322e149-27f2-4767-a388-b471721a03d9\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chasseur",
+      "DisplayName": "Chasseur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "chasseur",
+        "Summary": "Prédateur rusé, il traque ses proies et survit là où nul ne s’aventure.",
+        "HtmlContent": "Arpenteur des forêts denses, des étendues sauvages, des déserts de glace ou même des profonds réseaux souterrains de cavernes, le chasseur se fond dans le décor des milieux naturels, silencieux comme le vent et connaisseur des sentiers cachés et des secrets de la nature. La plupart vit à l’écart des sociétés, à l’écart de la civilisation. Il est à la fois craint pour ses aptitudes rappelant celle d’une bête et respecté pour les services rendus lorsqu’il capture ou terrasse un terrible monstre terrorisant les communautés à proximité.",
+        "ReservedTalentName": "Pistage",
+        "MetaDescription": "Découvrez le Chasseur, maître de la traque et de la survie. Silencieux et tenace, il foule la terre sans trace, observe la nature et dompte les bêtes sauvages."
+      }
+    }
+  }
+}

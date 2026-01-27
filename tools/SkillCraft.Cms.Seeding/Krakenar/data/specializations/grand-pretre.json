@@ -1,0 +1,32 @@
+﻿{
+  "Id": "98239036-9dd2-4738-8bed-e9f52a0b1ed0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "grand-pretre",
+    "DisplayName": "Grand-Prêtre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "OptionalTalents": "[\"398cfada-90d4-4e78-ad70-8a96c3f301cc\",\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]",
+      "Features": "[\"e8257110-377c-4ce1-a80f-4ca1ca72fb38\",\"339611b3-edfc-4cb2-bf8b-80edd1997598\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "grand-pretre",
+      "DisplayName": "Grand-Prêtre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "grand-pretre",
+        "Summary": "Canal suprême de la volonté divine et de pouvoirs sacrés majeurs.",
+        "HtmlContent": "Seuls les prêtres les plus fervents de leur divinité peuvent atteindre le titre de Grand-Prêtre. La dédication nécessaire afin d’y accéder est si grande qu’ils sont considérés comme des élus de leur divinité au sein de leur clergé. La puissance issue de la relation entre le Grand-Prêtre et sa divinité est souvent crainte et appréhendée, mais cette puissance reste néanmoins précieuse dans de nombreuses situations.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Prêtre](/regles/specialisations/).\nIl doit également avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 associé à son [domaine divin](/regles/domaines/divins). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine divin](/regles/domaines/divins).",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl peut maintenant invoquer un [pouvoir divin](/regles/specialisations/clerc) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.",
+        "ReservedTalentName": "Élu divin",
+        "MetaDescription": "Découvrez le Grand-Prêtre : élu divin de tiers 3, canal de la volonté de sa divinité, capable d’invocations sacrées et d’interventions divines décisives."
+      }
+    }
+  }
+}

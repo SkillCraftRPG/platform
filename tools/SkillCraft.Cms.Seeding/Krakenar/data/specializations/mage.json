@@ -1,0 +1,34 @@
+﻿{
+  "Id": "28bc5ba4-bccd-497c-ae01-422e88cda7ee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mage",
+    "DisplayName": "Mage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"650d5c63-6463-4a39-aaab-626f45789784\"]",
+      "OptionalTalents": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"17dcdec1-469d-452b-bf94-c225ddc3017a\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]",
+      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]",
+      "Features": "[\"546bc9ff-4b57-4b4d-b6e5-03055babcf74\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mage",
+      "DisplayName": "Mage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mage",
+        "HtmlContent": "Le terme mage désigne les Astromanciens en général, mais le titre de Mage n’est décerné qu’aux plus brillants de ceux-ci. En réussissant une série de tests complexes et éprouvants, un Astromancien prouve sa valeur à une Tour de Magie. Il se spécialise ensuite dans un Cercle de Magie en étudiant le corpus de ses collègues.",
+        "Summary": "Érudit des arcanes ayant perfectionné l’art mystique au sein d’un cercle.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Astromancien](/regles/specialisations/astromancien).\nIl ne doit pas avoir acquis la spécialisation [Magelame](/regles/specialisations/magelame).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#).",
+        "ReservedTalentName": "Magie raffinée",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl sélectionne un des [cercles de magie](/regles/astromancie) pour lequel il a acquis le talent [Initiation magique](/regles/talents/initiation-magique) et il acquiert la capacité de tiers 2 spécifique à ce cercle.",
+        "MetaDescription": "Découvrez le Mage, savant des arcanes ayant triomphé des épreuves d’astromancie. Par sa magie raffinée, il maîtrise les cercles occultes et canalise l’énergie cosmique."
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+﻿{
+  "Id": "bb04ecfd-b806-44ff-8b9d-ef5482f32642",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sorcier",
+    "DisplayName": "Sorcier",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"6fd1c3b5-4a26-4cc1-942a-9f8d844e3027\"]",
+      "OptionalTalents": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"97bc80a5-4c5f-4e79-806f-83587553d743\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"17dcdec1-469d-452b-bf94-c225ddc3017a\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"0ebae52a-9fa8-46e2-85e8-01ee0b6b9e2e\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\",\"fec766e0-1278-4091-876e-4f03b4964ff5\"]",
+      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]",
+      "Features": "[\"1f9d60f2-b727-4bbe-9eeb-7519ec860670\",\"9c9d7317-b6bb-4f3e-87b7-95764e0c3804\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sorcier",
+      "DisplayName": "Sorcier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sorcier",
+        "Summary": "Prêt à tout pour dominer le chaos, il tord la magie pour altérer le destin.",
+        "HtmlContent": "Au sommet d’une tour d’ébène se trouve un sorcier se penchant sur des techniques magiques ésotériques et méconnues de ses semblables. Il manipule des forces et artéfacts anciens et interdits, se plongeant dans des incantations oubliées depuis des siècles ou même plus. Il fait appeler aux vents du chaos afin de manipuler le destin et de déchirer la fabrique du monde matériel. Il est également capable d’absorber les enchantements les plus puissants dirigés vers lui afin de retourner cette énergie contre ses adversaires.",
+        "OtherRequirements": "Le personnage doit avoir acquis le talent [Astrologie](/regles/talents/astrologie).\nIl doit avoir acquis le talent [Élémentarisme](/regles/talents/elementarisme) en sélectionnant l’élément Esprit.\nIl doit avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#) ou associé à l’[élément Esprit](#). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "Un [pouvoir](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#).\nUn pouvoir de tiers 1 associé à l’[élément Esprit](#).",
+        "ReservedTalentName": "Sorcellerie",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) dès qu’il acquiert la spécialisation [Astromancien](/regles/specialisations/astromancien).\nIl peut acquérir les pouvoirs de tiers 2 associés à l’[élément Esprit](#) dès qu’il acquiert la spécialisation [Élémentariste](/regles/specialisations/elementariste), si sa spécialité élémentaire est l’Esprit.\nIl peut utiliser une capacité de [Méta-magie](/regles/talents/meta-magie) en dépensant des [points d’essence élémentaire](#) associés à l’Esprit plutôt que des points d’[Énergie](/regles/statistiques/energie). Lorsqu’il en fait ainsi, il peut remplacer une ou plusieurs tranches de 10 points d’Énergie par un point d’essence élémentaire par tranche.",
+        "MetaDescription": "Découvrez le Sorcier, manipulateur d’essences et d’artefacts anciens. Maître de la méta-magie, il canalise le chaos pour détourner les forces ennemies."
+      }
+    }
+  }
+}

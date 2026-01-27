@@ -1,0 +1,31 @@
+﻿{
+  "Id": "31dec60c-1ea5-4d7f-8e00-6516e02219ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "archidruide",
+    "DisplayName": "Archidruide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "OptionalTalents": "[\"398cfada-90d4-4e78-ad70-8a96c3f301cc\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"c2a0e512-521c-485d-a7e4-784b74e37e40\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"959ac693-3553-4cc0-90ac-f892250d1f77\",\"1d2d6d96-7eb5-49f1-aa90-2d5a4aa0fc1b\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"0b64a74b-9acf-4187-93e8-6c457fe1aa93\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "archidruide",
+      "DisplayName": "Archidruide",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Très rare est le druide qui peut atteindre le rang d’Archidruide et ainsi accéder aux pouvoirs naturels les plus puissants. Pour se faire, il doit dédier sa vie à un ou plusieurs éléments naturels, s’élevant parmi les siens et fondant son propre cercle druidique. Il détermine les préceptes de son cercle, choisit ses recrues et élabore un rite de passage pour son cercle.",
+        "Summary": "Druide maître de l’animisme et des pouvoirs naturels ultimes.",
+        "Slug": "archidruide",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Druide](/regles/specialisations/druide).\nIl ne doit pas avoir acquis la spécialisation [Gardien](/regles/specialisations/gardien).\nIl doit avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 associé à son [domaine d’animisme](/regles/domaines/animisme). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme).",
+        "ReservedTalentName": "Incantation sauvage",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut canaliser des [pouvoirs](/regles/magie/pouvoirs) lorsqu’il assume sa forme sauvage. S’il est en mesure d’émettre des sons et qu’il n’est pas immobilisé, alors il peut ignorer les [composantes](/regles/magie/parametres/composantes) Focus, Somatique et Verbal.",
+        "MetaDescription": "Découvrez l’Archidruide : maître suprême de l’animisme, fondateur de cercle, capable de pouvoirs naturels de tiers 3 et de magie en forme sauvage."
+      }
+    }
+  }
+}

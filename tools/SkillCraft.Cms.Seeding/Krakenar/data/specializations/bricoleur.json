@@ -1,0 +1,33 @@
+﻿{
+  "Id": "da1297f8-8a85-48e8-83da-e5c6c90d5dfd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "bricoleur",
+    "DisplayName": "Bricoleur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"5817ba6d-1b15-432f-9fa7-1b004a3ae997\"]",
+      "Features": "[\"41bf8836-a50c-4bd4-9e10-e41dc1b8efdf\",\"cccd3f97-57f7-4deb-a8cd-5a0acccd9f54\",\"3f078896-d3a1-4ceb-8af6-7a956c975554\"]",
+      "OptionalTalents": "[\"23525c66-0331-44f2-97df-e51ec96c87d8\",\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"55c22052-8b98-4155-9183-baa59aae999f\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5817ba6d-1b15-432f-9fa7-1b004a3ae997\",\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\",\"0daa9126-6911-4cc8-a960-d0898e31c27e\",\"5b2904bd-5e73-458e-a37d-d2d1d15e003f\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\",\"fec766e0-1278-4091-876e-4f03b4964ff5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "bricoleur",
+      "DisplayName": "Bricoleur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "bricoleur",
+        "Summary": "Inventeur futé utilisant bricolages magiques et outils improvisés.",
+        "HtmlContent": "À l’aide de son imagination débordante et de ses outils rudimentaires ou improvisés, le bricoleur répare tout et invente des appareils hors du commun. Il voit chaque problème comme une opportunité de création et utilise ses mains expertes et son esprit vif afin d’apporter de solutions brillantes aux problèmes du quotidien, améliorant ainsi la vie de tous. Bien sûr, il bénéficie d’un peu d’aide magique afin de l’aider à accomplir ces prouesses.",
+        "OtherRequirements": "Le personnage doit avoir acquis les talents [Trousses](/regles/talents/trousses) et [Expertise artisanale](/regles/talents/expertise-artisanale).\nIl doit également avoir acquis un [bricolage magique](#) de tiers 1. Les bricolages magiques acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "Un [bricolage magique](#) de tiers 1.",
+        "ReservedTalentName": "Ingéniosité magique",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [bricolages magiques](#) de tiers 2 et acquiert gratuitement un de ces bricolages magiques. Afin de [canaliser](/regles/magie/pouvoirs/canalisation) ces bricolages magiques à un [niveau](/regles/magie/pouvoirs/niveau) supérieur, il doit avoir acquis le talent [Magie puissante](/regles/talents/magie-puissante) ainsi qu’une des spécialisations suivantes : [Alchimiste](/regles/specialisations/alchimiste) ou [Artificier](/regles/specialisations/artificier).",
+        "MetaDescription": "Découvrez le Bricoleur, un inventeur astucieux maniant outils improvisés et bricolages magiques pour créer, réparer et déjouer les obstacles du quotidien."
+      }
+    }
+  }
+}

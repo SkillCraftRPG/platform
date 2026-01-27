@@ -1,0 +1,33 @@
+﻿{
+  "Id": "0d5c14d0-d968-4091-be46-3d6ac3446cee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maitre-elementaire",
+    "DisplayName": "Maître-élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"9f0c90cc-29b8-4fb6-b4c8-fe930b3042d7\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"69c6a792-9570-4acb-a081-ba9fa11f2c1e\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"5b25e5de-53dc-443a-b9e0-71e3c251c3c5\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"2c09d822-56f7-45bc-a6c7-8a281013e682\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]",
+      "Features": "[\"187a2842-754d-49d8-a5ba-6dccb51f943c\",\"db565775-3e5f-440e-bf22-6c976a8a3fda\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maitre-elementaire",
+      "DisplayName": "Maître-élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le maître-élémentaire est un Élémancien ayant parfait sa faculté à contrôler l’énergie d’un élément. Cette maîtrise lui permet d’accéder les pouvoirs élémentaires les plus puissants. L’atteinte de cette maîtrise est un exploit en soi, puisqu’il nécessite une grande puissante brute et une maîtrise de soi, talents qui sont rarement distribués au même individu.",
+        "Slug": "maitre-elementaire",
+        "Summary": "Maîtrise totale d’un élément et accès aux pouvoirs élémentaires suprêmes.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Élémancien](/regles/specialisations/elemancien).\nIl ne doit pas avoir acquis la spécialisation [Éthermancien](/regles/specialisations/ethermancien).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste).",
+        "ReservedTalentName": "Maîtrise élémentaire",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert gratuitement un de ces pouvoirs.\nIl peut également acquérir les pouvoirs de tiers 3 associés à une [combinaison élémentaire](#) incluant sa spécialité.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 3.",
+        "MetaDescription": "Découvrez le Maître-élémentaire : élémancien de tiers 3 ayant atteint la maîtrise absolue d’un élément et capable de déchaîner des pouvoirs élémentaires ultimes."
+      }
+    }
+  }
+}

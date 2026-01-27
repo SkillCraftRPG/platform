@@ -1,0 +1,33 @@
+﻿{
+  "Id": "20b1de20-c121-49cc-be10-4937cad25729",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "druide",
+    "DisplayName": "Druide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\"]",
+      "Features": "[\"8bac5921-d827-43c6-8aac-a6f0ae3272ed\"]",
+      "OptionalTalents": "[\"297df6fe-d29a-4aa9-b9d1-34b8838850b6\",\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"7105682d-e30d-445c-869f-7a59e1500bf6\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"f7fd8d17-57e9-418e-802f-a8aeaa443e4e\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"60c63539-0bf4-42c5-9cfb-84602a45b37f\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"edc9b423-bb0b-4259-aaf0-8b22d2db3519\",\"066f198d-e331-4006-8bd9-2831aff258de\",\"96522676-0e8d-4ee9-8435-b0f4d5ae5c27\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "druide",
+      "DisplayName": "Druide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "druide",
+        "HtmlContent": "Le druide est un animiste ayant réussi un rite de passage afin d’être accepté dans un cercle d’un culte spirituel voué à un ou plusieurs éléments naturels. L’appartenance à ce culte lui a permis d’accéder aux secrets de ce culte, notamment un langage clandestin et des pouvoirs de puissance supérieure. Ces pouvoirs sont accompagnés de nouvelles responsabilités : il doit respecter les préceptes du cercle l’ayant accepté afin de conserver le droit de les utiliser.",
+        "Summary": "Gardien de la nature, maître des formes sauvages et du verbe sacré.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Animiste](/regles/specialisations/animiste).\nIl ne doit pas avoir acquis la spécialisation [Chaman](/regles/specialisations/chaman).\nIl doit avoir sélectionné un [domaine d’animisme naturel](/regles/domaines/animisme) lorsqu’il a acquis le talent [Spiritualité](/regles/talents/spiritualite).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine d’animisme](/regles/domaines/animisme).",
+        "ReservedTalentName": "Druidisme",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut prendre la forme d’une bête de niveau inférieur ou égal à 1, et celle-ci peut être dotée d’une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) et de [vol](/regles/aventure/mouvement/types).",
+        "MetaDescription": "Découvrez le Druide, initié des cercles spirituels voués à la nature. Grâce au druidisme, il parle le langage secret du monde et prend la forme des bêtes."
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+﻿{
+  "Id": "8d8f989a-6b50-475c-8d1a-38dcae61c61b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "pretre",
+    "DisplayName": "Prêtre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "MandatoryTalent": "[\"ac76e322-95b6-4bf5-a9c7-80ba7a91da79\"]",
+      "Features": "[\"49022307-f9f6-4da4-a58f-8ca1fa376fda\"]",
+      "OptionalTalents": "[\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\",\"164431e1-ff43-4ad7-9fdd-0e8b8d03080d\",\"da6a0b6e-4ff7-402e-9959-f5a12ff10362\",\"5b1cf18c-f787-49f9-9881-d2086df74664\",\"aa6905b3-98d0-4ea6-8fc3-06f47aed66db\",\"17dcdec1-469d-452b-bf94-c225ddc3017a\",\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"0a9e78a0-14db-465d-a10d-8673b83c77ef\",\"c23cf3b8-baaf-4ccb-9870-03053037086c\",\"8ede9dff-faf5-49b9-88c0-ac8963ba83dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "pretre",
+      "DisplayName": "Prêtre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "pretre",
+        "Summary": "Serviteur consacré canalisant la puissance de sa divinité protectrice.",
+        "HtmlContent": "Le prêtre est un clerc ayant progressé au sein de son clergé. Il est non seulement reconnu par ses pairs comme un important ambassadeur de sa divinité par un échelon plus élevé, il est également reconnu par sa divinité en recevant des pouvoirs plus puissants de la part de celle-ci.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Clerc](/regles/specialisations/clerc).\nIl ne doit pas avoir acquis la spécialisation [Champion](/regles/specialisations/champion).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine divin](/regles/domaines/divins).",
+        "ReservedTalentName": "Prêtrise",
+        "ReservedTalentHtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine divin](/regles/domaines/divins).\nIl peut maintenant invoquer un [pouvoir divin](/regles/specialisations/clerc) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.",
+        "MetaDescription": "Découvrez le Prêtre, émissaire des dieux et canal de leur puissance. Par la prêtrise, il invoque la magie divine pour soigner, purifier et frapper au nom du sacré."
+      }
+    }
+  }
+}
