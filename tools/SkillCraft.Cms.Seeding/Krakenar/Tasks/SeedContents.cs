@@ -44,6 +44,32 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
       .ToHashSetAsync(cancellationToken);
 
     IReadOnlyCollection<ContentPayload> payloads = await ExtractAsync(task.Directory, cancellationToken);
+    await LoadAsync(payloads, existingIds, task.ContentTypeId.ToString(), task.DefaultLanguage, cancellationToken);
+
+    return Unit.Value;
+  }
+
+  private static async Task<IReadOnlyCollection<ContentPayload>> ExtractAsync(string directory, CancellationToken cancellationToken)
+  {
+    Directory.CreateDirectory(directory);
+    string[] paths = Directory.GetFiles(directory, "*.json");
+    List<ContentPayload> payloads = new(capacity: paths.Length);
+
+    foreach (string path in paths)
+    {
+      string json = await File.ReadAllTextAsync(path, Encoding.UTF8, cancellationToken);
+      ContentPayload? payload = SeedingSerializer.Deserialize<ContentPayload>(json);
+      if (payload is not null)
+      {
+        payloads.Add(payload);
+      }
+    }
+
+    return payloads.AsReadOnly();
+  }
+
+  private async Task LoadAsync(IEnumerable<ContentPayload> payloads, IReadOnlySet<Guid> existingIds, string contentType, string defaultLanguage, CancellationToken cancellationToken)
+  {
     foreach (ContentPayload payload in payloads)
     {
       Guid contentId = payload.Id;
@@ -68,8 +94,8 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
         CreateContentPayload createPayload = new()
         {
           Id = contentId,
-          ContentType = task.ContentTypeId.ToString(),
-          Language = task.DefaultLanguage,
+          ContentType = contentType,
+          Language = defaultLanguage,
           UniqueName = invariant.UniqueName,
           DisplayName = invariant.DisplayName,
           Description = invariant.Description
@@ -123,26 +149,5 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
         content.Id,
         created ? "created" : "replaced");
     }
-
-    return Unit.Value;
-  }
-
-  private static async Task<IReadOnlyCollection<ContentPayload>> ExtractAsync(string directory, CancellationToken cancellationToken)
-  {
-    Directory.CreateDirectory(directory);
-    string[] paths = Directory.GetFiles(directory, "*.json");
-    List<ContentPayload> payloads = new(capacity: paths.Length);
-
-    foreach (string path in paths)
-    {
-      string json = await File.ReadAllTextAsync(path, Encoding.UTF8, cancellationToken);
-      ContentPayload? payload = SeedingSerializer.Deserialize<ContentPayload>(json);
-      if (payload is not null)
-      {
-        payloads.Add(payload);
-      }
-    }
-
-    return payloads.AsReadOnly();
   }
 }
