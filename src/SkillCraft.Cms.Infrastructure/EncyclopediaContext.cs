@@ -11,6 +11,7 @@ public class EncyclopediaContext : DbContext
   {
   }
 
+  internal DbSet<ArticleEntity> Articles => Set<ArticleEntity>();
   internal DbSet<CollectionEntity> Collections => Set<CollectionEntity>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)

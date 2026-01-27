@@ -1,0 +1,72 @@
+﻿using Krakenar.Core.Contents;
+using Krakenar.Core.Contents.Events;
+using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
+
+namespace SkillCraft.Cms.Infrastructure.Entities;
+
+internal class ArticleEntity : AggregateEntity
+{
+  public int ArticleId { get; private set; }
+  public Guid Id { get; private set; }
+
+  public bool IsPublished { get; private set; }
+
+  public string Slug { get; set; } = string.Empty;
+  public string SlugNormalized
+  {
+    get => Helper.Normalize(Slug);
+    private set { }
+  }
+  public string Title { get; set; } = string.Empty;
+
+  public CollectionEntity? Collection { get; private set; }
+  public int CollectionId { get; private set; }
+  public Guid CollectionUid { get; private set; }
+
+  public ArticleEntity? Parent { get; private set; }
+  public int? ParentId { get; private set; }
+  public Guid? ParentUid { get; private set; }
+
+  public string? MetaDescription { get; set; }
+  public string? HtmlContent { get; set; }
+
+  public ArticleEntity(ContentLocalePublished @event) : base(@event)
+  {
+    Id = new ContentId(@event.StreamId).EntityId;
+  }
+
+  private ArticleEntity() : base()
+  {
+  }
+
+  public void Publish(ContentLocalePublished @event)
+  {
+    Update(@event);
+
+    IsPublished = true;
+  }
+
+  public void SetCollection(CollectionEntity collection)
+  {
+    Collection = collection;
+    CollectionId = collection.CollectionId;
+    CollectionUid = collection.Id;
+  }
+
+  public void SetParent(ArticleEntity parent)
+  {
+    Parent = parent;
+    ParentId = parent?.ParentId;
+    ParentUid = parent?.Id;
+  }
+
+  public void Unpublish(ContentLocaleUnpublished @event)
+  {
+    Update(@event);
+
+    IsPublished = false;
+  }
+
+  public override string ToString() => $"{Title} | {base.ToString()}";
+}
