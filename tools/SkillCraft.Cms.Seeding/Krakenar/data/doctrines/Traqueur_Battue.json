@@ -1,0 +1,25 @@
+﻿{
+  "Id": "61fe0bd9-ce58-4d18-8e72-486b21287f34",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Traqueur_Battue",
+    "DisplayName": "Battue",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"2ff6fde0-056e-4bf5-8996-10a6bf3ffaac\"]",
+      "DiscountedTalents": "[\"d801c31b-ae74-4f12-ba4e-8869f68453f4\",\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\",\"619e0540-95ba-4bf5-be23-c4a7b1f70b0c\"]",
+      "Features": "[\"b74c52e7-65f0-4b18-aa23-9847ff86587d\",\"25f9e852-3246-4713-8b22-ba47885d8c1b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Traqueur_Battue",
+      "DisplayName": "Battue",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage porte un [camouflage naturel](/regles/talents/bricolage-naturel), alors il se voit conférer un bonus (+10) supplémentaire à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite)."
+      }
+    }
+  }
+}

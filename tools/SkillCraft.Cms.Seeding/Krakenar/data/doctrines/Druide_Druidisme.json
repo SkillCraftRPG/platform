@@ -1,0 +1,24 @@
+﻿{
+  "Id": "7044f6a2-af7a-4627-8efb-8c70873a17e0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Druide_Druidisme",
+    "DisplayName": "Druidisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"20b1de20-c121-49cc-be10-4937cad25729\"]",
+      "Features": "[\"8bac5921-d827-43c6-8aac-a6f0ae3272ed\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Druide_Druidisme",
+      "DisplayName": "Druidisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut prendre la forme d’une bête de niveau inférieur ou égal à 1, et celle-ci peut être dotée d’une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) et de [vol](/regles/aventure/mouvement/types)."
+      }
+    }
+  }
+}

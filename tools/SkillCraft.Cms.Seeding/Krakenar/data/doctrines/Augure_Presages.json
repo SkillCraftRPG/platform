@@ -1,0 +1,25 @@
+﻿{
+  "Id": "2c192b21-0a6a-456d-8e88-7e3f6532a0b3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Augure_Presages",
+    "DisplayName": "Présages",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"74b56aac-1c53-4aca-89ce-deaf4a4c121e\"]",
+      "Features": "[\"47a6e879-081d-4067-b3cb-850ed0fd477a\"]",
+      "DiscountedTalents": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Augure_Presages",
+      "DisplayName": "Présages",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l'élément Esprit ([Divination](#)) et acquiert gratuitement un de ces pouvoirs.\nIl peut désormais utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+      }
+    }
+  }
+}

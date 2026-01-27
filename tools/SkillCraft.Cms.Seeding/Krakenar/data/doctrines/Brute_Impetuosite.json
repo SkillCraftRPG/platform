@@ -1,0 +1,23 @@
+﻿{
+  "Id": "5b435b58-c3ba-40fb-9e73-5722d033e3ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Brute_Impetuosite",
+    "DisplayName": "Impétuosité",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"8c76203d-6a1c-45fe-b948-04da3f8a9648\"]",
+      "DiscountedTalents": "[\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"5815f9d0-9e4c-426f-b103-0490535796cc\",\"ccd64cee-29c5-46f5-b2d0-b1c9160aa759\"]",
+      "Features": "[\"c1b110bc-16ab-4d43-b9ea-d8f8bb82a532\",\"44def412-2137-4ac7-baa7-3e84ac3198e1\",\"a0d08837-4198-4fef-9fda-c7a4cd68e30e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Brute_Impetuosite",
+      "DisplayName": "Impétuosité",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

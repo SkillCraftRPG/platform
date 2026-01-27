@@ -1,0 +1,25 @@
+﻿{
+  "Id": "1d4bce8f-3a88-4571-b065-61cfea8353e6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Roublard_Subterfuge",
+    "DisplayName": "Subterfuge",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"62c2c021-e25a-4dbb-bb24-4c9021561355\"]",
+      "DiscountedTalents": "[\"4a72617a-6415-4afe-9b2d-cd0eeae6ae39\",\"2e928d87-34eb-4a26-8dd0-453c021fda61\"]",
+      "Features": "[\"bd10409d-cd26-402c-abbe-56c465a9605d\",\"d65b6abd-a99d-4722-85c9-6c45e86b7764\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Roublard_Subterfuge",
+      "DisplayName": "Subterfuge",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La prochaine fois qu’il [acquiert](/regles/talents/acquisition) le talent [Expertise](/regles/talents/expertise), alors il acquiert gratuitement ce [talent](/regles/talents) pour une autre [compétence](/regles/competences) de son choix."
+      }
+    }
+  }
+}

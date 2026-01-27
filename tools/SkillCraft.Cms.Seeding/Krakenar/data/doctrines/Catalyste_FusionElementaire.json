@@ -1,0 +1,25 @@
+﻿{
+  "Id": "cb65d233-d7fd-4f13-8f82-c41714bb2d79",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Catalyste_FusionElementaire",
+    "DisplayName": "Fusion élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"b1af560f-a1f9-4801-aebc-8cf9ddd1d882\"]",
+      "Features": "[\"da862fa7-bcae-4c8d-a8db-c0680b46c9f4\"]",
+      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Catalyste_FusionElementaire",
+      "DisplayName": "Fusion élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste). Le prochain pouvoir qu’il acquiert parmi cette liste est acquis [à rabais](/regles/magie/pouvoirs/acquisition).\nIl peut également acquérir les pouvoirs de tiers 2 associés à une [combinaison élémentaire](#) incluant sa spécialité, et acquiert gratuitement un de ces pouvoirs.\nEnfin, il peut acquérir les pouvoirs de tiers 1 associés aux autres [éléments qu’il contrôle](/regles/talents/elementarisme), ainsi que ceux associés à une combinaison de ces éléments.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+      }
+    }
+  }
+}

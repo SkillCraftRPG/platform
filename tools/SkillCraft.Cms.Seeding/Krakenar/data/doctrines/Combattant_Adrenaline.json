@@ -1,0 +1,23 @@
+﻿{
+  "Id": "b99d059d-21e7-4ea8-bcb2-62f95658b525",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Combattant_Adrenaline",
+    "DisplayName": "Adrénaline",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"fb0ef845-b7aa-4a2a-a1e5-b8bc4defc8b2\"]",
+      "DiscountedTalents": "[\"6e31c8e4-b48c-42f3-9024-e972ac256728\",\"10b43316-6e48-4336-a446-a58475c6fa6a\"]",
+      "Features": "[\"f53708e7-c7ac-412f-96c4-2c312301c14b\",\"77112879-b794-45a8-adf7-37857b958b4c\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Combattant_Adrenaline",
+      "DisplayName": "Adrénaline",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

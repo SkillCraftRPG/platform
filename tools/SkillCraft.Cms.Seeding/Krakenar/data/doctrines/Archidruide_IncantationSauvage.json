@@ -1,0 +1,23 @@
+﻿{
+  "Id": "5fe60c72-b26a-4620-956e-c1b2bb308299",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Archidruide_IncantationSauvage",
+    "DisplayName": "Incantation sauvage",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"31dec60c-1ea5-4d7f-8e00-6516e02219ae\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Archidruide_IncantationSauvage",
+      "DisplayName": "Incantation sauvage",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut canaliser des [pouvoirs](/regles/magie/pouvoirs) lorsqu’il assume sa forme sauvage. S’il est en mesure d’émettre des sons et qu’il n’est pas immobilisé, alors il peut ignorer les [composantes](/regles/magie/parametres/composantes) Focus, Somatique et Verbal."
+      }
+    }
+  }
+}

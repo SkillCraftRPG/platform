@@ -1,0 +1,25 @@
+﻿{
+  "Id": "15f50bb2-a57b-44e7-8fab-919c8aaf55e7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Barde_Exaltation",
+    "DisplayName": "Exaltation",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"e43f655e-3634-47f1-a001-c2fd2ac02e76\"]",
+      "Features": "[\"51a3f358-50d7-4588-a20c-80b26f84d3ce\",\"fafbb833-1ff3-481c-8473-7442146b172c\"]",
+      "DiscountedTalents": "[\"36d6b4b3-1ce4-4aa4-8382-d08596c338d8\",\"76600f51-f0e5-4544-bc0c-31fba6698164\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Barde_Exaltation",
+      "DisplayName": "Exaltation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir le talent [Savoir légendaire](/regles/talents/savoir-legendaire) au coût de [3 points de talent](/regles/talents/points) seulement.\nLorsqu’il dépense 15 points d’[Énergie](/regles/statistiques/energie) afin d’[améliorer](/regles/specialisations/troubadour) sa [Berceuse apaisante](/regles/specialisations/menestrel), alors il ajoute la totalité de son [Stratagème](/regles/statistiques/stratageme) aux points de [Vitalité](/regles/statistiques/vitalite) [récupérés](/regles/combat/degats/soins) plutôt que la moitié.\nLorsqu’une créature inspirée par le [Boléro héroïque](/regles/specialisations/menestrel) ajoute le d10 à un [test](/regles/competences/tests) et échoue le test, alors elle conserve le dé."
+      }
+    }
+  }
+}

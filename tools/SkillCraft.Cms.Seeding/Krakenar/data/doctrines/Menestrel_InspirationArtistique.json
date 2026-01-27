@@ -1,0 +1,25 @@
+﻿{
+  "Id": "f66dc27a-fce4-47aa-8dff-02a5e6845dc7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Menestrel_InspirationArtistique",
+    "DisplayName": "Inspiration artistique",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"a0305858-6df7-44a0-8680-57a81a53aa36\"]",
+      "DiscountedTalents": "[\"9252d1cb-a4d4-4273-88b9-cf419aa16f49\",\"4b19a88e-2d1b-4579-886c-3eb0b719fe4a\"]",
+      "Features": "[\"a304cfeb-1041-4328-94e5-26cc4f15b4b0\",\"82f46d82-efbd-4ba0-84ba-5125f8420509\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Menestrel_InspirationArtistique",
+      "DisplayName": "Inspiration artistique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La prochaine fois qu’il [acquiert](/regles/talents/acquisition) le talent [Expertise](/regles/talents/expertise), alors il acquiert gratuitement ce [talent](/regles/talents) pour une autre [compétence](/regles/competences) de son choix."
+      }
+    }
+  }
+}

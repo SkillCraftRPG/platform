@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2518b58c-b4a0-4df1-a140-8a8c00bd10b2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Magelame_MagieDeCombat",
+    "DisplayName": "Magie de combat",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"6694982d-66a3-49d0-9857-7a01ead402c5\"]",
+      "Features": "[\"c7a6b7e5-b851-4df2-bd23-2cee8492b3a7\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Magelame_MagieDeCombat",
+      "DisplayName": "Magie de combat",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) appartenant au cercle d’Abjuration.\nLorsqu’il [acquiert](/regles/talents/acquisition) le talent [Magie guerrière](/regles/talents/magie-guerriere), alors il acquiert gratuitement le talent [Attaque magique](/regles/talents/attaque-magique)."
+      }
+    }
+  }
+}

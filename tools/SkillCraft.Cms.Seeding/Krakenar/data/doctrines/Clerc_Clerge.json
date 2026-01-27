@@ -1,0 +1,24 @@
+﻿{
+  "Id": "6e655e36-0749-4522-8e8a-c77ce31744e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Clerc_Clerge",
+    "DisplayName": "Clergé",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"07f0980d-1c1f-44bc-aee8-998298fa6546\"]",
+      "Features": "[\"3b91802e-596b-4a16-a490-c1f020f55117\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Clerc_Clerge",
+      "DisplayName": "Clergé",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 1 spécifique à son [domaine divin](/regles/domaines/divins)."
+      }
+    }
+  }
+}

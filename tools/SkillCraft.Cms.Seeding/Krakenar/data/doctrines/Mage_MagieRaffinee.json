@@ -1,0 +1,25 @@
+﻿{
+  "Id": "1df3fabf-6a85-423e-bf7f-7cff701765d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mage_MagieRaffinee",
+    "DisplayName": "Magie raffinée",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"28bc5ba4-bccd-497c-ae01-422e88cda7ee\"]",
+      "DiscountedTalents": "[\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]",
+      "Features": "[\"546bc9ff-4b57-4b4d-b6e5-03055babcf74\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mage_MagieRaffinee",
+      "DisplayName": "Magie raffinée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl sélectionne un des [cercles de magie](/regles/astromancie) pour lequel il a acquis le talent [Initiation magique](/regles/talents/initiation-magique) et il acquiert la capacité de tiers 2 spécifique à ce cercle."
+      }
+    }
+  }
+}

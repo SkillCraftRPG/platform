@@ -1,0 +1,24 @@
+﻿{
+  "Id": "34d6b7ed-54ad-44e1-a41c-27d4341b4682",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HautMage_HauteMagie",
+    "DisplayName": "Haute magie",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"3a9d33b0-6e52-4dd6-bca5-77a945c1e450\"]",
+      "Features": "[\"e33273ff-96d6-4731-b55f-661a1d2b9bcc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HautMage_HauteMagie",
+      "DisplayName": "Haute magie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert les deux capacités de tiers 3 spécifiques au [cercle de magie](#) sélectionné lorsqu’il a acquis la spécialisation [Mage](/regles/specialisations/mage)."
+      }
+    }
+  }
+}
