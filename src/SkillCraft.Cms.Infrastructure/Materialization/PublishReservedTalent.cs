@@ -76,7 +76,7 @@ internal class PublishDoctrineTalentCommandHandler : ICommandHandler<PublishDoct
     {
       if (!talents.ContainsKey(discountedTalent.TalentUid))
       {
-        _rules.DoctrineTalentDiscountedTalents.Remove(discountedTalent);
+        _rules.DoctrineDiscountedTalents.Remove(discountedTalent);
       }
     }
 
@@ -111,7 +111,7 @@ internal class PublishDoctrineTalentCommandHandler : ICommandHandler<PublishDoct
     {
       if (!features.ContainsKey(feature.FeatureUid))
       {
-        _rules.DoctrineTalentFeatures.Remove(feature);
+        _rules.DoctrineFeatures.Remove(feature);
       }
     }
 
@@ -164,5 +164,4 @@ internal class PublishDoctrineTalentCommandHandler : ICommandHandler<PublishDoct
   }
 }
 
-// TODO(fpion): Specialization Configurations (5)
 // TODO(fpion): Migration

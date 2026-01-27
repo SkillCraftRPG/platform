@@ -15,9 +15,9 @@ public class RulesContext : DbContext
   internal DbSet<CasteEntity> Castes => Set<CasteEntity>();
   internal DbSet<CustomizationEntity> Customizations => Set<CustomizationEntity>();
   internal DbSet<EducationEntity> Educations => Set<EducationEntity>();
-  internal DbSet<DoctrineDiscountedTalentEntity> DoctrineTalentDiscountedTalents => Set<DoctrineDiscountedTalentEntity>();
+  internal DbSet<DoctrineDiscountedTalentEntity> DoctrineDiscountedTalents => Set<DoctrineDiscountedTalentEntity>();
   internal DbSet<DoctrineEntity> Doctrines => Set<DoctrineEntity>();
-  internal DbSet<DoctrineFeatureEntity> DoctrineTalentFeatures => Set<DoctrineFeatureEntity>();
+  internal DbSet<DoctrineFeatureEntity> DoctrineFeatures => Set<DoctrineFeatureEntity>();
   internal DbSet<FeatureEntity> Features => Set<FeatureEntity>();
   internal DbSet<LanguageEntity> Languages => Set<LanguageEntity>();
   internal DbSet<LineageEntity> Lineages => Set<LineageEntity>();

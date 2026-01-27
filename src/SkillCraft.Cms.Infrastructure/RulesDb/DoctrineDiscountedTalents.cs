@@ -3,9 +3,9 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.RulesDb;
 
-internal static class DoctrineTalentDiscountedTalents
+internal static class DoctrineDiscountedTalents
 {
-  public static readonly TableId Table = new(RulesContext.Schema, nameof(RulesContext.DoctrineTalentDiscountedTalents), alias: null);
+  public static readonly TableId Table = new(RulesContext.Schema, nameof(RulesContext.DoctrineDiscountedTalents), alias: null);
 
   public static readonly ColumnId DoctrineId = new(nameof(DoctrineDiscountedTalentEntity.DoctrineId), Table);
   public static readonly ColumnId DoctrineUid = new(nameof(DoctrineDiscountedTalentEntity.DoctrineUid), Table);
