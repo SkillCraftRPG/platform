@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
+    <ProjectReference Include="..\..\src\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,9 +32,5 @@
     <Using Include="System.Text.Encodings.Web" />
     <Using Include="System.Text.Json" />
     <Using Include="System.Text.Json.Serialization" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="output\data\attributes\" />
   </ItemGroup>
 </Project>
