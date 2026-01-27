@@ -33,8 +33,8 @@ internal class SpecializationEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public DoctrineEntity? Doctrine { get; private set; }
   public List<SpecializationOptionalTalentEntity> OptionalTalents { get; private set; } = [];
-  public ExclusiveTalentEntity? ExclusiveTalent { get; private set; }
 
   public SpecializationEntity(ContentLocalePublished @event) : base(@event)
   {

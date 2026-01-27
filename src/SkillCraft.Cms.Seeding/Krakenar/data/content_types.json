@@ -1325,8 +1325,8 @@
   {
     "Id": "2956052d-982b-4b1e-9d62-3ec419be5a48",
     "IsInvariant": false,
-    "UniqueName": "ExclusiveTalent",
-    "DisplayName": "Talent exclusif",
+    "UniqueName": "Doctrine",
+    "DisplayName": "Doctrine",
     "Description": null,
     "Fields": [
       {

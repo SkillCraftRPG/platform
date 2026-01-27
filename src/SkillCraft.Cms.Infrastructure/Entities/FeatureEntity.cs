@@ -23,9 +23,9 @@ internal class FeatureEntity : AggregateEntity
   public string? HtmlContent { get; set; }
 
   public List<CasteEntity> Castes { get; private set; } = [];
+  public List<DoctrineFeatureEntity> Doctrines { get; private set; } = [];
   public List<EducationEntity> Educations { get; private set; } = [];
   public List<LineageFeatureEntity> Lineages { get; private set; } = [];
-  public List<ExclusiveTalentFeatureEntity> ExclusiveTalents { get; private set; } = [];
 
   public FeatureEntity(ContentLocalePublished @event) : base(@event)
   {

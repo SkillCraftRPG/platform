@@ -1,6 +1,6 @@
 ﻿namespace SkillCraft.Cms.Infrastructure.Contents;
 
-public static class ExclusiveTalentDefinition
+public static class DoctrineDefinition
 {
   public static readonly Guid ContentTypeId = Guid.Parse("2956052d-982b-4b1e-9d62-3ec419be5a48");
 

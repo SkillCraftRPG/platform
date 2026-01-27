@@ -10,48 +10,48 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Materialization;
 
-internal record PublishExclusiveTalentCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
+internal record PublishDoctrineTalentCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
 
-internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExclusiveTalentCommand, Unit>
+internal class PublishDoctrineTalentCommandHandler : ICommandHandler<PublishDoctrineTalentCommand, Unit>
 {
-  private readonly ILogger<PublishExclusiveTalentCommandHandler> _logger;
+  private readonly ILogger<PublishDoctrineTalentCommandHandler> _logger;
   private readonly RulesContext _rules;
 
-  public PublishExclusiveTalentCommandHandler(ILogger<PublishExclusiveTalentCommandHandler> logger, RulesContext rules)
+  public PublishDoctrineTalentCommandHandler(ILogger<PublishDoctrineTalentCommandHandler> logger, RulesContext rules)
   {
     _logger = logger;
     _rules = rules;
   }
 
-  public async Task<Unit> HandleAsync(PublishExclusiveTalentCommand command, CancellationToken cancellationToken)
+  public async Task<Unit> HandleAsync(PublishDoctrineTalentCommand command, CancellationToken cancellationToken)
   {
     ContentLocalePublished @event = command.Event;
     ContentLocale invariant = command.Invariant;
     ContentLocale locale = command.Locale;
 
     string streamId = @event.StreamId.Value;
-    ExclusiveTalentEntity? exclusiveTalent = await _rules.ExclusivedTalents
+    DoctrineEntity? doctrine = await _rules.Doctrines
       .Include(x => x.DiscountedTalents)
       .Include(x => x.Features)
       .SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
-    if (exclusiveTalent is null)
+    if (doctrine is null)
     {
-      exclusiveTalent = new ExclusiveTalentEntity(command.Event);
-      _rules.ExclusivedTalents.Add(exclusiveTalent);
+      doctrine = new DoctrineEntity(command.Event);
+      _rules.Doctrines.Add(doctrine);
     }
 
     List<ValidationFailure> failures = [];
 
-    exclusiveTalent.Key = locale.UniqueName.Value;
-    exclusiveTalent.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
+    doctrine.Key = locale.UniqueName.Value;
+    doctrine.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
-    await SetSpecializationAsync(exclusiveTalent, invariant, failures, cancellationToken);
-    await SetDiscountedTalentsAsync(exclusiveTalent, invariant, failures, cancellationToken);
-    await SetFeaturesAsync(exclusiveTalent, invariant, failures, cancellationToken);
+    await SetSpecializationAsync(doctrine, invariant, failures, cancellationToken);
+    await SetDiscountedTalentsAsync(doctrine, invariant, failures, cancellationToken);
+    await SetFeaturesAsync(doctrine, invariant, failures, cancellationToken);
 
-    exclusiveTalent.HtmlContent = locale.TryGetString(ExclusiveTalentDefinition.HtmlContent);
+    doctrine.HtmlContent = locale.TryGetString(DoctrineDefinition.HtmlContent);
 
-    exclusiveTalent.Publish(@event);
+    doctrine.Publish(@event);
 
     if (failures.Count > 0)
     {
@@ -60,39 +60,39 @@ internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExc
     }
 
     await _rules.SaveChangesAsync(cancellationToken);
-    _logger.LogInformation("The exclusive talent '{ExclusiveTalent}' has been published.", exclusiveTalent);
+    _logger.LogInformation("The doctrine '{Doctrine}' has been published.", doctrine);
 
     return Unit.Value;
   }
 
-  private async Task SetDiscountedTalentsAsync(ExclusiveTalentEntity exclusiveTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  private async Task SetDiscountedTalentsAsync(DoctrineEntity doctrine, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
-    IReadOnlyCollection<Guid> talentIds = invariant.GetRelatedContent(ExclusiveTalentDefinition.DiscountedTalents);
+    IReadOnlyCollection<Guid> talentIds = invariant.GetRelatedContent(DoctrineDefinition.DiscountedTalents);
     Dictionary<Guid, TalentEntity> talents = talentIds.Count < 1
       ? []
       : await _rules.Talents.Where(x => talentIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
 
-    foreach (ExclusiveTalentDiscountedTalentEntity discountedTalent in exclusiveTalent.DiscountedTalents)
+    foreach (DoctrineDiscountedTalentEntity discountedTalent in doctrine.DiscountedTalents)
     {
       if (!talents.ContainsKey(discountedTalent.TalentUid))
       {
-        _rules.ExclusiveTalentDiscountedTalents.Remove(discountedTalent);
+        _rules.DoctrineTalentDiscountedTalents.Remove(discountedTalent);
       }
     }
 
-    HashSet<Guid> existingIds = exclusiveTalent.DiscountedTalents.Select(x => x.TalentUid).ToHashSet();
+    HashSet<Guid> existingIds = doctrine.DiscountedTalents.Select(x => x.TalentUid).ToHashSet();
     foreach (Guid talentId in talentIds)
     {
       if (talents.TryGetValue(talentId, out TalentEntity? talent))
       {
         if (!existingIds.Contains(talentId))
         {
-          exclusiveTalent.AddDiscountedTalent(talent);
+          doctrine.AddDiscountedTalent(talent);
         }
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(ExclusiveTalentDefinition.DiscountedTalents), "'{PropertyName}' must reference existing entities.", talentId)
+        failures.Add(new ValidationFailure(nameof(DoctrineDefinition.DiscountedTalents), "'{PropertyName}' must reference existing entities.", talentId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -100,34 +100,34 @@ internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExc
     }
   }
 
-  private async Task SetFeaturesAsync(ExclusiveTalentEntity exclusiveTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  private async Task SetFeaturesAsync(DoctrineEntity doctrine, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
-    IReadOnlyCollection<Guid> featureIds = invariant.GetRelatedContent(ExclusiveTalentDefinition.Features);
+    IReadOnlyCollection<Guid> featureIds = invariant.GetRelatedContent(DoctrineDefinition.Features);
     Dictionary<Guid, FeatureEntity> features = featureIds.Count < 1
       ? []
       : await _rules.Features.Where(x => featureIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
 
-    foreach (ExclusiveTalentFeatureEntity feature in exclusiveTalent.Features)
+    foreach (DoctrineFeatureEntity feature in doctrine.Features)
     {
       if (!features.ContainsKey(feature.FeatureUid))
       {
-        _rules.ExclusiveTalentFeatures.Remove(feature);
+        _rules.DoctrineTalentFeatures.Remove(feature);
       }
     }
 
-    HashSet<Guid> existingIds = exclusiveTalent.Features.Select(x => x.FeatureUid).ToHashSet();
+    HashSet<Guid> existingIds = doctrine.Features.Select(x => x.FeatureUid).ToHashSet();
     foreach (Guid featureId in featureIds)
     {
       if (features.TryGetValue(featureId, out FeatureEntity? feature))
       {
         if (!existingIds.Contains(featureId))
         {
-          exclusiveTalent.AddFeature(feature);
+          doctrine.AddFeature(feature);
         }
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(ExclusiveTalentDefinition.Features), "'{PropertyName}' must reference existing entities.", featureId)
+        failures.Add(new ValidationFailure(nameof(DoctrineDefinition.Features), "'{PropertyName}' must reference existing entities.", featureId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -135,28 +135,28 @@ internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExc
     }
   }
 
-  private async Task SetSpecializationAsync(ExclusiveTalentEntity exclusiveTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  private async Task SetSpecializationAsync(DoctrineEntity doctrine, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
-    IReadOnlyCollection<Guid> specializationIds = invariant.GetRelatedContent(ExclusiveTalentDefinition.Specialization);
+    IReadOnlyCollection<Guid> specializationIds = invariant.GetRelatedContent(DoctrineDefinition.Specialization);
     if (specializationIds.Count == 1)
     {
       Guid specializationId = specializationIds.Single();
       SpecializationEntity? specialization = await _rules.Specializations.SingleOrDefaultAsync(x => x.Id == specializationId, cancellationToken);
       if (specialization is null)
       {
-        failures.Add(new ValidationFailure(nameof(ExclusiveTalentDefinition.Specialization), "'{PropertyName}' must reference an existing entity.", specializationId)
+        failures.Add(new ValidationFailure(nameof(DoctrineDefinition.Specialization), "'{PropertyName}' must reference an existing entity.", specializationId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
       }
       else
       {
-        exclusiveTalent.SetSpecialization(specialization);
+        doctrine.SetSpecialization(specialization);
       }
     }
     else
     {
-      failures.Add(new ValidationFailure(nameof(ExclusiveTalentDefinition.Specialization), "'{PropertyName}' must contain exactly one element.", specializationIds)
+      failures.Add(new ValidationFailure(nameof(DoctrineDefinition.Specialization), "'{PropertyName}' must contain exactly one element.", specializationIds)
       {
         ErrorCode = specializationIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
       });
@@ -164,6 +164,5 @@ internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExc
   }
 }
 
-// TODO(fpion): Exclusive Talent → Doctrine?
 // TODO(fpion): Specialization Configurations (5)
 // TODO(fpion): Migration
