@@ -14,5 +14,3 @@ public class Program
     host.Run();
   }
 }
-
-// TODO(fpion): Progress Content
