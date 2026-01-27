@@ -1,0 +1,28 @@
+﻿{
+  "Id": "b672c2eb-6f37-4e01-ab49-139faba723f8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Progress",
+    "DisplayName": "Progression",
+    "Description": null,
+    "FieldValues": {
+      "Characters": "1",
+      "Attributes": "1",
+      "Statistics": "1",
+      "Skills": "1",
+      "Lineages": "(2+9)/(2+41)=0.25861320780081509418503008454043",
+      "Customizations": "1",
+      "Castes": "1",
+      "Educations": "1",
+      "Specializations": "(3+37)/(3+57)=0.66666666666666666666666666666667",
+      "Languages": "(0+0)/(2+20)=0",
+      "Equipment": "1",
+      "Adventure": "1",
+      "Combat": "1",
+      "Magic": "1",
+      "Annexes": "0",
+      "Talents": "1"
+    }
+  },
+  "Locales": {}
+}

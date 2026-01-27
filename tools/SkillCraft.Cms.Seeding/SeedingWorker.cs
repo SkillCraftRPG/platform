@@ -74,6 +74,7 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(DoctrineDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/doctrines"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellEffectDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_effects"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(ProgressDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/progress"), cancellationToken);
     }
     catch (Exception exception)
     {
