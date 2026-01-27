@@ -53,6 +53,7 @@ internal class ExportWorker : BackgroundService
       await ExecuteAsync(new ExportContentsTask(SpellEffectDefinition.ContentTypeId, "output/data/spell_effects"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(ProgressDefinition.ContentTypeId, "output/data/progress"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(CollectionDefinition.ContentTypeId, "output/data/collections"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(ArticleDefinition.ContentTypeId, "output/data/articles"), cancellationToken);
     }
     catch (Exception exception)
     {
