@@ -8,3 +8,5 @@ internal record ContentLocalePayload
   public string? Description { get; set; }
   public Dictionary<string, string> FieldValues { get; set; } = [];
 }
+
+// TODO(fpion): refactor

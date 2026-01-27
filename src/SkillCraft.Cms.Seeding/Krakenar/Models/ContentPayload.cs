@@ -7,3 +7,5 @@ internal record ContentPayload
   public ContentLocalePayload Invariant { get; set; } = new();
   public Dictionary<string, ContentLocalePayload> Locales { get; set; } = [];
 }
+
+// TODO(fpion): refactor
