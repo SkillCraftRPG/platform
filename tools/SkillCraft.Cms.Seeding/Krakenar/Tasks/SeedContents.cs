@@ -3,7 +3,8 @@ using Krakenar.Contracts.Fields;
 using Krakenar.EntityFrameworkCore.Relational;
 using Logitar.CQRS;
 using Microsoft.EntityFrameworkCore;
-using SkillCraft.Cms.Seeding.Krakenar.Models;
+using SkillCraft.Cms.Tools;
+using SkillCraft.Cms.Tools.Models;
 
 namespace SkillCraft.Cms.Seeding.Krakenar.Tasks;
 
@@ -73,7 +74,7 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
     foreach (string path in paths)
     {
       string json = await File.ReadAllTextAsync(path, Encoding.UTF8, cancellationToken);
-      ContentPayload? payload = SeedingSerializer.Deserialize<ContentPayload>(json);
+      ContentPayload? payload = ToolsSerializer.Instance.Deserialize<ContentPayload>(json);
       if (payload is not null)
       {
         payloads.Add(payload);

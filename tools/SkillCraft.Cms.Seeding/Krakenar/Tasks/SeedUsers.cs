@@ -4,6 +4,7 @@ using Krakenar.Core.Users;
 using Logitar.CQRS;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Seeding.Krakenar.Models;
+using SkillCraft.Cms.Tools;
 using User = Krakenar.Contracts.Users.User;
 
 namespace SkillCraft.Cms.Seeding.Krakenar.Tasks;
@@ -29,7 +30,7 @@ internal class SeedUsersTaskHandler : ICommandHandler<SeedUsersTask, Unit>
   public async Task<Unit> HandleAsync(SeedUsersTask _, CancellationToken cancellationToken)
   {
     string json = await File.ReadAllTextAsync("Krakenar/data/users.json", Encoding.UTF8, cancellationToken);
-    IEnumerable<UserPayload>? payloads = SeedingSerializer.Deserialize<IEnumerable<UserPayload>>(json);
+    IEnumerable<UserPayload>? payloads = ToolsSerializer.Instance.Deserialize<IEnumerable<UserPayload>>(json);
     if (payloads is not null)
     {
       foreach (UserPayload payload in payloads)

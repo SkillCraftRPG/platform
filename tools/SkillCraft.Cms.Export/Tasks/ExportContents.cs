@@ -4,7 +4,8 @@ using Krakenar.Core.Localization;
 using Krakenar.EntityFrameworkCore.Relational;
 using Logitar.CQRS;
 using Microsoft.EntityFrameworkCore;
-using SkillCraft.Cms.Export.Models;
+using SkillCraft.Cms.Tools;
+using SkillCraft.Cms.Tools.Models;
 
 namespace SkillCraft.Cms.Export.Tasks;
 
@@ -90,7 +91,7 @@ internal class ExportContentsTaskHandler : ICommandHandler<ExportContentsTask, U
       }
 
       string path = Path.Combine(task.Directory, $"{payload.Invariant.UniqueName}.json");
-      string json = ExportSerializer.Serialize(payload);
+      string json = ToolsSerializer.Instance.Serialize(payload);
       await File.WriteAllTextAsync(path, json, Encoding.UTF8, cancellationToken);
 
       _logger.LogInformation("The {ContentType} content '{Content} (Id={ContentId})' was exported.",
