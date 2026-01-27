@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
+    <ProjectReference Include="..\..\src\SkillCraft.Cms.PostgreSQL\SkillCraft.Cms.PostgreSQL.csproj" />
   </ItemGroup>
 
   <ItemGroup>

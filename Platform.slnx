@@ -15,7 +15,7 @@
   </Folder>
   <Folder Name="/Tools/">
     <Project Path="tools/SkillCraft.Cms.Export/SkillCraft.Cms.Export.csproj" Id="8d7bab70-175f-43d8-aa06-fcae106e18dc" />
-    <Project Path="src/SkillCraft.Cms.Seeding/SkillCraft.Cms.Seeding.csproj" Id="5fd9985d-5dc6-4777-9806-1947b49e34af" />
+    <Project Path="tools/SkillCraft.Cms.Seeding/SkillCraft.Cms.Seeding.csproj" Id="5fd9985d-5dc6-4777-9806-1947b49e34af" />
   </Folder>
   <Project Path="src/SkillCraft.Cms.Core/SkillCraft.Cms.Core.csproj" Id="be890a45-07ff-4505-a010-504e86cebcd7" />
   <Project Path="src/SkillCraft.Cms.Infrastructure/SkillCraft.Cms.Infrastructure.csproj" Id="314599ae-3c37-41c4-adda-8cdadf670823" />
