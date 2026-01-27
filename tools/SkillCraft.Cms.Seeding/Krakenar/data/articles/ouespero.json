@@ -1,7 +1,7 @@
 ﻿{
   "Id": "da6cecf4-45ce-4b5f-8219-046c109c7239",
   "Invariant": {
-    "IsPublished": false,
+    "IsPublished": true,
     "UniqueName": "ouespero",
     "DisplayName": "Ouespéro",
     "Description": null,
@@ -11,7 +11,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": false,
+      "IsPublished": true,
       "UniqueName": "ouespero",
       "DisplayName": "Ouespéro",
       "Description": null,
