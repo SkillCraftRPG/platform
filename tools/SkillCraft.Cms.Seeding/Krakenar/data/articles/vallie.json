@@ -1,0 +1,26 @@
+﻿{
+  "Id": "09857ee7-8350-4a9f-84e1-62a944296dcf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vallie",
+    "DisplayName": "Vallie",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
+      "Parent": "[\"da6cecf4-45ce-4b5f-8219-046c109c7239\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vallie",
+      "DisplayName": "Vallie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vallie",
+        "MetaDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis orci lorem, maximus eget urna eu, facilisis egestas ipsum. In hac habitasse platea dictumst dolor.",
+        "HtmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac condimentum ligula. Vestibulum massa ante, laoreet eget felis sed, maximus laoreet sem. Curabitur sit amet risus dapibus, tincidunt erat sit amet, venenatis lacus. Pellentesque nec ullamcorper ex, ut accumsan leo. In id neque ac lacus auctor dapibus sit amet in sem. Sed consequat enim eget fringilla convallis. Cras a purus sem. Pellentesque eget eleifend dolor, eget aliquam metus. Mauris non tempor lectus. Integer molestie convallis velit at condimentum. Donec quam dui, dictum sed metus sit amet, ullamcorper mollis turpis. Etiam quis turpis mauris. Vivamus semper laoreet porta. Aliquam erat volutpat. Fusce vel ullamcorper odio, mattis aliquet lectus. Duis quis dapibus odio."
+      }
+    }
+  }
+}
