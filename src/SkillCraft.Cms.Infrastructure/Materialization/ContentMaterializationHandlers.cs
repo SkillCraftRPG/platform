@@ -177,14 +177,6 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
       _loggingService.Report(exception);
       _logger.LogError(exception, "Event 'Id={EventId}' was not handled successfully.", @event.Id);
     }
-    finally
-    {
-      // TODO(fpion): reporting
-      // Pour une paire EntityKind, EntityId
-      // Pour un événement: ID, Version, ActorId, OccurredOn
-      // Status: in-sync, out-of-sync
-      // Error
-    }
   }
 
   public async Task HandleAsync(ContentLocaleUnpublished @event, CancellationToken cancellationToken)
@@ -269,10 +261,6 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     {
       _loggingService.Report(exception);
       _logger.LogError(exception, "Event 'Id={EventId}' was not handled successfully.", @event.Id);
-    }
-    finally
-    {
-      // TODO(fpion): reporting
     }
   }
 

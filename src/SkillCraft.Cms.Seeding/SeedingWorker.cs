@@ -3,6 +3,7 @@ using Krakenar.Core;
 using Krakenar.Core.Users;
 using Logitar.CQRS;
 using Logitar.EventSourcing;
+using SkillCraft.Cms.Infrastructure.Contents;
 using SkillCraft.Cms.Seeding.Krakenar.Tasks;
 using SkillCraft.Cms.Seeding.Settings;
 using User = Krakenar.Contracts.Users.User;
@@ -56,6 +57,23 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentTypesTask(), cancellationToken);
       await ExecuteAsync(new SeedFieldTypesTask(), cancellationToken);
       await ExecuteAsync(new SeedContentTypesTask(fieldDefinitions: true), cancellationToken);
+
+      await ExecuteAsync(new SeedContentsTask(AttributeDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/attributes"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(StatisticDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/statistics"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SkillDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/skills"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(GiftDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/gifts"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(DisabilityDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/disabilities"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(FeatureDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/features"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(CasteDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/castes"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(EducationDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/educations"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(TalentDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/talents"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(ScriptDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/scripts"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(LanguageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/languages"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(LineageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/lineages"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpecializationDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/specializations"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(DoctrineDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/doctrines"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpellDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpellEffectDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_effects"), cancellationToken);
     }
     catch (Exception exception)
     {

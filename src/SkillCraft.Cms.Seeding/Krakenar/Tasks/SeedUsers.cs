@@ -16,8 +16,8 @@ internal class SeedUsersTask : SeedingTask
 internal class SeedUsersTaskHandler : ICommandHandler<SeedUsersTask, Unit>
 {
   private readonly IApplicationContext _applicationContext;
-  private readonly IUserService _userService;
   private readonly ILogger<SeedUsersTaskHandler> _logger;
+  private readonly IUserService _userService;
 
   public SeedUsersTaskHandler(IApplicationContext applicationContext, ILogger<SeedUsersTaskHandler> logger, IUserService userService)
   {
