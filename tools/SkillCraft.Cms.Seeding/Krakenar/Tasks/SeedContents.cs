@@ -78,7 +78,7 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
 
   private async Task<IReadOnlyCollection<Failure<ContentPayload>>> LoadAsync(
     IReadOnlyCollection<ContentPayload> payloads,
-    IReadOnlySet<Guid> existingIds,
+    HashSet<Guid> existingIds,
     string contentType,
     string defaultLanguage,
     CancellationToken cancellationToken)
@@ -119,6 +119,7 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
           };
           createPayload.FieldValues.AddRange(invariant.FieldValues.Select(field => new FieldValuePayload(field.Key, field.Value)));
           content = await _contentService.CreateAsync(createPayload, cancellationToken);
+          existingIds.Add(content.Id);
           created = true;
         }
 
