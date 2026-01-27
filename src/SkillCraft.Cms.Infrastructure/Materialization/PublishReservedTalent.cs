@@ -40,14 +40,14 @@ internal class PublishReservedTalentCommandHandler : ICommandHandler<PublishRese
       _rules.ReservedTalents.Add(reservedTalent);
     }
 
-    List<ValidationFailure> failures = new(capacity: -1); // TODO(fpion): review
+    List<ValidationFailure> failures = [];
 
     reservedTalent.Key = locale.UniqueName.Value;
     reservedTalent.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
-    // TODO(fpion): Specialization
-    // TODO(fpion): DiscountedTalents
-    // TODO(fpion): Features
+    await SetSpecializationAsync(reservedTalent, invariant, failures, cancellationToken);
+    await SetDiscountedTalentsAsync(reservedTalent, invariant, failures, cancellationToken);
+    await SetFeaturesAsync(reservedTalent, invariant, failures, cancellationToken);
 
     reservedTalent.HtmlContent = locale.TryGetString(ReservedTalentDefinition.HtmlContent);
 
@@ -64,8 +64,106 @@ internal class PublishReservedTalentCommandHandler : ICommandHandler<PublishRese
 
     return Unit.Value;
   }
+
+  private async Task SetDiscountedTalentsAsync(ReservedTalentEntity reservedTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    IReadOnlyCollection<Guid> talentIds = invariant.GetRelatedContent(ReservedTalentDefinition.DiscountedTalents);
+    Dictionary<Guid, TalentEntity> talents = talentIds.Count < 1
+      ? []
+      : await _rules.Talents.Where(x => talentIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
+
+    foreach (ReservedTalentDiscountedTalentEntity discountedTalent in reservedTalent.DiscountedTalents)
+    {
+      if (!talents.ContainsKey(discountedTalent.TalentUid))
+      {
+        _rules.ReservedTalentDiscountedTalents.Remove(discountedTalent);
+      }
+    }
+
+    HashSet<Guid> existingIds = reservedTalent.DiscountedTalents.Select(x => x.TalentUid).ToHashSet();
+    foreach (Guid talentId in talentIds)
+    {
+      if (talents.TryGetValue(talentId, out TalentEntity? talent))
+      {
+        if (!existingIds.Contains(talentId))
+        {
+          reservedTalent.AddDiscountedTalent(talent);
+        }
+      }
+      else
+      {
+        failures.Add(new ValidationFailure(nameof(ReservedTalentDefinition.DiscountedTalents), "'{PropertyName}' must reference existing entities.", talentId)
+        {
+          ErrorCode = ErrorCodes.EntityNotFound
+        });
+      }
+    }
+  }
+
+  private async Task SetFeaturesAsync(ReservedTalentEntity reservedTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    IReadOnlyCollection<Guid> featureIds = invariant.GetRelatedContent(ReservedTalentDefinition.Features);
+    Dictionary<Guid, FeatureEntity> features = featureIds.Count < 1
+      ? []
+      : await _rules.Features.Where(x => featureIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
+
+    foreach (ReservedTalentFeatureEntity feature in reservedTalent.Features)
+    {
+      if (!features.ContainsKey(feature.FeatureUid))
+      {
+        _rules.ReservedTalentFeatures.Remove(feature);
+      }
+    }
+
+    HashSet<Guid> existingIds = reservedTalent.Features.Select(x => x.FeatureUid).ToHashSet();
+    foreach (Guid featureId in featureIds)
+    {
+      if (features.TryGetValue(featureId, out FeatureEntity? feature))
+      {
+        if (!existingIds.Contains(featureId))
+        {
+          reservedTalent.AddFeature(feature);
+        }
+      }
+      else
+      {
+        failures.Add(new ValidationFailure(nameof(ReservedTalentDefinition.Features), "'{PropertyName}' must reference existing entities.", featureId)
+        {
+          ErrorCode = ErrorCodes.EntityNotFound
+        });
+      }
+    }
+  }
+
+  private async Task SetSpecializationAsync(ReservedTalentEntity reservedTalent, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    IReadOnlyCollection<Guid> specializationIds = invariant.GetRelatedContent(ReservedTalentDefinition.Specialization);
+    if (specializationIds.Count == 1)
+    {
+      Guid specializationId = specializationIds.Single();
+      SpecializationEntity? specialization = await _rules.Specializations.SingleOrDefaultAsync(x => x.Id == specializationId, cancellationToken);
+      if (specialization is null)
+      {
+        failures.Add(new ValidationFailure(nameof(ReservedTalentDefinition.Specialization), "'{PropertyName}' must reference an existing entity.", specializationId)
+        {
+          ErrorCode = ErrorCodes.EntityNotFound
+        });
+      }
+      else
+      {
+        reservedTalent.SetSpecialization(specialization);
+      }
+    }
+    else
+    {
+      failures.Add(new ValidationFailure(nameof(ReservedTalentDefinition.Specialization), "'{PropertyName}' must contain exactly one element.", specializationIds)
+      {
+        ErrorCode = specializationIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
+      });
+    }
+  }
 }
 
 // TODO(fpion): Specialization Configurations (5)
 // TODO(fpion): Migration
-// TODO(fpion): Reserved Talent → Exclusive Talent?
+// TODO(fpion): Reserved Talent → Exclusive Talent? Doctrine?

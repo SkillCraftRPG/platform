@@ -38,6 +38,16 @@ internal class ReservedTalentEntity : AggregateEntity
   {
   }
 
+  public void AddDiscountedTalent(TalentEntity talent)
+  {
+    DiscountedTalents.Add(new ReservedTalentDiscountedTalentEntity(this, talent));
+  }
+
+  public void AddFeature(FeatureEntity feature)
+  {
+    Features.Add(new ReservedTalentFeatureEntity(this, feature));
+  }
+
   public void Publish(ContentLocalePublished @event)
   {
     Update(@event);
