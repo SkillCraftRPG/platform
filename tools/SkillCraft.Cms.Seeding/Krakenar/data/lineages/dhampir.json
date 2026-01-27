@@ -1,7 +1,7 @@
 ﻿{
   "Id": "ad5e4aa0-7ac1-4142-8c2f-a548a7a59b8f",
   "Invariant": {
-    "IsPublished": false,
+    "IsPublished": true,
     "UniqueName": "dhampir",
     "DisplayName": "Dhampir",
     "Description": null,
@@ -17,7 +17,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": false,
+      "IsPublished": true,
       "UniqueName": "dhampir",
       "DisplayName": "Dhampir",
       "Description": null,

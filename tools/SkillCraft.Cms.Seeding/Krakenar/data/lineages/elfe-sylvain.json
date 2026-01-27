@@ -1,7 +1,7 @@
 ﻿{
   "Id": "5fb811ac-f49e-41ee-9667-d0fe3d246e60",
   "Invariant": {
-    "IsPublished": false,
+    "IsPublished": true,
     "UniqueName": "elfe-sylvain",
     "DisplayName": "Elfe sylvain",
     "Description": null,
@@ -13,7 +13,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": false,
+      "IsPublished": true,
       "UniqueName": "elfe-sylvain",
       "DisplayName": "Elfe sylvain",
       "Description": null,
