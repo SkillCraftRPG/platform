@@ -72,7 +72,7 @@ internal class PublishSpecializationCommandHandler : ICommandHandler<PublishSpec
   private async Task SetTalentsAsync(SpecializationEntity specialization, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
     IReadOnlyCollection<Guid> mandatoryTalentIds = invariant.GetRelatedContent(SpecializationDefinition.MandatoryTalent);
-    IReadOnlyCollection<Guid> optionalTalentIds = invariant.GetRelatedContent(SpecializationDefinition.OptionalTalents);
+    HashSet<Guid> optionalTalentIds = invariant.GetRelatedContent(SpecializationDefinition.OptionalTalents).ToHashSet();
 
     HashSet<Guid> talentIds = new(capacity: optionalTalentIds.Count + 1);
     talentIds.AddRange(optionalTalentIds);
@@ -116,7 +116,7 @@ internal class PublishSpecializationCommandHandler : ICommandHandler<PublishSpec
 
     foreach (SpecializationOptionalTalentEntity optionalTalent in specialization.OptionalTalents)
     {
-      if (!talents.ContainsKey(optionalTalent.TalentUid))
+      if (!optionalTalentIds.Contains(optionalTalent.TalentUid))
       {
         _rules.SpecializationOptionalTalents.Remove(optionalTalent);
       }
