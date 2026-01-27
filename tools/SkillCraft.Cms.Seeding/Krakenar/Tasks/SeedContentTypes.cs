@@ -2,6 +2,7 @@
 using Krakenar.Contracts.Fields;
 using Logitar.CQRS;
 using SkillCraft.Cms.Seeding.Krakenar.Models;
+using SkillCraft.Cms.Tools;
 
 namespace SkillCraft.Cms.Seeding.Krakenar.Tasks;
 
@@ -35,7 +36,7 @@ internal class SeedContentTypesTaskHandler : ICommandHandler<SeedContentTypesTas
   public async Task<Unit> HandleAsync(SeedContentTypesTask task, CancellationToken cancellationToken)
   {
     string json = await File.ReadAllTextAsync("Krakenar/data/content_types.json", Encoding.UTF8, cancellationToken);
-    IEnumerable<ContentTypePayload>? payloads = SeedingSerializer.Deserialize<IEnumerable<ContentTypePayload>>(json);
+    IEnumerable<ContentTypePayload>? payloads = ToolsSerializer.Instance.Deserialize<IEnumerable<ContentTypePayload>>(json);
     if (payloads is not null)
     {
       foreach (ContentTypePayload payload in payloads)

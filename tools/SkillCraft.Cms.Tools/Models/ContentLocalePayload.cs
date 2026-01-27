@@ -1,6 +1,6 @@
-﻿namespace SkillCraft.Cms.Export.Models;
+﻿namespace SkillCraft.Cms.Tools.Models;
 
-internal record ContentLocalePayload
+public record ContentLocalePayload
 {
   public bool IsPublished { get; set; }
   public string UniqueName { get; set; } = string.Empty;
@@ -8,5 +8,3 @@ internal record ContentLocalePayload
   public string? Description { get; set; }
   public Dictionary<string, string> FieldValues { get; set; } = [];
 }
-
-// TODO(fpion): refactor
