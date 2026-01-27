@@ -44,9 +44,14 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
       .ToHashSetAsync(cancellationToken);
 
     IReadOnlyCollection<ContentPayload> payloads = await ExtractAsync(task.Directory, cancellationToken);
-    while (payloads.Count > 0) // TODO(fpion): safe stop condition; if payload count has not reduced.
+    while (payloads.Count > 0)
     {
-      payloads = await LoadAsync(payloads, existingIds, task.ContentTypeId.ToString(), task.DefaultLanguage, cancellationToken);
+      IReadOnlyCollection<Failure<ContentPayload>> failures = await LoadAsync(payloads, existingIds, task.ContentTypeId.ToString(), task.DefaultLanguage, cancellationToken);
+      if (failures.Count >= payloads.Count)
+      {
+        throw failures.First().Exception;
+      }
+      payloads = failures.Select(x => x.Value).ToList().AsReadOnly();
     }
 
     return Unit.Value;
@@ -71,14 +76,14 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
     return payloads.AsReadOnly();
   }
 
-  private async Task<IReadOnlyCollection<ContentPayload>> LoadAsync(
+  private async Task<IReadOnlyCollection<Failure<ContentPayload>>> LoadAsync(
     IReadOnlyCollection<ContentPayload> payloads,
     IReadOnlySet<Guid> existingIds,
     string contentType,
     string defaultLanguage,
     CancellationToken cancellationToken)
   {
-    List<ContentPayload> failures = new(capacity: payloads.Count);
+    List<Failure<ContentPayload>> failures = new(capacity: payloads.Count);
 
     foreach (ContentPayload payload in payloads)
     {
@@ -161,11 +166,9 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
           content.Id,
           created ? "created" : "replaced");
       }
-      catch (Exception)
+      catch (Exception exception)
       {
-        failures.Add(payload);
-
-        // TODO(fpion): do something with exception
+        failures.Add(new Failure<ContentPayload>(payload, exception));
       }
     }
 
