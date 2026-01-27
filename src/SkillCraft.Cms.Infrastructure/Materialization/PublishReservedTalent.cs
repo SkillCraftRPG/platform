@@ -164,6 +164,6 @@ internal class PublishExclusiveTalentCommandHandler : ICommandHandler<PublishExc
   }
 }
 
+// TODO(fpion): Exclusive Talent → Doctrine?
 // TODO(fpion): Specialization Configurations (5)
 // TODO(fpion): Migration
-// TODO(fpion): Exclusive Talent → Doctrine?
