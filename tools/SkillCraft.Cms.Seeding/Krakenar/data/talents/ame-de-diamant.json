@@ -21,7 +21,7 @@
         "Slug": "ame-de-diamant",
         "HtmlContent": "Lorsque le personnage utilise sa [barrière mentale](/regles/talents/barriere-mentale), il peut doubler la dépense en points d’[Énergie](/regles/statistiques/energie) afin de réussir automatiquement le [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre la capacité surnaturelle et d’ajouter la totalité de son [rang](/regles/competences/rang) de [Discipline](/regles/competences/discipline) à sa [Défense](/regles/combat/attaque/defense) contre cette capacité.\n\nIl peut également remplacer sa Défense par son [test passif](/regles/competences/tests/passif) de Discipline lorsqu’il en fait ainsi.\n\nÉgalement, lorsqu’il utilise sa barrière mentale et qu’il réussit un jet de sauvegarde afin de réduire de moitié les [points de dégâts](/regles/combat/degats) reçus ou la [durée](/regles/magie/parametres/duree) de l’effet, alors il n’est pas affecté par l’effet.\n\nS’il échoue le jet de sauvegarde, il réduit tout de même de moitié les points de dégâts reçus ou la durée de l’effet.",
         "Summary": "Défense mentale ultime et réduction majeure des effets magiques.",
-        "MetaDescription": "Découvrez Âme de diamant : renforcez vos barrières mentales, réussissez vos sauvegardes, et réduisez ou annulez les dégâts psychiques avec une discipline absolue."
+        "MetaDescription": "Découvrez Âme de diamant : renforcez vos barrières mentales, améliorez vos sauvegardes et réduisez ou annulez les dégâts psychiques par la discipline."
       }
     }
   }
