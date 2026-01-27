@@ -38,6 +38,13 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
 
   public async Task<Unit> HandleAsync(SeedContentsTask task, CancellationToken cancellationToken)
   {
+    var contentType = await _krakenar.ContentTypes
+      .Where(x => x.Id == task.ContentTypeId)
+      .Select(x => new { x.UniqueName, x.IsInvariant })
+      .SingleOrDefaultAsync(cancellationToken)
+      ?? throw new InvalidOperationException($"The content type 'Id={task.ContentTypeId}' was not found.");
+    string? defaultLanguage = contentType.IsInvariant ? null : task.DefaultLanguage;
+
     HashSet<Guid> existingIds = await _krakenar.Contents
       .Where(x => x.ContentTypeUid == task.ContentTypeId)
       .Select(x => x.Id)
@@ -46,7 +53,7 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
     IReadOnlyCollection<ContentPayload> payloads = await ExtractAsync(task.Directory, cancellationToken);
     while (payloads.Count > 0)
     {
-      IReadOnlyCollection<Failure<ContentPayload>> failures = await LoadAsync(payloads, existingIds, task.ContentTypeId.ToString(), task.DefaultLanguage, cancellationToken);
+      IReadOnlyCollection<Failure<ContentPayload>> failures = await LoadAsync(payloads, existingIds, contentType.UniqueName, defaultLanguage, cancellationToken);
       if (failures.Count >= payloads.Count)
       {
         throw failures.First().Exception;
@@ -80,7 +87,7 @@ internal class SeedContentsTaskHandler : ICommandHandler<SeedContentsTask, Unit>
     IReadOnlyCollection<ContentPayload> payloads,
     HashSet<Guid> existingIds,
     string contentType,
-    string defaultLanguage,
+    string? defaultLanguage,
     CancellationToken cancellationToken)
   {
     List<Failure<ContentPayload>> failures = new(capacity: payloads.Count);

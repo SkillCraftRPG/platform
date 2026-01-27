@@ -188,6 +188,17 @@
     }
   },
   {
+    "Id": "b2123086-0af6-4d12-bc3f-df5d5955c3e8",
+    "UniqueName": "Progress",
+    "DisplayName": null,
+    "Description": null,
+    "String": {
+      "MinimumLength": null,
+      "MaximumLength": 100,
+      "Pattern": null
+    }
+  },
+  {
     "Id": "8f4d0f59-4452-4643-a213-8168723a1a0d",
     "UniqueName": "Range",
     "DisplayName": null,
