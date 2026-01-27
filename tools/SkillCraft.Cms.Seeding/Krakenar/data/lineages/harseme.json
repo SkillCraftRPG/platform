@@ -1,0 +1,29 @@
+﻿{
+  "Id": "899fc21c-8ae4-43db-949a-af71a641c754",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "harseme",
+    "DisplayName": "Harsème",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6,Climb:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "150+3d10"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "harseme",
+      "DisplayName": "Harsème",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "harseme",
+        "HtmlContent": "Les Harsèmes sont des hommes-animaux, hybrides entre humains et ours. Ils sont dotés d’une carrure extrêmement imposante et sont d’habiles grimpeurs. Ils peuplent d’ailleurs les chaudes montagnes du Sud-Ouest de l’Ouespéro. Ils sont organisés en tribus guerrières habitant des villages fortifiés à même les montagnes et sur les côtes. Leurs territoires sont riches en étain, un métal rare dans les environs. Ils s’enrichissent en échangeant ce métal aux nations voisines en échange de métaux nobles.",
+        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

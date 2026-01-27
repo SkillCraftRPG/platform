@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5eb054e3-df0d-4a17-90c2-c753c6ebe695",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "satyre",
+    "DisplayName": "Satyre",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:7",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "150+3d10"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "satyre",
+      "DisplayName": "Satyre",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les satyres sont des humanoïdes hybrides. En-dessous de la ceinture, ils sont doutés d’une puissante paire de pattes et de sabots de bouc ou de chèvre. Au-dessus de la ceinture, ils possèdent le buste d’un ou d’une humaine. Leur front est orné d’une paire de cornes qu’ils n’hésitent pas à utiliser afin de se défendre. Ils habitent les forêts montagnardes, mais sont originaires d’un monde féérique. Ils transpirent la joie de vivre, l’exaltation et la jubilation, ce qui agace souvent les personnalités plus sérieuses, plaçant les satyres dans une situation précaire. La vie est une fête perpétuelle pour le satyre, toute occasion de festoyer étant légitime.",
+        "Summary": "\uD83D\uDEA7",
+        "Slug": "satyre",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

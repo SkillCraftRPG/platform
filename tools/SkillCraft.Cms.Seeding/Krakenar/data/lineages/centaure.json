@@ -1,0 +1,28 @@
+﻿{
+  "Id": "bba5dc4b-1edf-4271-b5b4-f7e18540bd95",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "centaure",
+    "DisplayName": "Centaure",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "centaure",
+      "DisplayName": "Centaure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "centaure",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

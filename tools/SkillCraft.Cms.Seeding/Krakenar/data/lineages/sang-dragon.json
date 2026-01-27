@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5ec06d59-0591-4b71-9e6f-e7087fdd6e08",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sang-dragon",
+    "DisplayName": "Sang-dragon",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "180+3d10"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sang-dragon",
+      "DisplayName": "Sang-dragon",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sang-dragon",
+        "HtmlContent": "Le Sang-dragon est un humain ayant une ascendance draconique, soit un ancêtre lointain appartenant à une espèce draconique. Leur apparence varie grandement en fonction de la puissance de cet ancêtre. Certains Sang-dragon sont similaires en tout point aux humains, d’autres prennent littéralement la forme d’un dragon bipède et dénué d’ailes. Ils sont trahis par leur taille largement supérieure à celle des humains et un impressionnant gabarit physique. Ils combinent la curiosité de l’humain avec une constitution surnaturelle, des pouvoirs surnaturels et une beauté surnaturelle conférés par leur ascendance. Un de ces pouvoirs est un souffle magique et élémentaire spécifique à la nature de leur ancêtre.",
+        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
