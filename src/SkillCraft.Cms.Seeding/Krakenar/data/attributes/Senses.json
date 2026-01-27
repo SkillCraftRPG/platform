@@ -1,0 +1,26 @@
+﻿{
+  "Id": "11fd3351-7937-4697-8e02-1bc5b2a61a91",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Senses",
+    "DisplayName": "Sens",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"Mental\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Senses",
+      "DisplayName": "Sens",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sens",
+        "Summary": "Instinct, perceptions, intuition, réflexes et connexion innée au surnaturel.",
+        "HtmlContent": "**Sens** est l’attribut mesurant la conscience du personnage, l’acuité de ses sens, son intuition, son impulsivité, son instinct, ainsi que ses capacités surnaturelles.\n\nUn personnage sensible remarque les moindres détails, se fie à son instinct pour survivre, et peut manifester des pouvoirs innés d’origine surnaturelle.\n\nLes archétypes de personnages suivants bénéficieront particulièrement de cet attribut :\n\n- Chaman, druide ou médium\n- Investigateur paranormal\n- Mutant empathique\n- Oracle ou augure des étoiles\n- Prodige aux dons incontrôlés, magicien studieux\n- Traqueur sauvage, rôdeur",
+        "MetaDescription": "Découvrez les Sens, attribut de perception et d’intuition, influençant l’initiative, la puissance surnaturelle, l’occultisme et la survie."
+      }
+    }
+  }
+}

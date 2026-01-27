@@ -1,0 +1,24 @@
+﻿{
+  "Id": "bbc1fb7f-2637-4056-ac52-3b6b309bb256",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Health",
+    "DisplayName": "Santé",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Health",
+      "DisplayName": "Santé",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sante",
+        "Summary": "Résistance physique, mentale et surnaturelle, robustesse, endurance et volonté.",
+        "HtmlContent": "**Santé** est l’attribut mesurant la constitution physique et l’endurance musculaire du personnage, mais aussi sa force mentale, sa résolution et sa volonté.\n\nUn personnage en santé peut résister à des impacts violents, aux agressions mentales et aux influences extérieures.\n\nIl est également plus apte à encaisser les effets surnaturels.\n\nLes archétypes de personnages suivants bénéficieront particulièrement de cet attribut :\n\n- Cyborg\n- Fantassin, lutteur, bagarreur urbain\n- Guerrier mystique ou paladin stoïque\n- Moine ou psionique\n- Survivant post-apocalyptique\n- Voyageur des dimensions",
+        "MetaDescription": "Découvrez la Santé, attribut de constitution et de volonté, influençant l’énergie mentale, la vitalité physique, la discipline et la résistance."
+      }
+    }
+  }
+}
