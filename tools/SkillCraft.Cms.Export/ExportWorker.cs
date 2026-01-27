@@ -36,6 +36,21 @@ internal class ExportWorker : BackgroundService
     {
       // NOTE(fpion): the order of these tasks matter.
       await ExecuteAsync(new ExportContentsTask(AttributeDefinition.ContentTypeId, "output/data/attributes"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(StatisticDefinition.ContentTypeId, "output/data/statistics"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SkillDefinition.ContentTypeId, "output/data/skills"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(GiftDefinition.ContentTypeId, "output/data/gifts"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(DisabilityDefinition.ContentTypeId, "output/data/disabilities"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(FeatureDefinition.ContentTypeId, "output/data/features"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(CasteDefinition.ContentTypeId, "output/data/castes"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(EducationDefinition.ContentTypeId, "output/data/educations"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(TalentDefinition.ContentTypeId, "output/data/talents"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(ScriptDefinition.ContentTypeId, "output/data/scripts"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(LanguageDefinition.ContentTypeId, "output/data/languages"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(LineageDefinition.ContentTypeId, "output/data/lineages"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SpecializationDefinition.ContentTypeId, "output/data/specializations"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(DoctrineDefinition.ContentTypeId, "output/data/doctrines"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SpellDefinition.ContentTypeId, "output/data/spells"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SpellEffectDefinition.ContentTypeId, "output/data/spell_effects"), cancellationToken);
     }
     catch (Exception exception)
     {
