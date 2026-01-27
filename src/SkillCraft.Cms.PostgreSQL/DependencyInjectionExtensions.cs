@@ -19,6 +19,7 @@ public static class DependencyInjectionExtensions
 
     return services
       .AddKrakenarEntityFrameworkCorePostgreSQL(connectionString)
+      .AddDbContext<EncyclopediaContext>(options => options.UseNpgsql(connectionString, options => options.MigrationsAssembly("SkillCraft.Cms.PostgreSQL")))
       .AddDbContext<RulesContext>(options => options.UseNpgsql(connectionString, options => options.MigrationsAssembly("SkillCraft.Cms.PostgreSQL")));
   }
 }

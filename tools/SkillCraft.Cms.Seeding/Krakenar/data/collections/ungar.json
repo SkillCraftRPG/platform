@@ -1,0 +1,19 @@
+﻿{
+  "Id": "cdf808d4-894d-4553-8d32-6c3ea40e5f51",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ungar",
+    "DisplayName": "Ungar",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ungar",
+      "DisplayName": "Ungar",
+      "Description": "Hello World!",
+      "FieldValues": {}
+    }
+  }
+}

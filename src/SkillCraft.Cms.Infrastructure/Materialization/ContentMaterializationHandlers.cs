@@ -23,6 +23,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
 
     services.AddTransient<ICommandHandler<PublishAttributeCommand, Unit>, PublishAttributeCommandHandler>();
     services.AddTransient<ICommandHandler<PublishCasteCommand, Unit>, PublishCasteCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishCollectionCommand, Unit>, PublishCollectionCommandHandler>();
     services.AddTransient<ICommandHandler<PublishCustomizationCommand, Unit>, PublishCustomizationCommandHandler>();
     services.AddTransient<ICommandHandler<PublishDoctrineCommand, Unit>, PublishDoctrineCommandHandler>();
     services.AddTransient<ICommandHandler<PublishEducationCommand, Unit>, PublishEducationCommandHandler>();
@@ -39,6 +40,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
 
     services.AddTransient<ICommandHandler<UnpublishAttributeCommand, Unit>, UnpublishAttributeCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishCasteCommand, Unit>, UnpublishCasteCommandHandler>();
+    services.AddTransient<ICommandHandler<UnpublishCollectionCommand, Unit>, UnpublishCollectionCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishCustomizationCommand, Unit>, UnpublishCustomizationCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishDoctrineCommand, Unit>, UnpublishDoctrineCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishEducationCommand, Unit>, UnpublishEducationCommandHandler>();
@@ -122,6 +124,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Caste:
           await _commandBus.ExecuteAsync(new PublishCasteCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
+        case EntityKind.Collection:
+          await _commandBus.ExecuteAsync(new PublishCollectionCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
         case EntityKind.Disability:
           await _commandBus.ExecuteAsync(new PublishCustomizationCommand(CustomizationKind.Disability, @event, published.Invariant, published.Locale), cancellationToken);
@@ -209,6 +214,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Caste:
           await _commandBus.ExecuteAsync(new UnpublishCasteCommand(@event), cancellationToken);
+          break;
+        case EntityKind.Collection:
+          await _commandBus.ExecuteAsync(new UnpublishCollectionCommand(@event), cancellationToken);
           break;
         case EntityKind.Disability:
         case EntityKind.Gift:

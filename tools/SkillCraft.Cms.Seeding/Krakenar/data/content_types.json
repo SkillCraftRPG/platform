@@ -1579,5 +1579,13 @@
         "Placeholder": null
       }
     ]
+  },
+  {
+    "Id": "2f2c92d2-7bcb-4dfe-abf0-f583313df79f",
+    "IsInvariant": false,
+    "UniqueName": "Collection",
+    "DisplayName": "Collection",
+    "Description": null,
+    "Fields": []
   }
 ]
