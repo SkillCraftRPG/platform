@@ -10,20 +10,20 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Materialization;
 
-internal record PublishDoctrineTalentCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
+internal record PublishDoctrineCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
 
-internal class PublishDoctrineTalentCommandHandler : ICommandHandler<PublishDoctrineTalentCommand, Unit>
+internal class PublishDoctrineCommandHandler : ICommandHandler<PublishDoctrineCommand, Unit>
 {
-  private readonly ILogger<PublishDoctrineTalentCommandHandler> _logger;
+  private readonly ILogger<PublishDoctrineCommandHandler> _logger;
   private readonly RulesContext _rules;
 
-  public PublishDoctrineTalentCommandHandler(ILogger<PublishDoctrineTalentCommandHandler> logger, RulesContext rules)
+  public PublishDoctrineCommandHandler(ILogger<PublishDoctrineCommandHandler> logger, RulesContext rules)
   {
     _logger = logger;
     _rules = rules;
   }
 
-  public async Task<Unit> HandleAsync(PublishDoctrineTalentCommand command, CancellationToken cancellationToken)
+  public async Task<Unit> HandleAsync(PublishDoctrineCommand command, CancellationToken cancellationToken)
   {
     ContentLocalePublished @event = command.Event;
     ContentLocale invariant = command.Invariant;
