@@ -7,6 +7,7 @@ using Logitar.CQRS;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using SkillCraft.Cms.Core.Lineages;
+using SkillCraft.Cms.Infrastructure.Configurations;
 using SkillCraft.Cms.Infrastructure.Contents;
 using SkillCraft.Cms.Infrastructure.Entities;
 
@@ -16,8 +17,6 @@ internal record PublishLineageCommand(ContentLocalePublished Event, ContentLocal
 
 internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageCommand, Unit>
 {
-  private const char Separator = ',';
-
   private readonly ILogger<PublishLineageCommandHandler> _logger;
   private readonly RulesContext _rules;
 
@@ -97,7 +96,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     }
     else
     {
-      int[] values = value.Trim().Split(Separator).Select(value => int.TryParse(value, out int parsed) ? parsed : 0).ToArray();
+      int[] values = value.Trim().Split(Constants.Separator).Select(value => int.TryParse(value, out int parsed) ? parsed : 0).ToArray();
       if (values.Length == 4 && values.All(value => value > 0) && values.SequenceEqual(values.OrderBy(x => x)))
       {
         lineage.Teenager = values[0];
@@ -213,7 +212,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
           else
           {
             string category = parts.First().Trim();
-            string[] names = parts.Last().Split(Separator).Where(name => !string.IsNullOrWhiteSpace(name)).Select(name => name.Trim()).OrderBy(name => name).ToArray();
+            string[] names = parts.Last().Split(Constants.Separator).Where(name => !string.IsNullOrWhiteSpace(name)).Select(name => name.Trim()).OrderBy(name => name).ToArray();
             if (string.IsNullOrEmpty(category))
             {
               failures.Add(new ValidationFailure(nameof(LineageDefinition.NamesSelection), "'{PropertyName}' cannot have an empty name category key.", line)
@@ -233,16 +232,16 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
               switch (category.ToLowerInvariant())
               {
                 case "family":
-                  lineage.FamilyNames = string.Join(Separator, names);
+                  lineage.FamilyNames = string.Join(Constants.Separator, names);
                   break;
                 case "female":
-                  lineage.FemaleNames = string.Join(Separator, names);
+                  lineage.FemaleNames = string.Join(Constants.Separator, names);
                   break;
                 case "male":
-                  lineage.MaleNames = string.Join(Separator, names);
+                  lineage.MaleNames = string.Join(Constants.Separator, names);
                   break;
                 case "unisex":
-                  lineage.UnisexNames = string.Join(Separator, names);
+                  lineage.UnisexNames = string.Join(Constants.Separator, names);
                   break;
                 default:
                   custom[category] = names;
@@ -331,7 +330,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     string value = invariant.GetString(LineageDefinition.Speeds);
     if (!string.IsNullOrWhiteSpace(value))
     {
-      string[] values = value.Trim().Split(Separator);
+      string[] values = value.Trim().Split(Constants.Separator);
       foreach (string raw in values)
       {
         if (!string.IsNullOrWhiteSpace(raw))
@@ -409,7 +408,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     }
     else
     {
-      string[] values = value.Trim().Split(Separator);
+      string[] values = value.Trim().Split(Constants.Separator);
       if (values.Length == 5)
       {
         lineage.Malnutrition = values[0].CleanTrim();
