@@ -6,6 +6,7 @@ using SkillCraft.Cms.Core.Customizations;
 using SkillCraft.Cms.Core.Educations;
 using SkillCraft.Cms.Core.Languages;
 using SkillCraft.Cms.Core.Lineages;
+using SkillCraft.Cms.Core.Progress;
 using SkillCraft.Cms.Core.Scripts;
 using SkillCraft.Cms.Core.Skills;
 using SkillCraft.Cms.Core.Specializations;
@@ -32,6 +33,7 @@ public static class DependencyInjectionExtensions
     EducationService.Register(services);
     LanguageService.Register(services);
     LineageService.Register(services);
+    ProgressService.Register(services);
     SkillService.Register(services);
     ScriptService.Register(services);
     SpecializationService.Register(services);

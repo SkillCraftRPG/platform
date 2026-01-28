@@ -1,4 +1,5 @@
 ﻿using Logitar.CQRS;
+using SkillCraft.Cms.Core.Progress;
 using SkillCraft.Cms.Export.Tasks;
 using SkillCraft.Cms.Infrastructure.Contents;
 

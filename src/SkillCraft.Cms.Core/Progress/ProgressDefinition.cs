@@ -1,4 +1,4 @@
-﻿namespace SkillCraft.Cms.Infrastructure.Contents;
+﻿namespace SkillCraft.Cms.Core.Progress;
 
 public class ProgressDefinition
 {

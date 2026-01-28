@@ -18,4 +18,8 @@
     <PackageReference Include="Krakenar.Core" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="System.Globalization" />
+  </ItemGroup>
+
 </Project>
