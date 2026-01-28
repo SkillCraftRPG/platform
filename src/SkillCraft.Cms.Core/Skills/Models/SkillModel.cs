@@ -1,5 +1,6 @@
 ﻿using Krakenar.Contracts;
 using SkillCraft.Cms.Core.Attributes.Models;
+using SkillCraft.Cms.Core.Talents.Models;
 
 namespace SkillCraft.Cms.Core.Skills.Models;
 
@@ -14,6 +15,8 @@ public class SkillModel : Aggregate
   public string? MetaDescription { get; set; }
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
+
+  public List<TalentModel> Talents { get; set; } = [];
 
   public override string ToString() => $"{Name} | {base.ToString()}";
 }

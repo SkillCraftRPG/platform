@@ -8,6 +8,7 @@ using SkillCraft.Cms.Core.Languages;
 using SkillCraft.Cms.Core.Scripts;
 using SkillCraft.Cms.Core.Skills;
 using SkillCraft.Cms.Core.Statistics;
+using SkillCraft.Cms.Core.Talents;
 
 namespace SkillCraft.Cms.Core;
 
@@ -30,6 +31,7 @@ public static class DependencyInjectionExtensions
     SkillService.Register(services);
     ScriptService.Register(services);
     StatisticService.Register(services);
+    TalentService.Register(services);
     return services;
   }
 }
