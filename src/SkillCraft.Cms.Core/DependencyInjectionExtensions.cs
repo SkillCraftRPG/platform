@@ -1,5 +1,6 @@
 ﻿using Krakenar.Core;
 using Microsoft.Extensions.DependencyInjection;
+using SkillCraft.Cms.Core.Articles;
 using SkillCraft.Cms.Core.Attributes;
 using SkillCraft.Cms.Core.Castes;
 using SkillCraft.Cms.Core.Customizations;
@@ -27,6 +28,7 @@ public static class DependencyInjectionExtensions
 
   private static IServiceCollection AddCoreServices(this IServiceCollection services)
   {
+    ArticleService.Register(services);
     AttributeService.Register(services);
     CasteService.Register(services);
     CustomizationService.Register(services);

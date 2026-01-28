@@ -3,6 +3,7 @@ using Krakenar.Infrastructure;
 using Krakenar.Infrastructure.Commands;
 using Logitar.CQRS;
 using Microsoft.Extensions.DependencyInjection;
+using SkillCraft.Cms.Core.Articles;
 using SkillCraft.Cms.Core.Attributes;
 using SkillCraft.Cms.Core.Castes;
 using SkillCraft.Cms.Core.Customizations;
@@ -36,6 +37,7 @@ public static class DependencyInjectionExtensions
   private static IServiceCollection AddQueriers(this IServiceCollection services)
   {
     return services
+      .AddTransient<IArticleQuerier, ArticleQuerier>()
       .AddTransient<IAttributeQuerier, AttributeQuerier>()
       .AddTransient<ICasteQuerier, CasteQuerier>()
       .AddTransient<ICustomizationQuerier, CustomizationQuerier>()

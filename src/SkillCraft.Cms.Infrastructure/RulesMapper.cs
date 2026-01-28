@@ -557,12 +557,15 @@ internal class RulesMapper
   {
     destination.Version = source.Version;
 
-    destination.CreatedBy = TryFindActor(source.CreatedBy) ?? _system;
+    destination.CreatedBy = FindActor(source.CreatedBy);
     destination.CreatedOn = source.CreatedOn.AsUniversalTime();
 
-    destination.UpdatedBy = TryFindActor(source.UpdatedBy) ?? _system;
+    destination.UpdatedBy = FindActor(source.UpdatedBy);
     destination.UpdatedOn = source.UpdatedOn.AsUniversalTime();
   }
+
+  private Actor FindActor(string? id) => TryFindActor(id) ?? _system;
+  private Actor FindActor(ActorId? id) => TryFindActor(id) ?? _system;
 
   private Actor? TryFindActor(string? id) => TryFindActor(string.IsNullOrWhiteSpace(id) ? null : new ActorId(id));
   private Actor? TryFindActor(ActorId? id) => id.HasValue && _actors.TryGetValue(id.Value, out Actor? actor) ? actor : null;
