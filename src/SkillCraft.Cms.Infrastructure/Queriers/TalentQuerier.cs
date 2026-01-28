@@ -18,11 +18,11 @@ internal class TalentQuerier : ITalentQuerier
   private readonly ISqlHelper _sqlHelper;
   private readonly DbSet<TalentEntity> _talents;
 
-  public TalentQuerier(IActorService actorService, RulesContext context, ISqlHelper sqlHelper)
+  public TalentQuerier(IActorService actorService, RulesContext rules, ISqlHelper sqlHelper)
   {
     _actorService = actorService;
     _sqlHelper = sqlHelper;
-    _talents = context.Talents;
+    _talents = rules.Talents;
   }
 
   public async Task<TalentModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
