@@ -1,4 +1,5 @@
 ﻿using Krakenar.Contracts;
+using SkillCraft.Cms.Core.Statistics.Models;
 
 namespace SkillCraft.Cms.Core.Attributes.Models;
 
@@ -14,7 +15,7 @@ public class AttributeModel : Aggregate
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
-  // TODO(fpion): public List<StatisticModel> Statistics { get; set; } = [];
+  public List<StatisticModel> Statistics { get; set; } = [];
   // TODO(fpion): public List<SkillModel> Skills { get; set; } = [];
 
   public override string ToString() => $"{Name} | {base.ToString()}";

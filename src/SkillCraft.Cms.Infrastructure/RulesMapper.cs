@@ -3,6 +3,7 @@ using Krakenar.Contracts.Actors;
 using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Attributes.Models;
+using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -34,8 +35,8 @@ internal class RulesMapper
       Name = source.Name,
       Category = source.Category,
       Value = source.Value,
-      Summary = source.Summary,
       MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
       HtmlContent = source.HtmlContent
     };
 
@@ -43,7 +44,7 @@ internal class RulesMapper
     {
       if (statistic.IsPublished)
       {
-        // TODO(fpion): destination.Statistics.Add(ToStatistic(statistic, destination));
+        destination.Statistics.Add(ToStatistic(statistic, destination));
       }
     }
     foreach (SkillEntity skill in source.Skills)
@@ -52,6 +53,38 @@ internal class RulesMapper
       {
         // TODO(fpion): destination.Skills.Add(ToSkill(skill, destination));
       }
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public StatisticModel ToStatistic(StatisticEntity source) => ToStatistic(source, attribute: null);
+  public StatisticModel ToStatistic(StatisticEntity source, AttributeModel? attribute)
+  {
+    StatisticModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      Value = source.Value,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (attribute is not null)
+    {
+      destination.Attribute = attribute;
+    }
+    else if (source.Attribute is null)
+    {
+      throw new ArgumentException("The attribute is required.", nameof(source));
+    }
+    else if (source.Attribute.IsPublished)
+    {
+      destination.Attribute = ToAttribute(source.Attribute);
     }
 
     MapAggregate(source, destination);
