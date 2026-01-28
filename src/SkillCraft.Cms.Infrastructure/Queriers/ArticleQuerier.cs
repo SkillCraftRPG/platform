@@ -60,6 +60,7 @@ internal class ArticleQuerier : IArticleQuerier
 
     ArticleEntity? article = await _articles.AsNoTracking()
       .Where(x => x.ArticleId == articleId.Value && x.IsPublished)
+      .Include(x => x.Collection)
       .SingleOrDefaultAsync(cancellationToken);
     return article is null ? null : await MapAsync(article, cancellationToken);
   }
