@@ -3,6 +3,7 @@ using Krakenar.Contracts.Actors;
 using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Attributes.Models;
+using SkillCraft.Cms.Core.Skills.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
@@ -51,8 +52,43 @@ internal class RulesMapper
     {
       if (skill.IsPublished)
       {
-        // TODO(fpion): destination.Skills.Add(ToSkill(skill, destination));
+        destination.Skills.Add(ToSkill(skill, destination));
       }
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public SkillModel ToSkill(SkillEntity source) => ToSkill(source, attribute: null);
+  public SkillModel ToSkill(SkillEntity source, AttributeModel? attribute)
+  {
+    SkillModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      Value = source.Value,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (attribute is not null)
+    {
+      destination.Attribute = attribute;
+    }
+    else if (source.Attribute is null)
+    {
+      if (source.AttributeId.HasValue)
+      {
+        throw new ArgumentException("The attribute is required.", nameof(source));
+      }
+    }
+    else if (source.Attribute.IsPublished)
+    {
+      destination.Attribute = ToAttribute(source.Attribute);
     }
 
     MapAggregate(source, destination);
