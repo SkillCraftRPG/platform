@@ -3,6 +3,7 @@ using Krakenar.Core;
 using Krakenar.Core.Users;
 using Logitar.CQRS;
 using Logitar.EventSourcing;
+using SkillCraft.Cms.Core.Progress;
 using SkillCraft.Cms.Infrastructure.Contents;
 using SkillCraft.Cms.Seeding.Krakenar.Tasks;
 using SkillCraft.Cms.Seeding.Settings;
