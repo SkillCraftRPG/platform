@@ -15,10 +15,9 @@ public class ArticleController : ControllerBase
     _articleService = articleService;
   }
 
-  [HttpGet("/api/collections/key:{collection}/articles/path:{path}")]
+  [HttpGet("/api/collections/key:{collection}/articles/{**path}")]
   public async Task<ActionResult<ArticleModel>> ReadAsync(string collection, string path, CancellationToken cancellationToken)
   {
-    path = Uri.UnescapeDataString(path); // TODO(fpion): path is not URI-decoded by default because it is not a query param.
     ArticleModel? article = await _articleService.ReadAsync(collection, path, cancellationToken);
     return article is null ? NotFound() : Ok(article);
   }
