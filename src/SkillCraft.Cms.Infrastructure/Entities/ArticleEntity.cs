@@ -33,6 +33,8 @@ internal class ArticleEntity : AggregateEntity
   public string? MetaDescription { get; set; }
   public string? HtmlContent { get; set; }
 
+  public ArticleHierarchyEntity? Hierarchy { get; private set; }
+
   public ArticleEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;

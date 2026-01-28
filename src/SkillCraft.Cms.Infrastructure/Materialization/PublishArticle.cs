@@ -59,6 +59,8 @@ internal class PublishArticleCommandHandler : ICommandHandler<PublishArticleComm
     await _encyclopedia.SaveChangesAsync(cancellationToken);
     _logger.LogInformation("The article '{Article}' has been published.", article);
 
+    await UpdateHierarchyAsync(article, cancellationToken);
+
     return Unit.Value;
   }
 
@@ -120,5 +122,33 @@ internal class PublishArticleCommandHandler : ICommandHandler<PublishArticleComm
         article.SetParent(parent);
       }
     }
+  }
+
+  private async Task UpdateHierarchyAsync(ArticleEntity article, CancellationToken cancellationToken)
+  {
+    List<KeyValuePair<int, string>> path = new(capacity: 1);
+    if (article.ParentId.HasValue)
+    {
+      ArticleHierarchyEntity parent = await _encyclopedia.ArticleHierarchy.SingleOrDefaultAsync(x => x.ArticleId == article.ParentId.Value, cancellationToken)
+        ?? throw new InvalidOperationException($"The article hierarchy 'ArticleId={article.ParentId}' was not found.");
+      path = new(capacity: parent.Depth + 1);
+      path.AddRange(parent.GetPath());
+    }
+
+    path.Add(new KeyValuePair<int, string>(article.ArticleId, article.SlugNormalized));
+
+    ArticleHierarchyEntity? hierarchy = await _encyclopedia.ArticleHierarchy.SingleOrDefaultAsync(x => x.ArticleId == article.ArticleId, cancellationToken);
+    if (hierarchy is null)
+    {
+      hierarchy = new(article, path);
+      _encyclopedia.ArticleHierarchy.Add(hierarchy);
+    }
+    else
+    {
+      hierarchy.Update(path);
+    }
+
+    await _encyclopedia.SaveChangesAsync(cancellationToken);
+    _logger.LogInformation("The article hierarchy '{Article}' has been updated.", article);
   }
 }

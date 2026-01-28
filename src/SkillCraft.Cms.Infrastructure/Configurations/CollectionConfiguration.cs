@@ -12,7 +12,7 @@ internal class CollectionConfiguration : AggregateConfiguration<CollectionEntity
   {
     base.Configure(builder);
 
-    builder.ToTable(RulesDb.Collections.Table.Table!, RulesDb.Collections.Table.Schema);
+    builder.ToTable(EncyclopediaDb.Collections.Table.Table!, EncyclopediaDb.Collections.Table.Schema);
     builder.HasKey(x => x.CollectionId);
 
     builder.HasIndex(x => x.Id).IsUnique();
