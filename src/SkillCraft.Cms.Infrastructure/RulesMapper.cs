@@ -8,11 +8,13 @@ using SkillCraft.Cms.Core.Customizations.Models;
 using SkillCraft.Cms.Core.Educations.Models;
 using SkillCraft.Cms.Core.Features.Models;
 using SkillCraft.Cms.Core.Languages.Models;
+using SkillCraft.Cms.Core.Lineages.Models;
 using SkillCraft.Cms.Core.Scripts.Models;
 using SkillCraft.Cms.Core.Skills.Models;
 using SkillCraft.Cms.Core.Spells.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Core.Talents.Models;
+using SkillCraft.Cms.Infrastructure.Configurations;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -197,6 +199,100 @@ internal class RulesMapper
     {
       throw new ArgumentException("The script is required.", nameof(source));
     }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public LineageModel ToLineage(LineageEntity source)
+  {
+    LineageModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.FamilyNames is not null)
+    {
+      destination.Names.Family.AddRange(source.FamilyNames.Split(Constants.Separator));
+    }
+    if (source.FemaleNames is not null)
+    {
+      destination.Names.Family.AddRange(source.FemaleNames.Split(Constants.Separator));
+    }
+    if (source.MaleNames is not null)
+    {
+      destination.Names.Family.AddRange(source.MaleNames.Split(Constants.Separator));
+    }
+    if (source.UnisexNames is not null)
+    {
+      destination.Names.Family.AddRange(source.UnisexNames.Split(Constants.Separator));
+    }
+    if (source.CustomNames is not null)
+    {
+      Dictionary<string, string[]>? customNames = JsonSerializer.Deserialize<Dictionary<string, string[]>>(source.CustomNames);
+      if (customNames is not null)
+      {
+        foreach (KeyValuePair<string, string[]> category in customNames)
+        {
+          destination.Names.Custom.Add(new NameCategory(category.Key, category.Value));
+        }
+      }
+    }
+    destination.Names.Text = source.NamesText;
+
+    destination.Speeds.Walk = source.Walk;
+    destination.Speeds.Climb = source.Climb;
+    destination.Speeds.Swim = source.Swim;
+    destination.Speeds.Fly = source.Fly;
+    destination.Speeds.Hover = source.Hover;
+    destination.Speeds.Burrow = source.Burrow;
+
+    destination.Size.Category = source.SizeCategory;
+    destination.Size.Roll = source.SizeRoll;
+
+    destination.Weight.Malnutrition = source.Malnutrition;
+    destination.Weight.Skinny = source.Skinny;
+    destination.Weight.Normal = source.NormalWeight;
+    destination.Weight.Overweight = source.Overweight;
+    destination.Weight.Obese = source.Obese;
+
+    destination.Age.Teenager = source.Teenager;
+    destination.Age.Adult = source.Adult;
+    destination.Age.Mature = source.Mature;
+    destination.Age.Venerable = source.Venerable;
+
+    if (source.Parent is not null && source.Parent.IsPublished)
+    {
+      destination.Parent = ToLineage(source.Parent);
+    }
+
+    foreach (LineageFeatureEntity lineageFeature in source.Features)
+    {
+      FeatureEntity feature = lineageFeature.Feature
+        ?? throw new ArgumentException($"The feature is required (LineageId={lineageFeature.LineageId}, FeatureId={lineageFeature.FeatureId}).", nameof(source));
+      if (feature.IsPublished)
+      {
+        destination.Features.Add(ToFeature(feature));
+      }
+    }
+
+    foreach (LineageLanguageEntity lineageLanguage in source.Languages)
+    {
+      LanguageEntity language = lineageLanguage.Language
+        ?? throw new ArgumentException($"The language is required (LineageId={lineageLanguage.LineageId}, LanguageId={lineageLanguage.LanguageId}).", nameof(source));
+      if (language.IsPublished)
+      {
+        destination.Languages.Items.Add(ToLanguage(language));
+      }
+    }
+    destination.Languages.Extra = source.ExtraLanguages;
+    destination.Languages.Text = source.LanguagesText;
 
     MapAggregate(source, destination);
 
