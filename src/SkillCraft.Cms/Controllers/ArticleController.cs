@@ -15,7 +15,7 @@ public class ArticleController : ControllerBase
     _articleService = articleService;
   }
 
-  [HttpGet("/api/collections/key:{collection}/articles/{**path}")]
+  [HttpGet("/api/collections/{collection}/articles/{**path}")]
   public async Task<ActionResult<ArticleModel>> ReadAsync(string collection, string path, CancellationToken cancellationToken)
   {
     ArticleModel? article = await _articleService.ReadAsync(collection, path, cancellationToken);
