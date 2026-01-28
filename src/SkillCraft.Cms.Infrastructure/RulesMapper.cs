@@ -11,6 +11,7 @@ using SkillCraft.Cms.Core.Languages.Models;
 using SkillCraft.Cms.Core.Scripts.Models;
 using SkillCraft.Cms.Core.Skills.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
+using SkillCraft.Cms.Core.Talents.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -278,6 +279,42 @@ internal class RulesMapper
     else if (source.Attribute.IsPublished)
     {
       destination.Attribute = ToAttribute(source.Attribute);
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public TalentModel ToTalent(TalentEntity source)
+  {
+    TalentModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      Tier = source.Tier,
+      AllowMultiplePurchases = source.AllowMultiplePurchases,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.Skill is not null)
+    {
+      if (source.Skill.IsPublished)
+      {
+        destination.Skill = ToSkill(source.Skill);
+      }
+    }
+    else if (source.SkillId.HasValue)
+    {
+      throw new ArgumentException("The skill is required.", nameof(source));
+    }
+
+    if (source.RequiredTalent is not null && source.RequiredTalent.IsPublished)
+    {
+      destination.RequiredTalent = ToTalent(source.RequiredTalent);
     }
 
     MapAggregate(source, destination);
