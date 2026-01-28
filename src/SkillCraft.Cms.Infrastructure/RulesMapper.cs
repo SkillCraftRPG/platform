@@ -3,6 +3,10 @@ using Krakenar.Contracts.Actors;
 using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Attributes.Models;
+using SkillCraft.Cms.Core.Castes.Models;
+using SkillCraft.Cms.Core.Customizations.Models;
+using SkillCraft.Cms.Core.Educations.Models;
+using SkillCraft.Cms.Core.Features.Models;
 using SkillCraft.Cms.Core.Skills.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
@@ -60,6 +64,110 @@ internal class RulesMapper
 
     return destination;
   }
+
+  public CasteModel ToCaste(CasteEntity source)
+  {
+    CasteModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      WealthRoll = source.WealthRoll,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.Skill is not null)
+    {
+      if (source.Skill.IsPublished)
+      {
+        destination.Skill = ToSkill(source.Skill);
+      }
+    }
+    else if (source.SkillId.HasValue)
+    {
+      throw new ArgumentException("The skill is required.", nameof(source));
+    }
+
+    if (source.Feature is not null)
+    {
+      if (source.Feature.IsPublished)
+      {
+        destination.Feature = ToFeature(source.Feature);
+      }
+    }
+    else if (source.FeatureId.HasValue)
+    {
+      throw new ArgumentException("The feature is required.", nameof(source));
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public CustomizationModel ToCustomization(CustomizationEntity source)
+  {
+    CustomizationModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      Kind = source.Kind,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public EducationModel ToEducation(EducationEntity source)
+  {
+    EducationModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      WealthMultiplier = source.WealthMultiplier,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.Skill is not null)
+    {
+      if (source.Skill.IsPublished)
+      {
+        destination.Skill = ToSkill(source.Skill);
+      }
+    }
+    else if (source.SkillId.HasValue)
+    {
+      throw new ArgumentException("The skill is required.", nameof(source));
+    }
+
+    if (source.Feature is not null)
+    {
+      if (source.Feature.IsPublished)
+      {
+        destination.Feature = ToFeature(source.Feature);
+      }
+    }
+    else if (source.FeatureId.HasValue)
+    {
+      throw new ArgumentException("The feature is required.", nameof(source));
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public static FeatureModel ToFeature(FeatureEntity source) => new(source.Name, source.HtmlContent);
 
   public SkillModel ToSkill(SkillEntity source) => ToSkill(source, attribute: null);
   public SkillModel ToSkill(SkillEntity source, AttributeModel? attribute)

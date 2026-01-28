@@ -4,6 +4,9 @@ using Krakenar.Infrastructure.Commands;
 using Logitar.CQRS;
 using Microsoft.Extensions.DependencyInjection;
 using SkillCraft.Cms.Core.Attributes;
+using SkillCraft.Cms.Core.Castes;
+using SkillCraft.Cms.Core.Customizations;
+using SkillCraft.Cms.Core.Educations;
 using SkillCraft.Cms.Core.Skills;
 using SkillCraft.Cms.Core.Statistics;
 using SkillCraft.Cms.Infrastructure.Commands;
@@ -28,6 +31,9 @@ public static class DependencyInjectionExtensions
   {
     return services
       .AddTransient<IAttributeQuerier, AttributeQuerier>()
+      .AddTransient<ICasteQuerier, CasteQuerier>()
+      .AddTransient<ICustomizationQuerier, CustomizationQuerier>()
+      .AddTransient<IEducationQuerier, EducationQuerier>()
       .AddTransient<ISkillQuerier, SkillQuerier>()
       .AddTransient<IStatisticQuerier, StatisticQuerier>();
   }
