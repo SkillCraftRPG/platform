@@ -7,6 +7,8 @@ using SkillCraft.Cms.Core.Castes.Models;
 using SkillCraft.Cms.Core.Customizations.Models;
 using SkillCraft.Cms.Core.Educations.Models;
 using SkillCraft.Cms.Core.Features.Models;
+using SkillCraft.Cms.Core.Languages.Models;
+using SkillCraft.Cms.Core.Scripts.Models;
 using SkillCraft.Cms.Core.Skills.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
@@ -168,6 +170,53 @@ internal class RulesMapper
   }
 
   public static FeatureModel ToFeature(FeatureEntity source) => new(source.Name, source.HtmlContent);
+
+  public LanguageModel ToLanguage(LanguageEntity source)
+  {
+    LanguageModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      TypicalSpeakers = source.TypicalSpeakers,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.Script is not null)
+    {
+      if (source.Script.IsPublished)
+      {
+        destination.Script = ToScript(source.Script);
+      }
+    }
+    else if (source.ScriptId.HasValue)
+    {
+      throw new ArgumentException("The script is required.", nameof(source));
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public ScriptModel ToScript(ScriptEntity source)
+  {
+    ScriptModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
 
   public SkillModel ToSkill(SkillEntity source) => ToSkill(source, attribute: null);
   public SkillModel ToSkill(SkillEntity source, AttributeModel? attribute)
