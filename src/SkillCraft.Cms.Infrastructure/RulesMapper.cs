@@ -11,6 +11,7 @@ using SkillCraft.Cms.Core.Languages.Models;
 using SkillCraft.Cms.Core.Lineages.Models;
 using SkillCraft.Cms.Core.Scripts.Models;
 using SkillCraft.Cms.Core.Skills.Models;
+using SkillCraft.Cms.Core.Specializations.Models;
 using SkillCraft.Cms.Core.Spells.Models;
 using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Core.Talents.Models;
@@ -344,6 +345,82 @@ internal class RulesMapper
     else if (source.Attribute.IsPublished)
     {
       destination.Attribute = ToAttribute(source.Attribute);
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public SpecializationModel ToSpecialization(SpecializationEntity source)
+  {
+    SpecializationModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Name = source.Name,
+      Tier = source.Tier,
+      MetaDescription = source.MetaDescription,
+      Summary = source.Summary,
+      HtmlContent = source.HtmlContent
+    };
+
+    if (source.MandatoryTalent is not null)
+    {
+      if (source.MandatoryTalent.IsPublished)
+      {
+        destination.Requirements.Talent = ToTalent(source.MandatoryTalent);
+      }
+    }
+    else if (source.MandatoryTalentId.HasValue)
+    {
+      throw new ArgumentException("The mandatory talent is required.", nameof(source));
+    }
+    if (source.OtherRequirements is not null)
+    {
+      destination.Requirements.Other.AddRange(SplitOnNewLine(source.OtherRequirements));
+    }
+
+    foreach (SpecializationOptionalTalentEntity optionalTalent in source.OptionalTalents)
+    {
+      TalentEntity talent = optionalTalent.Talent
+        ?? throw new ArgumentException($"The optional talent is required (SpecializationId={optionalTalent.SpecializationId}, TalentId={optionalTalent.TalentId}).", nameof(source));
+      if (talent.IsPublished)
+      {
+        destination.Options.Talents.Add(ToTalent(talent));
+      }
+    }
+    if (source.OtherOptions is not null)
+    {
+      destination.Options.Other.AddRange(SplitOnNewLine(source.OtherOptions));
+    }
+
+    DoctrineEntity? doctrine = source.Doctrine;
+    if (doctrine is not null)
+    {
+      destination.Doctrine = new DoctrineModel(doctrine.Name);
+      if (doctrine.HtmlContent is not null)
+      {
+        destination.Doctrine.Description.AddRange(SplitOnNewLine(doctrine.HtmlContent));
+      }
+      foreach (DoctrineDiscountedTalentEntity discountedTalent in doctrine.DiscountedTalents)
+      {
+        TalentEntity talent = discountedTalent.Talent
+          ?? throw new ArgumentException($"The discounted talent is required (DoctrineId={discountedTalent.DoctrineId}, TalentId={discountedTalent.TalentId}).", nameof(source));
+        if (talent.IsPublished)
+        {
+          destination.Doctrine.DiscountedTalents.Add(ToTalent(talent));
+        }
+      }
+      foreach (DoctrineFeatureEntity doctrineFeature in doctrine.Features)
+      {
+        FeatureEntity feature = doctrineFeature.Feature
+          ?? throw new ArgumentException($"The feature is required (DoctrineId={doctrineFeature.DoctrineId}, FeatureId={doctrineFeature.FeatureId}).", nameof(source));
+        if (feature.IsPublished)
+        {
+          destination.Doctrine.Features.Add(ToFeature(feature));
+        }
+      }
     }
 
     MapAggregate(source, destination);

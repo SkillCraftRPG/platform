@@ -11,6 +11,7 @@ using SkillCraft.Cms.Core.Languages;
 using SkillCraft.Cms.Core.Lineages;
 using SkillCraft.Cms.Core.Scripts;
 using SkillCraft.Cms.Core.Skills;
+using SkillCraft.Cms.Core.Specializations;
 using SkillCraft.Cms.Core.Spells;
 using SkillCraft.Cms.Core.Statistics;
 using SkillCraft.Cms.Core.Talents;
@@ -43,6 +44,7 @@ public static class DependencyInjectionExtensions
       .AddTransient<ILineageQuerier, LineageQuerier>()
       .AddTransient<IScriptQuerier, ScriptQuerier>()
       .AddTransient<ISkillQuerier, SkillQuerier>()
+      .AddTransient<ISpecializationQuerier, SpecializationQuerier>()
       .AddTransient<ISpellQuerier, SpellQuerier>()
       .AddTransient<IStatisticQuerier, StatisticQuerier>()
       .AddTransient<ITalentQuerier, TalentQuerier>();
