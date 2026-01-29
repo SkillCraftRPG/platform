@@ -12,7 +12,7 @@ internal class ArticleConfiguration : AggregateConfiguration<ArticleEntity>, IEn
   {
     base.Configure(builder);
 
-    builder.ToTable(RulesDb.Articles.Table.Table!, RulesDb.Articles.Table.Schema);
+    builder.ToTable(EncyclopediaDb.Articles.Table.Table!, EncyclopediaDb.Articles.Table.Schema);
     builder.HasKey(x => x.ArticleId);
 
     builder.HasIndex(x => x.Id).IsUnique();

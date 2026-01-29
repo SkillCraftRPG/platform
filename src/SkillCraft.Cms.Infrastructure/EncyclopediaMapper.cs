@@ -3,6 +3,7 @@ using Krakenar.Contracts.Actors;
 using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Articles.Models;
+using SkillCraft.Cms.Core.Collections.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -27,13 +28,38 @@ internal class EncyclopediaMapper
 
   public ArticleModel ToArticle(ArticleEntity source)
   {
+    if (source.Collection is null)
+    {
+      throw new ArgumentException("The collection is required.", nameof(source));
+    }
+
     ArticleModel destination = new()
     {
       Id = source.Id,
       Slug = source.Slug,
       Title = source.Title,
       MetaDescription = source.MetaDescription,
-      HtmlContent = source.HtmlContent
+      HtmlContent = source.HtmlContent,
+      Collection = ToCollection(source.Collection)
+    };
+
+    if (source.Parent is not null)
+    {
+      destination.Parent = ToArticle(source.Parent);
+    }
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public CollectionModel ToCollection(CollectionEntity source)
+  {
+    CollectionModel destination = new()
+    {
+      Id = source.Id,
+      Key = source.Key,
+      Name = source.Name
     };
 
     MapAggregate(source, destination);

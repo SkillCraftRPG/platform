@@ -1,7 +1,7 @@
 ﻿using Logitar.Data;
 using SkillCraft.Cms.Infrastructure.Entities;
 
-namespace SkillCraft.Cms.Infrastructure.RulesDb;
+namespace SkillCraft.Cms.Infrastructure.EncyclopediaDb;
 
 internal static class Collections
 {

@@ -1,6 +1,8 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using Logitar;
+using Logitar.EventSourcing;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
@@ -24,12 +26,14 @@ internal class ArticleEntity : AggregateEntity
   public int CollectionId { get; private set; }
   public Guid CollectionUid { get; private set; }
 
-  public ArticleEntity? Parent { get; private set; }
+  public ArticleEntity? Parent { get; set; }
   public int? ParentId { get; private set; }
   public Guid? ParentUid { get; private set; }
 
   public string? MetaDescription { get; set; }
   public string? HtmlContent { get; set; }
+
+  public ArticleHierarchyEntity? Hierarchy { get; private set; }
 
   public ArticleEntity(ContentLocalePublished @event) : base(@event)
   {
@@ -38,6 +42,20 @@ internal class ArticleEntity : AggregateEntity
 
   private ArticleEntity() : base()
   {
+  }
+
+  public override IReadOnlyCollection<ActorId> GetActorIds()
+  {
+    HashSet<ActorId> actorIds = new(base.GetActorIds());
+    if (Collection is not null)
+    {
+      actorIds.AddRange(Collection.GetActorIds());
+    }
+    if (Parent is not null)
+    {
+      actorIds.AddRange(Parent.GetActorIds());
+    }
+    return actorIds;
   }
 
   public void Publish(ContentLocalePublished @event)
