@@ -1,17 +1,13 @@
-﻿namespace SkillCraft.Cms.Core.Features.Models;
+﻿using Krakenar.Contracts;
 
-public record FeatureModel
+namespace SkillCraft.Cms.Core.Features.Models;
+
+public class FeatureModel : Aggregate
 {
-  public string Name { get; set; }
+  public string Key { get; set; } = string.Empty;
+  public string Name { get; set; } = string.Empty;
+
   public string? HtmlContent { get; set; }
 
-  public FeatureModel() : this(string.Empty)
-  {
-  }
-
-  public FeatureModel(string name, string? htmlContent = null)
-  {
-    Name = name;
-    HtmlContent = htmlContent;
-  }
-} // TODO(fpion): other fields?
+  public override string ToString() => $"{Name} | {base.ToString()}";
+}

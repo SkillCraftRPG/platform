@@ -174,7 +174,20 @@ internal class RulesMapper
     return destination;
   }
 
-  public static FeatureModel ToFeature(FeatureEntity source) => new(source.Name, source.HtmlContent);
+  public FeatureModel ToFeature(FeatureEntity source)
+  {
+    FeatureModel destination = new()
+    {
+      Id = source.Id,
+      Key = source.Key,
+      Name = source.Name,
+      HtmlContent = source.HtmlContent
+    };
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
 
   public LanguageModel ToLanguage(LanguageEntity source)
   {
