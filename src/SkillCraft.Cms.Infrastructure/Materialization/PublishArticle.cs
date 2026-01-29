@@ -124,6 +124,9 @@ internal class PublishArticleCommandHandler : ICommandHandler<PublishArticleComm
     }
   }
 
+  // TODO(fpion): changing the parent should recompute the hierarchy
+  // TODO(fpion): changing the slug should recompute the hierarchy
+
   private async Task UpdateHierarchyAsync(ArticleEntity article, CancellationToken cancellationToken)
   {
     List<KeyValuePair<int, string>> path = new(capacity: 1);

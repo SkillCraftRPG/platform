@@ -40,6 +40,7 @@ internal class ArticleQuerier : IArticleQuerier
     int[] ids = idPath.Single().Split(Constants.PathSeparator).Select(int.Parse).ToArray();
     Dictionary<int, ArticleEntity> articles = await _articles.AsNoTracking()
       .Where(x => ids.Contains(x.ArticleId) && x.IsPublished)
+      .Include(x => x.Collection)
       .ToDictionaryAsync(x => x.ArticleId, x => x, cancellationToken);
 
     ArticleEntity? parent = null;
