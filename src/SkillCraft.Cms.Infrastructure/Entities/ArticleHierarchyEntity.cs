@@ -1,9 +1,9 @@
-﻿namespace SkillCraft.Cms.Infrastructure.Entities;
+﻿using SkillCraft.Cms.Infrastructure.Configurations;
+
+namespace SkillCraft.Cms.Infrastructure.Entities;
 
 internal class ArticleHierarchyEntity
 {
-  public const char Separator = '/';
-
   public ArticleEntity? Article { get; private set; }
   public int ArticleId { get; private set; }
   public Guid ArticleUid { get; private set; }
@@ -36,8 +36,8 @@ internal class ArticleHierarchyEntity
   public IReadOnlyList<KeyValuePair<int, string>> GetPath()
   {
     List<KeyValuePair<int, string>> path = new(capacity: Depth);
-    string[] ids = IdPath.Split(Separator);
-    string[] slugs = SlugPath.Split(Separator);
+    string[] ids = IdPath.Split(Constants.PathSeparator);
+    string[] slugs = SlugPath.Split(Constants.PathSeparator);
     for (int i = 0; i < Depth; i++)
     {
       path.Add(new KeyValuePair<int, string>(int.Parse(ids[i]), slugs[i]));
@@ -53,8 +53,8 @@ internal class ArticleHierarchyEntity
     }
 
     Depth = path.Count();
-    IdPath = string.Join(Separator, path.Select(x => x.Key));
-    SlugPath = string.Join(Separator, path.Select(x => x.Value));
+    IdPath = string.Join(Constants.PathSeparator, path.Select(x => x.Key));
+    SlugPath = string.Join(Constants.PathSeparator, path.Select(x => x.Value));
   }
 
   public override bool Equals(object? obj) => obj is ArticleHierarchyEntity hierarchy && hierarchy.ArticleId == ArticleId;

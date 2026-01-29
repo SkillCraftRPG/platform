@@ -5,6 +5,7 @@ using Logitar.EventSourcing;
 using Microsoft.EntityFrameworkCore;
 using SkillCraft.Cms.Core.Articles;
 using SkillCraft.Cms.Core.Articles.Models;
+using SkillCraft.Cms.Infrastructure.Configurations;
 using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Queriers;
@@ -36,7 +37,7 @@ internal class ArticleQuerier : IArticleQuerier
       return null;
     }
 
-    int[] ids = idPath.Split(ArticleHierarchyEntity.Separator).Select(int.Parse).ToArray();
+    int[] ids = idPath.Split(Constants.PathSeparator).Select(int.Parse).ToArray();
     Dictionary<int, ArticleEntity> articles = await _articles.AsNoTracking()
       .Where(x => ids.Contains(x.ArticleId) && x.IsPublished && x.Collection!.IsPublished)
       .ToDictionaryAsync(x => x.ArticleId, x => x, cancellationToken);
