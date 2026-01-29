@@ -34,9 +34,11 @@ internal class PublishCollectionCommandHandler : ICommandHandler<PublishCollecti
       _encyclopedia.Collections.Add(collection);
     }
 
-    collection.Key = locale.UniqueName.Value;
-    collection.Name = locale.DisplayName?.Value;
-    collection.Description = locale.Description?.Value;
+    collection.Slug = locale.UniqueName.Value; // TODO(fpion): locale.GetString(CollectionDefinition.Slug);
+    collection.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
+
+    // TODO(fpion): collection.MetaDescription = locale.TryGetString(CollectionDefinition.MetaDescription);
+    // TODO(fpion): collection.HtmlContent = locale.TryGetString(CollectionDefinition.HtmlContent);
 
     collection.Publish(@event);
 

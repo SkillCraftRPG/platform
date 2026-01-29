@@ -58,8 +58,10 @@ internal class EncyclopediaMapper
     CollectionModel destination = new()
     {
       Id = source.Id,
-      Key = source.Key,
-      Name = source.Name
+      Slug = source.Slug,
+      Name = source.Name,
+      MetaDescription = source.MetaDescription,
+      HtmlContent = source.HtmlContent
     };
 
     MapAggregate(source, destination);
