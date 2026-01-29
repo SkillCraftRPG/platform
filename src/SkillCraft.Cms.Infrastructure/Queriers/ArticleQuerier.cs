@@ -28,18 +28,18 @@ internal class ArticleQuerier : IArticleQuerier
     string collectionNormalized = Helper.Normalize(collection);
     string pathNormalized = Helper.Normalize(path);
 
-    string? idPath = await _articleHierarchy.AsNoTracking()
-      .Where(x => x.Collection!.KeyNormalized == collectionNormalized && x.SlugPath == pathNormalized)
+    string[] idPath = await _articleHierarchy.AsNoTracking()
+      .Where(x => x.Collection!.KeyNormalized == collectionNormalized && x.Collection.IsPublished && x.SlugPath == pathNormalized)
       .Select(x => x.IdPath)
-      .SingleOrDefaultAsync(cancellationToken);
-    if (idPath is null)
+      .ToArrayAsync(cancellationToken);
+    if (idPath.Length != 1)
     {
       return null;
     }
 
-    int[] ids = idPath.Split(Constants.PathSeparator).Select(int.Parse).ToArray();
+    int[] ids = idPath.Single().Split(Constants.PathSeparator).Select(int.Parse).ToArray();
     Dictionary<int, ArticleEntity> articles = await _articles.AsNoTracking()
-      .Where(x => ids.Contains(x.ArticleId) && x.IsPublished && x.Collection!.IsPublished)
+      .Where(x => ids.Contains(x.ArticleId) && x.IsPublished)
       .ToDictionaryAsync(x => x.ArticleId, x => x, cancellationToken);
 
     ArticleEntity? parent = null;
