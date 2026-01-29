@@ -2,7 +2,7 @@
 
 internal class ArticleHierarchyEntity
 {
-  private const char Separator = '/';
+  public const char Separator = '/';
 
   public ArticleEntity? Article { get; private set; }
   public int ArticleId { get; private set; }
