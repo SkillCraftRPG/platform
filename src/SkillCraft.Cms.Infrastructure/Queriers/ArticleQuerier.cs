@@ -29,7 +29,7 @@ internal class ArticleQuerier : IArticleQuerier
     string pathNormalized = Helper.Normalize(path);
 
     string[] idPath = await _articleHierarchy.AsNoTracking()
-      .Where(x => x.Collection!.KeyNormalized == collectionNormalized && x.Collection.IsPublished && x.SlugPath == pathNormalized)
+      .Where(x => x.Collection!.SlugNormalized == collectionNormalized && x.Collection.IsPublished && x.SlugPath == pathNormalized)
       .Select(x => x.IdPath)
       .ToArrayAsync(cancellationToken);
     if (idPath.Length != 1)

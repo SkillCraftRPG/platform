@@ -1586,7 +1586,44 @@
     "UniqueName": "Collection",
     "DisplayName": "Collection",
     "Description": null,
-    "Fields": []
+    "Fields": [
+      {
+        "Id": "ded84b48-70d2-470f-9993-ed3c463bbc63",
+        "FieldType": "Slug",
+        "IsInvariant": false,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": true,
+        "UniqueName": "Slug",
+        "DisplayName": "Alias",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "82fe0b10-a85f-413f-98b5-936943401664",
+        "FieldType": "MetaDescription",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "MetaDescription",
+        "DisplayName": "Description (méta)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "2243ea06-eac0-4981-a393-9c8c9fa99215",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
   },
   {
     "Id": "5f763b66-c578-400c-8fbd-a0df8fb94919",

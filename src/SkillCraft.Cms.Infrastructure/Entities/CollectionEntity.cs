@@ -12,14 +12,16 @@ internal class CollectionEntity : AggregateEntity
 
   public bool IsPublished { get; private set; }
 
-  public string Key { get; set; } = string.Empty;
-  public string KeyNormalized
+  public string Slug { get; set; } = string.Empty;
+  public string SlugNormalized
   {
-    get => Helper.Normalize(Key);
+    get => Helper.Normalize(Slug);
     private set { }
   }
-  public string? Name { get; set; }
-  public string? Description { get; set; }
+  public string Name { get; set; } = string.Empty;
+
+  public string? MetaDescription { get; set; }
+  public string? HtmlContent { get; set; }
 
   public List<ArticleEntity> Articles { get; private set; } = [];
   public List<ArticleHierarchyEntity> ArticleHierarchies { get; private set; } = [];

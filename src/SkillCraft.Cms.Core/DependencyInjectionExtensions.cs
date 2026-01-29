@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SkillCraft.Cms.Core.Articles;
 using SkillCraft.Cms.Core.Attributes;
 using SkillCraft.Cms.Core.Castes;
+using SkillCraft.Cms.Core.Collections;
 using SkillCraft.Cms.Core.Customizations;
 using SkillCraft.Cms.Core.Educations;
 using SkillCraft.Cms.Core.Languages;
@@ -31,6 +32,7 @@ public static class DependencyInjectionExtensions
     ArticleService.Register(services);
     AttributeService.Register(services);
     CasteService.Register(services);
+    CollectionService.Register(services);
     CustomizationService.Register(services);
     EducationService.Register(services);
     LanguageService.Register(services);

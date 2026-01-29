@@ -3,6 +3,7 @@ using Krakenar.Core.Contents.Events;
 using Logitar.CQRS;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using SkillCraft.Cms.Infrastructure.Contents;
 using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Materialization;
@@ -34,9 +35,11 @@ internal class PublishCollectionCommandHandler : ICommandHandler<PublishCollecti
       _encyclopedia.Collections.Add(collection);
     }
 
-    collection.Key = locale.UniqueName.Value;
-    collection.Name = locale.DisplayName?.Value;
-    collection.Description = locale.Description?.Value;
+    collection.Slug = locale.GetString(CollectionDefinition.Slug);
+    collection.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
+
+    collection.MetaDescription = locale.TryGetString(CollectionDefinition.MetaDescription);
+    collection.HtmlContent = locale.TryGetString(CollectionDefinition.HtmlContent);
 
     collection.Publish(@event);
 
