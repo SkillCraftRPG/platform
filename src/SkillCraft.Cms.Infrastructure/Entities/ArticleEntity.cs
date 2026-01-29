@@ -26,7 +26,7 @@ internal class ArticleEntity : AggregateEntity
   public int CollectionId { get; private set; }
   public Guid CollectionUid { get; private set; }
 
-  public ArticleEntity? Parent { get; private set; }
+  public ArticleEntity? Parent { get; set; }
   public int? ParentId { get; private set; }
   public Guid? ParentUid { get; private set; }
 

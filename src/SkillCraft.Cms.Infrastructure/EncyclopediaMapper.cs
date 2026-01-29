@@ -41,6 +41,10 @@ internal class EncyclopediaMapper
     {
       destination.Collection = ToCollection(source.Collection);
     }
+    if (source.Parent is not null)
+    {
+      destination.Parent = ToArticle(source.Parent);
+    }
 
     MapAggregate(source, destination);
 

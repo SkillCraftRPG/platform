@@ -11,7 +11,7 @@ public class ArticleModel : Aggregate
   public string? MetaDescription { get; set; }
   public string? HtmlContent { get; set; }
 
-  public CollectionModel Collection { get; set; } = new();
+  public CollectionModel? Collection { get; set; }
   public ArticleModel? Parent { get; set; }
   public List<ArticleModel> Children { get; set; } = [];
 

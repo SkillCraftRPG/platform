@@ -38,13 +38,23 @@ internal class ArticleQuerier : IArticleQuerier
 
     int[] ids = idPath.Split(ArticleHierarchyEntity.Separator).Select(int.Parse).ToArray();
     Dictionary<int, ArticleEntity> articles = await _articles.AsNoTracking()
-      .Where(x => ids.Contains(x.ArticleId))
+      .Where(x => ids.Contains(x.ArticleId) && x.IsPublished && x.Collection!.IsPublished)
       .ToDictionaryAsync(x => x.ArticleId, x => x, cancellationToken);
 
-    int id = ids.Last();
-    return articles.TryGetValue(id, out ArticleEntity? article)
-      ? (await MapAsync(article, cancellationToken))
-      : null;
+    ArticleEntity? parent = null;
+    ArticleEntity? article = null;
+    foreach (int id in ids)
+    {
+      if (!articles.TryGetValue(id, out article))
+      {
+        return null;
+      }
+
+      article.Parent = parent;
+      parent = article;
+    }
+
+    return article is null ? null : await MapAsync(article, cancellationToken);
   }
 
   private async Task<ArticleModel> MapAsync(ArticleEntity article, CancellationToken cancellationToken)
@@ -59,6 +69,4 @@ internal class ArticleQuerier : IArticleQuerier
 
     return articles.Select(mapper.ToArticle).ToList().AsReadOnly();
   }
-
-  private record ArticleRelation(int Id, int? ParentId);
 }
