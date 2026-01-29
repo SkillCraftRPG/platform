@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using SkillCraft.Cms.Core.Articles;
 using SkillCraft.Cms.Core.Attributes;
 using SkillCraft.Cms.Core.Castes;
+using SkillCraft.Cms.Core.Collections;
 using SkillCraft.Cms.Core.Customizations;
 using SkillCraft.Cms.Core.Educations;
 using SkillCraft.Cms.Core.Languages;
@@ -42,6 +43,7 @@ public static class DependencyInjectionExtensions
       .AddTransient<ICasteQuerier, CasteQuerier>()
       .AddTransient<ICustomizationQuerier, CustomizationQuerier>()
       .AddTransient<IEducationQuerier, EducationQuerier>()
+      .AddTransient<ICollectionQuerier, CollectionQuerier>()
       .AddTransient<ILanguageQuerier, LanguageQuerier>()
       .AddTransient<ILineageQuerier, LineageQuerier>()
       .AddTransient<IScriptQuerier, ScriptQuerier>()
