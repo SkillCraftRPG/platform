@@ -51,6 +51,10 @@ internal class ArticleEntity : AggregateEntity
     {
       actorIds.AddRange(Collection.GetActorIds());
     }
+    if (Parent is not null)
+    {
+      actorIds.AddRange(Parent.GetActorIds());
+    }
     return actorIds;
   }
 
