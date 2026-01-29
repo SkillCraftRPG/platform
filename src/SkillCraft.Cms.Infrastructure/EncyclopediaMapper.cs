@@ -28,19 +28,21 @@ internal class EncyclopediaMapper
 
   public ArticleModel ToArticle(ArticleEntity source)
   {
+    if (source.Collection is null)
+    {
+      throw new ArgumentException("The collection is required.", nameof(source));
+    }
+
     ArticleModel destination = new()
     {
       Id = source.Id,
       Slug = source.Slug,
       Title = source.Title,
       MetaDescription = source.MetaDescription,
-      HtmlContent = source.HtmlContent
+      HtmlContent = source.HtmlContent,
+      Collection = ToCollection(source.Collection)
     };
 
-    if (source.Collection is not null)
-    {
-      destination.Collection = ToCollection(source.Collection);
-    }
     if (source.Parent is not null)
     {
       destination.Parent = ToArticle(source.Parent);
