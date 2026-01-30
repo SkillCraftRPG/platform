@@ -237,15 +237,15 @@ internal class RulesMapper
     }
     if (source.FemaleNames is not null)
     {
-      destination.Names.Family.AddRange(source.FemaleNames.Split(Constants.Separator));
+      destination.Names.Female.AddRange(source.FemaleNames.Split(Constants.Separator));
     }
     if (source.MaleNames is not null)
     {
-      destination.Names.Family.AddRange(source.MaleNames.Split(Constants.Separator));
+      destination.Names.Male.AddRange(source.MaleNames.Split(Constants.Separator));
     }
     if (source.UnisexNames is not null)
     {
-      destination.Names.Family.AddRange(source.UnisexNames.Split(Constants.Separator));
+      destination.Names.Unisex.AddRange(source.UnisexNames.Split(Constants.Separator));
     }
     if (source.CustomNames is not null)
     {
