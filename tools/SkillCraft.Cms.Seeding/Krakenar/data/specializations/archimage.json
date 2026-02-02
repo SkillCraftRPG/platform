@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e8733044-e262-4f42-ae94-f4904a9ac9b4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "archimage",
+    "DisplayName": "Archimage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"db16d90c-099e-45ce-8321-c174eeb38a0b\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "archimage",
+      "DisplayName": "Archimage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "archimage",
+        "HtmlContent": "L’Archimage côtoie les Hauts Mages d’une Tour de Magie. Ce qui le distingue d’un Haut Mage, c’est son intérêt pour divers corpus et matières. Plutôt que de se concentrer sur un corpus afin de le maîtriser, il étudie plusieurs sujets et tente de tisser des parallèles entre ceux-ci. Par ses intérêts, l’Archimage possède généralement une personnalité plus excentrique et extrovertie, préférant l’aventure et l’exploration plutôt que le confinement dans un laboratoire, une bibliothèque ou une salle de classe.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Mage](/regles/specialisations/mage).\nIl ne doit pas avoir acquis la spécialisation [Haut Mage](/regles/specialisations/haut-mage).\nIl doit également avoir acquis le talent [Initiation magique](/regles/talents/initiation-magique) pour trois des cinq cercles de magie.",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#).",
+        "MetaDescription": "Découvrez l’Archimage, mage érudit et aventurier maîtrisant plusieurs cercles de magie, reliant les savoirs arcaniques et optimisant ses pouvoirs.",
+        "Summary": "Mage polyvalent explorant plusieurs cercles et les savoirs arcaniques."
+      }
+    }
+  }
+}

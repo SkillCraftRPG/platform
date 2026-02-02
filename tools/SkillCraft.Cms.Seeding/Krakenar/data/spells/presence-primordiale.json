@@ -1,0 +1,26 @@
+﻿{
+  "Id": "64186f23-b0c3-4947-8282-2364fa952e0e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "presence-primordiale",
+    "DisplayName": "Présence primordiale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "presence-primordiale",
+      "DisplayName": "Présence primordiale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "presence-primordiale",
+        "MetaDescription": "Découvrez Présence primordiale, un pouvoir versatile mêlant aura apaisante, contrôle émotionnel, drainage vital et barrières liées aux forces primordiales.",
+        "Summary": "Aura primordiale soignant, apaisant ou drainant selon le niveau canalisé.",
+        "HtmlContent": "Ce pouvoir invoque une présence primordiale aux effets variés : apaisement et soins, neutralisation de l’hostilité, drainage vital ou barrière protectrice selon le niveau choisi."
+      }
+    }
+  }
+}

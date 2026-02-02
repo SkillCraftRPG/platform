@@ -1,0 +1,23 @@
+﻿{
+  "Id": "6ceae56c-52cc-4cc1-8e42-fe67d64afe8d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Archimage_Universalisme",
+    "DisplayName": "Universalisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"e8733044-e262-4f42-ae94-f4904a9ac9b4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Archimage_Universalisme",
+      "DisplayName": "Universalisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 d’[astromancie](#).\nIl acquiert gratuitement le talent [Initiation magique](/regles/talents/initiation-magique) pour chaque cercle de magie pour lequel il n’a pas encore acquis ce talent.\nIl acquiert les capacités de tiers 2 spécifiques aux cinq [cercles de magie](#)."
+      }
+    }
+  }
+}

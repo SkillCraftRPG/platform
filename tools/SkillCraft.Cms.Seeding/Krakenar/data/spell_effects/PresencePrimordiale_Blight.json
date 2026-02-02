@@ -1,0 +1,30 @@
+﻿{
+  "Id": "b97322b8-655d-4839-a95e-df2dcd44488d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PresencePrimordiale_Blight",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PresencePrimordiale_Blight",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision), la drainant de son humidité et de sa force vitale. Celle-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [10d6 points de dégâts](/regles/combat/degats/jet) [nécrotiques](/regles/combat/degats/types) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage. Elle ne reçoit que la moitié des [points de dégâts](/regles/combat/degats) en cas de réussite.\n\n- Les morts-vivants et les constructions ne sont pas affectés par ce pouvoir.\n- Si la cible est une créature de type plante ou une plante magique, son jet de sauvegarde est affligé du [désavantage](/regles/competences/tests/avantage-desavantage), et les dés de dégâts sont remplacés par leur valeur maximale.\n- Si la cible est une plante non magique et n’est pas une créature, elle fane, [mourant](/regles/combat/mort-agonie) instantanément."
+      }
+    }
+  }
+}

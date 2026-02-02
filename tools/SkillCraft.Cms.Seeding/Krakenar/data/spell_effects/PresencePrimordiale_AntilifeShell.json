@@ -1,0 +1,31 @@
+﻿{
+  "Id": "df90e0c0-393f-4fe2-9647-4343927b1512",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PresencePrimordiale_AntilifeShell",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "DurationUnit": "[\"Hour\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PresencePrimordiale_AntilifeShell",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une barrière émane du personnage dans un rayon de 3 mètres, se déplaçant avec celui-ci. Seuls les morts-vivants et les constructions peuvent traverser la barrière. Si le personnage se déplace et que la barrière entre en contact avec une créature n’appartenant pas à un de ces types, le pouvoir prend fin. Les créatures affectées peuvent effectuer des [attaques à distance](/regles/combat/attaque/distance) ou avec [allonge](/regles/equipement/armes/proprietes) et [canaliser](/regles/magie/pouvoirs/canalisation) au travers de la barrière."
+      }
+    }
+  }
+}

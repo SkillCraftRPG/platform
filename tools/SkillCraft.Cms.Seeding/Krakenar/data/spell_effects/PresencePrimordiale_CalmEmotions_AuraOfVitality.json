@@ -1,0 +1,30 @@
+﻿{
+  "Id": "251f0a29-e272-4d2f-bd59-af8ade67eb29",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PresencePrimordiale_CalmEmotions_AuraOfVitality",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PresencePrimordiale_CalmEmotions_AuraOfVitality",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une aura de sérénité émane du personnage dans un rayon de 6 mètres, se déplaçant avec celui-ci. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut [soigner](/regles/combat/degats/soins) une créature qu’il peut voir dans la portée de l’aura de 1d12 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la moitié de sa [Puissance](/regles/statistiques/puissance). Il peut également prodiguer ces soins en [action libre](/regles/combat/deroulement/tour) lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) ce [pouvoir](/regles/magie/pouvoirs), et peut se désigner comme cible.\n\nÉgalement, lorsqu’une créature entre volontairement ou débute son tour dans l’aura, elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Elle peut échouer volontairement le jet de sauvegarde. En cas de réussite, une créature n’est pas affectée. En cas d’échec, elle est immunisée aux [charmes](/regles/combat/conditions/charme) et à la [peur](/regles/combat/conditions/apeure). Si elle était [hostile](/regles/aventure/interaction-sociale) envers une ou plusieurs créatures, elle devient [indifférente](/regles/aventure/interaction-sociale) à l’égard de celles-ci. Cet effet prend fin si la créature est [attaquée](/regles/combat/attaque) ou [blessée](/regles/combat/degats), ou si elle voit une créature alliée être attaquée ou blessée.\n\nLorsque ce pouvoir prend fin ou qu’une créature sort de l’aura, celle-ci est affectée à nouveau par les charmes et la peur, et elle peut à nouveau être hostile envers une ou plusieurs créatures."
+      }
+    }
+  }
+}

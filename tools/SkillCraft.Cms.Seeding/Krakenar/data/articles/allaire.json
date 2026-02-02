@@ -1,0 +1,26 @@
+﻿{
+  "Id": "c3c56593-2e85-4c4e-b1dd-84a9059ba0c9",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "allaire",
+    "DisplayName": "Allaire",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
+      "Parent": "[\"09857ee7-8350-4a9f-84e1-62a944296dcf\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": false,
+      "UniqueName": "allaire",
+      "DisplayName": "Allaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "allaire",
+        "MetaDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt augue eget ullamcorper sagittis. Aliquam aliquet diam nisl, in facilisis elit libero.",
+        "HtmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet sodales lacus, quis consectetur neque sollicitudin eu. Maecenas eget molestie metus, et porttitor nibh. Donec ex eros, sagittis id maximus id, tristique at nibh. Mauris fringilla faucibus erat, vel pellentesque turpis euismod id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam luctus ultricies ipsum quis vestibulum. Donec arcu ante, fringilla vitae mi ac, elementum rutrum risus. Vestibulum at placerat nunc, in faucibus libero."
+      }
+    }
+  }
+}

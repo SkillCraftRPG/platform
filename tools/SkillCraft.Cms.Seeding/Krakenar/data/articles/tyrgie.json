@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a3fcac54-1772-41ef-b3e2-14e6c5c319f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tyrgie",
+    "DisplayName": "Tyrgie",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tyrgie",
+      "DisplayName": "Tyrgie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tyrgie",
+        "HtmlContent": "La Tyrgie est l’un des cinq continents de la planète [Durma](#). Elle est traditionnelle divisée en trois grandes régions : l’[Ouespéro](/ungar/ouespero) en Occident, l’[Orijìsa](#) en Orient, et [Sulasarûn](#) au Sud.\n\nIl se distingue comme le continent à la plus vaste superficie et à la population la plus nombreuse, tant en volume brut qu’en diversité de peuples, de cultures et de civilisations. Véritable carrefour du monde, la Tyrgie est considérée comme le berceau des grandes civilisations historiques, en particulier humaines et naines, dont les empires, royaumes et cités ont profondément façonné l’histoire, les langues et les échanges de la planète.\n\nSes frontières naturelles sont nettement définies par les océans qui l’entourent : à l’Ouest s’étend l’[océan Illuntique](#), à l’Est l’[océan Serainoé](#), et au Sud l’[océan Mélural](#). Au Nord, la Tyrgie est presque jointe à l’[Hyperborée](#). Ces continents ne sont séparés que par un vaste ensemble de mers froides et instables, formant une zone de transition maritime plutôt qu’une rupture franche entre les deux masses continentales."
+      }
+    }
+  }
+}
