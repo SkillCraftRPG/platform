@@ -1,0 +1,27 @@
+﻿{
+  "Id": "42e457bc-9d9f-4750-91d3-86061aeadd3f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "commun",
+    "DisplayName": "Commun",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"5b43f115-4149-4f86-88c8-c809de5b17be\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "commun",
+      "DisplayName": "Commun",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "commun",
+        "TypicalSpeakers": "Dans les régions anciennement impériales, il est souvent langue première. Ailleurs, il est presque toujours une langue seconde, apprise pour des raisons pratiques. Même lorsque la maîtrise est imparfaite, l’intercompréhension reste généralement suffisante. Le Rénon commun est parlé par :\n\n- la majorité des populations urbaines et côtières,\n- les marchands, diplomates et voyageurs,\n- de nombreuses communautés locales multilingues.",
+        "MetaDescription": "Découvrez le Rénon commun, langue véhiculaire d’Ouespéro issue de l’ancien empire, utilisée pour le commerce, la diplomatie et les échanges quotidiens.",
+        "Summary": "Langue véhiculaire pragmatique et évolutive, parlée sur tout Ouespéro.",
+        "HtmlContent": "Le **Rénon commun**, souvent abrégé en _Commun_, est la langue véhiculaire la plus répandue sur le continent d’Ouespéro. Héritier direct de la langue populaire de l’ancien empire occidental, il s’est imposé comme langue du commerce, de la diplomatie et des échanges quotidiens, en particulier dans l’Ouest et le Sud du continent. Il est parlé sous six grands dialectes régionaux, mutuellement intelligibles à l’oral. Tous utilisent le même alphabet, mais diffèrent par leurs conventions orthographiques, leurs choix graphiques et leurs traditions scribales.\n\nLe Rénon commun est une langue fonctionnelle, pragmatique et évolutive, issue de la langue parlée plutôt que de la norme savante. Il privilégie l’efficacité communicative et l’intercompréhension entre peuples d’origines diverses. Il est parfaitement adapté aux usages quotidiens, commerciaux et diplomatiques, mais reste peu apte à exprimer des concepts abstraits complexes sans périphrases. Ses traits généraux incluent :\n\n- une grammaire simplifiée par rapport à la [langue impériale ancienne](/regles/langues/imperial),\n- une syntaxe plus stable, généralement sujet–verbe–objet,\n- un affaiblissement des flexions anciennes, compensé par l’usage accru de prépositions,\n- un vocabulaire composite mêlant héritage impérial, innovations populaires et emprunts régionaux."
+      }
+    }
+  }
+}

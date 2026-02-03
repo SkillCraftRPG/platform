@@ -1,0 +1,24 @@
+﻿{
+  "Id": "5b43f115-4149-4f86-88c8-c809de5b17be",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "renon",
+    "DisplayName": "Rénon",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "renon",
+      "DisplayName": "Rénon",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "renon",
+        "MetaDescription": "Découvrez le Rénon, un système d’écriture alphabétique commun au monde éponyme, utilisé par le Commun et l’Impérial, standardisé pour une lecture cohérente.",
+        "Summary": "Alphabet unifié et standardisé, utilisé par le Commun et l’Impérial.",
+        "HtmlContent": "L’alphabet Rénon est un système d’écriture alphabétique commun à l’ensemble du monde Rénon, utilisé aussi bien pour le [Commun](/regles/langues/commun) que pour l’[Impérial](/regles/langues/imperial). Hérité de l’écriture de l’ancien empire occidental, il a été progressivement standardisé afin d’assurer une lecture claire et cohérente sur tout le territoire. Écrit de gauche à droite, il repose sur une relation généralement stable entre les lettres et les sons, tout en conservant certaines conventions historiques. Son apparence a évolué des formes monumentales vers des écritures plus cursives et livresques, et il admet différents styles selon les usages (quotidiens, administratifs ou religieux) sans jamais se fragmenter en alphabets distincts."
+      }
+    }
+  }
+}
