@@ -1,0 +1,27 @@
+﻿{
+  "Id": "f459bcce-13d2-43a1-92a5-dabe5a17fbd6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "thrixe",
+    "DisplayName": "Thrixe",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"b815dd66-b72c-4da6-8048-9bb35614fc70\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "thrixe",
+      "DisplayName": "Thrixe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "thrixe",
+        "TypicalSpeakers": "Les locuteurs du Thrixe sont socialement et culturellement variés. La région étant historiquement multiculturelle, la langue est pratiquée par les [humains](/regles/especes/humain), qui y sont majoritaires, mais également par des populations d’origines diverses : [Centaures](/regles/especes/centaure), [Elfes](/regles/especes/elfe), [Minotaures](/regles/especes/minotaure), [Nains](/regles/especes/nain), [Petit-Gens](/regles/especes/petit-gens) et [Satyres](/regles/especes/satyre). Dans cette région, le Thrixe sert de langue commune locale, facilitant les échanges entre communautés et contribuant à sa survie jusqu’à l’époque actuelle.",
+        "MetaDescription": "Découvrez le Thrixe, langue archaïque d’Ouespéro issue d’un ancien fond linguistique, préservée comme marqueur identitaire régional.",
+        "Summary": "Langue archaïque régionale, héritage ancien et identité du Thrixe.",
+        "HtmlContent": "Le Thrixe est issu d’une origine très ancienne, partagée avec l’[Orrinique](/regles/langues/orrinique). Ces deux langues procèdent d’un même fonds linguistique archaïque antérieur aux grandes recompositions culturelles de l’Ouespéro. Le Thrixe représente aujourd’hui la continuité directe de ce noyau ancien, là où l’Orrinique a connu une évolution plus marquée et une diffusion plus large. Le Thrixe utilise l’écriture Orrinique. Ce système graphique, d’origine ancienne, a été conservé et adapté sans rupture majeure, ce qui a contribué à la stabilité formelle de la langue et à la transmission de traditions écrites continues sur une très longue durée.\n\nDans les temps anciens, le Thrixe faisait partie d’un vaste continuum linguistique couvrant le Sud et l’Est de l’Ouespéro. Cette aire incluait notamment la Thrixe, la Drakyrie, la Saromagne et l’Ixaravie, et suivait les grands reliefs que sont les Orrixides, les Dargates et les Titanides. Aujourd’hui, son aire est beaucoup plus restreinte. La langue est principalement concentrée sur la côte continentale de la mer Cécatique, entre la Sarénie à l’Ouest et l’Orrixe à l’Est, avec pour centre culturel et démographique la cité de Durmanion. Bien que réduite en superficie, cette aire est caractérisée par une forte densité et diversité de population, ainsi qu’une vitalité linguistique notable.\n\nLe Thrixe est la dernière langue vivante de sa famille. Cette famille linguistique, autrefois étendue et diversifiée, comptait de nombreuses langues aujourd’hui entièrement éteintes. Le Thrixe se distingue par la conservation de traits structurels et lexicaux très archaïques, en comparaison des langues voisines comme le [Rénon](/regles/langues/commun) et l’Orrinique, qui ont évolué plus rapidement sous l’effet de nombreux contacts et de restructurations internes. Malgré de longues périodes d’occupation étrangère et d’acculturation, la langue a su s’adapter sans perdre son identité. Cette capacité de résistance tient à la fois à son ancrage urbain fort autour de Durmanion et à son rôle symbolique comme marqueur d’identité régionale."
+      }
+    }
+  }
+}
