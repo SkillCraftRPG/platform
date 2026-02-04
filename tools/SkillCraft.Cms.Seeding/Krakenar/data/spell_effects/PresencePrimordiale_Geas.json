@@ -1,0 +1,29 @@
+﻿{
+  "Id": "17c32a25-b1f9-4b6c-814e-cd82d51ac11b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PresencePrimordiale_Geas",
+    "DisplayName": "Geis",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "30",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PresencePrimordiale_Geas",
+      "DisplayName": "Geis",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage impose une commande à une créature qu’il peut [voir](/regles/aventure/environnement/vision) et située à 18 mètres ou moins de sa position.\n\nIl l’oblige à effectuer une activité, ou à s’abstenir d’effectuer cette activité. La commande ne doit pas mettre la vie de la cible en danger.\n\nSi la créature comprend le personnage, elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle est [charmée](/regles/combat/conditions/charme) par le personnage, et elle doit obéir à la commande.\n\nUne fois par jour, si elle désobéit à la commande, elle reçoit [10d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "b815dd66-b72c-4da6-8048-9bb35614fc70",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orrinique",
+    "DisplayName": "Orrinique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orrinique",
+      "DisplayName": "Orrinique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orrinique",
+        "HtmlContent": "L’alphabet Orrinique est un alphabet complet (consonnes et voyelles) utilisé pour écrire l’[Orrinique](/regles/langues/orrinique). Il vient d’un système plus ancien et a réassigné certains signes pour noter clairement les voyelles, ce qui rend la lecture plus régulière. Au début, il existait en plusieurs variantes locales, puis une version standard s’est imposée avec un ordre fixe de lettres. Avec le temps, l’écriture est passée de formes surtout “majuscules” à des formes plus rapides et arrondies, puis à une minuscule de manuscrits, tout en conservant les deux usages. Selon les époques, on peut aussi y trouver des diacritiques (accents ou marques) dans les textes savants, mais ils ne sont pas toujours nécessaires au quotidien.",
+        "MetaDescription": "Découvrez l’alphabet Orrinique, une écriture savante complète, issue d’un système ancien, normalisée pour les usages religieux, juridiques et académiques.",
+        "Summary": "Alphabet savant normalisé pour les usages religieux et académiques."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Id": "80e27aa8-1ebb-4e4d-a68d-06e6817e5c67",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Chantelame_MelodieAceree",
+    "DisplayName": "Mélodie acérée",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"78544eee-f83d-454a-b6b7-4c883db58050\"]",
+      "DiscountedTalents": "[\"a7abe59c-1c5c-43f8-b938-df2690cf437f\",\"76600f51-f0e5-4544-bc0c-31fba6698164\",\"326302ae-b229-435c-a055-c87c6f6353be\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\"]",
+      "Features": "[\"35aed858-8bb7-4d30-ad61-2caa064a122f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Chantelame_MelodieAceree",
+      "DisplayName": "Mélodie acérée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pour chaque talent [à rabais](/regles/talents/points) acquis parmi la liste ci-dessous, le coût d’[acquisition](/regles/talents/acquisition) du talent [Perception extrasensorielle](/regles/talents/perception-extrasensorielle) est réduit d’un [point](/regles/talents/points)."
+      }
+    }
+  }
+}

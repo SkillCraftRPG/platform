@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e18083f6-9890-4d3f-af69-0061207acc23",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orrinique",
+    "DisplayName": "Orrinique",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"b815dd66-b72c-4da6-8048-9bb35614fc70\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orrinique",
+      "DisplayName": "Orrinique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orrinique",
+        "MetaDescription": "Découvrez l’Orrinique, langue commune de l’Est de l’Ouespéro, héritée d’un ancien empire et encore utilisée par de nombreux peuples savants.",
+        "TypicalSpeakers": "L’Orrinique est d’abord la langue des Orrins ([humains](/regles/especes/humain)), qui l’emploient comme langue civique et culturelle : administration locale, correspondance, contrats, enseignement, écrits savants et échanges entre cités. Dans les grandes villes du Sud-Est de l’Ouespéro, elle sert aussi de langue de prestige : la parler correctement signale l’instruction, l’accès aux institutions, et l’appartenance aux milieux urbains.\n\nC'est également la langue première des [Centaures](/regles/especes/centaure), des [Minotaures](/regles/especes/minotaure) et des [Satyres](/regles/especes/satyre). Leurs langues anciennes ont disparu au profit de cette langue commune, désormais transmise comme langue maternelle au sein de leurs sociétés.",
+        "Summary": "Langue commune orientale héritée d’un ancien empire.",
+        "HtmlContent": "L’Orrinique est la grande langue commune de l’ancien empire oriental, surtout implantée dans le Sud-Est de l’Ouespéro. Elle naît d’un besoin pratique : permettre à des populations variées de se comprendre, de commercer, d’administrer et de transmettre le savoir au-delà des frontières locales. Elle devient ainsi une langue supra-régionale, reconnue autant à l’oral qu’à l’écrit, et capable de couvrir des registres très différents, du style savant au langage courant.\n\nElle émerge à partir d’un dialecte prestigieux (langue de cour, d’élites urbaines ou de grands centres de formation), puis se répand avec l’expansion politique, militaire et économique de l’ancien empire. Le contact constant entre provinces produit une forme nivelée : une base commune compréhensible partout, enrichie d’influences régionales plus ou moins marquées selon les zones. Dans certaines régions orientales, on observe donc des tournures et une prononciation plus locales, tandis que les grands centres administratifs conservent une norme plus conservatrice."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "78544eee-f83d-454a-b6b7-4c883db58050",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "chantelame",
+    "DisplayName": "Chantelame",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"d3042400-af91-41df-b7ce-2c36ed19df6e\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"9f0c90cc-29b8-4fb6-b4c8-fe930b3042d7\",\"3a318dfc-40ef-4d1c-ae76-9ca8c2a35565\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "chantelame",
+      "DisplayName": "Chantelame",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le Chantelame est autant un magicien qu’il est un artiste. Sa voix possède la capacité d’enchanter ses armes ainsi que ses facultés de combat. Il peut produire des effets surnaturels par le biais d’une performance artistique plutôt qu’en manipulant l’énergie magique brute. Il devient alors un redoutable adversaire, comblant ses faiblesses physiques par ses pouvoirs magiques. Il combine alors le meilleur des deux mondes.",
+        "Slug": "chantelame",
+        "MetaDescription": "Découvrez le Chantelame, une spécialisation martiale et artistique mêlant combat, magie et performance pour sublimer la lame par le chant.",
+        "Summary": "Spécialisation mêlant magie, combat et performance artistique.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Astromancien](/regles/specialisations/astromancien).\nIl doit également avoir acquis les talents [Formation martiale](/regles/talents/formation-martiale) et [Représentation](/regles/talents/representation)."
+      }
+    }
+  }
+}
