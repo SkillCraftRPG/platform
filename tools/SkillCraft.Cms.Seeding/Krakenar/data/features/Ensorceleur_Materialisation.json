@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b1e8f283-d157-4712-8f7f-327a2a54dde0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ensorceleur_Materialisation",
+    "DisplayName": "Matérialisation",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ensorceleur_Materialisation",
+      "DisplayName": "Matérialisation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage canalise une [illusion](#), il peut sélectionner un objet inanimé et non magique faisant partie de l’illusion. Il peut en faire ainsi une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), pendant la [durée](/regles/magie/parametres/duree) de l’illusion.\n\nL’objet est matérialisé et devient réel pendant [une minute](/regles/aventure/temps). Il ne peut [blesser](/regles/combat/degats) ni nuire directement à autrui. Il peut par exemple matérialiser une échelle pour escalader un mur, ou un pont pour traverser un un gouffre."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "dc5149dd-b7b6-4d80-b821-8391ecc09e58",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conjurateur_InvocationsMysterieuses",
+    "DisplayName": "Invocations mystérieuses",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conjurateur_InvocationsMysterieuses",
+      "DisplayName": "Invocations mystérieuses",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage découvre un nombre d’[invocations mystérieuses](#) égal à ses [Sens](/regles/attributs/sens) (minimum&nbsp;1). Lorsque ses [Sens](/regles/attributs/sens) augmentent, il peut découvrir de nouvelles invocations mystérieuses.\n\nUne fois par jour, en effectuant un rituel d’une durée minimale d’[une heure](/regles/aventure/temps), il peut oublier une invocation et la remplacer par une nouvelle invocation mystérieuse. Il peut effectuer ce rituel à la [halte](/regles/aventure/repos/halte) et en [méditant](/regles/talents/meditation)."
+      }
+    }
+  }
+}

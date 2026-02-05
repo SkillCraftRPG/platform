@@ -1,0 +1,25 @@
+﻿{
+  "Id": "957771e5-cf8f-4f48-98fb-e7e984415770",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GuerrierFauve_FurieAncestrale",
+    "DisplayName": "Furie ancestrale",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"9ae6f2d0-b978-40ff-8e7c-fd926f5d02f5\"]",
+      "DiscountedTalents": "[\"bc0f5737-5e23-41f2-9204-e802e2aa295a\",\"36d6b4b3-1ce4-4aa4-8382-d08596c338d8\",\"4cedddb9-9286-47ae-b9ba-c6a17fc75a80\",\"2f330428-3e52-48a2-bbc3-4fb875f810db\"]",
+      "Features": "[\"c444babe-523f-466d-b284-7f22a9f481ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GuerrierFauve_FurieAncestrale",
+      "DisplayName": "Furie ancestrale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il est [surpris](/regles/combat/deroulement/surprise), il peut jouer normalement s’il débute son [tour](/regles/combat/deroulement/tour) en entrant en **Rage ancestrale**."
+      }
+    }
+  }
+}

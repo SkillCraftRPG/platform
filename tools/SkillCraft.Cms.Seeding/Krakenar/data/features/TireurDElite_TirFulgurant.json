@@ -1,0 +1,21 @@
+﻿{
+  "Id": "bfafec8f-c3d4-4a25-abde-013c96d6f9d6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "TireurDElite_TirFulgurant",
+    "DisplayName": "Tir fulgurant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "TireurDElite_TirFulgurant",
+      "DisplayName": "Tir fulgurant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un [Tir précis](/regles/talents/tir-precis), il bénéficie des capacités suivantes.\n\n- Les [points de dégâts](/regles/combat/degats) infligés ignorent la [résistance](/regles/combat/degats/efficacite) de la cible.\n- Il peut dépenser 15 points d’[Énergie](/regles/statistiques/energie) avant de savoir si le [test](/regles/competences/tests) est réussi ou échoué afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au test.\n- Il peut dépenser 15 points d’Énergie avant de savoir si l’[attaque](/regles/combat/attaque/distance) réussit ou échoue. Si la [taille](/regles/especes/taille) de la cible est inférieure ou égale à celle du personnage, alors la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou de [Résistance](/regles/competences/resistance). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test d’[Orientation](/regles/competences/orientation) effectué par le personnage. En cas d’échec, la cible est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour).\n- Il peut dépenser 15 points d’Énergie avant de savoir si l’[attaque](/regles/combat/attaque/distance) réussit ou échoue. Si la [taille](/regles/especes/taille) de la cible est inférieure ou égale à celle du personnage, alors la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test d’[Orientation](/regles/competences/orientation) effectué par le personnage. En cas d’échec, la cible est [renversée](/regles/combat/conditions/renverse) au sol, ou repoussée de 1,5 mètres, au choix du personnage.\n- Il peut combiner les talents [Attaque neutralisante](/regles/talents/attaque-neutralisante) et [Attaque incapacitante](/regles/talents/attaque-incapacitante) avec le tir précis s’il a acquis ces talents."
+      }
+    }
+  }
+}

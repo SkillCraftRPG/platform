@@ -1,0 +1,21 @@
+﻿{
+  "Id": "372d24cf-5627-4ea3-b373-04a96b9e6202",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ensorceleur_Parhelie",
+    "DisplayName": "Parhélie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ensorceleur_Parhelie",
+      "DisplayName": "Parhélie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il est ciblé par une [attaque](/regles/combat/attaque), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de créer un double illusoire entre lui et l’attaquant. L’attaque échoue automatiquement et le double disparaît. Il doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

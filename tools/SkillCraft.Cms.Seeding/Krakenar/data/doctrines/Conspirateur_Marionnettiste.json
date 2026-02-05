@@ -1,0 +1,22 @@
+﻿{
+  "Id": "6e45bcb1-e677-412c-ab89-3d51b24ea0ff",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conspirateur_Marionnettiste",
+    "DisplayName": "Marionnettiste",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"cb2a298d-80c7-4cc2-8802-f637758d1151\"]",
+      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\",\"e1c94ff1-b416-4d96-b378-908912b1e3d1\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conspirateur_Marionnettiste",
+      "DisplayName": "Marionnettiste",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿{
+  "Id": "19c7b064-b836-499f-a7a3-df79a2dc1390",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Paladin_VertuDivine",
+    "DisplayName": "Vertu divine",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"a2191a57-f6e9-45f4-ba8f-1bb4104c4759\"]",
+      "DiscountedTalents": "[\"2f330428-3e52-48a2-bbc3-4fb875f810db\",\"670ba98d-b114-435b-8d15-2940dd4dc597\",\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Paladin_VertuDivine",
+      "DisplayName": "Vertu divine",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

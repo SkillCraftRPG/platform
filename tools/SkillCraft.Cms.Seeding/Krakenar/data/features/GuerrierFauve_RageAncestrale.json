@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c444babe-523f-466d-b284-7f22a9f481ff",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GuerrierFauve_RageAncestrale",
+    "DisplayName": "Rage ancestrale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GuerrierFauve_RageAncestrale",
+      "DisplayName": "Rage ancestrale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut entrer dans une rage ancestrale par [une action](/regles/combat/deroulement/tour) s’il ne porte pas d’[armure lourde](/regles/equipement/armures/lourdes), ni de [bouclier](/regles/equipement/boucliers) lourd. Cet état prend fin s’il tombe [inconscient](/regles/combat/conditions/inconscient) ou s’il y met fin volontairement par une action. Dans cet état, il acquiert les capacités suivantes :\n\n- Immédiatement après être entré en rage, en [action libre](/regles/combat/deroulement/tour), il peut effectuer un [Pas prudent](/regles/combat/activites/pas-prudent) ou un [Déplacement](/regles/combat/activites/deplacement) à la moitié de sa [vitesse](/regles/aventure/mouvement/vitesse). Le [test](/regles/competences/tests) des [attaques d’opportunité](/regles/combat/attaque/opportunite) déclenchées par ce [mouvement](/regles/aventure/mouvement) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests d’[Athlétisme](/regles/competences/athletisme).\n- Il est [résistant](/regles/combat/degats/efficacite) aux [dégâts physiques](/regles/combat/degats/types).\n- Il est immunisé aux [charmes](/regles/combat/conditions/charme) et à la [peur](/regles/combat/conditions/apeure). S’il était affecté par un de ces effets lorsqu’il est entré en rage, alors l’effet est suspendu pendant qu’il est en état de rage.\n- Il ne peut [canaliser](/regles/magie/pouvoirs/canalisation) de [pouvoir](/regles/magie/pouvoirs), et perd immédiatement sa [concentration](/regles/magie/parametres/duree) lorsqu’il entre en rage."
+      }
+    }
+  }
+}

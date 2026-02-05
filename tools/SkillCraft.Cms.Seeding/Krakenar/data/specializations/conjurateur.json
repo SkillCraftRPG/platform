@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d9e2dbea-6866-42ed-a42f-fc9aec3d2ba5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "conjurateur",
+    "DisplayName": "Conjurateur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "OptionalTalents": "[\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"846e2d4a-7885-4d51-bc3b-58abc9242465\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"2c09d822-56f7-45bc-a6c7-8a281013e682\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "conjurateur",
+      "DisplayName": "Conjurateur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "conjurateur",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Plongé dans des grimoires poussiéreux et dans de dangereuses expérimentations magiques, le conjurateur est poussé par une soif de connaissance qui ne peut être étanchée. Certains cherchent à percer les secrets de la vie et de la mort, du passé et du futur, alors que d’autres tentent de découvrir des incantations oubliées ou perdues, et de manipuler des forces scellées, interdites ou indéchiffrables. Il bénéficie de pouvoirs extrêmement rares et inconnus même des mages les plus sages qu’il a découverts à la suite de ses recherches et de ses expériences.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Sorcier](/regles/specialisations/sorcier).\nIl ne doit avoir acquis aucune des spécialisations parmi la liste suivante : [Nécromant](/regles/specialisations/necromant), [Oracle](/regles/specialisations/oracle).\nIl doit également avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) ou associé à l’[élément Esprit](#). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
+        "OtherOptions": "Un [pouvoir](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#).\nUn pouvoir de tiers 2 associé à l’[élément Esprit](#)."
+      }
+    }
+  }
+}

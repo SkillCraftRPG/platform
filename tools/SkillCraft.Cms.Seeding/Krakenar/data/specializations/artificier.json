@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3e1d27d6-9210-4e76-9f8a-7b3fe37935c8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "artificier",
+    "DisplayName": "Artificier",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"9dfe12c7-7ee3-42d0-ae61-42d2642546ec\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "artificier",
+      "DisplayName": "Artificier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "artificier",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "OtherOptions": "\uD83D\uDEA7",
+        "OtherRequirements": "\uD83D\uDEA7",
+        "HtmlContent": "L’artificier n’est pas un simple amateur ou bricoleur. Il allie magie et technologie avec ingéniosité afin que ses machines et créations atteignent la perfection. Son arsenal est complet, se composant d’armes d’artillerie lourde, d’armes de précision, et de protections élaborées. Certains traînent un atelier portatif sur la route avec eux, d’autres hésitent à quitter leur atelier afin de partir à l’aventure. Ils ne sont jamais sans ressource, leur intelligence étant une source intarissable d’idées et de contournements."
+      }
+    }
+  }
+}

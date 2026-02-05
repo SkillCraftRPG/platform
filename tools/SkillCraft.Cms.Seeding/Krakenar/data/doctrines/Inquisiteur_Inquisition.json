@@ -1,0 +1,22 @@
+﻿{
+  "Id": "e3fda43c-3049-4599-b50d-d5fe1d5bd91a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Inquisiteur_Inquisition",
+    "DisplayName": "Inquisition",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"94d2b86f-6831-41a3-8c75-e95d061bb1b1\"]",
+      "DiscountedTalents": "[\"71d95a8e-e487-4fef-bbe2-b6a6c903ebfd\",\"8e1217d7-0b04-4d96-82bb-22988521aa99\",\"bc0f5737-5e23-41f2-9204-e802e2aa295a\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Inquisiteur_Inquisition",
+      "DisplayName": "Inquisition",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

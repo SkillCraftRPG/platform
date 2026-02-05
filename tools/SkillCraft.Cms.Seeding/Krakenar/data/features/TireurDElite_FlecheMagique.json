@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5f6cbaf4-4961-4e86-81ae-c504b7781ab5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "TireurDElite_FlecheMagique",
+    "DisplayName": "Flèche magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "TireurDElite_FlecheMagique",
+      "DisplayName": "Flèche magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage utilise l’[Attaque magique](/regles/talents/attaque-magique) avec une [arme](/regles/equipement/armes) possédant la propriété [Munition](/regles/equipement/armes/proprietes), il peut remplacer sa [Puissance](/regles/statistiques/puissance) par son [Stratagème](/regles/statistiques/stratageme).\n\nÉgalement, si son [attaque](/regles/combat/attaque/distance) échoue, il peut tenter de rediriger la flèche vers une autre cible située à 18 mètres ou moins de la cible initiale par [une action](/regles/combat/deroulement/tour). Il rejoue le [test](/regles/competences/tests) et doit utiliser le nouveau résultat."
+      }
+    }
+  }
+}

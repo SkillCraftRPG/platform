@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8f1a9c84-f9ec-412f-a8c3-2f3704d69d93",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "alchimiste",
+    "DisplayName": "Alchimiste",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"dc457b12-bea0-4248-adba-ab4fb9dc0241\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "alchimiste",
+      "DisplayName": "Alchimiste",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "alchimiste",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "OtherRequirements": "\uD83D\uDEA7",
+        "HtmlContent": "L’alchimiste est un être de réclusion et d’expérimentation qui tente de percer les mystères de la matière et de l’esprit. Il manipule les métaux et autres substances ésotériques dans son laboratoire enfoui dans les secrets. Alors que certains alchimistes tentent d’atteindre l’immortalité ou la richesse, d’autres désirent inventer une concoction capable de guérir tous les maux de l’humanité. Peu importe ses motivations, il les atteindra par des expérimentations chimiques et une magie profane.",
+        "OtherOptions": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

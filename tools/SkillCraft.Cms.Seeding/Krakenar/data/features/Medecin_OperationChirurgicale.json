@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ddb51091-eba7-4ed7-81a6-d6181ea4b634",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Medecin_OperationChirurgicale",
+    "DisplayName": "Opération chirurgicale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Medecin_OperationChirurgicale",
+      "DisplayName": "Opération chirurgicale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut effectuer une opération chirurgicale en utilisant des [bandages](/regles/equipement/outils), [remèdes](/regles/herboristerie/remedes) et autre [matériel médical](/regles/equipement/outils).\n\nLe prix de ces matériaux dépend de l’effet escompté, et ces matériaux sont consommés par l’opération.\n\nL’opération dure [une minute](/regles/aventure/temps). Si elle est interrompue, les matériaux sont perdus et l’opération doit être recommencée du début.\n\n- **Points de suture.** Le personnage rattache un membre de la cible sur son corps. Le membre doit provenir du même corps que celui sur lequel il est rattaché, et ce membre ne peut être la tête. _([50 deniers](/regles/equipement/monnaie))_\n- **Opération générale.** Le personnage doit avoir acquis le talent [Réanimation](/regles/talents/reanimation) afin d’utiliser cette capacité. Il restaure toutes les fonctions vitales du corps de la cible et peut rattacher tous ses membres perdus. Les membres rattachés doivent provenir du corps de son patient. Il peut effectuer cette opération en même temps qu’il tente de ramener à la vie son patient, sans pénalité supplémentaire. _([250 deniers](/regles/equipement/monnaie))_"
+      }
+    }
+  }
+}

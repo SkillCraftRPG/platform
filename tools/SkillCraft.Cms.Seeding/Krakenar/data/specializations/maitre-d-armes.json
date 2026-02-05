@@ -1,0 +1,27 @@
+﻿{
+  "Id": "07256e85-7fd8-4edf-b5be-0c039639aa0b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "maitre-d-armes",
+    "DisplayName": "Maître d’armes",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "maitre-d-armes",
+      "DisplayName": "Maître d’armes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "maitre-d-armes",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "La gloire, la notoriété, la richesse et le pouvoir sont des objectifs qui poussent certains à maîtriser l’art du combat, mais ce n’est pas le cas du maître d’armes. Il peut les utiliser afin de parvenir à ses fins, mais son objectif ultime est de parfaire l’art du combat. Pour se faire, il s’entraîne durement afin de maîtriser plusieurs styles de combat. Cette expertise lui vaudra un atout non négligeable : un style de combat pour lequel il sera reconnu, une technique personnelle qu’il aura inventée qui lui permettra de se démarquer.",
+        "OtherRequirements": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

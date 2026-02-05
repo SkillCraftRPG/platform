@@ -1,0 +1,30 @@
+﻿{
+  "Id": "94d2b86f-6831-41a3-8c75-e95d061bb1b1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "inquisiteur",
+    "DisplayName": "Inquisiteur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\"]",
+      "OptionalTalents": "[\"7f59aab9-2398-4b3d-be64-3be095114f51\",\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"c9abbe04-b581-4fc3-a815-8a7fe62c2dcb\",\"a9309936-48c7-4f01-be61-e0efb8525b7a\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"fff4d66c-fbbb-44ba-a1f6-609d642f32bc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "inquisiteur",
+      "DisplayName": "Inquisiteur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "inquisiteur",
+        "HtmlContent": "Naviguant les rues silencieuses d’une ville plongée dans la peur, l’inquisiteur, drapé dans son manteau brodé aux couleurs de son ordre religieux, incarne la loi implacable de sa foi. Son visage sans émotion est marqué par les années à traquer l’hérésie et à débusquer ceux osant défier sa foi et son ordre. Tout regard détourné, bégaiement ou murmure est pour lui une potentielle piste vers la vérité. Sa quête ultime l’amène à châtier les hérétiques et créatures n’ayant pas leur place dans ce monde.",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "OtherRequirements": "Le personnage ne doit pas avoir acquis la spécialisation [Paladin](/regles/specialisations/paladin).",
+        "OtherOptions": "Un [pouvoir](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine divin](/regles/domaines/divins)."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c7dc1489-683b-4178-bee2-ef9b541a7053",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Flibustier_Marin",
+    "DisplayName": "Marin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Flibustier_Marin",
+      "DisplayName": "Marin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage bénéficie des capacités suivantes lorsqu’il ne porte pas d’[armure lourde](/regles/equipement/armures/lourdes), ni de [bouclier](/regles/equipement/boucliers) lourd.\n\n- Le personnage acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types).\n- Lorsqu’il est dans l’eau, il peut traîner une autre créature avec lui sans subir de pénalité à sa vitesse de nage. La [taille](/regles/especes/taille) de la créature doit être d’au plus une catégorie supérieure à la sienne.\n- Le [test](/regles/competences/tests) des [attaques qu’il effectue sous l’eau](/regles/combat/sous-eau) n’est pas affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il peut combattre en [maniant plusieurs armes](/regles/combat/attaque/deux-armes) ne possédant pas la propriété [Légère](/regles/equipement/armes/proprietes) sans subir de pénalité à ses tests d’[attaque](/regles/combat/attaque)."
+      }
+    }
+  }
+}
