@@ -1,0 +1,21 @@
+﻿{
+  "Id": "8936f575-fe2f-467a-996b-1d7bef248bf7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conjurateur_ArcanesMystiques",
+    "DisplayName": "Arcanes mystiques",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conjurateur_ArcanesMystiques",
+      "DisplayName": "Arcanes mystiques",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Dès qu’il acquiert la spécialisation [Astromancien](/regles/specialisations/astromancien), le personnage acquiert gratuitement un [pouvoir](/regles/magie/pouvoirs) de tiers 3 d’[astromancie](#).\n\nDès qu’il acquiert la spécialisation [Élémentariste](/regles/specialisations/elementariste) en se spécialisant avec l’élément Esprit, le personnage acquiert gratuitement un pouvoir de tiers 3 associé à l’[élément Esprit](#).\n\nUne fois par jour, lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un de ces pouvoirs, il peut [Faire 20](/regles/competences/tests/faire-20) à son [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). Lorsqu’il en fait ainsi, il ne dépense aucun point d’[Énergie](/regles/statistiques/energie). Il peut utiliser cette capacité une fois pour chaque pouvoir, et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations."
+      }
+    }
+  }
+}

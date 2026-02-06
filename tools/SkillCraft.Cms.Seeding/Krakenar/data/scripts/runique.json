@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a4f1a9c5-6fa0-4cce-9de7-dc21dcaeb24b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "runique",
+    "DisplayName": "Runique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "runique",
+      "DisplayName": "Runique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "runique",
+        "MetaDescription": "Découvrez l’alphabet runique, un système d’écriture ancien destiné aux inscriptions gravées, aux marques rituelles et aux avertissements.",
+        "Summary": "Alphabet gravé ancien utilisé pour inscriptions, rites et serments.",
+        "HtmlContent": "L’alphabet runique est un système d’écriture ancien, surtout utilisé pour des inscriptions gravées. Runique est un nom vernaculaire, son nom réel étant _« fuþark »_, d’après ses six premiers signes. Il compte 24 caractères anguleux, conçus pour être incisés sur le bois, l’os, le métal ou la pierre. L’écriture se fait exclusivement en boustrophédon : chaque ligne se lit en sens inverse de la précédente, comme un va-et-vient régulier. C’est un alphabet phonémique simple et dense, organisé en trois groupes traditionnels de huit signes. Les inscriptions sont généralement brèves (noms, marques, serments, avertissements), parfois à valeur rituelle ou protectrice, et sa maîtrise reste rare et socialement marquée. Il est historiquement rattaché à l’alphabet [Rénon](/regles/langues/scripts/renon), dont il dérive par une adaptation graphique privilégiant des formes droites adaptées à la gravure."
+      }
+    }
+  }
+}

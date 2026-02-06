@@ -18,8 +18,8 @@
       "Description": null,
       "FieldValues": {
         "Slug": "conjurateur",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez le Conjurateur, une spécialisation arcanique tournée vers les savoirs interdits, les invocations mystérieuses et la magie rare.",
+        "Summary": "Spécialisation arcanique axée sur savoirs interdits et invocations.",
         "HtmlContent": "Plongé dans des grimoires poussiéreux et dans de dangereuses expérimentations magiques, le conjurateur est poussé par une soif de connaissance qui ne peut être étanchée. Certains cherchent à percer les secrets de la vie et de la mort, du passé et du futur, alors que d’autres tentent de découvrir des incantations oubliées ou perdues, et de manipuler des forces scellées, interdites ou indéchiffrables. Il bénéficie de pouvoirs extrêmement rares et inconnus même des mages les plus sages qu’il a découverts à la suite de ses recherches et de ses expériences.",
         "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Sorcier](/regles/specialisations/sorcier).\nIl ne doit avoir acquis aucune des spécialisations parmi la liste suivante : [Nécromant](/regles/specialisations/necromant), [Oracle](/regles/specialisations/oracle).\nIl doit également avoir acquis un [pouvoir](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) ou associé à l’[élément Esprit](#). Les pouvoirs acquis gratuitement ne satisfont pas cette condition.",
         "OtherOptions": "Un [pouvoir](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#).\nUn pouvoir de tiers 2 associé à l’[élément Esprit](#)."
