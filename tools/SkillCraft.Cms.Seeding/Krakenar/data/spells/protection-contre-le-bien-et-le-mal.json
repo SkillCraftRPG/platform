@@ -1,0 +1,26 @@
+﻿{
+  "Id": "53d9073a-747d-41e9-bda9-4d068eaf7279",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "protection-contre-le-bien-et-le-mal",
+    "DisplayName": "Protection contre le bien et le mal",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "protection-contre-le-bien-et-le-mal",
+      "DisplayName": "Protection contre le bien et le mal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "protection-contre-le-bien-et-le-mal",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
