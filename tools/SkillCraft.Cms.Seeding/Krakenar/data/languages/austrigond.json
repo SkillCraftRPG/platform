@@ -1,0 +1,27 @@
+﻿{
+  "Id": "acecb295-f094-4847-9219-e1233a0629c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "austrigond",
+    "DisplayName": "Austrigond",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"7bf8a5c2-aff8-4293-b7d0-bb5f925dcff5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "austrigond",
+      "DisplayName": "Austrigond",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "austrigond",
+        "HtmlContent": "L’Austrigond est une langue Norgonique issue du même continuum que le [Wisgorne](/regles/langues/wisgorne), auquel elle demeure étroitement apparentée. Elle s’est formée dans les régions orientales du monde Norgonique, développant très tôt des traits propres qui l’ont distinguée des parlers voisins sans jamais rompre complètement l’intercompréhension régionale. Historiquement, l’Austrigond s’est développé à l’Est du fleuve Odarr, avant de se diffuser largement lors des grandes migrations de populations consécutives à l’effondrement de l’ancien empire occidental. Ces mouvements humains l’ont porté autour des mers Mésiennes, où il s’est implanté durablement, souvent au contact de cultures et de langues différentes, renforçant son caractère composite et régionalisé.\n\nSur le plan de l’écriture, l’Austrigond a longtemps résisté à toute normalisation. Des tentatives successives ont été faites pour le transcrire à l’aide de l’alphabet [runique](/regles/langues/scripts/runique), puis des alphabets [Rénon](/regles/langues/scripts/renon) et [Orrinique](/regles/langues/scripts/orrinique), mais aucun de ces systèmes ne permet de rendre correctement ses sons et ses oppositions internes. Cette difficulté a conduit à l’invention d’un alphabet spécifique, dit Vangique, conçu pour répondre aux besoins phonétiques de la langue. Toutefois, sa diffusion est restée lente, fragmentée et inégale selon les régions. En pratique, les élites comme l’administration préfèrent largement recourir au [Commun](/regles/langues/commun) ou à l’[Impérial](/regles/langues/imperial), reléguant l’écriture de l’Austrigond à des usages marginaux ou savants.",
+        "Summary": "Langue Norgonique régionale, riche en dialectes et d’écriture disparate.",
+        "MetaDescription": "Découvrez l’Austrigond, langue norgonique régionale aux multiples dialectes, dotée d’un alphabet savant créé pour restituer précisément ses sons.",
+        "TypicalSpeakers": "L’Austrigond est parlé principalement par des populations [humaines](/regles/especes/humain) et couvre un espace géographique très vaste. On le retrouve en Arasie et en Andoce à l’Ouest, dans les Escarlandes au Nord, en Sarénie, en Drakyrie et en Saromagne à l’Est, ainsi qu’en Sarquigne et en Pavathine au Sud. Son aire d’influence dépasse même le continent, puisqu’il est attesté jusqu’en Némésie, dans la région de Sulasarûn, de l’autre côté des mers Mésiennes. Cette large dispersion explique l’existence de nombreux dialectes locaux et l’absence durable d’une norme unique."
+      }
+    }
+  }
+}

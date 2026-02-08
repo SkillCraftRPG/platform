@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b0f7a494-d05c-413d-b817-cfabceb7dad6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "dallois",
+    "DisplayName": "Dallois",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"a4f1a9c5-6fa0-4cce-9de7-dc21dcaeb24b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "dallois",
+      "DisplayName": "Dallois",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "dallois",
+        "TypicalSpeakers": "Le Dallois est principalement parlé par les [humains](/regles/especes/humain) de la Skade ainsi que par les populations des Triskîles. Il s’est imposé comme langue commune dans ces régions pour les échanges, les alliances et les traditions, jouant un rôle fédérateur entre les peuples continentaux et les cultures nordiques. Sa diffusion reflète l’importance stratégique de ces territoires, à la fois tournés vers l’Hyperborée et ouverts aux influences venues du Sud.",
+        "MetaDescription": "Découvrez le Dallois, langue Norgonique de transition issue du Norrien, écrite en runique et parlée entre Hyperborée et Ouespéro.",
+        "Summary": "Langue Norgonique continentale, runique, héritière du Norrien.",
+        "HtmlContent": "Le Dallois est une langue Norgonique appartenant à la même famille que le [Norrien](/regles/langues/norrien), dont il constitue la branche méridionale et continentale. Il est né dans les zones de contact entre l’Hyperborée et l’Ouespéro, où se sont rencontrés les parlers nordiques runiques et les langues côtières du monde norgonique ancien. Cette origine en fait une langue de transition, pleinement autonome, mais historiquement et culturellement très proche du Norrien.\n\nL’écriture du Dallois repose sur un alphabet runique comportant deux runes supplémentaires, pour un total de 26 runes. Cette écriture, héritée des traditions Norgoniques anciennes, est utilisée aussi bien pour les inscriptions monumentales que pour les usages courants. Elle constitue un marqueur identitaire fort, distinguant clairement le Dallois des langues voisines, et affirmant son ancrage dans le monde runique du Nord."
+      }
+    }
+  }
+}

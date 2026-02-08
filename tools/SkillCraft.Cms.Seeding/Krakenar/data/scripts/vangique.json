@@ -1,0 +1,24 @@
+﻿{
+  "Id": "7bf8a5c2-aff8-4293-b7d0-bb5f925dcff5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vangique",
+    "DisplayName": "Vangique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vangique",
+      "DisplayName": "Vangique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "L’alphabet Vangique est un système d’écriture hybride créé pour permettre une transcription précise de l’Austrigond, qu’aucun alphabet existant ne parvenait à noter correctement. Il résulte d’une synthèse volontaire entre le [runique](/regles/langues/scripts/runique) (structure phonémique et formes anguleuses), le [Rénon](/regles/langues/scripts/renon) (ordre et lisibilité) et l’[Orrinique](/regles/langues/scripts/orrinique) (souplesse graphique et distinctions vocaliques), complétée par des signes spécifiquement inventés pour les sons propres à la langue. Pensé comme un alphabet complet et phonétiquement exact, le Vangique n’a toutefois jamais été largement imposé : sa diffusion est restée lente et inégale, concurrencée par l’usage dominant des langues [Commun](/regles/langues/commun) et [Impérial](/regles/langues/imperial), ce qui en a fait une écriture surtout savante, régionale et identitaire, associée à l’Austrigond sans s’imposer comme norme universelle.",
+        "Slug": "vangique",
+        "MetaDescription": "Découvrez l’alphabet Vangique, écriture hybride conçue pour transcrire précisément l’Austrigond, mêlant runique, Rénon et Orrinique.",
+        "Summary": "Alphabet hybride savant créé pour la transcription précise de l’Austrigond."
+      }
+    }
+  }
+}
