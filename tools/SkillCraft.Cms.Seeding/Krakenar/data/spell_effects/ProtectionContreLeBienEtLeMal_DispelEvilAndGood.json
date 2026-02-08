@@ -1,0 +1,32 @@
+﻿{
+  "Id": "24e82597-d67a-4ead-b28c-b01a022929c7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLeBienEtLeMal_DispelEvilAndGood",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"53d9073a-747d-41e9-bda9-4d068eaf7279\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLeBienEtLeMal_DispelEvilAndGood",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les effets du niveau 3 s’appliquent.\n\nÉgalement, lorsque le personnage perd ou lâche sa [concentration](/regles/magie/parametres/duree), la cible est libérée de tout effet de [charme](/regles/combat/conditions/charme), de [peur](/regles/combat/conditions/apeure) ou de possession en provenance d’une créature appartenant au type sélectionné.",
+        "Material": "De l’eau bénite et une pincée de poudre d’argent."
+      }
+    }
+  }
+}
