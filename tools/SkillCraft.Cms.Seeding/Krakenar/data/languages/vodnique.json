@@ -1,0 +1,25 @@
+﻿{
+  "Id": "1e692a3a-6cee-425e-b860-a3fa02029809",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vodnique",
+    "DisplayName": "Vodnique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vodnique",
+      "DisplayName": "Vodnique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le Vodnique est une langue ancienne appartenant aux langues des Gelvas, parlée dans les plaines humides et les bassins fluviaux du nord de l’Ancien Monde. Il est étroitement apparenté au [Zurain](/regles/langues/zurain), avec lequel il partage une base grammaticale et lexicale ancienne, mais s’en distingue par une phonologie plus douce, une morphologie légèrement plus souple et un vocabulaire fortement orienté vers les milieux humides et fertiles. La séparation entre Vodnique et Zurain est ancienne, mais la proximité reste évidente, au point que certains locuteurs bilingues peuvent reconnaître des structures communes.\n\nLe Vodnique s’est développé dans le bassin moyen de la Rasva, région de transition entre forêts boréales, steppes périphériques et grands axes fluviaux navigables. Cette position charnière explique un fort conservatisme grammatical et une perméabilité élevée aux contacts, notamment avec des peuples chasseurs, commerçants et guerriers. Très tôt, le Vodnique a intégré des emprunts lexicaux dans les domaines de la guerre et du prestige, du commerce fluvial, des titres et fonctions sociales. La langue présente également une diversité dialectale ancienne, reflétant la dispersion des locuteurs le long des rivières et des zones marécageuses.\n\nLe Vodnique est exclusivement oral. Aucune écriture n’est utilisée, pour plusieurs raisons : l’habitat marécageux rend la conservation des supports écrits difficile, les locuteurs privilégient la mémoire collective, les chants et les récits, et l’écrit est parfois perçu comme figer une langue censée rester fluide, à l’image de l’eau. Les rares tentatives d’écriture externe n’ont jamais été pleinement adoptées par les locuteurs.\n\nLe Vodnique possède un lexique extrêmement riche pour les forêts humides, les marais, tourbières et plaines inondables, la faune amphibie et aquatique, les cycles saisonniers, crues et décrues. La langue est agglutinante, les suffixes indiquent finement localisation, direction et relation à l’eau, et le vocabulaire abstrait est souvent dérivé de métaphores naturelles. Il distingue grammaticalement l’eau courante, stagnante et saisonnière, chacune influençant les suffixes locatifs. De nombreux mots n’ont aucune traduction directe, car ils décrivent simultanément un lieu, une action et un état naturel. Les noms propres sont souvent liés à un événement hydrologique (crue, gel tardif, assèchement). Ses locuteurs considèrent que «&nbsp;mentir dans la langue de l’eau&nbsp;» porte malheur, car l’eau finit toujours par révéler ce qui est caché.",
+        "Slug": "vodnique",
+        "TypicalSpeakers": "Profondément liée aux forêts, aux marécages et aux cycles naturels, le Vodnique est la langue sacrée des [Amphydres](/regles/especes/amphydre). Parlée exclusivement au sein de leurs communautés, elle demeure très peu connue en dehors de celles-ci, car les Amphydres considèrent que transmettre leur langue est un honneur rare, réservé aux alliances les plus profondes. Le Vodnique est employé à travers une vaste partie de l’Ancien Monde, depuis la Loujnava à l’Ouest jusqu’aux confins de la Vorovie à l’Est.",
+        "MetaDescription": "Découvrez le Vodnique, langue orale sacrée des Amphydres, liée aux eaux, marais et forêts humides, riche en métaphores hydrologiques et traditions ancestrales.",
+        "Summary": "Langue orale sacrée des eaux, fluide, agglutinante et métaphorique."
+      }
+    }
+  }
+}

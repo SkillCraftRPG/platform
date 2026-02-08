@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8fb95338-24d5-4860-9965-c1d27fe348b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "isillambe",
+    "DisplayName": "Isillambë",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"75a391a6-dd10-4c80-85cd-f2ee68ff6d06\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "isillambe",
+      "DisplayName": "Isillambë",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "isillambe",
+        "HtmlContent": "L’Isillambë est issue des langues des Gelvas et apparentée de près au [Skame](/regles/langues/skame). Son nom signifie «&nbsp;langue de la Lune&nbsp;». Elle s’est développée dans des régions de forêts froides, de lacs et de hautes vallées. Elle est agglutinante, fluide, riche en suffixes, rythmée. Elle sonne harmonieuse, et préfère la précision des nuances à la concision. Très conservatrice, l’Isillambë a peu changé au fil des siècles et reste l’une des langues les plus proches de ses formes anciennes. Elle s’écrit exclusivement en Elfique.\n\nParler l’Isillambë devant un Elfe lunaire est perçu comme un geste de confiance extrême ou d’audace irrévérencieuse. La langue possède de nombreux mots intraduisibles liés à la lumière lunaire, aux reflets sur l’eau et au passage des saisons nocturnes. Ses chants et prières sont réputés pour calmer les esprits, apaiser les bêtes nocturnes et marquer les cycles lunaires importants. Chaque jour du cycle lunaire porte un nom distinct, pour un total de trente appellations correspondant aux phases et nuances de la Lune.",
+        "TypicalSpeakers": "L’Isillambë est la langue ancestrale et rituelle des [Elfes lunaires](/regles/especes/elfe-lunaire). Ces derniers parlent rarement l’Isillambë avec des étrangers : par tradition, ils préfèrent apprendre les langues des autres peuples, considérant leur propre langue comme un héritage intime et sacré, lié à la Lune et à leur identité profonde.",
+        "MetaDescription": "Découvrez l’Isillambë, langue ancienne et rituelle des Elfes, fluide et conservatrice, intimement liée aux cycles de la Lune et aux traditions nocturnes.",
+        "Summary": "Langue lunaire rituelle des Elfes, liée aux cycles et à la lumière nocturne."
+      }
+    }
+  }
+}

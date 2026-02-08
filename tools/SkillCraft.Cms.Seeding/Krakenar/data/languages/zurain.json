@@ -1,0 +1,27 @@
+﻿{
+  "Id": "386e0e62-bb17-4b50-b11e-62cca86117ad",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "zurain",
+    "DisplayName": "Zurain",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"63c61f46-feb5-4084-8f41-cfe26e7fbb08\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "zurain",
+      "DisplayName": "Zurain",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "zurain",
+        "HtmlContent": "Le Zurain est une langue ancienne appartenant aux langues des Gelvas, un groupe linguistique formé autour de la chaîne montagneuse du même nom. C’est une langue agglutinante, rude et dense, intimement liée aux modes de vie nordiques et montagnards. Au sein de cette famille, elle est distincte mais proche du [Vodnique](/regles/langues/vodnique). Cette divergence est ancienne, mais leur proximité structurelle suggère une longue période de cohabitation ou de contacts réguliers dans les régions de piémont et de vallées commerciales.\n\nLe Zurain est une langue rude et ancienne, née dans les montagnes froides et isolées, utilisée par des peuples de chasseurs, d’éleveurs et de forgerons. Elle est associée aux caravanes de cols enneigés et au commerce de fourrures, d’ambre et de métaux. Sa façon de parler est lourde et structurée, avec des mots longs et serrés, et des sons parfois difficiles à prononcer. Bien qu’elle ait emprunté des mots aux langues voisines pour l’administration, la religion ou le commerce, elle les a toujours adaptés à son propre style, ce qui la rend immédiatement reconnaissable à l’oreille.\n\nLe Zurain s’écrit à l’aide d’une variante du Montagnard, spécifiquement adaptée aux surfaces dures (pierre, os, métal). Dans la vie courante, la langue reste majoritairement orale, l’écrit étant réservé aux usages solennels ou commerciaux. Cette langue est très difficile à traduire, car de nombreux mots combinent environnement, action et intention dans une seule forme.\n\nLe Zurain possède plus de racines distinctes pour désigner la neige, la glace et le gel que pour toute autre catégorie naturelle. Les noms propres sont souvent des descriptions condensées, évoquant un lieu, un exploit ou une lignée. Jurer en Zurain est réputé irrévocable : rompre un serment formulé dans cette langue est considéré comme une faute spirituelle, pas seulement morale.",
+        "TypicalSpeakers": "Le Zurain est parlé principalement par les [nains des glaces](/regles/especes/nain-blanc), établis dans les Gelvas et dans l’Est de la Vorovie Il est également compris, à des degrés variables, par certains marchands [humains](/regles/especes/humain) et intermédiaires culturels des régions frontalières, notamment de la Kirsmyre.",
+        "Summary": "Langue montagnarde ancienne, froide et rude, sacrée et commerciale.",
+        "MetaDescription": "Découvrez le Zurain, langue ancienne des Gelvas, agglutinante et conservatrice, liée au froid, aux serments irrévocables et au commerce des cols glacés."
+      }
+    }
+  }
+}

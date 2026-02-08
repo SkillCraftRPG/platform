@@ -1,0 +1,25 @@
+﻿{
+  "Id": "22845a4b-57a2-45f9-84f1-6d5ebf9c8f73",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "kirsenien",
+    "DisplayName": "Kirsenien",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "kirsenien",
+      "DisplayName": "Kirsenien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "kirsenien",
+        "TypicalSpeakers": "Le Kirsenien est parlé en Kirsmyre par les Kirseniens ([humains](/regles/especes/humain)) et les demi-orques.",
+        "HtmlContent": "Le Kirsenien est une langue ancienne de l’Ouespéro, appartenant à la même famille linguistique que le [Serselien](/regles/langues/serselien), dont il s’est séparé il y a très longtemps, les deux langues évoluant ensuite de façon indépendante dans des régions voisines. La plupart des langues de l’Ouespéro proviennent d’une langue mère commune. Le Kirsenien est considéré comme la plus conservatrice de ces langues, celle qui a le moins divergé, tant sur le plan phonologique que morphologique. Cette proximité avec la langue mère lui confère un statut particulier, souvent perçu comme plus ancien, plus pur ou plus proche des origines.\n\nLe Kirsenien est avant tout une langue orale. Des tentatives ponctuelles de transcription ont existé, notamment à l’aide des écritures [montagnarde](/regles/langues/scripts/montagnard) et [runique](/regles/langues/scripts/runique), mais elles ont été rejetées par la majorité des locuteurs. Cette opposition repose sur une tradition profondément ancrée : la langue mère originelle n’ayant jamais été écrite, fixer le Kirsenien par l’écrit est vu comme une trahison de l’héritage ancestral et une rigidification d’une parole censée rester vivante.\n\nAujourd’hui encore, le Kirsenien conserve un fort prestige culturel, associé à la mémoire collective, aux récits fondateurs et aux usages rituels, même lorsque d’autres langues écrites dominent les échanges administratifs ou savants. Il est réputé pour ses mots très anciens, certains termes sacrés étant considérés plus vieux que les royaumes anciens. La langue accorde une grande importance aux lieux et aux racines : mal prononcer un nom de rivière, de forêt ou de clan peut être perçu comme un manque de respect. Pour les Kirseniens, un discours maladroit ou confus est souvent perçu comme un signe de mensonge ou de faiblesse.",
+        "MetaDescription": "Découvrez le Kirsenien, langue ancestrale de l’Ouespéro, orale et conservatrice, étroitement liée à la mémoire collective et aux traditions rituelles.",
+        "Summary": "Langue orale ancienne de l’Ouespéro, conservatrice et fortement ritualisée."
+      }
+    }
+  }
+}
