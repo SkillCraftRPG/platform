@@ -1,0 +1,32 @@
+﻿{
+  "Id": "149ca27b-4c38-4ef6-a388-6442b6301db7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Coercition_Suggestion",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a3328900-e773-4816-bed6-8ca0ce122601\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Coercition_Suggestion",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de miel ou d’huile sucrée.",
+        "Focus": "Une langue de vipère.",
+        "HtmlContent": "Le personnage suggère un cours d’action (une ou deux phrases) à une créature qu’il peut [voir](https://www.skillcraftrpg.ca/regles/aventure/environnement/vision), qui l’entend et le comprend. La suggestion doit sembler raisonnable pour la cible. Si la suggestion blesse directement la cible, ou si le personnage ou un de ses compagnons agit de manière [hostile](https://www.skillcraftrpg.ca/regles/aventure/interaction-sociale) envers la cible, le pouvoir prend fin.\n\nSi la créature n’est pas immunisée aux [charmes](https://www.skillcraftrpg.ca/regles/combat/conditions/charme), elle effectue un [jet de sauvegarde](https://www.skillcraftrpg.ca/regles/competences/tests/sauvegarde) de [Discipline](https://www.skillcraftrpg.ca/regles/competences/discipline). En cas d’échec, la créature doit suivre le cours d’action décrit par le personnage.\n\nLe pouvoir prend fin plus tôt si le cours d’action se termine avant la durée. Le personnage peut également inclure un déclencher au cours d’action, mais s’il ne se réalise pas pendant la durée du pouvoir, le cours d’action n’est jamais suivi."
+      }
+    }
+  }
+}
