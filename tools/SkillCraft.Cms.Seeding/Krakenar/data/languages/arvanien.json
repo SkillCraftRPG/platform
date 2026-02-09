@@ -1,0 +1,27 @@
+﻿{
+  "Id": "5e384ff3-ae44-4c2a-a5c0-bc46d9d3872a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "arvanien",
+    "DisplayName": "Arvanien",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"7c977b16-04cd-4a90-a5d6-37b4d20c8415\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "arvanien",
+      "DisplayName": "Arvanien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "arvanien",
+        "TypicalSpeakers": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "L’Arvanien est une langue d’Ouespéro isolée, unique représentante de sa famille linguistique. Sa structure est synthétique et conservatrice. Sur le plan phonologique, l’Arvanien se distingue par une opposition nette entre consonnes sourdes, sonores et aspirées, ainsi que par un inventaire vocalique stable et bien équilibré. Sa grammaire reflète une grande profondeur historique, préservant des traits anciens tout en développant des solutions internes originales.\n\n\uD83D\uDEA7~~Histoire~~\n\nLa langue conserve des formes grammaticales archaïques disparues ailleurs, ce qui en fait une langue clé pour la comparaison. Plusieurs racines montrent des correspondances inattendues avec des langues très éloignées, suggérant une évolution isolée mais profonde. Les adjectifs et les nombres y présentent des alternances phonétiques régulières, révélant une forte cohérence interne du système linguistique."
+      }
+    }
+  }
+}

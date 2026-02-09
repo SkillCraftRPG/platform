@@ -1,0 +1,24 @@
+﻿{
+  "Id": "7c977b16-04cd-4a90-a5d6-37b4d20c8415",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "bamanique",
+    "DisplayName": "Bamanique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "bamanique",
+      "DisplayName": "Bamanique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "bamanique",
+        "HtmlContent": "L’alphabet Bamanique est une écriture alphabétique sacrée née dans la chaîne montagneuse de la Bamanique, au Sud-Est de l’Ouespéro. Inspiré des formes nettes et équilibrées des alphabets classiques, il privilégie une lecture claire et une calligraphie solennelle, adaptée autant à l’inscription sur pierre qu’à l’encre rituelle. Son inventaire compte exactement 35 caractères, chacun associé de près ou de loin à un [signe astrologique](#), une conjonction ou une influence céleste reconnue par les [astromanciens](/regles/specialisations/astromancien) locaux.\n\nDans la culture Bamanique, écrire n’est jamais un geste neutre : chaque lettre est un symbole cosmique, autant un son qu’un repère dans le ciel. Les astromanciens portent ces signes tatoués sur la peau, disposés selon des règles de lignage et de vocation (constellations tutélaires, saisons de naissance, serments). Ces marques servent à la fois de mémoire, de protection et de rituel : réciter un texte revient à faire passer les constellations à travers la voix, tandis que tracer une lettre, même seule, est perçu comme une invocation mesurée plutôt qu’un simple acte d’écriture.",
+        "Summary": "Alphabet sacré lié aux constellations et aux rites astromanciens.",
+        "MetaDescription": "Découvrez l’alphabet Bamanique, écriture sacrée de 35 signes astrologiques, gravée et tatouée par les astromanciens des montagnes de la Bamanique."
+      }
+    }
+  }
+}
