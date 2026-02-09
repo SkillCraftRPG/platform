@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6e28eac1-3978-4184-a20e-c56d3b928f9d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alchimiste_ReactifsAlchimiques",
+    "DisplayName": "Réactifs alchimiques",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alchimiste_ReactifsAlchimiques",
+      "DisplayName": "Réactifs alchimiques",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut altérer en [action libre](/regles/combat/deroulement/tour) les [pouvoirs](/regles/magie/pouvoirs) qu’il [canalise](/regles/magie/pouvoirs/canalisation) ou les [élixirs](/regles/talents/alchimie) qu’il concocte à l’aide de [fournitures d’alchimiste](/regles/equipement/outils).\n\n- Lorsqu’il canalise un pouvoir prodiguant des [soins](/regles/combat/degats/soins) ou infligeant des [points de dégâts](/regles/combat/degats) appartenant à certains [types](/regles/combat/degats/types) (acide, feu, nécrotique ou poison), il peut ajouter la moitié de son [Stratagème](/regles/statistiques/stratageme) aux soins prodigués ou points de dégâts infligés à une créature.\n- Lorsqu’une créature consomme un élixir qu’il a concocté, celle-ci se voit conférer un nombre de points de [Vitalité temporaires](/regles/combat/degats/temporaire) égal à 3d6 additionnés à la moitié du [Stratagème](/regles/statistiques/stratageme) du personnage."
+      }
+    }
+  }
+}

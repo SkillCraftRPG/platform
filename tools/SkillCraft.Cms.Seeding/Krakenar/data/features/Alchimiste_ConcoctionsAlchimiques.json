@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5dbd199c-973b-4522-a098-1e75e7d2712d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alchimiste_ConcoctionsAlchimiques",
+    "DisplayName": "Concoctions alchimiques",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alchimiste_ConcoctionsAlchimiques",
+      "DisplayName": "Concoctions alchimiques",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut concocter des [élixirs](/regles/talents/alchimie) produisant les effets d’un [remède](/regles/herboristerie/remedes) ou d’un [poison](/regles/herboristerie/poisons) en fonction des [talents](/regles/talents) acquis. Les remèdes concoctés par cette capacité peuvent mettre fin à une maladie ou [condition](/regles/combat/conditions) permanente ou surnaturelle.\n\n- [Herboristerie](/regles/talents/herboristerie). Il peut concocter un [remède de base](/regles/herboristerie/remedes) ou un [poison de base](/regles/herboristerie/poisons). Il peut utiliser cette capacité un nombre de fois égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n- [Apothicairerie](/regles/talents/apothicairerie). En doublant la dépense en points d’[Énergie](/regles/statistiques/energie), il peut concocter un [remède avancé](/regles/herboristerie/remedes). Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité. Alternativement, l’élixir met fin à un [charme](/regles/combat/conditions/charme), une malédiction, ou un effet de [pétrification](/regles/combat/conditions/petrifie). Cet élixir n’a pas besoin d’être bu, il peut simplement être aspergé sur une cible afin de faire effet.\n- [Toxicologie](/regles/talents/toxicologie). En doublant la dépense en points d’[Énergie](/regles/statistiques/energie), il peut concocter un [poison avancé](/regles/herboristerie/poisons). Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}
