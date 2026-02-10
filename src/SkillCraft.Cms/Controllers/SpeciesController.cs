@@ -35,7 +35,7 @@ public class SpeciesController : ControllerBase
   public async Task<ActionResult<SearchResults<SpeciesModel>>> SearchAsync([FromQuery] SearchSpeciesParameters parameters, CancellationToken cancellationToken)
   {
     SearchSpeciesPayload payload = parameters.ToPayload();
-    SearchResults<SpeciesModel> lineages = await _lineageService.SearchAsync(payload, cancellationToken);
-    return Ok(lineages);
+    SearchResults<SpeciesModel> species = await _lineageService.SearchAsync(payload, cancellationToken);
+    return Ok(species);
   }
 }

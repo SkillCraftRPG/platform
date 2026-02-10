@@ -30,10 +30,10 @@ internal class ReadSpeciesQueryHandler : IQueryHandler<ReadSpeciesQuery, Species
 
     if (!string.IsNullOrWhiteSpace(query.Slug))
     {
-      IReadOnlyCollection<SpeciesModel> speciesList = await _speciesQuerier.ReadAsync(query.Slug, cancellationToken);
-      if (speciesList.Count == 1)
+      IReadOnlyCollection<SpeciesModel> found = await _speciesQuerier.ReadAsync(query.Slug, cancellationToken);
+      if (found.Count == 1)
       {
-        SpeciesModel species = speciesList.Single();
+        SpeciesModel species = found.Single();
         speciesById[species.Id] = species;
       }
     }

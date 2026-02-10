@@ -14,9 +14,9 @@ public record SearchEthnicitiesParameters : SearchParameters
   [FromQuery(Name = "size")]
   public SizeCategory? SizeCategory { get; set; }
 
-  public virtual SearchLineagesPayload ToPayload()
+  public virtual SearchEthnicitiesPayload ToPayload()
   {
-    SearchLineagesPayload payload = new()
+    SearchEthnicitiesPayload payload = new()
     {
       LanguageId = LanguageId,
       SizeCategory = SizeCategory

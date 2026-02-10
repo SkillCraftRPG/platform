@@ -2,6 +2,7 @@
 using Krakenar.Contracts.Search;
 using Krakenar.Core.Actors;
 using Krakenar.EntityFrameworkCore.Relational;
+using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
 using Logitar.Data;
 using Logitar.EventSourcing;
 using Microsoft.EntityFrameworkCore;
@@ -39,9 +40,20 @@ internal class EthnicityQuerier : IEthnicityQuerier
   {
     IQueryBuilder builder = _sqlHelper.Query(RulesDb.Lineages.Table).SelectAll(RulesDb.Lineages.Table)
       .ApplyIdFilter(RulesDb.Lineages.Id, payload.Ids)
-      .Where(RulesDb.Lineages.IsPublished, Operators.IsEqualTo(true))
-      .Where(RulesDb.Lineages.ParentUid, Operators.IsEqualTo(payload.SpeciesId));
+      .Where(RulesDb.Lineages.IsPublished, Operators.IsEqualTo(true));
     _sqlHelper.ApplyTextSearch(builder, payload.Search, RulesDb.Lineages.Slug, RulesDb.Lineages.Name, RulesDb.Lineages.Summary);
+
+    if (Guid.TryParse(payload.Species, out Guid parentUid))
+    {
+      builder.Where(RulesDb.Lineages.ParentUid, Operators.IsEqualTo(parentUid));
+    }
+    else
+    {
+      string slugNormalized = Helper.Normalize(payload.Species);
+      TableId parent = new(RulesDb.Lineages.Table.Schema, RulesDb.Lineages.Table.Table!, "P");
+      builder.Join(new ColumnId(RulesDb.Lineages.LineageId.Name!, parent), RulesDb.Lineages.ParentId,
+        new OperatorCondition(new ColumnId(RulesDb.Lineages.SlugNormalized.Name!, parent), Operators.IsEqualTo(slugNormalized)));
+    }
 
     if (payload.LanguageId.HasValue)
     {
