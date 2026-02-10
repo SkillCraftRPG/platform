@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d5655ec0-ad64-420e-ae27-9d8b122cebc3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "berze",
+    "DisplayName": "Berze",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"2488007d-85c7-43fe-90a5-4670640a67b5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "berze",
+      "DisplayName": "Berze",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "berze",
+        "TypicalSpeakers": "Le Berze est principalement parlé par les [humains](/regles/especes/humain) de la Berze, région montagneuse de l’Orijìsa située dans le Zoukur, au Sud-Est de la Dusiane. Il est également utilisé par les autres espèces administrées par les Berzes, notamment les [Nains bruns](/regles/especes/nain-brun), ainsi que par les savants, marchands, diplomates et juristes étrangers venus étudier auprès des Berzes, réputés pour leur droit, leur administration impériale, leur astronomie, leur médecine et leurs écoles de scribes.",
+        "MetaDescription": "Découvrez le Berze, langue savante et administrative issue d’un ancien empire montagnard, utilisée pour le droit, la religion et le savoir.",
+        "Summary": "Langue savante de prestige, normée et administrative du Berze.",
+        "HtmlContent": "Le Berze est une langue orientale de prestige, apparentée au [Chalanique](/regles/langues/chalanique) mais issue d’une branche distincte, montagnarde et standardisée. Il s’agit d’une langue agglutinante à tendance analytique, au système verbal simplifié et au lexique fortement abstrait, utilisée autant pour l’administration que pour la pensée savante. Le Berze s’écrit à l’aide de l’alphabet Zizandr, un système de 53 signes combinant lisibilité phonétique et tradition savante. Certaines graphies conservent volontairement des formes étymologiques anciennes.\n\nLe Berze descend du Vieux Berze, langue d’un ancien empire montagnard aujourd’hui disparu, actif un peu plus de mille ans auparavant. À la suite de l’effondrement de cet État, le Vieux Berze a perdu ses flexions les plus complexes, a régularisé sa morphologie verbale et a intégré des emprunts savants et administratifs, donnant naissance au Berze classique, langue plus stable, normalisée et fonctionnelle.\n\nLe Berze distingue soigneusement la langue parlée du registre savant, réservé aux lois, traités et textes religieux. De nombreux termes abstraits proviennent de racines liées à la vie, à la connaissance et au devenir, reflet d’une culture intellectuelle tournée vers l’ordre et la permanence. Maîtriser cette langue est considéré comme un signe de haute éducation, même chez les étrangers n’en faisant pas un usage quotidien."
+      }
+    }
+  }
+}

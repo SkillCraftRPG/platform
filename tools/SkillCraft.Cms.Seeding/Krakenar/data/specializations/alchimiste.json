@@ -19,8 +19,8 @@
       "Description": null,
       "FieldValues": {
         "Slug": "alchimiste",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez la spécialisation Alchimiste, maître des élixirs, poisons et transmutations, mêlant artisanat, expérimentation et magie profane.",
+        "Summary": "Spécialisation axée sur l’alchimie, les élixirs et la transmutation.",
         "OtherRequirements": "Le personnage doit avoir acquis le talent [Maître-artisan](/regles/talents/maitre-artisan).\nIl doit avoir [développé une expertise](/regles/talents/expertise-artisanale) avec les [fournitures d’alchimiste](/regles/equipement/outils).\nIl ne doit pas avoir acquis la spécialisation [Artificier](/regles/specialisations/artificier).",
         "HtmlContent": "L’alchimiste est un être de réclusion et d’expérimentation qui tente de percer les mystères de la matière et de l’esprit. Il manipule les métaux et autres substances ésotériques dans son laboratoire enfoui dans les secrets. Alors que certains alchimistes tentent d’atteindre l’immortalité ou la richesse, d’autres désirent inventer une concoction capable de guérir tous les maux de l’humanité. Peu importe ses motivations, il les atteindra par des expérimentations chimiques et une magie profane.",
         "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) appartenant au cercle de Transmutation."

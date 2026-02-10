@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2f45a5c5-1376-4ffa-909a-98849b36e331",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "balafre",
+    "DisplayName": "Balafré",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "balafre",
+      "DisplayName": "Balafré",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "balafre",
+        "MetaDescription": "Découvrez le Balafré, écriture draconique rituelle aux signes incisifs, conçue pour le Proto-Draconique et la mémoire, la loi et la création.",
+        "Summary": "Écriture draconique rituelle, consonantique et gravée pour durer.",
+        "HtmlContent": "Le Balafré est un abjad élargi à valeur morpho-phonétique, conçu à l’origine pour le Proto-Draconique, puis stabilisé pour le Draconique classique. Il privilégie les consonnes lourdes, gutturales et éjectives. Les signes sont pensés pour être entaillés d’un geste sûr et puissant, avec des formes anguleuses, fendues, ou profondément incisées, évoquant des griffures dans la pierre.\n\nLe Balafré comprend 36 caractères consonantiques de base, répartis ainsi. Ces consonnes couvrent les besoins d’une langue à forte densité consonantique, incluant des contrastes absents des langues humanoïdes courantes.\n\n- 8 gutturales / uvulaires\n- 6 vélaires\n- 6 coronales\n- 6 latérales, vibrantes et liquides lourdes\n- 10 consonnes complexes (éjectives, aspirées, pharyngalisées)\n\nChaque caractère peut recevoir des altérations graphiques appelées entailles secondaires, issues du Proto-Draconique :\n\n- Variante ouverte : forme simple, valeur phonétique pleine\n- Variante fendue : marque l’intensité, l’ancienneté ou la permanence\n- Variante doublée : indique la répétition, la pluralité conceptuelle ou l’itératif\n- Variante marquée (rare) : associée aux racines sacrées, cosmiques ou créatrices\n\nLe Balafré ne note pas directement les voyelles, celles-ci étant soit inférées par le lecteur selon les racines et les patrons morphologiques, soit indiquées par des diacritiques directionnels (traits courts, points ou ruptures) réservés aux inscriptions rituelles, à la levée d’ambiguïtés sémantiques et à l’enseignement de la langue.\n\nLe Balafré comptait 68 signes à l’époque du Proto-Draconique. Avec l’évolution vers le Draconique classique, certaines variantes archaïques ou rituelles ont été abandonnées, réduisant l’alphabet à 62 signes fonctionnels, sans perte de capacité expressive. Le passage du Proto-Draconique au Draconique classique se caractérise par le passage d’un alphabet plus large, instable et fortement marqué par des variations régionales, des ligatures complexes et des marques sémantiques fusionnées aux consonnes, vers un système réduit et standardisé, distinguant clairement phonologie et morphologie, abandonnant les ligatures redondantes et conçu pour une lisibilité optimale sur de grandes surfaces telles que stèles, parois et obélisques.\n\nLes dragons écrivent rarement, non par manque d’efficacité, leurs griffes entaillent la pierre sans effort, mais pour des raisons culturelles et pratiques : la communication magique remplace l’écrit, les symboles peuvent être matérialisés sans contact physique, et leurs traditions privilégient la mémoire, le serment et la transmission directe. Lorsqu’ils s’adressent à d’autres espèces, ils utilisent généralement la magie scripturale pour écrire dans la langue du destinataire, le Draconique étant extrêmement ardu à apprendre pour une autre anatomie et moins efficace à imposer que l’apprentissage d’une langue étrangère. Le Balafré demeure ainsi une écriture de mémoire, de loi et de création, et non un outil administratif."
+      }
+    }
+  }
+}
