@@ -2,6 +2,7 @@
 using Krakenar.Contracts.Search;
 using Krakenar.Core.Actors;
 using Krakenar.EntityFrameworkCore.Relational;
+using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
 using Logitar.Data;
 using Logitar.EventSourcing;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +33,16 @@ internal class SpeciesQuerier : ISpeciesQuerier
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
+  }
+  public async Task<IReadOnlyCollection<SpeciesModel>> ReadAsync(string slug, CancellationToken cancellationToken)
+  {
+    string slugNormalized = Helper.Normalize(slug);
+    LineageEntity[] lineages = await _lineages.AsNoTracking()
+      .Where(x => x.SlugNormalized == slugNormalized && x.IsPublished && x.ParentId == null)
+      .Include(x => x.Features).ThenInclude(x => x.Feature)
+      .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
+      .ToArrayAsync(cancellationToken);
+    return await MapAsync(lineages, cancellationToken);
   }
 
   public async Task<SearchResults<SpeciesModel>> SearchAsync(SearchSpeciesPayload payload, CancellationToken cancellationToken)
