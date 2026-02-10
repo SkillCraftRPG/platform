@@ -20,14 +20,7 @@ public class LineageController : ControllerBase
   [HttpGet("{id}")]
   public async Task<ActionResult<LineageModel>> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
-    LineageModel? lineage = await _lineageService.ReadAsync(id, slug: null, cancellationToken);
-    return lineage is null ? NotFound() : Ok(lineage);
-  }
-
-  [HttpGet("slug:{slug}")]
-  public async Task<ActionResult<LineageModel>> ReadAsync(string slug, CancellationToken cancellationToken)
-  {
-    LineageModel? lineage = await _lineageService.ReadAsync(id: null, slug, cancellationToken);
+    LineageModel? lineage = await _lineageService.ReadAsync(id, cancellationToken);
     return lineage is null ? NotFound() : Ok(lineage);
   }
 

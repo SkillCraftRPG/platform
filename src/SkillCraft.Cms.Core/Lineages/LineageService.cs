@@ -8,7 +8,7 @@ namespace SkillCraft.Cms.Core.Lineages;
 
 public interface ILineageService
 {
-  Task<LineageModel?> ReadAsync(Guid? id = null, string? slug = null, CancellationToken cancellationToken = default);
+  Task<LineageModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
   Task<SearchResults<LineageModel>> SearchAsync(SearchLineagesPayload payload, CancellationToken cancellationToken = default);
 }
 
@@ -28,9 +28,9 @@ internal class LineageService : ILineageService
     _queryBus = queryBus;
   }
 
-  public async Task<LineageModel?> ReadAsync(Guid? id, string? slug, CancellationToken cancellationToken)
+  public async Task<LineageModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
-    ReadLineageQuery query = new(id, slug);
+    ReadLineageQuery query = new(id);
     return await _queryBus.ExecuteAsync(query, cancellationToken);
   }
 
