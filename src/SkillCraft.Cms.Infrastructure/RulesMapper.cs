@@ -17,7 +17,6 @@ using SkillCraft.Cms.Core.Statistics.Models;
 using SkillCraft.Cms.Core.Talents.Models;
 using SkillCraft.Cms.Infrastructure.Configurations;
 using SkillCraft.Cms.Infrastructure.Entities;
-using System.Xml.Linq;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure;
