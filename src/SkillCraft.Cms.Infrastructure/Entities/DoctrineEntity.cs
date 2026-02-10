@@ -1,6 +1,8 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using Logitar;
+using Logitar.EventSourcing;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
@@ -46,6 +48,26 @@ internal class DoctrineEntity : AggregateEntity
   public void AddFeature(FeatureEntity feature)
   {
     Features.Add(new DoctrineFeatureEntity(this, feature));
+  }
+
+  public override IReadOnlyCollection<ActorId> GetActorIds()
+  {
+    HashSet<ActorId> actorIds = new(base.GetActorIds());
+    foreach (DoctrineDiscountedTalentEntity discounted in DiscountedTalents)
+    {
+      if (discounted.Talent is not null)
+      {
+        actorIds.AddRange(discounted.Talent.GetActorIds());
+      }
+    }
+    foreach (DoctrineFeatureEntity feature in Features)
+    {
+      if (feature.Feature is not null)
+      {
+        actorIds.AddRange(feature.Feature.GetActorIds());
+      }
+    }
+    return actorIds;
   }
 
   public void Publish(ContentLocalePublished @event)
