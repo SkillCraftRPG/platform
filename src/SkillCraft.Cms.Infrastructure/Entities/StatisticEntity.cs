@@ -1,6 +1,8 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using Logitar;
+using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Statistics;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -37,6 +39,17 @@ internal class StatisticEntity : AggregateEntity
 
   private StatisticEntity() : base()
   {
+  }
+
+  public override IReadOnlyCollection<ActorId> GetActorIds() => GetActorIds(skipAttribute: false);
+  public IReadOnlyCollection<ActorId> GetActorIds(bool skipAttribute)
+  {
+    HashSet<ActorId> actorIds = new(base.GetActorIds());
+    if (!skipAttribute && Attribute is not null)
+    {
+      actorIds.AddRange(Attribute.GetActorIds(skipSkills: true));
+    }
+    return actorIds;
   }
 
   public void Publish(ContentLocalePublished @event)
