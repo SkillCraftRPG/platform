@@ -2,7 +2,6 @@
 using Krakenar.Contracts.Search;
 using Krakenar.Core.Actors;
 using Krakenar.EntityFrameworkCore.Relational;
-using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
 using Logitar.Data;
 using Logitar.EventSourcing;
 using Microsoft.EntityFrameworkCore;
@@ -12,49 +11,36 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Queriers;
 
-internal class LineageQuerier : ILineageQuerier
+internal class SpeciesQuerier : ISpeciesQuerier
 {
   private readonly IActorService _actorService;
   private readonly DbSet<LineageEntity> _lineages;
   private readonly ISqlHelper _sqlHelper;
 
-  public LineageQuerier(IActorService actorService, RulesContext rules, ISqlHelper sqlHelper)
+  public SpeciesQuerier(IActorService actorService, RulesContext rules, ISqlHelper sqlHelper)
   {
     _actorService = actorService;
     _lineages = rules.Lineages;
     _sqlHelper = sqlHelper;
   }
 
-  public async Task<LineageModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
+  public async Task<SpeciesModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
     LineageEntity? lineage = await _lineages.AsNoTracking()
-      .Where(x => x.Id == id && x.IsPublished)
+      .Where(x => x.Id == id && x.IsPublished && x.ParentId == null)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
       //.Include(x => x.Children) // TODO(fpion): implement
-      .Include(x => x.Parent) // TODO(fpion): implement
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
   }
-  public async Task<LineageModel?> ReadAsync(string slug, CancellationToken cancellationToken)
-  {
-    string slugNormalized = Helper.Normalize(slug);
 
-    LineageEntity? lineage = await _lineages.AsNoTracking()
-      .Where(x => x.SlugNormalized == slugNormalized && x.IsPublished)
-      .Include(x => x.Features).ThenInclude(x => x.Feature)
-      .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
-      .Include(x => x.Parent)
-      .SingleOrDefaultAsync(cancellationToken);
-    return lineage is null ? null : await MapAsync(lineage, cancellationToken);
-  } // TODO(fpion): remove this method, DB unique index, and CMS unique index
-
-  public async Task<SearchResults<LineageModel>> SearchAsync(SearchLineagesPayload payload, CancellationToken cancellationToken)
+  public async Task<SearchResults<SpeciesModel>> SearchAsync(SearchSpeciesPayload payload, CancellationToken cancellationToken)
   {
     IQueryBuilder builder = _sqlHelper.Query(RulesDb.Lineages.Table).SelectAll(RulesDb.Lineages.Table)
       .ApplyIdFilter(RulesDb.Lineages.Id, payload.Ids)
       .Where(RulesDb.Lineages.IsPublished, Operators.IsEqualTo(true))
-      .Where(RulesDb.Lineages.ParentUid, payload.ParentId.HasValue ? Operators.IsEqualTo(payload.ParentId.Value) : Operators.IsNull());
+      .Where(RulesDb.Lineages.ParentId, Operators.IsNull());
     _sqlHelper.ApplyTextSearch(builder, payload.Search, RulesDb.Lineages.Slug, RulesDb.Lineages.Name, RulesDb.Lineages.Summary);
 
     if (payload.LanguageId.HasValue)
@@ -103,21 +89,21 @@ internal class LineageQuerier : ILineageQuerier
     query = query.ApplyPaging(payload);
 
     LineageEntity[] entities = await query.ToArrayAsync(cancellationToken);
-    IReadOnlyCollection<LineageModel> lineages = await MapAsync(entities, cancellationToken);
+    IReadOnlyCollection<SpeciesModel> lineages = await MapAsync(entities, cancellationToken);
 
-    return new SearchResults<LineageModel>(lineages, total);
+    return new SearchResults<SpeciesModel>(lineages, total);
   }
 
-  private async Task<LineageModel> MapAsync(LineageEntity lineage, CancellationToken cancellationToken)
+  private async Task<SpeciesModel> MapAsync(LineageEntity lineage, CancellationToken cancellationToken)
   {
     return (await MapAsync([lineage], cancellationToken)).Single();
   }
-  private async Task<IReadOnlyCollection<LineageModel>> MapAsync(IEnumerable<LineageEntity> lineages, CancellationToken cancellationToken)
+  private async Task<IReadOnlyCollection<SpeciesModel>> MapAsync(IEnumerable<LineageEntity> lineages, CancellationToken cancellationToken)
   {
     IEnumerable<ActorId> actorIds = lineages.SelectMany(lineage => lineage.GetActorIds());
     IReadOnlyDictionary<ActorId, Actor> actors = await _actorService.FindAsync(actorIds, cancellationToken);
     RulesMapper mapper = new(actors);
 
-    return lineages.Select(mapper.ToLineage).ToList().AsReadOnly();
+    return lineages.Select(mapper.ToSpecies).ToList().AsReadOnly();
   }
 }
