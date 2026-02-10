@@ -1,6 +1,8 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
 using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using Logitar;
+using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Lineages;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -81,6 +83,30 @@ internal class LineageEntity : AggregateEntity
   public void AddLanguage(LanguageEntity language)
   {
     Languages.Add(new LineageLanguageEntity(this, language));
+  }
+
+  public override IReadOnlyCollection<ActorId> GetActorIds()
+  {
+    HashSet<ActorId> actorIds = new(base.GetActorIds());
+    if (Parent is not null)
+    {
+      actorIds.AddRange(Parent.GetActorIds());
+    }
+    foreach (LineageFeatureEntity feature in Features)
+    {
+      if (feature.Feature is not null)
+      {
+        actorIds.AddRange(feature.Feature.GetActorIds());
+      }
+    }
+    foreach (LineageLanguageEntity language in Languages)
+    {
+      if (language.Language is not null)
+      {
+        actorIds.AddRange(language.Language.GetActorIds());
+      }
+    }
+    return actorIds;
   }
 
   public void Publish(ContentLocalePublished @event)
