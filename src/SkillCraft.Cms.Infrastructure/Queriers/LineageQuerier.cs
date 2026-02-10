@@ -31,7 +31,6 @@ internal class LineageQuerier : ILineageQuerier
       .Where(x => x.Id == id && x.IsPublished)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
-      //.Include(x => x.Children) // TODO(fpion): implement
       .Include(x => x.Parent)
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
