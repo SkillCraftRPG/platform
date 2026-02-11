@@ -1,0 +1,34 @@
+﻿{
+  "Id": "ad5e4aa0-7ac1-4142-8c2f-a548a7a59b8f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Dhampir",
+    "DisplayName": "Dhampir",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeRoll": "140+2d20",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
+      "Age": "8,15,275,750",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"552d6f50-53e2-4ddd-8c44-4c71d87389b7\",\"336f5b25-cf8e-4e6c-bd82-0973245755d3\",\"fe94b10d-b9cf-47f2-a88b-dbaf6fbad5fe\",\"8849cb61-0838-43e8-902b-2a13e722bb82\",\"e36d1f42-6c8b-4e83-b6b2-9fedab5f28f4\",\"da7596bf-4b69-42e9-af5a-d26be744d123\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Dhampir",
+      "DisplayName": "Dhampir",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "dhampir",
+        "Summary": "Dhampir, hybride vampirique nocturne aux pouvoirs vitaux et adaptatifs.",
+        "HtmlContent": "Le Dhampir est un humanoïde similaire en tout point aux [humains](/regles/especes/humain). Sa taille et son gabarit physique sont semblables. Il est trahi par sa peau pâle et grisâtre, dénuée de vie, ainsi que ses canines pointues. Ces canines lui permettent notamment d’absorber l’énergie vitale d’une autre créature vivante. Le Dhampir est une créature nocturne, dotée d’une vision précise dans le noir, mais vulnérable à la vive lumière et à la lumière de l’astre solaire. Bien qu'il soit en partie humain, une créature vampirique fait partie de son ascendance, soit un parent ou un ancêtre lointain. Il hérite de certaines caractéristiques de cette créature, par exemple des facultés physiques et mentales augmentées, ainsi que la capacité surnaturelle de modifier ses facultés physiques et mentales afin de mieux s’adapter à une situation. Malgré leur nature partiellement humaine, le Dhampir est considéré comme une menace pour la société, il préfère donc vivre en réclusion et en marge de celle-ci.",
+        "LanguagesText": "Le personnage apprend la langue du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
+        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé.\n\nSon prénom est généralement sélectionné afin d’évoquer ses origines funèbres.",
+        "MetaDescription": "Découvrez le dhampir : hybride humanoïde d’ascendance vampirique, nocturne et longévif, capable d’absorber l’énergie vitale et de s’adapter surnaturellement."
+      }
+    }
+  }
+}

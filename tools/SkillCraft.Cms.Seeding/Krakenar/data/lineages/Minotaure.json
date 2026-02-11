@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3c9765a9-e0c2-472a-8c2e-57dc35527cb8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure",
+    "DisplayName": "Minotaure",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeRoll": "180+2d10",
+      "SizeCategory": "[\"Medium\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure",
+      "DisplayName": "Minotaure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "minotaure",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Les minotaures sont des hommes-animaux, hybrides entre humains et bovins. Ils sont dotés d’une grande de taille et d’une carrure physique impressionnante, voire intimidante. Deux solides cornes ornent le front du minotaure, et celui-ci n’hésitera pas à s’en servir afin de se défendre ou de se dégager un passage. Les minotaures sont originaires d’îles dans la mer Mésienne, au Sud de la mer Aspidée et de l’Orris. Ils y ont autrefois établi une brillante civilisation avant d’être conquis par les Orrins peu après leur migration en Ouespéro. Leurs cités et habitations sont organisées en dédales rappelant un labyrinthe qu’ils naviguent avec habileté grâce à leurs facultés extraordinaires de repérage.",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

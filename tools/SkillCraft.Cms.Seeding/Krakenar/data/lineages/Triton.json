@@ -1,0 +1,29 @@
+﻿{
+  "Id": "00aebf0e-554a-4378-8116-3f78984f43b6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Triton",
+    "DisplayName": "Triton",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6,Swim:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "140+2d20"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Triton",
+      "DisplayName": "Triton",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "\uD83D\uDEA7",
+        "Slug": "triton",
+        "HtmlContent": "Parfois appelés « ondins », les tritons sont des humanoïdes similaires aux humains, mais dotés de mains et de pieds palmés, de branchies et d’une coloration légèrement bleutée ou verdâtre. Ce sont des élémentaires associés à l’Eau qu’on peut retrouver dans les fonds marins peu profonds, sur les plages chaudes et sur les îles à proximité de ces milieux marins. Ils possèdent une affinité avec l’eau et les créatures marines.",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
