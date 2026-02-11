@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5cc3f0e0-653b-44bb-8762-2565b44b67ad",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amphydre",
+    "DisplayName": "Amphydre",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6,Swim:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "160+3d10"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amphydre",
+      "DisplayName": "Amphydre",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "\uD83D\uDEA7",
+        "Slug": "amphydre",
+        "HtmlContent": "Les Amphydres sont des hommes-animaux, hybrides entre humains et amphibiens. Leur mode de vie non conventionnel, dû à leur habitat marécageux, explique leur crainte envers les étrangers et le fait qu’ils leur accordent difficilement leur confiance. Dans un environnement aquatique, ils sont de redoutables adversaires et s’adonnent à de dangereuses joutes de lutte. Par ailleurs, ce sport extrême leur a valu leur réputation, selon laquelle ils attirent les voyageurs dans les marais afin de les noyer.",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

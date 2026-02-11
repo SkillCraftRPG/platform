@@ -1,0 +1,32 @@
+﻿{
+  "Id": "592849db-c77b-405b-b388-1289e13c8612",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelin",
+    "DisplayName": "Gobelin",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:4",
+      "SizeCategory": "[\"Small\"]",
+      "SizeRoll": "90+3d10",
+      "Features": "[\"246a1d4e-a6da-4c72-a8a4-80fb18f6a04e\",\"273e93d5-d53c-423d-a85e-27d10d2c446e\",\"bd18eb61-92c0-4235-88ae-0cc118aa40f5\",\"5406f27a-cf09-4463-b254-d4e8056cff8f\"]",
+      "Weight": "10+1d4,14+1d6,20+1d6,26+1d6,32+1d8",
+      "Age": "6,12,25,50"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelin",
+      "DisplayName": "Gobelin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "gobelin",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

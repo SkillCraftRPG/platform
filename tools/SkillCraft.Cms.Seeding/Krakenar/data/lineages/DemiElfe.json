@@ -1,0 +1,34 @@
+﻿{
+  "Id": "471d44d7-89e5-4995-87da-267d31ec2f52",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiElfe",
+    "DisplayName": "Demi-elfe",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "3",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "140+5d10",
+      "Weight": "9+1d4,13+1d4,17+1d6,23+1d6,29+1d8",
+      "Age": "10,20,40,160",
+      "Features": "[\"a3d63ea4-2b91-4c28-b62e-4a51e9e425ea\",\"350caa24-b15e-471a-bfba-a9415896824f\",\"2e60a89c-8e08-4732-93fb-a7071257f4bf\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiElfe",
+      "DisplayName": "Demi-elfe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "demi-elfe",
+        "HtmlContent": "Issus de croisements entre [humains](/regles/especes/humain) et [elfes](/regles/especes/elfe), les demi-elfes ont hérité de certaines qualités de chacune de ces espèces. Leurs traditions et valeurs varient grandement en fonction de s’ils ont été élevés par un seul de leurs deux parents, ou par leurs deux parents, ce qui est très rare. Leur longévité les place dans une situation déconcertante, puisqu’ils voient leur parent humain mourir, mais décèdent généralement avant leur parent elfique. De manière générale, s’ils ont été élevés à l’écart des sociétés de leurs parents, ils développement une affinité avec les individus marginaux. Sinon, ils apprennent à composer avec les différences et deviennent d’excellents médiateurs.",
+        "Summary": "Demi-elfe, héritier humain et elfique, adaptable et polyvalent.",
+        "LanguagesText": "Le personnage apprend la langue maternelle du parent qui l’a élevé ainsi que 2 langues supplémentaires au choix.\n\nS’il a été élevé par ses deux parents, il apprend la langue maternelle de ses deux parents ainsi qu’une langue supplémentaire au choix.",
+        "NamesText": "Le personnage porte un nom et un prénom en fonction du parent qui l’a élevé.\n\nIl n’est pas rare de voir un demi-elfe élevé par ses deux parents porter un prénom elfique et un nom de famille humain ou vice-versa.",
+        "MetaDescription": "Découvrez le demi-elfe : héritier des humains et des elfes, alliant longévité, adaptabilité sociale, apprentissage accéléré et héritage elfique."
+      }
+    }
+  }
+}

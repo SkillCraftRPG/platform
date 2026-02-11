@@ -1,0 +1,29 @@
+﻿{
+  "Id": "161da5b3-93fc-4fc5-996d-2e4436c4cab5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Haut",
+    "DisplayName": "Haut-Elfe",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
+      "ExtraLanguages": "1",
+      "Features": "[\"641d8c6d-b9a3-43d4-af18-bab179f79e7d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Haut",
+      "DisplayName": "Haut-Elfe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les Haut-Elfes préfèrent l’organisation, la régularité et la civilisation, au contraire des elfes sylvains qui préfèrent le chaos et les milieux sauvages. Ces peuples sont issus de la même origine et se sont séparés il y a de cela quelques millénaires à cause de cette importante différence. Cette préférence leur a permis de passer plus de temps à étudier les mystères naturels, et ainsi à acquérir des savoirs poussés et des facultés magiques supérieures.",
+        "Slug": "haut",
+        "Summary": "\uD83D\uDEA7",
+        "NamesText": "Les Haut-Elfes portent les mêmes noms que les [Elfes sylvains](/regles/especes/elfe-sylvain).",
+        "MetaDescription": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
