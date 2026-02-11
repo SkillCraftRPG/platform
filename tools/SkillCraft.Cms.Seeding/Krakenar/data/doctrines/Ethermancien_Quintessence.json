@@ -1,0 +1,24 @@
+﻿{
+  "Id": "592c2b28-c0aa-41f4-932a-f90f7af19572",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ethermancien_Quintessence",
+    "DisplayName": "Quintessence",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"94116f45-aa0a-498f-a9af-7d7ea9650ab4\"]",
+      "DiscountedTalents": "[\"bc0f5737-5e23-41f2-9204-e802e2aa295a\",\"1fb719d3-cb6a-4ce2-b43a-9ae1cd7dff25\",\"79120f1f-0067-4888-b2b1-8eabe2a1d1a4\",\"56afacb4-dedf-44c2-b1be-73712119ecc0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ethermancien_Quintessence",
+      "DisplayName": "Quintessence",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste).\nIl peut également acquérir les pouvoirs de tiers 3 associés à une [combinaison élémentaire](#) incluant sa spécialité, et acquiert gratuitement un de ces pouvoirs.\nEnfin, il peut acquérir les pouvoirs de tiers 2 associés aux autres [éléments qu’il contrôle](/regles/talents/elementarisme), ainsi que ceux associés à une combinaison de ces éléments.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 3."
+      }
+    }
+  }
+}

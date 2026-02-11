@@ -1,0 +1,27 @@
+﻿{
+  "Id": "20d34ad6-d7bc-442d-9dac-6507bf4d3f6e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "kroumien",
+    "DisplayName": "Kroumien",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"63c61f46-feb5-4084-8f41-cfe26e7fbb08\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "kroumien",
+      "DisplayName": "Kroumien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "kroumien",
+        "TypicalSpeakers": "Le Kroumien est la langue vernaculaire des [nains des montagnes](/regles/especes/nain-brun), concentrés dans les montagnes de Kroumir, et les régions de Labgis, de Kadjesi et de l’Aztarvan. C’est également une langue seconde courante chez les marchands de la région et des régions environnantes, et elle est utilisée dans les traités commerciaux, les contrats miniers et les échanges d’armes, de métaux et de pierres précieuses effectués avec les nains des montagnes.\n\nBien qu’elle ne possède pas de statut officiel dans les royaumes avoisinants, sa maîtrise est considérée comme un atout diplomatique et économique majeur. Bien plus qu’une langue utilitaire, le Kroumien représente la mémoire vivante des anciens royaumes montagnards, un marqueur d’identité forte des nains, et une langue de neutralité dans les échanges inter-ethniques. Parler Kroumien correctement est un signe de respect, de fiabilité et de sérieux dans le Kroumir et les environs.",
+        "MetaDescription": "Découvrez le Kroumien, langue montagnarde naine de convergence, au cœur du commerce, des serments et des traditions ancestrales.",
+        "Summary": "Langue commerciale et identitaire des nains des montagnes.",
+        "HtmlContent": "Le Kroumien est une langue montagnarde très ancienne, parlée principalement dans la région du Kroumir. Elle occupe une position unique : langue héritière et agrégative, issue de la fusion progressive de traditions linguistiques de Labgis, Kadjesi et d’Aztarvan, elle sert à la fois de langue identitaire des [nains des montagnes](/regles/especes/nain-brun) et de lingua franca commerciale entre les royaumes majeurs de la région.\n\nLe Kroumien est né dans les montagnes du Kroumir, massif isolé et difficile d’accès, servant de refuge naturel depuis plusieurs millénaires. À la suite de la chute des anciens royaumes nains des montagnes, il y a environ 1 000 ans, plusieurs peuples apparentés mais linguistiquement distincts se sont regroupés dans cette région. Ce brassage a entraîné la fusion de d’un substrat ancien, des langues et dialectes nains, ainsi que d’apports phonologiques externes. Le Kroumien n’est donc pas une langue fille directe, mais une langue de convergence, façonnée par des siècles de cohabitation, de guerres défensives, d’alliances commerciales et de traditions artisanales partagées.\n\nLe vocabulaire Kroumien est particulièrement développé dans les domaines de la géologie et du relief, de la métallurgie et de la forge, du commerce caravanier, des lois coutumières montagnardes, et des serments, dettes et alliances. De nombreux termes Kroumiens ont été adoptés dans les langues voisines pour désigner des techniques ou des objets spécialisés. C’est une langue qui ne ment pas facilement : elle oblige souvent à préciser qui agit, sur quoi, et dans quelles conditions, ce qui la rend idéale pour les négociations difficiles."
+      }
+    }
+  }
+}

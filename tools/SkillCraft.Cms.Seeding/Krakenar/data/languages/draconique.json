@@ -1,0 +1,27 @@
+﻿{
+  "Id": "93eb4b4d-3c43-4730-a55a-f9b92177c7b3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "draconique",
+    "DisplayName": "Draconique",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"2f45a5c5-1376-4ffa-909a-98849b36e331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "draconique",
+      "DisplayName": "Draconique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "draconique",
+        "TypicalSpeakers": "Le Draconique est parlé presque exclusivement par les dragons. Sa phonologie repose sur des sons difficiles, voire impossibles, à produire pour les espèces humanoïdes : consonnes éjectives profondes, fricatives gutturales prolongées, résonances thoraciques et variations de souffle liées à la respiration des dragons. Même lorsqu’il est compris intellectuellement par d’autres espèces, il reste pratiquement imprononçable, ce qui limite son usage rituel ou savant à des formes très dégradées.",
+        "MetaDescription": "Découvrez le Draconique, langue primordiale des dragons, dense et archaïque, issue du Proto-Draconique et notée par l’écriture rituelle Balafré.",
+        "HtmlContent": "Le Draconique classique, souvent abrégé en _Draconique_, est un isolat linguistique ancien, issu du Proto-Draconique, une langue primordiale associée aux dragons. Il ne peut être rattaché à aucune famille connue, car sa structure repose sur des principes étrangers aux langues humanoïdes : phonation non linéaire, morphologie massivement agglutinante, et sémantique fortement polysynthétique. La langue privilégie des racines lourdes, souvent monosyllabiques ou dissyllabiques, combinées par empilement morphologique plutôt que par flexion. Le Draconique classique donne une impression de langue dense, lente à prononcer mais extrêmement précise.\n\nLe Draconique classique partage une origine extrêmement lointaine avec le [Zurain](/regles/langues/zurain), le [Serselien](/regles/langues/serselien) et le [Kroumien](/regles/langues/kroumien), remontant à une époque antérieure à la dispersion et à la différenciation des peuples nains. Cette origine commune est trop ancienne pour constituer une famille linguistique au sens strict, on parle plutôt d’une superfamille préhistorique, antérieure à toute reconstruction fiable. Après la transmission du Proto-Draconique aux [Nains](/regles/especes/nain), ceux-ci l’ont fragmenté lors de leur dispersion, donnant naissance aux grandes traditions linguistiques naines. Le Draconique classique, lui, est demeuré isolé, évoluant lentement et sans influence extérieure majeure, conservant ainsi des traits archaïques disparus ailleurs.\n\nLe Draconique classique conserve des classificateurs sémantiques anciens rappelant le Kroumien, où la forme grammaticale d’un mot dépend de la nature physique ou cosmique de ce qu’il désigne. Certains morphèmes correspondent à des concepts intraduisibles, hérités du Proto-Draconique, que les Nains ont fragmentés en plusieurs mots lors de l’émergence de leurs langues civilisationnelles. La langue distingue systématiquement ce qui est créé, façonné ou engendré, une nuance héritée des traditions archaïques, reflétant la vision du monde comme un acte continu de formation plutôt que de possession.",
+        "Summary": "Langue archaïque des dragons, dense et quasi imprononçable."
+      }
+    }
+  }
+}

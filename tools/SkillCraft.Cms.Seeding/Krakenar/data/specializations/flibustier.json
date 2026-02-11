@@ -1,0 +1,28 @@
+﻿{
+  "Id": "a12d5332-50f9-414b-badb-f354c150e778",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "flibustier",
+    "DisplayName": "Flibustier",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"c2a0e512-521c-485d-a7e4-784b74e37e40\"]",
+      "OptionalTalents": "[\"55be09ee-01f1-4ed4-a3e7-ef44c4619f2f\",\"3a318dfc-40ef-4d1c-ae76-9ca8c2a35565\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"eb0632dc-3008-425d-a1b8-3bb438ee6201\",\"c9abbe04-b581-4fc3-a815-8a7fe62c2dcb\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"2c09d822-56f7-45bc-a6c7-8a281013e682\",\"5d05b6c8-3aed-471c-8748-228dd3bbb875\",\"fff4d66c-fbbb-44ba-a1f6-609d642f32bc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "flibustier",
+      "DisplayName": "Flibustier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "flibustier",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "Le flibustier navigue les mers avec une ambition inébranlable et une chance défiant la logique. Il affronte les tempêtes, échappant aux flottes royales et pillant des trésors jalousement gardés, toujours avec un sourire au coin. Combattant hors pair, stratège redoutable, il connait les chemins secrets lui permettant de se dissimuler des autorités. Sa chance presque surnaturelle lui permet de triompher là où d’autres auraient péri. Sa réputation est digne des exploits incroyables qu’il réussit.",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

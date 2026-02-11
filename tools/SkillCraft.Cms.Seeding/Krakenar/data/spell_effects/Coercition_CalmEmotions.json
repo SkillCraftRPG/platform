@@ -1,0 +1,31 @@
+﻿{
+  "Id": "1d9454ea-b19c-4daa-ab12-4a8c53ce3890",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Coercition_CalmEmotions",
+    "DisplayName": "Apaisement",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a3328900-e773-4816-bed6-8ca0ce122601\"]",
+      "CastingTime": "[\"2\"]",
+      "Level": "1",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Coercition_CalmEmotions",
+      "DisplayName": "Apaisement",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de supprimer les émotions fortes négatives d’un groupe de créatures situées dans une sphère de 6 mètres de rayon centrée sur un point qu’il désigne. Chaque créature effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition). Une cible peut l’échouer volontairement. Pour chaque créature échouant le jet de sauvegarde, le personnage choisit un des effets suivants.\n\n- Les [charmes](/regles/combat/conditions/charme) et effets de [peur](/regles/combat/conditions/apeure) sont suspendus pendant la durée du pouvoir.\n- La cible est [indifférente](/regles/aventure/interaction-sociale) envers les créatures désignées par le personnage pendant la durée du pouvoir."
+      }
+    }
+  }
+}

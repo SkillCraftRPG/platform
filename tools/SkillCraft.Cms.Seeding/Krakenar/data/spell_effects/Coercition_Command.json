@@ -1,0 +1,30 @@
+﻿{
+  "Id": "13901de4-b6bc-402d-9c12-72e41f3f6cb6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Coercition_Command",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a3328900-e773-4816-bed6-8ca0ce122601\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Coercition_Command",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce une commande d’un seul mot en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si la cible n’est pas un mort-vivant, qu’elle entend et comprend le personnage, et que la commande n’est pas directement dangereuse envers celle-ci, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la créature doit exécuter l’action demandée jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). Des exemples de commandes suivent. Si le personnage donne une commande différente, le maître de jeu détermine comment la cible se comporte.\n\n- **Approcher.** La cible [se déplace](/regles/combat/activites/deplacement) vers le personnage par le chemin le plus court, s’arrêtant le plus près possible, puis met fin à son tour.\n- **Fuir.** La cible [se déplace](/regles/combat/activites/deplacement) le plus loin possible du personnage en utilisant toutes ses [actions](/regles/combat/deroulement/tour).\n- **Lâcher.** La cible [lâche](/regles/combat/activites/lacher) tous les objets qu’elle tient, puis met fin à son tour.\n- **Ramper.** La cible [se jette au sol](/regles/combat/activites/jeter-sol) en position [renversée](/regles/combat/conditions/renverse), puis met fin à son tour.\n- **Rester.** La cible n’effectue aucune [activité](/regles/combat/activites). Une créature [volante](/regles/aventure/mouvement/types) se maintient en position dans les airs."
+      }
+    }
+  }
+}

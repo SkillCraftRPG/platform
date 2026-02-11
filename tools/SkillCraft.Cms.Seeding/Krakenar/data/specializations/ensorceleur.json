@@ -1,0 +1,30 @@
+﻿{
+  "Id": "182032d6-c5e0-4281-a66e-9b10e7d7a2e2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ensorceleur",
+    "DisplayName": "Ensorceleur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"d3042400-af91-41df-b7ce-2c36ed19df6e\"]",
+      "OptionalTalents": "[\"398cfada-90d4-4e78-ad70-8a96c3f301cc\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ensorceleur",
+      "DisplayName": "Ensorceleur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ensorceleur",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Tout comme l’illusionniste, l’ensorceleur sait captiver les foules et les nobles. Il manipule avec brio les jeux de lumière, les effets sonores et les illusions sensorielles, par exemple des formes et apparitions, ou encore une odeur captivant l’esprit, mélangeant réel et merveilleux. Il sait livrer des performances exceptionnelles qui sauront divertir un public ou occuper ses adversaires pendant que ses compagnons se faufilent sous leurs yeux ébahis.",
+        "MetaDescription": "\uD83D\uDEA7",
+        "OtherOptions": "[Illusions](#) de tiers 2.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Illusionniste](/regles/specialisations/illusionniste).\nIl doit avoir acquis le talent [Naturalisme](/regles/talents/naturalisme).\nIl doit avoir acquis au moins une [illusion](#) de tiers 2. Les pouvoirs acquis gratuitement ne satisfont pas cette condition."
+      }
+    }
+  }
+}

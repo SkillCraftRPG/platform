@@ -1,0 +1,24 @@
+﻿{
+  "Id": "4750abbc-b36e-4745-8a3b-20b3ab81ffd3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orkhun",
+    "DisplayName": "Orkhun",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orkhun",
+      "DisplayName": "Orkhun",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orkhun",
+        "HtmlContent": "L’Orkhun est l’alphabet rituel et diplomatique de la Horde : une écriture verticale, tracée de haut en bas et lue de la droite vers la gauche, conçue pour être gravée dans la pierre comme cousue sur les peaux et les textiles. Héritier d’anciennes traditions runiques des steppes, il privilégie des formes simples, anguleuses et robustes, lisibles même lorsque le support est irrégulier ou usé. L’Orkhun ne possède qu’une seule forme par caractère, sans variantes contextuelles : l’écriture peut ainsi être lente et solennelle lors des rites ou des traités, ou plus rapide lorsqu’elle est tracée à l’encre ou au charbon. L’alphabet comprend 28 caractères au total, couvrant consonnes et voyelles essentielles, avec une logique sonore claire qui favorise la récitation, la mémoire et la transmission orale. Écrire en Orkhun n’est jamais un acte banal : chaque inscription marque une intention, un serment, un nom gravé pour durer.",
+        "MetaDescription": "Découvrez l’Orkhun, l’alphabet rituel et diplomatique de la Horde, vertical, gravé ou cousu, conçu pour la mémoire, les serments et la transmission orale.",
+        "Summary": "Alphabet rituel et solennel de la Horde, gravé pour durer."
+      }
+    }
+  }
+}

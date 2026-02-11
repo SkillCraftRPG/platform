@@ -1,0 +1,28 @@
+﻿{
+  "Id": "4c0a95f4-eb9f-4e5d-a851-2a1940c0e525",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "totem",
+    "DisplayName": "Totem",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "totem",
+      "DisplayName": "Totem",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "totem",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Le totem est l’incarnation ultime du chaman, gardien de la nature, des lieux occultes et des traditions antiques. Ses pratiques chamaniques lui permettent de contrôler et de manipuler les esprits de la nature et de ses ancêtres. Il agit comme guide et sage auprès des autres chamans n’ayant pas atteint son rang. Ses pouvoirs spirituels lui permettent de faire un avec la dimension éthérée, agissant tel un réel esprit tout en conservant son attache avec le monde matériel.",
+        "OtherRequirements": "\uD83D\uDEA7",
+        "OtherOptions": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e2127708-02d0-47e4-a656-b5cccee30e55",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Medecin_Pharmacie",
+    "DisplayName": "Pharmacie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Medecin_Pharmacie",
+      "DisplayName": "Pharmacie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [improvise un remède](/regles/talents/apothicairerie), il peut réduire de moitié le nombre de charges consommées. Alternativement, il peut produire deux remèdes de la même sorte par la même [action](/regles/combat/deroulement/tour) en consommant le nombre normal de charges."
+      }
+    }
+  }
+}

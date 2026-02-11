@@ -1,0 +1,27 @@
+﻿{
+  "Id": "cf0d0fda-2bc8-4faa-84c3-9f2863822474",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mornelma",
+    "DisplayName": "Morńelmä",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"75a391a6-dd10-4c80-85cd-f2ee68ff6d06\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mornelma",
+      "DisplayName": "Morńelmä",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mornelma",
+        "HtmlContent": "Le Morńelmä est une langue ancienne et singulière des langues des Gelvas, sans proche parente directe au sein de la famille. Le Morńelmä s’écrit en Elfique, adapté pour être gravé sur pierre, métal ou obsidienne. Elle se distingue par une structure fortement agglutinante, une syntaxe dense et un vocabulaire très concret, centré sur l’espace, le mouvement, la survie et les relations avec le monde invisible.\n\nLongtemps confiné aux profondeurs, le Morńelmä est la seule langue de la famille à ne pas avoir traversé vers l’Ouest des Gelvas avant une période relativement récente. Elle possède beaucoup plus de mots pour passage, seuil et profondeur que pour les directions cardinales. Les Elfes sombres considèrent que changer de dialecte, c’est déjà changer de point de vue sur le monde. Certains mots décrivent une action, son intention et son résultat en un seul terme, ce qui rend la langue redoutablement précise et intimidante, tels ses locuteurs.\n\nElle se divise en deux grands dialectes : un dialecte oriental, parlé à l’Est des Gelvas, plus ancien et plus conservateur, et un dialecte occidental, apparu en Ouespéro, influencé par les langues de surface. Les deux dialectes sont parlés à la surface et dans le monde souterrain d’Outreterre. Ces deux formes sont parfois difficilement intelligibles entre elles, tant par le vocabulaire que par certaines structures grammaticales.",
+        "TypicalSpeakers": "Le Morńelmä reste principalement la langue des [Elfes sombres](/regles/especes/elfe-sombre). Elle est également parlée par les créatures du monde souterrain. Ses locuteurs externes sont rares en raison de sa complexité, mais elle est très prisée par les voyageurs désirant s’aventurer en Outreterre.",
+        "MetaDescription": "Découvrez le Mornélmä, langue ancienne et souterraine des Elfes sombres, agglutinante et dense, façonnée pour exprimer le passage, la profondeur et l’invisible.",
+        "Summary": "Langue souterraine des Elfes sombres, dense, agglutinante et rituelle."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Id": "5bd7cd62-3bef-42b4-a8b3-8cacc31d4aba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "harseme",
+    "DisplayName": "Harsème",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "harseme",
+      "DisplayName": "Harsème",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "harseme",
+        "HtmlContent": "Le Harsème est une langue ancienne et isolée d’Ouespéro, considérée comme la dernière survivante de sa famille linguistique indigène. Sans parenté démontrée avec les grandes familles voisines, il occupe une place singulière dans le paysage linguistique du continent, souvent décrit comme un vestige vivant des langues pré-impériales.\n\nLe Harsème est l’héritier des anciennes langues indigènes autrefois répandues en Ouespéro occidental, disparues sous la pression des langues dominantes, des migrations et des structures impériales. Il a survécu grâce à l’isolement géographique et culturel de ses locuteurs, sans jamais être standardisé ni intégré à un État. Aujourd’hui, il demeure une langue fortement liée au territoire, à l’oralité et à une mémoire collective pré-impériale.\n\nLe Harsème est une langue exclusivement orale, transmise par le récit, le chant et la mémoire collective. Bien que des tentatives de transcription en alphabet [Rénon](/regles/langues/scripts/renon) aient existé durant l’époque impériale, elles sont restées marginales et externes. Ses locuteurs n’ont jamais adopté l’écriture, la considérant incompatible avec une langue vivante, indissociable de la voix, du lieu et du contexte.\n\nLes noms propres sont souvent transparents pour les locuteurs, mais opaques pour les étrangers, car ils fonctionnent comme de véritables descriptions historiques abrégées. Certains anciens traités impériaux mentionnent que les interprètes chargés du Harsème étaient réputés peu fiables, non par incompétence, mais parce que la langue refusait souvent de rendre les nuances juridiques impériales sans perte de sens. Dire qu’un Harsème «&nbsp;a perdu sa langue&nbsp;» est considéré comme une insulte grave, équivalente à nier son appartenance au peuple.",
+        "TypicalSpeakers": "Le Harsème est parlé par les [Harsèmes](/regles/especes/harseme). Leur cœur culturel se situe dans les Arborées, les régions montagneuses boisées d’Arasie, où la langue demeure majoritaire dans la vie quotidienne. On trouve également des communautés sur Beldegir, grande île au large d’Ouespéro, les Girizes, archipel aux traditions maritimes anciennes, et les Magdales, archipel plus dispersé, marqué par une forte autonomie locale. Dans ces régions, le Harsème coexiste souvent avec des langues dominantes utilisées pour le commerce ou l’administration, mais reste la langue de l’identité, de la famille et des usages rituels.",
+        "MetaDescription": "Découvrez le Harsème, langue indigène et orale d’Ouespéro, dernier vestige pré-impérial, étroitement liée au territoire, à la mémoire et à l’identité Harsème.",
+        "Summary": "Langue orale indigène d’Ouespéro, héritière des cultures pré-impériales."
+      }
+    }
+  }
+}

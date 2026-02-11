@@ -1,0 +1,28 @@
+﻿{
+  "Id": "cf0ba52f-e0da-4ffe-ad6c-a6e372137f59",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tireur-d-elite",
+    "DisplayName": "Tireur d’élite",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"09a52559-3dd9-4556-a4e8-c222585b3b2f\"]",
+      "OptionalTalents": "[\"55be09ee-01f1-4ed4-a3e7-ef44c4619f2f\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\",\"959ac693-3553-4cc0-90ac-f892250d1f77\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"fff4d66c-fbbb-44ba-a1f6-609d642f32bc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tireur-d-elite",
+      "DisplayName": "Tireur d’élite",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tireur-d-elite",
+        "MetaDescription": "Découvrez le Tireur d’élite, une spécialisation axée sur la précision à l’arc, la vitesse d’exécution et le contrôle du champ de bataille à distance.",
+        "Summary": "Spécialisation d’archerie fondée sur précision, vitesse et contrôle.",
+        "HtmlContent": "Le tireur d’élite maîtrise la précision et la puissance de son arc. Il fait usage de son talent à la guerre, pour divertir les foules ou pour gagner des compétitions. Son habileté est complémentée par sa vitesse fulgurante, encochant flèche après flèche et tendant la corde de son arc par des mouvements rapides et optimaux."
+      }
+    }
+  }
+}

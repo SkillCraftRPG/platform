@@ -1,0 +1,27 @@
+﻿{
+  "Id": "5ee6cd80-7a76-40c9-ac29-45f19a199a78",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "serselien",
+    "DisplayName": "Serselien",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"63c61f46-feb5-4084-8f41-cfe26e7fbb08\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "serselien",
+      "DisplayName": "Serselien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "serselien",
+        "HtmlContent": "Le Serselien est une langue ancienne de l’Ouespéro, étroitement apparentée au [Kirsenien](/regles/langues/kirsenien), avec lequel il partage une origine commune issue de la langue mère primitive. C’est une langue de paroles longues et rythmées. Les serments, malédictions et proclamations gagnent en force lorsqu’ils sont récités à voix haute. Elle est également très collective : elle favorise le «&nbsp;nous&nbsp;» et le «&nbsp;nôtre&nbsp;», et parler uniquement de soi peut être perçu comme impoli ou suspect.\n\nBien que relevant de la même famille linguistique, le Serselien a connu une évolution plus marquée que le Kirsenien, tout en restant relativement conservateur par rapport aux autres langues de la région. À l’intérieur de cette famille, le Kirsenien est considéré comme la forme la plus archaïque, tandis que le Serselien représente une branche légèrement plus innovante, ayant intégré des simplifications phonétiques et des évolutions morphologiques au fil du temps. Ces innovations s’expliquent par une plus grande mobilité de ses locuteurs, des contacts réguliers avec des peuples voisins et une structuration politique plus précoce autour de centres régionaux. En conséquence, le Serselien présente une grammaire plus régulière et une phonologie légèrement adoucie, tout en conservant de nombreux traits anciens.\n\nLa variante Serselienne du montagnard se distingue par des traits plus courts et plus réguliers, facilitant la gravure rapide, une tendance à lier certains signes consonantiques, reflétant des groupes phonétiques fréquents, et l’absence quasi totale de notation des voyelles brèves, celles-ci étant supposées connues du lecteur. Cette écriture est principalement utilisée pour les chroniques, les lois claniques, les marques de propriété et les inscriptions commémoratives.",
+        "TypicalSpeakers": "Le Serselien est parlé majoritairement par les Serseliens, des [nains des collines](/regles/especes/nain-gris), principalement établis en Loujnava. Par effet de voisinage et de commerce, la langue déteint sur les régions alentours, en particulier la Poléchie, où elle est souvent comprise et partiellement parlée, notamment par les artisans, les mineurs et les marchands. Connaître le Serselien donne un avantage lors de négociations avec les clans nains, surtout pour interpréter des inscriptions anciennes ou des serments gravés.\n\nLes locuteurs Kirsenien considèrent souvent le Serselien comme une langue «&nbsp;déjà trop moderne&nbsp;», tandis que les Serseliens voient le Kirsenien comme excessivement rigide et ritualisé. Certaines formules juridiques Serseliennes sont réputées intraduisibles sans perte de sens, car elles reposent sur des mots hérités directement de la langue mère.",
+        "MetaDescription": "Découvrez le Serselien, langue ancienne de l’Ouespéro, plus innovante que le Kirsenien, utilisée pour le droit, les chroniques et les inscriptions gravées.",
+        "Summary": "Langue d’Ouespéro ancienne, plus régulière et écrite, liée au droit nain."
+      }
+    }
+  }
+}

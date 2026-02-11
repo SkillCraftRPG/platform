@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f20e669e-9a57-4b08-ae44-d8702c748d65",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gardien_DevotionAnimale",
+    "DisplayName": "Dévotion animale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gardien_DevotionAnimale",
+      "DisplayName": "Dévotion animale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les [attaques](/regles/combat/attaque) de son [Compagnon animal](/regles/talents/compagnon-animal) sont considérées [magiques](/regles/combat/degats/types) afin de contrer les [résistances](/regles/combat/degats/efficacite) et [immunités](/regles/combat/degats/efficacite).\n\nDe plus, lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) le ciblant et que son compagnon animal se trouve à 9 mètres ou moins de sa position, il peut également cibler son compagnon animal."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "76812601-1da8-4474-96f8-3199661bfae3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Coercition_CharmPerson",
+    "DisplayName": "Charme",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a3328900-e773-4816-bed6-8ca0ce122601\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Coercition_CharmPerson",
+      "DisplayName": "Charme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de [charmer](/regles/combat/conditions/charme) un humanoïde qu’il peut [voir](/regles/aventure/environnement/vision). La cible doit effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Si le personnage ou un de ses compagnons agit de manière [hostile](/regles/aventure/interaction-sociale) envers la cible, celle-ci se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet de sauvegarde. En cas d’échec, la cible est charmée jusqu’à la fin du pouvoir, ou jusqu’à ce que le personnage ou un de ses compagnons agisse de manière hostile envers celle-ci. La cible considère le personnage comme une connaissance et est [amicale](/regles/aventure/interaction-sociale) envers celui-ci. Lorsque le pouvoir prend fin, la cible sait que le personnage l’a charmé."
+      }
+    }
+  }
+}

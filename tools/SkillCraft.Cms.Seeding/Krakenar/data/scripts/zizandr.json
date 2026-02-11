@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2488007d-85c7-43fe-90a5-4670640a67b5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "zizandr",
+    "DisplayName": "Zizandr",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "zizandr",
+      "DisplayName": "Zizandr",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "L’alphabet Zizandr est le système d’écriture savant du Berze, issu d’une tradition érudite et administrative favorisant la précision phonétique et la lisibilité normalisée. Il a été conçu comme un outil normatif destiné à fixer une langue savante, liturgique et juridique.\n\nLe Zizandr compte exactement 53 signes, comprenant des consonnes pleines, des voyelles notées explicitement et plusieurs graphèmes spécialisés permettant de distinguer des oppositions phonétiques fines héritées des strates anciennes du Berze. Ce nombre élevé reflète une volonté de précision maximale, en rupture avec les systèmes plus ambigus reposant sur l’inférence contextuelle.\n\nGraphiquement, le Zizandr privilégie des formes anguleuses et structurées, adaptées à la copie manuscrite comme à la gravure monumentale. Chaque signe possède une valeur phonique stable, sans ligatures obligatoires, afin de garantir une lecture univoque des textes savants. Les variantes calligraphiques sont tolérées, mais strictement encadrées par la norme.",
+        "Slug": "zizandr",
+        "MetaDescription": "Découvrez le Zizandr, alphabet savant du Berze, conçu pour une précision phonétique maximale et la fixation des textes juridiques et liturgiques.",
+        "Summary": "Alphabet savant normatif du Berze, précis et entièrement vocalisé."
+      }
+    }
+  }
+}

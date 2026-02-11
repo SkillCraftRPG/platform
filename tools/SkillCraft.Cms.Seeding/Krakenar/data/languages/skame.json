@@ -1,0 +1,25 @@
+﻿{
+  "Id": "56fcc94e-9e5d-46f3-8784-750e998bb53a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "skame",
+    "DisplayName": "Skame",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "skame",
+      "DisplayName": "Skame",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "skame",
+        "HtmlContent": "La langue Skame est une langue ancienne et orale appartenant aux langues des Gelvas, issues des peuples qui se sont développés autour de cette vaste chaîne montagneuse. Proche de l’[Isillambë](/regles/langues/isillambe) sur le plan structurel et symbolique, elle s’en distingue toutefois par une évolution profondément marquée par les milieux arctiques et montagnards. Le Skame est une langue fondamentalement orale, transmise par le chant, le récit et la mémoire collective. C’est une langue agglutinante dont le lexique est dominé par les réalités du Nord : neige sous toutes ses formes, relief, saisons, chasse, rennes, esprits du vent et de la montagne.\n\nLe Skame ne s’écrit pas. Cette absence d’écriture n’est ni un oubli ni une incapacité, mais un choix culturel profond. Les Skames considèrent que fixer la langue la figerait, rompant son lien vivant avec les cycles naturels et les esprits de l’Hyperborée. Le savoir linguistique est conservé par les anciens, les conteurs et les chanteurs rituels, à travers des chants gutturaux, utilisés pour nommer des lieux, invoquer des ancêtres ou décrire des événements sans jamais les enfermer dans un texte.\n\nLes Skames estiment qu’un lieu n’existe pleinement que lorsqu’il a été chanté dans leur langue. Certains mots changent légèrement de forme selon la saison où ils sont prononcés, phénomène perçu comme naturel et non comme une variation dialectale. Apprendre le skame en tant qu’étranger est possible, mais parler couramment sans être né en Hyperborée est considéré comme presque impossible, la langue étant intimement liée à l’expérience du froid, du silence et des longues nuits polaires.",
+        "TypicalSpeakers": "Le Skame est parlé par les [Skames](/regles/especes/skame) de l’Hyperborée, peuples du Grand Nord installés dans les Riphées, au Nord de Norrengard et de Nandlossëa, dans un environnement de froid extrême, de hauts plateaux, de forêts boréales et de montagnes battues par les vents.",
+        "MetaDescription": "Découvrez le Skame, langue orale de l’Hyperborée, chantée et transmise par la mémoire collective, intimement liée au froid, aux saisons et aux esprits du Nord.",
+        "Summary": "Langue orale chantée du Grand Nord, liée au froid et aux saisons."
+      }
+    }
+  }
+}

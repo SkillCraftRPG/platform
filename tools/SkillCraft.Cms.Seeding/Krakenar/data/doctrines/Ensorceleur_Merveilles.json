@@ -1,0 +1,24 @@
+﻿{
+  "Id": "2f9f8aa8-986d-4b73-bad2-a65d24e1b37e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ensorceleur_Merveilles",
+    "DisplayName": "Merveilles",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"182032d6-c5e0-4281-a66e-9b10e7d7a2e2\"]",
+      "Features": "[\"b1e8f283-d157-4712-8f7f-327a2a54dde0\",\"372d24cf-5627-4ea3-b373-04a96b9e6202\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ensorceleur_Merveilles",
+      "DisplayName": "Merveilles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [illusions](#) de tiers 3 et acquiert gratuitement un de ces [pouvoirs](/regles/magie/pouvoirs)."
+      }
+    }
+  }
+}

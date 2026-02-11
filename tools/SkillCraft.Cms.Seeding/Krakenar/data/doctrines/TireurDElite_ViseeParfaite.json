@@ -1,0 +1,25 @@
+﻿{
+  "Id": "cc8bffd6-06da-4789-bb60-dc73a4cdc75b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "TireurDElite_ViseeParfaite",
+    "DisplayName": "Visée parfaite",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"cf0ba52f-e0da-4ffe-ad6c-a6e372137f59\"]",
+      "DiscountedTalents": "[\"d801c31b-ae74-4f12-ba4e-8869f68453f4\",\"e434855f-3fac-4ff0-bca9-8807ec4ca19d\",\"e7282746-a39b-4f5b-b356-022579e09001\",\"6b200bdb-a4b7-43a2-92ab-7817608a46bc\"]",
+      "Features": "[\"bfafec8f-c3d4-4a25-abde-013c96d6f9d6\",\"fdbd7ea3-ff70-4620-8791-a01e17665cf9\",\"5f6cbaf4-4961-4e86-81ae-c504b7781ab5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "TireurDElite_ViseeParfaite",
+      "DisplayName": "Visée parfaite",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il acquiert gratuitement le talent [Expertise](/regles/talents/expertise) pour la compétence [Orientation](/regles/competences/orientation)."
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "63c61f46-feb5-4084-8f41-cfe26e7fbb08",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "montagnard",
+    "DisplayName": "Montagnard",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "montagnard",
+      "DisplayName": "Montagnard",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "montagnard",
+        "MetaDescription": "Découvrez l’alphabet montagnard, écriture naine gravée conçue pour durer, fondée sur la pierre, la précision phonétique et la transmission à travers les âges.",
+        "Summary": "Alphabet nain gravé, phonétique et pensé pour traverser les siècles.",
+        "HtmlContent": "L’alphabet montagnard est le système d’écriture traditionnel des [Nains](/regles/especes/nain), conçu dès l’origine pour être gravé dans la pierre et le métal. Il ne vise ni la rapidité ni la souplesse, mais la durabilité, la lisibilité à long terme et la fidélité au sens. Chaque inscription est pensée pour traverser les siècles, voire les millénaires, sans perdre sa clarté.\n\nL’alphabet se compose de 38 lettres, chacune correspondant à un son précis. Cet alphabet privilégient le principe _un son = un caractère_ et évitent les digraphes ou combinaisons ambiguës. Les lettres sont formées exclusivement de traits droits et d’angles nets, sans courbes fermées, afin de résister à l’érosion et aux fractures de la roche. Même endommagée, une lettre reste généralement reconnaissable par sa silhouette.\n\nÀ l’origine, l’alphabet montagnard comportait un ensemble plus restreint de caractères, suffisant pour le Kroumien, mais l’expansion des peuples nains a conduit à la création de deux variations normalisées permettant également de transcrire le Serselien et le Zurain, portant l’inventaire à son total canonique de 38 lettres. Bien que les Nains considèrent cet alphabet comme évolutif et se disent prêts à le partager et à l’étendre pour d’autres langues, ils constatent que peu d’[espèces](/regles/especes) adoptent réellement cet usage, la plupart ne partageant pas leur engouement pour la gravure dans la pierre et le métal comme supports d’écriture durables.\n\nChaque caractère possède deux formes graphiques. Il ne s’agit pas de majuscules et de minuscules au sens humain, mais de deux degrés de solennité gravés dans la matière.\n\n- une forme pleine, plus large et plus équilibrée, utilisée pour les débuts d’inscriptions, les noms propres, les lois, les titres, les divinités et les clans.\n- une forme simple, allégée mais de même hauteur, employée dans le texte courant.\n\nL’écriture est strictement non cursive. Les lettres ne se lient jamais entre elles et sont séparées par des espaces réguliers. La ponctuation est volontairement réduite : la barre oblique, « / », marque la fin d’un énoncé, agissant comme une césure nette dans la pierre. Les points et signes fragiles sont proscrits. Les dates et nombres sont encadrés pour signaler leur fonction.\n\nLes chiffres forment un système distinct, combinatoire et additif, basé sur des traits fondamentaux. Chaque nombre est un glyphe autonome, visible d’un seul coup d’œil, et ne dépend pas d’une écriture positionnelle.\n\nEn complément des 38 lettres, l’alphabet un ensemble limité de mots-symboles (logogrammes). Ces signes ne font pas partie des 38 lettres. Ils représentent des concepts entiers (danger, eau potable, refuge, frontière, peuple, clan ou serment) et servent avant tout à la signalétique, aux marques territoriales et aux avertissements. Un symbole se comprend immédiatement, sans être lu.\n\nDans la culture naine, écrire n’est jamais un acte banal. On n’écrit pas pour le présent, mais pour l’avenir. Graver un texte revient à engager la parole dans la pierre, à la rendre aussi durable que la montagne elle-même."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+﻿{
+  "Id": "8fb37fcb-6765-4779-874c-ca8917e40767",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gladiateur_DeterminationVictorieuse",
+    "DisplayName": "Détermination victorieuse",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"b66f6475-8c7c-4548-a695-335d1a6dd0fb\"]",
+      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"6b200bdb-a4b7-43a2-92ab-7817608a46bc\",\"36d6b4b3-1ce4-4aa4-8382-d08596c338d8\",\"8457ebd2-0fa1-4315-94cb-3de7760cae02\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gladiateur_DeterminationVictorieuse",
+      "DisplayName": "Détermination victorieuse",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

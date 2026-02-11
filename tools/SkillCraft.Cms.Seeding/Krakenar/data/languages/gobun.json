@@ -1,0 +1,27 @@
+﻿{
+  "Id": "6381b2c5-f06a-47cf-a1c8-c7efe36bf161",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "gobun",
+    "DisplayName": "Gobun",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"4750abbc-b36e-4745-8a3b-20b3ab81ffd3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "gobun",
+      "DisplayName": "Gobun",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "gobun",
+        "TypicalSpeakers": "Le Gobun est parlé par les créatures Gobelinoïdes, principalement les [Gobelins](/regles/especes/gobelin), les [Hobgobelins](/regles/especes/hobgobelin) et les [Gobelours](/regles/especes/gobelours). Il constitue leur langue commune et identitaire. Certaines espèces de la Horde, notamment les [Orques](/regles/especes/orque), l’apprennent pour communiquer avec les Gobelinoïdes. Cependant, dans la pratique, ce sont le plus souvent les Gobelinoïdes qui adoptent une langue tierce lorsque la situation l’exige.",
+        "MetaDescription": "Découvrez le Gobun, langue agglutinante des Gobelinoïdes, issue des steppes, fonctionnelle, tribale et gravée en Orkhun.",
+        "Summary": "Langue Gobelinoïde des steppes, robuste, tribale et agglutinante.",
+        "HtmlContent": "Le Gobun est une langue des steppes, apparentée structurellement à l’[Orcique](/regles/langues/orcique) et au [Tongros](/regles/langues/tongros), et issue du même vaste ensemble linguistique. C’est une langue agglutinante, régulière et fortement suffixante, où le nombre, la possession et les fonctions grammaticales sont exprimés par des chaînes morphologiques claires. Sa phonologie privilégie les voyelles arrière et l’harmonie vocalique, avec une syntaxe directe, efficace et adaptée aux sociétés guerrières et nomades.\n\nLe Gobun fait usage de l’écriture moins monumental et plus fonctionnel : les inscriptions sont souvent plus courtes, gravées sur bois, os ou métal, et servent à noter des noms de clans, des serments, des campagnes ou des routes. Il l’emploie comme outil identitaire et pratique, étroitement lié à la vie nomade.\n\nLe Gobun s’est développé dans les environs de la steppe d’Orijìsa, dans une zone plus montagnarde que les plaines ouvertes associées à l’Orcique. Cette position de transition entre montagnes et steppes a favorisé une langue à la fois robuste et adaptable. Avec les migrations et l’expansion de la Horde, le Gobun s’est scindé en deux grands dialectes.\n\n- Dialecte occidental : parlé par les Gobelins ayant suivi la Horde en Ouespéro. Plus conservateur et abrupt, il conserve des traits anciens et une phonétique plus rude.\n- Dialecte oriental : parlé par les Hobgobelins, établis à l’est de la mer Érilène, dans une région plus chaude et plus aride que les steppes du nord.\n\nLe Gobun possède un vocabulaire extrêmement riche pour décrire les hiérarchies tribales, les bandes et les unités de combat, reflet de l’organisation Gobelinoïde. Les nombres et les directions y occupent une place centrale, héritage direct des langues steppiques et de la vie nomade. Les Hobgobelins considèrent leur dialecte comme plus pur et prestigieux, tandis que les Gobelins revendiquent la force et l’ancienneté de leur parler."
+      }
+    }
+  }
+}

@@ -2,7 +2,6 @@
 using Krakenar.Contracts.Search;
 using Krakenar.Core.Actors;
 using Krakenar.EntityFrameworkCore.Relational;
-using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
 using Logitar.Data;
 using Logitar.EventSourcing;
 using Microsoft.EntityFrameworkCore;
@@ -29,18 +28,6 @@ internal class LineageQuerier : ILineageQuerier
   {
     LineageEntity? lineage = await _lineages.AsNoTracking()
       .Where(x => x.Id == id && x.IsPublished)
-      .Include(x => x.Features).ThenInclude(x => x.Feature)
-      .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
-      .Include(x => x.Parent)
-      .SingleOrDefaultAsync(cancellationToken);
-    return lineage is null ? null : await MapAsync(lineage, cancellationToken);
-  }
-  public async Task<LineageModel?> ReadAsync(string slug, CancellationToken cancellationToken)
-  {
-    string slugNormalized = Helper.Normalize(slug);
-
-    LineageEntity? lineage = await _lineages.AsNoTracking()
-      .Where(x => x.SlugNormalized == slugNormalized && x.IsPublished)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
       .Include(x => x.Parent)

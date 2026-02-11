@@ -1,0 +1,21 @@
+﻿{
+  "Id": "fdbd7ea3-ff70-4620-8791-a01e17665cf9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "TireurDElite_VoleeDeFleches",
+    "DisplayName": "Volée de flèches",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "TireurDElite_VoleeDeFleches",
+      "DisplayName": "Volée de flèches",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), en effectuant l’activité [Viser et tirer](/regles/combat/activites/viser-tirer) par [une action](/regles/combat/deroulement/tour) et en dépensant 15 points d’[Énergie](/regles/statistiques/energie), le personnage peut tirer une volée de flèches envers plusieurs créatures qu’il peut [voir](/regles/aventure/environnement/vision) se trouvant à 4,5 mètres ou moins d’un point situé dans la [portée](/regles/equipement/armes/proprietes) de son [arme](/regles/equipement/armes).\n\nIl réutilise le même [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque/distance) et le même [jet de dégâts](/regles/combat/degats/jet) pour toutes les cibles. S’il n’a pas acquis le talent [Frénésie](/regles/talents/frenesie), alors son test d’attaque est affligé d’une pénalité égale au nombre de cibles.\n\nLa _Volée de flèches_ ne peut être combiné avec le [Tir précis](/regles/talents/tir-precis), ni avec la _Flèche magique_ ou le _Tir fulgurant_."
+      }
+    }
+  }
+}

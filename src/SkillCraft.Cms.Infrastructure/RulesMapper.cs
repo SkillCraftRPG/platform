@@ -174,6 +174,20 @@ internal class RulesMapper
     return destination;
   }
 
+  public EthnicityModel ToEthnicity(LineageEntity source)
+  {
+    EthnicityModel destination = new();
+
+    MapLineage(source, destination);
+
+    if (source.Parent is not null && source.Parent.IsPublished)
+    {
+      destination.Species = ToSpecies(source.Parent);
+    }
+
+    return destination;
+  }
+
   public FeatureModel ToFeature(FeatureEntity source)
   {
     FeatureModel destination = new()
@@ -221,94 +235,14 @@ internal class RulesMapper
 
   public LineageModel ToLineage(LineageEntity source)
   {
-    LineageModel destination = new()
-    {
-      Id = source.Id,
-      Slug = source.Slug,
-      Name = source.Name,
-      MetaDescription = source.MetaDescription,
-      Summary = source.Summary,
-      HtmlContent = source.HtmlContent
-    };
+    LineageModel destination = new();
 
-    if (source.FamilyNames is not null)
-    {
-      destination.Names.Family.AddRange(source.FamilyNames.Split(Constants.Separator));
-    }
-    if (source.FemaleNames is not null)
-    {
-      destination.Names.Female.AddRange(source.FemaleNames.Split(Constants.Separator));
-    }
-    if (source.MaleNames is not null)
-    {
-      destination.Names.Male.AddRange(source.MaleNames.Split(Constants.Separator));
-    }
-    if (source.UnisexNames is not null)
-    {
-      destination.Names.Unisex.AddRange(source.UnisexNames.Split(Constants.Separator));
-    }
-    if (source.CustomNames is not null)
-    {
-      Dictionary<string, string[]>? customNames = JsonSerializer.Deserialize<Dictionary<string, string[]>>(source.CustomNames);
-      if (customNames is not null)
-      {
-        foreach (KeyValuePair<string, string[]> category in customNames)
-        {
-          destination.Names.Custom.Add(new NameCategory(category.Key, category.Value));
-        }
-      }
-    }
-    destination.Names.Text = source.NamesText;
-
-    destination.Speeds.Walk = source.Walk;
-    destination.Speeds.Climb = source.Climb;
-    destination.Speeds.Swim = source.Swim;
-    destination.Speeds.Fly = source.Fly;
-    destination.Speeds.Hover = source.Hover;
-    destination.Speeds.Burrow = source.Burrow;
-
-    destination.Size.Category = source.SizeCategory;
-    destination.Size.Roll = source.SizeRoll;
-
-    destination.Weight.Malnutrition = source.Malnutrition;
-    destination.Weight.Skinny = source.Skinny;
-    destination.Weight.Normal = source.NormalWeight;
-    destination.Weight.Overweight = source.Overweight;
-    destination.Weight.Obese = source.Obese;
-
-    destination.Age.Teenager = source.Teenager;
-    destination.Age.Adult = source.Adult;
-    destination.Age.Mature = source.Mature;
-    destination.Age.Venerable = source.Venerable;
+    MapLineage(source, destination);
 
     if (source.Parent is not null && source.Parent.IsPublished)
     {
       destination.Parent = ToLineage(source.Parent);
     }
-
-    foreach (LineageFeatureEntity lineageFeature in source.Features)
-    {
-      FeatureEntity feature = lineageFeature.Feature
-        ?? throw new ArgumentException($"The feature is required (LineageId={lineageFeature.LineageId}, FeatureId={lineageFeature.FeatureId}).", nameof(source));
-      if (feature.IsPublished)
-      {
-        destination.Features.Add(ToFeature(feature));
-      }
-    }
-
-    foreach (LineageLanguageEntity lineageLanguage in source.Languages)
-    {
-      LanguageEntity language = lineageLanguage.Language
-        ?? throw new ArgumentException($"The language is required (LineageId={lineageLanguage.LineageId}, LanguageId={lineageLanguage.LanguageId}).", nameof(source));
-      if (language.IsPublished)
-      {
-        destination.Languages.Items.Add(ToLanguage(language));
-      }
-    }
-    destination.Languages.Extra = source.ExtraLanguages;
-    destination.Languages.Text = source.LanguagesText;
-
-    MapAggregate(source, destination);
 
     return destination;
   }
@@ -441,6 +375,15 @@ internal class RulesMapper
     return destination;
   }
 
+  public SpeciesModel ToSpecies(LineageEntity source)
+  {
+    SpeciesModel destination = new();
+
+    MapLineage(source, destination);
+
+    return destination;
+  }
+
   public SpellModel ToSpell(SpellEntity source)
   {
     SpellModel destination = new()
@@ -564,6 +507,90 @@ internal class RulesMapper
     MapAggregate(source, destination);
 
     return destination;
+  }
+
+  private void MapLineage(LineageEntity source, LineageBase destination)
+  {
+    destination.Id = source.Id;
+    destination.Slug = source.Slug;
+    destination.Name = source.Name;
+    destination.MetaDescription = source.MetaDescription;
+    destination.Summary = source.Summary;
+    destination.HtmlContent = source.HtmlContent;
+
+    if (source.FamilyNames is not null)
+    {
+      destination.Names.Family.AddRange(source.FamilyNames.Split(Constants.Separator));
+    }
+    if (source.FemaleNames is not null)
+    {
+      destination.Names.Female.AddRange(source.FemaleNames.Split(Constants.Separator));
+    }
+    if (source.MaleNames is not null)
+    {
+      destination.Names.Male.AddRange(source.MaleNames.Split(Constants.Separator));
+    }
+    if (source.UnisexNames is not null)
+    {
+      destination.Names.Unisex.AddRange(source.UnisexNames.Split(Constants.Separator));
+    }
+    if (source.CustomNames is not null)
+    {
+      Dictionary<string, string[]>? customNames = JsonSerializer.Deserialize<Dictionary<string, string[]>>(source.CustomNames);
+      if (customNames is not null)
+      {
+        foreach (KeyValuePair<string, string[]> category in customNames)
+        {
+          destination.Names.Custom.Add(new NameCategory(category.Key, category.Value));
+        }
+      }
+    }
+    destination.Names.Text = source.NamesText;
+
+    destination.Speeds.Walk = source.Walk;
+    destination.Speeds.Climb = source.Climb;
+    destination.Speeds.Swim = source.Swim;
+    destination.Speeds.Fly = source.Fly;
+    destination.Speeds.Hover = source.Hover;
+    destination.Speeds.Burrow = source.Burrow;
+
+    destination.Size.Category = source.SizeCategory;
+    destination.Size.Roll = source.SizeRoll;
+
+    destination.Weight.Malnutrition = source.Malnutrition;
+    destination.Weight.Skinny = source.Skinny;
+    destination.Weight.Normal = source.NormalWeight;
+    destination.Weight.Overweight = source.Overweight;
+    destination.Weight.Obese = source.Obese;
+
+    destination.Age.Teenager = source.Teenager;
+    destination.Age.Adult = source.Adult;
+    destination.Age.Mature = source.Mature;
+    destination.Age.Venerable = source.Venerable;
+
+    foreach (LineageFeatureEntity lineageFeature in source.Features)
+    {
+      FeatureEntity feature = lineageFeature.Feature
+        ?? throw new ArgumentException($"The feature is required (LineageId={lineageFeature.LineageId}, FeatureId={lineageFeature.FeatureId}).", nameof(source));
+      if (feature.IsPublished)
+      {
+        destination.Features.Add(ToFeature(feature));
+      }
+    }
+
+    foreach (LineageLanguageEntity lineageLanguage in source.Languages)
+    {
+      LanguageEntity language = lineageLanguage.Language
+        ?? throw new ArgumentException($"The language is required (LineageId={lineageLanguage.LineageId}, LanguageId={lineageLanguage.LanguageId}).", nameof(source));
+      if (language.IsPublished)
+      {
+        destination.Languages.Items.Add(ToLanguage(language));
+      }
+    }
+    destination.Languages.Extra = source.ExtraLanguages;
+    destination.Languages.Text = source.LanguagesText;
+
+    MapAggregate(source, destination);
   }
 
   private void MapAggregate(AggregateEntity source, Aggregate destination)

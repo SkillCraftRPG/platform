@@ -1,0 +1,25 @@
+﻿{
+  "Id": "041eb2b0-4894-4117-b9b2-3eec4c0896d9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Medecin_Chirurgie",
+    "DisplayName": "Chirurgie",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"290cb0fd-4adc-4486-b6c5-a07e6f25f250\"]",
+      "DiscountedTalents": "[\"ecd7e18e-2055-44c4-9b9d-8057af7f6dc5\",\"5c973df2-d892-4283-a1e4-8bf30946f57a\",\"10b43316-6e48-4336-a446-a58475c6fa6a\",\"73bf30d0-02e8-4b97-ab9e-d07408a5b675\"]",
+      "Features": "[\"e2127708-02d0-47e4-a656-b5cccee30e55\",\"ddb51091-eba7-4ed7-81a6-d6181ea4b634\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Medecin_Chirurgie",
+      "DisplayName": "Chirurgie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les talents suivants au coût de 3 [points](/regles/talents/points) plutôt que 5 : [Réanimation](/regles/talents/reanimation) et [Rigueur mentale](/regles/talents/rigueur-mentale)."
+      }
+    }
+  }
+}

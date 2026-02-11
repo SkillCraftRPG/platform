@@ -1,0 +1,25 @@
+﻿{
+  "Id": "19beecdb-a3ca-4a57-a979-0515b562bc7e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alchimiste_ElixirPhilosophal",
+    "DisplayName": "Élixir philosophal",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"8f1a9c84-f9ec-412f-a8c3-2f3704d69d93\"]",
+      "DiscountedTalents": "[\"1cc8a4b4-e5af-4a51-9295-448b43304b5e\",\"55998f0a-5eee-40e5-aa8a-345b4a8a376a\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\",\"0dfff246-b015-4444-ab3d-258bd5019e1b\"]",
+      "Features": "[\"6e28eac1-3978-4184-a20e-c56d3b928f9d\",\"5dbd199c-973b-4522-a098-1e75e7d2712d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alchimiste_ElixirPhilosophal",
+      "DisplayName": "Élixir philosophal",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "S’il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) appartenant au cercle de Transmutation, alors il peut acquérir les pouvoirs de tiers 3 d’astromancie appartenant à ce cercle.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts d’acide](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types), et immunisé à l’[empoisonnement](/regles/combat/conditions/empoisonne)."
+      }
+    }
+  }
+}

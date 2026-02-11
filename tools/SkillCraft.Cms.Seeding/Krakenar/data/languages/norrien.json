@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9ac6d30b-b692-477b-8cc2-f31390076c55",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "norrien",
+    "DisplayName": "Norrien",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"a4f1a9c5-6fa0-4cce-9de7-dc21dcaeb24b\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "norrien",
+      "DisplayName": "Norrien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "norrien",
+        "TypicalSpeakers": "Le Norrien est d’abord la langue des Norriens ([humains](/regles/especes/humain)), mais il est également parlé par d’autres espèces intelligentes de Norrengard, une vaste région d’Hyperborée située aux confins septentrionaux de l’Ouespéro. Parler Norrien devant témoins donne du poids à la parole : une promesse publique dans cette langue engage la réputation du locuteur bien au-delà de sa mort.",
+        "MetaDescription": "Découvrez le Norrien, langue ancienne norgonique d’Hyperborée, marquée par une forte tradition orale et l’usage des runes.",
+        "Summary": "Langue Norgonique archaïque, orale et runique d’Hyperborée.",
+        "HtmlContent": "Le Norrien est une langue ancienne de la famille Norgonique, proche du [Dallois](/regles/langues/dallois). Il s’agit d’une langue héritée d’un fond Norgonique commun, conservant une structure phonétique stable, rude et expressive, marquée par une forte tradition orale. Certains sons anciens, aujourd’hui disparus ailleurs, y subsistent encore, donnant à la langue une sonorité archaïque et puissante.\n\nSur le plan linguistique, le Norrien se caractérise par un accent fort sur la première syllabe, une alternance vocalique riche (notamment sous l’effet d’harmonies et de mutations internes), et un lexique ancien étroitement lié à la nature, à la guerre, au serment et au sacré. Les mots liés au destin, à l’honneur et à la mort sont nombreux et très précis. En choisir un mauvais peut être vu comme une provocation.\n\nLe Norrien s’écrit exclusivement à l’aide de l’alphabet runique et utilise les 24 runes classiques. Dans la pratique, le Norrien est surtout parlé. Savoir le lire ou le graver est une compétence rare, réservée aux prêtres, aux gardiens de la mémoire, aux chefs ou aux artisans rituels. Dans les règles, il est souvent lié aux savoirs anciens, aux traditions hyperboréennes, aux runes, aux serments magiques et aux vestiges d’un âge antérieur à l’histoire écrite."
+      }
+    }
+  }
+}

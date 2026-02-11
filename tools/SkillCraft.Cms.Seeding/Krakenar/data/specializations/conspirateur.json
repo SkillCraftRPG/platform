@@ -1,0 +1,28 @@
+﻿{
+  "Id": "cb2a298d-80c7-4cc2-8802-f637758d1151",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "conspirateur",
+    "DisplayName": "Conspirateur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"74548cb7-c65b-4882-b353-5bbb0d760a7a\"]",
+      "OptionalTalents": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\",\"4791665a-cdab-406d-a938-1cfc0fea2e23\",\"dc53c886-b804-46fd-8d0c-86e5e0079a58\",\"4db1e8cf-f0f0-41e9-8023-2a4db68d56c1\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"5b25e5de-53dc-443a-b9e0-71e3c251c3c5\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"ea127043-238b-46d6-aab8-809a908f3c75\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\",\"0b64a74b-9acf-4187-93e8-6c457fe1aa93\",\"6c169831-5295-45ee-a1fc-f77d8ee92b23\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "conspirateur",
+      "DisplayName": "Conspirateur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "conspirateur",
+        "HtmlContent": "Adepte des couloirs sombres et tortueux, le conspirateur tisse sans relâche une toile composée de ses meilleurs sbires, espions, assassins, escrocs, informateurs et criminels de toutes sortes. Sa réelle identité est secrète, mais les détails qui échappent à sa discrétion en font un individu redouté, parfois même recherché. Sa parole est juste et précise, ses yeux sont perçants et toujours ouverts, et ses oreilles connaissent chaque rumeur chuchotée dans les tavernes et ruelles de sa cité. Son réseau s’étend parfois bien au-delà de cette cité. Que ses intentions soient nobles ou non, il manipule et complote contre les nobles afin d’obtenir ce qu’il désire, laissant à chaque fois aucune ou très peu de traces, toujours en avance sur ses adversaires tel un marionnettiste.",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

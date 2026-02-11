@@ -1,0 +1,30 @@
+﻿{
+  "Id": "94116f45-aa0a-498f-a9af-7d7ea9650ab4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ethermancien",
+    "DisplayName": "Éthermancien",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"194bc5f5-6951-47c1-b618-9272c0dc3711\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"3acd933a-0e0d-44ce-ab18-0a4966734307\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"0fa21f56-552e-48cb-b504-fbfa078fce12\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"69c6a792-9570-4acb-a081-ba9fa11f2c1e\",\"eb0632dc-3008-425d-a1b8-3bb438ee6201\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"5b25e5de-53dc-443a-b9e0-71e3c251c3c5\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"c9abbe04-b581-4fc3-a815-8a7fe62c2dcb\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"2c09d822-56f7-45bc-a6c7-8a281013e682\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ethermancien",
+      "DisplayName": "Éthermancien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ethermancien",
+        "MetaDescription": "Découvrez l’Éthermancien, une spécialisation élémentaire avancée capable de combiner les quatre éléments pour créer des pouvoirs maîtrisés et polyvalents.",
+        "Summary": "Élémentariste avancé spécialisé en combinaison élémentaire.",
+        "HtmlContent": "L’Éthermancien est un Catalyste ayant perfectionné son art. Il peut contrôler les quatre éléments et peut produire toutes sortes de pouvoirs en combinant n’importe quel élément à un autre. Ces combinaisons sont toujours contrôlées et maîtrisées, qu’elles soient harmonieuses ou dévastatrices. En sacrifiant la maîtrise d’un élément, l’Éthermancien acquiert des pouvoirs polyvalents et variés.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Catalyste](/regles/specialisations/catalyste).\nIl ne doit pas avoir acquis la spécialisation [Maître-élémentaire](/regles/specialisations/maitre-elementaire).\nIl doit également avoir acquis le talent [Élémentarisme](/regles/talents/elementarisme) pour les quatre éléments : Air, Eau, Feu et Terre.",
+        "OtherOptions": "Un pouvoir de tiers 2 issu d’une [combinaison élémentaire](#)."
+      }
+    }
+  }
+}

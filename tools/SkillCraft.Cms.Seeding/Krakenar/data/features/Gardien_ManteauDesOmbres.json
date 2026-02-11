@@ -1,0 +1,21 @@
+﻿{
+  "Id": "35b4ab55-17a0-4f73-8d29-e467379421ac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gardien_ManteauDesOmbres",
+    "DisplayName": "Manteau des ombres",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gardien_ManteauDesOmbres",
+      "DisplayName": "Manteau des ombres",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage est ciblé par une [attaque](/regles/combat/attaque) et que le [test](/regles/competences/tests) n’est pas effectué avec [avantage](/regles/competences/tests/avantage-desavantage), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’affliger du [désavantage](/regles/competences/tests/avantage-desavantage) le test, avant de savoir s’il réussit ou échoue."
+      }
+    }
+  }
+}

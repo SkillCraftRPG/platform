@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e58b7b62-72fc-42cf-bf3a-eb2f4aa1e75a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "wisgorne",
+    "DisplayName": "Wisgorne",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"5b43f115-4149-4f86-88c8-c809de5b17be\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "wisgorne",
+      "DisplayName": "Wisgorne",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "wisgorne",
+        "TypicalSpeakers": "Les [humains](/regles/especes/humain) de l’archipel des Girizes, de Vallie, d’Oberland, de Thuningie et de Saromagne en constituent les principaux locuteurs, faisant du Wisgorne une langue charnière, à la fois conservatrice dans sa structure et adaptable dans ses usages.",
+        "MetaDescription": "Découvrez le Wisgorne, langue norgonique de transition, orale et dialectale, écrite surtout en Rénon et utilisée comme idiome administratif et culturel.",
+        "Summary": "Langue Norgonique charnière, orale, dialectale et écrite en alphabet Rénon.",
+        "HtmlContent": "Le Wisgorne est une langue Norgonique, étroitement apparentée à l’[Austrigond](/regles/langues/austrigond), issue d’un long processus de convergence entre des parlers locaux et développés au Nord des Nives, au-delà des limites de l'ancien empire occidental. Il s’est formé à l’Ouest du fleuve Odarr, avant de se diffuser largement à la faveur des migrations à travers les terres impériales, devenant un idiome de contact et de continuité culturelle. Langue essentiellement orale dans ses usages quotidiens, le Wisgorne se distingue par une forte variation dialectale et une grande perméabilité lexicale, intégrant sans difficulté des emprunts régionaux et administratifs. Cette souplesse explique sa longévité et son rôle de langue de transition entre traditions Norgoniques et cadres culturels impériaux hérités.\n\nSur le plan de l’écriture, le Wisgorne n’a jamais connu de tradition vernaculaire pleinement standardisée. L’usage [runique](/regles/langues/scripts/runique) y est resté marginal et symbolique, limité à de brèves inscriptions (objets, noms, formules) surtout en Thuningie et en Saromagne, régions situées hors de l’influence impériale directe. À l’inverse, le Rénon s’est imposé comme système dominant et pragmatique en Vallie, en Oberland et dans l’archipel des Girizes, servant au droit, à l’administration, à la diplomatie et à la religion, tout en notant occasionnellement des mots Wisgornes ou des lois locales.\n\nLe Wisgorne est une langue de lois, de serments et de lignées : jurer engage l’honneur de toute une famille, pas seulement celui qui parle. Elle sonne directe et martiale : idéale pour les ordres, les proclamations et les négociations franches, mais perçue comme brutale dans les contextes diplomatiques fins. Beaucoup de termes mélangent guerre et propriété : une terre, une arme ou un titre se tient et se défend avec les mêmes mots, révélant une vision très concrète du pouvoir."
+      }
+    }
+  }
+}

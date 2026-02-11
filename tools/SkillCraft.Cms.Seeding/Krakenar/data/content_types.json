@@ -1125,7 +1125,7 @@
         "IsInvariant": false,
         "IsRequired": true,
         "IsIndexed": false,
-        "IsUnique": true,
+        "IsUnique": false,
         "UniqueName": "Slug",
         "DisplayName": "Alias",
         "Description": null,

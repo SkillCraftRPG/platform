@@ -1,0 +1,31 @@
+﻿{
+  "Id": "467a2374-a850-49a7-99ee-07110ae62032",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLeBienEtLeMal_DetectEvilAndGood",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"53d9073a-747d-41e9-bda9-4d068eaf7279\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLeBienEtLeMal_DetectEvilAndGood",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage détecte la présence et l’emplacement précis des créatures situées à 9 mètres ou moins de sa position et appartenant aux types suivants : aberration, célestiel, élémentaire, fée, infernal et mort-vivant. Il peut également détecter la présence d’un objet ou d’un emplacement consacré ou profané. Le pouvoir pénètre la plupart des barrières, mais il est arrêté par 30 centimètres de pierre, 3 centimètres de métal ou 1 mètre de bois ou de saleté."
+      }
+    }
+  }
+}

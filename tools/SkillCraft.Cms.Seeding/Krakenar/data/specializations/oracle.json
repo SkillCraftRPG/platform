@@ -1,0 +1,30 @@
+﻿{
+  "Id": "1b785f81-cefb-4be8-adbb-8e4350730d70",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "oracle",
+    "DisplayName": "Oracle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"ccb1a675-010b-4e51-b140-8cb7309438a9\"]",
+      "OptionalTalents": "[\"398cfada-90d4-4e78-ad70-8a96c3f301cc\",\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"3b6590da-409b-4c4d-94a0-648630de73da\",\"d3042400-af91-41df-b7ce-2c36ed19df6e\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"e86f2803-1bca-4b1b-bbe9-e8a27ffcfe78\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"c0763232-4170-4b97-a2d8-3fcd55ea5814\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "oracle",
+      "DisplayName": "Oracle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "oracle",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Dans son temple ancien niché au sommet des montagnes, l’oracle se tient entre deux mondes, celui des vivants et celui des dieux. À la fois craint et vénéré par les nobles et la populace, les pèlerins viennent de loin pour consulter ses visions, cherchant des réponses aux mystères du destin tout en dégageant un mélange d’appréhension et de révérence. Sa sagesse illumine les seigneurs partant en guerre et les rois désirant prendre une décision éclairée, mais cette sagesse a un prix. Les visions de l’oracle sont souvent cryptiques et teintées de présages sombres, ce qui se reflète dans les réponses qu’il offre.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Augure](/regles/specialisations/augure).\nIl ne doit avoir acquis aucune des spécialisations parmi la liste suivante : [Conjurateur](/regles/specialisations/conjurateur), [Nécromant](/regles/specialisations/necromant).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l’élément Esprit ([Divination](#))."
+      }
+    }
+  }
+}

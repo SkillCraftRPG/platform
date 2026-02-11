@@ -1,0 +1,23 @@
+﻿{
+  "Id": "9dd6089e-422f-4c6b-a7e4-48c5fc7d1ffb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Flibustier_Corsaire",
+    "DisplayName": "Corsaire",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"a12d5332-50f9-414b-badb-f354c150e778\"]",
+      "DiscountedTalents": "[\"881700ba-f7d3-4425-b38c-86bc6e75fb08\",\"97c10f43-c82d-41b1-b241-9b6cace8e9ab\",\"9d6b0831-d4c7-4218-9a25-2e91f31370c2\",\"67a9983f-4a92-46e6-a5b9-6c4d09e531c2\"]",
+      "Features": "[\"c7dc1489-683b-4178-bee2-ef9b541a7053\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Flibustier_Corsaire",
+      "DisplayName": "Corsaire",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

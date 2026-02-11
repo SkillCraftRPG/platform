@@ -1,0 +1,30 @@
+﻿{
+  "Id": "520bef1d-5c6b-4e7f-b362-dc08fd8a8879",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "necromant",
+    "DisplayName": "Nécromant",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "MandatoryTalent": "[\"846e2d4a-7885-4d51-bc3b-58abc9242465\"]",
+      "OptionalTalents": "[\"bd4005cc-0689-4c5c-8436-fe10f06c1edc\",\"d1b6ecc3-1a12-4be6-91ac-adcdf4e5ac96\",\"c2a0e512-521c-485d-a7e4-784b74e37e40\",\"32cfc88b-c313-49fd-8ac5-70e54b67b0a0\",\"f7157b4f-b65e-4eff-a66e-58d0a5c7f7be\",\"a2e6a255-f877-4929-8c73-226557bdffea\",\"74548cb7-c65b-4882-b353-5bbb0d760a7a\",\"2bfa4236-95c0-4128-aee4-2bc68e4b330e\",\"3a4edafe-1fab-4e58-9e2c-19602869caee\",\"e6626de7-06c5-41e9-8853-3917a829cf8d\",\"db16d90c-099e-45ce-8321-c174eeb38a0b\",\"208f05b5-cf04-4640-ab8c-92d540a65fc4\",\"194bc5f5-6951-47c1-b618-9272c0dc3711\",\"0b64a74b-9acf-4187-93e8-6c457fe1aa93\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "necromant",
+      "DisplayName": "Nécromant",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "necromant",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "Dans les sous-sols humides d’une ville, dans une crypte au milieu d’un cimetière en ruines ou dans une sinistre caverne reculée, loin du regard des vivants, le nécromant mène une vie clandestine où il y tisse de sombres sortilèges. Il travaille en secret, examinant des cadavres dans l’ombre ou sous la lueur de la Lune. Il peut percevoir l’âme des défunts, et apaiser les lamentations des esprits en peine ou encore les manipuler à sa guise. Son art est interdit et ceux qui le pratiquent sont traqués, mais il ose quand même en faire usage.",
+        "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Haruspice](/regles/specialisations/haruspice).\nIl ne doit avoir acquis aucune des spécialisations parmi la liste suivante : [Conjurateur](/regles/specialisations/conjurateur), [Oracle](/regles/specialisations/oracle).",
+        "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l’élément Esprit ([Nécromancie](#))."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Id": "33aabdd5-abb1-421a-b7b4-92f57d9cc210",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gardien_GardeForestiere",
+    "DisplayName": "Garde forestière",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"da4c5742-5201-4534-bec6-c9c86d3745c3\"]",
+      "DiscountedTalents": "[\"fd7175cc-ec35-4345-b736-d467b4d67241\",\"7dd9ed2f-377b-4199-ba60-0d24240804e5\",\"60c63539-0bf4-42c5-9cfb-84602a45b37f\",\"1d2d6d96-7eb5-49f1-aa90-2d5a4aa0fc1b\"]",
+      "Features": "[\"f20e669e-9a57-4b08-ae44-d8702c748d65\",\"35b4ab55-17a0-4f73-8d29-e467379421ac\",\"dd486df9-8e67-404e-b3f5-b917ec36f07c\",\"3132e6d3-7905-4413-b7b3-bddd95b1ae3e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gardien_GardeForestiere",
+      "DisplayName": "Garde forestière",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir le talent [Désarçonnement](/regles/talents/desarconnement) au coût de 3 [points](/regles/talents/points) plutôt que 5."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "Id": "53d9073a-747d-41e9-bda9-4d068eaf7279",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "protection-contre-le-bien-et-le-mal",
+    "DisplayName": "Protection contre le bien et le mal",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "protection-contre-le-bien-et-le-mal",
+      "DisplayName": "Protection contre le bien et le mal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "protection-contre-le-bien-et-le-mal",
+        "MetaDescription": "Découvrez Protection contre le bien et le mal, un pouvoir défensif permettant de détecter et repousser les entités surnaturelles hostiles.",
+        "Summary": "Détection et protection contre les créatures surnaturelles hostiles.",
+        "HtmlContent": "Ce pouvoir permet de détecter les créatures surnaturelles proches et de se protéger contre leurs attaques et influences mentales. À des niveaux supérieurs, il confère une protection active et dissipe charme, peur et possession."
+      }
+    }
+  }
+}

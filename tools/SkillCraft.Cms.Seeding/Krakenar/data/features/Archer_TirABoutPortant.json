@@ -14,7 +14,7 @@
       "DisplayName": "Tir à bout portant",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut effectuer l’activité [Viser et tirer](/regles/combat/activites/viser-tirer) lorsqu’il utilise sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite).\n\nIl ne peut utiliser qu’une seule [action](/regles/combat/deroulement/tour)."
+        "HtmlContent": "Il peut effectuer l’activité [Viser et tirer](/regles/combat/activites/viser-tirer) lorsqu’il utilise sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite). Lorsqu’il en fait ainsi, il ne peut utiliser qu’une seule [action](/regles/combat/deroulement/tour)."
       }
     }
   }

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "ee779a6f-5fd0-4e38-be0b-7c1cac23b1b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Coercition_FastFriends",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a3328900-e773-4816-bed6-8ca0ce122601\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Coercition_FastFriends",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de [charmer](/regles/combat/conditions/charme) un humanoïde qu’il peut [voir](/regles/aventure/environnement/vision), qui l’entend et le comprend. La cible doit effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) si le personnage ou un de ses compagnons agit de manière [hostile](/regles/aventure/interaction-sociale) envers celle-ci. En cas d’échec, la cible est charmée jusqu’à la fin du pouvoir. Elle est [amicale](/regles/aventure/interaction-sociale) envers le personnage et effectue les tâches et services demandés au meilleur de ses habiletés.\n\nLe personnage peut lui affecter de nouvelles tâches lorsqu’une tâche est complétée, ou arrêter une tâche active. S’il lui demande une tâche ou un service dangereux ou entrant en conflit avec ses activités normales et ses désirs, celle-ci peut répéter le jet de sauvegarde afin de contrer le pouvoir. Le pouvoir prend fin si la tâche cause la [mort](/regles/combat/mort-agonie) certaine de la cible. Lorsque le pouvoir prend fin, la cible sait qu’elle a été charmée."
+      }
+    }
+  }
+}

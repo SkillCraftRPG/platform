@@ -1,0 +1,27 @@
+﻿{
+  "Id": "27af80d8-8308-4b6a-8bbb-4be057e3c032",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tongros",
+    "DisplayName": "Tongros",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"4750abbc-b36e-4745-8a3b-20b3ab81ffd3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tongros",
+      "DisplayName": "Tongros",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le Tongros est une langue agglutinante septentrionale, apparentée au [Gobun](/regles/langues/gobun) et à l’[Orcique](/regles/langues/orcique), mais issue d’une branche distincte adaptée aux milieux forestiers froids. Elle partage avec ces langues une morphologie riche en suffixes, l’absence de genre grammatical et un ordre syntaxique majoritairement sujet–objet–verbe, tout en conservant des traits propres. Il s’agit avant tout d’une langue orale. Bien qu’il soit techniquement possible de la transcrire à l’aide de l’alphabet Orkhun, cette écriture n’est utilisée que de manière marginale lors de contacts avec la Horde, notamment à des fins administratives, diplomatiques ou onomastiques. Les Ogrillons eux-mêmes ne développent pas de tradition écrite propre et continuent de privilégier la transmission orale.\n\nLe Tongros s’est développée plus au Nord et à l’Est que le Gobun et l’Orcique, dans des régions de forêts tempérées froides et de taïga. Les hivers longs, secs et rigoureux ont favorisé un lexique très précis lié au froid, à la neige, à la glace et aux cycles saisonniers, tandis que les étés courts ont limité le vocabulaire agricole au profit de termes liés à la chasse, à la pêche et à la cueillette. La forte dépendance aux forêts et aux cours d’eau a structuré la langue autour des notions de territoires riverains, de passages saisonniers et de ressources naturelles. La faible densité de population et la mobilité saisonnière ont contribué à une grande variation dialectale et à une transmission essentiellement orale, sans standardisation précoce.\n\nLe Tongros présente une harmonie vocalique complexe, souvent neutralisée ou simplifiée lorsqu’elle est transcrite en écriture étrangère. Le vocabulaire lié aux rivières, aux embarcations légères et à la pêche est exceptionnellement développé, reflétant un mode de vie centré sur les axes fluviaux. La langue n’a pas de tradition littéraire ancienne et conserve de nombreuses formes archaïques grâce à la transmission orale intergénérationnelle.",
+        "Summary": "Langue orale des Ogrillons, liée aux forêts, rivières et hivers rigoureux.",
+        "MetaDescription": "Découvrez le Tongros, langue septentrionale orale des forêts froides, riche en suffixes et en vocabulaire lié aux rivières, au froid et à la taïga.",
+        "TypicalSpeakers": "La langue est parlée par les [Ogrillons](/regles/especes/ogrillon), peuple établi principalement dans le Nord de l’Orijìsa et le Sud-Est de l’Hyperborée, dans des zones boisées et riveraines marquées par de fortes contraintes climatiques. Certaines espèces de la Horde, notamment les [Orques](/regles/especes/orque), l’apprennent pour communiquer avec les Ogrillons. Cependant, dans la pratique, ce sont le plus souvent les Ogrillons qui adoptent une langue tierce lorsque la situation l’exige.",
+        "Slug": "tongros"
+      }
+    }
+  }
+}

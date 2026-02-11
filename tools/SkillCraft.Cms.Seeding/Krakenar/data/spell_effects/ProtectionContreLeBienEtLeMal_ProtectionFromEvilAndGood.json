@@ -1,0 +1,32 @@
+﻿{
+  "Id": "b8b261ca-59aa-47b8-a12b-a6522e9ca5eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLeBienEtLeMal_ProtectionFromEvilAndGood",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"53d9073a-747d-41e9-bda9-4d068eaf7279\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLeBienEtLeMal_ProtectionFromEvilAndGood",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’eau bénite et une pincée de poudre d’argent.",
+        "HtmlContent": "Les effets du niveau 2 s’appliquent.\n\nLe personnage touche également une créature consentante et la protège contre les créatures appartenant à un des types suivants : aberration, célestiel, élémentaire, fée, infernal et mort-vivant. La cible acquiert les capacités suivantes :\n\n- Le [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) de ces créatures dirigées contre elle sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Si elle est victime d’un effet de [charme](/regles/combat/conditions/charme), de [peur](/regles/combat/conditions/apeure) ou de possession provenant d’une de ces créatures, elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre ces effets.\n- Elle est immunisée contre les nouveaux effets de charme, de peur et de possession en provenance de ces créatures."
+      }
+    }
+  }
+}

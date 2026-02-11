@@ -1,0 +1,27 @@
+﻿{
+  "Id": "61540270-a656-4f7a-a32f-0eaa506e9cf5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orcique",
+    "DisplayName": "Orcique",
+    "Description": null,
+    "FieldValues": {
+      "Script": "[\"4750abbc-b36e-4745-8a3b-20b3ab81ffd3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orcique",
+      "DisplayName": "Orcique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orcique",
+        "TypicalSpeakers": "L’Orcique est la langue primaire des [Orques](/regles/especes/orque). Il sert également de langue secondaire aux peuples et créatures soumis par les Orques. Au sein de la Horde, l’Orcique fonctionne comme langue commune, assurant la cohésion entre clans, armées et territoires conquis.",
+        "MetaDescription": "Découvrez l’Orcique, langue agglutinante des steppes orques, transmise par l’oralité et gravée en Orkhun pour fixer autorité et mémoire.",
+        "Summary": "Langue orque des steppes, directe, agglutinante et rituelle.",
+        "HtmlContent": "L’Orcique, aussi connu sous le nom d’_Orkhun_, est une langue des steppes, appartenant à la même grande famille que le [Gobun](/regles/langues/gobun) et le [Tongros](/regles/langues/tongros), au sein d’un continuum steppique élargi. Il s’agit d’une langue agglutinante, à morphologie régulière, privilégiant les suffixes pour exprimer le nombre, la possession et les relations grammaticales. Sa phonologie favorise des consonnes fortes et des voyelles harmonisées, avec une syntaxe directe, adaptée aux ordres brefs, aux serments et à la transmission orale en contexte militaire.\n\nL’Orcique s’est développé dans les steppes de l’Orijìsa, au sein de confédérations orques anciennes. À l’origine langue unique, il s’est scindé en deux grands dialectes à la suite des migrations et des conquêtes. Malgré ces différences, les deux dialectes demeurent largement intercompréhensibles.\n\n- Dialecte oriental : parlé par les Orques restés dans les steppes de l’Orijìsa, conservateur et stable.\n- Dialecte occidental : porté par les Orques ayant émigré en Ouespéro dans le cadre des conquêtes de la Horde, plus abrupt et variable.\n\nL’écriture sert avant tout à fixer la mémoire collective et l’autorité, tandis que la langue vivante demeure principalement transmise par l’oralité.\n\nLes salutations évoquent souvent la force, la route ou la survie, plutôt que la politesse formelle. De nombreux termes clés (chef, ciel, troupe, cheval) varient légèrement entre dialectes, mais conservent une racine commune reconnue par tous les Orques. La clarté et l’impact priment sur l’élégance grammaticale : parler justement est plus important que parler avec distinction."
+      }
+    }
+  }
+}
