@@ -35,6 +35,28 @@ internal class EthnicityQuerier : IEthnicityQuerier
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
   }
+  public async Task<IReadOnlyCollection<EthnicityModel>> ReadAsync(LineagePath path, CancellationToken cancellationToken)
+  {
+    string slugNormalized = Helper.Normalize(path.Ethnicity);
+    IQueryable<LineageEntity> query = _lineages.Where(x => x.SlugNormalized == slugNormalized && x.IsPublished);
+
+    if (Guid.TryParse(path.Species, out Guid parentUid))
+    {
+      query = query.Where(x => x.ParentUid == parentUid);
+    }
+    else
+    {
+      string speciesNormalized = Helper.Normalize(path.Species);
+      query = query.Where(x => x.Parent!.SlugNormalized == speciesNormalized);
+    }
+
+    LineageEntity[] lineages = await query.AsNoTracking()
+      .Include(x => x.Features).ThenInclude(x => x.Feature)
+      .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
+      .Include(x => x.Parent)
+      .ToArrayAsync(cancellationToken);
+    return await MapAsync(lineages, cancellationToken);
+  }
 
   public async Task<SearchResults<EthnicityModel>> SearchAsync(SearchEthnicitiesPayload payload, CancellationToken cancellationToken)
   {

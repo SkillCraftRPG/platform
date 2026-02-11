@@ -9,7 +9,7 @@ namespace SkillCraft.Cms.Core.Lineages;
 public interface ILineageService
 {
   Task<LineageModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
-  Task<EthnicityModel?> ReadEthnicityAsync(Guid? id = null, string? slug = null, CancellationToken cancellationToken = default);
+  Task<EthnicityModel?> ReadEthnicityAsync(Guid? id = null, LineagePath? path = null, CancellationToken cancellationToken = default);
   Task<SpeciesModel?> ReadSpeciesAsync(Guid? id = null, string? slug = null, CancellationToken cancellationToken = default);
 
   Task<SearchResults<EthnicityModel>> SearchAsync(SearchEthnicitiesPayload payload, CancellationToken cancellationToken = default);
@@ -43,9 +43,9 @@ internal class LineageService : ILineageService
     return await _queryBus.ExecuteAsync(query, cancellationToken);
   }
 
-  public async Task<EthnicityModel?> ReadEthnicityAsync(Guid? id, string? slug, CancellationToken cancellationToken)
+  public async Task<EthnicityModel?> ReadEthnicityAsync(Guid? id, LineagePath? path, CancellationToken cancellationToken)
   {
-    ReadEthnicityQuery query = new(id, slug);
+    ReadEthnicityQuery query = new(id, path);
     return await _queryBus.ExecuteAsync(query, cancellationToken);
   }
 

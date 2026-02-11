@@ -7,7 +7,7 @@ using SkillCraft.Cms.Models.Parameters;
 namespace SkillCraft.Cms.Controllers;
 
 [ApiController]
-[Route("api/ethnicities")]
+[Route("/api/species/{species}/ethnicities")]
 public class EthnicityController : ControllerBase
 {
   private readonly ILineageService _lineageService;
@@ -17,25 +17,26 @@ public class EthnicityController : ControllerBase
     _lineageService = lineageService;
   }
 
-  [HttpGet("{id}")]
+  [HttpGet("/api/ethnicities/{id}")]
   public async Task<ActionResult<EthnicityModel>> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
-    EthnicityModel? ethnicity = await _lineageService.ReadEthnicityAsync(id, slug: null, cancellationToken);
+    EthnicityModel? ethnicity = await _lineageService.ReadEthnicityAsync(id, path: null, cancellationToken);
     return ethnicity is null ? NotFound() : Ok(ethnicity);
   }
 
-  [HttpGet("slug:{slug}")] // TODO(fpion): hierarchical URL
-  public async Task<ActionResult<EthnicityModel>> ReadAsync(string slug, CancellationToken cancellationToken)
+  [HttpGet("{ethnicity}")]
+  public async Task<ActionResult<EthnicityModel>> ReadAsync(string species, string ethnicity, CancellationToken cancellationToken)
   {
-    EthnicityModel? ethnicity = await _lineageService.ReadEthnicityAsync(id: null, slug, cancellationToken);
-    return ethnicity is null ? NotFound() : Ok(ethnicity);
+    LineagePath path = new(species, ethnicity);
+    EthnicityModel? model = await _lineageService.ReadEthnicityAsync(id: null, path, cancellationToken);
+    return model is null ? NotFound() : Ok(model);
   }
 
-  [HttpGet("/api/species/{idOrSlug}/ethnicities")]
-  public async Task<ActionResult<SearchResults<EthnicityModel>>> SearchAsync(string idOrSlug, [FromQuery] SearchEthnicitiesParameters parameters, CancellationToken cancellationToken)
+  [HttpGet]
+  public async Task<ActionResult<SearchResults<EthnicityModel>>> SearchAsync(string species, [FromQuery] SearchEthnicitiesParameters parameters, CancellationToken cancellationToken)
   {
     SearchEthnicitiesPayload payload = parameters.ToPayload();
-    payload.Species = idOrSlug;
+    payload.Species = species;
 
     SearchResults<EthnicityModel> ethnicities = await _lineageService.SearchAsync(payload, cancellationToken);
     return Ok(ethnicities);

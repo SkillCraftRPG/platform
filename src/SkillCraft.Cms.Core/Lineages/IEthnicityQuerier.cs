@@ -6,6 +6,7 @@ namespace SkillCraft.Cms.Core.Lineages;
 public interface IEthnicityQuerier
 {
   Task<EthnicityModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
+  Task<IReadOnlyCollection<EthnicityModel>> ReadAsync(LineagePath path, CancellationToken cancellationToken = default);
 
   Task<SearchResults<EthnicityModel>> SearchAsync(SearchEthnicitiesPayload payload, CancellationToken cancellationToken = default);
 }

@@ -4,7 +4,7 @@ using SkillCraft.Cms.Core.Lineages.Models;
 
 namespace SkillCraft.Cms.Core.Lineages.Queries;
 
-internal record ReadEthnicityQuery(Guid? Id, string? Slug) : IQuery<EthnicityModel?>;
+internal record ReadEthnicityQuery(Guid? Id, LineagePath? Path) : IQuery<EthnicityModel?>;
 
 internal class ReadEthnicityQueryHandler : IQueryHandler<ReadEthnicityQuery, EthnicityModel?>
 {
@@ -28,15 +28,15 @@ internal class ReadEthnicityQueryHandler : IQueryHandler<ReadEthnicityQuery, Eth
       }
     }
 
-    //if (!string.IsNullOrWhiteSpace(query.Slug))
-    //{
-    //  IReadOnlyCollection<EthnicityModel> found = await _ethnicityQuerier.ReadAsync(query.Slug, cancellationToken);
-    //  if (found.Count == 1)
-    //  {
-    //    EthnicityModel ethnicity = found.Single();
-    //    ethnicies[ethnicity.Id] = ethnicity;
-    //  }
-    //} // TODO(fpion): implement
+    if (query.Path is not null)
+    {
+      IReadOnlyCollection<EthnicityModel> found = await _ethnicityQuerier.ReadAsync(query.Path, cancellationToken);
+      if (found.Count == 1)
+      {
+        EthnicityModel ethnicity = found.Single();
+        ethnicies[ethnicity.Id] = ethnicity;
+      }
+    }
 
     if (ethnicies.Count > 1)
     {
