@@ -6,7 +6,8 @@
     "DisplayName": "Faucheur",
     "Description": null,
     "FieldValues": {
-      "Specialization": "[\"520bef1d-5c6b-4e7f-b362-dc08fd8a8879\"]"
+      "Specialization": "[\"520bef1d-5c6b-4e7f-b362-dc08fd8a8879\"]",
+      "Features": "[\"dbdcfcf8-f09e-4c62-9a22-3b8303a99022\",\"bde4dda8-1960-4906-a6c1-34940d2fa49f\",\"7ab91aaf-3c9d-4ad7-abe6-2d8903a5faf6\"]"
     }
   },
   "Locales": {

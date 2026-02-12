@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7ab91aaf-3c9d-4ad7-abe6-2d8903a5faf6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necromant_ControleDesMortsVivants",
+    "DisplayName": "Contrôle des morts-vivants",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necromant_ControleDesMortsVivants",
+      "DisplayName": "Contrôle des morts-vivants",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), en dépensant un point d’[essence élémentaire](/regles/elementarisme/essence), le personnage tente de prendre contrôle d’un mort-vivant qu’il peut [voir](/regles/aventure/environnement/vision) et situé à 18 mètres ou moins de sa position.\n\nIl effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), et la cible effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou d’[Intuition](/regles/competences/intuition) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test.\n\nEn cas de réussite, la cible est immunisée à cette capacité.\n\nEn cas d’échec, la cible devient [amicale](/regles/aventure/interaction-sociale) envers le personnage et obéit à ses commandes jusqu’à ce que celui-ci réutilise cette capacité.\n\n- Si l’[Intellect](/regles/attributs/intellect) de la cible est supérieur à -2, son jet de sauvegarde se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n- Si l’[Intellect](/regles/attributs/intellect) de la cible est supérieur à 0, elle peut répéter le jet de sauvegarde à la fin de chaque [heure](/regles/aventure/temps) jusqu’à ce qu’elle le réussisse."
+      }
+    }
+  }
+}

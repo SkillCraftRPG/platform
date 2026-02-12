@@ -19,8 +19,8 @@
       "Description": null,
       "FieldValues": {
         "Slug": "necromant",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez le Nécromant, maître des morts et des esprits, capable de contrôler les morts-vivants et de puiser sa force dans la nécromancie interdite.",
+        "Summary": "Spécialisation manipulant morts-vivants et pouvoirs d’Esprit.",
         "HtmlContent": "Dans les sous-sols humides d’une ville, dans une crypte au milieu d’un cimetière en ruines ou dans une sinistre caverne reculée, loin du regard des vivants, le nécromant mène une vie clandestine où il y tisse de sombres sortilèges. Il travaille en secret, examinant des cadavres dans l’ombre ou sous la lueur de la Lune. Il peut percevoir l’âme des défunts, et apaiser les lamentations des esprits en peine ou encore les manipuler à sa guise. Son art est interdit et ceux qui le pratiquent sont traqués, mais il ose quand même en faire usage.",
         "OtherRequirements": "Le personnage doit avoir acquis la spécialisation [Haruspice](/regles/specialisations/haruspice).\nIl ne doit avoir acquis aucune des spécialisations parmi la liste suivante : [Conjurateur](/regles/specialisations/conjurateur), [Oracle](/regles/specialisations/oracle).",
         "OtherOptions": "[Pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l’élément Esprit ([Nécromancie](#))."

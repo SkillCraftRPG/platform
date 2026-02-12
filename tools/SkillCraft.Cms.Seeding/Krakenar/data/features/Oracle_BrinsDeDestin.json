@@ -1,0 +1,21 @@
+﻿{
+  "Id": "300ecead-70b2-47a3-83b6-e59a74faa319",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Oracle_BrinsDeDestin",
+    "DisplayName": "Brins de destin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Oracle_BrinsDeDestin",
+      "DisplayName": "Brins de destin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut sentir et manipuler les brins de destin associés à toutes les créatures. Par une [action](/regles/combat/deroulement/tour) et en dépensant 2 points d’[essence élémentaire](/regles/elementarisme/essence), il peut utiliser une des capacités suivantes.\n\n- **Interprétation.** Il lit le brin de destin d’une créature située à 18 mètres ou moins de sa position. Jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour), le personnage bénéficie d’un des effets suivants, au choix.\n  - Il ajoute 1d10 au [test](/regles/competences/tests) de sa prochaine [attaque](/regles/combat/attaque) dirige contre la cible.\n  - Il inflige une pénalité de 1d10 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) effectué par la cible contre un [pouvoir](/regles/magie/pouvoirs) [canalisé](/regles/magie/pouvoirs/canalisation) par le personnage.\n- **Nœud.** Il touche un objet ou une créature et tente de nouer un brin de destin entre la cible et lui. Il effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), et la cible effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test. La cible peut échouer volontairement le jet de sauvegarde.\n  - En cas d’échec, le brin de destin est noué. Pendant une [heure](/regles/aventure/temps), ou jusqu’à ce qu’il réutilise cette capacité, si le personnage et la cible se trouvent dans la même dimension, alors il sent la direction de la cible, incluant lorsqu’elle [se déplace](/regles/aventure/mouvement).\n  - Également, lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) prodiguant des [soins](/regles/combat/degats/soins) ou infligeant des [points de dégâts](/regles/combat/degats) à la cible, alors il peut ajouter 1d10 aux soins prodigués ou aux points de dégâts infligés.\n- **Tension.** Il entre dans un état de conscience lui permettant de tendre les brins de destin.\n  - Cet état dure [une minute](/regles/aventure/temps), et il doit [maintenir](/regles/combat/activites/concentration) sa [concentration](/regles/magie/parametres/duree) sur celui-ci.\n  - Lorsqu’une autre créature située à 18 mètres ou moins de sa position effectue un [test](/regles/competences/tests) (excluant les [jets de sauvegarde](/regles/competences/tests/sauvegarde)), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) ou d’infliger le [désavantage](/regles/competences/tests/avantage-desavantage) au test."
+      }
+    }
+  }
+}

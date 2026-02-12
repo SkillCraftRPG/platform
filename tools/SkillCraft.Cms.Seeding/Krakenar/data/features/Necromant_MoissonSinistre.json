@@ -1,0 +1,21 @@
+﻿{
+  "Id": "dbdcfcf8-f09e-4c62-9a22-3b8303a99022",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necromant_MoissonSinistre",
+    "DisplayName": "Moisson sinistre",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necromant_MoissonSinistre",
+      "DisplayName": "Moisson sinistre",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) et que les [points de Vitalité](/regles/statistiques/vitalite) d’une créature chutent à 0 en raison de ce pouvoir, il [récupère](/regles/combat/degats/soins) un nombre de points de Vitalité égal à la moitié des [points d’Énergie dépensés](/regles/magie/pouvoirs/energie). Il ne peut utiliser cette capacité lorsque la créature est un mort-vivant ou une construction."
+      }
+    }
+  }
+}
