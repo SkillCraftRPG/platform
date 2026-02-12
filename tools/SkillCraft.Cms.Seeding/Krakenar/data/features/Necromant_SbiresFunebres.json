@@ -1,0 +1,21 @@
+﻿{
+  "Id": "bde4dda8-1960-4906-a6c1-34940d2fa49f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necromant_SbiresFunebres",
+    "DisplayName": "Sbires funèbres",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necromant_SbiresFunebres",
+      "DisplayName": "Sbires funèbres",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage canalise le [niveau 3](/regles/magie/pouvoirs/niveau) du pouvoir [Danse macabre](/regles/magie/pouvoirs/danse-macabre) afin d’animer des morts-vivants, il peut dépenser un point d’[essence élémentaire](/regles/elementarisme/essence) afin de cibler un cadavre ou un tas d’os supplémentaire, créant ainsi un zombie ou un squelette supplémentaire.\n\nÉgalement, lorsqu’il crée un mort-vivant à l’aide d’un pouvoir associé à l’élément Esprit ([Nécromancie](#)), la [Vitalité maximale](/regles/statistiques/vitalite) de la créature augmente d’un nombre égal au double de la [Puissance](/regles/statistiques/puissance) du personnage, et cette créature inflige un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à la moitié de la Puissance du personnage."
+      }
+    }
+  }
+}

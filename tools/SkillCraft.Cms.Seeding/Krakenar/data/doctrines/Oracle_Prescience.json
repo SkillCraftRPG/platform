@@ -6,7 +6,8 @@
     "DisplayName": "Prescience",
     "Description": null,
     "FieldValues": {
-      "Specialization": "[\"1b785f81-cefb-4be8-adbb-8e4350730d70\"]"
+      "Specialization": "[\"1b785f81-cefb-4be8-adbb-8e4350730d70\"]",
+      "Features": "[\"300ecead-70b2-47a3-83b6-e59a74faa319\"]"
     }
   },
   "Locales": {
