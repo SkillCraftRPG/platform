@@ -16,7 +16,7 @@
       "DisplayName": "Incantation sauvage",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut canaliser des [pouvoirs](/regles/magie/pouvoirs) lorsqu’il assume sa forme sauvage. S’il est en mesure d’émettre des sons et qu’il n’est pas immobilisé, alors il peut ignorer les [composantes](/regles/magie/parametres/composantes) Focus, Somatique et Verbal."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\nIl peut désormais canaliser des [pouvoirs](/regles/magie/pouvoirs) lorsqu’il assume sa [forme sauvage](/regles/specialisations/animiste). S’il est en mesure d’émettre des sons et qu’il n’est pas immobilisé, alors il peut ignorer les [composantes](/regles/magie/parametres/composantes) Focus, Somatique et Verbal."
       }
     }
   }
