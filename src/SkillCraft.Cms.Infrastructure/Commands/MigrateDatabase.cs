@@ -8,11 +8,16 @@ namespace SkillCraft.Cms.Infrastructure.Commands;
 
 internal class MigrateDatabaseCommandHandler : Krakenar.EntityFrameworkCore.Relational.Handlers.MigrateDatabaseCommandHandler, ICommandHandler<MigrateDatabase, Unit>
 {
+  private readonly EncyclopediaContext _encyclopediaContext;
   private readonly RulesContext _rulesContext;
 
-  public MigrateDatabaseCommandHandler(EventContext eventContext, KrakenarContext krakenarContext, RulesContext rulesContext)
-    : base(eventContext, krakenarContext)
+  public MigrateDatabaseCommandHandler(
+    EncyclopediaContext encyclopediaContext,
+    EventContext eventContext,
+    KrakenarContext krakenarContext,
+    RulesContext rulesContext) : base(eventContext, krakenarContext)
   {
+    _encyclopediaContext = encyclopediaContext;
     _rulesContext = rulesContext;
   }
 
@@ -21,6 +26,7 @@ internal class MigrateDatabaseCommandHandler : Krakenar.EntityFrameworkCore.Rela
     await base.HandleAsync(command, cancellationToken);
 
     await _rulesContext.Database.MigrateAsync(cancellationToken);
+    await _encyclopediaContext.Database.MigrateAsync(cancellationToken);
 
     return Unit.Value;
   }

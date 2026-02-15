@@ -4,6 +4,7 @@ using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Articles.Models;
 using SkillCraft.Cms.Core.Collections.Models;
+using SkillCraft.Cms.Core.Quests.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
@@ -63,6 +64,50 @@ internal class EncyclopediaMapper
       MetaDescription = source.MetaDescription,
       HtmlContent = source.HtmlContent
     };
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public static QuestModel ToQuest(QuestEntity source)
+  {
+    QuestModel destination = new()
+    {
+      Id = source.Id,
+      Title = source.Title,
+      GrantedLevels = source.GrantedLevels,
+      ProgressRatio = source.ProgressRatio,
+      HtmlContent = source.HtmlContent,
+      CompletedEntries = source.CompletedEntries,
+      ActiveEntries = source.ActiveEntries
+    };
+
+    if (source.QuestGroup is not null)
+    {
+      destination.Group = ToQuestGroup(source.QuestGroup);
+    }
+
+    return destination;
+  }
+
+  public static QuestGroupModel ToQuestGroup(QuestGroupEntity source) => new(source.Id, source.Name);
+
+  public QuestLogModel ToQuestLog(QuestLogEntity source)
+  {
+    QuestLogModel destination = new()
+    {
+      Id = source.Id,
+      Slug = source.Slug,
+      Title = source.Title,
+      MetaDescription = source.MetaDescription,
+      HtmlContent = source.HtmlContent
+    };
+
+    foreach (QuestEntity quest in source.Quests)
+    {
+      destination.Quests.Add(ToQuest(quest));
+    }
 
     MapAggregate(source, destination);
 
