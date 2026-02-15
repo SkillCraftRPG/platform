@@ -1,0 +1,23 @@
+﻿{
+  "Id": "e7b45973-3f02-466f-8a70-59fe29b48100",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Totem_Spiritisme",
+    "DisplayName": "Spiritisme",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"4c0a95f4-eb9f-4e5d-a851-2a1940c0e525\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Totem_Spiritisme",
+      "DisplayName": "Spiritisme",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert deux capacités de tiers 3 spécifiques à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) trois fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\nLorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) en assumant sa [forme éthérée](/regles/specialisations/chaman), les [cibles](/regles/magie/effets/cible) du pouvoir ne se voient plus conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à leurs [jets de sauvegarde](/regles/competences/tests/sauvegarde).\nLorsqu’il effectue une [Attaque magique](/regles/talents/attaque-magique) en assumant sa [forme éthérée](/regles/specialisations/chaman), son [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) n’est pas affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}
