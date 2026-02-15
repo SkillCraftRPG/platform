@@ -81,6 +81,17 @@
     }
   },
   {
+    "Id": "f4bf8f12-51e0-4a37-9285-8238f05d34cc",
+    "UniqueName": "CharacterLevel",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 100,
+      "Step": 1
+    }
+  },
+  {
     "Id": "09fc08ec-e4b1-41db-99b8-be4a29497eee",
     "UniqueName": "Collection",
     "DisplayName": null,
@@ -208,6 +219,17 @@
     }
   },
   {
+    "Id": "b8acab48-79b8-4297-841f-3736658378d6",
+    "UniqueName": "Ratio",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 1,
+      "Step": 0.00001
+    }
+  },
+  {
     "Id": "b2123086-0af6-4d12-bc3f-df5d5955c3e8",
     "UniqueName": "Progress",
     "DisplayName": null,
@@ -216,6 +238,26 @@
       "MinimumLength": null,
       "MaximumLength": 100,
       "Pattern": null
+    }
+  },
+  {
+    "Id": "01b8fa37-c0bd-47a5-a5e2-1f84bde43ece",
+    "UniqueName": "QuestGroup",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "48ee54bb-7537-404b-8654-abd0c10ee6e3",
+      "IsMultiple": false
+    }
+  },
+  {
+    "Id": "0681ba51-9766-4af4-9811-ac940c56999c",
+    "UniqueName": "QuestLog",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "a6410265-a5ab-403e-9d27-a6193ad3a15b",
+      "IsMultiple": false
     }
   },
   {
