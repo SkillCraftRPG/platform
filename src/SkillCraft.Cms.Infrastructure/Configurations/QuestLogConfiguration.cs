@@ -1,0 +1,29 @@
+﻿using Krakenar.Core;
+using Krakenar.EntityFrameworkCore.Relational.Configurations;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using SkillCraft.Cms.Infrastructure.Entities;
+
+namespace SkillCraft.Cms.Infrastructure.Configurations;
+
+internal class QuestLogConfiguration : AggregateConfiguration<QuestLogEntity>, IEntityTypeConfiguration<QuestLogEntity>
+{
+  public override void Configure(EntityTypeBuilder<QuestLogEntity> builder)
+  {
+    base.Configure(builder);
+
+    builder.ToTable(EncyclopediaDb.QuestLogs.Table.Table!, EncyclopediaDb.QuestLogs.Table.Schema);
+    builder.HasKey(x => x.QuestLogId);
+
+    builder.HasIndex(x => x.Id).IsUnique();
+    builder.HasIndex(x => x.IsPublished);
+    builder.HasIndex(x => x.Slug);
+    builder.HasIndex(x => x.SlugNormalized);
+    builder.HasIndex(x => x.Title);
+
+    builder.Property(x => x.Slug).HasMaxLength(Slug.MaximumLength);
+    builder.Property(x => x.SlugNormalized).HasMaxLength(Slug.MaximumLength);
+    builder.Property(x => x.Title).HasMaxLength(DisplayName.MaximumLength);
+    builder.Property(x => x.MetaDescription).HasMaxLength(Constants.MetaDescriptionMaximumLength);
+  }
+}
