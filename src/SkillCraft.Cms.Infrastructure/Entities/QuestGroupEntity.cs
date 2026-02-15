@@ -13,6 +13,8 @@ internal class QuestGroupEntity : AggregateEntity
 
   public string Name { get; set; } = string.Empty;
 
+  public List<QuestEntity> Quests { get; private set; } = [];
+
   public QuestGroupEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;

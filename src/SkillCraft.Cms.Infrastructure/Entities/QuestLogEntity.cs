@@ -23,6 +23,8 @@ internal class QuestLogEntity : AggregateEntity
   public string? MetaDescription { get; set; }
   public string? HtmlContent { get; set; }
 
+  public List<QuestEntity> Quests { get; private set; } = [];
+
   public QuestLogEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;

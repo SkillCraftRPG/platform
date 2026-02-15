@@ -13,6 +13,7 @@ internal enum EntityKind
   Gift,
   Language,
   Lineage,
+  Quest,
   QuestGroup,
   QuestLog,
   Script,
