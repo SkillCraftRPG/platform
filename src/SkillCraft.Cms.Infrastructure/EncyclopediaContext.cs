@@ -15,8 +15,8 @@ public class EncyclopediaContext : DbContext
   internal DbSet<ArticleHierarchyEntity> ArticleHierarchy => Set<ArticleHierarchyEntity>();
   internal DbSet<CollectionEntity> Collections => Set<CollectionEntity>();
   internal DbSet<QuestEntity> Quests => Set<QuestEntity>();
-  internal DbSet<QuestLogEntity> QuestLogs => Set<QuestLogEntity>();
   internal DbSet<QuestGroupEntity> QuestGroups => Set<QuestGroupEntity>();
+  internal DbSet<QuestLogEntity> QuestLogs => Set<QuestLogEntity>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
