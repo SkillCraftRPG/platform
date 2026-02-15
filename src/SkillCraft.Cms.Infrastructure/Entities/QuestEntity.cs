@@ -1,5 +1,7 @@
 ﻿using Krakenar.Core.Contents;
 using Krakenar.Core.Contents.Events;
+using Logitar;
+using Logitar.EventSourcing;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
@@ -35,6 +37,16 @@ internal class QuestEntity : AggregateEntity
 
   private QuestEntity() : base()
   {
+  }
+
+  public override IReadOnlyCollection<ActorId> GetActorIds()
+  {
+    HashSet<ActorId> actorIds = new(base.GetActorIds());
+    if (QuestGroup is not null)
+    {
+      actorIds.AddRange(QuestGroup.GetActorIds());
+    }
+    return actorIds;
   }
 
   public void Publish(ContentLocalePublished @event)
