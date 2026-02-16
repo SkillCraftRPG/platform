@@ -85,7 +85,14 @@ internal class EncyclopediaMapper
 
     if (source.QuestGroup is not null)
     {
-      destination.Group = ToQuestGroup(source.QuestGroup);
+      if (source.QuestGroup.IsPublished)
+      {
+        destination.Group = ToQuestGroup(source.QuestGroup);
+      }
+    }
+    else if (source.QuestGroupId.HasValue)
+    {
+      throw new ArgumentException("The group is required.", nameof(source));
     }
 
     return destination;
@@ -106,7 +113,10 @@ internal class EncyclopediaMapper
 
     foreach (QuestEntity quest in source.Quests)
     {
-      destination.Quests.Add(ToQuest(quest));
+      if (quest.IsPublished)
+      {
+        destination.Quests.Add(ToQuest(quest));
+      }
     }
 
     MapAggregate(source, destination);
