@@ -62,6 +62,14 @@ internal class LineageEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public string? Morphology { get; set; }
+  public string? Psychology { get; set; }
+  public string? Culture { get; set; }
+  public string? History { get; set; }
+  public string? Geography { get; set; }
+  public string? Politics { get; set; }
+  public string? Relations { get; set; }
+
   public List<LineageEntity> Children { get; private set; } = [];
   public List<LineageFeatureEntity> Features { get; private set; } = [];
   public List<LineageLanguageEntity> Languages { get; private set; } = [];

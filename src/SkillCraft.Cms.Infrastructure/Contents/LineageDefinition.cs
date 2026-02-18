@@ -20,4 +20,11 @@ public static class LineageDefinition
   public static readonly Guid LanguagesText = Guid.Parse("17cd5dc5-ddc8-4558-afd6-77e1e7ea933b");
   public static readonly Guid NamesText = Guid.Parse("31619dca-8655-46bd-a9ed-5ffdc08f1f00");
   public static readonly Guid NamesSelection = Guid.Parse("443063e3-5df2-4f08-a82c-f3aed1b7c0ce");
+  public static readonly Guid Morphology = Guid.Parse("77b73438-9637-4956-b8b6-2af17cc8bdbd");
+  public static readonly Guid Psychology = Guid.Parse("a5bfa10d-a34f-4754-be4c-8b57f8751d1f");
+  public static readonly Guid Culture = Guid.Parse("ff1692e2-391f-4435-9158-414fc59e2951");
+  public static readonly Guid History = Guid.Parse("846717fe-560c-4c24-beca-d7c15c704274");
+  public static readonly Guid Geography = Guid.Parse("72cf7418-4e98-4d74-b479-1bb269f1ca47");
+  public static readonly Guid Politics = Guid.Parse("246ddfec-8e92-483e-842d-d3380b47c2da");
+  public static readonly Guid Relations = Guid.Parse("ddac5ca7-b471-4f55-9733-4439000ab4f7");
 }
