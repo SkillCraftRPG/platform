@@ -18,7 +18,7 @@ public abstract class LineageBase : Aggregate
 
   public string? MetaDescription { get; set; }
   public string? Summary { get; set; }
-  public string? HtmlContent { get; set; }
+  public LineageContent HtmlContent { get; set; } = new();
 
   public List<FeatureModel> Features { get; set; } = [];
 

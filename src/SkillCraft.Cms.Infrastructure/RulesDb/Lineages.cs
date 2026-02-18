@@ -17,11 +17,14 @@ internal static class Lineages
   public static readonly ColumnId Adult = new(nameof(LineageEntity.Adult), Table);
   public static readonly ColumnId Burrow = new(nameof(LineageEntity.Burrow), Table);
   public static readonly ColumnId Climb = new(nameof(LineageEntity.Climb), Table);
+  public static readonly ColumnId Culture = new(nameof(LineageEntity.Culture), Table);
   public static readonly ColumnId CustomNames = new(nameof(LineageEntity.CustomNames), Table);
   public static readonly ColumnId ExtraLanguages = new(nameof(LineageEntity.ExtraLanguages), Table);
   public static readonly ColumnId FamilyNames = new(nameof(LineageEntity.FamilyNames), Table);
   public static readonly ColumnId FemaleNames = new(nameof(LineageEntity.FemaleNames), Table);
   public static readonly ColumnId Fly = new(nameof(LineageEntity.Fly), Table);
+  public static readonly ColumnId Geography = new(nameof(LineageEntity.Geography), Table);
+  public static readonly ColumnId History = new(nameof(LineageEntity.History), Table);
   public static readonly ColumnId Hover = new(nameof(LineageEntity.Hover), Table);
   public static readonly ColumnId HtmlContent = new(nameof(LineageEntity.HtmlContent), Table);
   public static readonly ColumnId Id = new(nameof(LineageEntity.Id), Table);
@@ -32,6 +35,7 @@ internal static class Lineages
   public static readonly ColumnId Malnutrition = new(nameof(LineageEntity.Malnutrition), Table);
   public static readonly ColumnId Mature = new(nameof(LineageEntity.Mature), Table);
   public static readonly ColumnId MetaDescription = new(nameof(LineageEntity.MetaDescription), Table);
+  public static readonly ColumnId Morphology = new(nameof(LineageEntity.Morphology), Table);
   public static readonly ColumnId Name = new(nameof(LineageEntity.Name), Table);
   public static readonly ColumnId NamesText = new(nameof(LineageEntity.NamesText), Table);
   public static readonly ColumnId NormalWeight = new(nameof(LineageEntity.NormalWeight), Table);
@@ -39,6 +43,9 @@ internal static class Lineages
   public static readonly ColumnId Overweight = new(nameof(LineageEntity.Overweight), Table);
   public static readonly ColumnId ParentId = new(nameof(LineageEntity.ParentId), Table);
   public static readonly ColumnId ParentUid = new(nameof(LineageEntity.ParentUid), Table);
+  public static readonly ColumnId Politics = new(nameof(LineageEntity.Politics), Table);
+  public static readonly ColumnId Psychology = new(nameof(LineageEntity.Psychology), Table);
+  public static readonly ColumnId Relations = new(nameof(LineageEntity.Relations), Table);
   public static readonly ColumnId SizeCategory = new(nameof(LineageEntity.SizeCategory), Table);
   public static readonly ColumnId SizeRoll = new(nameof(LineageEntity.SizeRoll), Table);
   public static readonly ColumnId Skinny = new(nameof(LineageEntity.Skinny), Table);

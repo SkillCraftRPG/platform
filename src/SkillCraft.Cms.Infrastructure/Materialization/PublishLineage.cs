@@ -70,6 +70,14 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     lineage.Summary = locale.TryGetString(LineageDefinition.Summary);
     lineage.HtmlContent = locale.TryGetString(LineageDefinition.HtmlContent);
 
+    lineage.Morphology = locale.TryGetString(LineageDefinition.Morphology);
+    lineage.Psychology = locale.TryGetString(LineageDefinition.Psychology);
+    lineage.Culture = locale.TryGetString(LineageDefinition.Culture);
+    lineage.History = locale.TryGetString(LineageDefinition.History);
+    lineage.Geography = locale.TryGetString(LineageDefinition.Geography);
+    lineage.Politics = locale.TryGetString(LineageDefinition.Politics);
+    lineage.Relations = locale.TryGetString(LineageDefinition.Relations);
+
     lineage.Publish(@event);
 
     if (failures.Count > 0)

@@ -1202,6 +1202,90 @@
         "DisplayName": "Noms (sélection)",
         "Description": null,
         "Placeholder": "Une catégorie par ligne, au format \"{Key}:{Name},{Name},…\" ; catégories : Family, Female, Male, Unisex"
+      },
+      {
+        "Id": "77b73438-9637-4956-b8b6-2af17cc8bdbd",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Morphology",
+        "DisplayName": "Morphologie et apparence physique",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "a5bfa10d-a34f-4754-be4c-8b57f8751d1f",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Psychology",
+        "DisplayName": "Psychologie et personnalité",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "ff1692e2-391f-4435-9158-414fc59e2951",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Culture",
+        "DisplayName": "Culture et traditions",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "846717fe-560c-4c24-beca-d7c15c704274",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "History",
+        "DisplayName": "Histoire récente",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "72cf7418-4e98-4d74-b479-1bb269f1ca47",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Geography",
+        "DisplayName": "Situation géographique",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "246ddfec-8e92-483e-842d-d3380b47c2da",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Politics",
+        "DisplayName": "Organisation politique",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "ddac5ca7-b471-4f55-9733-4439000ab4f7",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Relations",
+        "DisplayName": "Relations inter-espèces",
+        "Description": null,
+        "Placeholder": null
       }
     ]
   },
