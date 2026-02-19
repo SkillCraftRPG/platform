@@ -22,11 +22,18 @@
       "DisplayName": "Elfe",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Les elfes sont des créatures attachées à l’ordre naturel et aux valeurs traditionnelles. Ils sont originaires d’un autre continent, où ils ont évolué en tissant des liens avec la nature et les arts occultes. À l’origine des êtres nocturnes, ils ont développé un court sommeil réparateur. On dit d’eux qu’ils sont habiles de leurs mains et que leurs sens sont aiguisés. Leur silhouette est généralement svelte et élancée. Ils sont considérés comme immortels par les autres espèces à cause de leur longévité hors du commun.",
+        "HtmlContent": "Originaires d’Erdimar, les Elfes ont traversé les ponts de glace il y a 10 000 ans vers Tyrgie, puis Ouespéro. Héritiers d’une civilisation engloutie par un déluge, ils ont jadis dominé de vastes territoires dont subsistent des ruines. Longévifs, sveltes et aux sens affûtés, ils pratiquent la transe plutôt qu’un long sommeil. Aujourd’hui, ils vivent en bastions durables, surtout dans l’Ouest et aux Triskîles, entre préservation, mémoire et alliances mesurées.",
         "Summary": "Elfe longévif, lié à la nature, aux sens affûtés et à la transe.",
         "Slug": "elfe",
         "NamesText": "Les elfes portent généralement un prénom et un nom de famille.",
-        "MetaDescription": "Découvrez l’elfe : être longévif lié à la nature et à l’occulte, nocturne, aux sens affûtés et au sommeil en transe."
+        "MetaDescription": "Découvrez l’elfe : être longévif lié à la nature et à l’occulte, nocturne, aux sens affûtés et au sommeil en transe.",
+        "Morphology": "Les Elfes possèdent une silhouette élancée, des traits fins et des sens particulièrement développés. Leur maturité est lente : ils atteignent l’âge adulte vers cent ans et vivent en moyenne jusqu’à 750 ans, d’où leur réputation d’immortalité. Ils remplacent le long sommeil par une transe réparatrice, demeurant partiellement conscients.",
+        "Psychology": "Leur perception du temps, étendue sur des siècles, favorise la patience, la retenue et la planification à long terme. Ils peuvent sembler distants, mais cette réserve découle d’une conscience aiguë des conséquences durables. Les menaces profondes ou existentielles éveillent chez eux une détermination froide et méthodique.",
+        "Culture": "Héritiers d’un âge d’or englouti, ils valorisent la mémoire, la transmission et les arts durables. Leur savoir mêle traditions anciennes et pratiques occultes héritées d’Erdimar. Chaque œuvre, chaque édifice vise à survivre aux générations plus brèves des autres espèces.",
+        "History": "Il y a plus de 10 000 ans, ils quittèrent Erdimar par les ponts de glace reliant Erdimar, Hyperborée et Tyrgie, atteignant l’Est des Gelvas. Il y a environ 4 000 ans, ils franchirent ces montagnes pour s’établir en Ouespéro, où ils fondèrent de vastes domaines. Le déluge qui détruisit leur brillante civilisation marque encore leur identité collective.",
+        "Geography": "En Ouespéro, on les retrouve surtout dans l’Ouest et le Centre, notamment dans l’archipel des Triskîles. Ils privilégient des territoires forestiers, côtiers ou insulaires, souvent bâtis sur d’anciennes fondations. Les ruines disséminées témoignent de l’étendue passée de leur présence.",
+        "Politics": "Leurs sociétés s’organisent en royaumes et bastions conçus pour durer des siècles. L’autorité y est stable et orientée vers la continuité plutôt que l’expansion rapide. Les décisions sont prises avec une vision intergénérationnelle, parfois au prix d’une grande prudence.",
+        "Relations": "Certains Elfes se sont mêlés aux humains et à d’autres espèces, tandis que d’autres ont maintenu une stricte séparation culturelle. Ils vouent toutefois une haine profonde aux Orques, qu’ils considèrent comme des Elfes corrompus et une tragédie vivante de leur propre histoire. Leur expansion passée les a aussi mis en rivalité avec les Naines lorsque leurs territoires se sont touchés, donnant naissance à des tensions durables, mêlant respect contraint et méfiance ancestrale."
       }
     }
   }

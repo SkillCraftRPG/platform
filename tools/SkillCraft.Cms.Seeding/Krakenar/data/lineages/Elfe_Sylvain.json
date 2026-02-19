@@ -8,7 +8,8 @@
     "FieldValues": {
       "Parent": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
       "Speeds": "Walk:7",
-      "Features": "[\"5e9ba2d8-56c8-46dd-8d63-dcc4af1e47e2\"]"
+      "Features": "[\"5e9ba2d8-56c8-46dd-8d63-dcc4af1e47e2\"]",
+      "ExtraLanguages": "1"
     }
   },
   "Locales": {
@@ -19,10 +20,18 @@
       "Description": null,
       "FieldValues": {
         "Slug": "sylvain",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "Les elfes sylvains sont très protecteurs envers les milieux sauvages et non civilisés. Ils peuvent se montrer rapidement hostiles lorsque ces milieux sont menacés, ou que la nature est exploitée de manière illégitime. Ce lien avec la nature leur confère certaines capacités, par exemple un instinct plus développé, une habilité à se fondre dans la nature ainsi que des mouvements vifs et gracieux.",
+        "Summary": "Elfes forestiers protecteurs et discrets d’Ouespéro.",
+        "HtmlContent": "Les Elfes sylvains sont un peuple forestier gracieux et vigilant, lié intimement aux milieux sauvages qu’il protège. Jadis étendus sur une large part d’Ouespéro depuis Stawall, leurs territoires furent réduits par les invasions. Aujourd’hui établis en royaumes fermés à Doll Tauron et Milande, avec une colonie stratégique à Alnar, ils privilégient l’équilibre naturel, une gouvernance prudente et des alliances fondées sur le respect de la nature.",
         "NamesSelection": "Family:Adlegor,Charimon,Galanodel,Kaendere,Liadon,Morwen,Nodir,Raelden,Sonomir,Talath\nFemale:Althaea,Ceanoise,Elenna,Leshanna,Magilin,Naeva,Onoraid,Sariel,Tibenna,Valanthe\nMale:Aelar,Berrian,Erevan,Feirion,Hononn,Ivellios,Kaimear,Peren,Saemainn,Therion",
-        "MetaDescription": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez les Elfes sylvains, gardiens des forêts d’Ouespéro, maîtres du camouflage et défenseurs farouches de royaumes reclus et stratégiques.",
+        "Morphology": "Les elfes sylvains sont élancés, nerveux et gracieux, avec des traits fins et une démarche souple rappelant le vent dans les feuillages. Leur peau varie du pâle au cuivré, leurs yeux tirent souvent vers le vert ou le noisette, et leurs oreilles effilées accentuent leur silhouette alerte. Leurs vêtements privilégient les tons naturels et les matières souples, favorisant le camouflage et la liberté de mouvement.",
+        "Psychology": "Protecteurs farouches des milieux sauvages, ils peuvent se montrer bienveillants et calmes, mais deviennent rapidement inflexibles lorsque la nature est menacée. Leur vision du monde valorise l’équilibre, la patience et l’instinct plutôt que la domination ou l’expansion. Méfiants envers l’urbanisation excessive, ils jugent les œuvres de pierre et de fer comme éphémères face aux cycles du vivant.",
+        "Culture": "Leur culture privilégie l’harmonie avec l’environnement : architecture discrète, usage mesuré des ressources et transmission orale des savoirs sylvestres. La chasse est ritualisée et respectueuse, et l’artisanat met en valeur le bois, la pierre et le cuir plutôt que le métal. Leur maîtrise du camouflage naturel et des déplacements silencieux est enseignée dès l’enfance.",
+        "History": "Il y a environ 2 000 ans, ils s’étendirent largement en Ouespéro, de l’océan Illuntique jusqu’à la Vertule, au nord des Nives, incluant les Triskîles, depuis leur cité centrale de Stawall en Doll Tauron. Cette période fut marquée par des expansions et une influence majeure sur les forêts du continent. Invasions et conflits successifs réduisirent toutefois leurs territoires, les contraignant à se replier sur des bastions plus restreints.",
+        "Geography": "Ils vivent aujourd’hui principalement dans des royaumes fermés à Doll Tauron et sur l’île de Milande, protégés par des forêts denses et des frontières naturelles difficiles d’accès. Sur l’île d’Alnar, ils maintiennent une colonie stratégique, située à un carrefour d’espèces et d’ethnies. Cette position explique une ouverture légèrement plus marquée, bien que demeurant prudente et contrôlée.",
+        "Politics": "Le pouvoir repose sur des conseils d’anciens issus des lignées respectées, souvent conseillés par des figures spirituelles proches des forces naturelles. Les royaumes privilégient la défense des territoires et la stabilité interne plutôt que l’expansion. La colonie d’Alnar, sans être indépendante, dispose d’une certaine autonomie administrative adaptée à son contexte frontalier.",
+        "Relations": "Ils entretiennent de bonnes relations avec les individus et groupes qui respectent la nature et ses équilibres. En revanche, ils se montrent hostiles envers ceux qui exploitent ou détruisent les milieux sauvages. Leur jugement repose davantage sur les actes que sur l’appartenance à une espèce ou à une ethnie.",
+        "LanguagesText": "Les elfes sylvains des Triskîles parlent le [Sylvestre](/regles/langues/sylvestre), tandis que ceux de Doll Tauron parlent le [Celfique](/regles/langues/celfique)."
       }
     }
   }
