@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Parent": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
-      "Features": "[\"7064aa48-1d22-45cb-b505-b2a496397bac\"]"
+      "Features": "[\"7064aa48-1d22-45cb-b505-b2a496397bac\"]",
+      "ExtraLanguages": "1"
     }
   },
   "Locales": {
@@ -18,10 +19,18 @@
       "Description": null,
       "FieldValues": {
         "Slug": "gitan",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "Les Gitans, aussi appelés « Gitsani », sont originaires de lointaines contrées situées à l’Est de l’Ouespéro, comme tous les Petit-Gens. Parmi leur espèce, ils ont appartenu à une basse caste de musiciens, d’artistes et de danseurs ambulants. Ils sont reconnus pour leurs caravanes, qui font office de domicile, ainsi que pour leurs vêtements arborant des couleurs vives et flamboyantes. Malheureusement, ils s’intègrent difficilement auprès des autres peuples, préférant une vie légère au dur travail, et ne reste jamais bien longtemps ancrés au même endroit. On leur attribue souvent des problèmes sociétaires qui sont ignorés lorsqu’ils ne sont pas présents, par exemple les mauvaises récoltes et un taux élevé de criminalité.",
+        "Summary": "Caravaniers libres, artistes rusés, flamboyants et solidaires.",
+        "HtmlContent": "Petits et vifs, les Gitans (nom d’origine _Gitsani_) vivent en caravanes aux couleurs flamboyantes, portés par la musique, la danse et l’art de la route. Chassés d’Orijìsa (terre chaude de fleuves sacrés et cités-États), ils ont migré vers l’Ouest durant les derniers siècles jusqu’à l’Ouespéro, surtout Orrixe, Ixaravie, Kaldaya et Arvanie. Clanique et solidaire, leur peuple est apprécié mais souvent rejeté, accusé de vols et de malheurs.",
         "NamesSelection": "Female:Allimin,Cashmere,Elderi,Gentin,Jemm,Laila,Magdan,Penell,Sayki,Zubia\nMale:Barendo,Dawali,Fennix,Hesod,Norryt,Ozray,Piram,Riton,Tralgar,Vanus",
-        "MetaDescription": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez les Gitans, peuple caravanier venu d’Orijìsa, artistes et voyageurs solidaires dont la liberté, la ruse et la musique façonnent la route.",
+        "Morphology": "Petits et nerveux, les Gitans ont des gestes précis, des yeux vifs et des traits souvent marqués par le soleil et la route. Ils privilégient des vêtements confortables aux couleurs vives, des bijoux et des étoffes flamboyantes, adaptés à la vie en caravane. Leur silhouette se fond facilement dans la foule, ce qui renforce leur réputation de discrétion.",
+        "Psychology": "Curieux, sociables et rusés, ils lisent vite l’humeur d’un groupe et savent désamorcer (ou attiser) une tension par l’humour et la musique. Leur sens de la liberté prime sur l’ordre établi, ce qui les rend insaisissables aux yeux des autorités. Opportunistes mais loyaux envers les leurs, ils protègent leur clan avant toute chose.",
+        "Culture": "Leur vie s’organise autour de la caravane, qui tient lieu de foyer, d’atelier et de scène ambulante. Chants, danse, récits et spectacles sont au cœur de leur identité, héritage d’une ancienne caste d’artistes itinérants. Ils transmettent leurs savoir-faire par la famille : astuces de route, artisanat léger, tours d’adresse et codes de discrétion.",
+        "History": "Chassés de leur pays d’origine en Orijìsa, une terre chaude aux plaines poussiéreuses, aux cités-États et aux fleuves sacrés, ils ont fui par vagues durant les derniers siècles. Leur migration vers l’Ouest s’est faite lentement, freinée par le rejet, les frontières et les climats trop rudes. Chaque étape a laissé des familles éclatées, des noms changés et des rancunes tenaces.",
+        "Geography": "En Ouespéro, on les croise surtout dans le Sud et l’Est : Orrixe, Ixaravie, Kaldaya et Arvanie, le long des routes marchandes, des foires et des marges urbaines. Ils s’installent rarement plus d’une saison au même endroit, privilégiant les haltes près des marchés et des gués. Les plaines tempérées et les régions agricoles leur conviennent, tant pour la circulation que pour les occasions de travail.",
+        "Relations": "Ils cherchent à s’entendre avec tous et s’adaptent facilement aux coutumes locales, mais leur réputation de voleurs, d’arnaqueurs et de “sans honneur” entraîne méfiance et exclusions. On les tolère pour leurs services (musique, artisanat, guides, messagers), puis on les accuse des malchances quand ils repartent. Ils gardent donc une diplomatie prudente : sourires en public, vigilance en privé.",
+        "Politics": "Leur structure est clanique : une caravane regroupe plusieurs familles, guidées par un ancien, une doyenne ou un duo de “chefs de route” reconnus pour leur jugement. Les conflits se règlent par arbitrage interne, serments, compensations et bannissement plutôt que par recours aux lois locales. Les alliances entre caravanes sont souples, faites d’échanges, de mariages et de dettes d’honneur",
+        "LanguagesText": "Les Gitans parlent la langue de la contrée qui les a accueillis : [Arvanien](/regles/langues/arvanien), [Kroumien](/regles/langues/kroumien), [Orrinique](/regles/langues/orrinique) et [Thrixe](/regles/langues/thrixe) sont des exemples pertinents."
       }
     }
   }

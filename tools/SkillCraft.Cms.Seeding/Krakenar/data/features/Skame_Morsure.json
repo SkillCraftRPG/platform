@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e556504c-cb7f-4de5-9ecc-544c3bcfb70d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Skame_Morsure",
+    "DisplayName": "Morsure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Skame_Morsure",
+      "DisplayName": "Morsure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’une puissante mâchoire. Il peut effectuer une morsure ([attaque de mêlée](/regles/combat/attaque/melee)) par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

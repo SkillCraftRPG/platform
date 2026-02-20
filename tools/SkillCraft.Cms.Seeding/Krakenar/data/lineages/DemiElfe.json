@@ -3,7 +3,7 @@
   "Invariant": {
     "IsPublished": true,
     "UniqueName": "DemiElfe",
-    "DisplayName": "Demi-elfe",
+    "DisplayName": "Demi-Elfe",
     "Description": null,
     "FieldValues": {
       "ExtraLanguages": "3",
@@ -19,15 +19,22 @@
     "fr": {
       "IsPublished": true,
       "UniqueName": "DemiElfe",
-      "DisplayName": "Demi-elfe",
+      "DisplayName": "Demi-Elfe",
       "Description": null,
       "FieldValues": {
         "Slug": "demi-elfe",
-        "HtmlContent": "Issus de croisements entre [humains](/regles/especes/humain) et [elfes](/regles/especes/elfe), les demi-elfes ont hérité de certaines qualités de chacune de ces espèces. Leurs traditions et valeurs varient grandement en fonction de s’ils ont été élevés par un seul de leurs deux parents, ou par leurs deux parents, ce qui est très rare. Leur longévité les place dans une situation déconcertante, puisqu’ils voient leur parent humain mourir, mais décèdent généralement avant leur parent elfique. De manière générale, s’ils ont été élevés à l’écart des sociétés de leurs parents, ils développement une affinité avec les individus marginaux. Sinon, ils apprennent à composer avec les différences et deviennent d’excellents médiateurs.",
-        "Summary": "Demi-elfe, héritier humain et elfique, adaptable et polyvalent.",
+        "HtmlContent": "Issus d’unions entre [Humains](/regles/especes/humain) et [Elfes](/regles/especes/elfe), les Demi-Elfes combinent longévité intermédiaire, adaptabilité et talent diplomatique. Répandus en Ouespéro, notamment dans les Triskîles, la Griffe Noire et en Sarénie, ils servent souvent d’intermédiaires culturels. Sans nation propre, ils adoptent la culture de leur éducation et excellent par leur apprentissage accéléré, leur résistance aux effets de sommeil et leur grande versatilité.",
+        "Summary": "Demi-Elfe, héritier humain et elfique, adaptable et polyvalent.",
         "LanguagesText": "Le personnage apprend la langue maternelle du parent qui l’a élevé ainsi que 2 langues supplémentaires au choix.\n\nS’il a été élevé par ses deux parents, il apprend la langue maternelle de ses deux parents ainsi qu’une langue supplémentaire au choix.",
-        "NamesText": "Le personnage porte un nom et un prénom en fonction du parent qui l’a élevé.\n\nIl n’est pas rare de voir un demi-elfe élevé par ses deux parents porter un prénom elfique et un nom de famille humain ou vice-versa.",
-        "MetaDescription": "Découvrez le demi-elfe : héritier des humains et des elfes, alliant longévité, adaptabilité sociale, apprentissage accéléré et héritage elfique."
+        "NamesText": "Le personnage porte un nom et un prénom en fonction du parent qui l’a élevé.\n\nIl n’est pas rare de voir un Demi-Elfe élevé par ses deux parents porter un prénom elfique et un nom de famille humain ou vice-versa.",
+        "MetaDescription": "Découvrez le Demi-Elfe : héritier des Humains et des Elfes, alliant longévité, adaptabilité sociale, apprentissage accéléré et héritage elfique.",
+        "Morphology": "Les Demi-Elfes présentent un mélange harmonieux de traits humains et elfiques : oreilles légèrement pointues, regard vif, silhouette élancée mais plus robuste qu’un elfe. Ils atteignent l’âge adulte vers 20 ans et vivent en moyenne 160 ans, avec une maturité plus lente que celle des Humains. Leur endurance et leur adaptabilité reflètent leur double héritage.",
+        "Psychology": "Partagés entre deux mondes, ils développent une forte capacité d’adaptation et un talent naturel pour la médiation. Leur longévité intermédiaire les place dans une position existentielle unique : témoins du passage des générations humaines sans appartenir pleinement à l’éternité elfique. Beaucoup manifestent une grande curiosité et une soif d’apprentissage marquée.",
+        "Culture": "Les Demi-Elfes n’ont pas de culture homogène : ils adoptent souvent celle du parent qui les a élevés, tout en intégrant des éléments de l’autre héritage. Ils valorisent l’éducation, la polyvalence et la maîtrise de plusieurs langues. Les unions mixtes étant rares mais reconnues, leur identité est souvent vécue comme un pont plutôt qu’une fracture.",
+        "History": "Au fil des siècles, leur nombre a augmenté autour des royaumes elfiques d’Ouespéro, où les contacts prolongés ont favorisé les unions mixtes. Leur rôle de diplomates, érudits et aventuriers s’est renforcé lors des périodes de tensions entre Humains et Elfes. Dans plusieurs cités, ils ont gagné reconnaissance grâce à leurs talents exceptionnels.",
+        "Geography": "On les retrouve principalement autour des royaumes elfiques, presque aussi répandus que les Humains en Ouespéro. Les plus fortes concentrations se situent dans les Triskîles, la Griffe Noire et en Sarénie. Leur présence est également notable dans les grandes cités cosmopolites où cohabitent plusieurs espèces.",
+        "Politics": "Les Demi-Elfes ne forment pas d’État propre, mais s’intègrent aux structures humaines ou elfiques existantes. Ils occupent fréquemment des rôles d’intermédiaires, de conseillers ou de magistrats grâce à leur compréhension des deux sociétés. Leur loyauté dépend davantage de leurs valeurs que d’une appartenance raciale stricte.",
+        "Relations": "Ils entretiennent des relations relativement harmonieuses avec Humains et Elfes, bien que certains milieux conservateurs demeurent méfiants. Leur double ascendance en fait des médiateurs naturels, mais aussi des cibles de préjugés dans les régions plus fermées. Ils s’entendent généralement bien avec les peuples ouverts et urbains."
       }
     }
   }

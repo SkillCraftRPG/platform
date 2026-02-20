@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9e42d9e8-1b51-4f1a-99d6-3ed26661c9fe",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SangDragon_ResistanceDraconique",
+    "DisplayName": "Résistance draconique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SangDragon_ResistanceDraconique",
+      "DisplayName": "Résistance draconique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert gratuitement le talent [Résistance](/regles/talents/resistance). Il est également [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) du [type](/regles/combat/degats/types) associé à son _Souffle draconique_."
+      }
+    }
+  }
+}

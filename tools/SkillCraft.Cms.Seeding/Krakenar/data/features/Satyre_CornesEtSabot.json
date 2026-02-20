@@ -1,0 +1,21 @@
+﻿{
+  "Id": "19fe3fa2-de23-470d-b9dd-62f2fef224b3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Satyre_CornesEtSabot",
+    "DisplayName": "Cornes et sabot",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Satyre_CornesEtSabot",
+      "DisplayName": "Cornes et sabot",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté de cornes et de sabots. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ceux-ci par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats/jet) [létaux](/regles/combat/degats/letalite) [contondants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}
