@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e73cc4be-5263-4d76-98f7-a90cc2a352ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Satyre_Allegresse",
+    "DisplayName": "Allégresse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Satyre_Allegresse",
+      "DisplayName": "Allégresse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Représentation](/regles/talents/representation). Lorsqu’il effectue un [saut](/regles/aventure/mouvement/types), il peut utiliser un [point de mouvement](/regles/aventure/mouvement/vitesse) supplémentaire afin d’ajouter 1d8 multiplié par 30 centimètres à la distance du saut."
+      }
+    }
+  }
+}

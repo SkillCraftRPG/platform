@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c0dd388c-c123-4894-9386-19296087b799",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Skame_FourrureEpaisse",
+    "DisplayName": "Fourrure épaisse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Skame_FourrureEpaisse",
+      "DisplayName": "Fourrure épaisse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types). Il est également immunisé aux effets du climat nordique extrême."
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 ﻿{
-  "Id": "198b3f9c-993e-4f65-bebf-c2ad089542a9",
+  "Id": "83149e02-5194-4157-acd7-5237c76505ba",
   "Invariant": {
     "IsPublished": true,
-    "UniqueName": "DemiOrque_ApprentissageAccelere",
+    "UniqueName": "SangDragon_ApprentissageAccelere",
     "DisplayName": "Apprentissage accéléré",
     "Description": null,
     "FieldValues": {}
@@ -10,7 +10,7 @@
   "Locales": {
     "fr": {
       "IsPublished": true,
-      "UniqueName": "DemiOrque_ApprentissageAccelere",
+      "UniqueName": "SangDragon_ApprentissageAccelere",
       "DisplayName": "Apprentissage accéléré",
       "Description": null,
       "FieldValues": {
