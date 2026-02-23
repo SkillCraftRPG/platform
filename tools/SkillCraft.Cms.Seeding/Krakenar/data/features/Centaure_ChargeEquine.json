@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e747eb87-c01b-4b96-a8e4-c67eeaf2fcf7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Centaure_ChargeEquine",
+    "DisplayName": "Charge équine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Centaure_ChargeEquine",
+      "DisplayName": "Charge équine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses sabots en [action libre](/regles/combat/deroulement/tour) lorsqu’il [court](/regles/aventure/mouvement/types) en ligne droite sur une distance d’au moins 4,5 mètres immédiatement avant d’effectuer cette [attaque](/regles/combat/attaque). Si l’attaque réussit, il inflige [1d6 points de dégâts](/regles/combat/degats/jet) supplémentaires. Tous les [dégâts](/regles/combat/degats) infligés sont [létaux](/regles/combat/degats/letalite) et [contondants](/regles/combat/degats/types).\n\nSi la [taille](/regles/especes/taille) de la cible est inférieure ou égale à celle du personnage, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou d’[Athlétisme](/regles/competences/athletisme). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de l’attaque effectuée par le personnage. En cas d’échec, la cible est repoussée de 1,5 mètres.\n\nCette capacité peut être combinée au talent [Charge](/regles/talents/charge)."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b7e8ea7c-1853-4549-95d9-b41a5fe89703",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure_ChargeSanglante",
+    "DisplayName": "Charge sanglante",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure_ChargeSanglante",
+      "DisplayName": "Charge sanglante",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses cornes en [action libre](/regles/combat/deroulement/tour) lorsqu’il [court](/regles/aventure/mouvement/types) en ligne droite sur une distance d’au moins 6 mètres immédiatement avant d’effectuer cette [attaque](/regles/combat/attaque). Cette capacité peut être combinée au talent [Charge](/regles/talents/charge).\n\nLa cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de Mêlée de l’[attaque](/regles/combat/attaque) effectuée par le personnage. En cas d’échec, si la cible [se&nbsp;déplace](/regles/combat/activites/deplacement) ou effectue plus d’une [action](/regles/combat/deroulement/tour) pendant son prochain [tour](/regles/combat/deroulement/tour), alors elle reçoit [1d4](/regles/combat/degats/jet) + moitié de la [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats/jet) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types) à la fin de ce tour."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "30ef452c-52ff-4ceb-9c21-16903657d595",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amphydre_LutteurAmphibien",
+    "DisplayName": "Lutteur amphibien",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amphydre_LutteurAmphibien",
+      "DisplayName": "Lutteur amphibien",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) : il peut respirer hors de l’eau et [sous l’eau](/regles/aventure/environnement/suffocation). Il peut acquérir [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Mêlée](/regles/talents/melee)."
+      }
+    }
+  }
+}

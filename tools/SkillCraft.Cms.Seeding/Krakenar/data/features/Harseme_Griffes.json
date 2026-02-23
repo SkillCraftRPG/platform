@@ -1,0 +1,21 @@
+﻿{
+  "Id": "09e09913-3f3c-4833-9033-49d064b7e440",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Harseme_Griffes",
+    "DisplayName": "Griffes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Harseme_Griffes",
+      "DisplayName": "Griffes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté de griffes acérées. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses griffes par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d4](/regles/combat/degats/jet) + moitié de sa [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [tranchants](/regles/combat/degats/types).\n\nLa cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). La [difficulté](/regles/competences/tests/difficulte) correspond au résultat du test de Mêlée de l’[attaque](/regles/combat/attaque) effectuée par le personnage. En cas d’échec, les points de dégâts sont répétés à la fin du prochain [tour](/regles/combat/deroulement/tour) de la cible si elle [se déplace](/regles/combat/activites/deplacement) ou effectue plus d’une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

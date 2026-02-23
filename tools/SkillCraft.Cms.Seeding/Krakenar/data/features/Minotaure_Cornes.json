@@ -1,0 +1,21 @@
+﻿{
+  "Id": "746deba0-bb90-4087-9535-e954322d0b53",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure_Cornes",
+    "DisplayName": "Cornes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure_Cornes",
+      "DisplayName": "Cornes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’imposantes cornes. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec celles-ci par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d8](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats/jet) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types).\n\nÉgalement, il peut [bousculer](/regles/combat/activites/bousculer) une créature en utilisant ses cornes afin de la repousser de 3 mètres."
+      }
+    }
+  }
+}

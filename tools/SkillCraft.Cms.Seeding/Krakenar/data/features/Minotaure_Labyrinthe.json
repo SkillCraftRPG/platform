@@ -1,0 +1,21 @@
+﻿{
+  "Id": "eae779a4-a38b-42ca-8279-a0d527d8d1ea",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure_Labyrinthe",
+    "DisplayName": "Labyrinthe",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure_Labyrinthe",
+      "DisplayName": "Labyrinthe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage tente de trouver le Nord relativement à sa position actuelle, ou lorsqu’il tente de [se déplacer](/regles/aventure/mouvement) sans se perdre, il ajoute à son [test](/regles/competences/tests) de [Survie](/regles/competences/survie) un bonus égal à son [tiers](/regles/personnages/progression/tiers). Lorsqu’il atteint le tiers 2, il peut remplacer ce bonus par un [avantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

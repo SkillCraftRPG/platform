@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ea0d172d-0cc4-4e62-988a-d61f277c36db",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Centaure_ArpenteurDesPlaines",
+    "DisplayName": "Arpenteur des plaines",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Centaure_ArpenteurDesPlaines",
+      "DisplayName": "Arpenteur des plaines",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les Centaures sont de dangereux archers, tirant des flèches en se déplaçant à vitesse fulgurante. Ils sont également acclimatés aux champs de bataille. Le personnage peut acquérir [à&nbsp;rabais](/regles/talents/points) les talents [Médecine](/regles/talents/medecine) et [Orientation](/regles/talents/orientation).\n\nSa conception équine le dote d’une [vitesse](/regles/aventure/mouvement/vitesse) avantageuse et d’une [capacité de portage](/regles/equipement/encombrement) augmentée. Il peut également servir de [monture](/regles/combat/monte) pour une créature de taille [Moyenne](/regles/especes/taille) ou moindre. Néanmoins, cette conception l’empêche de passer là où une créature de taille [Moyenne](/regles/especes/taille) aurait de la difficulté à s’y faufiler, et ralentit considérablement son [escalade](/regles/aventure/mouvement/types)."
+      }
+    }
+  }
+}

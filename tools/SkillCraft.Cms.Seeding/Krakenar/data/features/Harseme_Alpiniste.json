@@ -1,0 +1,21 @@
+﻿{
+  "Id": "20106644-7c37-4caa-a4a6-49e390ae6a81",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Harseme_Alpiniste",
+    "DisplayName": "Alpiniste",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Harseme_Alpiniste",
+      "DisplayName": "Alpiniste",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) le talent [Athlétisme](/regles/talents/athletisme). Il peut également communiquer des idées simples aux ours."
+      }
+    }
+  }
+}

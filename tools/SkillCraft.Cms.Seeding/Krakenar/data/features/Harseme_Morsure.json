@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9d55e745-1a1e-444e-84c1-341bb3c92c28",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Harseme_Morsure",
+    "DisplayName": "Morsure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Harseme_Morsure",
+      "DisplayName": "Morsure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’une puissante mâchoire. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec sa morsure par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types). Si la [taille](/regles/especes/taille) de la cible est supérieure à la sienne, il remplace le d6 par 1 ; sinon, si elle est inférieure à la sienne, il remplace la d6 par un d12."
+      }
+    }
+  }
+}
