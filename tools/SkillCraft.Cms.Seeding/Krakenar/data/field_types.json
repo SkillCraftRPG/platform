@@ -388,6 +388,16 @@
     }
   },
   {
+    "Id": "904d8967-668c-43f8-a1fd-16ea83705f47",
+    "UniqueName": "SpellCategory",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "1d982455-5dd9-4710-bab4-d8100fc0d718",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "697e3eb4-11ac-4f1f-b324-d0c18d84ac62",
     "UniqueName": "SpellDuration",
     "DisplayName": null,

@@ -840,6 +840,27 @@
     ]
   },
   {
+    "Id": "1d982455-5dd9-4710-bab4-d8100fc0d718",
+    "IsInvariant": false,
+    "UniqueName": "SpellCategory",
+    "DisplayName": "Catégorie de pouvoir",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "d377ab80-e11c-4c9e-ba8f-0f360ccee891",
+        "FieldType": "SpellCategory",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Parent",
+        "DisplayName": "Parent",
+        "Description": null,
+        "Placeholder": "Sélectionnez une catégorie parente"
+      }
+    ]
+  },
+  {
     "Id": "7d8f12b5-2399-4fed-a3b6-b7a914637a94",
     "IsInvariant": false,
     "UniqueName": "SpellEffect",
