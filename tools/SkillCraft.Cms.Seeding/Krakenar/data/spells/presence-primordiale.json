@@ -6,7 +6,8 @@
     "DisplayName": "Présence primordiale",
     "Description": null,
     "FieldValues": {
-      "Tier": "2"
+      "Tier": "2",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
     }
   },
   "Locales": {

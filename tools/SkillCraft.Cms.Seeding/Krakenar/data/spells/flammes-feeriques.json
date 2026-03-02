@@ -6,7 +6,8 @@
     "DisplayName": "Flammes féériques",
     "Description": null,
     "FieldValues": {
-      "Tier": "0"
+      "Tier": "0",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
     }
   },
   "Locales": {

@@ -6,7 +6,8 @@
     "DisplayName": "Lumière",
     "Description": null,
     "FieldValues": {
-      "Tier": "0"
+      "Tier": "0",
+      "Categories": "[\"f73dae6b-0081-4520-a5cf-6391b76f7538\",\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
     }
   },
   "Locales": {

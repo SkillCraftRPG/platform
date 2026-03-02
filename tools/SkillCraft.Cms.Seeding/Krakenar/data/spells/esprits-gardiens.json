@@ -6,7 +6,8 @@
     "DisplayName": "Esprits gardiens",
     "Description": null,
     "FieldValues": {
-      "Tier": "2"
+      "Tier": "2",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
     }
   },
   "Locales": {

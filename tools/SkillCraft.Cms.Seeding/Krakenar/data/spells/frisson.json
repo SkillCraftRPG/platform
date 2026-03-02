@@ -6,7 +6,8 @@
     "DisplayName": "Frisson",
     "Description": null,
     "FieldValues": {
-      "Tier": "0"
+      "Tier": "0",
+      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\"]"
     }
   },
   "Locales": {

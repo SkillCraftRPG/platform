@@ -6,7 +6,8 @@
     "DisplayName": "Affaiblissement",
     "Description": null,
     "FieldValues": {
-      "Tier": "1"
+      "Tier": "1",
+      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\"]"
     }
   },
   "Locales": {
