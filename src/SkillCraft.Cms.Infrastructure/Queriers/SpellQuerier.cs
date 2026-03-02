@@ -75,9 +75,7 @@ internal class SpellQuerier : ISpellQuerier
     }
 
     IQueryable<SpellEntity> query = _spells.FromQuery(builder).AsNoTracking()
-      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent) // TODO(fpion): do we want to include this?
-      .Include(x => x.Effects) // TODO(fpion): do we want to include this?
-      .AsSplitQuery();
+      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent);
 
     long total = await query.LongCountAsync(cancellationToken);
 
