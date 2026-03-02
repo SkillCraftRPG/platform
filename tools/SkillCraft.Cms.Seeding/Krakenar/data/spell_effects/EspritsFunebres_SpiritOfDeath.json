@@ -1,0 +1,32 @@
+﻿{
+  "Id": "486168bd-9c4c-4e97-b402-e0bcd82940b8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsFunebres_SpiritOfDeath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6550f103-e1f1-4768-b656-b180b2fd998e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsFunebres_SpiritOfDeath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "\uD83D\uDEA7a gilded playing card worth at least 400 gp and depicting an avatar of death",
+        "HtmlContent": "[\uD83D\uDEA7Spirit of Death](https://dnd5e.wikidot.com/spell:spirit-of-death)"
+      }
+    }
+  }
+}

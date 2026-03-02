@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4da1ba8d-9d16-4ed1-945b-fde22299c33f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Calamite_ShadowOfMoil",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a9925d0b-4b15-408f-88b9-c81f43982c8e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Calamite_ShadowOfMoil",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "\uD83D\uDEA7an undead eyeball encased in a gem worth at least 150 gp",
+        "HtmlContent": "[\uD83D\uDEA7Shadow of Moil](https://dnd5e.wikidot.com/spell:shadow-of-moil)"
+      }
+    }
+  }
+}

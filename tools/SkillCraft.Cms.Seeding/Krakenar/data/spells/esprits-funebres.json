@@ -1,0 +1,26 @@
+﻿{
+  "Id": "6550f103-e1f1-4768-b656-b180b2fd998e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "esprits-funebres",
+    "DisplayName": "Esprits funèbres",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "esprits-funebres",
+      "DisplayName": "Esprits funèbres",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "esprits-funebres",
+        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

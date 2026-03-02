@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d30b2e83-c9eb-47e7-9a35-f6b224fc4756",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Transe",
+    "DisplayName": "Transe",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Transe",
+      "DisplayName": "Transe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut remplacer la [nuit de sommeil](/regles/aventure/repos/sommeil) conventionnelle de [8 heures](/regles/aventure/temps) par une transe d’une durée de seulement 4 heures. Compléter cette transe procure les mêmes effets que de compléter une nuit de sommeil. Pendant cette transe, le personnage est en état de conscience partielle, mélangeant rêves éveillés et lucidité détachée. Il demeure partiellement réceptif à son [environnement](/regles/aventure/environnement) et peut effectuer avec [désavantage](/regles/competences/tests/avantage-desavantage) des [tests passifs](/regles/competences/tests/passif)."
+      }
+    }
+  }
+}

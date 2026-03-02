@@ -1,0 +1,26 @@
+﻿{
+  "Id": "1c0b27c3-8482-4140-b73c-f83ac990b7d9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "danse-macabre",
+    "DisplayName": "Danse macabre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "danse-macabre",
+      "DisplayName": "Danse macabre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "danse-macabre",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

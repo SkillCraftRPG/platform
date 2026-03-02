@@ -1,0 +1,26 @@
+﻿{
+  "Id": "aee35884-6833-4d7b-a691-0567fc4905ba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "toucher-vampirique",
+    "DisplayName": "Toucher vampirique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "toucher-vampirique",
+      "DisplayName": "Toucher vampirique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "toucher-vampirique",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

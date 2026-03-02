@@ -1,0 +1,31 @@
+﻿{
+  "Id": "906ca6c2-562b-4d92-90cd-4b5c14df52e8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DanseMacabre_SpeakWithDead",
+    "DisplayName": "\uD83D\uDEA7Speak with Dead",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DanseMacabre_SpeakWithDead",
+      "DisplayName": "\uD83D\uDEA7Speak with Dead",
+      "Description": null,
+      "FieldValues": {
+        "Material": "\uD83D\uDEA7burning incense",
+        "HtmlContent": "[\uD83D\uDEA7Speak with Dead](https://dnd5e.wikidot.com/spell:speak-with-dead)"
+      }
+    }
+  }
+}

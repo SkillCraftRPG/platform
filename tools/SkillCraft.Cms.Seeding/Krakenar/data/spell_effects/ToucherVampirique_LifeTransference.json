@@ -1,0 +1,30 @@
+﻿{
+  "Id": "fe9bfa4f-8e33-4632-bfc0-8af558ce421e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ToucherVampirique_LifeTransference",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ToucherVampirique_LifeTransference",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "[\uD83D\uDEA7Life Transference](https://dnd5e.wikidot.com/spell:life-transference)"
+      }
+    }
+  }
+}

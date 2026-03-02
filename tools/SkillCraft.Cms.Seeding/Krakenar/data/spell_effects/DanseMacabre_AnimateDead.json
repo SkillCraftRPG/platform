@@ -1,0 +1,31 @@
+﻿{
+  "Id": "20cbea16-2489-4d14-88a6-ae97d0701758",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DanseMacabre_AnimateDead",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DanseMacabre_AnimateDead",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "\uD83D\uDEA7a drop of blood, a piece of flesh, and a pinch of bone dust",
+        "HtmlContent": "[\uD83D\uDEA7Animate Dead](https://dnd5e.wikidot.com/spell:animate-dead)"
+      }
+    }
+  }
+}

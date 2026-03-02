@@ -1,0 +1,30 @@
+﻿{
+  "Id": "49afb53c-d623-4e33-a653-6fc753f89e07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Calamite_Contagion",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a9925d0b-4b15-408f-88b9-c81f43982c8e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "7",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Calamite_Contagion",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "[\uD83D\uDEA7Contagion](https://dnd5e.wikidot.com/spell:contagion)"
+      }
+    }
+  }
+}
