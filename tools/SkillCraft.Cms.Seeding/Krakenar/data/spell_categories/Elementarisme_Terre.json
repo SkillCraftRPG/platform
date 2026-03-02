@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b5cf4d52-3016-4bf0-bb8c-590a932fe4a3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Terre",
+    "DisplayName": "Terre",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Terre",
+      "DisplayName": "Terre",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

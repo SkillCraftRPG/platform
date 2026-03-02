@@ -1,0 +1,21 @@
+﻿{
+  "Id": "69ac2700-0c05-4b85-81d5-8077ca6de3bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie_Divination",
+    "DisplayName": "Divination",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie_Divination",
+      "DisplayName": "Divination",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

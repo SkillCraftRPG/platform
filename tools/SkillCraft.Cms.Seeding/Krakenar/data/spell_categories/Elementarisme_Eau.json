@@ -1,0 +1,21 @@
+﻿{
+  "Id": "33d8701a-a13e-4ed3-8ac0-b48e9ef86331",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Eau",
+    "DisplayName": "Eau",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Eau",
+      "DisplayName": "Eau",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

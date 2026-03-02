@@ -1,0 +1,19 @@
+﻿{
+  "Id": "f73dae6b-0081-4520-a5cf-6391b76f7538",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "BricolageMagique",
+    "DisplayName": "Bricolage magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "BricolageMagique",
+      "DisplayName": "Bricolage magique",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

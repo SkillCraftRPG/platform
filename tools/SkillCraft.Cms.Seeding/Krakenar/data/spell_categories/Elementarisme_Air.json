@@ -1,0 +1,21 @@
+﻿{
+  "Id": "71b92bd3-a2bc-4da1-b15b-5eb594bbae4e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Air",
+    "DisplayName": "Air",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Air",
+      "DisplayName": "Air",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

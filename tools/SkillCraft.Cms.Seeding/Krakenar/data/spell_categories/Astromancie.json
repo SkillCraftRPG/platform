@@ -1,0 +1,19 @@
+﻿{
+  "Id": "1101ee27-ddf6-4be3-b7e8-e5673dd8aed0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie",
+    "DisplayName": "Astromancie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie",
+      "DisplayName": "Astromancie",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

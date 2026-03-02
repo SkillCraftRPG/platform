@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a3ff2814-40dd-477b-b963-bcbb43e71265",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Cristal",
+    "DisplayName": "Cristal",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Cristal",
+      "DisplayName": "Cristal",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

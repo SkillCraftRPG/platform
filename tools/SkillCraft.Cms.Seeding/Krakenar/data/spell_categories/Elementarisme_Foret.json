@@ -1,0 +1,21 @@
+﻿{
+  "Id": "8af77769-d02b-4daf-90c6-018c39b4f80b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Foret",
+    "DisplayName": "Forêt",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Foret",
+      "DisplayName": "Forêt",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

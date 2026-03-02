@@ -1,0 +1,19 @@
+﻿{
+  "Id": "a9afcc4b-9206-4964-8b97-052e6deda17f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Illusion",
+    "DisplayName": "Illusion",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Illusion",
+      "DisplayName": "Illusion",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

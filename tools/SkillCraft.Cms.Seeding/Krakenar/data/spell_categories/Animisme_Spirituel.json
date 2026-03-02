@@ -1,0 +1,21 @@
+﻿{
+  "Id": "eb07a636-7566-42ae-b2cc-c049c08247f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Animisme_Spirituel",
+    "DisplayName": "Spirituel",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Animisme_Spirituel",
+      "DisplayName": "Spirituel",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
