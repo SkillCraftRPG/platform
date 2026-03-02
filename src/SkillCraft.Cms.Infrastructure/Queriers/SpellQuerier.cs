@@ -65,10 +65,18 @@ internal class SpellQuerier : ISpellQuerier
       object[] tiers = payload.Tiers.Distinct().Select(tier => (object)tier).ToArray();
       builder.Where(RulesDb.Spells.Tier, Operators.IsIn(tiers));
     }
+    if (payload.CategoryId.HasValue)
+    {
+      builder.Join(RulesDb.SpellCategoryAssociations.SpellId, RulesDb.Spells.SpellId)
+        .Join(RulesDb.SpellCategories.SpellCategoryId, RulesDb.SpellCategoryAssociations.SpellCategoryId)
+        .WhereOr(
+          new OperatorCondition(RulesDb.SpellCategories.Id, Operators.IsEqualTo(payload.CategoryId.Value)),
+          new OperatorCondition(RulesDb.SpellCategories.ParentUid, Operators.IsEqualTo(payload.CategoryId.Value)));
+    }
 
     IQueryable<SpellEntity> query = _spells.FromQuery(builder).AsNoTracking()
-      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent)
-      .Include(x => x.Effects)
+      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent) // TODO(fpion): do we want to include this?
+      .Include(x => x.Effects) // TODO(fpion): do we want to include this?
       .AsSplitQuery();
 
     long total = await query.LongCountAsync(cancellationToken);

@@ -6,6 +6,7 @@ public record SearchSpellsPayload : SearchPayload
 {
   public List<string> Slugs { get; set; } = [];
   public List<int> Tiers { get; set; } = [];
+  public Guid? CategoryId { get; set; }
 
   public new List<SpellSortOption> Sort { get; set; } = [];
 }

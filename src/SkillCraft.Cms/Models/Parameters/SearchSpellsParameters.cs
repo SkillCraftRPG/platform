@@ -13,9 +13,15 @@ public record SearchSpellsParameters : SearchParameters
   [FromQuery(Name = "tier")]
   public List<int> Tiers { get; set; } = [];
 
+  [FromQuery(Name = "category")]
+  public Guid? CategoryId { get; set; }
+
   public virtual SearchSpellsPayload ToPayload()
   {
-    SearchSpellsPayload payload = new();
+    SearchSpellsPayload payload = new()
+    {
+      CategoryId = CategoryId
+    };
     payload.Slugs.AddRange(Slugs);
     payload.Tiers.AddRange(Tiers);
     Fill(payload);
