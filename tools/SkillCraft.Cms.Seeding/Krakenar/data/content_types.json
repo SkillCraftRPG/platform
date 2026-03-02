@@ -790,6 +790,18 @@
         "Placeholder": null
       },
       {
+        "Id": "7bcf18a1-964b-44ab-aff8-632c20c1ea41",
+        "FieldType": "SpellCategories",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Categories",
+        "DisplayName": "Catégories",
+        "Description": null,
+        "Placeholder": "Sélectionnez une ou plusieurs catégories"
+      },
+      {
         "Id": "9ed1e05f-62af-48d8-a87e-7e734cddf6a4",
         "FieldType": "Slug",
         "IsInvariant": false,

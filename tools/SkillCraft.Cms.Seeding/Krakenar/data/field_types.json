@@ -398,6 +398,16 @@
     }
   },
   {
+    "Id": "b9759417-abc3-42d0-b1fc-0fe2579f5acd",
+    "UniqueName": "SpellCategories",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "1d982455-5dd9-4710-bab4-d8100fc0d718",
+      "IsMultiple": true
+    }
+  },
+  {
     "Id": "697e3eb4-11ac-4f1f-b324-d0c18d84ac62",
     "UniqueName": "SpellDuration",
     "DisplayName": null,
