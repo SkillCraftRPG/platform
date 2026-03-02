@@ -18,7 +18,7 @@ internal class SpellCategoryEntity : AggregateEntity
     get => Helper.Normalize(Key);
     private set { }
   }
-  public string? Name { get; set; }
+  public string Name { get; set; } = string.Empty;
 
   public SpellCategoryEntity? Parent { get; private set; }
   public int? ParentId { get; private set; }

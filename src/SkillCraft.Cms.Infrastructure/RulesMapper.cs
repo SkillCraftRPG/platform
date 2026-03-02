@@ -397,6 +397,16 @@ internal class RulesMapper
       HtmlContent = source.HtmlContent
     };
 
+    foreach (SpellCategoryAssociationEntity association in source.Categories)
+    {
+      SpellCategoryEntity category = association.SpellCategory
+        ?? throw new ArgumentException($"The spell category is required (SpellId={association.SpellId}, SpellCategoryId={association.SpellCategoryId}).", nameof(source));
+      if (category.IsPublished)
+      {
+        destination.Categories.Add(ToSpellCategory(category));
+      }
+    }
+
     foreach (SpellEffectEntity effect in source.Effects)
     {
       if (effect.IsPublished)
@@ -437,6 +447,30 @@ internal class RulesMapper
     destination.Components.Material = source.Material;
     destination.Components.Somatic = source.IsSomatic;
     destination.Components.Verbal = source.IsVerbal;
+
+    return destination;
+  }
+
+  public static SpellCategoryModel ToSpellCategory(SpellCategoryEntity source)
+  {
+    SpellCategoryModel destination = new()
+    {
+      Id = source.Id,
+      Key = source.Key,
+      Name = source.Name
+    };
+
+    if (source.Parent is not null)
+    {
+      if (source.Parent.IsPublished)
+      {
+        destination.Parent = ToSpellCategory(source.Parent);
+      }
+    }
+    else if (source.ParentId.HasValue)
+    {
+      throw new ArgumentException("The parent category is required.", nameof(source));
+    }
 
     return destination;
   }
