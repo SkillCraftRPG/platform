@@ -50,8 +50,8 @@ internal class ExportWorker : BackgroundService
       await ExecuteAsync(new ExportContentsTask(LineageDefinition.ContentTypeId, "output/data/lineages"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(SpecializationDefinition.ContentTypeId, "output/data/specializations"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(DoctrineDefinition.ContentTypeId, "output/data/doctrines"), cancellationToken);
-      await ExecuteAsync(new ExportContentsTask(SpellDefinition.ContentTypeId, "output/data/spells"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(SpellCategoryDefinition.ContentTypeId, "output/data/spell_categories"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SpellDefinition.ContentTypeId, "output/data/spells"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(SpellEffectDefinition.ContentTypeId, "output/data/spell_effects"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(ProgressDefinition.ContentTypeId, "output/data/progress"), cancellationToken);
       // TODO(fpion): QuestLog
