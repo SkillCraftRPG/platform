@@ -29,6 +29,7 @@ internal class SpellQuerier : ISpellQuerier
   {
     SpellEntity? spell = await _spells.AsNoTracking()
       .Where(x => x.Id == id && x.IsPublished)
+      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent)
       .Include(x => x.Effects)
       .SingleOrDefaultAsync(cancellationToken);
     return spell is null ? null : await MapAsync(spell, cancellationToken);
@@ -38,6 +39,7 @@ internal class SpellQuerier : ISpellQuerier
     string slugNormalized = Helper.Normalize(slug);
     SpellEntity? spell = await _spells.AsNoTracking()
       .Where(x => x.SlugNormalized == slugNormalized && x.IsPublished)
+      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent)
       .Include(x => x.Effects)
       .SingleOrDefaultAsync(cancellationToken);
     return spell is null ? null : await MapAsync(spell, cancellationToken);
@@ -63,9 +65,17 @@ internal class SpellQuerier : ISpellQuerier
       object[] tiers = payload.Tiers.Distinct().Select(tier => (object)tier).ToArray();
       builder.Where(RulesDb.Spells.Tier, Operators.IsIn(tiers));
     }
+    if (payload.CategoryId.HasValue)
+    {
+      builder.Join(RulesDb.SpellCategoryAssociations.SpellId, RulesDb.Spells.SpellId)
+        .Join(RulesDb.SpellCategories.SpellCategoryId, RulesDb.SpellCategoryAssociations.SpellCategoryId)
+        .WhereOr(
+          new OperatorCondition(RulesDb.SpellCategories.Id, Operators.IsEqualTo(payload.CategoryId.Value)),
+          new OperatorCondition(RulesDb.SpellCategories.ParentUid, Operators.IsEqualTo(payload.CategoryId.Value)));
+    }
 
     IQueryable<SpellEntity> query = _spells.FromQuery(builder).AsNoTracking()
-      .Include(x => x.Effects);
+      .Include(x => x.Categories).ThenInclude(x => x.SpellCategory).ThenInclude(x => x!.Parent);
 
     long total = await query.LongCountAsync(cancellationToken);
 

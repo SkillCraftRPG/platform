@@ -26,6 +26,7 @@ internal class SpellEntity : AggregateEntity
   public string? Summary { get; set; }
   public string? HtmlContent { get; set; }
 
+  public List<SpellCategoryAssociationEntity> Categories { get; private set; } = [];
   public List<SpellEffectEntity> Effects { get; private set; } = [];
 
   public SpellEntity(ContentLocalePublished @event) : base(@event)
@@ -35,6 +36,11 @@ internal class SpellEntity : AggregateEntity
 
   private SpellEntity() : base()
   {
+  }
+
+  public void AddCategory(SpellCategoryEntity category)
+  {
+    Categories.Add(new SpellCategoryAssociationEntity(this, category));
   }
 
   public void Publish(ContentLocalePublished @event)

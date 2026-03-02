@@ -73,6 +73,7 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(LineageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/lineages"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpecializationDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/specializations"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(DoctrineDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/doctrines"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpellCategoryDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_categories"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellEffectDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_effects"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ProgressDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/progress"), cancellationToken);

@@ -14,10 +14,10 @@ public class RulesContext : DbContext
   internal DbSet<AttributeEntity> Attributes => Set<AttributeEntity>();
   internal DbSet<CasteEntity> Castes => Set<CasteEntity>();
   internal DbSet<CustomizationEntity> Customizations => Set<CustomizationEntity>();
-  internal DbSet<EducationEntity> Educations => Set<EducationEntity>();
   internal DbSet<DoctrineDiscountedTalentEntity> DoctrineDiscountedTalents => Set<DoctrineDiscountedTalentEntity>();
   internal DbSet<DoctrineEntity> Doctrines => Set<DoctrineEntity>();
   internal DbSet<DoctrineFeatureEntity> DoctrineFeatures => Set<DoctrineFeatureEntity>();
+  internal DbSet<EducationEntity> Educations => Set<EducationEntity>();
   internal DbSet<FeatureEntity> Features => Set<FeatureEntity>();
   internal DbSet<LanguageEntity> Languages => Set<LanguageEntity>();
   internal DbSet<LineageEntity> Lineages => Set<LineageEntity>();
@@ -27,6 +27,8 @@ public class RulesContext : DbContext
   internal DbSet<SkillEntity> Skills => Set<SkillEntity>();
   internal DbSet<SpecializationEntity> Specializations => Set<SpecializationEntity>();
   internal DbSet<SpecializationOptionalTalentEntity> SpecializationOptionalTalents => Set<SpecializationOptionalTalentEntity>();
+  internal DbSet<SpellCategoryAssociationEntity> SpellCategoryAssociations => Set<SpellCategoryAssociationEntity>();
+  internal DbSet<SpellCategoryEntity> SpellCategories => Set<SpellCategoryEntity>();
   internal DbSet<SpellEffectEntity> SpellEffects => Set<SpellEffectEntity>();
   internal DbSet<SpellEntity> Spells => Set<SpellEntity>();
   internal DbSet<StatisticEntity> Statistics => Set<StatisticEntity>();

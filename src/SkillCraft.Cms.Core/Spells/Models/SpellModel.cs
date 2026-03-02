@@ -14,6 +14,7 @@ public class SpellModel : Aggregate
   public string? HtmlContent { get; set; }
 
   public List<SpellAbilityModel> Abilities { get; set; } = [];
+  public List<SpellCategoryModel> Categories { get; set; } = [];
 
   public override string ToString() => $"{Name} | {base.ToString()}";
 }
