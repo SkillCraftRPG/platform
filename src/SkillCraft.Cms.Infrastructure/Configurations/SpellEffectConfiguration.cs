@@ -22,14 +22,14 @@ internal class SpellEffectConfiguration : AggregateConfiguration<SpellEffectEnti
 
     builder.HasIndex(x => x.Id).IsUnique();
     builder.HasIndex(x => x.IsPublished);
-    // TODO(fpion): Key
-    // TODO(fpion): KeyNormalized
-    // TODO(fpion): Name
+    builder.HasIndex(x => x.Key);
+    builder.HasIndex(x => x.KeyNormalized).IsUnique();
+    builder.HasIndex(x => x.Name);
     builder.HasIndex(x => x.SpellId);
     builder.HasIndex(x => x.SpellUid);
 
-    // TODO(fpion): Key
-    // TODO(fpion): KeyNormalized
+    builder.Property(x => x.Key).HasMaxLength(UniqueName.MaximumLength);
+    builder.Property(x => x.KeyNormalized).HasMaxLength(UniqueName.MaximumLength);
     builder.Property(x => x.Name).HasMaxLength(DisplayName.MaximumLength);
     builder.Property(x => x.CastingTime).HasMaxLength(CastingTimeMaximumLength);
     builder.Property(x => x.DurationUnit).HasMaxLength(byte.MaxValue).HasConversion(new EnumToStringConverter<TimeUnit>());
