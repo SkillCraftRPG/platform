@@ -25,6 +25,8 @@ internal class SpellCategoryEntity : AggregateEntity
   public Guid? ParentUid { get; private set; }
   public List<SpellCategoryEntity> Children { get; private set; } = [];
 
+  public List<SpellCategoryAssociationEntity> Spells { get; private set; } = [];
+
   public SpellCategoryEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
