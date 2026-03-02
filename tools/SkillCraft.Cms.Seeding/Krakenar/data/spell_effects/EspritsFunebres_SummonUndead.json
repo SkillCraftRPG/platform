@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a0584983-43d7-46b4-ab5e-01b0ee75eafc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsFunebres_SummonUndead",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6550f103-e1f1-4768-b656-b180b2fd998e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsFunebres_SummonUndead",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "\uD83D\uDEA7a gilded skull worth at least 300 gp",
+        "HtmlContent": "[\uD83D\uDEA7Summon Undead](https://dnd5e.wikidot.com/spell:summon-undead)"
+      }
+    }
+  }
+}

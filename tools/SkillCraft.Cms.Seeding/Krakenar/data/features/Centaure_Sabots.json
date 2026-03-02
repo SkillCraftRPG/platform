@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e94a4b53-c3dd-4882-8b37-4eb9191e7bbb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Centaure_Sabots",
+    "DisplayName": "Sabots",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Centaure_Sabots",
+      "DisplayName": "Sabots",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté de solides sabots. Il peut effectuer une [attaque de mêlée](/regles/combat/attaque/melee) avec ses sabots par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [contondants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

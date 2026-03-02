@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2734e90e-0cd2-4ad1-996e-3bb7131bb4ac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DanseMacabre_CreateUndead",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "Range": "2",
+      "DurationUnit": "[\"Round\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DanseMacabre_CreateUndead",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "\uD83D\uDEA7F/M: one clay pot filled with grave dirt, one clay pot filled with brackish water, and one 150 gp black onyx stone for each corpse\n\n[\uD83D\uDEA7Create Undead](https://dnd5e.wikidot.com/spell:create-undead)"
+      }
+    }
+  }
+}

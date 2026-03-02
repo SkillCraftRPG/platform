@@ -14,7 +14,7 @@
       "DisplayName": "Héritage elfique",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant le sommeil et l’[inconscience](/regles/combat/conditions/inconscient)."
+        "HtmlContent": "Le personnage ne peut être endormi de manière surnaturelle et il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme)."
       }
     }
   }

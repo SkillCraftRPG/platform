@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2c964efb-e236-40c7-a645-d5a102656a08",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure_CarrureImposante",
+    "DisplayName": "Carrure imposante",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure_CarrureImposante",
+      "DisplayName": "Carrure imposante",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Mêlée](/regles/talents/melee) et [Résistance](/regles/talents/resistance).\n\nLorsqu’il tente d’intimider une créature, il peut également ajouter à son [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) un bonus égal à son [tiers](/regles/personnages/progression/tiers). Lorsqu’il atteint le tiers 2, il peut remplacer ce bonus par un [avantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

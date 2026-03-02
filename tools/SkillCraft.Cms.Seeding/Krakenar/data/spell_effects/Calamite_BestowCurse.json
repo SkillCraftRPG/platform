@@ -1,0 +1,31 @@
+﻿{
+  "Id": "29481e40-ddb6-4338-b8ac-ef05647a6105",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Calamite_BestowCurse",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a9925d0b-4b15-408f-88b9-c81f43982c8e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Calamite_BestowCurse",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "[\uD83D\uDEA7Bestow Curse](https://dnd5e.wikidot.com/spell:bestow-curse)"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6dfa241b-7f6b-48bf-ac48-382184fcdc6d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ToucherVampirique_VampiricTouch",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ToucherVampirique_VampiricTouch",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "[\uD83D\uDEA7Vampiric Touch](https://dnd5e.wikidot.com/spell:vampiric-touch)"
+      }
+    }
+  }
+}

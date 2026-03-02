@@ -1,0 +1,26 @@
+﻿{
+  "Id": "a9925d0b-4b15-408f-88b9-c81f43982c8e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "calamite",
+    "DisplayName": "Calamité",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "calamite",
+      "DisplayName": "Calamité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "calamite",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

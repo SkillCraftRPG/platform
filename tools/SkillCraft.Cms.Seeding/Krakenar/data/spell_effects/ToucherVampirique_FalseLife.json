@@ -1,0 +1,31 @@
+﻿{
+  "Id": "79580e79-8d7a-47cc-a91a-075d3be93855",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ToucherVampirique_FalseLife",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Range": "0",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ToucherVampirique_FalseLife",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "\uD83D\uDEA7a small amount of alcohol or distilled spirits",
+        "HtmlContent": "[\uD83D\uDEA7False Life](https://dnd5e.wikidot.com/spell:false-life)"
+      }
+    }
+  }
+}

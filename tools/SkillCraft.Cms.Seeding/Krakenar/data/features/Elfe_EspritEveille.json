@@ -14,7 +14,7 @@
       "DisplayName": "Esprit éveillé",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage ne peut être endormi de manière surnaturelle.\n\nÉgalement, il peut remplacer ses [6 heures](/regles/aventure/temps) de sommeil quotidien par 4 heures de transe. En plus d’écourter sa [nuit de sommeil](/regles/aventure/repos/sommeil), il est en état de conscience partielle pendant cette transe, ce qui lui permet d’effectuer avec [désavantage](/regles/competences/tests/avantage-desavantage) des [tests passifs](/regles/competences/tests/passif). Il doit tout de même jumeler cette transe avec 2 heures de [halte](/regles/aventure/repos/halte) afin de compléter sa nuit de sommeil."
+        "HtmlContent": "Le personnage ne peut être endormi de manière surnaturelle et il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme)."
       }
     }
   }

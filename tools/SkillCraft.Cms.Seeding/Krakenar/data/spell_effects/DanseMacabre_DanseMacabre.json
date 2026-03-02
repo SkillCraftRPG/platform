@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b8a81227-3f50-4b6b-8323-38da5dcf38bd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DanseMacabre_DanseMacabre",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DanseMacabre_DanseMacabre",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "[\uD83D\uDEA7Danse macabre](https://dnd5e.wikidot.com/spell:danse-macabre)"
+      }
+    }
+  }
+}
