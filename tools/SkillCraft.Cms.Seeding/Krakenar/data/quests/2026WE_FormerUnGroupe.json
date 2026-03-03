@@ -1,0 +1,25 @@
+﻿{
+  "Id": "cb4fd9a3-92e5-424d-b7ad-49e46ad029c7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "2026WE_FormerUnGroupe",
+    "DisplayName": "Former un groupe",
+    "Description": null,
+    "FieldValues": {
+      "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
+      "GrantedLevels": "4",
+      "ProgressRatio": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "2026WE_FormerUnGroupe",
+      "DisplayName": "Former un groupe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un héros solitaire peut aller loin, mais plusieurs volontés unies déplacent des montagnes. Là où l’un faiblit, un autre excelle ; les forces se complètent et les faiblesses sont aussitôt compensées par un allié. Voyager ensemble, c’est partager dangers et récompenses, unir les quêtes et rendre les défis plus accessibles. Former un groupe, c’est choisir la synergie plutôt que l’isolement, car plus on est de fous, plus on rit… et plus grandes sont les légendes !"
+      }
+    }
+  }
+}
