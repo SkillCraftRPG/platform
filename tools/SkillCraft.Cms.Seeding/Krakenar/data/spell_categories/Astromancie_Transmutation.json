@@ -1,0 +1,21 @@
+﻿{
+  "Id": "59a3b5eb-79c7-46fc-b702-60a978307b46",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie_Transmutation",
+    "DisplayName": "Transmutation",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie_Transmutation",
+      "DisplayName": "Transmutation",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

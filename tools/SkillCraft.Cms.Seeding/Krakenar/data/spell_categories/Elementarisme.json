@@ -1,0 +1,19 @@
+﻿{
+  "Id": "5cb39d5d-e826-456f-946a-408a007857fb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme",
+    "DisplayName": "Élémentarisme",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme",
+      "DisplayName": "Élémentarisme",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

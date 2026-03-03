@@ -1,0 +1,19 @@
+﻿{
+  "Id": "d86fed43-66fa-4a52-9d83-a878196b83a8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Divin",
+    "DisplayName": "Divin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Divin",
+      "DisplayName": "Divin",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

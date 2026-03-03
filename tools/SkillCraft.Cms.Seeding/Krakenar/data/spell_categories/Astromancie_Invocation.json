@@ -1,0 +1,21 @@
+﻿{
+  "Id": "962a99ed-bc33-4eb1-8f0e-f21363d08ac5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie_Invocation",
+    "DisplayName": "Invocation",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie_Invocation",
+      "DisplayName": "Invocation",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

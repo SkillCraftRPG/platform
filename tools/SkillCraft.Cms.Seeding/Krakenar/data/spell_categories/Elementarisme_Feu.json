@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c3dce187-68ab-4ab6-bede-68d6f15b30e2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Feu",
+    "DisplayName": "Feu",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Feu",
+      "DisplayName": "Feu",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

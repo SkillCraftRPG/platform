@@ -6,7 +6,8 @@
     "DisplayName": "Toucher vampirique",
     "Description": null,
     "FieldValues": {
-      "Tier": "1"
+      "Tier": "1",
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
     }
   },
   "Locales": {

@@ -6,7 +6,8 @@
     "DisplayName": "Liberté",
     "Description": null,
     "FieldValues": {
-      "Tier": "1"
+      "Tier": "1",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
     }
   },
   "Locales": {

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b9399240-ec40-47c9-b709-8f515f7984e6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie_Abjuration",
+    "DisplayName": "Abjuration",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie_Abjuration",
+      "DisplayName": "Abjuration",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

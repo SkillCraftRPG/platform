@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9bfed560-3230-456d-aa5b-1efe1e5ce24a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Astromancie_Envoutement",
+    "DisplayName": "Envoûtement",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Astromancie_Envoutement",
+      "DisplayName": "Envoûtement",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

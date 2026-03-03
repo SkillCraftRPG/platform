@@ -1,0 +1,21 @@
+﻿{
+  "Id": "fd95590f-3f37-4df7-ac17-3f2bfafb25fa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Glace",
+    "DisplayName": "Glace",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Glace",
+      "DisplayName": "Glace",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
