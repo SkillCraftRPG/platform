@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a86b20e9-5e9c-459b-8df9-84a3a022b2bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elementarisme_Esprit",
+    "DisplayName": "Esprit",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elementarisme_Esprit",
+      "DisplayName": "Esprit",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
