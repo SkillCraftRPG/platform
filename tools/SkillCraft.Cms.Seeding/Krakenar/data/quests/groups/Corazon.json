@@ -1,0 +1,19 @@
+﻿{
+  "Id": "e0a475c5-c88e-4c25-8c32-08ae1306a1e7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Corazon",
+    "DisplayName": "Corazon",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Corazon",
+      "DisplayName": "Corazon",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

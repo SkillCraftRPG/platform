@@ -1,0 +1,26 @@
+﻿{
+  "Id": "eab47296-7ad3-45b0-884c-4a8f5454f348",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "Corazon_InfiltrerLaLigueSousUneNouvelleIdentite",
+    "DisplayName": "Infiltrer la ligue sous une nouvelle identité",
+    "Description": null,
+    "FieldValues": {
+      "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
+      "QuestGroup": "[\"e0a475c5-c88e-4c25-8c32-08ae1306a1e7\"]",
+      "GrantedLevels": "4",
+      "ProgressRatio": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": false,
+      "UniqueName": "Corazon_InfiltrerLaLigueSousUneNouvelleIdentite",
+      "DisplayName": "Infiltrer la ligue sous une nouvelle identité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Revenir à Durmanion, intégrer discrètement le circuit et regagner une position compétitive sans révéler son passé."
+      }
+    }
+  }
+}

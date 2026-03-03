@@ -1,0 +1,19 @@
+﻿{
+  "Id": "822f9e01-c944-4b4b-bdfe-eaadd8273701",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sirha",
+    "DisplayName": "Sirha",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sirha",
+      "DisplayName": "Sirha",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

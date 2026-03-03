@@ -1,0 +1,26 @@
+﻿{
+  "Id": "d9953c89-15b0-44c3-ae66-e2f311ed213c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "BalthazarMoldstag_ComprendreEtBriserSaMalediction",
+    "DisplayName": "Comprendre et briser sa malédiction",
+    "Description": null,
+    "FieldValues": {
+      "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
+      "QuestGroup": "[\"8791251d-c611-4b6d-94b8-df928f47fe69\"]",
+      "GrantedLevels": "4",
+      "ProgressRatio": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "BalthazarMoldstag_ComprendreEtBriserSaMalediction",
+      "DisplayName": "Comprendre et briser sa malédiction",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Octavius a marqué Balthazar d’une malédiction, scellée dans un tatouage inscrit dans son dos. Il doit identifier la langue du symbole et en déchiffrer le sens afin de s’en libérer."
+      }
+    }
+  }
+}

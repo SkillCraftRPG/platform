@@ -1,0 +1,19 @@
+﻿{
+  "Id": "8791251d-c611-4b6d-94b8-df928f47fe69",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "BalthazarMoldstag",
+    "DisplayName": "Balthazar Moldstag",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "BalthazarMoldstag",
+      "DisplayName": "Balthazar Moldstag",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

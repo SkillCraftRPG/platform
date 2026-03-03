@@ -73,10 +73,13 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(LineageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/lineages"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpecializationDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/specializations"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(DoctrineDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/doctrines"), cancellationToken);
-      await ExecuteAsync(new SeedContentsTask(SpellCategoryDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_categories"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpellCategoryDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells/categories"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells"), cancellationToken);
-      await ExecuteAsync(new SeedContentsTask(SpellEffectDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spell_effects"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpellEffectDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells/effects"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ProgressDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/progress"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(QuestLogDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests/logs"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(QuestGroupDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests/groups"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(QuestDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(CollectionDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/collections"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ArticleDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/articles"), cancellationToken);
     }

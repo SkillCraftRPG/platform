@@ -1,0 +1,19 @@
+﻿{
+  "Id": "a6503bfe-0328-4843-a3f9-322f00209808",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VanusRitonDAzray",
+    "DisplayName": "Vanus Riton d’Azray",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VanusRitonDAzray",
+      "DisplayName": "Vanus Riton d’Azray",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
