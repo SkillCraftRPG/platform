@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f45e6abd-a1fa-426e-bb94-3b08713d18aa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Salamandre_Elementaire",
+    "DisplayName": "Élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Salamandre_Elementaire",
+      "DisplayName": "Élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appartient à la catégorie de créature _Élémentaire_. Il est [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) et à la chaleur extrême.\n\nÉgalement, il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Élémentarisme](/regles/talents/elementarisme) pour l’élément _Feu_. Lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir [Contrôle du Feu](/regles/magie/pouvoirs/controle-du-feu), il réussit automatiquement le [test](/regles/competences/tests) s’il n’obtient pas un [échec critique](/regles/competences/tests/critique). Il peut canaliser le [niveau 2](/regles/magie/pouvoirs/niveau) du pouvoir dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et peut canaliser le niveau 3 dès qu’il atteint le tiers 2, et ce sans nécessiter le talent [Magie puissante](/regles/talents/magie-puissante)."
+      }
+    }
+  }
+}

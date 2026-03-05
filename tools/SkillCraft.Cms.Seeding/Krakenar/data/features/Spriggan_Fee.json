@@ -1,0 +1,21 @@
+﻿{
+  "Id": "005f6f9c-dd27-4334-8ef9-be7d73b29cb6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Spriggan_Fee",
+    "DisplayName": "Fée",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Spriggan_Fee",
+      "DisplayName": "Fée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appartient à la catégorie de créature _Fée_. Également, il se voit conférer un bonus à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les capacités surnaturelles, tels les [pouvoirs](/regles/magie/pouvoirs), égal à son [tiers](/regles/personnages/progression/tiers). Lorsqu’il atteint le tiers 2, il peut remplacer ce bonus par un [avantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

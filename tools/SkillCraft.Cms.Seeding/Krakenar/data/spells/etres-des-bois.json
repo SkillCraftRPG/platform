@@ -1,0 +1,27 @@
+﻿{
+  "Id": "99125281-6ff5-4eb2-83e6-7b72320e47fb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "etres-des-bois",
+    "DisplayName": "Êtres des bois",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "etres-des-bois",
+      "DisplayName": "Êtres des bois",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "etres-des-bois",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

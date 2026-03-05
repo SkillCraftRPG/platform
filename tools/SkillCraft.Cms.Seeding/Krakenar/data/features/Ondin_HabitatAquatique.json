@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ba855dbd-dd74-4d65-9d16-206afde5979d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ondin_HabitatAquatique",
+    "DisplayName": "Habitat aquatique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ondin_HabitatAquatique",
+      "DisplayName": "Habitat aquatique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) et il peut respirer [sous l’eau](/regles/aventure/environnement/suffocation)."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "145d300e-0529-436b-9a7d-df4edfbba15c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "convoi-divin",
+    "DisplayName": "Convoi divin",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "convoi-divin",
+      "DisplayName": "Convoi divin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "convoi-divin",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

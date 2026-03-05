@@ -1,0 +1,27 @@
+﻿{
+  "Id": "5b8c7e92-ec56-4d45-8893-2ce4746462d9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "emanations-sepulcrales",
+    "DisplayName": "Émanations sépulcrales",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "emanations-sepulcrales",
+      "DisplayName": "Émanations sépulcrales",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "emanations-sepulcrales",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e9566c57-840a-4621-b931-35a88288b4ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nemedien_EspritEveille",
+    "DisplayName": "Esprit éveillé",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nemedien_EspritEveille",
+      "DisplayName": "Esprit éveillé",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage ne peut être endormi de manière surnaturelle. Il peut également acquérir [à rabais](/regles/talents/points) les talents [Occultisme](/regles/talents/occultisme) et [Perception](/regles/talents/perception).\n\nS’il a acquis ces deux [talents](/regles/talents), il peut éveiller ses sens afin de tenter de détecter des traces du surnaturel. Par une [action](/regles/combat/deroulement/tour), il effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). En fonction du résultat, il perçoit une faible aura autour des [artefacts](/regles/magie/artefacts), créatures et effets magiques à une distance de 4,5 mètres jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). Il peut utiliser cette capacité un nombre de fois égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n\n- Il détecte les créatures de niveau inférieur ou égal au résultat.\n- Il détecte les [pouvoirs](/regles/magie/pouvoirs) de [niveau](/regles/magie/pouvoirs/niveau) inférieur ou égal au résultat divisé par 5.\n- Il détecte les capacités surnaturelles n’ayant pas de niveau si son résultat est supérieur ou égal à 15.\n- Afin de détecter un artefact d’une certaine rareté, le résultat doit être supérieur ou égal à une certaine valeur selon la table ci-dessous.\n\n<table class=\"table table-striped text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-25\">Résultat</th>\n      <th scope=\"col\" class=\"w-25\">Artefacts</th>\n      <th scope=\"col\" class=\"w-25\">Résultat</th>\n      <th scope=\"col\" class=\"w-25\">Artefacts</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>5</td>\n      <td>Commun</td>\n      <td>20</td>\n      <td>Très rare</td>\n    </tr>\n    <tr>\n      <td>10</td>\n      <td>Peu fréquent</td>\n      <td>25</td>\n      <td>Légendaire</td>\n    </tr>\n    <tr>\n      <td>15</td>\n      <td>Rare</td>\n      <td>30</td>\n      <td>Relique</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

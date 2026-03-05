@@ -1,0 +1,21 @@
+﻿{
+  "Id": "91a628c8-2d44-4c62-8b52-9829fcd630ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Spriggan_FarcesEtAttrapes",
+    "DisplayName": "Farces et attrapes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Spriggan_FarcesEtAttrapes",
+      "DisplayName": "Farces et attrapes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Furtivité](/regles/talents/furtivite) et [Roublardise](/regles/talents/roublardise). Il se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite)."
+      }
+    }
+  }
+}

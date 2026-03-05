@@ -14,7 +14,7 @@
       "DisplayName": "Lutteur amphibien",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) : il peut respirer hors de l’eau et [sous l’eau](/regles/aventure/environnement/suffocation). Il peut acquérir [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Mêlée](/regles/talents/melee)."
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) et il peut respirer [sous l’eau](/regles/aventure/environnement/suffocation). Il peut également [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Mêlée](/regles/talents/melee)."
       }
     }
   }

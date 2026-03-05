@@ -1,0 +1,27 @@
+﻿{
+  "Id": "de6f1aea-8e2e-4eb8-9207-2a6f43071ba9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cage-spirituelle",
+    "DisplayName": "Cage spirituelle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cage-spirituelle",
+      "DisplayName": "Cage spirituelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cage-spirituelle",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

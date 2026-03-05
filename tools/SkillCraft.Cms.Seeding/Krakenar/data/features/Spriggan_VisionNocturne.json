@@ -1,0 +1,21 @@
+﻿{
+  "Id": "005e04e3-15ed-483d-b394-79028c52da4e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Spriggan_VisionNocturne",
+    "DisplayName": "Vision nocturne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Spriggan_VisionNocturne",
+      "DisplayName": "Vision nocturne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres."
+      }
+    }
+  }
+}

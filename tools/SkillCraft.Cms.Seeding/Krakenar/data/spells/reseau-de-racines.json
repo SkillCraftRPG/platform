@@ -1,0 +1,27 @@
+﻿{
+  "Id": "0a4c913b-4506-4c7d-8343-597889d08219",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "reseau-de-racines",
+    "DisplayName": "Réseau de racines",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "reseau-de-racines",
+      "DisplayName": "Réseau de racines",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "reseau-de-racines",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

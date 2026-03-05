@@ -1,0 +1,27 @@
+﻿{
+  "Id": "bb2b7195-ee73-4ef3-902e-3e417abfa354",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "faucheur",
+    "DisplayName": "Faucheur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "faucheur",
+      "DisplayName": "Faucheur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "faucheur",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

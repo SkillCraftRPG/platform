@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b48c653f-1c84-4e08-9b48-ed6e7ef3d964",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gnome_Horlogier",
+    "DisplayName": "Horlogier",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gnome_Horlogier",
+      "DisplayName": "Horlogier",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut fabriquer un dispositif en utilisant des matériaux d’une valeur d’au moins [10 deniers](/regles/equipement/monnaie). Le dispositif fonctionne pendant [24 heures](/regles/aventure/temps) et doit ensuite être réparé. Le personnage peut démonter un dispositif afin d’en récupérer les matériaux. Les actions de fabriquer, réparer et démonter un dispositif nécessitent des [outils de bricoleur](/regles/equipement/outils), sont d’une durée d’une heure, et peuvent être effectuées à la [halte](/regles/aventure/repos/halte). Un dispositif est doté d’une [Esquive](/regles/statistiques/esquive) de 10 et brise s’il reçoit un [point de dégât](/regles/combat/degats). Le personnage peut posséder un nombre de dispositifs actifs simultanément égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1). Il doit choisir l’une des options suivantes lorsqu’il fabrique un dispositif. À la discrétion du maître de jeu, il peut également choisir une option ne figurant pas parmi la liste suivante.\n\n- **Allumeur.** Permet d’allumer une torche, une chandelle ou un feu de camp en effectuant l’activité [Objet](/regles/combat/activites/objet).\n- **Boîte à musique.** Lorsqu’ouverte, cette boîte joue une chanson unique à un volume modéré. La musique arrête lorsque la boîte est fermée ou que la chanson est terminée.\n- **Jouet.** Le jouet prend la forme d’un animal, d’un monstre ou d’une personne. Lorsque placé au sol, il se déplace de 1,5 mètres dans une direction aléatoire pendant le [tour](/regles/combat/deroulement/tour) du personnage, produisant des sons associés à la créature qu’il représente."
+      }
+    }
+  }
+}

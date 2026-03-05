@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c380c5a2-f83e-4c30-b1ff-7d45c806c2b7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FirBolg_VoileEvanescent",
+    "DisplayName": "Voile évanescent",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FirBolg_VoileEvanescent",
+      "DisplayName": "Voile évanescent",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Illusions mineures](/regles/talents/illusions-mineures) et [Paréidolie](/regles/talents/pareidolie). Également, lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) le [niveau 2](/regles/magie/pouvoirs/niveau) du pouvoir [Hallucination](/regles/magie/pouvoirs/hallucination), il peut réduire sa taille d’un mètre et étrécir sa carrure afin de mieux se fondre auprès des [Humains](/regles/especes/humain) et autres humanoïdes. Enfin, il est dissimulé de la [magie](/regles/magie) divinatoire et des capacités surnaturelles de scrutation et de localisation."
+      }
+    }
+  }
+}

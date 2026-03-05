@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0a8cb37d-bab7-4bb2-8fd7-77de8bace4d7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sylphe_Elementaire",
+    "DisplayName": "Élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sylphe_Elementaire",
+      "DisplayName": "Élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appartient à la catégorie de créature _Élémentaire_. Il est [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) et de [tonnerre](/regles/combat/degats/types).\n\nÉgalement, il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Élémentarisme](/regles/talents/elementarisme) pour l’élément _Air_. Lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir [Contrôle de l’Air](/regles/magie/pouvoirs/controle-du-feu), il réussit automatiquement le [test](/regles/competences/tests) s’il n’obtient pas un [échec critique](/regles/competences/tests/critique). Il peut canaliser le [niveau 2](/regles/magie/pouvoirs/niveau) du pouvoir dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et peut canaliser le niveau 3 dès qu’il atteint le tiers 2, et ce sans nécessiter le talent [Magie puissante](/regles/talents/magie-puissante)."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d911110f-0331-4b2e-ad92-c9daae7b925b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "eveil",
+    "DisplayName": "Éveil",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "eveil",
+      "DisplayName": "Éveil",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "eveil",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

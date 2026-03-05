@@ -1,0 +1,27 @@
+﻿{
+  "Id": "21ccc0f1-47b4-4361-b3c8-607516a39e76",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lien-naturel",
+    "DisplayName": "Lien naturel",
+    "Description": null,
+    "FieldValues": {
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]",
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lien-naturel",
+      "DisplayName": "Lien naturel",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lien-naturel",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

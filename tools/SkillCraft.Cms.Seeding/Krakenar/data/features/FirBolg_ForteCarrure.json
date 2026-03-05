@@ -1,0 +1,21 @@
+﻿{
+  "Id": "53eae48b-7598-493b-9a32-8e9ac54fe377",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FirBolg_ForteCarrure",
+    "DisplayName": "Forte carrure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FirBolg_ForteCarrure",
+      "DisplayName": "Forte carrure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La [taille](/regles/especes/taille) du personnage est considérée d’une catégorie supérieure lorsqu’il porte, lève, pousse ou tire un [poids](/regles/equipement/encombrement)."
+      }
+    }
+  }
+}
