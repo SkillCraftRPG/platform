@@ -1,0 +1,21 @@
+﻿{
+  "Id": "3291f002-32ea-4f95-b9be-b92139259a42",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nemedien_FouleeFeerique",
+    "DisplayName": "Foulée féérique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nemedien_FouleeFeerique",
+      "DisplayName": "Foulée féérique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut se téléporter dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) et situé à 9 mètres ou moins de sa position. Il peut utiliser cette capacité un nombre de fois égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n\nLorsqu’il atteint le tiers 1, il sélectionne une saison parmi la liste ci-dessous. Lorsqu’il complète une nuit de sommeil, il peut choisir une autre saison. Si l’effet nécessite un [jet de sauvegarde](/regles/competences/tests/sauvegarde), le personnage doit effectuer un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) lorsqu’il utilise cette capacité, et la [difficulté](/regles/competences/tests/difficulte) du jet de sauvegarde est égale au résultat du test.\n\n- **Automne.** Immédiatement après la téléportation, jusqu’à deux créatures que le personnage peut voir et situées à 3 mètres ou moins de sa position doivent effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline). En cas d’échec, une créature est [charmée](/regles/combat/conditions/charme) par le personnage pendant [une minute](/regles/aventure/temps), ou jusqu’à ce que le personnage ou une créature alliée ne la [blesse](/regles/combat/degats).\n- **Hiver.** Immédiatement avant la téléportation, une créature que le personnage peut voir et située à 1,5 mètres ou moins de sa position doit effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline). En cas d’échec, la cible est [apeurée](/regles/combat/conditions/apeure) par le personnage jusqu’à la fin du prochain tour du personnage.\n- **Printemps.** Le personnage peut téléporter une créature consentante en la touchant.\n- **Été.** Immédiatement après la téléportation, toute créature de son choix qu’il peut voir et située à 1,5 mètres ou moins de sa position reçoit un nombre de [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) égal à la moitié de sa [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

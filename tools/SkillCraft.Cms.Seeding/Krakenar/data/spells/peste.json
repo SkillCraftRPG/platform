@@ -1,0 +1,27 @@
+﻿{
+  "Id": "18a47b60-6bc7-49e9-8420-7ca96298a128",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "peste",
+    "DisplayName": "Peste",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "peste",
+      "DisplayName": "Peste",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "peste",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

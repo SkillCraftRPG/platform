@@ -19,7 +19,7 @@
       "Description": null,
       "FieldValues": {
         "Slug": "infusions-magiques",
-        "HtmlContent": "Le personnage apprend trois [infusions magiques](#).\n\nIl peut également acquérir un [bricolage magique](#) de tiers 1.\n\nS’il a acquis la spécialisation [Bricoleur](/regles/specialisations/bricoleur), il peut :\n\n- Acquérir tous les bricolages magiques de tiers 1.\n- Acquérir ce talent [plusieurs fois](/regles/talents/acquisition).\n- [Canaliser](/regles/magie/pouvoirs/canalisation) les bricolages magiques de tiers 1 à un [niveau](/regles/magie/pouvoirs/niveau) supérieur s’il a acquis le talent [Magie puissante](/regles/talents/magie-puissante).",
+        "HtmlContent": "Le personnage apprend trois [infusions magiques](/regles/annexes/infusions-magiques).\n\nIl peut également acquérir un [bricolage magique](#) de tiers 1.\n\nS’il a acquis la spécialisation [Bricoleur](/regles/specialisations/bricoleur), il peut :\n\n- Acquérir tous les bricolages magiques de tiers 1.\n- Acquérir ce talent [plusieurs fois](/regles/talents/acquisition).\n- [Canaliser](/regles/magie/pouvoirs/canalisation) les bricolages magiques de tiers 1 à un [niveau](/regles/magie/pouvoirs/niveau) supérieur s’il a acquis le talent [Magie puissante](/regles/talents/magie-puissante).",
         "Summary": "Permet d’infuser des objets de magie tiers 1 aux effets variés.",
         "MetaDescription": "Découvrez le talent Infusions magiques, qui permet de créer et canaliser des objets enchantés de tier 1 aux effets simples mais puissants."
       }

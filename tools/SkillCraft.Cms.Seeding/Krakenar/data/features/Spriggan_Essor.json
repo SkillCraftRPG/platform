@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b20d71ac-e209-4853-840d-b9df6a4f7cfd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Spriggan_Essor",
+    "DisplayName": "Essor",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Spriggan_Essor",
+      "DisplayName": "Essor",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut prendre une taille [Grande](/regles/especes/taille). Son [équipement](/regles/equipement) est redimensionné afin d’accommoder sa taille altérée, mais un objet [lâché](/regles/combat/activites/lacher) reprend sa taille originale après [6 secondes](/regles/aventure/temps). Ses [vitesses](/regles/aventure/mouvement/vitesse) sont doublées, mais l’[avantage](/regles/competences/tests/avantage-desavantage) conféré à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite) devient un [désavantage](/regles/competences/tests/avantage-desavantage). Il peut reprendre sa taille Petite par une action."
+      }
+    }
+  }
+}

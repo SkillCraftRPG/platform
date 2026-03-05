@@ -1,0 +1,21 @@
+﻿{
+  "Id": "eb9efbf8-0073-4cb2-a092-60d5c2a77733",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sylphe_Aeroporte",
+    "DisplayName": "Aéroporté",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sylphe_Aeroporte",
+      "DisplayName": "Aéroporté",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Acrobaties](/regles/talents/acrobaties). S’il revêt une [armure](/regles/equipement/armures) [moyenne](/regles/equipement/armures/moyennes) ou [lourde](/regles/equipement/armures/lourdes), il perd sa [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types).\n\nDe par sa petite taille et ses mouvements virevoltants, le personnage est difficile à atteindre. Lorsqu’il [vole](/regles/aventure/mouvement/types), il ajoute à son [Esquive](/regles/statistiques/esquive) un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1)."
+      }
+    }
+  }
+}

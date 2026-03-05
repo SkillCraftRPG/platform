@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b052db83-e841-4da6-b862-767fc08c0d67",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "miracle",
+    "DisplayName": "Miracle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "miracle",
+      "DisplayName": "Miracle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "miracle",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

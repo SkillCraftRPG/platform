@@ -1,0 +1,27 @@
+﻿{
+  "Id": "c8495acc-454f-469d-9aa8-822346289f3a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "bosquet",
+    "DisplayName": "Bosquet",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "bosquet",
+      "DisplayName": "Bosquet",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "bosquet",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

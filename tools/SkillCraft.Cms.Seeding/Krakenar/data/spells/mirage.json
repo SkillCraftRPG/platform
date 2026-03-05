@@ -1,0 +1,27 @@
+﻿{
+  "Id": "7a05fc30-b52f-4769-8722-163d9099deb5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mirage",
+    "DisplayName": "Mirage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mirage",
+      "DisplayName": "Mirage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mirage",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

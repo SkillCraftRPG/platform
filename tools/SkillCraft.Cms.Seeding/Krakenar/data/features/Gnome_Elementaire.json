@@ -1,0 +1,21 @@
+﻿{
+  "Id": "840f1e39-3f90-40df-967f-bdb96478454f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gnome_Elementaire",
+    "DisplayName": "Élémentaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gnome_Elementaire",
+      "DisplayName": "Élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appartient à la catégorie de créature _Élémentaire_. Il est [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types).\n\nÉgalement, il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Élémentarisme](/regles/talents/elementarisme) pour l’élément _Terre_. Lorsqu’il [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir [Contrôle de la Terre](/regles/magie/pouvoirs/controle-de-la-terre), il réussit automatiquement le [test](/regles/competences/tests) s’il n’obtient pas un [échec critique](/regles/competences/tests/critique). Il peut canaliser le [niveau 2](/regles/magie/pouvoirs/niveau) du pouvoir dès qu’il atteint le [tiers 1](/regles/personnages/progression/tiers), et peut canaliser le niveau 3 dès qu’il atteint le tiers 2, et ce sans nécessiter le talent [Magie puissante](/regles/talents/magie-puissante)."
+      }
+    }
+  }
+}

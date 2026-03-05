@@ -1,0 +1,21 @@
+﻿{
+  "Id": "db7a0af2-0d31-47a4-816f-dfab91f08ec6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Salamandre_FlammeInterieure",
+    "DisplayName": "Flamme intérieure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Salamandre_FlammeInterieure",
+      "DisplayName": "Flamme intérieure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Intuition](/regles/talents/intuition).\n\nÉgalement, une fois par [tour](/regles/combat/deroulement/tour), il peut assumer une forme enflammée par une [action](/regles/combat/deroulement/tour) et en dépensant 4 points d’[Énergie](/regles/statistiques/energie). Il peut reprendre sa forme normale par une action. La forme enflammée prend fin après une [heure](/regles/aventure/temps), ou s’il tombe [inconscient](/regles/combat/conditions/inconscient) ou [agonisant](/regles/combat/conditions/agonisant). Lorsqu’il assume une forme enflammée, les caractéristiques suivantes s’appliquent.\n\n- Sa [vitesse](/regles/aventure/mouvement/vitesse) de [marche](/regles/aventure/mouvement/types) augmente à 7 (1,75 mètres par seconde), mais il perd sa vitesse d’[escalade](/regles/aventure/mouvement/types).\n- Il dégage de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 6 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 6 mètres additionnels.\n- Il dégage une douce chaleur protégeant contre le froid extrême dans un rayon de 6 mètres.\n- Par une action, il peut tenter de toucher une créature en effectuant une [attaque de mêlée](/regles/combat/attaque/melee). En cas de réussite, il inflige [1d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) additionnés à sa [Puissance](/regles/statistiques/puissance).\n- Les objets inflammables non portés ni tenus qu’il touche s’enflamment."
+      }
+    }
+  }
+}

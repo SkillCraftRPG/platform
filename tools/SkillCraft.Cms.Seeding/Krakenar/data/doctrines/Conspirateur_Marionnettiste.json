@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Specialization": "[\"cb2a298d-80c7-4cc2-8802-f637758d1151\"]",
-      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\",\"e1c94ff1-b416-4d96-b378-908912b1e3d1\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\"]"
+      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\",\"e1c94ff1-b416-4d96-b378-908912b1e3d1\",\"6b0985c6-4e77-403e-b1a3-9c8473b6ed12\"]",
+      "Features": "[\"2e3dfb6f-92aa-4811-869d-b0e52313d135\",\"6ed9424a-2b23-4bfb-bf88-4388a270a193\",\"67f9501f-df01-480c-aab6-f3678bb8cd78\",\"c8fc67d8-6160-45d4-a6a3-453ca042a481\"]"
     }
   },
   "Locales": {
@@ -16,7 +17,9 @@
       "UniqueName": "Conspirateur_Marionnettiste",
       "DisplayName": "Marionnettiste",
       "Description": null,
-      "FieldValues": {}
+      "FieldValues": {
+        "HtmlContent": "Il peut [aider](/regles/combat/activites/aider) un allié à [attaquer](/regles/combat/attaque) une autre créature qui le [voit](/regles/aventure/environnement/vision), l’entend, et qui est située à 9 mètres ou moins de sa position."
+      }
     }
   }
 }

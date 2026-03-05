@@ -1,0 +1,27 @@
+﻿{
+  "Id": "190db934-f616-4d2c-ba31-ac5a5ea3c5f8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "reincarnation",
+    "DisplayName": "Réincarnation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "reincarnation",
+      "DisplayName": "Réincarnation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "reincarnation",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

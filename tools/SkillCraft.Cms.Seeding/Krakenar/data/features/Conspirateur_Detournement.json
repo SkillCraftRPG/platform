@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2e3dfb6f-92aa-4811-869d-b0e52313d135",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conspirateur_Detournement",
+    "DisplayName": "Détournement",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conspirateur_Detournement",
+      "DisplayName": "Détournement",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il est la cible d’une [attaque](/regles/combat/attaque) et qu’une créature se trouvant à 1,5 mètres ou moins de sa position lui confère un [abri](/regles/combat/attaque/abri) quelconque, il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de rediriger cette attaque contre cette créature."
+      }
+    }
+  }
+}

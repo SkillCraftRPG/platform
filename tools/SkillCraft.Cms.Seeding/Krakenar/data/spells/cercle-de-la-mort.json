@@ -1,0 +1,27 @@
+﻿{
+  "Id": "60268c2e-3b33-4755-9683-4e40069720b3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cercle-de-la-mort",
+    "DisplayName": "Cercle de la Mort",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cercle-de-la-mort",
+      "DisplayName": "Cercle de la Mort",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cercle-de-la-mort",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -8,8 +8,9 @@
     "FieldValues": {
       "SizeRoll": "90+3d10",
       "SizeCategory": "[\"Small\"]",
-      "Speeds": "Walk:4,Climb:4",
-      "ExtraLanguages": "2"
+      "Speeds": "Walk:4",
+      "ExtraLanguages": "2",
+      "Features": "[\"0c8e01b0-1bbe-497a-836f-248df56f1b3c\",\"840f1e39-3f90-40df-967f-bdb96478454f\",\"90e9618b-84f6-409c-a6d3-d014f32d6f25\",\"b48c653f-1c84-4e08-9b48-ed6e7ef3d964\"]"
     }
   },
   "Locales": {
@@ -22,7 +23,16 @@
         "Slug": "gnome",
         "HtmlContent": "Les gnomes sont des humanoïdes de petite taille, généralement poilus et barbus, similairement aux nains. Ce sont des élémentaires associés à la Terre qu’on peut retrouver dans d’étonnants habitats partageant une certaine clandestinité, à l’écart des regards et de la lumière du grand jour. Les gnomes sont des êtres curieux et habiles de leurs mains, possédant une certaine vivacité d’esprit ainsi qu’une bonne résilience face à la magie.",
         "Summary": "\uD83D\uDEA7",
-        "MetaDescription": "\uD83D\uDEA7"
+        "MetaDescription": "\uD83D\uDEA7",
+        "LanguagesText": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7"
       }
     }
   }

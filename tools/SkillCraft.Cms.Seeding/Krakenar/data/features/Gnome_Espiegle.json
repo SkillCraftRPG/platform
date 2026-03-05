@@ -1,0 +1,21 @@
+﻿{
+  "Id": "90e9618b-84f6-409c-a6d3-d014f32d6f25",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gnome_Espiegle",
+    "DisplayName": "Espiègle",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gnome_Espiegle",
+      "DisplayName": "Espiègle",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Investigation](/regles/talents/investigation). Également, lorsqu’il effectue un [pas prudent](/regles/combat/activites/pas-prudent), il peut se déplacer de 3 mètres."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6ed9424a-2b23-4bfb-bf88-4388a270a193",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conspirateur_Imposteur",
+    "DisplayName": "Imposteur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conspirateur_Imposteur",
+      "DisplayName": "Imposteur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut reproduire de manière infaillible la voix, l’écriture et le comportement d’une autre créature en examinant ces détails de celle-ci pendant [3 heures](/regles/aventure/temps) ou plus. Il n’a pas besoin d’effectuer de [test](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie) lorsqu’il utilise cette capacité, sauf s’il donne des raisons évidentes qu’il est un imposteur, et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ce test.\n\nÉgalement, il peut mimer de manière infaillible l’accent et les motifs d’une autre créature qu’il entend parler une [langue](/regles/langues) qu’il connaît pendant au moins une minute, ce qui lui permet de se faire passer pour un locuteur natif de cette langue."
+      }
+    }
+  }
+}

@@ -868,7 +868,7 @@
         "UniqueName": "Parent",
         "DisplayName": "Parent",
         "Description": null,
-        "Placeholder": "Sélectionnez une catégorie parente"
+        "Placeholder": "Sélectionnez une catégorie"
       }
     ]
   },

@@ -1,0 +1,38 @@
+﻿{
+  "Id": "bfcf6584-1803-4c57-89e7-907c97de7b51",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nemedien",
+    "DisplayName": "Nemedien",
+    "Description": null,
+    "FieldValues": {
+      "Features": "[\"2f9e39bc-e998-4eb8-a55e-0f6057d8b9da\",\"e9566c57-840a-4621-b931-35a88288b4ae\",\"1a102196-4fb3-4116-a7cb-96abc6ec1044\",\"3291f002-32ea-4f95-b9be-b92139259a42\"]",
+      "Languages": "[\"830335ef-34f2-4cab-b4c1-9b7619263057\"]",
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nemedien",
+      "DisplayName": "Nemedien",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "nemedien",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

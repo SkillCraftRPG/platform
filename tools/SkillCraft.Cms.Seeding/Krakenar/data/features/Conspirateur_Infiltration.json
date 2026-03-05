@@ -1,0 +1,21 @@
+﻿{
+  "Id": "67f9501f-df01-480c-aab6-f3678bb8cd78",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Conspirateur_Infiltration",
+    "DisplayName": "Infiltration",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Conspirateur_Infiltration",
+      "DisplayName": "Infiltration",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Il peut créer de fausses identités en travaillant pendant [7 jours](/regles/aventure/temps) et en dépensant au moins [25 deniers](/regles/equipement/monnaie). Il établit l’histoire, la profession et les affiliations de l’identité, et acquiert ou conçoit le matériel nécessaire. Il ne peut usurper l’identité d’une autre personne de cette manière. Il n’a pas besoin d’effectuer de [test](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie) lorsqu’il revêt cette identité, sauf s’il donne des raisons évidentes qu’il est un usurpateur, et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ce test."
+      }
+    }
+  }
+}

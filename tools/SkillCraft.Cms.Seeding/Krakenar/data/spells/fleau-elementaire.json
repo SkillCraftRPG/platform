@@ -1,0 +1,27 @@
+﻿{
+  "Id": "66e891ce-cd5f-4975-b399-f044517e36f2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "fleau-elementaire",
+    "DisplayName": "Fléau élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\",\"5cb39d5d-e826-456f-946a-408a007857fb\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "fleau-elementaire",
+      "DisplayName": "Fléau élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fleau-elementaire",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

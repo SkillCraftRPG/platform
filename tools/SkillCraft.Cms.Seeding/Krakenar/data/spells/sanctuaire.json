@@ -1,0 +1,27 @@
+﻿{
+  "Id": "29aad939-4a79-4a3f-bd8d-bd495c5129d3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sanctuaire",
+    "DisplayName": "Sanctuaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sanctuaire",
+      "DisplayName": "Sanctuaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sanctuaire",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
