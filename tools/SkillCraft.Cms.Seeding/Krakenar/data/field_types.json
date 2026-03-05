@@ -175,41 +175,6 @@
     }
   },
   {
-    "Id": "1798fbcb-f3f6-4156-852a-8cc49ae513c2",
-    "UniqueName": "LineageCategory",
-    "DisplayName": null,
-    "Description": null,
-    "Select": {
-      "IsMultiple": false,
-      "Options": [
-        {
-          "Text": "Standard",
-          "Value": "Standard"
-        },
-        {
-          "Text": "Crossed",
-          "Value": "Croisé"
-        },
-        {
-          "Text": "Elemental",
-          "Value": "Élémentaire"
-        },
-        {
-          "Text": "Fairy",
-          "Value": "Fée"
-        },
-        {
-          "Text": "Animal",
-          "Value": "Homme-animal"
-        },
-        {
-          "Text": "Horde",
-          "Value": "Horde"
-        }
-      ]
-    }
-  },
-  {
     "Id": "98f67d35-1766-4cfb-9267-e20be54762d8",
     "UniqueName": "LineageNames",
     "DisplayName": null,

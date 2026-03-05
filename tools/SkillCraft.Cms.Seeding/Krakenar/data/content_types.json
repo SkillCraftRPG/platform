@@ -1045,18 +1045,6 @@
     "Description": null,
     "Fields": [
       {
-        "Id": "5392b9ee-5114-48fc-951f-4accd4b25ad3",
-        "FieldType": "LineageCategory",
-        "IsInvariant": true,
-        "IsRequired": true,
-        "IsIndexed": false,
-        "IsUnique": false,
-        "UniqueName": "Category",
-        "DisplayName": "Catégorie",
-        "Description": null,
-        "Placeholder": "Sélectionnez une catégorie"
-      },
-      {
         "Id": "0e5f3fb1-6f13-47bb-9c49-e54201b663fc",
         "FieldType": "Lineage",
         "IsInvariant": true,
