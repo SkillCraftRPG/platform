@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d1dc0860-d4ff-4cca-beef-0fb4824fb3dc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Savant_ParoleSilencieuse",
+    "DisplayName": "Parole silencieuse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Savant_ParoleSilencieuse",
+      "DisplayName": "Parole silencieuse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut communiquer par télépathie avec toute créature située à 18 mètres ou moins de sa position. La créature le comprend si elle partage au moins une [langue](/regles/langues) avec celui-ci. Le personnage ne peut communiquer qu’avec une seule créature à la fois, et celle-ci ne peut pas lui répondre."
+      }
+    }
+  }
+}

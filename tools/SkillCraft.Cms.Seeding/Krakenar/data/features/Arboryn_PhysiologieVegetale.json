@@ -1,0 +1,21 @@
+﻿{
+  "Id": "17d6f30b-4f76-4d77-ac5f-3b86e530b9fb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Arboryn_PhysiologieVegetale",
+    "DisplayName": "Physiologie végétale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Arboryn_PhysiologieVegetale",
+      "DisplayName": "Physiologie végétale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appartient à la catégorie de créature _Plante_. Lorsqu’il reçoit des [dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types), il doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale aux points de dégâts reçus. En cas d’échec, il est [apeuré](/regles/combat/conditions/apeure) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). Il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Perception](/regles/talents/perception).\n\nIl a besoin d’[eau](/regles/aventure/environnement/alimentation) comme toute créature vivante, mais s’il passe au moins [4 heures](/regles/aventure/temps) en forme sylvestre, enraciné dans un sol fertile sous la lumière directe du Soleil, alors il n’a pas besoin de [nourriture](/regles/aventure/environnement/alimentation) pendant les 24 prochaines heures. Ces heures n’ont pas besoin d’être consécutives, mais elles doivent être effectuées à la [halte](/regles/aventure/repos/halte).\n\nIl peut également remplacer sa [nuit de sommeil](/regles/aventure/repos/sommeil) par 4 heures ou plus consécutives en forme sylvestre, enraciné dans un sol fertile sous la lumière directe du Soleil, en état de transe végétative. Pendant cette transe, le personnage est en état de conscience partielle, mélangeant rêves éveillés et lucidité détachée. Il demeure partiellement réceptif à son [environnement](/regles/aventure/environnement) et peut effectuer avec [désavantage](/regles/competences/tests/avantage-desavantage) des [tests passifs](/regles/competences/tests/passif)."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2f32e001-c3c5-4b8a-93ef-16009e1c9eca",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ashtavrin_DoublePsyche",
+    "DisplayName": "Double psyché",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ashtavrin_DoublePsyche",
+      "DisplayName": "Double psyché",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert les capacités suivantes.\n\n- Il est [résistant](/regles/combat/degats/efficacite) aux [points de dégâts psychiques](/regles/combat/degats/types).\n- Il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Discipline](/regles/talents/discipline). Lorsqu’il effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) avant de savoir s’il réussit ou échoue.\n- Il possède une seconde psyché rêvant perpétuellement. Il a tout de même besoin de [sommeil](/regles/aventure/repos/sommeil) et peut être endormi de manière surnaturelle, mais il ne rêve pas, il est donc immunisé aux effets surnaturels manipulant les rêves."
+      }
+    }
+  }
+}

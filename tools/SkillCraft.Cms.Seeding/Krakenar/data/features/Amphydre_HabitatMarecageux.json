@@ -14,7 +14,7 @@
       "DisplayName": "Habitat marécageux",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les capacités et [pouvoirs](/regles/magie/pouvoirs) d’[empoisonnement](/regles/combat/conditions/empoisonne). Il est également [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types), et son [seuil de tolérance](/regles/aventure/environnement/alcoolemie) à l’alcool augmente de 1. Il est capable de communiquer des idées simples aux amphibiens."
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les capacités et [pouvoirs](/regles/magie/pouvoirs) d’[empoisonnement](/regles/combat/conditions/empoisonne).\n\nIl est également [résistant](/regles/combat/degats/efficacite) aux [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types), et son [seuil de tolérance](/regles/aventure/environnement/alcoolemie) à l’alcool augmente de 1.\n\nEnfin, il peut communiquer des idées simples aux amphibiens, et il peut comprendre les idées simples des amphibiens en retour."
       }
     }
   }

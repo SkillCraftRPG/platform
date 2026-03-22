@@ -14,7 +14,7 @@
       "DisplayName": "Allégresse",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Représentation](/regles/talents/representation). Lorsqu’il effectue un [saut](/regles/aventure/mouvement/types), il peut utiliser un [point de mouvement](/regles/aventure/mouvement/vitesse) supplémentaire afin d’ajouter 1d8 multiplié par 30 centimètres à la distance du saut."
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Athlétisme](/regles/talents/athletisme) et [Représentation](/regles/talents/representation). Lorsqu’il effectue un [saut](/regles/aventure/mouvement/types), il peut utiliser un [point de mouvement](/regles/aventure/mouvement/vitesse) supplémentaire afin d’ajouter 1d8 multiplié par 30 centimètres à la distance du saut."
       }
     }
   }

@@ -14,7 +14,7 @@
       "DisplayName": "Négociateur",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) le talent [Diplomatie](/regles/talents/diplomatie). Il est également capable de communiquer des idées simples aux sangliers."
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Diplomatie](/regles/talents/diplomatie). Il peut également communiquer des idées simples aux sangliers, et il peut comprendre les idées simples des sangliers en retour."
       }
     }
   }

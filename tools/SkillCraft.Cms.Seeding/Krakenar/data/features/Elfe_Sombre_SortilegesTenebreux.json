@@ -1,0 +1,21 @@
+﻿{
+  "Id": "96aae2ce-79d4-4134-95a5-0f43d7c3a683",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Sombre_SortilegesTenebreux",
+    "DisplayName": "Sortilèges ténébreux",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Sombre_SortilegesTenebreux",
+      "DisplayName": "Sortilèges ténébreux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par jour, le personnage peut [canaliser](/regles/magie/pouvoirs/canalisation) le [niveau 1](/regles/magie/pouvoirs/niveau) du pouvoir [Lumière](/regles/magie/pouvoirs/lumiere) sans nécessiter de composante [Focus](/regles/magie/parametres/composantes) ni [Matériel](/regles/magie/parametres/composantes). Il doit [dépenser](/regles/magie/pouvoirs/energie) les points d’[Énergie](/regles/statistiques/energie) nécessaires, mais il peut [Faire 20](/regles/competences/tests/faire-20) au [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). Il récupère cette capacité lorsqu’il complète une [nuit de sommeil](/regles/aventure/repos/sommeil). Lorsqu’il en fait ainsi, il peut remplacer les 6 mètres de [clarté](/regles/aventure/environnement/vision) par de la [pénombre](/regles/aventure/environnement/vision), pour un total de 12 mètres de pénombre.\n\n- Lorsqu’il atteint le [tiers 1](/regles/personnages/progression/tiers), il peut canaliser le niveau 2 du pouvoir [Flammes féériques](/regles/magie/pouvoirs/flammes-feeriques) une fois par jour, et récupère cette capacité lorsqu’il complète une nuit de sommeil.\n- Lorsqu’il atteint le tiers 2, il peut canaliser le niveau 3 du pouvoir [Poulpe](/regles/magie/pouvoirs/poulpe) une fois par jour, et récupère cette capacité lorsqu’il complète une nuit de sommeil.\n- Lorsqu’il atteint le tiers 3, il peut récupérer une de ces capacités en complétant une [halte](/regles/aventure/repos/halte) d’une durée d’[une heure](/regles/aventure/temps) en étant à l’abri de la lumière du Soleil.\n\nS’il a acquis ces [pouvoirs](/regles/magie/pouvoirs), il peut choisir de les canaliser par cette capacité en respectant les conditions, ou il peut les canaliser normalement."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0e97ea59-ab3c-4565-9a92-5bab808ce398",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Cramoisi_AffiniteOcculte",
+    "DisplayName": "Affinité occulte",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Cramoisi_AffiniteOcculte",
+      "DisplayName": "Affinité occulte",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert les capacités suivantes. Il peut utiliser ces capacités un nombre de fois égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) et doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations.\n\n- Lorsqu’il réussit un [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre une capacité surnaturelle telle un [pouvoir](/regles/magie/pouvoirs), il peut absorber l’énergie [magique](/regles/magie) en [réaction](/regles/combat/deroulement/tour).\n  - Lorsqu’il en fait ainsi, la capacité n’a aucune effet contre lui.\n  - De plus, si la capacité a encouru une [dépense d’Énergie](/regles/magie/pouvoirs/energie), alors il peut se conférer un nombre de points [temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) ou récupérer un nombre de points d’[Énergie](/regles/statistiques/energie) égal à la moitié des points dépensés, au choix.\n- Lorsqu’il échoue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), il peut choisir d’ignorer l’échec et de [Faire 20](/regles/competences/tests/faire-20) au test.\n- Lorsqu’il échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) contre un capacité surnaturelle telle un [pouvoir](/regles/magie/pouvoirs), il peut choisir d’ignorer l’échec et de [Faire 20](/regles/competences/tests/faire-20) au test en [réaction](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

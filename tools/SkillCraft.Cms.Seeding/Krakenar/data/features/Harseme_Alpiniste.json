@@ -14,7 +14,7 @@
       "DisplayName": "Alpiniste",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) le talent [Athlétisme](/regles/talents/athletisme). Il peut également communiquer des idées simples aux ours."
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Athlétisme](/regles/talents/athletisme). Il peut également communiquer des idées simples aux ours, et il peut comprendre les idées simples des ours en retour."
       }
     }
   }

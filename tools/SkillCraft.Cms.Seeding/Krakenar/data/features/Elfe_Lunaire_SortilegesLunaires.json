@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a179162d-4745-4e7c-b7cf-065d540fbb35",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Lunaire_SortilegesLunaires",
+    "DisplayName": "Sortilèges lunaires",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Lunaire_SortilegesLunaires",
+      "DisplayName": "Sortilèges lunaires",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage apprend le [signe astrologique](#) « Lune ». Une fois par jour, il peut [canaliser](/regles/magie/pouvoirs/canalisation) le [niveau 1](/regles/magie/pouvoirs/niveau) du pouvoir [Lumière](/regles/magie/pouvoirs/lumiere) sans nécessiter de composante [Focus](/regles/magie/parametres/composantes) ni [Matériel](/regles/magie/parametres/composantes). Il doit [dépenser](/regles/magie/pouvoirs/energie) les points d’[Énergie](/regles/statistiques/energie) nécessaires, mais il peut [Faire 20](/regles/competences/tests/faire-20) au [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). Il récupère cette capacité à minuit.\n\n- Lorsqu’il atteint le [tiers 1](/regles/personnages/progression/tiers), il peut canaliser le niveau 2 du pouvoir [Anesthésie](/regles/magie/pouvoirs/anesthesie) une fois par jour, et récupère cette capacité à minuit.\n- Lorsqu’il atteint le tiers 2, il peut canaliser le niveau 3 du pouvoir [Invisibilité](/regles/magie/pouvoirs/invisibilite) une fois par jour, et récupère cette capacité à minuit.\n- Lorsqu’il atteint le tiers 3, il peut récupérer une de ces capacités en complétant une [halte](/regles/aventure/repos/halte) d’une durée d’[une heure](/regles/aventure/temps) sous le clair de Lune.\n\nS’il a acquis ces [pouvoirs](/regles/magie/pouvoirs), il peut choisir de les canaliser par cette capacité en respectant les conditions, ou il peut les canaliser normalement."
+      }
+    }
+  }
+}

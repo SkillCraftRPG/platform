@@ -14,7 +14,7 @@
       "DisplayName": "Farces et attrapes",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents [Furtivité](/regles/talents/furtivite) et [Roublardise](/regles/talents/roublardise). Il se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite)."
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Furtivité](/regles/talents/furtivite) et [Roublardise](/regles/talents/roublardise). Il se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite)."
       }
     }
   }

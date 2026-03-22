@@ -25,8 +25,8 @@
         "Summary": "Origine céleste, résistances et pouvoirs lumineux et sombres.",
         "Slug": "celestin",
         "HtmlContent": "Les Célestins sont des [Humains](/regles/especes/humain) à ascendance céleste, porteurs d’une beauté surnaturelle et d’un pouvoir lumineux ou sombre. Dispersés en Ouespéro, sans culture propre ni nation, ils vivent parmi les autres peuples, tiraillés entre empathie, visions prophétiques et crainte populaire. Leur Forme céleste, leur résistance aux énergies radiantes et nécrotiques, et leur don de guérison font d’eux des figures rares, à la fois espérées et redoutées.",
-        "LanguagesText": "Le personnage apprend la langue du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
-        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé.\n\nSon prénom est généralement sélectionné afin d’évoquer ses origines angéliques.",
+        "LanguagesText": "Le personnage apprend la [langue](/regles/langues) du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
+        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé. Son prénom est généralement sélectionné afin d’évoquer ses origines angéliques.",
         "MetaDescription": "Découvrez le célestin : humain d’ascendance céleste, doté de transformations lumineuses ou sombres, de pouvoirs radiants et d’une longévité surnaturelle.",
         "Morphology": "Les Célestins ressemblent aux Humains, mais leur peau trahit une ascendance lumineuse par de subtils reflets dorés, argentés ou bleutés. Leurs yeux sont souvent pâles, parfois sans pupille apparente, et leur beauté semble presque irréelle. Lorsqu’ils manifestent leur héritage, des ailes spectrales, une radiance brûlante ou une aura ténébreuse se dévoilent brièvement.",
         "Psychology": "Prédisposés à l’empathie et à la droiture, ils ressentent fortement l’injustice et la souffrance d’autrui. Beaucoup vivent dans la retenue, conscients de la crainte qu’ils inspirent et des présages sombres qu’on leur associe. Certains, tourmentés par visions ou songes prophétiques, luttent intérieurement entre lumière et ombre.",
@@ -34,7 +34,7 @@
         "History": "Leur présence en Ouespéro est constante mais discrète, souvent liée à des événements extraordinaires ou à des conflits majeurs. Les rumeurs les entourant oscillent entre sauveurs envoyés par les hauteurs et annonciateurs de calamités. Certains ont sombré dans une corruption sombre, inversant leur lumière en puissance nécrotique.",
         "Geography": "On retrouve des Célestins partout en Ouespéro, sans patrie ni enclave officielle. Ils vivent dispersés parmi les Humains et autres peuples, rarement regroupés en communautés durables. Leur rareté renforce leur statut d’êtres à part, tolérés ou redoutés selon les régions.",
         "Politics": "Les Célestins ne forment aucune nation ni hiérarchie collective. Leur influence s’exerce à titre individuel : paladins, mystiques, conseillers ou figures charismatiques. Lorsqu’ils se rencontrent, un lien tacite les unit, mais sans structure formelle durable.",
-        "Relations": "Proches des hHumains par le sang, ils partagent leur quotidien mais s’en sentent souvent détachés. Ils éprouvent une affinité instinctive avec d’autres sang-mêlé, tout en se montrant méfiants envers les lignées corrompues ou infernales. Leur aura suscite autant l’admiration que la peur."
+        "Relations": "Proches des Humains par le sang, ils partagent leur quotidien mais s’en sentent souvent détachés. Ils éprouvent une affinité instinctive avec d’autres sang-mêlé, tout en se montrant méfiants envers les lignées corrompues ou infernales. Leur aura suscite autant l’admiration que la peur."
       }
     }
   }

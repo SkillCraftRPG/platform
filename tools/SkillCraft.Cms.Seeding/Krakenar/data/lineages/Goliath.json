@@ -1,0 +1,38 @@
+﻿{
+  "Id": "b1ebca8e-2d12-4a0e-906f-e6f12f82d2bd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Goliath",
+    "DisplayName": "Goliath",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:7,Climb:5",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"e2a1462d-4609-46c4-acd0-8be32bb6a7b7\",\"39cbda07-c630-4f9b-85e7-4229060b19e0\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Goliath",
+      "DisplayName": "Goliath",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "goliath",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "LanguagesText": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
