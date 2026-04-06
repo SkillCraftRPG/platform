@@ -47,7 +47,8 @@ internal class ExportWorker : BackgroundService
       await ExecuteAsync(new ExportContentsTask(TalentDefinition.ContentTypeId, "output/data/talents"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(ScriptDefinition.ContentTypeId, "output/data/scripts"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(LanguageDefinition.ContentTypeId, "output/data/languages"), cancellationToken);
-      await ExecuteAsync(new ExportContentsTask(LineageDefinition.ContentTypeId, "output/data/lineages"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(SpeciesDefinition.ContentTypeId, "output/data/species"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(EthnicityDefinition.ContentTypeId, "output/data/ethnicities"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(SpecializationDefinition.ContentTypeId, "output/data/specializations"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(DoctrineDefinition.ContentTypeId, "output/data/doctrines"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(SpellCategoryDefinition.ContentTypeId, "output/data/spells/categories"), cancellationToken);

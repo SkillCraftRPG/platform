@@ -13,20 +13,20 @@ using SkillCraft.Cms.Infrastructure.Entities;
 
 namespace SkillCraft.Cms.Infrastructure.Materialization;
 
-internal record PublishLineageCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
+internal record PublishSpeciesCommand(ContentLocalePublished Event, ContentLocale Invariant, ContentLocale Locale) : ICommand;
 
-internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageCommand, Unit>
+internal class PublishSpeciesCommandHandler : ICommandHandler<PublishSpeciesCommand, Unit>
 {
-  private readonly ILogger<PublishLineageCommandHandler> _logger;
+  private readonly ILogger<PublishSpeciesCommandHandler> _logger;
   private readonly RulesContext _rules;
 
-  public PublishLineageCommandHandler(ILogger<PublishLineageCommandHandler> logger, RulesContext rules)
+  public PublishSpeciesCommandHandler(ILogger<PublishSpeciesCommandHandler> logger, RulesContext rules)
   {
     _logger = logger;
     _rules = rules;
   }
 
-  public async Task<Unit> HandleAsync(PublishLineageCommand command, CancellationToken cancellationToken)
+  public async Task<Unit> HandleAsync(PublishSpeciesCommand command, CancellationToken cancellationToken)
   {
     ContentLocalePublished @event = command.Event;
     ContentLocale invariant = command.Invariant;
@@ -45,38 +45,36 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
     List<ValidationFailure> failures = [];
 
-    lineage.Slug = locale.GetString(LineageDefinition.Slug);
+    lineage.Slug = locale.GetString(SpeciesDefinition.Slug);
     lineage.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
-
-    await SetParentAsync(lineage, invariant, failures, cancellationToken);
 
     await SetFeaturesAsync(lineage, invariant, failures, cancellationToken);
 
     await SetLanguagesAsync(lineage, invariant, failures, cancellationToken);
-    lineage.ExtraLanguages = (int)invariant.GetNumber(LineageDefinition.ExtraLanguages);
-    lineage.LanguagesText = locale.TryGetString(LineageDefinition.LanguagesText);
+    lineage.ExtraLanguages = (int)invariant.GetNumber(SpeciesDefinition.ExtraLanguages);
+    lineage.LanguagesText = locale.TryGetString(SpeciesDefinition.LanguagesText);
 
     SetNamesSelection(lineage, locale, failures);
-    lineage.NamesText = locale.TryGetString(LineageDefinition.NamesText);
+    lineage.NamesText = locale.TryGetString(SpeciesDefinition.NamesText);
 
     SetSpeed(lineage, invariant, failures);
 
     SetSizeCategory(lineage, invariant, failures);
-    lineage.SizeRoll = invariant.TryGetString(LineageDefinition.SizeRoll);
+    lineage.SizeRoll = invariant.TryGetString(SpeciesDefinition.SizeRoll);
     SetWeight(lineage, invariant, failures);
     SetAge(lineage, invariant, failures);
 
-    lineage.MetaDescription = locale.TryGetString(LineageDefinition.MetaDescription);
-    lineage.Summary = locale.TryGetString(LineageDefinition.Summary);
-    lineage.HtmlContent = locale.TryGetString(LineageDefinition.HtmlContent);
+    lineage.MetaDescription = locale.TryGetString(SpeciesDefinition.MetaDescription);
+    lineage.Summary = locale.TryGetString(SpeciesDefinition.Summary);
+    lineage.HtmlContent = locale.TryGetString(SpeciesDefinition.HtmlContent);
 
-    lineage.Morphology = locale.TryGetString(LineageDefinition.Morphology);
-    lineage.Psychology = locale.TryGetString(LineageDefinition.Psychology);
-    lineage.Culture = locale.TryGetString(LineageDefinition.Culture);
-    lineage.History = locale.TryGetString(LineageDefinition.History);
-    lineage.Geography = locale.TryGetString(LineageDefinition.Geography);
-    lineage.Politics = locale.TryGetString(LineageDefinition.Politics);
-    lineage.Relations = locale.TryGetString(LineageDefinition.Relations);
+    lineage.Morphology = locale.TryGetString(SpeciesDefinition.Morphology);
+    lineage.Psychology = locale.TryGetString(SpeciesDefinition.Psychology);
+    lineage.Culture = locale.TryGetString(SpeciesDefinition.Culture);
+    lineage.History = locale.TryGetString(SpeciesDefinition.History);
+    lineage.Geography = locale.TryGetString(SpeciesDefinition.Geography);
+    lineage.Politics = locale.TryGetString(SpeciesDefinition.Politics);
+    lineage.Relations = locale.TryGetString(SpeciesDefinition.Relations);
 
     lineage.Publish(@event);
 
@@ -94,7 +92,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
   private static void SetAge(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures)
   {
-    string value = invariant.GetString(LineageDefinition.Age);
+    string value = invariant.GetString(SpeciesDefinition.Age);
     if (string.IsNullOrWhiteSpace(value))
     {
       lineage.Teenager = 0;
@@ -114,7 +112,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(LineageDefinition.Weight), "'{PropertyName}' must contain 4 strictly positive and ordered integers separated by a comma (',').", value)
+        failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Weight), "'{PropertyName}' must contain 4 strictly positive and ordered integers separated by a comma (',').", value)
         {
           ErrorCode = ErrorCodes.InvalidFormat
         });
@@ -124,7 +122,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
   private async Task SetFeaturesAsync(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
-    IReadOnlyCollection<Guid> featureIds = invariant.GetRelatedContent(LineageDefinition.Features);
+    IReadOnlyCollection<Guid> featureIds = invariant.GetRelatedContent(SpeciesDefinition.Features);
     Dictionary<Guid, FeatureEntity> features = featureIds.Count < 1
       ? []
       : await _rules.Features.Where(x => featureIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
@@ -149,7 +147,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(LineageDefinition.Features), "'{PropertyName}' must reference existing entities.", featureId)
+        failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Features), "'{PropertyName}' must reference existing entities.", featureId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -159,7 +157,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
   private async Task SetLanguagesAsync(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
-    IReadOnlyCollection<Guid> languageIds = invariant.GetRelatedContent(LineageDefinition.Languages);
+    IReadOnlyCollection<Guid> languageIds = invariant.GetRelatedContent(SpeciesDefinition.Languages);
     Dictionary<Guid, LanguageEntity> languages = languageIds.Count < 1
       ? []
       : await _rules.Languages.Where(x => languageIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
@@ -184,7 +182,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(LineageDefinition.Languages), "'{PropertyName}' must reference existing entities.", languageId)
+        failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Languages), "'{PropertyName}' must reference existing entities.", languageId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });
@@ -200,7 +198,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     lineage.UnisexNames = null;
     lineage.CustomNames = null;
 
-    string? namesSelection = locale.TryGetString(LineageDefinition.NamesSelection);
+    string? namesSelection = locale.TryGetString(SpeciesDefinition.NamesSelection);
     if (!string.IsNullOrWhiteSpace(namesSelection))
     {
       Dictionary<string, string[]> custom = [];
@@ -212,7 +210,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
           string[] parts = line.Split(':');
           if (parts.Length != 2)
           {
-            failures.Add(new ValidationFailure(nameof(LineageDefinition.NamesSelection), "'{PropertyName}' must contain a list of key-value pairs (colon ':' separator) on each line.", line)
+            failures.Add(new ValidationFailure(nameof(SpeciesDefinition.NamesSelection), "'{PropertyName}' must contain a list of key-value pairs (colon ':' separator) on each line.", line)
             {
               ErrorCode = ErrorCodes.InvalidFormat
             });
@@ -223,14 +221,14 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
             string[] names = parts.Last().Split(Constants.Separator).Where(name => !string.IsNullOrWhiteSpace(name)).Select(name => name.Trim()).OrderBy(name => name).ToArray();
             if (string.IsNullOrEmpty(category))
             {
-              failures.Add(new ValidationFailure(nameof(LineageDefinition.NamesSelection), "'{PropertyName}' cannot have an empty name category key.", line)
+              failures.Add(new ValidationFailure(nameof(SpeciesDefinition.NamesSelection), "'{PropertyName}' cannot have an empty name category key.", line)
               {
                 ErrorCode = ErrorCodes.EmptyValue
               });
             }
             else if (names.Length < 1)
             {
-              failures.Add(new ValidationFailure(nameof(LineageDefinition.NamesSelection), "'{PropertyName}' cannot have an empty name category list.", line)
+              failures.Add(new ValidationFailure(nameof(SpeciesDefinition.NamesSelection), "'{PropertyName}' cannot have an empty name category list.", line)
               {
                 ErrorCode = ErrorCodes.EmptyValue
               });
@@ -263,48 +261,16 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     }
   }
 
-  private async Task SetParentAsync(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
-  {
-    IReadOnlyCollection<Guid> parentIds = invariant.GetRelatedContent(LineageDefinition.Parent);
-    if (parentIds.Count < 1)
-    {
-      lineage.SetParent(null);
-    }
-    else if (parentIds.Count > 1)
-    {
-      failures.Add(new ValidationFailure(nameof(LineageDefinition.Parent), "'{PropertyName}' must contain at most one element.", parentIds)
-      {
-        ErrorCode = ErrorCodes.TooManyValues
-      });
-    }
-    else
-    {
-      Guid parentId = parentIds.Single();
-      LineageEntity? parent = await _rules.Lineages.SingleOrDefaultAsync(x => x.Id == parentId, cancellationToken);
-      if (parent is null)
-      {
-        failures.Add(new ValidationFailure(nameof(LineageDefinition.Parent), "'{PropertyName}' must reference an existing entity.", parentId)
-        {
-          ErrorCode = ErrorCodes.EntityNotFound
-        });
-      }
-      else
-      {
-        lineage.SetParent(parent);
-      }
-    }
-  }
-
   private static void SetSizeCategory(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures)
   {
-    IReadOnlyCollection<string> sizeCategories = invariant.GetSelect(LineageDefinition.SizeCategory);
+    IReadOnlyCollection<string> sizeCategories = invariant.GetSelect(SpeciesDefinition.SizeCategory);
     if (sizeCategories.Count < 1)
     {
       lineage.SizeCategory = default;
     }
     else if (sizeCategories.Count > 1)
     {
-      failures.Add(new ValidationFailure(nameof(LineageDefinition.SizeCategory), "'{PropertyName}' must contain at most one element.", sizeCategories)
+      failures.Add(new ValidationFailure(nameof(SpeciesDefinition.SizeCategory), "'{PropertyName}' must contain at most one element.", sizeCategories)
       {
         ErrorCode = ErrorCodes.TooManyValues
       });
@@ -335,7 +301,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
     lineage.Hover = false;
     lineage.Burrow = 0;
 
-    string value = invariant.GetString(LineageDefinition.Speeds);
+    string value = invariant.GetString(SpeciesDefinition.Speeds);
     if (!string.IsNullOrWhiteSpace(value))
     {
       string[] values = value.Trim().Split(Constants.Separator);
@@ -347,21 +313,21 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
           bool isHover = parts.First().Equals(nameof(LineageEntity.Hover), StringComparison.InvariantCultureIgnoreCase);
           if (parts.Length != 2)
           {
-            failures.Add(new ValidationFailure(nameof(LineageDefinition.Speeds), "'{PropertyName}' must contain a list of key-value pairs (colon ':' separator) separated by a comma (',').", raw)
+            failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Speeds), "'{PropertyName}' must contain a list of key-value pairs (colon ':' separator) separated by a comma (',').", raw)
             {
               ErrorCode = ErrorCodes.InvalidFormat
             });
           }
           else if (!Enum.TryParse(parts.First(), ignoreCase: true, out SpeedKind kind) && !isHover)
           {
-            failures.Add(new ValidationFailure(nameof(LineageDefinition.Speeds), $"'{{PropertyName}}' pair keys must be parseable as a {nameof(SpeedKind)}.", raw)
+            failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Speeds), $"'{{PropertyName}}' pair keys must be parseable as a {nameof(SpeedKind)}.", raw)
             {
               ErrorCode = ErrorCodes.InvalidFormat
             });
           }
           else if (!int.TryParse(parts.Last(), out int speed) || speed <= 0)
           {
-            failures.Add(new ValidationFailure(nameof(LineageDefinition.Speeds), "'{PropertyName}' pair values must be a strictly positive integer.", raw)
+            failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Speeds), "'{PropertyName}' pair values must be a strictly positive integer.", raw)
             {
               ErrorCode = ErrorCodes.InvalidFormat
             });
@@ -405,7 +371,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
 
   private static void SetWeight(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures)
   {
-    string value = invariant.GetString(LineageDefinition.Weight);
+    string value = invariant.GetString(SpeciesDefinition.Weight);
     if (string.IsNullOrWhiteSpace(value))
     {
       lineage.Malnutrition = null;
@@ -427,7 +393,7 @@ internal class PublishLineageCommandHandler : ICommandHandler<PublishLineageComm
       }
       else
       {
-        failures.Add(new ValidationFailure(nameof(LineageDefinition.Weight), "'{PropertyName}' must contain 5 dice rolls separated by a comma (',').", value)
+        failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Weight), "'{PropertyName}' must contain 5 dice rolls separated by a comma (',').", value)
         {
           ErrorCode = ErrorCodes.InvalidFormat
         });

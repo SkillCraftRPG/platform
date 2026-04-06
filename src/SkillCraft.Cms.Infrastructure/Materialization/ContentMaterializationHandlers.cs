@@ -28,17 +28,18 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<PublishCustomizationCommand, Unit>, PublishCustomizationCommandHandler>();
     services.AddTransient<ICommandHandler<PublishDoctrineCommand, Unit>, PublishDoctrineCommandHandler>();
     services.AddTransient<ICommandHandler<PublishEducationCommand, Unit>, PublishEducationCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishEthnicityCommand, Unit>, PublishEthnicityCommandHandler>();
     services.AddTransient<ICommandHandler<PublishFeatureCommand, Unit>, PublishFeatureCommandHandler>();
     services.AddTransient<ICommandHandler<PublishLanguageCommand, Unit>, PublishLanguageCommandHandler>();
-    services.AddTransient<ICommandHandler<PublishLineageCommand, Unit>, PublishLineageCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestCommand, Unit>, PublishQuestCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestGroupCommand, Unit>, PublishQuestGroupCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestLogCommand, Unit>, PublishQuestLogCommandHandler>();
     services.AddTransient<ICommandHandler<PublishScriptCommand, Unit>, PublishScriptCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSkillCommand, Unit>, PublishSkillCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSpecializationCommand, Unit>, PublishSpecializationCommandHandler>();
-    services.AddTransient<ICommandHandler<PublishSpellCommand, Unit>, PublishSpellCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishSpeciesCommand, Unit>, PublishSpeciesCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSpellCategoryCommand, Unit>, PublishSpellCategoryCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishSpellCommand, Unit>, PublishSpellCommandHandler>();
     services.AddTransient<ICommandHandler<PublishSpellEffectCommand, Unit>, PublishSpellEffectCommandHandler>();
     services.AddTransient<ICommandHandler<PublishStatisticCommand, Unit>, PublishStatisticCommandHandler>();
     services.AddTransient<ICommandHandler<PublishTalentCommand, Unit>, PublishTalentCommandHandler>();
@@ -150,6 +151,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Education:
           await _commandBus.ExecuteAsync(new PublishEducationCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
+        case EntityKind.Ethnicity:
+          await _commandBus.ExecuteAsync(new PublishEthnicityCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
         case EntityKind.Feature:
           await _commandBus.ExecuteAsync(new PublishFeatureCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
@@ -158,9 +162,6 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Language:
           await _commandBus.ExecuteAsync(new PublishLanguageCommand(@event, published.Invariant, published.Locale), cancellationToken);
-          break;
-        case EntityKind.Lineage:
-          await _commandBus.ExecuteAsync(new PublishLineageCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
         case EntityKind.Quest:
           await _commandBus.ExecuteAsync(new PublishQuestCommand(@event, published.Invariant, published.Locale), cancellationToken);
@@ -179,6 +180,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Specialization:
           await _commandBus.ExecuteAsync(new PublishSpecializationCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
+        case EntityKind.Species:
+          await _commandBus.ExecuteAsync(new PublishSpeciesCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
         case EntityKind.Spell:
           await _commandBus.ExecuteAsync(new PublishSpellCommand(@event, published.Invariant, published.Locale), cancellationToken);
@@ -256,14 +260,15 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Education:
           await _commandBus.ExecuteAsync(new UnpublishEducationCommand(@event), cancellationToken);
           break;
+        case EntityKind.Ethnicity:
+        case EntityKind.Species:
+          await _commandBus.ExecuteAsync(new UnpublishLineageCommand(@event), cancellationToken);
+          break;
         case EntityKind.Feature:
           await _commandBus.ExecuteAsync(new UnpublishFeatureCommand(@event), cancellationToken);
           break;
         case EntityKind.Language:
           await _commandBus.ExecuteAsync(new UnpublishLanguageCommand(@event), cancellationToken);
-          break;
-        case EntityKind.Lineage:
-          await _commandBus.ExecuteAsync(new UnpublishLineageCommand(@event), cancellationToken);
           break;
         case EntityKind.Quest:
           await _commandBus.ExecuteAsync(new UnpublishQuestCommand(@event), cancellationToken);

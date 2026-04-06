@@ -154,16 +154,6 @@
     }
   },
   {
-    "Id": "54965d58-e440-46a8-b070-f6f9f9513637",
-    "UniqueName": "Lineage",
-    "DisplayName": null,
-    "Description": null,
-    "RelatedContent": {
-      "ContentTypeId": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
-      "IsMultiple": false
-    }
-  },
-  {
     "Id": "154d1479-fd00-4e37-a7b3-27786b6d28a1",
     "UniqueName": "LineageAge",
     "DisplayName": null,
@@ -375,6 +365,16 @@
       "MinimumValue": 1,
       "MaximumValue": 3,
       "Step": 1
+    }
+  },
+  {
+    "Id": "54965d58-e440-46a8-b070-f6f9f9513637",
+    "UniqueName": "Species",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
+      "IsMultiple": false
     }
   },
   {
