@@ -1,0 +1,24 @@
+﻿{
+  "Id": "cc259229-8859-41fc-b15c-59ac11b09cc2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Animal",
+    "DisplayName": "Hommes-animaux",
+    "Description": null,
+    "FieldValues": {
+      "Order": "3",
+      "Columns": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Animal",
+      "DisplayName": "Hommes-animaux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les hommes-animaux sont les autochtones de la région. Autrefois maîtres d’un vaste territoire, ils ont vu leurs terres se réduire au fil des siècles, sous la pression de l’expansion des autres peuples. Face à ce recul, deux voies se sont imposées. Certains ont choisi le repli, vivant en marge des sociétés établies afin de préserver leurs valeurs et traditions millénaires. D’autres se sont intégrés, volontairement ou sous contrainte, au prix d’une érosion parfois profonde de leur culture ancestrale. Cette fracture marque encore aujourd’hui l’identité et le destin de ces peuples."
+      }
+    }
+  }
+}

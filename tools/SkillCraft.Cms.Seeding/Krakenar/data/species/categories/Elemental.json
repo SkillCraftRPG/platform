@@ -1,0 +1,24 @@
+﻿{
+  "Id": "582ec12d-1222-4e1e-bb95-88758ce55748",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elemental",
+    "DisplayName": "Élémentaires",
+    "Description": null,
+    "FieldValues": {
+      "Columns": "4",
+      "Order": "5"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elemental",
+      "DisplayName": "Élémentaires",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les élémentaires tirent leur origine de la présence d’esprits élémentaires venus d’autres dimensions. Leur existence est intimement liée à des lieux fortement marqués par leur élément, auxquels ils s’attachent bien davantage qu’à des frontières, des organisations politiques, des religions ou des cultures. De ce fait, ils demeurent généralement neutres dans les conflits militaires et politiques. Leurs actions sont guidées avant tout par l’intérêt de leur espèce et la préservation de leur habitat, quitte à ignorer ou contrarier les enjeux des peuples qui les entourent."
+      }
+    }
+  }
+}

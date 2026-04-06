@@ -1,0 +1,24 @@
+﻿{
+  "Id": "941098e4-a7be-4427-ac4b-80e8b0ec423a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Crossed",
+    "DisplayName": "Espèces croisées",
+    "Description": null,
+    "FieldValues": {
+      "Order": "2",
+      "Columns": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Crossed",
+      "DisplayName": "Espèces croisées",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les espèces dites croisées sont issues de l’union de deux lignées distinctes. Leur héritage multiple leur confère des traits physiques, culturels ou surnaturels variables, qui ne se manifestent jamais de manière uniforme. Leur degré d’intégration aux sociétés des espèces communes varie fortement en fonction de l’individu. Certains s’insèrent aisément dans les sociétés de l’un ou l’autre de leurs parents, tandis que d’autres peinent à trouver leur place, pris entre des normes sociales, biologiques ou symboliques parfois incompatibles. Leur identité se construit donc davantage par le vécu personnel que par l’appartenance collective."
+      }
+    }
+  }
+}
