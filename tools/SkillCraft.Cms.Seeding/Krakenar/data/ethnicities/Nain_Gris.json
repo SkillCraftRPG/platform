@@ -6,7 +6,7 @@
     "DisplayName": "Nain gris",
     "Description": null,
     "FieldValues": {
-      "Parent": "[\"1aefb67d-7138-448e-b6f5-749edb4b5ef6\"]",
+      "Species": "[\"1aefb67d-7138-448e-b6f5-749edb4b5ef6\"]",
       "Features": "[\"beeb713c-89ca-4a5b-b715-4aa116d14c6d\"]",
       "Languages": "[\"5ee6cd80-7a76-40c9-ac29-45f19a199a78\"]"
     }

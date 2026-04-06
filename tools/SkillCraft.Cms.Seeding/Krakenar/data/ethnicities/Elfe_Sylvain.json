@@ -6,7 +6,7 @@
     "DisplayName": "Elfe sylvain",
     "Description": null,
     "FieldValues": {
-      "Parent": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
+      "Species": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
       "Speeds": "Walk:7",
       "Features": "[\"5e9ba2d8-56c8-46dd-8d63-dcc4af1e47e2\"]",
       "ExtraLanguages": "1"

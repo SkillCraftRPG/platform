@@ -6,7 +6,7 @@
     "DisplayName": "Savant",
     "Description": null,
     "FieldValues": {
-      "Parent": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
+      "Species": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
       "Languages": "[\"5e384ff3-ae44-4c2a-a5c0-bc46d9d3872a\"]",
       "ExtraLanguages": "0",
       "Features": "[\"d1dc0860-d4ff-4cca-beef-0fb4824fb3dc\"]"

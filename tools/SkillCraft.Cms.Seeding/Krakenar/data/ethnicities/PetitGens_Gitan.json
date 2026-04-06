@@ -6,7 +6,7 @@
     "DisplayName": "Gitan",
     "Description": null,
     "FieldValues": {
-      "Parent": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
+      "Species": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
       "Features": "[\"7064aa48-1d22-45cb-b505-b2a496397bac\"]",
       "ExtraLanguages": "1"
     }

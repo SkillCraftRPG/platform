@@ -6,7 +6,7 @@
     "DisplayName": "Haut-Elfe",
     "Description": null,
     "FieldValues": {
-      "Parent": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
+      "Species": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
       "ExtraLanguages": "1",
       "Features": "[\"641d8c6d-b9a3-43d4-af18-bab179f79e7d\"]",
       "Languages": "[\"0858d002-c292-4267-a414-aec6ba429872\"]"
