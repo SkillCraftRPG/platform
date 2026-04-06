@@ -4,6 +4,7 @@ namespace SkillCraft.Cms.Core.Lineages.Models;
 
 public record SearchSpeciesPayload : SearchPayload
 {
+  public Guid? CategoryId { get; set; }
   public Guid? LanguageId { get; set; }
   public SizeCategory? SizeCategory { get; set; }
 

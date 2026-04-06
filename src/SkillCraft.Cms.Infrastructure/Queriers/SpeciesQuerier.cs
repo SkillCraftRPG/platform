@@ -55,6 +55,10 @@ internal class SpeciesQuerier : ISpeciesQuerier
       .Where(RulesDb.Lineages.ParentId, Operators.IsNull());
     _sqlHelper.ApplyTextSearch(builder, payload.Search, RulesDb.Lineages.Slug, RulesDb.Lineages.Name, RulesDb.Lineages.Summary);
 
+    if (payload.CategoryId.HasValue)
+    {
+      builder.Where(RulesDb.Lineages.SpeciesCategoryUid, Operators.IsEqualTo(payload.CategoryId.Value));
+    }
     if (payload.LanguageId.HasValue)
     {
       OperatorCondition condition = new(RulesDb.LineageLanguages.LanguageUid, Operators.IsEqualTo(payload.LanguageId.Value));
