@@ -102,6 +102,17 @@
     }
   },
   {
+    "Id": "c207e96b-6278-4b31-be19-8b48f2ef3e26",
+    "UniqueName": "Columns",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 12,
+      "Step": 1
+    }
+  },
+  {
     "Id": "2fc39270-4ef5-4699-b1bd-ca6dc550a7e0",
     "UniqueName": "ExtraLanguages",
     "DisplayName": null,
@@ -209,14 +220,14 @@
     }
   },
   {
-    "Id": "b8acab48-79b8-4297-841f-3736658378d6",
-    "UniqueName": "Ratio",
+    "Id": "417313b7-26bb-4e24-9ca8-dc62ed9fa853",
+    "UniqueName": "Order",
     "DisplayName": null,
     "Description": null,
     "Number": {
       "MinimumValue": 0,
-      "MaximumValue": 1,
-      "Step": 0.00001
+      "MaximumValue": 999,
+      "Step": 1
     }
   },
   {
@@ -259,6 +270,17 @@
       "MinimumValue": 0,
       "MaximumValue": 1000,
       "Step": 1
+    }
+  },
+  {
+    "Id": "b8acab48-79b8-4297-841f-3736658378d6",
+    "UniqueName": "Ratio",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 1,
+      "Step": 0.00001
     }
   },
   {

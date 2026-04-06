@@ -1038,12 +1038,69 @@
     ]
   },
   {
+    "Id": "b0fb2943-c922-4578-9d2c-8ab5364b38a4",
+    "IsInvariant": false,
+    "UniqueName": "SpeciesCategory",
+    "DisplayName": "Catégorie d’espèce",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "cf6f9677-d757-4f43-885b-49715ab60c39",
+        "FieldType": "Order",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Order",
+        "DisplayName": "Ordre",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "067d2acd-23fe-4d50-a8d6-e43a734badcd",
+        "FieldType": "Columns",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Columns",
+        "DisplayName": "Nombre de colonnes",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "f61a8608-33d8-42e9-8609-86a65ef8007b",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
     "Id": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
     "IsInvariant": false,
     "UniqueName": "Species",
     "DisplayName": "Espèce",
     "Description": null,
     "Fields": [
+      {
+        "Id": "2f0f410f-643e-40f3-b838-9b7050967cb9",
+        "FieldType": "SpeciesCategory",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Category",
+        "DisplayName": "Catégorie",
+        "Description": null,
+        "Placeholder": "Sélectionnez une catégorie"
+      },
       {
         "Id": "2bcc6f71-3205-4d58-9149-267ebdecd537",
         "FieldType": "Features",
