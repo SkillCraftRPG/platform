@@ -9,7 +9,8 @@
       "ExtraLanguages": "2",
       "Speeds": "Walk:2,Fly:6",
       "SizeCategory": "[\"Tiny\"]",
-      "Features": "[\"eb9efbf8-0073-4cb2-a092-60d5c2a77733\",\"0a8cb37d-bab7-4bb2-8fd7-77de8bace4d7\"]"
+      "Features": "[\"eb9efbf8-0073-4cb2-a092-60d5c2a77733\",\"0a8cb37d-bab7-4bb2-8fd7-77de8bace4d7\"]",
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
     }
   },
   "Locales": {

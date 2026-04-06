@@ -12,7 +12,8 @@
       "SizeRoll": "140+5d10",
       "Weight": "9+1d4,13+1d4,17+1d6,23+1d6,29+1d8",
       "Age": "10,20,40,160",
-      "Features": "[\"a3d63ea4-2b91-4c28-b62e-4a51e9e425ea\",\"350caa24-b15e-471a-bfba-a9415896824f\",\"2e60a89c-8e08-4732-93fb-a7071257f4bf\"]"
+      "Features": "[\"a3d63ea4-2b91-4c28-b62e-4a51e9e425ea\",\"350caa24-b15e-471a-bfba-a9415896824f\",\"2e60a89c-8e08-4732-93fb-a7071257f4bf\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
     }
   },
   "Locales": {

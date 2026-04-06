@@ -9,7 +9,8 @@
       "ExtraLanguages": "2",
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
-      "Features": "[\"5fc0fa84-b529-4944-8b12-985cf6b51ec0\",\"17d6f30b-4f76-4d77-ac5f-3b86e530b9fb\",\"d45542b5-eb9f-4a1b-bdb4-d3a484cd992b\"]"
+      "Features": "[\"5fc0fa84-b529-4944-8b12-985cf6b51ec0\",\"17d6f30b-4f76-4d77-ac5f-3b86e530b9fb\",\"d45542b5-eb9f-4a1b-bdb4-d3a484cd992b\"]",
+      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]"
     }
   },
   "Locales": {

@@ -2,7 +2,7 @@
   "Id": "bfcf6584-1803-4c57-89e7-907c97de7b51",
   "Invariant": {
     "IsPublished": true,
-    "UniqueName": "nemedien",
+    "UniqueName": "Nemedien",
     "DisplayName": "Nemedien",
     "Description": null,
     "FieldValues": {
@@ -10,13 +10,14 @@
       "Languages": "[\"830335ef-34f2-4cab-b4c1-9b7619263057\"]",
       "ExtraLanguages": "1",
       "Speeds": "Walk:6",
-      "SizeCategory": "[\"Medium\"]"
+      "SizeCategory": "[\"Medium\"]",
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
     }
   },
   "Locales": {
     "fr": {
       "IsPublished": true,
-      "UniqueName": "nemedien",
+      "UniqueName": "Nemedien",
       "DisplayName": "Nemedien",
       "Description": null,
       "FieldValues": {

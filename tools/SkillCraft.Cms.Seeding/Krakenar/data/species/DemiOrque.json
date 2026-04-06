@@ -12,7 +12,8 @@
       "SizeRoll": "140+5d10",
       "Age": "8,15,45,75",
       "Weight": "15+1d6,21+1d6,27+1d6,33+1d8,41+1d10",
-      "Features": "[\"198b3f9c-993e-4f65-bebf-c2ad089542a9\",\"96a8f318-6aa2-4126-9a02-1ab2dd2a9a78\",\"be10f2f8-fde9-4f02-b2fd-8faa0a465718\"]"
+      "Features": "[\"198b3f9c-993e-4f65-bebf-c2ad089542a9\",\"96a8f318-6aa2-4126-9a02-1ab2dd2a9a78\",\"be10f2f8-fde9-4f02-b2fd-8faa0a465718\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
     }
   },
   "Locales": {

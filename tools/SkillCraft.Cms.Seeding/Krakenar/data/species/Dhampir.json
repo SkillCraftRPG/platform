@@ -12,7 +12,8 @@
       "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
       "Age": "8,15,275,750",
       "SizeCategory": "[\"Medium\"]",
-      "Features": "[\"552d6f50-53e2-4ddd-8c44-4c71d87389b7\",\"336f5b25-cf8e-4e6c-bd82-0973245755d3\",\"fe94b10d-b9cf-47f2-a88b-dbaf6fbad5fe\",\"8849cb61-0838-43e8-902b-2a13e722bb82\",\"e36d1f42-6c8b-4e83-b6b2-9fedab5f28f4\",\"da7596bf-4b69-42e9-af5a-d26be744d123\"]"
+      "Features": "[\"552d6f50-53e2-4ddd-8c44-4c71d87389b7\",\"336f5b25-cf8e-4e6c-bd82-0973245755d3\",\"fe94b10d-b9cf-47f2-a88b-dbaf6fbad5fe\",\"8849cb61-0838-43e8-902b-2a13e722bb82\",\"e36d1f42-6c8b-4e83-b6b2-9fedab5f28f4\",\"da7596bf-4b69-42e9-af5a-d26be744d123\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
     }
   },
   "Locales": {

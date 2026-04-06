@@ -10,7 +10,8 @@
       "Speeds": "Walk:5,Climb:5",
       "SizeCategory": "[\"Medium\"]",
       "SizeRoll": "140+2d20",
-      "Features": "[\"f45e6abd-a1fa-426e-bb94-3b08713d18aa\",\"db7a0af2-0d31-47a4-816f-dfab91f08ec6\"]"
+      "Features": "[\"f45e6abd-a1fa-426e-bb94-3b08713d18aa\",\"db7a0af2-0d31-47a4-816f-dfab91f08ec6\"]",
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
     }
   },
   "Locales": {

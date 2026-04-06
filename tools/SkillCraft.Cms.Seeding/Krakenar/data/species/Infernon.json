@@ -12,7 +12,8 @@
       "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
       "Age": "8,15,40,160",
       "SizeCategory": "[\"Medium\"]",
-      "Features": "[\"b61b393f-91df-435a-a082-f59bb7300d99\",\"c80753c1-85f0-4faf-aa78-ee8e5bc8ef42\",\"67f264e7-57f4-4f58-a389-cefd7eba8ab6\"]"
+      "Features": "[\"b61b393f-91df-435a-a082-f59bb7300d99\",\"c80753c1-85f0-4faf-aa78-ee8e5bc8ef42\",\"67f264e7-57f4-4f58-a389-cefd7eba8ab6\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
     }
   },
   "Locales": {

@@ -10,7 +10,8 @@
       "Speeds": "Walk:6,Swim:6",
       "SizeCategory": "[\"Medium\"]",
       "SizeRoll": "140+2d20",
-      "Features": "[\"972b3927-f429-48ff-83c3-f7348003bb9c\",\"ba855dbd-dd74-4d65-9d16-206afde5979d\",\"09e241b0-93d1-42ac-8657-9ecd6df480e1\"]"
+      "Features": "[\"972b3927-f429-48ff-83c3-f7348003bb9c\",\"ba855dbd-dd74-4d65-9d16-206afde5979d\",\"09e241b0-93d1-42ac-8657-9ecd6df480e1\"]",
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
     }
   },
   "Locales": {

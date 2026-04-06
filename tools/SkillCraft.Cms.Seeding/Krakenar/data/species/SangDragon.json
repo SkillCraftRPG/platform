@@ -10,7 +10,8 @@
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
       "SizeRoll": "180+3d10",
-      "Features": "[\"83149e02-5194-4157-acd7-5237c76505ba\",\"9e42d9e8-1b51-4f1a-99d6-3ed26661c9fe\",\"083d8551-2d99-42a1-8f85-ba782a6476c3\"]"
+      "Features": "[\"83149e02-5194-4157-acd7-5237c76505ba\",\"9e42d9e8-1b51-4f1a-99d6-3ed26661c9fe\",\"083d8551-2d99-42a1-8f85-ba782a6476c3\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
     }
   },
   "Locales": {

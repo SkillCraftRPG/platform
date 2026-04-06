@@ -9,7 +9,8 @@
       "ExtraLanguages": "2",
       "Speeds": "Walk:7,Climb:5",
       "SizeCategory": "[\"Medium\"]",
-      "Features": "[\"e2a1462d-4609-46c4-acd0-8be32bb6a7b7\",\"39cbda07-c630-4f9b-85e7-4229060b19e0\"]"
+      "Features": "[\"e2a1462d-4609-46c4-acd0-8be32bb6a7b7\",\"39cbda07-c630-4f9b-85e7-4229060b19e0\"]",
+      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]"
     }
   },
   "Locales": {
