@@ -379,7 +379,44 @@ internal class RulesMapper
   {
     SpeciesModel destination = new();
 
+    SpeciesCategoryEntity category = source.SpeciesCategory ?? throw new ArgumentException("The species category is required.", nameof(source));
+    if (category.IsPublished)
+    {
+      destination.Category = ToSpeciesCategory(category);
+    }
+
+    destination.Size.Category = source.SizeCategory;
+    destination.Size.Roll = source.SizeRoll;
+
+    destination.Weight.Malnutrition = source.Malnutrition;
+    destination.Weight.Skinny = source.Skinny;
+    destination.Weight.Normal = source.NormalWeight;
+    destination.Weight.Overweight = source.Overweight;
+    destination.Weight.Obese = source.Obese;
+
+    destination.Age.Teenager = source.Teenager;
+    destination.Age.Adult = source.Adult;
+    destination.Age.Mature = source.Mature;
+    destination.Age.Venerable = source.Venerable;
+
     MapLineage(source, destination);
+
+    return destination;
+  }
+
+  public SpeciesCategoryModel ToSpeciesCategory(SpeciesCategoryEntity source)
+  {
+    SpeciesCategoryModel destination = new()
+    {
+      Id = source.Id,
+      Key = source.Key,
+      Name = source.Name,
+      Order = source.Order,
+      Columns = source.Columns,
+      HtmlContent = source.HtmlContent
+    };
+
+    MapAggregate(source, destination);
 
     return destination;
   }
@@ -595,20 +632,6 @@ internal class RulesMapper
     destination.Speeds.Fly = source.Fly;
     destination.Speeds.Hover = source.Hover;
     destination.Speeds.Burrow = source.Burrow;
-
-    destination.Size.Category = source.SizeCategory;
-    destination.Size.Roll = source.SizeRoll;
-
-    destination.Weight.Malnutrition = source.Malnutrition;
-    destination.Weight.Skinny = source.Skinny;
-    destination.Weight.Normal = source.NormalWeight;
-    destination.Weight.Overweight = source.Overweight;
-    destination.Weight.Obese = source.Obese;
-
-    destination.Age.Teenager = source.Teenager;
-    destination.Age.Adult = source.Adult;
-    destination.Age.Mature = source.Mature;
-    destination.Age.Venerable = source.Venerable;
 
     foreach (LineageFeatureEntity lineageFeature in source.Features)
     {

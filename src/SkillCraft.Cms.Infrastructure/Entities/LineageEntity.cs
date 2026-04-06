@@ -107,6 +107,10 @@ internal class LineageEntity : AggregateEntity
   public override IReadOnlyCollection<ActorId> GetActorIds()
   {
     HashSet<ActorId> actorIds = new(base.GetActorIds());
+    if (SpeciesCategory is not null)
+    {
+      actorIds.AddRange(SpeciesCategory.GetActorIds());
+    }
     if (Parent is not null)
     {
       actorIds.AddRange(Parent.GetActorIds());

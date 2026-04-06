@@ -31,7 +31,7 @@ internal class EthnicityQuerier : IEthnicityQuerier
       .Where(x => x.Id == id && x.IsPublished && x.ParentId != null)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
-      .Include(x => x.Parent)
+      .Include(x => x.Parent).ThenInclude(x => x!.SpeciesCategory)
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
   }
@@ -53,7 +53,7 @@ internal class EthnicityQuerier : IEthnicityQuerier
     LineageEntity[] lineages = await query.AsNoTracking()
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
-      .Include(x => x.Parent)
+      .Include(x => x.Parent).ThenInclude(x => x!.SpeciesCategory)
       .ToArrayAsync(cancellationToken);
     return await MapAsync(lineages, cancellationToken);
   }
