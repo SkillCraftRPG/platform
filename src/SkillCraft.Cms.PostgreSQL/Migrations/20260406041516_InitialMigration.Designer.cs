@@ -11,8 +11,8 @@ using SkillCraft.Cms.Infrastructure;
 namespace SkillCraft.Cms.PostgreSQL.Migrations
 {
     [DbContext(typeof(RulesContext))]
-    [Migration("20260126205626_CreateLineageTables")]
-    partial class CreateLineageTables
+    [Migration("20260406041516_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,158 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ArticleEntity", b =>
+                {
+                    b.Property<int>("ArticleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ArticleId"));
+
+                    b.Property<int>("CollectionId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("CollectionUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("MetaDescription")
+                        .HasMaxLength(160)
+                        .HasColumnType("character varying(160)");
+
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("ParentUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("SlugNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("ArticleId");
+
+                    b.HasIndex("CollectionId");
+
+                    b.HasIndex("CollectionUid");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("ParentId");
+
+                    b.HasIndex("ParentUid");
+
+                    b.HasIndex("Slug");
+
+                    b.HasIndex("SlugNormalized");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("Title");
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("Articles", "Encyclopedia");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ArticleHierarchyEntity", b =>
+                {
+                    b.Property<int>("ArticleId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("ArticleUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("CollectionId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("CollectionUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("Depth")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("IdPath")
+                        .IsRequired()
+                        .HasMaxLength(1024)
+                        .HasColumnType("character varying(1024)");
+
+                    b.Property<string>("SlugPath")
+                        .IsRequired()
+                        .HasMaxLength(1024)
+                        .HasColumnType("character varying(1024)");
+
+                    b.HasKey("ArticleId");
+
+                    b.HasIndex("ArticleUid")
+                        .IsUnique();
+
+                    b.HasIndex("CollectionId");
+
+                    b.HasIndex("CollectionUid");
+
+                    b.HasIndex("Depth");
+
+                    b.HasIndex("IdPath");
+
+                    b.HasIndex("SlugPath");
+
+                    b.ToTable("ArticleHierarchy", "Encyclopedia");
+                });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.AttributeEntity", b =>
                 {
@@ -246,6 +398,93 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.ToTable("Castes", "Rules");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.CollectionEntity", b =>
+                {
+                    b.Property<int>("CollectionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("CollectionId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("MetaDescription")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("SlugNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("CollectionId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("Slug");
+
+                    b.HasIndex("SlugNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("Collections", "Encyclopedia");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.CustomizationEntity", b =>
                 {
                     b.Property<int>("CustomizationId")
@@ -343,6 +582,155 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.HasIndex("Version");
 
                     b.ToTable("Customizations", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineDiscountedTalentEntity", b =>
+                {
+                    b.Property<int>("DoctrineId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TalentId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("DoctrineUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("TalentUid")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("DoctrineId", "TalentId");
+
+                    b.HasIndex("DoctrineId");
+
+                    b.HasIndex("DoctrineUid");
+
+                    b.HasIndex("TalentId");
+
+                    b.HasIndex("TalentUid");
+
+                    b.ToTable("DoctrineDiscountedTalents", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", b =>
+                {
+                    b.Property<int>("DoctrineId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DoctrineId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("KeyNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<int>("SpecializationId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("SpecializationUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("DoctrineId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Key");
+
+                    b.HasIndex("KeyNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("SpecializationId")
+                        .IsUnique();
+
+                    b.HasIndex("SpecializationUid");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("Doctrines", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineFeatureEntity", b =>
+                {
+                    b.Property<int>("DoctrineId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("FeatureId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("DoctrineUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("FeatureUid")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("DoctrineId", "FeatureId");
+
+                    b.HasIndex("DoctrineId");
+
+                    b.HasIndex("DoctrineUid");
+
+                    b.HasIndex("FeatureId");
+
+                    b.HasIndex("FeatureUid");
+
+                    b.ToTable("DoctrineFeatures", "Rules");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.EducationEntity", b =>
@@ -673,6 +1061,9 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("Culture")
+                        .HasColumnType("text");
+
                     b.Property<string>("CustomNames")
                         .HasColumnType("text");
 
@@ -687,6 +1078,12 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
 
                     b.Property<int>("Fly")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Geography")
+                        .HasColumnType("text");
+
+                    b.Property<string>("History")
+                        .HasColumnType("text");
 
                     b.Property<bool>("Hover")
                         .HasColumnType("boolean");
@@ -717,6 +1114,9 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .HasMaxLength(160)
                         .HasColumnType("character varying(160)");
 
+                    b.Property<string>("Morphology")
+                        .HasColumnType("text");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -743,6 +1143,15 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Property<Guid?>("ParentUid")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Politics")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Psychology")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Relations")
+                        .HasColumnType("text");
+
                     b.Property<string>("SizeCategory")
                         .IsRequired()
                         .HasMaxLength(16)
@@ -765,6 +1174,12 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)");
+
+                    b.Property<int?>("SpeciesCategoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("SpeciesCategoryUid")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("StreamId")
                         .IsRequired()
@@ -821,8 +1236,11 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
 
                     b.HasIndex("Slug");
 
-                    b.HasIndex("SlugNormalized")
-                        .IsUnique();
+                    b.HasIndex("SlugNormalized");
+
+                    b.HasIndex("SpeciesCategoryId");
+
+                    b.HasIndex("SpeciesCategoryUid");
 
                     b.HasIndex("StreamId")
                         .IsUnique();
@@ -888,6 +1306,264 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.HasIndex("LineageUid");
 
                     b.ToTable("LineageLanguages", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestEntity", b =>
+                {
+                    b.Property<int>("QuestId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("QuestId"));
+
+                    b.Property<string>("ActiveEntries")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CompletedEntries")
+                        .HasColumnType("text");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("GrantedLevels")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<double>("ProgressRatio")
+                        .HasColumnType("double precision");
+
+                    b.Property<int?>("QuestGroupId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("QuestGroupUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("QuestLogId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("QuestLogUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("QuestId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("GrantedLevels");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("ProgressRatio");
+
+                    b.HasIndex("QuestGroupId");
+
+                    b.HasIndex("QuestGroupUid");
+
+                    b.HasIndex("QuestLogId");
+
+                    b.HasIndex("QuestLogUid");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("Title");
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("Quests", "Encyclopedia");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestGroupEntity", b =>
+                {
+                    b.Property<int>("QuestGroupId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("QuestGroupId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("QuestGroupId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("QuestGroups", "Encyclopedia");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestLogEntity", b =>
+                {
+                    b.Property<int>("QuestLogId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("QuestLogId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("MetaDescription")
+                        .HasMaxLength(160)
+                        .HasColumnType("character varying(160)");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("SlugNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("QuestLogId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Slug");
+
+                    b.HasIndex("SlugNormalized");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("Title");
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("QuestLogs", "Encyclopedia");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ScriptEntity", b =>
@@ -1092,6 +1768,356 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.ToTable("Skills", "Rules");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", b =>
+                {
+                    b.Property<int>("SpecializationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("SpecializationId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<int?>("MandatoryTalentId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("MandatoryTalentUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("MetaDescription")
+                        .HasMaxLength(160)
+                        .HasColumnType("character varying(160)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("OtherOptions")
+                        .HasColumnType("text");
+
+                    b.Property<string>("OtherRequirements")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("SlugNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Summary")
+                        .HasMaxLength(80)
+                        .HasColumnType("character varying(80)");
+
+                    b.Property<int>("Tier")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("SpecializationId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("MandatoryTalentId");
+
+                    b.HasIndex("MandatoryTalentUid");
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("Slug");
+
+                    b.HasIndex("SlugNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("Tier");
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("Specializations", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationOptionalTalentEntity", b =>
+                {
+                    b.Property<int>("SpecializationId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TalentId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("SpecializationUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("TalentUid")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("SpecializationId", "TalentId");
+
+                    b.HasIndex("SpecializationId");
+
+                    b.HasIndex("SpecializationUid");
+
+                    b.HasIndex("TalentId");
+
+                    b.HasIndex("TalentUid");
+
+                    b.ToTable("SpecializationOptionalTalents", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpeciesCategoryEntity", b =>
+                {
+                    b.Property<int>("SpeciesCategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("SpeciesCategoryId"));
+
+                    b.Property<int>("Columns")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("HtmlContent")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("KeyNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("SpeciesCategoryId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Key");
+
+                    b.HasIndex("KeyNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("Order");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("SpeciesCategories", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryAssociationEntity", b =>
+                {
+                    b.Property<int>("SpellId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("SpellCategoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("SpellCategoryUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("SpellUid")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("SpellId", "SpellCategoryId");
+
+                    b.HasIndex("SpellCategoryId");
+
+                    b.HasIndex("SpellCategoryUid");
+
+                    b.HasIndex("SpellId");
+
+                    b.HasIndex("SpellUid");
+
+                    b.ToTable("SpellCategoryAssociations", "Rules");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", b =>
+                {
+                    b.Property<int>("SpellCategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("SpellCategoryId"));
+
+                    b.Property<string>("CreatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsPublished")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("KeyNormalized")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid?>("ParentUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("StreamId")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("UpdatedBy")
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<long>("Version")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("SpellCategoryId");
+
+                    b.HasIndex("CreatedBy");
+
+                    b.HasIndex("CreatedOn");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("IsPublished");
+
+                    b.HasIndex("Key");
+
+                    b.HasIndex("KeyNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("ParentId");
+
+                    b.HasIndex("ParentUid");
+
+                    b.HasIndex("StreamId")
+                        .IsUnique();
+
+                    b.HasIndex("UpdatedBy");
+
+                    b.HasIndex("UpdatedOn");
+
+                    b.HasIndex("Version");
+
+                    b.ToTable("SpellCategories", "Rules");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellEffectEntity", b =>
                 {
                     b.Property<int>("SpellEffectId")
@@ -1146,11 +2172,13 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
 
                     b.Property<string>("Key")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
 
                     b.Property<string>("KeyNormalized")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
 
                     b.Property<int>("Level")
                         .HasColumnType("integer");
@@ -1197,6 +2225,13 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .IsUnique();
 
                     b.HasIndex("IsPublished");
+
+                    b.HasIndex("Key");
+
+                    b.HasIndex("KeyNormalized")
+                        .IsUnique();
+
+                    b.HasIndex("Name");
 
                     b.HasIndex("SpellId");
 
@@ -1543,6 +2578,42 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.ToTable("Talents", "Rules");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ArticleEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.CollectionEntity", "Collection")
+                        .WithMany("Articles")
+                        .HasForeignKey("CollectionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.ArticleEntity", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Collection");
+
+                    b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ArticleHierarchyEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.ArticleEntity", "Article")
+                        .WithOne("Hierarchy")
+                        .HasForeignKey("SkillCraft.Cms.Infrastructure.Entities.ArticleHierarchyEntity", "ArticleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.CollectionEntity", "Collection")
+                        .WithMany("ArticleHierarchies")
+                        .HasForeignKey("CollectionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Article");
+
+                    b.Navigation("Collection");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.CasteEntity", b =>
                 {
                     b.HasOne("SkillCraft.Cms.Infrastructure.Entities.FeatureEntity", "Feature")
@@ -1558,6 +2629,55 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Feature");
 
                     b.Navigation("Skill");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineDiscountedTalentEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", "Doctrine")
+                        .WithMany("DiscountedTalents")
+                        .HasForeignKey("DoctrineId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.TalentEntity", "Talent")
+                        .WithMany("DoctrinesDiscounted")
+                        .HasForeignKey("TalentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doctrine");
+
+                    b.Navigation("Talent");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", "Specialization")
+                        .WithOne("Doctrine")
+                        .HasForeignKey("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", "SpecializationId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Specialization");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineFeatureEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", "Doctrine")
+                        .WithMany("Features")
+                        .HasForeignKey("DoctrineId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.FeatureEntity", "Feature")
+                        .WithMany("Doctrines")
+                        .HasForeignKey("FeatureId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doctrine");
+
+                    b.Navigation("Feature");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.EducationEntity", b =>
@@ -1594,7 +2714,14 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .HasForeignKey("ParentId")
                         .OnDelete(DeleteBehavior.Restrict);
 
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpeciesCategoryEntity", "SpeciesCategory")
+                        .WithMany("Lineages")
+                        .HasForeignKey("SpeciesCategoryId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.Navigation("Parent");
+
+                    b.Navigation("SpeciesCategory");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.LineageFeatureEntity", b =>
@@ -1635,6 +2762,24 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Lineage");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.QuestGroupEntity", "QuestGroup")
+                        .WithMany("Quests")
+                        .HasForeignKey("QuestGroupId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.QuestLogEntity", "QuestLog")
+                        .WithMany("Quests")
+                        .HasForeignKey("QuestLogId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("QuestGroup");
+
+                    b.Navigation("QuestLog");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SkillEntity", b =>
                 {
                     b.HasOne("SkillCraft.Cms.Infrastructure.Entities.AttributeEntity", "Attribute")
@@ -1643,6 +2788,63 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Attribute");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.TalentEntity", "MandatoryTalent")
+                        .WithMany("SpecializationsMandatory")
+                        .HasForeignKey("MandatoryTalentId");
+
+                    b.Navigation("MandatoryTalent");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationOptionalTalentEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", "Specialization")
+                        .WithMany("OptionalTalents")
+                        .HasForeignKey("SpecializationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.TalentEntity", "Talent")
+                        .WithMany("SpecializationsOptional")
+                        .HasForeignKey("TalentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Specialization");
+
+                    b.Navigation("Talent");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryAssociationEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", "SpellCategory")
+                        .WithMany("Spells")
+                        .HasForeignKey("SpellCategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpellEntity", "Spell")
+                        .WithMany("Categories")
+                        .HasForeignKey("SpellId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Spell");
+
+                    b.Navigation("SpellCategory");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Parent");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellEffectEntity", b =>
@@ -1684,6 +2886,11 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Skill");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ArticleEntity", b =>
+                {
+                    b.Navigation("Hierarchy");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.AttributeEntity", b =>
                 {
                     b.Navigation("Skills");
@@ -1691,9 +2898,25 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Statistics");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.CollectionEntity", b =>
+                {
+                    b.Navigation("ArticleHierarchies");
+
+                    b.Navigation("Articles");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.DoctrineEntity", b =>
+                {
+                    b.Navigation("DiscountedTalents");
+
+                    b.Navigation("Features");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.FeatureEntity", b =>
                 {
                     b.Navigation("Castes");
+
+                    b.Navigation("Doctrines");
 
                     b.Navigation("Educations");
 
@@ -1714,6 +2937,16 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Languages");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestGroupEntity", b =>
+                {
+                    b.Navigation("Quests");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.QuestLogEntity", b =>
+                {
+                    b.Navigation("Quests");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.ScriptEntity", b =>
                 {
                     b.Navigation("Languages");
@@ -1728,14 +2961,41 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Talents");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", b =>
+                {
+                    b.Navigation("Doctrine");
+
+                    b.Navigation("OptionalTalents");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpeciesCategoryEntity", b =>
+                {
+                    b.Navigation("Lineages");
+                });
+
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", b =>
+                {
+                    b.Navigation("Children");
+
+                    b.Navigation("Spells");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellEntity", b =>
                 {
+                    b.Navigation("Categories");
+
                     b.Navigation("Effects");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.TalentEntity", b =>
                 {
+                    b.Navigation("DoctrinesDiscounted");
+
                     b.Navigation("RequiringTalents");
+
+                    b.Navigation("SpecializationsMandatory");
+
+                    b.Navigation("SpecializationsOptional");
                 });
 #pragma warning restore 612, 618
         }
