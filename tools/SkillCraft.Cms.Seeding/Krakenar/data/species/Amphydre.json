@@ -1,0 +1,43 @@
+﻿{
+  "Id": "5cc3f0e0-653b-44bb-8762-2565b44b67ad",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amphydre",
+    "DisplayName": "Amphydre",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6,Swim:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "160+3d10",
+      "Languages": "[\"1e692a3a-6cee-425e-b860-a3fa02029809\"]",
+      "Age": "8,15,40,70",
+      "Weight": "13+1d4,17+1d4,21+1d6,27+1d8,35+1d10",
+      "Features": "[\"59a40e6d-8ce5-4df3-a2d8-46afe6d1daca\",\"30ef452c-52ff-4ceb-9c21-16903657d595\"]",
+      "Category": "[\"cc259229-8859-41fc-b15c-59ac11b09cc2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amphydre",
+      "DisplayName": "Amphydre",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Amphibiens marécageux, spirituels et redoutables en eau.",
+        "Slug": "amphydre",
+        "HtmlContent": "Les Amphydres, peuple amphibien autochtone des marécages nordiques d’Ouespéro, furent jadis maîtres d’un vaste territoire aujourd’hui morcelé. Méfiants mais spirituels, organisés en clans dirigés par des prêtres-rois, ils vivent autour des grands marais des Triskîles et de Vorovie. Redoutables en milieu aquatique, ils défendent farouchement leurs terres et leurs rites ancestraux.",
+        "MetaDescription": "Découvrez les Amphydres, peuple amphibien des marécages d’Ouespéro, maîtres des eaux troubles et gardiens farouches de rites anciens.",
+        "Morphology": "Les Amphydres sont des humanoïdes amphibies à peau verruqueuse, variant du vert sombre aux teintes brunes ou ocres selon le marais d’origine. Leurs yeux globuleux, souvent irisés, et leur large bouche dentelée leur donnent une expression froide et impassible. Dotés de branchies discrètes et de membres palmés, ils nagent avec aisance et peuvent survivre durablement hors de l’eau.",
+        "Psychology": "Peuple méfiant et territorial, les Amphydres accordent leur confiance avec lenteur, surtout envers les étrangers. Leur esprit est pragmatique, marqué par la survie dans un environnement rude, mais aussi par une mémoire collective forte et une profonde spiritualité. Derrière leur réputation d’êtres cruels se cache un sens aigu de l’honneur clanique.",
+        "Culture": "Leur culture repose sur un syncrétisme ancien mêlant culte des eaux, esprits des marais et figures totémiques. Les prêtres-marécage, héritiers d’une tradition ésotérique, président aux rites saisonniers et interprètent les présages des crues et des brumes. La lutte rituelle et les joutes aquatiques structurent le passage à l’âge adulte.",
+        "History": "Autrefois maîtres d’un vaste territoire s’étendant des Triskîles à la Vorovie, en passant par la Griffe Noire, la Vallie, la Poléchie et Loujnava, les Amphydres furent le peuple autochtone des marécages du Nord de l’Ouespéro. Les invasions, colonies et expansions des espèces civilisées ont réduit drastiquement leurs terres, fragmentant leurs clans et les repoussant vers des zones plus reculées.",
+        "Geography": "On trouve aujourd’hui des Amphydres dans les Triskîles, principalement en Ellesdales, ainsi qu’autour des rivières Rasva et Nako, dans l’Ancien-Monde, surtout en Vorovie. Des communautés subsistent en Loujnava et en Kirsmyre, bien qu’ils privilégient les marécages fertiles, profonds et peu exploités.",
+        "Politics": "Chaque clan est dirigé par un prêtre-roi, gardien des rites et arbitre des conflits. Les décisions majeures sont prises lors d’assemblées au cœur des marais sacrés, où les anciens et les chefs de chasse débattent. Les lignées sacerdotales conservent une autorité spirituelle supérieure à la simple force martiale.",
+        "Relations": "À l’Ouest, ils sont appelés Boggards et perçus comme des sauvages dangereux ; à l’Est, sous le nom de Vodyanoi, ils sont craints et respectés comme seigneurs des eaux. Les relations avec les peuples civilisés oscillent entre affrontements frontaliers et alliances ponctuelles fondées sur le contrôle des voies fluviales.",
+        "NamesText": "Les Amphydres portent des noms unisexes et ne portent pas de nom de famille. Ils révèlent rarement leur vrai nom à ceux qui n’ont pas pleinement gagné leur confiance, utilisant le pseudonyme _Vodnik_ afin de se désigner.",
+        "NamesSelection": "Unisex:Berrik,Dema,Gebbal,Kodav,Koru,Krilim,Mibar,Rarrat,Tobbut,Vorran"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+  "Id": "b0e05b70-cf21-47d7-b63c-39c7653ce60a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Common",
+    "DisplayName": "Espèces communes",
+    "Description": null,
+    "FieldValues": {
+      "Order": "1",
+      "Columns": "4"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Common",
+      "DisplayName": "Espèces communes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ces espèces sont répandues aux quatre coins du continent. Cette présence universelle fait d’elles sont la norme démographique, culturelle et politique du continent. Leurs sociétés ont façonné les peuplements, les routes, les institutions et l’économie locale, en plus de servir de référence linguistique et sociale dans la majorité des régions. Malgré une forte cohésion sociale, ces sociétés sont néanmoins pensées d’abord et avant tout pour ces espèces. Les autres espèces peuvent donc ressentir un profond décalage culture et structurel, allant jusqu’à l’exclusion."
+      }
+    }
+  }
+}

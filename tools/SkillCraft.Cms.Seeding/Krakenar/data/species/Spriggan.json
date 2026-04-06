@@ -1,0 +1,39 @@
+﻿{
+  "Id": "bc2574fe-d08a-4e6a-89a9-3f973c0e3368",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Spriggan",
+    "DisplayName": "Spriggan",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "SizeCategory": "[\"Small\"]",
+      "Features": "[\"005f6f9c-dd27-4334-8ef9-be7d73b29cb6\",\"005e04e3-15ed-483d-b394-79028c52da4e\",\"91a628c8-2d44-4c62-8b52-9829fcd630ef\",\"b20d71ac-e209-4853-840d-b9df6a4f7cfd\"]",
+      "Languages": "[\"0858d002-c292-4267-a414-aec6ba429872\"]",
+      "Speeds": "Walk:4",
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Spriggan",
+      "DisplayName": "Spriggan",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "spriggan",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

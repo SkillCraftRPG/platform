@@ -102,6 +102,17 @@
     }
   },
   {
+    "Id": "c207e96b-6278-4b31-be19-8b48f2ef3e26",
+    "UniqueName": "Columns",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 12,
+      "Step": 1
+    }
+  },
+  {
     "Id": "2fc39270-4ef5-4699-b1bd-ca6dc550a7e0",
     "UniqueName": "ExtraLanguages",
     "DisplayName": null,
@@ -151,16 +162,6 @@
     "RelatedContent": {
       "ContentTypeId": "68e69278-4103-4ab3-8388-222c6d4e9f92",
       "IsMultiple": true
-    }
-  },
-  {
-    "Id": "54965d58-e440-46a8-b070-f6f9f9513637",
-    "UniqueName": "Lineage",
-    "DisplayName": null,
-    "Description": null,
-    "RelatedContent": {
-      "ContentTypeId": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
-      "IsMultiple": false
     }
   },
   {
@@ -219,14 +220,14 @@
     }
   },
   {
-    "Id": "b8acab48-79b8-4297-841f-3736658378d6",
-    "UniqueName": "Ratio",
+    "Id": "417313b7-26bb-4e24-9ca8-dc62ed9fa853",
+    "UniqueName": "Order",
     "DisplayName": null,
     "Description": null,
     "Number": {
       "MinimumValue": 0,
-      "MaximumValue": 1,
-      "Step": 0.00001
+      "MaximumValue": 999,
+      "Step": 1
     }
   },
   {
@@ -269,6 +270,17 @@
       "MinimumValue": 0,
       "MaximumValue": 1000,
       "Step": 1
+    }
+  },
+  {
+    "Id": "b8acab48-79b8-4297-841f-3736658378d6",
+    "UniqueName": "Ratio",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 0,
+      "MaximumValue": 1,
+      "Step": 0.00001
     }
   },
   {
@@ -375,6 +387,26 @@
       "MinimumValue": 1,
       "MaximumValue": 3,
       "Step": 1
+    }
+  },
+  {
+    "Id": "54965d58-e440-46a8-b070-f6f9f9513637",
+    "UniqueName": "Species",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "df9bfb44-c586-4cb3-b08a-77c8508a0505",
+      "IsMultiple": false
+    }
+  },
+  {
+    "Id": "5828694a-d1cc-49a4-9269-5dfad42bd88a",
+    "UniqueName": "SpeciesCategory",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "b0fb2943-c922-4578-9d2c-8ab5364b38a4",
+      "IsMultiple": false
     }
   },
   {

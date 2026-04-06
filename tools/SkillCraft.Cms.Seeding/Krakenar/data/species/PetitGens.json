@@ -1,0 +1,41 @@
+﻿{
+  "Id": "f8e9eccf-0355-4fe1-81c0-11973747b4f9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens",
+    "DisplayName": "Petit-Gens",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:4",
+      "SizeCategory": "[\"Small\"]",
+      "SizeRoll": "80+2d10",
+      "Weight": "11+1d4,15+1d4,19+1d6,25+1d6,31+1d8",
+      "Age": "10,20,55,100",
+      "Features": "[\"1b07cfb6-337d-4067-99e9-0f472b671a2d\",\"d7a918d3-7a2d-4547-882b-4d043ba342a9\",\"ef97d709-e880-4a3d-9afd-75f905e9dce1\"]",
+      "Category": "[\"b0e05b70-cf21-47d7-b63c-39c7653ce60a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens",
+      "DisplayName": "Petit-Gens",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "petit-gens",
+        "Summary": "Petit-Gens agiles et chanceux, petits humanoïdes habiles et vifs.",
+        "HtmlContent": "Humanoïdes de petite taille apparentés aux [Nains](/regles/especes/nain) mais plus sveltes et agiles, les Petit-Gens ont évolué vers des sociétés mobiles et commerçantes établies surtout en Orijìsa. Organisés en communautés familiales dirigées par des conseils, ils valorisent l’habileté, la réussite et la chance. Présents en Ouespéro, sédentaires en Arvanie et au Kroumir ou nomades au Sud et à l’Est, ils admirent les [Elfes](/regles/especes/elfe), méprisent le conservatisme nain et redoutent les Gobelinoïdes.",
+        "NamesText": "Les Petit-Gens ne portent pas de nom de famille. Ils portent souvent un surnom court, composé de 2 ou 3 mots qui décrivent bien les décrivent bien. Il n’est pas rare que ce surnom soit transmis à leurs descendants, de la même manière qu’un nom de famille, si ce surnom s’applique également à ces descendants.",
+        "MetaDescription": "Découvrez les Petit-Gens : humanoïdes agiles et chanceux, proches des Nains, habiles, prudents mais audacieux face à l’adversité.",
+        "Morphology": "Les Petit-Gens sont de petite taille, sveltes et élancés, avec des oreilles courtes et légèrement pointues. Leur silhouette rappelle celle des Elfes, mais leurs traits robustes et leur endurance trahissent une parenté ancienne avec les Nains. Leurs mouvements sont vifs, précis, presque insaisissables, et une chance singulière semble souvent infléchir le cours des événements en leur faveur.",
+        "Psychology": "Prudents et méfiants face à l’inconnu, ils compensent par une curiosité vive et un esprit pratique hérité de leurs ancêtres montagnards. Bons vivants, ils goûtent aux plaisirs simples, aux succès discrets et aux victoires bien méritées. Derrière leur nature affable se cache un courage tenace, surtout lorsqu’il s’agit de protéger les leurs.",
+        "Culture": "Leur culture valorise l’habileté, l’ingéniosité et la transmission orale des exploits et des lignées. Ils portent rarement de noms de famille, préférant des surnoms descriptifs transmis parfois à leurs descendants. Les objets précieux et brillants occupent une place symbolique importante, non par cupidité, mais comme marqueurs de réussite et de mémoire.",
+        "History": "Séparés des Nains il y a plusieurs millénaires, les Petit-Gens ont suivi une trajectoire plus mobile et plus adaptable, abandonnant progressivement la rigidité des sociétés montagnardes. Leur essor s’est principalement fait en Orijìsa, vaste continent de l’Est, où ils ont développé des cités marchandes, des communautés itinérantes et des réseaux d’échanges étendus. Au fil des siècles, certains clans ont migré vers l’Ouespéro, s’y établissant durablement ou poursuivant une vie nomade selon leurs traditions.",
+        "Geography": "En Orijìsa, les Petit-Gens prospèrent dans des plaines fertiles, des collines boisées, des régions fluviales et des zones tropicales où l’artisanat et le commerce fleurissent. En Ouespéro, des clans sédentaires se sont enracinés en Arvanie et dans le Kroumir, tandis que d’autres groupes ont conservé un mode de vie nomade dans les vastes territoires du Sud et de l’Est. Partout, ils privilégient les reliefs doux, les routes commerciales et les régions propices aux échanges.",
+        "Politics": "Leurs communautés sont structurées autour de familles étendues et de conseils d’anciens plutôt que d’autorités monarchiques fortes. Le prestige s’acquiert par la compétence, la ruse et la prospérité apportée au groupe. Les décisions sont souvent pragmatiques, cherchant l’équilibre entre sécurité collective et liberté individuelle.",
+        "Relations": "Ils nourrissent une admiration sincère envers les Elfes, dont ils apprécient la grâce et la longévité culturelle. À l’inverse, ils considèrent les Nains comme archaïques, figés dans des traditions qu’ils jugent dépassées depuis leur séparation ancestrale. Leur histoire est marquée par des violences subies de la part des Gobelinoïdes, ce qui alimente une méfiance profonde mêlée de peur et de rancœur."
+      }
+    }
+  }
+}

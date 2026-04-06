@@ -1,0 +1,24 @@
+﻿{
+  "Id": "a75d10bd-426e-435b-9a45-9024a42fee3c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "TBD",
+    "DisplayName": "\uD83D\uDEA7",
+    "Description": null,
+    "FieldValues": {
+      "Order": "999",
+      "Columns": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "TBD",
+      "DisplayName": "\uD83D\uDEA7",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

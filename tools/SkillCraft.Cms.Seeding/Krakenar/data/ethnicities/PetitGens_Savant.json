@@ -1,0 +1,37 @@
+﻿{
+  "Id": "54d46eb9-5ea4-44b2-943a-c82fbf4c67a1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PetitGens_Savant",
+    "DisplayName": "Savant",
+    "Description": null,
+    "FieldValues": {
+      "Species": "[\"f8e9eccf-0355-4fe1-81c0-11973747b4f9\"]",
+      "Languages": "[\"5e384ff3-ae44-4c2a-a5c0-bc46d9d3872a\"]",
+      "ExtraLanguages": "0",
+      "Features": "[\"d1dc0860-d4ff-4cca-beef-0fb4824fb3dc\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PetitGens_Savant",
+      "DisplayName": "Savant",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "savant",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7Il y a plusieurs siècles, les Savákti ont entrepris un pèlerinage depuis leurs terres ancestrales en Orient, une vallée fertile entre jungles et déserts. On les retrouve aujourd’hui dans les régions montagnardes, cohabitant avec les nains bruns. La raison de ce périple est inconnue, mais les rumeurs racontent qu’ils peuvent voir, entendre et même communiquer avec les esprits. En réalité, les Savákti sont souvent distraits et rêveurs et accordent beaucoup moins d’importance aux possessions matérielles que les autres peuples de Petit-Gens, préférant la poursuite de la connaissance occulte et magique.",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "NamesSelection": "Female:Agnis,Indratua,Kirta,Nasatyanna,Pritasva,Pryia,Shattiara,Tvaishar,Varuna,Wasashatta\nMale:Artadhama,Indratan,Marasatra,Mazdhan,Mitra,Parattarna,Parshatar,Shaytar,Shuttan,Tushratta"
+      }
+    }
+  }
+}

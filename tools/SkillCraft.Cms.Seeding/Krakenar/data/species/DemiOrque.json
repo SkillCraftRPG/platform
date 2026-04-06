@@ -1,0 +1,42 @@
+﻿{
+  "Id": "e13ffc80-ee39-4d56-87cb-5c299e7760ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DemiOrque",
+    "DisplayName": "Demi-Orque",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "140+5d10",
+      "Age": "8,15,45,75",
+      "Weight": "15+1d6,21+1d6,27+1d6,33+1d8,41+1d10",
+      "Features": "[\"198b3f9c-993e-4f65-bebf-c2ad089542a9\",\"96a8f318-6aa2-4126-9a02-1ab2dd2a9a78\",\"be10f2f8-fde9-4f02-b2fd-8faa0a465718\"]",
+      "Category": "[\"941098e4-a7be-4427-ac4b-80e8b0ec423a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DemiOrque",
+      "DisplayName": "Demi-Orque",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Hybrides d’[Humains](/regles/especes/humain) et d’[Orques](/regles/especes/orque), les Demi-Orques allient puissance physique et adaptabilité. Deux lignées dominent : les anciens sangs pacifiés de l’Ancien-Monde et les héritiers des invasions récentes, plus militarisés. Présents en Ouespéro et au-delà, sans unité politique propre, ils vivent souvent en marge, victimes d’une hostilité héritée des guerres orques.",
+        "Summary": "Demi-Orque, hybride humain-orque, mercenaire féroce et adaptable.",
+        "Slug": "demi-orque",
+        "LanguagesText": "Le personnage apprend la [langue](/regles/langues) maternelle du parent qui l’a élevé ainsi qu’une langue supplémentaire au choix. S’il a été élevé par ses deux parents, il apprend la langue maternelle de ses deux parents.",
+        "NamesText": "Le personnage porte un prénom en fonction du parent qui l’a élevé. Les Demi-Orques sont rarement élevés par leurs deux parents, mais lorsque cela se produit, ils portent généralement un prénom associé à un de leurs parents et un nom de famille associé à l’autre. Ils ont peu d’attachement envers ces noms, ne les voyant que comme des outils afin de faciliter leur acceptation par les sociétés humaines et orques.",
+        "MetaDescription": "Découvrez le Demi-Orque : hybride humain et orque, alliant curiosité et férocité, redoutable mercenaire souvent rejeté par les deux sociétés.",
+        "Morphology": "Les Demi-Orques possèdent une stature robuste, des traits anguleux, une peau aux teintes verdâtres, grisâtres ou brunes, et de petites défenses moins marquées que celles des Orques. Leur carrure varie selon leur lignée : les anciens sangs marécageux sont plus trapus et endurants, tandis que ceux issus des invasions récentes sont plus massifs et taillés pour la guerre. Ils atteignent l’âge adulte vers 15 ans et vivent rarement au-delà de 75 ans.",
+        "Psychology": "Ils combinent l’audace et l’adaptabilité humaines avec l’intensité orque. Souvent perçus comme brusques ou colériques, ils sont en réalité pragmatiques, directs et dotés d’une forte résilience mentale. Le conflit identitaire forge chez eux une volonté farouche de prouver leur valeur.",
+        "Culture": "N’ayant pas de culture unifiée, ils adoptent les coutumes du parent ou du peuple qui les élève. Certains valorisent les cicatrices rituelles et l’honneur martial, d’autres privilégient le mercenariat, la survie communautaire ou l’intégration urbaine. Leur nom est un outil d’adaptation plus qu’un héritage sacré.",
+        "History": "On distingue deux grands courants : les Demi-Orques issus des anciens Orques de l’Ancien-Monde, présents depuis des millénaires et progressivement intégrés aux terres tempérées ; et ceux nés des invasions récentes, marqués par la conquête et la militarisation. Les premiers sont plus sédentaires et adaptés aux marais, plaines et collines ; les seconds portent l’empreinte des guerres modernes.",
+        "Geography": "En Ouespéro, on les retrouve partout où vivent des Orques, ainsi que dans les régions limitrophes. Ils sont particulièrement présents dans l’Ancien-Monde, la Kirsmyre, la Loujnava, la Zoudra et l’Ixaravie. Les lignées anciennes privilégient les zones humides et tempérées, tandis que les lignées récentes gravitent autour des bastions militaires.",
+        "Politics": "Ils ne disposent pas d’autorité centrale propre. Certains s’élèvent dans des clans orques, d’autres servent comme capitaines mercenaires ou chefs de bandes indépendantes. Leur loyauté va davantage à une communauté concrète qu’à une idéologie raciale.",
+        "Relations": "Malgré leurs différences avec les Orques, ils sont presque toujours assimilés à eux. Peur, méfiance et haine les frappent indistinctement, même lorsqu’ils n’ont commis aucune faute. Cette marginalisation renforce tantôt leur désir d’intégration, tantôt leur repli ou leur radicalisation."
+      }
+    }
+  }
+}

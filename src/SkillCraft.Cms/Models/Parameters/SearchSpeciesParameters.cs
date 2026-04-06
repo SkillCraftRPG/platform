@@ -8,6 +8,9 @@ namespace SkillCraft.Cms.Models.Parameters;
 
 public record SearchSpeciesParameters : SearchParameters
 {
+  [FromQuery(Name = "category")]
+  public Guid? CategoryId { get; set; }
+
   [FromQuery(Name = "language")]
   public Guid? LanguageId { get; set; }
 
@@ -18,6 +21,7 @@ public record SearchSpeciesParameters : SearchParameters
   {
     SearchSpeciesPayload payload = new()
     {
+      CategoryId = CategoryId,
       LanguageId = LanguageId,
       SizeCategory = SizeCategory
     };

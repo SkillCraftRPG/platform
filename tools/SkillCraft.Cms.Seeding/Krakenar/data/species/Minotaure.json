@@ -1,0 +1,43 @@
+﻿{
+  "Id": "3c9765a9-e0c2-472a-8c2e-57dc35527cb8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Minotaure",
+    "DisplayName": "Minotaure",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeRoll": "180+2d10",
+      "SizeCategory": "[\"Medium\"]",
+      "Weight": "13+1d4,17+1d6,23+1d6,29+1d8,37+1d8",
+      "Age": "8,15,21,35",
+      "Languages": "[\"e18083f6-9890-4d3f-af69-0061207acc23\"]",
+      "Features": "[\"2c964efb-e236-40c7-a645-d5a102656a08\",\"eae779a4-a38b-42ca-8279-a0d527d8d1ea\",\"746deba0-bb90-4087-9535-e954322d0b53\",\"b7e8ea7c-1853-4549-95d9-b41a5fe89703\"]",
+      "Category": "[\"cc259229-8859-41fc-b15c-59ac11b09cc2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Minotaure",
+      "DisplayName": "Minotaure",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "minotaure",
+        "Summary": "Guerriers bovins, maîtres des labyrinthes et dangereuses cornes.",
+        "HtmlContent": "Les Minotaures sont des humanoïdes bovins puissants, fiers et dotés d’un sens inné des dédales. Héritiers d’un âge de palais labyrinthiques né il y a plus de 3 500 ans, leur civilisation a chuté il y a plus 1 500 ans au profit des Orrins. Majoritaires à Trikos, ils vivent aussi en Kaldaya, Orrixe, Durmanion et mer Aspidée, en clans dirigés par les plus capables.",
+        "MetaDescription": "Découvrez les Minotaures, héritiers des palais labyrinthiques, guerriers fiers à la charge dévastatrice et au sens inné des dédales.",
+        "NamesText": "Les Minotaures ne portent pas de nom de famille, et ils portent généralement une version raccourcie des prénoms des Orrins.",
+        "NamesSelection": "Female:Ariadnh,Dora,Kitane,Nire,Nisia,Pakie,Rhita,Shopa,Stina,Xandra\nMale:Arane,Bansabi,Durri,Itaj,Jadikira,Kibanos,Pores,Rada,Titiku,Widins",
+        "Morphology": "Les Minotaures sont de grands humanoïdes massifs à tête bovine, cornes puissantes et sabots, avec une musculature faite pour la charge et le corps-à-corps. Leur pelage varie du brun au noir (parfois roux, gris ou tacheté) et ils portent souvent des parures de cornes (anneaux, gravures, capuchons métalliques).",
+        "Psychology": "Instinctifs et fiers, les Minotaures oscillent entre calme lourd et explosivité, comme s’ils retenaient toujours une tempête. Ils ont une mémoire spatiale exceptionnelle et une fixation pour trouver la voie, ce qui nourrit leur obsession des dédales, de la chasse et des défis d’orientation.",
+        "Culture": "Leur héritage est celui d’une civilisation de bâtisseurs : immenses palais, cours, entrepôts et corridors complexes, pensés comme des lieux à la fois sacrés, économiques et défensifs. Ils vénèrent la maîtrise de soi et la force utile; les rites marquent souvent le passage à l’âge adulte par une épreuve de piste, de charge rituelle ou de parcours du dédale.",
+        "History": "Leur âge d’or a commencé il y a plus de 3 500 ans, puis a pris fin abruptement il y a un peu plus de 1 500 ans, lorsque la civilisation des Orrins a supplanté leurs cités et leurs routes. Depuis, les Minotaures survivent en communautés dispersées : certains gardent les ruines et les traditions, d’autres se sont intégrés comme mercenaires, artisans ou marins.",
+        "Geography": "Autrefois centrés sur l’île de Trikos avec une expansion modérée autour, la majorité des Minotaures y demeure encore aujourd’hui. On en trouve aussi en Kaldaya et en Orrixe jusqu’à Durmanion, ainsi que dans les archipels de la mer Aspidée.",
+        "Politics": "Plutôt que de vastes royaumes, les Minotaures fonctionnent par clans et maisons liées à un site (palais, quartier, port, ruine), dirigés par les plus capables à protéger et nourrir les leurs. L’autorité se gagne par la force, la sagesse pratique et la capacité à maintenir l’ordre dans un lieu à couloirs, où chaque espace a une fonction.",
+        "Relations": "Avec les [Humains](/regles/especes/humain) et autres peuples civilisés, ils peuvent être des alliés fiables quand on respecte leurs serments et leurs frontières, mais ils méprisent les tromperies et les profanations de sites anciens. Les peuples guerriers les recherchent comme combattants de choc, et les peuples marins les côtoient dans la mer Aspidée, où leur réputation de navigateurs robustes et de gardiens de cargaisons est bien établie."
+      }
+    }
+  }
+}

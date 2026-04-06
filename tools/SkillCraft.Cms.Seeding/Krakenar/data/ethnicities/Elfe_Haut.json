@@ -1,0 +1,37 @@
+﻿{
+  "Id": "161da5b3-93fc-4fc5-996d-2e4436c4cab5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Haut",
+    "DisplayName": "Haut-Elfe",
+    "Description": null,
+    "FieldValues": {
+      "Species": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
+      "ExtraLanguages": "1",
+      "Features": "[\"641d8c6d-b9a3-43d4-af18-bab179f79e7d\"]",
+      "Languages": "[\"0858d002-c292-4267-a414-aec6ba429872\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Haut",
+      "DisplayName": "Haut-Elfe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Élancés et marqués par les étoiles, les Hauts-Elfes valorisent ordre, érudition et magie céleste. Nés sous une constellation influente, ils fondèrent un royaume forestier stable en Sarénie avant d’étendre leur présence vers Alnar et Ellesdales, aujourd’hui fragmentée. Diplomates et marchands habiles, ils coexistent avec la plupart des peuples civilisés, mais affrontent désormais l’expansion des Dallois sur Ellesdales.",
+        "Slug": "haut",
+        "Summary": "Elfes stellaires, érudits et diplomates d’influence.",
+        "MetaDescription": "Découvrez les Hauts-Elfes, érudits marqués par les étoiles, diplomates et astromanciens dont l’héritage céleste façonne royaumes et destinées.",
+        "NamesSelection": "Family:Adlegor,Charimon,Galanodel,Kaendere,Liadon,Morwen,Nodir,Raelden,Sonomir,Talath\nFemale:Althaea,Ceanoise,Elenna,Leshanna,Magilin,Naeva,Onoraid,Sariel,Tibenna,Valanthe\nMale:Aelar,Berrian,Erevan,Feirion,Hononn,Ivellios,Kaimear,Peren,Saemainn,Therion",
+        "Morphology": "Les Hauts-Elfes sont élancés, d’une beauté symétrique presque irréelle, aux traits fins et aux oreilles effilées. Leur chevelure, souvent claire ou argentée, contraste avec des yeux lumineux aux teintes bleutées, vertes ou violacées, parfois constellés d’éclats dorés. Marqués par leur signe astrologique, ils portent fréquemment tatouages, broderies ou bijoux rappelant leur naissance sous les étoiles.",
+        "Psychology": "Ils privilégient l’ordre, la réflexion et la maîtrise de soi, voyant la civilisation comme l’expression la plus aboutie de l’harmonie naturelle. Leur longévité leur confère patience et vision à long terme, mais peut les rendre distants ou orgueilleux. Curieux des mystères du monde, ils cultivent une discipline intellectuelle tournée vers la magie et la connaissance.",
+        "Culture": "Leur culture allie raffinement urbain et sacralisation des cycles célestes. Chaque Haut-Elfe naît sous une constellation dominante, ce qui façonne rites, vocations et pratiques d’astromancie. Architecture élégante, arts codifiés, escrime cérémonielle et érudition magique structurent une société où la tradition est perçue comme un pilier de stabilité.",
+        "History": "Il y a 2 000 ans, ils fondèrent un royaume forestier stable dans l’Ouest de la Sarénie, défensif plutôt qu’expansionniste. Il y a environ 1 000 ans, des groupes migrèrent vers les Triskîles, conquirent Ellesdales et l’île d’Alnar. Depuis, l’unité d’Ellesdales s’est fragmentée en petits royaumes, tandis qu’Alnar demeure un bastion prospère.",
+        "Politics": "Le royaume forestier fonctionne comme une monarchie ou haute seigneurie centralisée, soutenue par des lignées érudites et magocratiques. Alnar adopte une gouvernance plus diplomatique, tournée vers les alliances et le commerce. À Ellesdales, les anciens cadres se sont divisés en principautés concurrentes rappelant des royaumes brittoniques.",
+        "Relations": "Les Hauts-Elfes entretiennent de bonnes relations avec les espèces civilisées ouvertes à la diversité, notamment les [Humains](/regles/especes/humain). Ils se posent souvent en médiateurs et pacificateurs. Toutefois, des tensions récentes les opposent aux Dallois, dont les ambitions territoriales sur Ellesdales menacent l’équilibre fragile de l’île.",
+        "Geography": "Le cœur de leur puissance reste leur antique royaume forestier en Sarénie, dense et soigneusement préservé. Sur Alnar, au carrefour des routes maritimes, ils agissent comme diplomates et marchands entre peuples variés. Ellesdales, morcelée, conserve une présence haut-elfique diffuse au sein de royaumes rivaux et instables."
+      }
+    }
+  }
+}

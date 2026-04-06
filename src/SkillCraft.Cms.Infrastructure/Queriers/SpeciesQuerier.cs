@@ -31,6 +31,7 @@ internal class SpeciesQuerier : ISpeciesQuerier
       .Where(x => x.Id == id && x.IsPublished && x.ParentId == null)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
+      .Include(x => x.SpeciesCategory)
       .SingleOrDefaultAsync(cancellationToken);
     return lineage is null ? null : await MapAsync(lineage, cancellationToken);
   }
@@ -41,6 +42,7 @@ internal class SpeciesQuerier : ISpeciesQuerier
       .Where(x => x.SlugNormalized == slugNormalized && x.IsPublished && x.ParentId == null)
       .Include(x => x.Features).ThenInclude(x => x.Feature)
       .Include(x => x.Languages).ThenInclude(x => x.Language).ThenInclude(x => x!.Script)
+      .Include(x => x.SpeciesCategory)
       .ToArrayAsync(cancellationToken);
     return await MapAsync(lineages, cancellationToken);
   }
@@ -53,6 +55,10 @@ internal class SpeciesQuerier : ISpeciesQuerier
       .Where(RulesDb.Lineages.ParentId, Operators.IsNull());
     _sqlHelper.ApplyTextSearch(builder, payload.Search, RulesDb.Lineages.Slug, RulesDb.Lineages.Name, RulesDb.Lineages.Summary);
 
+    if (payload.CategoryId.HasValue)
+    {
+      builder.Where(RulesDb.Lineages.SpeciesCategoryUid, Operators.IsEqualTo(payload.CategoryId.Value));
+    }
     if (payload.LanguageId.HasValue)
     {
       OperatorCondition condition = new(RulesDb.LineageLanguages.LanguageUid, Operators.IsEqualTo(payload.LanguageId.Value));
@@ -63,7 +69,8 @@ internal class SpeciesQuerier : ISpeciesQuerier
       builder.Where(RulesDb.Lineages.SizeCategory, Operators.IsEqualTo(payload.SizeCategory.Value));
     }
 
-    IQueryable<LineageEntity> query = _lineages.FromQuery(builder).AsNoTracking();
+    IQueryable<LineageEntity> query = _lineages.FromQuery(builder).AsNoTracking()
+      .Include(x => x.SpeciesCategory);
 
     long total = await query.LongCountAsync(cancellationToken);
 

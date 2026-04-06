@@ -51,6 +51,8 @@ internal static class Lineages
   public static readonly ColumnId Skinny = new(nameof(LineageEntity.Skinny), Table);
   public static readonly ColumnId Slug = new(nameof(LineageEntity.Slug), Table);
   public static readonly ColumnId SlugNormalized = new(nameof(LineageEntity.SlugNormalized), Table);
+  public static readonly ColumnId SpeciesCategoryId = new(nameof(LineageEntity.SpeciesCategoryId), Table);
+  public static readonly ColumnId SpeciesCategoryUid = new(nameof(LineageEntity.SpeciesCategoryUid), Table);
   public static readonly ColumnId Summary = new(nameof(LineageEntity.Summary), Table);
   public static readonly ColumnId Swim = new(nameof(LineageEntity.Swim), Table);
   public static readonly ColumnId Teenager = new(nameof(LineageEntity.Teenager), Table);

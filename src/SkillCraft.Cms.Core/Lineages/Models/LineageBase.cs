@@ -12,9 +12,6 @@ public abstract class LineageBase : Aggregate
   public NamesModel Names { get; set; } = new();
 
   public SpeedsModel Speeds { get; set; } = new();
-  public SizeModel Size { get; set; } = new();
-  public WeightModel Weight { get; set; } = new();
-  public AgeModel Age { get; set; } = new();
 
   public string? MetaDescription { get; set; }
   public string? Summary { get; set; }

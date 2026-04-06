@@ -1,0 +1,43 @@
+﻿{
+  "Id": "899fc21c-8ae4-43db-949a-af71a641c754",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Harseme",
+    "DisplayName": "Harsème",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6,Climb:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "150+3d10",
+      "Languages": "[\"5bd7cd62-3bef-42b4-a8b3-8cacc31d4aba\"]",
+      "Age": "8,15,40,70",
+      "Weight": "15+1d4,19+1d6,25+1d6,31+1d8,39+1d10",
+      "Features": "[\"20106644-7c37-4caa-a4a6-49e390ae6a81\",\"2cd75048-4d6a-4647-b9cf-196b1682821f\",\"09e09913-3f3c-4833-9033-49d064b7e440\",\"9d55e745-1a1e-444e-84c1-341bb3c92c28\"]",
+      "Category": "[\"cc259229-8859-41fc-b15c-59ac11b09cc2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Harseme",
+      "DisplayName": "Harsème",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "harseme",
+        "HtmlContent": "Les Harsèmes sont des hommes-ours montagnards, puissants et résilients, organisés en tribus attachées à la nature et à leur héritage ancestral. Réduits territorialement mais culturellement intacts, ils dominent aujourd’hui les Arborées d’Arasie. Excellents grimpeurs, protégés par leur fourrure et redoutables au combat, ils défendent farouchement leur autonomie et leurs terres.",
+        "Summary": "Hommes-ours montagnards, puissants et résilients, grimpeurs et dangereux.",
+        "MetaDescription": "Découvrez les Harsèmes, hommes-ours des Arborées d’Arasie, puissants grimpeurs à la fourrure épaisse, défenseurs farouches de leurs montagnes.",
+        "Morphology": "Les Harsèmes sont des hommes-ours à la carrure massive, dotés d’une musculature dense et d’une épaisse fourrure adaptée aux climats rudes. Leur mâchoire puissante et leurs griffes acérées en font de redoutables combattants au corps à corps. Malgré leur gabarit imposant, ils sont d’excellents grimpeurs et se déplacent avec assurance en terrain escarpé.",
+        "NamesText": "Les Harsèmes portent généralement un prénom et un nom de famille.",
+        "Psychology": "Les Harsèmes allient instinct et sens aigu de l’honneur. Profondément attachés à leur terre et à leur faune, ils font preuve d’une loyauté farouche envers leur clan, mais se montrent méfiants envers toute autorité extérieure. Leur résilience culturelle est remarquable : ils préservent langue et traditions malgré les pressions extérieures.",
+        "Culture": "Leur culture repose sur la vie tribale, la transmission orale et le respect sacré de la nature, en particulier des ours qu’ils considèrent comme des frères spirituels. Les rites d’initiation valorisent la maîtrise de l’escalade, la chasse et la protection du territoire. Le commerce de l’étain, abondant dans leurs montagnes, constitue un pilier de leur prospérité.",
+        "History": "Autrefois présents sur Beldegir, dans l’archipel des Girizes, en Arasie, en Andoce, dans les Escarlandes et aux Magdales, les Harsèmes ont vu leurs territoires se réduire considérablement. Aujourd’hui, leur principale concentration se trouve dans les Arborées d’Arasie, où ils vivent libres de toute administration externe. Ils s’allient parfois aux [Humains](/regles/especes/humain) lorsque cela sert leurs intérêts sans compromettre leur autonomie.",
+        "Geography": "Les Harsèmes privilégient les montagnes chaudes du Sud-Ouest de l’Ouespéro et les régions boisées escarpées. Leurs villages fortifiés s’accrochent aux flancs rocheux ou dominent les côtes abruptes. Les Arborées constituent désormais leur bastion culturel et politique majeur.",
+        "Politics": "Les Harsèmes sont organisés en tribus guerrières autonomes, chacune dirigée par des chefs reconnus pour leur force, leur sagesse et leur capacité à protéger le territoire. Les décisions importantes se prennent au conseil tribal. Leur structure demeure souple mais fortement enracinée dans la tradition.",
+        "Relations": "Les Harsèmes entretiennent des relations prudentes avec les autres peuples. Ils se méfient des civilisations expansionnistes qui menacent la nature ou convoitent leurs ressources. Toutefois, ils peuvent conclure des alliances pragmatiques, notamment avec les Humains, si l’équilibre territorial est respecté.",
+        "NamesSelection": "Family:Aroste,Boribal,Ezkibe,Garsea,Goikote,Intauksi,Loiola,Mendosa,Urberi,Zubiri\nFemale:Andere,Aunia,Canine,Dalinar,Himilce,Nesca,Sicouina,Stena,Tarube,Ursine\nMale:Aibekeres,Bagarok,Caikons,Ederet,Idibil,Korrilo,Nabarso,Sakarik,Tarbantu,Unibelos"
+      }
+    }
+  }
+}

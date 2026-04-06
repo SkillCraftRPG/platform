@@ -1,0 +1,42 @@
+﻿{
+  "Id": "ca714207-28c4-46db-adc0-d1ad823d4ff3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sarne",
+    "DisplayName": "Sarne",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:7",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "160+3d10",
+      "Weight": "15+1d4,19+1d6,25+1d6,31+1d8,39+1d10",
+      "Age": "8,15,40,70",
+      "Features": "[\"8fb142c7-5fb1-442a-add5-315820f60f3c\",\"de7b1429-9ba5-4284-9b7a-64486a67d9b2\",\"c32a2d74-85c0-4d13-8f9b-974f137d927e\",\"81d82a3f-22ce-49a8-87eb-389b80772f45\"]",
+      "Category": "[\"cc259229-8859-41fc-b15c-59ac11b09cc2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sarne",
+      "DisplayName": "Sarne",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sarne",
+        "HtmlContent": "Hommes-sangliers autochtones de Sarénie, les Sarnes allient force, éloquence et tradition maritime. Navigateurs émérites et bâtisseurs de cités, ils connurent un royaume florissant avant son intégration à l’empire humain. Aujourd’hui dispersés entre Sarénie, îles et Orrixe, ils conservent une organisation civique forte, des défenses redoutables et une culture fière tournée vers la mer.",
+        "Summary": "Hommes-sangliers robustes et éloquents, navigateurs raffinés du Saint-Empire.",
+        "NamesSelection": "Family:Alsinei,Cala,Feluske,Havrna,Leprna,Masuna,Pumpli,Teithna,Veneka,Zertna\nFemale:Arzia,Cafatia,Fasti,Hasti,Lethi,Munatia,Ramtha,Sethra,Tanaquil,Vela\nMale:Arnth,Caeles,Eivas,Karkunex,Larx,Marce,Puplie,Sethre,Spirue,Vipex",
+        "MetaDescription": "Découvrez les Sarnes, hommes-sangliers puissants et diplomates, dotés d’une grande constitution, d’une culture raffinée et d’une aisance pour la négociation.",
+        "Morphology": "Les Sarnes sont des hommes-sangliers massifs, au torse large et à la musculature dense, culminant souvent entre 1,65 m et 1,90 m. Leur peau épaisse, parfois couverte d’un duvet sombre, protège un corps endurant, et leurs défenses courbes constituent autant un symbole d’honneur qu’une arme redoutable. Leurs traits mêlent rudesse animale et noblesse archaïque, souvent soulignées par des parures marines et métalliques.",
+        "Psychology": "D’apparence farouche, les Sarnes allient ténacité, fierté et une étonnante éloquence. Ils valorisent la parole donnée, la négociation ferme et l’honneur public autant que la force brute. Leur tempérament est direct, parfois ombrageux, mais rarement traître.",
+        "Culture": "Leur culture est raffinée, tournée vers la mer et le commerce, marquée par des assemblées civiques et des sanctuaires côtiers. La navigation, la métallurgie et l’architecture défensive sont au cœur de leur identité. Les récits héroïques glorifient les capitaines et les chefs élus qui ont porté loin les couleurs sarne.",
+        "History": "Autochtones de la Sarénie, de la Drakyrie et de la Saromagne, ils connurent leur apogée il y a environ mille ans avec un puissant royaume maritime. Progressivement intégré à l’ancien empire humain, ce royaume conserva longtemps ses élites et ses coutumes. Leur langue originelle s’est éteinte au profit du [Commun](/regles/langues/commun) (Rénon).",
+        "Geography": "On les retrouve principalement en Sarénie, d’Ouest en Est, jusque dans les Nives centrales, ainsi que sur les îles de Sarquigne et de Pavathine. Des communautés prospères existent aussi en Orrixe. Les cités-États côtières demeurent leurs bastions historiques.",
+        "Politics": "Traditionnellement structurés en clans et cités autonomes, les Sarnes privilégient l’assemblée des notables et l’élection de chefs en temps de guerre ou d’expansion. L’ancien royaume sarne reposait sur une aristocratie maritime appuyée par des capitaines et des magistrats marchands. Aujourd’hui, ils s’intègrent aux structures impériales tout en conservant une forte identité civique.",
+        "Relations": "Leurs relations sont excellentes avec les Austrigonds ([Humains](/regles/especes/humain) de la Sarénie), fondées sur des siècles d’alliance et de commerce. Elles sont bonnes avec les [Hauts-Elfes](/regles/especes/elfe/haut) régionaux, bien qu’une méfiance ancienne subsiste, héritée de conflits maritimes oubliés. Leur réputation de diplomates robustes facilite leur intégration.",
+        "NamesText": "Les Sarnes portent généralement un prénom et un nom de famille."
+      }
+    }
+  }
+}

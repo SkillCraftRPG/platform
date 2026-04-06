@@ -1,0 +1,43 @@
+﻿{
+  "Id": "62d3e15e-3022-464c-96cb-3a971e02312f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Skame",
+    "DisplayName": "Skame",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "140+3d10",
+      "Languages": "[\"56fcc94e-9e5d-46f3-8784-750e998bb53a\"]",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d8,32+1d10",
+      "Age": "8,15,40,70",
+      "Features": "[\"c0dd388c-c123-4894-9386-19296087b799\",\"e556504c-cb7f-4de5-9ecc-544c3bcfb70d\",\"11a36277-525b-432d-95b5-db25b501e3ab\"]",
+      "Category": "[\"cc259229-8859-41fc-b15c-59ac11b09cc2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Skame",
+      "DisplayName": "Skame",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "skame",
+        "Summary": "Hommes-loups nordiques, loyaux et redoutables, morsure et hurlement.",
+        "HtmlContent": "Peuple autochtone d’Hyperborée, les Skames (ou _Skámi_) sont des hommes-loups à la fourrure épaisse, taillés pour la taïga et les Riphées. Méfiants, ils vivent en meutes-clans et protègent leurs routes de chasse. Leur hurlement galvanise les alliés et leur morsure est redoutée. Résistants au froid extrême, nommés par surnoms-grognements, ils ne quittent que rarement l’Hyperborée sans raison précise.",
+        "NamesText": "Les Skames portent un prénom et ne portent pas de nom de famille. Ils révèlent rarement leur vrai nom à ceux qui n’ont pas pleinement gagné leur confiance. Ils adoptent un surnom composé d’une syllabe de leur prénom et adoptant une sonorité similaire à celle d’un grognement.",
+        "NamesSelection": "Female:Alkhaia,Bikka,Ella,Gaddja,Jinga,Kirste,Maggara,Ravdna,Sira,Sunna\nMale:Airu,Bavar,Davvet,Guthar,Heaika,Issat,Lemet,Mihkku,Nihlo,Sammo",
+        "MetaDescription": "Découvrez les Skames, hommes-loups d’Hyperborée, maîtres des taïgas glacées, liés à la meute, au hurlement et à la survie du Grand Nord.",
+        "Morphology": "Les Skames sont des hommes-loups de taille moyenne, à la posture souple et au regard perçant, couverts d’une fourrure dense (fauve, blanche, grise, noire, ou panachée) et armés de crocs faits pour déchirer. Leur physiologie nordique les rend naturellement résistants au froid et aux hivers extrêmes, comme si le climat lui-même les avait acceptés.",
+        "Psychology": "Méfiants par réflexe, ils lisent vite l’intention d’un étranger et testent sa constance avant de lui accorder la moindre place dans le cercle. Ils valorisent le calme, la loyauté et l’instinct maîtrisé : la rage n’est pas une vertu, c’est un outil qu’on sort seulement quand il faut.",
+        "Culture": "Leur vie est rythmée par la meute-clan, les serments courts, et une mémoire orale où chaque piste, chaque col et chaque drame se transmet comme un chant rugueux, le _joik_. Ils cachent leur vrai prénom hors du clan et adoptent des surnoms-grognements, signe qu’on n’offre sa véritable identité qu’à ceux qui ont fait leurs preuves.",
+        "History": "Autochtones de l’Hyperborée depuis toujours, ils ont survécu aux âges de glace, aux famines et aux incursions d’autres espèces en se repliant, puis en contre-frappant avec une mobilité implacable. Les récits se retrouvent chez eux sous forme de contes d’ennemis aux jambes de bête et de conflits anciens, mais chez les Skames, l’histoire sert surtout à rappeler une règle : l’intérieur du Nord ne pardonne pas l’arrogance.",
+        "Geography": "On les trouve partout en Hyperborée, des taïgas profondes aux crêtes des Riphées, là où les routes se perdent et où la neige efface les traces. Quelques Skames s’aventurent jusqu’à Norrengard, voire en Ouespéro, mais presque toujours avec un objectif clair : escorte, commerce rare, chasse rituelle, ou message de meute.",
+        "Politics": "Ils ne forment pas un royaume : l’autorité vient des chefs de meute et des conseils de chasse, où la compétence pèse plus que le prestige. Les alliances se scellent par l’entraide et la protection de territoires de passage, et se brisent vite si un clan met en danger la survie commune.",
+        "Relations": "Ils restent distants avec la plupart des étrangers, et particulièrement suspicieux envers les nouveaux peuples qui s’installent ou prospectent en Hyperborée. Ils peuvent devenir des alliés fiables une fois la confiance gagnée, mais leur première réponse à l’intrusion est la dissuasion… et, si nécessaire, la morsure."
+      }
+    }
+  }
+}

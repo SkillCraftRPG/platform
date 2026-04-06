@@ -1,0 +1,24 @@
+﻿{
+  "Id": "0776d904-3d48-4005-b825-97bccbaa11f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Horde",
+    "DisplayName": "Horde",
+    "Description": null,
+    "FieldValues": {
+      "Columns": "3",
+      "Order": "6"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Horde",
+      "DisplayName": "Horde",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La Horde désigne une confédération tribale aux contours flous et changeants, composée d’espèces habituellement considérées comme monstrueuses. Son organisation varie fortement d’un clan à l’autre, sans autorité centrale durable ni structure politique unifiée. Arrivée récemment dans la région depuis l’Est lointain du continent, la Horde se manifeste par des conquêtes et des raids dont la violence et la brutalité diffèrent selon l’espèce et le clan. Les motivations qui les animent sont tout aussi hétérogènes : accumulation de richesses, contrôle de territoires ou de peuples, quête de prestige, défis personnels ou autres ambitions propres à chaque individu."
+      }
+    }
+  }
+}

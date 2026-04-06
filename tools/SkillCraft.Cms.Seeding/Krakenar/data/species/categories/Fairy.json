@@ -1,0 +1,24 @@
+﻿{
+  "Id": "332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Fairy",
+    "DisplayName": "Fées",
+    "Description": null,
+    "FieldValues": {
+      "Order": "4",
+      "Columns": "4"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Fairy",
+      "DisplayName": "Fées",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les fées sont issues d’autres dimensions, lumineuses ou ombrageuses, et entretiennent un lien étroit avec les forces qui imprègnent le monde. Leur existence ne s’organise ni autour des peuples mortels ni autour de leurs structures politiques, culturelles ou religieuses. Leurs territoires s’articulent plutôt autour de lieux de pouvoir, véritables sources naturelles de magie. Elles y veillent avant tout à la préservation de ces sites et à l’équilibre des forces qui s’y manifestent, agissant selon des logiques qui leur sont propres et souvent étrangères aux enjeux des sociétés du continent."
+      }
+    }
+  }
+}

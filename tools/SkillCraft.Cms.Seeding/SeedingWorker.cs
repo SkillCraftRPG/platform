@@ -70,7 +70,9 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(TalentDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/talents"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ScriptDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/scripts"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(LanguageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/languages"), cancellationToken);
-      await ExecuteAsync(new SeedContentsTask(LineageDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/lineages"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpeciesCategoryDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/species/categories"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(SpeciesDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/species"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(EthnicityDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/ethnicities"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpecializationDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/specializations"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(DoctrineDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/doctrines"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(SpellCategoryDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/spells/categories"), cancellationToken);

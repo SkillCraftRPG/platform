@@ -1,0 +1,39 @@
+﻿{
+  "Id": "2fa08a4f-db8d-4533-a8d9-8fcbbf45e517",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FirBolg",
+    "DisplayName": "Fir Bolg",
+    "Description": null,
+    "FieldValues": {
+      "ExtraLanguages": "1",
+      "Languages": "[\"830335ef-34f2-4cab-b4c1-9b7619263057\"]",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"4e0808a6-6564-4c89-87ef-7330d6594276\",\"53eae48b-7598-493b-9a32-8e9ac54fe377\",\"564fa4f8-8309-4672-adcd-484959cdd1da\",\"c380c5a2-f83e-4c30-b1ff-7d45c806c2b7\"]",
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FirBolg",
+      "DisplayName": "Fir Bolg",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fir-bolg",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7"
+      }
+    }
+  }
+}
