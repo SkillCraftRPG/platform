@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2cd75048-4d6a-4647-b9cf-196b1682821f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Harseme_FourrureEpaisse",
+    "DisplayName": "Fourrure épaisse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Harseme_FourrureEpaisse",
+      "DisplayName": "Fourrure épaisse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Résistance](/regles/talents/resistance).\n\nIl se voit également conférer un bonus (+1) à l’[Esquive](/regles/statistiques/esquive). Il peut substituer son [Adresse](/regles/attributs/adresse) par sa [Santé](/regles/attributs/sante) dans le calcul de son Esquive s’il le désire.\n\nEnfin, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets du climat et est [résistant](/regles/combat/degats/efficacite) aux dégâts reçus de cette manière."
+      }
+    }
+  }
+}

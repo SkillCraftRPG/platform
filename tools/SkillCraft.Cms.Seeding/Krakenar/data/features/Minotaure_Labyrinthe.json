@@ -14,7 +14,7 @@
       "DisplayName": "Labyrinthe",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Lorsque le personnage tente de trouver le Nord relativement à sa position actuelle, ou lorsqu’il tente de [se déplacer](/regles/aventure/mouvement) sans se perdre, il ajoute à son [test](/regles/competences/tests) de [Survie](/regles/competences/survie) un bonus égal à son [tiers](/regles/personnages/progression/tiers). Lorsqu’il atteint le tiers 2, il peut remplacer ce bonus par un [avantage](/regles/competences/tests/avantage-desavantage)."
+        "HtmlContent": "Lorsque le personnage tente de trouver le Nord relativement à sa position actuelle, ou lorsqu’il tente de [se déplacer](/regles/aventure/mouvement) sans se perdre, il ajoute à son [test](/regles/competences/tests) de [Survie](/regles/competences/survie) un bonus égal à son [tiers](/regles/personnages/progression/tiers). Lorsqu’il atteint le tiers 2, il peut remplacer ce bonus par un [avantage](/regles/competences/tests/avantage-desavantage).\n\nÉgalement, il peut communiquer des idées simples aux bovins, et il peut comprendre les idées simples des bovins en retour."
       }
     }
   }

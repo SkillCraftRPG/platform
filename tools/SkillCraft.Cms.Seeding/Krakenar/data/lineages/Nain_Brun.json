@@ -1,0 +1,37 @@
+﻿{
+  "Id": "41f1e2a2-f2ca-4a20-9100-e857df14a819",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nain_Brun",
+    "DisplayName": "Nain brun",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"1aefb67d-7138-448e-b6f5-749edb4b5ef6\"]",
+      "ExtraLanguages": "0",
+      "Languages": "[\"20d34ad6-d7bc-442d-9dac-6507bf4d3f6e\"]",
+      "Features": "[\"accc3978-b046-4890-a107-59c43dc05d98\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nain_Brun",
+      "DisplayName": "Nain brun",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "brun",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7Les nains bruns sont endurcis par les guerres ravageant les chaudes montagnes qu’ils habitent depuis des millénaires. Devant perpétuellement améliorer leurs sociétés afin de survivre aux incessantes invasions, ils ont dû parfaire autant leur aptitude au combat que la qualité des armes et outils qu’ils fabriquent. Ils sont mus par la quête de richesse et de trésors, mais également par des rêves de gloire et d’héroïsme. Leur teint est basané et leurs yeux et cheveux sont foncés. Parmi les peuples nains, ils sont les plus petits, mais également les plus costauds.",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "NamesSelection": "Family:Bartios,Covkesch,Dutamnirr,Dvorunga,Kaschkug,Potoviun,Riznieb,Sfurtnov,Volinkva,Yaluwri\nFemale:Danilfa,Dodrashti,Hakana,Kaldea,Lzogrish,Mekimora,Nevranete,Thorinda,Xnjortubene,Zurnulyn\nMale:Brishal,Brokshuk,Darevag,Giorrgo,Ravumin,Reirciw,Shingom,Skurvatin,Udamar,Zassub"
+      }
+    }
+  }
+}

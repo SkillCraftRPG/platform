@@ -1,0 +1,21 @@
+﻿{
+  "Id": "4a957f86-6b18-4f92-afd3-8e1f8596b118",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ashtavrin_CharmeMental",
+    "DisplayName": "Charme mental",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ashtavrin_CharmeMental",
+      "DisplayName": "Charme mental",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) un des [talents](/regles/talents) parmi la liste suivante : [Diplomatie](/regles/talents/diplomatie), [Représentation](/regles/talents/representation) ou [Tromperie](/regles/talents/tromperie)."
+      }
+    }
+  }
+}

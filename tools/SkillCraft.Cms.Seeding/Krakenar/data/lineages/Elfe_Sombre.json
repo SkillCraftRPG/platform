@@ -1,0 +1,37 @@
+﻿{
+  "Id": "d9359742-079e-4f61-abdd-916ad902c215",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Sombre",
+    "DisplayName": "Elfe sombre",
+    "Description": null,
+    "FieldValues": {
+      "Parent": "[\"11bed60c-8111-4182-9b9d-40bdb97cc368\"]",
+      "Languages": "[\"cf0d0fda-2bc8-4faa-84c3-9f2863822474\"]",
+      "ExtraLanguages": "0",
+      "Features": "[\"2724e197-10dc-40f0-b052-b7cfa2587801\",\"5b599a46-4e93-436f-9df7-241ab4df64a4\",\"96aae2ce-79d4-4134-95a5-0f43d7c3a683\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Sombre",
+      "DisplayName": "Elfe sombre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sombre",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@
       "DisplayName": "Chirurgie",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les talents suivants au coût de 3 [points](/regles/talents/points) plutôt que 5 : [Réanimation](/regles/talents/reanimation) et [Rigueur mentale](/regles/talents/rigueur-mentale)."
+        "HtmlContent": "Il peut [acquérir](/regles/talents/acquisition) les [talents](/regles/talents) suivants au coût de 3 [points](/regles/talents/points) plutôt que 5 : [Réanimation](/regles/talents/reanimation) et [Rigueur mentale](/regles/talents/rigueur-mentale)."
       }
     }
   }

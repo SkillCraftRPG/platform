@@ -24,9 +24,9 @@
       "FieldValues": {
         "Slug": "infernon",
         "Summary": "Origine infernale, résistance et pouvoirs de feu et de ténèbres.",
-        "LanguagesText": "Le personnage apprend la langue du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
+        "LanguagesText": "Le personnage apprend la [langue](/regles/langues) du peuple au sein duquel il a été élevé ainsi qu’une langue supplémentaire au choix.",
         "HtmlContent": "Les Infernons sont des [Humains](/regles/especes/humain) à ascendance infernale, dotés d’une longévité accrue, d’une résistance au feu et au poison et de transformations liées au feu ou aux ténèbres. Répandus en Ouespéro mais craints comme des présages, ils n’ont pas de culture propre, héritent de celle qui les élève et luttent entre instinct ardent et volonté morale.",
-        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé.\n\nSon prénom est généralement sélectionné afin d’évoquer ses origines infernales.",
+        "NamesText": "Le personnage porte un prénom et un nom de famille en fonction du peuple au sein duquel il a été élevé. Son prénom est généralement sélectionné afin d’évoquer ses origines infernales.",
         "MetaDescription": "Découvrez l’Infernon : humain d’ascendance infernale, capable de transformations ténébreuses, pouvoirs de feu ou poison et doté d’une résistance surnaturelle.",
         "Morphology": "Les Infernons sont des Humains à l’ascendance infernale, indiscernables au premier regard sinon par des teints très foncés aux reflets rougeâtres, pourpres ou violacés. Leurs yeux sombres et leur aura subtilement brûlante trahissent leur nature, et certains manifestent cornes, ailes spectrales ou flammes oculaires lorsqu’ils éveillent leur forme infernale. Leur longévité dépasse celle des Humains, atteignant près de 160 ans.",
         "Psychology": "Conscients d’être perçus comme des présages funestes, les Infernons développent souvent une forte discipline intérieure ou, au contraire, un goût assumé pour la transgression. Leur héritage les rend passionnés, charismatiques et difficiles à intimider. Beaucoup luttent entre instinct ardent et volonté morale, forgeant des personnalités intenses et résilientes.",

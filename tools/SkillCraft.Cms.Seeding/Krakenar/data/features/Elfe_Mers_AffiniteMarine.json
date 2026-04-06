@@ -1,0 +1,21 @@
+﻿{
+  "Id": "29d887af-2362-44fd-bbcc-6beef3e197a8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Elfe_Mers_AffiniteMarine",
+    "DisplayName": "Affinité marine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Elfe_Mers_AffiniteMarine",
+      "DisplayName": "Affinité marine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) et il peut respirer [sous l’eau](/regles/aventure/environnement/suffocation). Il peut également communiquer des idées simples aux bêtes marines, mais il ne peut les comprendre en retour. Enfin, il est [résistant](/regles/combat/degats/letalite) aux [dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

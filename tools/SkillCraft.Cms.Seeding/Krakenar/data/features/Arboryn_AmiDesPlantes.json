@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5fc0fa84-b529-4944-8b12-985cf6b51ec0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Arboryn_AmiDesPlantes",
+    "DisplayName": "Ami des plantes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Arboryn_AmiDesPlantes",
+      "DisplayName": "Ami des plantes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut communiquer des idées simples aux plantes, mais il ne peut les comprendre en retour. Toutefois, lorsqu’il tente d’[influencer](/regles/aventure/interaction-sociale) une créature appartenant à la catégorie _Plante_, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests). Il peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Médecine](/regles/talents/medecine)."
+      }
+    }
+  }
+}

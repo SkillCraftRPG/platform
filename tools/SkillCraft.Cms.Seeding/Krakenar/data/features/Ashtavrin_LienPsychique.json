@@ -1,0 +1,21 @@
+﻿{
+  "Id": "3406ad52-d371-4b42-9635-830ae5bd54db",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ashtavrin_LienPsychique",
+    "DisplayName": "Lien psychique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ashtavrin_LienPsychique",
+      "DisplayName": "Lien psychique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut communiquer par télépathie avec toute créature qu’il peut [voir](/regles/aventure/environnement/vision) et située à une distance inférieure ou égale à 75 centimètres multipliés par son [niveau](/regles/personnages/progression/niveau). La créature le comprend si elle connaît au moins une [langue](/regles/langues), même si le personnage ne connaît pas cette langue. Il ne peut communiquer qu’avec une seule créature à la fois.\n\nLorsqu’il utilise cette capacité, il peut utiliser une [action](/regles/combat/deroulement/tour) afin d’établir ou de rompre un lien télépathique avec la cible. Ce lien prend fin après [une heure](/regles/aventure/temps) et permet à la cible de lui parler par télépathie. Afin d’utiliser cette capacité, la cible doit voir le personnage et respecter la distance maximale. Une seule créature à la fois ne peut bénéficier de ce lien. Si le personnage établit un nouveau lien, le lien précédent est rompu."
+      }
+    }
+  }
+}

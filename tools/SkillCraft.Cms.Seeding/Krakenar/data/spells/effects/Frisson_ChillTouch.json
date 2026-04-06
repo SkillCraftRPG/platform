@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage crée une main spectrale et squelettique, qui [attaque](/regles/magie/effets/attaque) une cible.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](a/regles/combat/degats/jet) [perçants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nDe plus, la main s’accroche sur la cible jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. La cible ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) pendant cette durée.\n\nSi la cible est un mort-vivant, le test de ses [attaques](/regles/combat/attaque) dirigées contre le personnage se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage) pendant cette durée."
+        "HtmlContent": "Le personnage crée une main spectrale et squelettique, qui [attaque](/regles/magie/effets/attaque) une cible.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](a/regles/combat/degats/jet) [perforants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nDe plus, la main s’accroche sur la cible jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. La cible ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) pendant cette durée.\n\nSi la cible est un mort-vivant, le test de ses [attaques](/regles/combat/attaque) dirigées contre le personnage se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage) pendant cette durée."
       }
     }
   }

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "39cbda07-c630-4f9b-85e7-4229060b19e0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Goliath_PetitGeant",
+    "DisplayName": "Petit géant",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Goliath_PetitGeant",
+      "DisplayName": "Petit géant",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Athlétisme](/regles/talents/athletisme). Également, sa [taille](/regles/especes/taille) est considérée d’une catégorie supérieure lorsqu’il porte, lève, pousse ou tire un [poids](/regles/equipement/encombrement)."
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+﻿{
+  "Id": "7cc20a05-4e65-404b-9d99-6e5251931172",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ashtavrin",
+    "DisplayName": "Ashtavrin",
+    "Description": null,
+    "FieldValues": {
+      "Languages": "[\"5e384ff3-ae44-4c2a-a5c0-bc46d9d3872a\"]",
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "SizeRoll": "150+3d10",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
+      "Age": "8,15,21,75",
+      "Features": "[\"4a957f86-6b18-4f92-afd3-8e1f8596b118\",\"2f32e001-c3c5-4b8a-93ef-16009e1c9eca\",\"3406ad52-d371-4b42-9635-830ae5bd54db\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ashtavrin",
+      "DisplayName": "Ashtavrin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ashtavrin",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "NamesText": "Les Ashtavrins portent un prénom et ne portent pas de nom de famille. Cependant, le nom des parents est généralement donné à l’aîné de chaque sexe. Afin de se différencier, un nombre est utilisé comme nom de famille. Par exemple, pour une famille dont les parents sont Tigran 1er (père) et Vane 2e (mère), le fils aîné s’appellerait Tigran 2e, le second fils pourrait s’appeler Zardur 1er, la fille aînée s’appellerait Vane 3e, et la seconde fille pourrait s’appeler Taline 1ière. Ces séquences recommencent à 1 lorsqu’un nouveau prénom est utilisé ou au début d’une nouvelle lignée.",
+        "Morphology": "\uD83D\uDEA7",
+        "Psychology": "\uD83D\uDEA7",
+        "Culture": "\uD83D\uDEA7",
+        "History": "\uD83D\uDEA7",
+        "Politics": "\uD83D\uDEA7",
+        "Geography": "\uD83D\uDEA7",
+        "Relations": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7Les Ashtavrins sont des humanoïdes similaires aux humains. Ils sont à peine plus grands que ceux-ci et ont le même gabarit physique. Leur peau est pâle et ornée de tatouages magiques apparents dès leur naissance. Ces tatouages sont d’un cyan très pâle à la naissance et s’assombrissent jusqu’à la fin de leur existence, tirant vers un bleu marin très foncé. Ils sont généralement dénués de poils et leurs yeux sont grisâtres. Cette espèce est issue de la même souche que les humains, mais ils ont acquis une seconde pensée qui rêve continuellement. Cette seconde pensée leur confère un certain charisme, une résilience mentale et des pouvoirs télépathiques. Ils habitent le haut-plateau Utarmien en bordure de l’Ouespéro, à proximité de l’Umid Gaya, une importante tour de la magie où bon nombre d’entre eux vont y étudier.",
+        "NamesSelection": "Female:Anahit,Ashtil,Gayane,Hurik,Nane,Ruzane,Sevane,Taline,Urmia,Vane\nMale:Arame,Artavazd,Dikran,Hashki,Mihr,Minua,Tigran,Utaron,Vahagn,Zardur"
+      }
+    }
+  }
+}
