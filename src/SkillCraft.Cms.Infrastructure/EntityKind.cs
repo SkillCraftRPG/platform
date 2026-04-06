@@ -20,6 +20,7 @@ internal enum EntityKind
   Skill,
   Specialization,
   Species,
+  SpeciesCategory,
   Spell,
   SpellCategory,
   SpellEffect,

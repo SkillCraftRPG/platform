@@ -22,6 +22,8 @@ internal class LineageConfiguration : AggregateConfiguration<LineageEntity>, IEn
     builder.HasIndex(x => x.Slug);
     builder.HasIndex(x => x.SlugNormalized);
     builder.HasIndex(x => x.Name);
+    builder.HasIndex(x => x.SpeciesCategoryId);
+    builder.HasIndex(x => x.SpeciesCategoryUid);
     builder.HasIndex(x => x.ParentId);
     builder.HasIndex(x => x.ParentUid);
     builder.HasIndex(x => x.SizeCategory);
@@ -39,6 +41,7 @@ internal class LineageConfiguration : AggregateConfiguration<LineageEntity>, IEn
     builder.Property(x => x.MetaDescription).HasMaxLength(Constants.MetaDescriptionMaximumLength);
     builder.Property(x => x.Summary).HasMaxLength(Constants.SummaryMaximumLength);
 
+    builder.HasOne(x => x.SpeciesCategory).WithMany(x => x.Lineages).OnDelete(DeleteBehavior.Restrict);
     builder.HasOne(x => x.Parent).WithMany(x => x.Children)
       .HasPrincipalKey(x => x.LineageId).HasForeignKey(x => x.ParentId)
       .OnDelete(DeleteBehavior.Restrict);

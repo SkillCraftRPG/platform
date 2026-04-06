@@ -1,0 +1,54 @@
+﻿using Krakenar.Core.Contents;
+using Krakenar.Core.Contents.Events;
+using Krakenar.EntityFrameworkCore.Relational.KrakenarDb;
+using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
+
+namespace SkillCraft.Cms.Infrastructure.Entities;
+
+internal class SpeciesCategoryEntity : AggregateEntity
+{
+  public int SpeciesCategoryId { get; private set; }
+  public Guid Id { get; private set; }
+
+  public bool IsPublished { get; private set; }
+
+  public string Key { get; set; } = string.Empty;
+  public string KeyNormalized
+  {
+    get => Helper.Normalize(Key);
+    private set { }
+  }
+  public string Name { get; set; } = string.Empty;
+
+  public int Order { get; set; }
+  public int Columns { get; set; }
+
+  public string? HtmlContent { get; set; }
+
+  public List<LineageEntity> Lineages { get; private set; } = [];
+
+  public SpeciesCategoryEntity(ContentLocalePublished @event) : base(@event)
+  {
+    Id = new ContentId(@event.StreamId).EntityId;
+  }
+
+  private SpeciesCategoryEntity() : base()
+  {
+  }
+
+  public void Publish(ContentLocalePublished @event)
+  {
+    Update(@event);
+
+    IsPublished = true;
+  }
+
+  public void Unpublish(ContentLocaleUnpublished @event)
+  {
+    Update(@event);
+
+    IsPublished = false;
+  }
+
+  public override string ToString() => $"{Name ?? Key} | {base.ToString()}";
+}

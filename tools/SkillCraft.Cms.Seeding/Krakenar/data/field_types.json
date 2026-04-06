@@ -400,6 +400,16 @@
     }
   },
   {
+    "Id": "5828694a-d1cc-49a4-9269-5dfad42bd88a",
+    "UniqueName": "SpeciesCategory",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "b0fb2943-c922-4578-9d2c-8ab5364b38a4",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "53c3527b-6cf3-44f6-9f30-0e534a86195a",
     "UniqueName": "Spell",
     "DisplayName": null,

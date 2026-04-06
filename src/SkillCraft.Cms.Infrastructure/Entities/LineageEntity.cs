@@ -23,6 +23,10 @@ internal class LineageEntity : AggregateEntity
   }
   public string Name { get; set; } = string.Empty;
 
+  public SpeciesCategoryEntity? SpeciesCategory { get; private set; }
+  public int? SpeciesCategoryId { get; private set; }
+  public Guid? SpeciesCategoryUid { get; private set; }
+
   public LineageEntity? Parent { get; private set; }
   public int? ParentId { get; private set; }
   public Guid? ParentUid { get; private set; }
@@ -91,6 +95,13 @@ internal class LineageEntity : AggregateEntity
   public void AddLanguage(LanguageEntity language)
   {
     Languages.Add(new LineageLanguageEntity(this, language));
+  }
+
+  public void Categorize(SpeciesCategoryEntity speciesCategory)
+  {
+    SpeciesCategory = speciesCategory;
+    SpeciesCategoryId = speciesCategory.SpeciesCategoryId;
+    SpeciesCategoryUid = speciesCategory.Id;
   }
 
   public override IReadOnlyCollection<ActorId> GetActorIds()

@@ -4,6 +4,7 @@ public static class SpeciesDefinition
 {
   public static readonly Guid ContentTypeId = Guid.Parse("df9bfb44-c586-4cb3-b08a-77c8508a0505");
 
+  public static readonly Guid Category = Guid.Parse("2f0f410f-643e-40f3-b838-9b7050967cb9");
   public static readonly Guid Features = Guid.Parse("2bcc6f71-3205-4d58-9149-267ebdecd537");
   public static readonly Guid Languages = Guid.Parse("060dff93-77c8-40dd-8ed1-7accdf3f80be");
   public static readonly Guid ExtraLanguages = Guid.Parse("29e049d0-3318-4a52-a3ea-08bff95894a5");

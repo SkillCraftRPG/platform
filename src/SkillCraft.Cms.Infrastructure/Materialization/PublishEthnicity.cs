@@ -231,18 +231,7 @@ internal class PublishEthnicityCommandHandler : ICommandHandler<PublishEthnicity
   private async Task SetSpeciesAsync(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
   {
     IReadOnlyCollection<Guid> speciesIds = invariant.GetRelatedContent(EthnicityDefinition.Species);
-    if (speciesIds.Count < 1)
-    {
-      lineage.SetParent(null); // TODO(fpion): it should not be empty!
-    }
-    else if (speciesIds.Count > 1)
-    {
-      failures.Add(new ValidationFailure(nameof(EthnicityDefinition.Species), "'{PropertyName}' must contain at most one element.", speciesIds)
-      {
-        ErrorCode = ErrorCodes.TooManyValues
-      });
-    }
-    else
+    if (speciesIds.Count == 1)
     {
       Guid parentId = speciesIds.Single();
       LineageEntity? parent = await _rules.Lineages.SingleOrDefaultAsync(x => x.Id == parentId, cancellationToken);
@@ -257,6 +246,13 @@ internal class PublishEthnicityCommandHandler : ICommandHandler<PublishEthnicity
       {
         lineage.SetParent(parent);
       }
+    }
+    else
+    {
+      failures.Add(new ValidationFailure(nameof(EthnicityDefinition.Species), "'{PropertyName}' must contain exactly one element.", speciesIds)
+      {
+        ErrorCode = speciesIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
+      });
     }
   }
 

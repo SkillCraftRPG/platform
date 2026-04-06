@@ -48,6 +48,8 @@ internal class PublishSpeciesCommandHandler : ICommandHandler<PublishSpeciesComm
     lineage.Slug = locale.GetString(SpeciesDefinition.Slug);
     lineage.Name = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
+    await CategorizeAsync(lineage, invariant, failures, cancellationToken);
+
     await SetFeaturesAsync(lineage, invariant, failures, cancellationToken);
 
     await SetLanguagesAsync(lineage, invariant, failures, cancellationToken);
@@ -88,6 +90,34 @@ internal class PublishSpeciesCommandHandler : ICommandHandler<PublishSpeciesComm
     _logger.LogInformation("The lineage '{Lineage}' has been published.", lineage);
 
     return Unit.Value;
+  }
+
+  private async Task CategorizeAsync(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    IReadOnlyCollection<Guid> categoryIds = invariant.GetRelatedContent(SpeciesDefinition.Category);
+    if (categoryIds.Count == 1)
+    {
+      Guid categoryId = categoryIds.Single();
+      SpeciesCategoryEntity? category = await _rules.SpeciesCategories.SingleOrDefaultAsync(x => x.Id == categoryId, cancellationToken);
+      if (category is null)
+      {
+        failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Category), "'{PropertyName}' must reference an existing entity.", categoryId)
+        {
+          ErrorCode = ErrorCodes.EntityNotFound
+        });
+      }
+      else
+      {
+        lineage.Categorize(category);
+      }
+    }
+    else
+    {
+      failures.Add(new ValidationFailure(nameof(SpeciesDefinition.Category), "'{PropertyName}' must contain exactly one element.", categoryIds)
+      {
+        ErrorCode = categoryIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
+      });
+    }
   }
 
   private static void SetAge(LineageEntity lineage, ContentLocale invariant, List<ValidationFailure> failures)
