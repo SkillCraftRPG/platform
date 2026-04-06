@@ -1,0 +1,26 @@
+﻿{
+  "Id": "53232382-0edd-45df-9f3c-78ff5adead21",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VanusRitonDAzray_RetrouverEpiceSavoureuseEmotionnelleDisponibleOuespero",
+    "DisplayName": "Renouveller ses épices particulières",
+    "Description": null,
+    "FieldValues": {
+      "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
+      "QuestGroup": "[\"a6503bfe-0328-4843-a3f9-322f00209808\"]",
+      "GrantedLevels": "4",
+      "ProgressRatio": "0.5"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vanus",
+      "DisplayName": "Renouveller ses épices particulières",
+      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- \uD83D\uDEA7\n- \uD83D\uDEA7",
+      "FieldValues": {
+        "HtmlContent": "Retrouver une épice savoureuse et émotionnelle disponible en Ouespéro pour remplacer ses épices épuisées."
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@
       "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
       "QuestGroup": "[\"8791251d-c611-4b6d-94b8-df928f47fe69\"]",
       "GrantedLevels": "4",
-      "ProgressRatio": "0"
+      "ProgressRatio": "0.75"
     }
   },
   "Locales": {
@@ -17,7 +17,7 @@
       "IsPublished": true,
       "UniqueName": "BalthazarMoldstag_ComprendreEtBriserSaMalediction",
       "DisplayName": "Comprendre et briser sa malédiction",
-      "Description": null,
+      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- Déterminer qui peut déterminer le sens du tatouage : le Prieuré (ordre).\n- Trouver un membre du Prieuré et discuter avec lui.",
       "FieldValues": {
         "HtmlContent": "Octavius a marqué Balthazar d’une malédiction, scellée dans un tatouage inscrit dans son dos. Il doit identifier la langue du symbole et en déchiffrer le sens afin de s’en libérer."
       }

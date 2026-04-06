@@ -9,7 +9,7 @@
       "QuestLog": "[\"bbbee5f2-cadd-4381-abca-f5607ee8a1f9\"]",
       "QuestGroup": "[\"822f9e01-c944-4b4b-bdfe-eaadd8273701\"]",
       "GrantedLevels": "4",
-      "ProgressRatio": "0"
+      "ProgressRatio": "1"
     }
   },
   "Locales": {
@@ -17,9 +17,10 @@
       "IsPublished": true,
       "UniqueName": "Sirha_IdentifierLeBlasonEnCiteHumaine",
       "DisplayName": "Identifier le blason en cité humaine",
-      "Description": null,
+      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- Déterminer qui peut identifier le blason : l’Égide (ordre).\n- Trouver un membre de l’Égide et discuter avec lui.",
       "FieldValues": {
-        "HtmlContent": "Sirha enquête dans une cité humaine afin de découvrir à quelle organisation appartient le blason retrouvé sur le champ de bataille."
+        "HtmlContent": "Sirha enquête dans une cité humaine afin de découvrir à quelle organisation appartient le blason retrouvé sur le champ de bataille.",
+        "CompletedEntries": "\uD83D\uDEA7"
       }
     }
   }
