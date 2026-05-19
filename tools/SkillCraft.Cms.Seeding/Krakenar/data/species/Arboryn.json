@@ -21,18 +21,11 @@
       "Description": null,
       "FieldValues": {
         "Slug": "arboryn",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez les Arboryn, de jeunes humanoïdes végétaux vivant dans les forêts des Triskîles et de la Griffe Noire.",
+        "Summary": "Jeunes humanoïdes végétaux liés aux anciennes forêts elfiques.",
+        "HtmlContent": "Les Arboryn sont de jeunes humanoïdes végétaux dont le corps est composé d’écorce, de sève, de feuilles et de fibres ligneuses rappelant autant les plantes que les humanoïdes. Encore rares en Ouespéro, ils sont principalement retrouvés dans les forêts de la Griffe Noire et des Triskîles, souvent à proximité des communautés elfiques. Curieux, allègres et parfois immatures, ils abordent le monde avec une fascination naïve et une vivacité émotionnelle qui contrastent avec le détachement des [Elfes](/regles/especes/elfe). Leur amour de la nature dépasse toute autre considération, au point où plusieurs préfèrent la contemplation des forêts anciennes aux ambitions politiques ou militaires. Faute d’histoire commune et d’organisation réelle, les Arboryn demeurent dispersés et mal compris. Certaines rumeurs prétendent qu’ils seraient issus d’Elfes transformés par une corruption végétale, une ancienne malédiction ou un étrange parasite sylvestre.",
         "LanguagesText": "Les Arboryn des Triskîles parlent le [Sylvestre](/regles/langues/sylvestre), tandis que ceux de la Griffe Noire parlent le [Celfique](/regles/langues/celfique).",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "NamesText": "\uD83D\uDEA7"
       }
     }
   }

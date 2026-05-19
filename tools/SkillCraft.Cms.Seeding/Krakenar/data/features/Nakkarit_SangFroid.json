@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e1c0cae4-ea26-4bf3-b2be-1a6aaf299126",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nakkarit_SangFroid",
+    "DisplayName": "Sang-froid",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nakkarit_SangFroid",
+      "DisplayName": "Sang-froid",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme), la [peur](/regles/combat/conditions/apeure) et les effets induisant le sommeil. Il peut également [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Discipline](/regles/talents/discipline).\n\nNéanmoins, il est sensible à la chaleur extrême et au froid extrême. Dans ces conditions météorologiques, il doit boire le double de la [quantité quotidienne d’eau](/regles/aventure/environnement/alimentation) et doit doubler la durée de son immersion complète."
+      }
+    }
+  }
+}

@@ -25,17 +25,10 @@
       "Description": null,
       "FieldValues": {
         "Slug": "ashtavrin",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez l’espèce Ashtavrin : humanoïdes pâles et tatoués, voués à la magie, à la sérénité mentale et aux visions du temps.",
+        "Summary": "Humanoïdes tatoués, sereins et voués à la magie du temps.",
         "NamesText": "Les Ashtavrins portent un prénom et ne portent pas de nom de famille. Cependant, le nom des parents est généralement donné à l’aîné de chaque sexe. Afin de se différencier, un nombre est utilisé comme nom de famille. Par exemple, pour une famille dont les parents sont Tigran 1er (père) et Vane 2e (mère), le fils aîné s’appellerait Tigran 2e, le second fils pourrait s’appeler Zardur 1er, la fille aînée s’appellerait Vane 3e, et la seconde fille pourrait s’appeler Taline 1ière. Ces séquences recommencent à 1 lorsqu’un nouveau prénom est utilisé ou au début d’une nouvelle lignée.",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Les Ashtavrins sont des humanoïdes similaires aux humains. Ils sont à peine plus grands que ceux-ci et ont le même gabarit physique. Leur peau est pâle et ornée de tatouages magiques apparents dès leur naissance. Ces tatouages sont d’un cyan très pâle à la naissance et s’assombrissent jusqu’à la fin de leur existence, tirant vers un bleu marin très foncé. Ils sont généralement dénués de poils et leurs yeux sont grisâtres. Cette espèce est issue de la même souche que les humains, mais ils ont acquis une seconde pensée qui rêve continuellement. Cette seconde pensée leur confère un certain charisme, une résilience mentale et des pouvoirs télépathiques. Ils habitent le haut-plateau Utarmien en bordure de l’Ouespéro, à proximité de l’Umid Gaya, une importante tour de la magie où bon nombre d’entre eux vont y étudier.",
+        "HtmlContent": "Humanoïdes pâles, les Ashtavrins se distinguent par leurs tatouages magiques, cyan à la naissance puis de plus en plus sombres jusqu’à tirer vers le bleu marin, ainsi que par leur regard grisâtre et leur absence presque complète de pilosité. Leur seconde pensée, toujours plongée dans le rêve, leur donne une nature calme, sereine et tournée vers les signes invisibles plutôt que vers l’agitation du monde. Installés depuis des millénaires en Arvanie, sur le plateau de la Bamanique et dans la région des trois lacs, et en Aztarvan, près de l’Umid Gaya, de la Mer Érilène et d’une Tour de la Magie, leur population a augmenté de manière fulgurante suite à une migration effectuée il y a quelques siècles depuis un autre monde. Leur culture s’organise autour de la magie, des fonctions savantes et des grades de mages qui structurent la tour et ceux qui la servent. Peu enclins aux conquêtes, ils demeurent politiquement et militairement neutres, cherchant surtout à préserver la lecture du passé, du présent et de l’avenir.",
         "NamesSelection": "Female:Anahit,Ashtil,Gayane,Hurik,Nane,Ruzane,Sevane,Taline,Urmia,Vane\nMale:Arame,Artavazd,Dikran,Hashki,Mihr,Minua,Tigran,Utaron,Vahagn,Zardur"
       }
     }

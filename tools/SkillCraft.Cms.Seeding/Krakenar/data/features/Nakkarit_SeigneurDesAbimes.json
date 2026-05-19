@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d0332a40-50da-443d-a0dd-4f7290ad3d71",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nakkarit_SeigneurDesAbimes",
+    "DisplayName": "Seigneur des abîmes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nakkarit_SeigneurDesAbimes",
+      "DisplayName": "Seigneur des abîmes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) et il peut respirer [sous l’eau](/regles/aventure/environnement/suffocation). Il peut également communiquer des idées simples aux bêtes aquatiques, mais il ne peut les comprendre en retour. Toutefois, lorsqu’il tente d’[influencer](/regles/aventure/interaction-sociale) une bête aquatique de taille [Moyenne](/regles/especes/taille) ou inférieure, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests).\n\nUne fois par jour, le personnage doit complètement s’immerger dans l’eau pendant au moins [une heure](/regles/aventure/temps). Il se voit affliger d’un niveau de [Fatigue](/regles/combat/conditions/fatigue) s’il ne respecte pas cette contrainte. Ce niveau de Fatigue ne peut être retiré que par [magie](/regles/magie) ou en s’immergeant complètement dans l’eau pendant au moins une heure."
+      }
+    }
+  }
+}

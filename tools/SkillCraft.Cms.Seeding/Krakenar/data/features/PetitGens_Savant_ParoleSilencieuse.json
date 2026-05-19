@@ -14,7 +14,7 @@
       "DisplayName": "Parole silencieuse",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage peut communiquer par télépathie avec toute créature située à 18 mètres ou moins de sa position. La créature le comprend si elle partage au moins une [langue](/regles/langues) avec celui-ci. Le personnage ne peut communiquer qu’avec une seule créature à la fois, et celle-ci ne peut pas lui répondre."
+        "HtmlContent": "Le personnage peut communiquer par télépathie avec toute créature située à 18 mètres ou moins de sa position. La créature le comprend si elle partage au moins une [langue](/regles/langues) avec celui-ci. Le personnage ne peut communiquer qu’avec une seule créature à la fois, et celle-ci ne peut pas lui répondre.\n\nIl peut également [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) un des [talents](/regles/talents) suivants : [Connaissance](/regles/talents/connaissance) ou [Occultisme](/regles/talents/occultisme)."
       }
     }
   }

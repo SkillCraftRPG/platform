@@ -1,0 +1,33 @@
+﻿{
+  "Id": "7eff941d-d77f-4971-8d90-c852b891bda2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelours",
+    "DisplayName": "Gobelours",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"0776d904-3d48-4005-b825-97bccbaa11f4\"]",
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "Languages": "[\"6381b2c5-f06a-47cf-a1c8-c7efe36bf161\"]",
+      "Features": "[\"2e2f7733-0885-4586-b71a-40e8325a42f3\",\"5d4d801b-c38a-4f32-acb6-879cbade40c3\",\"15b512b2-4a74-4be3-87d6-aaab8cd55e69\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelours",
+      "DisplayName": "Gobelours",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "gobelours",
+        "MetaDescription": "Découvrez l’espèce Gobelours : des Gobelinoïdes massifs, brutaux et imprévisibles, utiles à la Horde pour frapper par surprise.",
+        "Summary": "Gobelinoïdes massifs, brutaux et imprévisibles de la Horde.",
+        "HtmlContent": "Les Gobelours sont les plus gros et les plus imposants des Gobelinoïdes, reconnaissables à leur carrure massive, à leurs longs membres et à leur démarche étonnamment furtive. Nés dans les forêts d’Orijìsa des mêmes origines que les [Gobelins](/regles/especes/gobelin) et les [Hobgobelins](/regles/especes/hobgobelin), ils furent entraînés vers l’Ouespéro avec la Horde, où leur brutalité archaïque trouva rapidement sa place. Moins organisés que leurs cousins, ils obéissent surtout à la loi du plus fort, accumulent les richesses qu’ils peuvent arracher et accordent une importance presque sacrée au fait de manger à leur faim. Leur imprévisibilité les rend peu fiables pour les tâches cruciales, mais leur puissance, leur férocité et leur goût de l’embuscade en font des alliés redoutables lorsqu’un effet de surprise doit briser une ligne ennemie.",
+        "LanguagesText": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -20,16 +20,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "savant",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Il y a plusieurs siècles, les Savákti ont entrepris un pèlerinage depuis leurs terres ancestrales en Orient, une vallée fertile entre jungles et déserts. On les retrouve aujourd’hui dans les régions montagnardes, cohabitant avec les nains bruns. La raison de ce périple est inconnue, mais les rumeurs racontent qu’ils peuvent voir, entendre et même communiquer avec les esprits. En réalité, les Savákti sont souvent distraits et rêveurs et accordent beaucoup moins d’importance aux possessions matérielles que les autres peuples de Petit-Gens, préférant la poursuite de la connaissance occulte et magique.",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez les Savants : des Petit-Gens rêveurs et occultes, venus d’Orient et réputés pour leur lien mystérieux avec les esprits.",
+        "Summary": "Petit-Gens rêveurs et occultes, venus d’Orient et liés aux esprits.",
+        "HtmlContent": "Les Savants, que plusieurs nomment _Savákti_, forment un peuple de Petit-Gens issu d’une vallée orientale fertile, bordée de jungles et de déserts. Plusieurs siècles après leur mystérieux pèlerinage vers l’Ouespéro, ils vivent surtout dans les régions montagneuses, où ils cohabitent avec les nains bruns sans partager leur goût des richesses et des ouvrages durables. Rêveurs, distraits et souvent détachés des possessions matérielles, ils accordent davantage d’importance aux savoirs occultes, aux langues anciennes et aux signes laissés par les esprits. Leur parole se fait parfois silencieuse, nourrissant les rumeurs qui les disent capables d’entendre ce que les morts, les songes ou les lieux sacrés tentent de révéler.",
         "NamesSelection": "Female:Agnis,Indratua,Kirta,Nasatyanna,Pritasva,Pryia,Shattiara,Tvaishar,Varuna,Wasashatta\nMale:Artadhama,Indratan,Marasatra,Mazdhan,Mitra,Parattarna,Parshatar,Shaytar,Shuttan,Tushratta"
       }
     }

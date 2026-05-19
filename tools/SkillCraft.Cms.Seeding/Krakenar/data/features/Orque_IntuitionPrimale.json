@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7a44e4c8-936a-4f6e-a808-5a0bf1f36997",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Orque_IntuitionPrimale",
+    "DisplayName": "Intuition primale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Orque_IntuitionPrimale",
+      "DisplayName": "Intuition primale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Intuition](/regles/talents/intuition) et [Perception](/regles/talents/perception). Il se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant la [peur](/regles/combat/conditions/apeure)."
+      }
+    }
+  }
+}

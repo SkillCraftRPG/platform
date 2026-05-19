@@ -21,19 +21,12 @@
       "DisplayName": "Ondin",
       "Description": null,
       "FieldValues": {
-        "Summary": "\uD83D\uDEA7",
+        "Summary": "Élémentaires aquatiques liés aux récifs, aux îles et aux marées.",
         "Slug": "ondin",
-        "HtmlContent": "Parfois appelés « ondins », les tritons sont des humanoïdes similaires aux humains, mais dotés de mains et de pieds palmés, de branchies et d’une coloration légèrement bleutée ou verdâtre. Ce sont des élémentaires associés à l’Eau qu’on peut retrouver dans les fonds marins peu profonds, sur les plages chaudes et sur les îles à proximité de ces milieux marins. Ils possèdent une affinité avec l’eau et les créatures marines.",
-        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "Humanoïdes aquatiques parfois appelés tritons, les Ondins se reconnaissent à leurs mains et pieds palmés, à leurs branchies et à leur teint bleuté ou verdâtre. Ils fréquentent les fonds marins peu profonds, les plages chaudes et les îles baignées par des eaux claires, où leurs communautés vivent au rythme des marées. Leur affinité avec l’Eau et les créatures marines nourrit une culture de navigation, de chants, de diplomatie et de récits transmis sous la surface. Accueillants sans être naïfs, ils savent charmer, négocier ou détourner l’attention lorsque les peuples terrestres troublent l’équilibre de leurs rivages.",
+        "MetaDescription": "Découvrez l’espèce Ondin : des élémentaires aquatiques liés à l’Eau, aux récifs, aux îles chaudes et aux créatures marines.",
         "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "NamesText": "\uD83D\uDEA7"
       }
     }
   }

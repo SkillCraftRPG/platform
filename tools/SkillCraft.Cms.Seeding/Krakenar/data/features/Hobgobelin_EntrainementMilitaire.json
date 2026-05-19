@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9b7ad67b-cda7-4172-97cc-a8134aa2fd9a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hobgobelin_EntrainementMilitaire",
+    "DisplayName": "Entraînement militaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hobgobelin_EntrainementMilitaire",
+      "DisplayName": "Entraînement militaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) un des [talents](/regles/talents) suivants : [Mêlée](/regles/talents/melee) ou [Orientation](/regles/talents/orientation).\n\nÉgalement, lorsqu’il [aide](/regles/combat/activites/aider) une créature en situation de [combat](/regles/combat), il peut dépenser 10 points d’[Énergie](/regles/statistiques/energie) afin de bénéficier d’une des capacités suivantes au choix :\n\n- Le personnage et la cible se voient conférer un nombre de [points temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) égal à 1d10 additionné à la moitié de son [Stratagème](/regles/statistiques/stratageme).\n- La [vitesse](/regles/aventure/mouvement/vitesse) du personnage et de la cible augmente de 2 points de mouvement (0,5 mètre par seconde) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n- Si la cible réussit une [attaque](/regles/combat/attaque) dirigée contre une autre créature avant le début du prochain tour du personnage, alors le [test](/regles/competences/tests) de la prochaine attaque effectuée par cette créature dans la prochaine [minute](/regles/aventure/temps) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

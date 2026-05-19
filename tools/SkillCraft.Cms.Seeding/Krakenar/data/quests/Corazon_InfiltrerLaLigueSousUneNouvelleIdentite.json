@@ -17,9 +17,11 @@
       "IsPublished": true,
       "UniqueName": "Corazon_InfiltrerLaLigueSousUneNouvelleIdentite",
       "DisplayName": "Infiltrer la ligue sous une nouvelle identité",
-      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- Déterminer qui peut infiltrer la ligue de combat : le Silence (ordre).\n- Trouver un membre du Silence et discuter avec lui.",
+      "Description": null,
       "FieldValues": {
-        "HtmlContent": "Revenir à Durmanion, intégrer discrètement le circuit et regagner une position compétitive sans révéler son passé."
+        "HtmlContent": "Revenir à Durmanion, intégrer discrètement le circuit et regagner une position compétitive sans révéler son passé.",
+        "CompletedEntries": "1. Combustion travaille auprès de l’aubergiste afin de financer son retour à Durmanion.\n2. Grâce à l’aide qu’il apporte à Élijade, il obtient le droit de traverser gratuitement le portail menant à Durmanion.\n3. Il y rencontre l’Ordre du Silence, une confrérie clandestine d’espions et d’assassins, qui lui propose une entente pour infiltrer la ligue corrompue et traduire ses membres en justice.",
+        "ActiveEntries": "Combustion doit désormais réintégrer la ligue sous une nouvelle identité afin de mener à bien cette mission."
       }
     }
   }

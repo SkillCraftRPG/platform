@@ -1,0 +1,21 @@
+﻿{
+  "Id": "15b512b2-4a74-4be3-87d6-aaab8cd55e69",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelours_Ferocite",
+    "DisplayName": "Férocité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelours_Ferocite",
+      "DisplayName": "Férocité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’une [allonge](/regles/equipement/armes/proprietes) de 1,5 mètres lorsqu’il effectue une [attaque de mêlée](/regles/combat/attaque/melee). Il peut également ajouter son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) le [charmant](/regles/combat/conditions/charme) ou le contraignant à agir d’une certaine manière."
+      }
+    }
+  }
+}

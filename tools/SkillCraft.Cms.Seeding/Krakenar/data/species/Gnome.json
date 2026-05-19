@@ -22,18 +22,11 @@
       "Description": null,
       "FieldValues": {
         "Slug": "gnome",
-        "HtmlContent": "Les gnomes sont des humanoïdes de petite taille, généralement poilus et barbus, similairement aux nains. Ce sont des élémentaires associés à la Terre qu’on peut retrouver dans d’étonnants habitats partageant une certaine clandestinité, à l’écart des regards et de la lumière du grand jour. Les gnomes sont des êtres curieux et habiles de leurs mains, possédant une certaine vivacité d’esprit ainsi qu’une bonne résilience face à la magie.",
-        "Summary": "\uD83D\uDEA7",
-        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "Petits humanoïdes liés aux profondeurs et aux forces de la Terre, les Gnomes vivent souvent dans des communautés discrètes, enfouies sous les collines, les montagnes ou les quartiers oubliés des grandes cités. Poilus, barbus et plus nerveux qu’ils n’en ont l’air, ils compensent leur taille par une vive intelligence, une curiosité difficile à contenir et une habileté remarquable pour les mécanismes délicats. Leurs ateliers mêlent savoir élémentaire, horlogerie, alchimie pratique et inventions parfois utiles, parfois simplement amusantes. Malgré leur goût pour la clandestinité, ils observent le monde avec un humour espiègle et interviennent volontiers lorsqu’un mystère, un minerai rare ou une idée impossible mérite d’être exploré.",
+        "Summary": "Petits élémentaires de Terre, ingénieux, discrets et espiègles.",
+        "MetaDescription": "Découvrez l’espèce Gnome : de petits élémentaires de Terre, curieux, ingénieux et discrets, maîtres des mécanismes cachés.",
         "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7"
+        "NamesText": "\uD83D\uDEA7"
       }
     }
   }

@@ -17,9 +17,11 @@
       "IsPublished": true,
       "UniqueName": "Vanus",
       "DisplayName": "Renouveller ses épices particulières",
-      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- \uD83D\uDEA7\n- \uD83D\uDEA7",
+      "Description": null,
       "FieldValues": {
-        "HtmlContent": "Retrouver une épice savoureuse et émotionnelle disponible en Ouespéro pour remplacer ses épices épuisées."
+        "HtmlContent": "Retrouver une épice savoureuse et émotionnelle disponible en Ouespéro pour remplacer ses épices épuisées.",
+        "CompletedEntries": "1. Lorsque Sirha, Combustion et Balthazar atteignent le Stand des Quatre Chaudrons, Vanus a déjà épuisé ses dernières épices précieuses.\n2. Grâce à l’aide apportée à Élijade, Vanus peut emprunter le portail vers Durmanion, grande cité marchande où il espère se procurer de nouvelles épices.",
+        "ActiveEntries": "Vanus a confié un échantillon d’épices à Éremaude pour analyse et doit revenir la voir 24 à 48 heures plus tard."
       }
     }
   }

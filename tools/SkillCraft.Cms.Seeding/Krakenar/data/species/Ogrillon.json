@@ -1,0 +1,33 @@
+﻿{
+  "Id": "c520bf62-53d1-4f49-a017-b3a43c8ad9a1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ogrillon",
+    "DisplayName": "Ogrillon",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"0776d904-3d48-4005-b825-97bccbaa11f4\"]",
+      "ExtraLanguages": "1",
+      "Languages": "[\"61540270-a656-4f7a-a32f-0eaa506e9cf5\"]",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"7eb4bc42-40e8-403e-99fc-e137a825305b\",\"f1ddf2b8-4974-4555-8f3b-9250371efa16\",\"54f06ca9-3079-4278-be28-3d98ec97e9c3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ogrillon",
+      "DisplayName": "Ogrillon",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ogrillon",
+        "MetaDescription": "Découvrez les Ogrillons, de puissants humanoïdes des steppes liés aux bêtes et longtemps exploités par les Orques de la Horde.",
+        "Summary": "Humanoïdes massifs des steppes vivant au rythme de leurs bêtes.",
+        "HtmlContent": "Plus grands et massifs que les [Orques](/regles/especes/orque) dont ils partagent une partie de l’héritage, les Ogrillons sont des humanoïdes robustes des steppes vivant davantage au rythme de leurs bêtes qu’à celui des guerres de la Horde. Longtemps réduits à l’esclavage et employés pour leur force brute, ils ont développé une culture pragmatique centrée sur l’élevage, le dressage et la protection de leurs compagnons animaux. Malgré leur imposante carrure, ils privilégient généralement la patience, l’endurance et la stabilité plutôt que la conquête ou les conflits sanglants. Les autres peuples de la Horde les considèrent souvent comme faibles ou dociles, bien qu’ils demeurent des pisteurs, chasseurs et gardiens particulièrement respectés lorsque leurs talents avec les bêtes deviennent nécessaires.",
+        "LanguagesText": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

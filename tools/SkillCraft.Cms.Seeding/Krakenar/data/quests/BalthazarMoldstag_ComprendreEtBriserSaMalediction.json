@@ -17,9 +17,11 @@
       "IsPublished": true,
       "UniqueName": "BalthazarMoldstag_ComprendreEtBriserSaMalediction",
       "DisplayName": "Comprendre et briser sa malédiction",
-      "Description": "- Découvrir la cause du problème de Sébasnic.\n- Rapporter l’information à Élijade.\n- Déterminer qui peut déterminer le sens du tatouage : le Prieuré (ordre).\n- Trouver un membre du Prieuré et discuter avec lui.",
+      "Description": null,
       "FieldValues": {
-        "HtmlContent": "Octavius a marqué Balthazar d’une malédiction, scellée dans un tatouage inscrit dans son dos. Il doit identifier la langue du symbole et en déchiffrer le sens afin de s’en libérer."
+        "HtmlContent": "Octavius a marqué Balthazar d’une malédiction, scellée dans un tatouage inscrit dans son dos. Il doit identifier la langue du symbole et en déchiffrer le sens afin de s’en libérer.",
+        "CompletedEntries": "1. Balthazar espère tirer parti de l’aide que l’aubergiste a offerte à Sirha afin d’identifier la signification de son tatouage.\n2. Après avoir aidé Élijade à découvrir la cause du mal affectant son hérisson Sébasnic, il obtient l’autorisation d’emprunter le portail menant directement à Durmanion.\n3. Une fois sur place, Éremaude l’oriente vers le Prieuré, un ordre regroupant scribes, religieux et érudits.",
+        "ActiveEntries": "Balthazar doit localiser le Prieuré, installé dans un immense bâtiment hexagonal dont chacune des six tours est dédiée à une divinité du panthéon."
       }
     }
   }

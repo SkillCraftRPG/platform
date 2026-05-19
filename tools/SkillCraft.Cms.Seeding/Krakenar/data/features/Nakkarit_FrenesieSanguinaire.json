@@ -1,0 +1,21 @@
+﻿{
+  "Id": "72d86aa9-2114-40be-8c7b-32edc136c828",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nakkarit_FrenesieSanguinaire",
+    "DisplayName": "Frénésie sanguinaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nakkarit_FrenesieSanguinaire",
+      "DisplayName": "Frénésie sanguinaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut entrer dans un état de frénésie sanguinaire s’il se trouve à proximité de sang frais. Cet état dure jusqu’au début de son prochain tour et lui confère les capacités suivantes :\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de ses [attaques de mêlée](/regles/combat/attaque/melee) dirigés contre une créature ayant une plaie ouverte ou ayant saigné récemment.\n- Il se voit conférer l’avantage à ses tests de [Survie](/regles/competences/survie) effectués afin de pister une créature à partir de traces de sang.\n- Son odorat perçoit automatiquement les créatures ayant une plaie ouverte ou ayant saigné récemment situées à 6 mètres ou moins de sa position. Cette distance est triplée lorsqu’il se trouve sous l’eau.\n- Lorsqu’il effectue une morsure, plutôt que d’infliger des [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types), il peut se conférer un nombre égal de [points temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite). Lorsqu’il en fait ainsi, la cible n’effectue pas de [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Ces points temporaires durent jusqu’au début de son prochain tour, sauf s’il entre à nouveau en état de frénésie sanguinaire.\n- Il ne peut être endormi de manière surnaturelle, et est immunisé aux [charmes](/regles/combat/conditions/charme) et à la [peur](/regles/combat/conditions/apeure). Il se voit également conférer l’avantage à ses jets de sauvegarde l’[assommant](/regles/combat/conditions/assomme) ou le [paralysant](/regles/combat/conditions/paralyse).\n- Il ajoute son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) à son [Esquive](/regles/combat/attaque/esquive).\n\nIl peut également entrer en état de frénésie sanguinaire en [réaction](/regles/combat/deroulement/tour) lorsque ses points de Vitalité chutent à 0. Il doit se trouver à proximité de sang frais et l’état dure jusqu’à la fin de son prochain tour. S’il n’a [récupéré](/regles/combat/degats/soins) aucun point de Vitalité, alors il tombe [agonisant](/regles/combat/conditions/agonisant) à ce moment. Il doit compléter 1+1d6 [nuits de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

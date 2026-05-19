@@ -1,0 +1,21 @@
+﻿{
+  "Id": "af61b450-4850-4962-84f3-c2b224f0a085",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Kobold_DefianceDraconique",
+    "DisplayName": "Défiance draconique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Kobold_DefianceDraconique",
+      "DisplayName": "Défiance draconique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) induisant la [peur](/regles/combat/conditions/apeure).\n\nÉgalement, lorsqu’il [attaque](/regles/combat/attaque) une créature alors qu’un allié se trouve à 1,5 mètres ou moins de la position de cette créature et que cet allié n’est pas [incapable](/regles/combat/conditions/incapable), il se voit conférer l’avantage à son [test](/regles/competences/tests), et inflige un nombre [points de dégâts](/regles/combat/degats) supplémentaires égal à son [tiers](/regles/personnages/progression/tiers).\n\nEnfin, une fois par [tour](/regles/combat/deroulement/tour), par un [action](/regles/combat/deroulement/tour), il peut pousser un cri draconique afin d’intimider les créatures ennemies situées à 3 mètres ou moins de sa position et pouvant l’entendre. Lorsqu’un allié du personnage attaque une créature affectée, il se voit conférer l’avantage à son test, et inflige un nombre de points de dégâts supplémentaires égal à son tiers. Une créature immunisée à la peur n’est pas affectée par cette capacité. Il doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

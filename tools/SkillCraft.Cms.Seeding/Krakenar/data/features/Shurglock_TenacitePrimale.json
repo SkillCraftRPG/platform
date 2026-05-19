@@ -1,0 +1,21 @@
+﻿{
+  "Id": "270afba8-c416-401b-9f63-2d8135965493",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Shurglock_TenacitePrimale",
+    "DisplayName": "Ténacité primale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Shurglock_TenacitePrimale",
+      "DisplayName": "Ténacité primale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Façonné par un environnement hostile où seuls les plus tenaces subsistent, le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) les talents [Furtivité](/regles/talents/furtivite) et [Survie](/regles/talents/survie).\n\nÉgalement, il peut ajouter son [tiers](/regles/personnages/progression/tiers) (minimum 1) :\n\n- À ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) le [charmant](/regles/combat/conditions/charme) ou le contraignant à agir d’une certaine manière.\n- À son [Esquive](/regles/combat/attaque/esquive). Le bonus est doublé contre les [attaques d’opportunité](/regles/combat/attaque/opportunite). S’il porte une [armure](/regles/equipement/armures), il retire de ce bonus tout bonus de [Défense](/regles/equipement/defense) conféré par son armure. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0. Le bonus de Défense conféré par un [bouclier](/regles/equipement/boucliers) n’influence pas cette capacité.\n- Aux [points de dégâts](/regles/combat/degats) infligés à une créature de [taille](/regles/especes/taille) supérieure à la sienne."
+      }
+    }
+  }
+}

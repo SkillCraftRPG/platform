@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0dd26ce4-de1e-43ee-93e5-86d28f219b62",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Orque_BrutalEtImplacable",
+    "DisplayName": "Brutal et implacable",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Orque_BrutalEtImplacable",
+      "DisplayName": "Brutal et implacable",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une fois par [tour](/regles/combat/deroulement/tour), lorsqu’il réussit une [attaque](/regles/combat/attaque), il peut dépenser 5 points d’[Énergie](/regles/statistiques/energie) afin d’infliger 1d4 [points de dégâts](/regles/combat/degats) supplémentaires. Ces dégâts supplémentaires augmentent à 1d6 lorsqu’il atteint le [tiers 1](/regles/personnages/progression/tiers), 1d8 lorsqu’il atteint le tiers 2, et 1d10 lorsqu’il atteint le tiers 3.\n\nÉgalement, lorsqu’il obtient une [réussite critique](/regles/competences/tests/critique) au [test](/regles/competences/tests) d’une attaque, il peut ajouter ces dégâts supplémentaires sans dépenser d’Énergie. Il n’est pas limité dans l’utilisation de cette capacité, et peut l’utiliser pendant le tour d’une autre créature.\n\nEnfin, lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 et qu’il ne [meurt](/regles/combat/mort-agonie) pas instantanément, il peut dépenser en [réaction](/regles/combat/deroulement/tour) un nombre de points d’Énergie égal au nombre de points de dégâts reçus (minimum&nbsp;1). Lorsqu’il en fait ainsi, il entre dans un état de survie extrême plutôt que de tomber [agonisant](/regles/combat/conditions/agonisant). Cet état prend fin s’il est blessé, s’il est [soigné](/regles/combat/degats/soins), ou s’il termine un tour sans avoir attaqué une autre créature. Il tombe agonisant lorsque l’état prend fin s’il n’a pas été soigné. Il doit compléter 1+1d6 [nuits de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

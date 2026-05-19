@@ -21,16 +21,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "mers",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Les elfes des mers partagent leurs origines avec les Haut-Elfes. La séparation entre ces peuples est le résultat d’un important conflit géopolitique les opposant. La plupart passe plus de temps à naviguer les mers qu’à fouler la terre ferme. Ces conditions difficiles leur ont permis de développer une vie en communion avec la mer ainsi qu’une certaine résilience et robustesse physique.",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez les Elfes des mers : navigateurs robustes et solidaires, héritiers des Haut-Elfes liés aux courants et aux créatures marines.",
+        "Summary": "Elfes navigateurs, robustes et liés aux créatures marines.",
+        "HtmlContent": "Descendants des [Haut-Elfes](/regles/especes/elfe/haut) séparés d’eux par un ancien conflit géopolitique, les elfes des mers ont choisi l’horizon mouvant plutôt que les cités de pierre. La plupart passent leur vie sur les navires, dans les ports battus par les vents ou près des profondeurs, où la mer façonne leurs corps autant que leurs coutumes. Robustes, patients et solidaires, ils accordent une grande valeur aux équipages, aux serments et aux routes transmises de génération en génération. Leur lien instinctif avec les créatures marines nourrit une culture de respect, de prudence et d’observation. Malgré leur parenté elfique, ils demeurent un peuple à part, parfois difficile à saisir pour ceux qui n’ont jamais appris à écouter les courants.",
         "NamesSelection": "Family:Adlegor,Charimon,Galanodel,Kaendere,Liadon,Morwen,Nodir,Raelden,Sonomir,Talath\nFemale:Althaea,Ceanoise,Elenna,Leshanna,Magilin,Naeva,Onoraid,Sariel,Tibenna,Valanthe\nMale:Aelar,Berrian,Erevan,Feirion,Hononn,Ivellios,Kaimear,Peren,Saemainn,Therion"
       }
     }

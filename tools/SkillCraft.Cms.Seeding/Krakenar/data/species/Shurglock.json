@@ -1,0 +1,32 @@
+﻿{
+  "Id": "7f291e98-8b53-4259-86cd-c06fc5189ff2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Shurglock",
+    "DisplayName": "Shurglock",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]",
+      "ExtraLanguages": "2",
+      "Speeds": "Walk:4,Swim:6",
+      "SizeCategory": "[\"Small\"]",
+      "Features": "[\"69f491c3-2ed9-40f4-bdb5-0a17a473a619\",\"270afba8-c416-401b-9f63-2d8135965493\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Shurglock",
+      "DisplayName": "Shurglock",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "shurglock",
+        "MetaDescription": "Découvrez les Shurglocks, des humanoïdes amphibies résilients des côtes occidentales d’Ouespéro, marqués par les raids marins et la haine des Nakkarit.",
+        "Summary": "Humanoïdes amphibies résilients des côtes occidentales d’Ouespéro.",
+        "HtmlContent": "Petits humanoïdes amphibies des côtes occidentales de l’Ouespéro, les Shurglocks vivent dans des villages établis à proximité des marais salants, des estuaires et des rivages rocheux d’Andoce, de Beldegir, des Girizes, de Griffe Noire et des Triskîles. Longtemps considérés comme de simples nuisibles marins, ils se sont multipliés au cours des derniers siècles, notamment à travers une série de raids côtiers ayant marqué les populations riveraines. Méfiants envers les peuples terrestres comme aquatiques, ils demeurent profondément marqués par les sévices infligés par les [Nakkarit](/regles/especes/nakkarit), qu’ils accusent d’avoir réduit nombre des leurs en esclavage. Malgré leur petite taille, les Shurglocks sont des survivants remarquablement adaptés aux milieux hostiles, capables d’endurer la faim, les tempêtes et les prédateurs des profondeurs.",
+        "LanguagesText": "\uD83D\uDEA7",
+        "NamesText": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

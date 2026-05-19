@@ -22,18 +22,11 @@
       "Description": null,
       "FieldValues": {
         "Slug": "salamandre",
-        "HtmlContent": "Les salamandres sont des humanoïdes similaires aux humains, mais dotés de traits reptiliens telles des écailles entre lesquelles on peut y voir brûler des flammes intérieures. Ce sont des élémentaires associés au Feu qu’on retrouve principalement dans les montagnes volcaniques, ce qui leur vaut le surnom de « vulcains ». La majorité peuple une île dans l’océan hyperboréal située entre l’Ouespéro et l’Hyperborée, sur laquelle de nombreux volcans sont actifs. On en retrouve également une poignée dans les quelques volcans de la Sicagie, de l’île de Thýlas (dans la mer Aspidée, en Orris) et des montagnes de Kroumir. Ce sont de talentueux artisans lorsque leur expertise nécessite la manipulation du feu.",
-        "Summary": "\uD83D\uDEA7",
-        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "Les Salamandres sont des humanoïdes élémentaires associés au Feu, reconnaissables à leurs traits reptiliens et aux flammes vacillantes visibles entre leurs écailles. Surnommés «&nbsp;vulcains&nbsp;», ils habitent principalement une île volcanique de la mer Septentrionale, bien que quelques communautés subsistent dans les régions montagneuses et volcaniques de l’Ouespéro. Leur culture valorise la maîtrise de soi, l’intuition et le savoir-faire artisanal, particulièrement lorsque le métal, le verre ou la pierre doivent être façonnés par les flammes. Malgré leur tempérament souvent passionné, ils entretiennent une relation presque spirituelle avec le feu, qu’ils considèrent autant comme une force destructrice qu’une source de vie et de transformation. Leurs cités sont bâties autour des volcans actifs, dont ils interprètent les grondements comme les manifestations d’une puissance ancestrale.",
+        "Summary": "Humanoïdes reptiliens volcaniques liés au Feu et à l’artisanat.",
+        "MetaDescription": "Découvrez les Salamandres, des humanoïdes reptiliens liés au Feu vivant au cœur des volcans et réputés pour leur maîtrise des flammes.",
         "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "NamesText": "\uD83D\uDEA7"
       }
     }
   }
