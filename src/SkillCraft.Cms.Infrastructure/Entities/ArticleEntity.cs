@@ -34,6 +34,7 @@ internal class ArticleEntity : AggregateEntity
   public string? HtmlContent { get; set; }
 
   public ArticleHierarchyEntity? Hierarchy { get; private set; }
+  public List<ArticleMapEntity> Maps { get; private set; } = [];
 
   public ArticleEntity(ContentLocalePublished @event) : base(@event)
   {
@@ -42,6 +43,11 @@ internal class ArticleEntity : AggregateEntity
 
   private ArticleEntity() : base()
   {
+  }
+
+  public void AddMap(MapEntity map)
+  {
+    Maps.Add(new ArticleMapEntity(this, map));
   }
 
   public override IReadOnlyCollection<ActorId> GetActorIds()

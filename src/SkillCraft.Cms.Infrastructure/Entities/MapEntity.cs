@@ -24,6 +24,8 @@ internal class MapEntity : AggregateEntity
   public int Height { get; set; }
   public string Source { get; set; } = string.Empty;
 
+  public List<ArticleMapEntity> Articles { get; private set; } = [];
+
   public MapEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
