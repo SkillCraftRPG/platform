@@ -4,6 +4,7 @@ using Logitar;
 using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Articles.Models;
 using SkillCraft.Cms.Core.Collections.Models;
+using SkillCraft.Cms.Core.Maps.Models;
 using SkillCraft.Cms.Core.Quests.Models;
 using SkillCraft.Cms.Infrastructure.Entities;
 using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggregate;
@@ -63,6 +64,23 @@ internal class EncyclopediaMapper
       Name = source.Name,
       MetaDescription = source.MetaDescription,
       HtmlContent = source.HtmlContent
+    };
+
+    MapAggregate(source, destination);
+
+    return destination;
+  }
+
+  public MapModel ToMap(MapEntity source)
+  {
+    MapModel destination = new()
+    {
+      Id = source.Id,
+      Key = source.Key,
+      Title = source.Title,
+      Width = source.Width,
+      Height = source.Height,
+      Source = source.Source
     };
 
     MapAggregate(source, destination);

@@ -57,5 +57,5 @@ internal class SpellCategoryEntity : AggregateEntity
     IsPublished = false;
   }
 
-  public override string ToString() => $"{Name ?? Key} | {base.ToString()}";
+  public override string ToString() => $"{Name} | {base.ToString()}";
 }

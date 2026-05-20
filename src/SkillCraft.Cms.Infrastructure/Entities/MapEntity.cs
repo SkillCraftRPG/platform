@@ -18,7 +18,7 @@ internal class MapEntity : AggregateEntity
     get => Helper.Normalize(Key);
     private set { }
   }
-  public string? Title { get; set; } = string.Empty;
+  public string Title { get; set; } = string.Empty;
 
   public int Width { get; set; }
   public int Height { get; set; }
@@ -49,5 +49,5 @@ internal class MapEntity : AggregateEntity
     IsPublished = false;
   }
 
-  public override string ToString() => $"{Title ?? Key} | {base.ToString()}";
+  public override string ToString() => $"{Title} | {base.ToString()}";
 }
