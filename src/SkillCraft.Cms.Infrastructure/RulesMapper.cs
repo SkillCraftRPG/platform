@@ -587,15 +587,7 @@ internal class RulesMapper
     destination.Name = source.Name;
     destination.MetaDescription = source.MetaDescription;
     destination.Summary = source.Summary;
-
-    destination.HtmlContent.Overview = source.HtmlContent;
-    destination.HtmlContent.Morphology = source.Morphology;
-    destination.HtmlContent.Psychology = source.Psychology;
-    destination.HtmlContent.Culture = source.Culture;
-    destination.HtmlContent.History = source.History;
-    destination.HtmlContent.Geography = source.Geography;
-    destination.HtmlContent.Politics = source.Politics;
-    destination.HtmlContent.Relations = source.Relations;
+    destination.HtmlContent = source.HtmlContent;
 
     if (source.FamilyNames is not null)
     {
