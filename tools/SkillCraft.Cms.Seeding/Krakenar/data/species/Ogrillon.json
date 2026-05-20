@@ -1,0 +1,37 @@
+﻿{
+  "Id": "c520bf62-53d1-4f49-a017-b3a43c8ad9a1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ogrillon",
+    "DisplayName": "Ogrillon",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"0776d904-3d48-4005-b825-97bccbaa11f4\"]",
+      "ExtraLanguages": "1",
+      "Languages": "[\"61540270-a656-4f7a-a32f-0eaa506e9cf5\"]",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"7eb4bc42-40e8-403e-99fc-e137a825305b\",\"f1ddf2b8-4974-4555-8f3b-9250371efa16\",\"54f06ca9-3079-4278-be28-3d98ec97e9c3\"]",
+      "SizeRoll": "180+3d20",
+      "Weight": "10+1d8,18+1d10,28+1d10,38+1d10,48+1d12",
+      "Age": "6,12,25,50"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ogrillon",
+      "DisplayName": "Ogrillon",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "ogrillon",
+        "MetaDescription": "Découvrez les Ogrillons, de puissants humanoïdes des steppes liés aux bêtes et longtemps exploités par les Orques de la Horde.",
+        "Summary": "Humanoïdes massifs des steppes vivant au rythme de leurs bêtes.",
+        "HtmlContent": "Plus grands et massifs que les [Orques](/regles/especes/orque) dont ils partagent une partie de l’héritage, les Ogrillons sont des humanoïdes robustes des steppes vivant davantage au rythme de leurs bêtes qu’à celui des guerres de la Horde. Longtemps réduits à l’esclavage et employés pour leur force brute, ils ont développé une culture pragmatique centrée sur l’élevage, le dressage et la protection de leurs compagnons animaux. Malgré leur imposante carrure, ils privilégient généralement la patience, l’endurance et la stabilité plutôt que la conquête ou les conflits sanglants. Les autres peuples de la Horde les considèrent souvent comme faibles ou dociles, bien qu’ils demeurent des pisteurs, chasseurs et gardiens particulièrement respectés lorsque leurs talents avec les bêtes deviennent nécessaires.",
+        "LanguagesText": "La plupart des Ogrillons apprennent l’[Orcique](/regles/langues/orcique), les [Orques](/regles/especes/orque) ayant conquis la majorité de leurs kraals.",
+        "NamesText": "Les Ogrillons portent généralement un prénom court, guttural et peu genré, reçu à la naissance, puis un nom d’attache choisi ou reconnu par leur kraal. Cette attache remplace le nom de famille : elle évoque le plus souvent une bête dressée, une lignée de dresseurs, un kraal, ou un exploit pacifique lié à la survie du groupe. Le prestige d’un nom vient moins du sang que du lien entre l’Ogrillon et ses bêtes, un compagnon animal rare, loyal ou difficile à apprivoiser peut valoir plus qu’une victoire militaire. Certains portent donc des noms comme Dugra Griffecorne, Mokun Peau-de-Loup ou Urga du Kraal Sombre. La Horde tend parfois à réduire ces noms à de simples sobriquets, mais les Ogrillons les considèrent comme des marques de confiance, de responsabilité et d’appartenance.",
+        "NamesSelection": "Unisex:Argun,Barga,Dorgo,Dugra,Garan,Joruk,Mokun,Oltag,Torga,Urga"
+      }
+    }
+  }
+}

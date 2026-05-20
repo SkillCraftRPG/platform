@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c4d62e65-4cfd-44a1-b293-23ed6d4450de",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nakkarit_SensibiliteSolaire",
+    "DisplayName": "Sensibilité solaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nakkarit_SensibiliteSolaire",
+      "DisplayName": "Sensibilité solaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [attaque](/regles/combat/attaque) une cible ou tente de [voir](/regles/aventure/environnement/vision) quelque chose situé sous la lumière directe du Soleil, alors son [test](/regles/competences/tests) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

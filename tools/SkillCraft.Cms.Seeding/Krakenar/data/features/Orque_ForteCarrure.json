@@ -1,0 +1,21 @@
+﻿{
+  "Id": "57d3a632-582e-461b-be3a-f73c9feb3fce",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Orque_ForteCarrure",
+    "DisplayName": "Forte carrure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Orque_ForteCarrure",
+      "DisplayName": "Forte carrure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La [taille](/regles/especes/taille) du personnage est considérée d’une catégorie supérieure lorsqu’il porte, lève, pousse ou tire un [poids](/regles/equipement/encombrement). Également, il peut ajouter un bonus égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) à ses [tests](/regles/competences/tests) de [Représentation](/regles/competences/representation) effectués afin d’[intimider](/regles/aventure/interaction-sociale) une autre créature."
+      }
+    }
+  }
+}

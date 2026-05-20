@@ -1,0 +1,37 @@
+﻿{
+  "Id": "0498ecae-f397-476f-9a47-650ba736ca8b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hobgobelin",
+    "DisplayName": "Hobgobelin",
+    "Description": null,
+    "FieldValues": {
+      "Category": "[\"0776d904-3d48-4005-b825-97bccbaa11f4\"]",
+      "Languages": "[\"6381b2c5-f06a-47cf-a1c8-c7efe36bf161\"]",
+      "ExtraLanguages": "1",
+      "Speeds": "Walk:6",
+      "SizeCategory": "[\"Medium\"]",
+      "Features": "[\"9b7ad67b-cda7-4172-97cc-a8134aa2fd9a\",\"e7541f02-e6c2-47c8-b7d5-5cbd64560613\"]",
+      "SizeRoll": "130+3d10",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10",
+      "Age": "6,12,25,50"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hobgobelin",
+      "DisplayName": "Hobgobelin",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "hobgobelin",
+        "MetaDescription": "Découvrez l’espèce Hobgobelin : disciplinée, martiale et issue des plaines de l’Orijìsa centrale, meneuse des armées gobelinoïdes.",
+        "Summary": "Gobelinoïdes disciplinés des steppes, meneurs d’armées.",
+        "HtmlContent": "Plus grands et plus intimidants que les [Gobelins](/regles/especes/gobelin), les Hobgobelins sont des Gobelinoïdes des plaines de l’Orijìsa centrale, issus des mêmes origines que les Gobelins et les [Gobelours](/regles/especes/gobelours). Leur société s’est structurée autour de la guerre, des migrations et de la discipline collective, à la manière de grandes confédérations des steppes où chaque campement peut devenir une garnison. Ils valorisent l’ordre, l’endurance, la loyauté envers la troupe et la capacité d’agir selon un plan commun. Malgré leur réputation sévère, ils conservent une ancienne mémoire de foyers, de serments et de services rendus, où l’utilité prime souvent sur la tendresse. De ce fait, plusieurs commandent ou encadrent les armées gobelinoïdes, imposant rigueur, stratégie et cohésion à des peuples autrement plus turbulents.",
+        "LanguagesText": "La discipline des Hobgobelins leur permet d’apprendre n’importe quelle langue. Ils sont très nombreux à apprendre l’[Orcique](/regles/langues/orcique), langue commune de la Horde, atout incontestable lors des interactions avec les [Orques](/regles/especes/orque).",
+        "NamesText": "Les Hobgobelins portent un prénom aux sonorités dures, plus martial que celui des [Gobelins](/regles/especes/gobelin). Plutôt qu’un nom de famille, ils portent un surnom militaire ou conquérant, souvent gagné par un exploit, une bataille, une manœuvre tactique ou un acte de domination. Ce surnom sert à afficher leur valeur, leur rang ou leur réputation, et les autres espèces l’emploient fréquemment comme s’il s’agissait d’un nom de famille. Il se traduit, par exemple : Brise-Rang, Brûle-Porte, Main-de-Fer, Mange-Bastion, Marche-Cendre, Plie-Légion ou Porte-Étendard.",
+        "NamesSelection": "Family:Altun,Baskir,Demir,Kazgan,Kizrak,Orduk,Sancar,Tarkaz,Temür,Yagmur\nFemale:Akbora,Altazra,Ersena,Karguna,Kutlara,Orzana,Sargana,Togrina,Yaldra,Zultara\nMale:Arslan, Borzak, Ertug, Gazruk, Kartog, Kutgan, Orduz, Targan, Yalbar, Zorghan"
+      }
+    }
+  }
+}

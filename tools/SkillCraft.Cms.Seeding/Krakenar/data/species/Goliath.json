@@ -10,7 +10,10 @@
       "Speeds": "Walk:7,Climb:5",
       "SizeCategory": "[\"Medium\"]",
       "Features": "[\"e2a1462d-4609-46c4-acd0-8be32bb6a7b7\",\"39cbda07-c630-4f9b-85e7-4229060b19e0\"]",
-      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]"
+      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]",
+      "SizeRoll": "180+3d20",
+      "Weight": "10+1d8,18+1d10,28+1d10,38+1d10,48+1d12",
+      "Age": "8,15,30,55"
     }
   },
   "Locales": {
@@ -21,18 +24,12 @@
       "Description": null,
       "FieldValues": {
         "Slug": "goliath",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez l’espèce Goliath : survivants colossaux du Grand Nord, fiers clans d’Ymland marqués par la force, l’endurance et l’hiver.",
+        "Summary": "Petits géants du Grand Nord, fiers, robustes et claniques.",
+        "HtmlContent": "Peuple colossal du Grand Nord, les Goliaths possèdent une carrure de petits géants, une vigueur endurcie par l’hiver et une aisance naturelle dans les falaises, les glaciers et les montagnes. Leur peau, souvent marquée comme la pierre ou mordue par le froid, reflète un mode de vie façonné par la neige, la chasse, les bêtes nordiques et les longues traversées d’Ymland. Axés sur le combat, la survie et l’exploit, ils cherchent moins à dominer qu’à prouver leur valeur par la force, la robustesse et l’endurance physique. Organisés en clans et en grandes maisonnées plutôt qu’en royaumes, ils respectent les chefs dont les exploits parlent plus fort que le sang. Depuis le cataclysme qui frappa leur terre sacrée il y un peu plus de 1 000 ans, leur présence s’est accrue autour de l’Hyperborée et de la mer des Brumes, multipliant les contacts, les rivalités et les conflits.",
+        "LanguagesText": "La langue ancienne des Goliaths ayant disparu, l’[Isillambë](/regles/langues/isillambe), le [Norrien](/regles/langues/norrien) et le [Skame](/regles/langues/skame) sont des langues natales courantes. Certains Goliaths apprennent le [Zurain](/regles/langues/zurain) malgré leurs relations hostiles envers les [Nains blancs](/regles/especes/nain/blanc).",
+        "NamesText": "Les Goliaths portent généralement un prénom, un nom de clan et un surnom gagné au fil de leur vie. Le prénom distingue l’individu, mais c’est rarement lui qui fonde sa réputation. Le surnom rappelle plutôt un exploit, une blessure, une chasse, une victoire ou une caractéristique marquante, comme _Brise-Glace_, _Dos-de-Pierre_ ou _Marche-Blizzard_. Il peut changer si le Goliath accomplit un fait plus digne d’être chanté. Le nom de clan rattache l’individu à une grande maisonnée du Nord, souvent associée à un animal, un sommet, une île, une tempête, une aurore ou une force de l’hiver. Chez les Goliaths, un nom n’est donc pas seulement hérité : il doit être porté avec assez de valeur pour ne pas devenir vide.",
+        "NamesSelection": "Family:Hrukavalo,Ilmankorva,Jääsorri,Korpihalla,Muuravaski,Niskarotu,Raudakuru,Skaldavár,Thulakaar,Vaarnjoki\nFemale:Aika,Brinna,Elska,Halla,Inka,Jorvi,Kaija,Niera,Sarka,Valla\nMale:Arko,Brann,Eirik,Hrold,Jark,Kaarn,Njal,Rauk,Skor,Vaako"
       }
     }
   }

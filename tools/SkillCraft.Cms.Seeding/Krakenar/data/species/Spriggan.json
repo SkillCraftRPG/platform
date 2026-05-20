@@ -11,7 +11,10 @@
       "Features": "[\"005f6f9c-dd27-4334-8ef9-be7d73b29cb6\",\"005e04e3-15ed-483d-b394-79028c52da4e\",\"91a628c8-2d44-4c62-8b52-9829fcd630ef\",\"b20d71ac-e209-4853-840d-b9df6a4f7cfd\"]",
       "Languages": "[\"0858d002-c292-4267-a414-aec6ba429872\"]",
       "Speeds": "Walk:4",
-      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]",
+      "SizeRoll": "90+3d10",
+      "Weight": "10+1d4,14+1d6,20+1d6,26+1d6,32+1d8",
+      "Age": "10,20,40,160"
     }
   },
   "Locales": {
@@ -22,17 +25,12 @@
       "Description": null,
       "FieldValues": {
         "Slug": "spriggan",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez les Spriggans, de petites fées corrompues capables de croître en taille et hantant les ruines oubliées de la Griffe Noire.",
+        "Summary": "Petites fées corruptrices capables de devenir des géants monstrueux.",
+        "HtmlContent": "Petits êtres féeriques issus d’une ancienne lignée [Gnome](/regles/especes/gnome) corrompue, les Spriggans hantent les ruines, les tunnels oubliés et les profondeurs boisées où la lumière pénètre difficilement. Jadis proches de la pierre, des racines et des créatures nocturnes, ils furent transformés par une influence enfouie dans les entrailles de la Griffe Noire, qui déforma leur nature autant que leur corps. Derrière leur allure malingre et leurs airs railleurs se cache une force monstrueuse qu’ils peuvent libérer soudainement, grandissant jusqu’à devenir des prédateurs terrifiants. Fourbes, imprévisibles et fascinés par les lieux anciens, ils entretiennent un rapport ambigu avec les autres peuples, alternant entre farces cruelles, larcins et violence soudaine. Malgré leur corruption, ils conservent des traces de leur héritage féerique et une étrange affinité avec la nuit, les illusions et le monde sauvage.",
+        "NamesText": "Leurs prénoms sont anciens, secrets et rarement révélés aux étrangers. Leurs noms ont des racines anciennes et lointaines, et possèdent des sonorités étranges déformées par des siècles passés dans les profondeurs. Un Spriggan utilise plutôt un surnom moqueur ou inquiétant dans la vie quotidienne, souvent lié aux racines, aux ruines, aux champignons, aux bêtes nocturnes ou aux tunnels qu’il fréquente. À cela s’ajoute un titre évoquant un lieu ancien (tumulus, galerie oubliée, caveau effondré ou trésor enfoui) qui remplace le nom de famille. Connaître le véritable prénom d’un Spriggan est considéré comme dangereux, car les fées accordent un pouvoir particulier aux noms authentiques et aux secrets anciens. Exemples : Avel Croc-de-Mousse du Tumulus Creux, Morvran Trois-Os des Galeries Effondrées, Keryn Siffle-Racine du Caveau Noir.",
+        "NamesSelection": "Unisex:Avel,Beloric,Brannoc,Drustan,Keryn,Maelor,Morvran,Nevrek,Talan,Veylen",
+        "LanguagesText": "Certains Spriggans apprennent le [Dallois](/regles/langues/dallois) afin de communiquer avec leurs voisins."
       }
     }
   }

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "54f06ca9-3079-4278-be28-3d98ec97e9c3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ogrillon_AmiDesBetes",
+    "DisplayName": "Ami des bêtes",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ogrillon_AmiDesBetes",
+      "DisplayName": "Ami des bêtes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [acquiert](/regles/talents/acquisition) le talent [Survie](/regles/talents/survie), alors il acquiert également gratuitement le talent [Dressage](/regles/talents/dressage).\n\nIl peut également communiquer des idées simples aux bêtes, mais il ne peut les comprendre en retour. Toutefois, il se voit conférer un bonus égal à son [tiers](/regles/personnages/progression/tiers) à ses [tests](/regles/competences/tests) de [Survie](/regles/competences/survie) effectués afin d’apprivoiser, de calmer, de dresser, d’[influencer](/regles/aventure/interaction-sociale) (taille [Grande](/regles/especes/taille) ou inférieure), de [soigner](/regles/combat/degats/soins) ou de [stabiliser](/regles/combat/activites/stabiliser) une bête.\n\nEnfin, lorsqu’il [attaque](/regles/combat/attaque) une créature alors qu’une bête qu’il a [dressé](/regles/talents/dressage) se trouve à 1,5 mètres ou moins de la position de cette créature et que cette bête n’est pas [incapable](/regles/combat/conditions/incapable), il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests), et inflige un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal à son [tiers](/regles/personnages/progression/tiers). Une bête qu’il a dressé bénéficie également de ces capacités si elle attaque une créature alors que le personnage se trouve à 1,5 mètres ou moins de la position de cette créature et qu’il n’est pas incapable."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "f1ddf2b8-4974-4555-8f3b-9250371efa16",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ogrillon_ForteCarrure",
+    "DisplayName": "Forte carrure",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ogrillon_ForteCarrure",
+      "DisplayName": "Forte carrure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La [taille](/regles/especes/taille) du personnage est considérée d’une catégorie supérieure lorsqu’il porte, lève, pousse ou tire un [poids](/regles/equipement/encombrement)."
+      }
+    }
+  }
+}

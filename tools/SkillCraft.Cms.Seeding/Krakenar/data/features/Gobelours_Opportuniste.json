@@ -1,0 +1,21 @@
+﻿{
+  "Id": "2e2f7733-0885-4586-b71a-40e8325a42f3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gobelours_Opportuniste",
+    "DisplayName": "Opportuniste",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gobelours_Opportuniste",
+      "DisplayName": "Opportuniste",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage réussit une [attaque](/regles/combat/attaque) dirigée contre une créature [prise au dépourvu](/regles/combat/deroulement/depourvu), il inflige un nombre de [d6](/regles/combat/degats/jet) de [points de dégâts](/regles/combat/degats) supplémentaires égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1). Il peut également [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Furtivité](/regles/talents/furtivite), et il peut traverser et s’arrêter dans un espace exigu conçu pour une créature de taille [Petite](/regles/especes/taille) ou moindre sans pénalité à sa [vitesse](/regles/aventure/mouvement/vitesse)."
+      }
+    }
+  }
+}

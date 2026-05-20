@@ -11,7 +11,10 @@
       "ExtraLanguages": "1",
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
-      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]",
+      "SizeRoll": "130+3d20",
+      "Weight": "9+1d3,12+1d4,16+1d6,22+1d6,28+1d8",
+      "Age": "30,100,275,750"
     }
   },
   "Locales": {
@@ -22,17 +25,12 @@
       "Description": null,
       "FieldValues": {
         "Slug": "nemedien",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez les Nemediens, des elfes transformés par les forces féériques d’Avalon et liés aux émotions, aux saisons et au surnaturel.",
+        "Summary": "Elfes féériques d’Avalon liés aux saisons et au surnaturel.",
+        "HtmlContent": "Nés des anciens peuples elfiques ayant quitté les royaumes mortels afin de s’établir sur l’île mystique d’Avalon, les Nemediens furent lentement transformés par une puissante entité liée aux forces naturelles et féériques. Leur corps et leur esprit portent désormais l’empreinte du surnaturel, ce qui les rapproche davantage des fées que des elfes dont ils descendent. Connus pour leurs émotions changeantes, leur grâce irréelle et leur étrange lucidité, ils perçoivent le monde à travers les flux invisibles de la magie et des saisons. Leur société valorise l’art, les songes, la contemplation et la liberté individuelle, mais plusieurs Nemediens demeurent imprévisibles, détachés des préoccupations matérielles ou incapables de s’adapter aux sociétés plus rigides du monde mortel. Bien qu’ils entretiennent encore des liens culturels avec les peuples sylvestres, ils sont souvent considérés comme des êtres inquiétants, trop proches des puissances féériques d’Avalon.",
+        "NamesText": "Les Nemediens conservent l’usage elfique du prénom et du nom de famille, mais leur rapport aux noms s’est profondément transformé depuis leur passage sur Avalon. Le prénom, formé de sonorités sylvestres, demeure souvent intime, presque secret, car plusieurs traditions féériques enseignent que connaître le véritable nom d’un être permet d’exercer une emprise sur lui. De ce fait, les Nemediens utilisent surtout un surnom d’usage, parfois changeant, lié à une saison, une humeur, une couleur, un songe ou un phénomène naturel. Un Nemedien peut ainsi se présenter sous un surnom comme Brume, Feuille-Rousse, Givreclair, Ronce-Rieuse ou Songe-d’Été, plutôt que d’employer son véritable prénom hors du cercle intime. Leur nom de famille, quant à lui, porte davantage l’influence d’Avalon : il évoque les cours saisonnières, les clairières enchantées, les serments anciens ou les lignées altérées par la magie.",
+        "NamesSelection": "Family:Ambrerive,Brumefeuille,Clairéquinoxe,Courtelune,Givreflor,Lysdavalon,Roncesonge,Sèveaurore,Sylveronce,Vesprefeu\nFemale:Aalindel,Breeshaël,Ceanwen,Ealathiel,Fenelriel,Ishaleth,Kirawen,Moirelith,Nialenna,Voiralith\nMale:Aeljuan,Caelphan,Donaleth,Eanvaril,Fergalor,Illiandor,Jorhael,Maelion,Pherindel,Tarian",
+        "LanguagesText": "Beaucoup de Nemediens apprennent le [Celfique](/regles/langues/celfique) afin de communiquer avec leurs voisins."
       }
     }
   }

@@ -20,16 +20,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "cramoisi",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Les elfes cramoisis partagent leurs origines avec les Haut-Elfes. Ils préfèrent également la civilisation aux milieux sauvages. La séparation entre ces peuples est le résultat d’un important conflit géopolitique les opposant. Ils portent ce nom en raison de la couleur principale de leurs vêtements et de leurs étendards. Leurs yeux portent également des cernes de cette couleur, cernes causés par leur utilisation continue de magie ésotérique et inhabituelle.",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez l’espèce Elfe cramoisi : peuple urbain et magique, marqué par un schisme elfique et par l’usage d’énergies ésotériques.",
+        "Summary": "Peuple elfique urbain marqué par la magie ésotérique.",
+        "HtmlContent": "Issus du même schisme que les [Haut-Elfes](/regles/especes/elfe/haut) et les [Elfes des mers](/regles/especes/elfe/mers), les Elfes cramoisis forment un peuple urbain, raffiné et profondément marqué par la magie. Leur rupture avec leurs cousins découle d’un conflit géopolitique dont les rancunes façonnent encore leurs alliances, leurs frontières et leur mémoire collective. Vêtus de rouge et rassemblés sous des étendards cramoisis, ils affichent leur identité comme un serment politique autant qu’un héritage culturel. Leur usage continu d’une magie ésotérique et inhabituelle a marqué leurs yeux de cernes rouges, signe visible d’une affinité occulte qu’ils cultivent avec discipline. Fiers, instruits et parfois inquiétants, ils préfèrent les bibliothèques, les académies et les cités aux forêts sauvages, là où le savoir peut être accumulé, contrôlé et transmis.",
         "NamesSelection": "Family:Adlegor,Charimon,Galanodel,Kaendere,Liadon,Morwen,Nodir,Raelden,Sonomir,Talath\nFemale:Althaea,Ceanoise,Elenna,Leshanna,Magilin,Naeva,Onoraid,Sariel,Tibenna,Valanthe\nMale:Aelar,Berrian,Erevan,Feirion,Hononn,Ivellios,Kaimear,Peren,Saemainn,Therion"
       }
     }

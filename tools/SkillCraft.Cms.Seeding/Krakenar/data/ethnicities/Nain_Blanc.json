@@ -20,16 +20,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "blanc",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Les nains blancs et les nains gris partagent leurs origines. Ces deux peuples se sont étendus dans les collines et prairies marécageuses du Nord depuis les chaudes chaînes de montagnes du Sud. Alors que les nains gris se sont répandus dans les plaines tempérées de l’Ouespéro, les nains blancs résident dans les montagnes glaciales de l’extrême-Nord du continent. Le climat extrêmement hostile de leur habitat exige d’eux qu’ils maîtrisent toutes les facettes de leur existence. Ils s’aventurent rarement à l’extérieur de ces montagnes, mais lorsqu’ils le font, ils apprécient la simplicité et facilité du mode de vie des autres peuples, s’en moquant même parfois.",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez l’ethnie Nain blanc : peuple nain du Nord glacial, austère, endurant et façonné par un climat extrême.",
+        "Summary": "Peuple nain du Nord glacial, austère et endurant.",
+        "HtmlContent": "Parents des [Nains gris](/regles/especes/nain/gris), les Nains blancs descendent des peuples nains qui quittèrent les chaudes chaînes du Sud pour s’étendre vers les collines, les marais et, enfin, les montagnes glaciales de l’extrême-Nord. Leur peau claire, leur carrure dense et leurs traits burinés reflètent une vie où le froid, la rareté et l’isolement ne pardonnent aucune négligence. Ils valorisent la maîtrise de soi, l’endurance, les serments gravés dans la pierre et les armes portées au nom des ancêtres. Rarement présents chez les autres peuples, ils observent leurs conforts avec curiosité, parfois avec mépris, convaincus que la facilité affaiblit plus sûrement qu’un hiver sans fin.",
         "NamesSelection": "Family:Dumagis,Lahkunen,Myaliken,Palovion,Rankas,Saarizen,Sfertnmis,Toivolnen,Torhtien,Vorlaine\nFemale:Ailogri,Aldeaja,Danauha,Hellimoma,Kafanni,Mernulyn,Nelahvete,Odeevin,Paivana,Thorirja\nMale:Brokinto,Broshaini,Egvari,Jarigo,Kulevar,Otsomin,Reini,Tampio,Uvoitto,Zulos"
       }
     }

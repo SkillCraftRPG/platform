@@ -1,0 +1,21 @@
+﻿{
+  "Id": "379bf1c1-854a-46a8-84ba-0290dd6b210d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Nakkarit_PhysiologieOphidienne",
+    "DisplayName": "Physiologie ophidienne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Nakkarit_PhysiologieOphidienne",
+      "DisplayName": "Physiologie ophidienne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est doté d’un imposant corps serpentin et d’une redoutable mâchoire.\n\n- Sa [vitesse](/regles/aventure/mouvement/vitesse) augmente à 6 points de mouvement (9 mètres par seconde) lorsqu’il se déplace en [rampant](/regles/aventure/mouvement/types), et [se relever](/regles/aventure/mouvement/types) ne lui coûte qu’un seul point de mouvement. S’il acquiert le talent [Acrobaties](/regles/talents/acrobaties), alors il peut se relever en [action libre](/regles/combat/deroulement/tour).\n- Il peut effectuer une morsure ([attaque de mêlée](/regles/combat/attaque/melee)) par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types). La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test du personnage. En cas d’échec, celle-ci reçoit un [nombre de d6](/regles/combat/degats/jet) de [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) supplémentaires égal au [tiers](/regles/personnages/progression/tiers) du personnage (minimum&nbsp;1).\n- Il peut frapper une créature avec son corps ([attaque de mêlée](/regles/combat/attaque/melee)) par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [contondants](/regles/combat/degats/types). Il peut ensuite s’enrouler autour de la créature afin de tenter de l’[agripper](/regles/combat/activites/agripper). Il peut s’enrouler par une [action](/regles/combat/deroulement/tour) et effectuer un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme), ou en [action libre](/regles/combat/deroulement/tour) et réutiliser le résultat des [dés](/regles/competences/tests/2d10) pour le [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme).\n- Il est [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types), et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) contre les effets d’[empoisonnement](/regles/combat/conditions/empoisonne).\n\nIl peut également [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Médecine](/regles/talents/medecine)."
+      }
+    }
+  }
+}

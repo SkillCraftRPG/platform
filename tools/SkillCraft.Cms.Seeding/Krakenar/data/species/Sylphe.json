@@ -10,7 +10,10 @@
       "Speeds": "Walk:2,Fly:6",
       "SizeCategory": "[\"Tiny\"]",
       "Features": "[\"eb9efbf8-0073-4cb2-a092-60d5c2a77733\",\"0a8cb37d-bab7-4bb2-8fd7-77de8bace4d7\"]",
-      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]",
+      "Age": "10,20,40,160",
+      "SizeRoll": "60+2d10",
+      "Weight": "10+1d4,14+1d6,20+1d6,26+1d6,32+1d8"
     }
   },
   "Locales": {
@@ -20,19 +23,13 @@
       "DisplayName": "Sylphe",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Les sylphes sont des humanoïdes similaires aux humains, mais dotés de caractéristiques féériques, telles des ailes de papillon, une peau scintillante et multicolore, et une odeur naturelle similaire rappelant la pluie ou la rosée du matin. Ce sont des élémentaires associés à l’Air qu’on peut retrouver dans des forêts d’arbres anciens. Les sylphes sont des êtres gracieux, se manœuvrant avec allégresse dans les vents, et sont dotés de magie leur permettant d’interagir avec la nature.",
+        "HtmlContent": "Les Sylphes sont de minuscules élémentaires de l’Air, reconnaissables à leurs ailes de papillon, à leur peau scintillante et multicolore, ainsi qu’à leur parfum naturel de pluie ou de rosée matinale. Ils habitent surtout les forêts d’arbres anciens, où les vents, les feuillages et les clairières élevées leur offrent autant de refuges que de voies de passage. Gracieux et vifs, ils se déplacent avec une légèreté presque insaisissable, préférant l’élan, la danse et l’intuition aux gestes pesants. Leur magie les lie intimement à la nature, qu’ils protègent moins par conquête que par harmonie, ruse et vigilance. Malgré leur apparence délicate, ils incarnent une liberté farouche et une présence difficile à ignorer.",
         "Slug": "sylphe",
-        "Summary": "\uD83D\uDEA7",
-        "MetaDescription": "\uD83D\uDEA7",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7"
+        "Summary": "Minuscules élémentaires de l’Air, féériques et virevoltants.",
+        "MetaDescription": "Découvrez l’espèce Sylphe : de minuscules élémentaires de l’Air, féériques, gracieux et liés aux forêts anciennes.",
+        "LanguagesText": "Les langues natales des Sylphes sont l’[Austrigond](/regles/langues/austrigond), le [Celfique](/regles/langues/celfique) et le [Wisgorne](/regles/langues/wisgorne). Le [Harsème](/regles/langues/harseme) et le [Sylvestre](/regles/langues/sylvestre) sont des langues secondes plausibles.",
+        "NamesText": "Les Sylphes portent généralement un prénom léger et mélodieux, choisi pour évoquer les vents, les brises, les nuages, les hauteurs boisées ou les anciens esprits de l’air. Entre eux, ce prénom suffit souvent à les distinguer, car leur identité se transmet moins par une lignée fixe que par les clairières, les bourrasques et les communautés aériennes auxquelles ils appartiennent. Ceux qui grandissent parmi un autre peuple peuvent toutefois adopter un nom de famille emprunté, surtout lorsque les coutumes locales l’exigent. De la même manière, certains Sylphes reçoivent un prénom étranger, mais conservent alors souvent un surnom lié à leur origine élémentaire, comme Brise-d’Aube, Aile-de-Rosée ou Voix-du-Mistral, afin que leur nature aérienne demeure visible.",
+        "NamesSelection": "Female:Aurelia,Briselle,Caelina,Eirwena,Favonia,Liorane,Mistralia,Orvielle,Südelia,Veyrina\nMale:Aurelian,Bisehart,Caelric,Föhnar,Lioran,Maëstral,Orvian,Süderic,Veyron,Zevarin"
       }
     }
   }

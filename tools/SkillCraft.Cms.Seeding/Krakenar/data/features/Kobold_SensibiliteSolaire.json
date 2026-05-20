@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6d624751-7ba5-4d9f-94b6-c1fbb77fc84e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Kobold_SensibiliteSolaire",
+    "DisplayName": "Sensibilité solaire",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Kobold_SensibiliteSolaire",
+      "DisplayName": "Sensibilité solaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [attaque](/regles/combat/attaque) une cible ou tente de [voir](/regles/aventure/environnement/vision) quelque chose situé sous la lumière directe du Soleil, alors son [test](/regles/competences/tests) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

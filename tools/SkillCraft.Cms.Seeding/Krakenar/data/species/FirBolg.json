@@ -11,7 +11,10 @@
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
       "Features": "[\"4e0808a6-6564-4c89-87ef-7330d6594276\",\"53eae48b-7598-493b-9a32-8e9ac54fe377\",\"564fa4f8-8309-4672-adcd-484959cdd1da\",\"c380c5a2-f83e-4c30-b1ff-7d45c806c2b7\"]",
-      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]"
+      "Category": "[\"332d7d44-b9f7-4c4b-a6d3-9f117fc15a3d\"]",
+      "Weight": "22+1d4,26+1d6,32+1d8,40+1d8,48+1d10",
+      "Age": "10,20,40,160",
+      "SizeRoll": "120+3d10"
     }
   },
   "Locales": {
@@ -22,17 +25,12 @@
       "Description": null,
       "FieldValues": {
         "Slug": "fir-bolg",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "Relations": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez les Fir Bolg, un peuple féerique puissant et insaisissable vivant dans les régions sauvages d’Ouespéro.",
+        "Summary": "Peuple féerique discret des terres sauvages et des forêts brumeuses.",
+        "HtmlContent": "Mystérieux et difficiles à cerner, les Fir Bolg vivent à l’écart des grands royaumes dans les forêts profondes, les collines brumeuses et les montagnes sauvages. Ces humanoïdes féeriques possèdent une stature imposante et une force remarquable, mais privilégient la discrétion, la ruse et l’harmonie avec la nature plutôt que la domination ouverte. Leur peuple entretient une relation particulière avec les bêtes et les anciennes traditions sylvaines, héritées des premiers peuples elfes. Capables de brouiller leur apparence et d’échapper aux regards surnaturels, ils inspirent autant la curiosité que la méfiance auprès des autres espèces. Les Fir Bolg évitent généralement les conflits directs, mais défendent farouchement leurs terres et leurs secrets lorsque ceux-ci sont menacés.",
+        "NamesText": "Les Fir Bolg portent un prénom unisexe, suivi d’un surnom mérité et d’une attache de lieu plutôt qu’un nom de famille. Ainsi, Afon Marche-Brume des Hautes-Ronces, Celyn Main-de-Pierre du Val-Mousseux ou Bran Voix-Creuse de la Pierre Dormante indiquent autant leur tempérament que leur territoire d’origine.",
+        "NamesSelection": "Unisex:Afon,Bran,Celyn,Derwen,Edern,Eilir,Gwynn,Mael,Ninian,Talor",
+        "LanguagesText": "Beaucoup de Fir Bolg apprennent le [Celfique](/regles/langues/celfique) afin de communiquer avec leurs voisins."
       }
     }
   }

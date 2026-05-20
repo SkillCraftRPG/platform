@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6bb9c632-c7e3-4e90-9622-639cfbf6fb38",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Kobold_VisionNocturne",
+    "DisplayName": "Vision nocturne",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Kobold_VisionNocturne",
+      "DisplayName": "Vision nocturne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert une [vision dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres."
+      }
+    }
+  }
+}

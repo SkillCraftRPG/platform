@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e7541f02-e6c2-47c8-b7d5-5cbd64560613",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hobgobelin_RigueurMartiale",
+    "DisplayName": "Rigueur martiale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hobgobelin_RigueurMartiale",
+      "DisplayName": "Rigueur martiale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) le talent [Discipline](/regles/talents/discipline). Il peut également ajouter son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets et [pouvoirs](/regles/magie/pouvoirs) le [charmant](/regles/combat/conditions/charme) ou le contraignant à agir d’une certaine manière.\n\nLorsqu’il réussit une [attaque](/regles/combat/attaque), il peut infliger un nombre de [points de dégâts](/regles/combat/degats) supplémentaires égal au nombre de créatures alliées (maximum&nbsp;5) qu’il peut voir en dépensant un nombre égal de points d’[Énergie](/regles/statistiques/energie).\n\nEnfin, lorsqu’il échoue un [test](/regles/competences/tests), il peut se conférer un bonus égal au nombre de créatures alliées (maximum&nbsp;5) qu’il peut [voir](/regles/aventure/environnement/vision) situées à 9 mètres ou moins de sa position. Il doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

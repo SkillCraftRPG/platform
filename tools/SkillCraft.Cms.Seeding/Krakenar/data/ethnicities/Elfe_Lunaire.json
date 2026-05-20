@@ -20,16 +20,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "lunaire",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7Les elfes lunaires sont restés fidèles à leurs antiques coutumes et traditions, vouant un culte à la Lune, et étant principalement actifs la nuit. En Ouespéro, c’est le peuple d’elfes le plus conservateur et se rapprochant le plus de la branche commune d’où tous les peuples elfiques sont issus. On raconte qu’ils tirent des pouvoirs du clair de lune. On les décrit comme étant d’une grande beauté et de grande taille. Leurs yeux sont clairs et argentés, leur teint est doux et bleuté ou violacé, et leurs cheveux arborent des teintes de gris profond, de bleu intense ou de violet sombre.",
-        "Relations": "\uD83D\uDEA7",
-        "Politics": "\uD83D\uDEA7",
-        "Geography": "\uD83D\uDEA7",
-        "History": "\uD83D\uDEA7",
-        "Culture": "\uD83D\uDEA7",
-        "Psychology": "\uD83D\uDEA7",
-        "Morphology": "\uD83D\uDEA7",
+        "MetaDescription": "Découvrez les elfes lunaires : un peuple nocturne d’Ouespéro, fidèle aux anciens rites elfiques et voué au clair de lune.",
+        "Summary": "Peuple elfique nocturne, conservateur et voué à la Lune.",
+        "HtmlContent": "Peuple nocturne et conservateur, les Elfes lunaires préservent les coutumes les plus anciennes des lignées elfiques. Voués à la Lune et aux cycles du ciel, ils vivent au rythme des nuits claires, des rites silencieux et de l’[Isillambë](/regles/langues/isillambe), langue sacrée de leur tradition. Leur grande taille, leurs yeux argentés, leur teint bleuté ou violacé et leurs cheveux sombres leur confèrent une beauté froide, presque irréelle. On dit qu’ils tirent force et inspiration du clair de lune, ce qui nourrit autant leur prestige que les superstitions à leur sujet. Fiers de leur héritage, ils se montrent prudents devant les changements brusques, mais peuvent devenir de précieux gardiens, devins ou émissaires lorsque leur peuple accepte de sortir de l’ombre.",
         "NamesSelection": "Family:Aderthal,Aranwion,Celebrindar,Chithlum,Fellagon,Galagil,Gilthonië,Imglorion,Kementari,Täinamoinen\nFemale:Amra,Elë,Eärendel,Findis,Indis,Irimë,Miriel,Nardenel,Nessa,Sidril\nMale:Charantir,Faënor,Finrolfin,Finuë,Gildor,Maedhros,Magelor,Selegorm,Tirgon,Tuorfin"
       }
     }

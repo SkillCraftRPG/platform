@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0d8fc12a-3321-4ca6-857b-8d1dbd61f393",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Kobold_AptitudesDraconiques",
+    "DisplayName": "Aptitudes draconiques",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Kobold_AptitudesDraconiques",
+      "DisplayName": "Aptitudes draconiques",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) [à rabais](/regles/talents/points) deux talents parmi la liste suivante : [Artisanat](/regles/talents/artisanat), [Connaissance](/regles/talents/connaissance), [Linguistique](/regles/talents/linguistique), [Roublardise](/regles/talents/roublardise) et [Tromperie](/regles/talents/tromperie). Également, lorsqu’il acquiert le talent [Occultisme](/regles/talents/occultisme), alors il acquiert également gratuitement le talent [Bricolage magique](/regles/talents/bricolage-magique)."
+      }
+    }
+  }
+}

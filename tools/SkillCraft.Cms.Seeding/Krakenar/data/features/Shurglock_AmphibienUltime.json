@@ -1,0 +1,21 @@
+﻿{
+  "Id": "69f491c3-2ed9-40f4-bdb5-0a17a473a619",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Shurglock_AmphibienUltime",
+    "DisplayName": "Amphibien ultime",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Shurglock_AmphibienUltime",
+      "DisplayName": "Amphibien ultime",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage est une [créature aquatique](/regles/combat/sous-eau) et il peut respirer [sous l’eau](/regles/aventure/environnement/suffocation). Il peut également communiquer des idées simples aux amphibiens, mais il ne peut les comprendre en retour. Toutefois, lorsqu’il tente d’[influencer](/regles/aventure/interaction-sociale) un amphibien de taille [Petite](/regles/especes/taille) ou inférieure, il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son [test](/regles/competences/tests).\n\nRésultat de millénaires d’évolution, il est doté des caractéristiques suivantes :\n\n- Il est doté de dents acérées. Il peut effectuer une morsure ([attaque de mêlée](/regles/combat/attaque/melee)) par un [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) afin d’infliger [1d6](/regles/combat/degats/jet) + [Force](/regles/statistiques/force) [points de dégâts](/regles/combat/degats) [létaux](/regles/combat/degats/letalite) [perforants](/regles/combat/degats/types).\n- La distance maximale de ses [sauts](/regles/aventure/mouvement/types) en hauteur et en longueur est doublée, et la distance de son élan est réduite à 1,5 mètres. S’il acquiert le talent [Athlétisme](/regles/talents/athletisme), alors il n’a plus besoin de prendre d’élan avant de sauter afin de maximiser la distance de ses sauts.\n- Sa peau visqueuse et caoutchouteuse lui confère la [résistance](/regles/combat/degats/efficacite) contre les [dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) et de [foudre](/regles/combat/degats/types)."
+      }
+    }
+  }
+}
