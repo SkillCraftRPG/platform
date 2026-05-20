@@ -1,0 +1,23 @@
+﻿{
+  "Id": "753f58bf-8ab1-4afe-92d8-e36d5409a3fd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "regions",
+    "DisplayName": "Régions",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "regions",
+      "DisplayName": "Régions",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "regions"
+      }
+    }
+  }
+}

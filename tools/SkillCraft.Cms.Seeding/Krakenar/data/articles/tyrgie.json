@@ -6,7 +6,8 @@
     "DisplayName": "Tyrgie",
     "Description": null,
     "FieldValues": {
-      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]"
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
+      "Parent": "[\"3444c230-db68-4ad9-957c-c15246cbddd2\"]"
     }
   },
   "Locales": {
