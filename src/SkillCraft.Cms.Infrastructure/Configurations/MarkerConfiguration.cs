@@ -18,12 +18,16 @@ internal class MarkerConfiguration : AggregateConfiguration<MarkerEntity>, IEnti
     builder.HasIndex(x => x.Id).IsUnique();
     builder.HasIndex(x => x.IsPublished);
     builder.HasIndex(x => x.Key);
+    builder.HasIndex(x => x.KeyNormalized).IsUnique();
     builder.HasIndex(x => x.Title);
     builder.HasIndex(x => x.MapId);
     builder.HasIndex(x => x.MapUid);
     builder.HasIndex(x => x.X);
     builder.HasIndex(x => x.Y);
 
+
+    builder.Property(x => x.Key).HasMaxLength(UniqueName.MaximumLength);
+    builder.Property(x => x.KeyNormalized).HasMaxLength(UniqueName.MaximumLength);
     builder.Property(x => x.Title).HasMaxLength(DisplayName.MaximumLength);
 
     builder.HasOne(x => x.Map).WithMany(x => x.Markers).OnDelete(DeleteBehavior.Restrict);
