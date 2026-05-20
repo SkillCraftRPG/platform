@@ -5,9 +5,9 @@ using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggrega
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class SpeciesCategoryEntity : AggregateEntity
+internal class MapEntity : AggregateEntity
 {
-  public int SpeciesCategoryId { get; private set; }
+  public int MapId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -18,21 +18,21 @@ internal class SpeciesCategoryEntity : AggregateEntity
     get => Helper.Normalize(Key);
     private set { }
   }
-  public string Name { get; set; } = string.Empty;
+  public string Title { get; set; } = string.Empty;
 
-  public int Order { get; set; }
-  public int Columns { get; set; }
+  public int Width { get; set; }
+  public int Height { get; set; }
+  public string Source { get; set; } = string.Empty;
 
-  public string? HtmlContent { get; set; }
+  public List<ArticleMapEntity> Articles { get; private set; } = [];
+  public List<MarkerEntity> Markers { get; private set; } = [];
 
-  public List<LineageEntity> Lineages { get; private set; } = [];
-
-  public SpeciesCategoryEntity(ContentLocalePublished @event) : base(@event)
+  public MapEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private SpeciesCategoryEntity() : base()
+  private MapEntity() : base()
   {
   }
 
@@ -50,5 +50,5 @@ internal class SpeciesCategoryEntity : AggregateEntity
     IsPublished = false;
   }
 
-  public override string ToString() => $"{Name} | {base.ToString()}";
+  public override string ToString() => $"{Title} | {base.ToString()}";
 }

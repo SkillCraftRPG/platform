@@ -13,7 +13,10 @@ public class EncyclopediaContext : DbContext
 
   internal DbSet<ArticleEntity> Articles => Set<ArticleEntity>();
   internal DbSet<ArticleHierarchyEntity> ArticleHierarchy => Set<ArticleHierarchyEntity>();
+  internal DbSet<ArticleMapEntity> ArticleMaps => Set<ArticleMapEntity>();
   internal DbSet<CollectionEntity> Collections => Set<CollectionEntity>();
+  internal DbSet<MapEntity> Maps => Set<MapEntity>();
+  internal DbSet<MarkerEntity> Markers => Set<MarkerEntity>();
   internal DbSet<QuestEntity> Quests => Set<QuestEntity>();
   internal DbSet<QuestGroupEntity> QuestGroups => Set<QuestGroupEntity>();
   internal DbSet<QuestLogEntity> QuestLogs => Set<QuestLogEntity>();

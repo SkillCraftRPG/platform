@@ -209,6 +209,48 @@
     }
   },
   {
+    "Id": "ada25faf-7cef-4e1a-9447-892fc980ba89",
+    "UniqueName": "Map",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "375f69e0-21c0-403c-9f81-f6273d629a59",
+      "IsMultiple": false
+    }
+  },
+  {
+    "Id": "582a70df-fb2c-428a-98f9-f349f2e3c0a0",
+    "UniqueName": "MapDimension",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": 1,
+      "MaximumValue": null,
+      "Step": 1
+    }
+  },
+  {
+    "Id": "5c4df145-1848-402e-897b-cfd8fd23a79e",
+    "UniqueName": "Maps",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "375f69e0-21c0-403c-9f81-f6273d629a59",
+      "IsMultiple": true
+    }
+  },
+  {
+    "Id": "13817865-d55d-4cc9-ba9b-467714b7b5b9",
+    "UniqueName": "MarkerCoordinate",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": null,
+      "MaximumValue": null,
+      "Step": 1
+    }
+  },
+  {
     "Id": "74e3a033-4c7f-471a-b8f9-90591792403a",
     "UniqueName": "MetaDescription",
     "DisplayName": null,
@@ -555,6 +597,17 @@
           "Value": "Year"
         }
       ]
+    }
+  },
+  {
+    "Id": "c205e4e6-234d-4021-91cd-196e8fdb8cf3",
+    "UniqueName": "Url",
+    "DisplayName": null,
+    "Description": null,
+    "String": {
+      "MinimumLength": null,
+      "MaximumLength": 2048,
+      "Pattern": "^https?:\\/\\/[^\\s/$.?#].[^\\s]*$"
     }
   },
   {

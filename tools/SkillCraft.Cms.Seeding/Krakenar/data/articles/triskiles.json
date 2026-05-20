@@ -1,0 +1,26 @@
+﻿{
+  "Id": "0e138382-e101-42e8-b5a3-45589347cf60",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "triskiles",
+    "DisplayName": "Triskîles",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
+      "Parent": "[\"753f58bf-8ab1-4afe-92d8-e36d5409a3fd\"]",
+      "Maps": "[\"20bdbc13-bf9d-4f17-88dc-1e2b86dff8cd\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "triskiles",
+      "DisplayName": "Triskîles",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "triskiles",
+        "HtmlContent": "Les Triskîles forment un archipel du Nord-Ouest de l’[Ouespéro](/regions/ouespero), à la lisière de la péninsule continentale de la [Griffe Noire](#) et des mers froides.\n\nL’archipel est bordé au Nord par la [mer des Brumes](#), à l’Est par la [mer Septentrionale](#), et au Sud comme à l’Ouest par l’[océan Illuntique](#). On dit qu’il baigne également dans la [mer&nbsp;Celfique](#). Situé à l’extrémité la plus occidentale du continent, l’archipel est traditionnellement associé au couchant, aux brumes et aux royaumes [Celfiques](#).\n\n### Définition\n\nL’archipel comprend traditionnellement :\n\n- L’île d’[Alnar](#)\n- L’île d’[Avalon](#)\n- L’île d’[Eilân fan Wight](#)\n- L’île d’[Ellesdales](#)\n- L’île d’[Ynys-fând](#)\n- L’île de [Milande](#)\n- L’archipel des [Selchrades](#)\n\n### Étymologie\n\nLe nom _Triskîles_ renvoie à la fois aux trois grandes îles de l’archipel, Alnar, Ellesdales et Milande, ainsi qu’au [triskèle](#), symbole majeur des Celfes. Selon la tradition, la disposition de ces trois masses terrestres évoque les trois branches de ce signe ancien, ce qui aurait donné son nom à l’ensemble."
+      }
+    }
+  }
+}

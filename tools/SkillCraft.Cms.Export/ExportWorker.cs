@@ -59,6 +59,8 @@ internal class ExportWorker : BackgroundService
       await ExecuteAsync(new ExportContentsTask(QuestLogDefinition.ContentTypeId, "output/data/quests/logs"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(QuestGroupDefinition.ContentTypeId, "output/data/quests/groups"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(QuestDefinition.ContentTypeId, "output/data/quests"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(MapDefinition.ContentTypeId, "output/data/maps"), cancellationToken);
+      await ExecuteAsync(new ExportContentsTask(MarkerDefinition.ContentTypeId, "output/data/maps/markers"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(CollectionDefinition.ContentTypeId, "output/data/collections"), cancellationToken);
       await ExecuteAsync(new ExportContentsTask(ArticleDefinition.ContentTypeId, "output/data/articles"), cancellationToken);
     }

@@ -82,6 +82,8 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(QuestLogDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests/logs"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(QuestGroupDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests/groups"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(QuestDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/quests"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(MapDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/maps"), cancellationToken);
+      await ExecuteAsync(new SeedContentsTask(MarkerDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/maps/markers"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(CollectionDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/collections"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ArticleDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/articles"), cancellationToken);
     }

@@ -5,9 +5,9 @@ using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggrega
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class SpellCategoryEntity : AggregateEntity
+internal class MarkerEntity : AggregateEntity
 {
-  public int SpellCategoryId { get; private set; }
+  public int MarkerId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -18,21 +18,23 @@ internal class SpellCategoryEntity : AggregateEntity
     get => Helper.Normalize(Key);
     private set { }
   }
-  public string Name { get; set; } = string.Empty;
+  public string Title { get; set; } = string.Empty;
 
-  public SpellCategoryEntity? Parent { get; private set; }
-  public int? ParentId { get; private set; }
-  public Guid? ParentUid { get; private set; }
-  public List<SpellCategoryEntity> Children { get; private set; } = [];
+  public MapEntity? Map { get; private set; }
+  public int MapId { get; private set; }
+  public Guid MapUid { get; private set; }
 
-  public List<SpellCategoryAssociationEntity> Spells { get; private set; } = [];
+  public int X { get; set; }
+  public int Y { get; set; }
 
-  public SpellCategoryEntity(ContentLocalePublished @event) : base(@event)
+  public string? HtmlContent { get; set; }
+
+  public MarkerEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private SpellCategoryEntity() : base()
+  private MarkerEntity() : base()
   {
   }
 
@@ -43,11 +45,11 @@ internal class SpellCategoryEntity : AggregateEntity
     IsPublished = true;
   }
 
-  public void SetParent(SpellCategoryEntity? parent)
+  public void SetMap(MapEntity map)
   {
-    Parent = parent;
-    ParentId = parent?.SpellCategoryId;
-    ParentUid = parent?.Id;
+    Map = map;
+    MapId = map.MapId;
+    MapUid = map.Id;
   }
 
   public void Unpublish(ContentLocaleUnpublished @event)
@@ -57,5 +59,5 @@ internal class SpellCategoryEntity : AggregateEntity
     IsPublished = false;
   }
 
-  public override string ToString() => $"{Name} | {base.ToString()}";
+  public override string ToString() => $"{Title} | {base.ToString()}";
 }

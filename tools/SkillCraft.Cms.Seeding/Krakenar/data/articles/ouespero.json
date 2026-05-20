@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
-      "Parent": "[\"753f58bf-8ab1-4afe-92d8-e36d5409a3fd\"]"
+      "Parent": "[\"753f58bf-8ab1-4afe-92d8-e36d5409a3fd\"]",
+      "Maps": "[\"7951a138-c4e1-40b1-b186-323a32de59c0\"]"
     }
   },
   "Locales": {

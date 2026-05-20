@@ -30,20 +30,23 @@ internal class PublishArticleCommandHandler : ICommandHandler<PublishArticleComm
     ContentLocale locale = command.Locale;
 
     string streamId = @event.StreamId.Value;
-    ArticleEntity? article = await _encyclopedia.Articles.SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
+    ArticleEntity? article = await _encyclopedia.Articles
+      .Include(x => x.Maps).ThenInclude(x => x.Map)
+      .SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
     if (article is null)
     {
       article = new ArticleEntity(command.Event);
       _encyclopedia.Articles.Add(article);
     }
 
-    List<ValidationFailure> failures = new(capacity: 2);
+    List<ValidationFailure> failures = [];
 
     article.Slug = locale.GetString(ArticleDefinition.Slug);
     article.Title = locale.DisplayName?.Value ?? locale.UniqueName.Value;
 
     await SetCollectionAsync(article, invariant, failures, cancellationToken);
     await SetParentAsync(article, invariant, failures, cancellationToken);
+    await SetMapsAsync(article, invariant, failures, cancellationToken);
 
     article.MetaDescription = locale.TryGetString(ArticleDefinition.MetaDescription);
     article.HtmlContent = locale.TryGetString(ArticleDefinition.HtmlContent);
@@ -89,6 +92,38 @@ internal class PublishArticleCommandHandler : ICommandHandler<PublishArticleComm
       {
         ErrorCode = collectionIds.Count < 1 ? ErrorCodes.EmptyValue : ErrorCodes.TooManyValues
       });
+    }
+  }
+
+  private async Task SetMapsAsync(ArticleEntity article, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    HashSet<Guid> mapIds = invariant.GetRelatedContent(ArticleDefinition.Maps).ToHashSet();
+    foreach (ArticleMapEntity articleMap in article.Maps)
+    {
+      if (!mapIds.Contains(articleMap.MapUid))
+      {
+        _encyclopedia.ArticleMaps.Remove(articleMap);
+      }
+    }
+
+    mapIds = mapIds.Except(article.Maps.Select(m => m.MapUid)).ToHashSet();
+    if (mapIds.Count > 0)
+    {
+      Dictionary<Guid, MapEntity> maps = await _encyclopedia.Maps.Where(x => mapIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
+      foreach (Guid mapId in mapIds)
+      {
+        if (maps.TryGetValue(mapId, out MapEntity? map))
+        {
+          article.AddMap(map);
+        }
+        else
+        {
+          failures.Add(new ValidationFailure(nameof(ArticleDefinition.Maps), "'{PropertyName}' must reference existing entities.", mapId)
+          {
+            ErrorCode = ErrorCodes.EntityNotFound
+          });
+        }
+      }
     }
   }
 
