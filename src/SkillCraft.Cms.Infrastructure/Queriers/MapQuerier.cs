@@ -29,6 +29,7 @@ internal class MapQuerier : IMapQuerier
   {
     MapEntity? map = await _maps.AsNoTracking()
       .Where(x => x.Id == id && x.IsPublished)
+      .Include(x => x.Markers)
       .SingleOrDefaultAsync(cancellationToken);
     return map is null ? null : await MapAsync(map, cancellationToken);
   }
@@ -38,6 +39,7 @@ internal class MapQuerier : IMapQuerier
     string keyNormalized = Helper.Normalize(key);
     MapEntity? map = await _maps.AsNoTracking()
       .Where(x => x.KeyNormalized == keyNormalized && x.IsPublished)
+      .Include(x => x.Markers)
       .SingleOrDefaultAsync(cancellationToken);
     return map is null ? null : await MapAsync(map, cancellationToken);
   }
@@ -55,7 +57,8 @@ internal class MapQuerier : IMapQuerier
       builder.Join(EncyclopediaDb.ArticleMaps.MapId, EncyclopediaDb.Maps.MapId, condition);
     }
 
-    IQueryable<MapEntity> query = _maps.FromQuery(builder).AsNoTracking();
+    IQueryable<MapEntity> query = _maps.FromQuery(builder).AsNoTracking()
+      .Include(x => x.Markers);
 
     long total = await query.LongCountAsync(cancellationToken);
 

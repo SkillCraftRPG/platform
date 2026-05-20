@@ -11,5 +11,7 @@ public class MapModel : Aggregate
   public int Height { get; set; }
   public string Source { get; set; } = string.Empty;
 
+  public List<MarkerModel> Markers { get; set; } = [];
+
   public override string ToString() => $"{Title} | {base.ToString()}";
 }

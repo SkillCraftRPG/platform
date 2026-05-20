@@ -5,9 +5,9 @@ using AggregateEntity = Krakenar.EntityFrameworkCore.Relational.Entities.Aggrega
 
 namespace SkillCraft.Cms.Infrastructure.Entities;
 
-internal class MapEntity : AggregateEntity
+internal class MarkerEntity : AggregateEntity
 {
-  public int MapId { get; private set; }
+  public int MarkerId { get; private set; }
   public Guid Id { get; private set; }
 
   public bool IsPublished { get; private set; }
@@ -20,19 +20,21 @@ internal class MapEntity : AggregateEntity
   }
   public string Title { get; set; } = string.Empty;
 
-  public int Width { get; set; }
-  public int Height { get; set; }
-  public string Source { get; set; } = string.Empty;
+  public MapEntity? Map { get; private set; }
+  public int MapId { get; private set; }
+  public Guid MapUid { get; private set; }
 
-  public List<ArticleMapEntity> Articles { get; private set; } = [];
-  public List<MarkerEntity> Markers { get; private set; } = [];
+  public int X { get; set; }
+  public int Y { get; set; }
 
-  public MapEntity(ContentLocalePublished @event) : base(@event)
+  public string? HtmlContent { get; set; }
+
+  public MarkerEntity(ContentLocalePublished @event) : base(@event)
   {
     Id = new ContentId(@event.StreamId).EntityId;
   }
 
-  private MapEntity() : base()
+  private MarkerEntity() : base()
   {
   }
 
@@ -41,6 +43,13 @@ internal class MapEntity : AggregateEntity
     Update(@event);
 
     IsPublished = true;
+  }
+
+  public void SetMap(MapEntity map)
+  {
+    Map = map;
+    MapId = map.MapId;
+    MapUid = map.Id;
   }
 
   public void Unpublish(ContentLocaleUnpublished @event)

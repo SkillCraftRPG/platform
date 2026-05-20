@@ -209,6 +209,16 @@
     }
   },
   {
+    "Id": "ada25faf-7cef-4e1a-9447-892fc980ba89",
+    "UniqueName": "Map",
+    "DisplayName": null,
+    "Description": null,
+    "RelatedContent": {
+      "ContentTypeId": "375f69e0-21c0-403c-9f81-f6273d629a59",
+      "IsMultiple": false
+    }
+  },
+  {
     "Id": "582a70df-fb2c-428a-98f9-f349f2e3c0a0",
     "UniqueName": "MapDimension",
     "DisplayName": null,
@@ -227,6 +237,17 @@
     "RelatedContent": {
       "ContentTypeId": "375f69e0-21c0-403c-9f81-f6273d629a59",
       "IsMultiple": true
+    }
+  },
+  {
+    "Id": "13817865-d55d-4cc9-ba9b-467714b7b5b9",
+    "UniqueName": "MarkerCoordinate",
+    "DisplayName": null,
+    "Description": null,
+    "Number": {
+      "MinimumValue": null,
+      "MaximumValue": null,
+      "Step": 1
     }
   },
   {

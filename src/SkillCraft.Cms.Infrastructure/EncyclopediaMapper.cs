@@ -77,16 +77,34 @@ internal class EncyclopediaMapper
     {
       Id = source.Id,
       Key = source.Key,
-      Title = source.Title,
+      Title = source.Title ?? source.Key,
       Width = source.Width,
       Height = source.Height,
       Source = source.Source
     };
 
+    foreach (MarkerEntity marker in source.Markers)
+    {
+      if (marker.IsPublished)
+      {
+        destination.Markers.Add(ToMarker(marker));
+      }
+    }
+
     MapAggregate(source, destination);
 
     return destination;
   }
+
+  public static MarkerModel ToMarker(MarkerEntity source) => new()
+  {
+    Id = source.Id,
+    Key = source.Key,
+    Title = source.Title,
+    X = source.X,
+    Y = source.Y,
+    HtmlContent = source.HtmlContent
+  };
 
   public static QuestModel ToQuest(QuestEntity source)
   {

@@ -14,6 +14,7 @@ internal enum EntityKind
   Gift,
   Language,
   Map,
+  Marker,
   Quest,
   QuestGroup,
   QuestLog,

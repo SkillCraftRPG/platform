@@ -1857,6 +1857,63 @@
     ]
   },
   {
+    "Id": "b5ba4639-6efc-4607-951e-6f2aeb6942cf",
+    "IsInvariant": false,
+    "UniqueName": "Marker",
+    "DisplayName": "Marqueur",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "38b80cda-cac7-493c-91de-e012c09698d4",
+        "FieldType": "Map",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Map",
+        "DisplayName": "Carte",
+        "Description": null,
+        "Placeholder": "Sélectionnez une carte"
+      },
+      {
+        "Id": "a82b4dc4-bb2b-4653-ad53-a6a42e49cd33",
+        "FieldType": "MarkerCoordinate",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "X",
+        "DisplayName": "Position horizontale (X)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "a5c046fe-2b5b-4e07-853d-f00a540b80ee",
+        "FieldType": "MarkerCoordinate",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Y",
+        "DisplayName": "Position verticale (Y)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "9e5e4d13-e81c-4aca-bf5a-7717f8da4819",
+        "FieldType": "HtmlContent",
+        "IsInvariant": false,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "HtmlContent",
+        "DisplayName": "Contenu HTML",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
     "Id": "2f2c92d2-7bcb-4dfe-abf0-f583313df79f",
     "IsInvariant": false,
     "UniqueName": "Collection",
