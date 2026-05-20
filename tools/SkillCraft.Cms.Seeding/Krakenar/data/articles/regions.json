@@ -16,7 +16,9 @@
       "DisplayName": "Régions",
       "Description": null,
       "FieldValues": {
-        "Slug": "regions"
+        "Slug": "regions",
+        "HtmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac metus ex. Proin in condimentum lectus. Vestibulum mattis interdum gravida. Praesent facilisis et ante sit amet euismod. Donec eleifend consectetur ex, eu ultrices erat viverra quis. Aliquam lobortis arcu varius, finibus odio ut, tristique erat. Etiam finibus nunc id fermentum cursus. Aenean egestas diam nulla. Praesent ac condimentum massa, sit amet mollis tortor. Pellentesque viverra, nisl nec fringilla pellentesque, magna purus laoreet lacus, vel dignissim dui purus id dolor. Vivamus porta orci odio, nec consequat magna eleifend id.",
+        "MetaDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor libero vel dolor egestas, in egestas lectus fringilla. Vestibulum leo est dapibus nam."
       }
     }
   }
