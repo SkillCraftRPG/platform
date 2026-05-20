@@ -29,7 +29,8 @@
         "Summary": "Hommes-ours tribaux des montagnes et forêts d’Arasie.",
         "MetaDescription": "Découvrez les Harsèmes, des hommes-ours montagnards farouchement attachés à leur nature, leur culture et leurs territoires ancestraux.",
         "NamesText": "Les Harsèmes portent généralement un prénom et un nom de famille.",
-        "NamesSelection": "Family:Aroste,Boribal,Ezkibe,Garsea,Goikote,Intauksi,Loiola,Mendosa,Urberi,Zubiri\nFemale:Andere,Aunia,Canine,Dalinar,Himilce,Nesca,Sicouina,Stena,Tarube,Ursine\nMale:Aibekeres,Bagarok,Caikons,Ederet,Idibil,Korrilo,Nabarso,Sakarik,Tarbantu,Unibelos"
+        "NamesSelection": "Family:Aroste,Boribal,Ezkibe,Garsea,Goikote,Intauksi,Loiola,Mendosa,Urberi,Zubiri\nFemale:Andere,Aunia,Canine,Dalinar,Himilce,Nesca,Sicouina,Stena,Tarube,Ursine\nMale:Aibekeres,Bagarok,Caikons,Ederet,Idibil,Korrilo,Nabarso,Sakarik,Tarbantu,Unibelos",
+        "LanguagesText": "Le [Wisgorne](/regles/langues/wisgorne) est une langue commerciale et diplomatique populaire auprès des Harsèmes."
       }
     }
   }

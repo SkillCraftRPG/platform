@@ -11,7 +11,10 @@
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
       "Languages": "[\"6381b2c5-f06a-47cf-a1c8-c7efe36bf161\"]",
-      "Features": "[\"2e2f7733-0885-4586-b71a-40e8325a42f3\",\"5d4d801b-c38a-4f32-acb6-879cbade40c3\",\"15b512b2-4a74-4be3-87d6-aaab8cd55e69\"]"
+      "Features": "[\"2e2f7733-0885-4586-b71a-40e8325a42f3\",\"5d4d801b-c38a-4f32-acb6-879cbade40c3\",\"15b512b2-4a74-4be3-87d6-aaab8cd55e69\"]",
+      "SizeRoll": "180+3d20",
+      "Age": "6,12,25,50",
+      "Weight": "10+1d8,18+1d10,28+1d10,38+1d10,48+1d12"
     }
   },
   "Locales": {
@@ -25,8 +28,9 @@
         "MetaDescription": "Découvrez l’espèce Gobelours : des Gobelinoïdes massifs, brutaux et imprévisibles, utiles à la Horde pour frapper par surprise.",
         "Summary": "Gobelinoïdes massifs, brutaux et imprévisibles de la Horde.",
         "HtmlContent": "Les Gobelours sont les plus gros et les plus imposants des Gobelinoïdes, reconnaissables à leur carrure massive, à leurs longs membres et à leur démarche étonnamment furtive. Nés dans les forêts d’Orijìsa des mêmes origines que les [Gobelins](/regles/especes/gobelin) et les [Hobgobelins](/regles/especes/hobgobelin), ils furent entraînés vers l’Ouespéro avec la Horde, où leur brutalité archaïque trouva rapidement sa place. Moins organisés que leurs cousins, ils obéissent surtout à la loi du plus fort, accumulent les richesses qu’ils peuvent arracher et accordent une importance presque sacrée au fait de manger à leur faim. Leur imprévisibilité les rend peu fiables pour les tâches cruciales, mais leur puissance, leur férocité et leur goût de l’embuscade en font des alliés redoutables lorsqu’un effet de surprise doit briser une ligne ennemie.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "L’imprévisibilité des Gobelours leur permet d’apprendre n’importe quelle langue. Ils sont très nombreux à apprendre l’[Orcique](/regles/langues/orcique), langue commune de la Horde.",
+        "NamesText": "Les Gobelours portent un seul prénom, bref et généralement non genré, évoquant leur brutalité. Ils n’y accordent pas une grande importance : le nom sert surtout à appeler, désigner ou reconnaître quelqu’un au sein de la bande. Contrairement aux [Gobelins](/regles/especes/gobelin) et [Hobgobelins](/regles/especes/hobgobelin), ils ne portent pas de surnom ni de nom de famille.",
+        "NamesSelection": "Unisex:Aruk,Baran,Boruk,Duman,Karak,Kazan,Oruk,Togan,Uraz,Yalun"
       }
     }
   }

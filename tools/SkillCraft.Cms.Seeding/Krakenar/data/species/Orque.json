@@ -11,7 +11,10 @@
       "Languages": "[\"61540270-a656-4f7a-a32f-0eaa506e9cf5\"]",
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
-      "Features": "[\"57d3a632-582e-461b-be3a-f73c9feb3fce\",\"7a44e4c8-936a-4f6e-a808-5a0bf1f36997\",\"0dd26ce4-de1e-43ee-93e5-86d28f219b62\"]"
+      "Features": "[\"57d3a632-582e-461b-be3a-f73c9feb3fce\",\"7a44e4c8-936a-4f6e-a808-5a0bf1f36997\",\"0dd26ce4-de1e-43ee-93e5-86d28f219b62\"]",
+      "Age": "6,12,25,50",
+      "Weight": "15+1d6,21+1d6,27+1d6,33+1d8,41+1d10",
+      "SizeRoll": "150+5d10"
     }
   },
   "Locales": {
@@ -25,8 +28,9 @@
         "MetaDescription": "Découvrez les Orques, fiers conquérants des steppes d’Orijìsa, chefs de la Horde et ennemis jurés des Elfes et des Nains.",
         "Summary": "Conquérants des steppes, fiers chefs de la Horde.",
         "HtmlContent": "Grands, massifs et taillés pour l’effort, les Orques dominent les steppes de l’Orijìsa par leur carrure, leurs mâchoires puissantes et leurs peaux aux teintes variables, du vert profond au rouge sombre. Ils portent dans leurs cicatrices, leurs bannières et leurs chants de guerre une fierté rude, fondée sur l’honneur, le combat, la conquête et l’obéissance aux chefs capables de vaincre. Plusieurs récits affirment qu’ils seraient issus d’anciens [Elfes](/regles/especes/elfe) corrompus, ce qui nourrit leur haine farouche envers les Elfes, leur rivalité avec les [Nains](/regles/especes/nain) et leur mépris des [Humains](/regles/especes/humain), jugés faibles tant qu’ils n’ont pas prouvé leur valeur. Réunis en clans, bandes guerrières et hordes menées par des khans, ils dirigent aujourd’hui la Horde qui envahit l’Ouespéro, après des générations de raids, de vendettas et d’alliances brutales avec les peuples Gobelinoïdes, Ogres et autres forces des frontières.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Le [Gobun](/regles/langues/gobun) et le [Tongros](/regles/langues/tongros) sont des langues fréquemment apprises par les Orques afin de faciliter la communication au sein de la Horde. Dans les faits, ce sont plutôt les autres espèces de la Horde qui apprennent l’Orcique, tandis que les Orques apprennent des langues étrangères afin de communiquer avec leurs conquêtes et leurs ennemis.",
+        "NamesText": "Les Orques portent généralement un prénom personnel, un nom de clan et, lorsqu’ils l’ont mérité, un surnom d’exploit. Le prénom est donné à la naissance, souvent avec une sonorité rude et martiale, mais il ne devient vraiment important qu’après les premières preuves de force, d’endurance ou de courage. Le nom de clan vaut presque comme un nom de famille : il rattache l’Orque à une lignée, une horde, une bannière ou un khan. Les surnoms sont gagnés au combat, lors d’un raid, d’une conquête, d’une vengeance ou d’un acte de survie remarquable. Un Orque peut donc s’appeler Temürak Ulaanar, puis devenir Temürak Brise-Bouclier après avoir mérité ce nom devant les siens.",
+        "NamesSelection": "Family:Altangor,Borjagh,Galmör,Kharbök,Kharzûd,Khökhchono,Noyarkhan,Sükhbataar,Temürkhad,Ulaanar\nFemale:Altana, Bortaga, Erdena, Kharula, Khulaga, Naranga, Oyuna, Saruul, Temüra, Ulagha\nMale:Batarok, Dargan, Gantor, Kharzug, Munkhar, Orghul, Temürak, Torgash, Ulagh, Zorghan"
       }
     }
   }

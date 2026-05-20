@@ -10,7 +10,10 @@
       "Speeds": "Walk:6",
       "SizeCategory": "[\"Medium\"]",
       "Features": "[\"5fc0fa84-b529-4944-8b12-985cf6b51ec0\",\"17d6f30b-4f76-4d77-ac5f-3b86e530b9fb\",\"d45542b5-eb9f-4a1b-bdb4-d3a484cd992b\"]",
-      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]"
+      "Category": "[\"a75d10bd-426e-435b-9a45-9024a42fee3c\"]",
+      "SizeRoll": "130+3d10",
+      "Weight": "9+1d3,12+1d4,16+1d6,22+1d6,28+1d8",
+      "Age": "8,15,275,750"
     }
   },
   "Locales": {
@@ -25,7 +28,8 @@
         "Summary": "Jeunes humanoïdes végétaux liés aux anciennes forêts elfiques.",
         "HtmlContent": "Les Arboryn sont de jeunes humanoïdes végétaux dont le corps est composé d’écorce, de sève, de feuilles et de fibres ligneuses rappelant autant les plantes que les humanoïdes. Encore rares en Ouespéro, ils sont principalement retrouvés dans les forêts de la Griffe Noire et des Triskîles, souvent à proximité des communautés elfiques. Curieux, allègres et parfois immatures, ils abordent le monde avec une fascination naïve et une vivacité émotionnelle qui contrastent avec le détachement des [Elfes](/regles/especes/elfe). Leur amour de la nature dépasse toute autre considération, au point où plusieurs préfèrent la contemplation des forêts anciennes aux ambitions politiques ou militaires. Faute d’histoire commune et d’organisation réelle, les Arboryn demeurent dispersés et mal compris. Certaines rumeurs prétendent qu’ils seraient issus d’Elfes transformés par une corruption végétale, une ancienne malédiction ou un étrange parasite sylvestre.",
         "LanguagesText": "Les Arboryn des Triskîles parlent le [Sylvestre](/regles/langues/sylvestre), tandis que ceux de la Griffe Noire parlent le [Celfique](/regles/langues/celfique).",
-        "NamesText": "\uD83D\uDEA7"
+        "NamesText": "Les Arboryn ne portent qu’un prénom, sans surnom ni nom de famille. Ils le connaissent instinctivement, comme une évidence intime née avec leur première conscience, et le considèrent comme l’expression exacte de leur être. Ils ne croient pas que prononcer leur nom donne une emprise magique sur eux, contrairement à plusieurs fées, mais ils jugent qu’un nom mal prononcé déforme leur identité et accorde à l’autre une forme de pouvoir offensant. Oublier une syllabe, durcir une voyelle ou déplacer l’accent est donc rarement perçu comme une erreur innocente.",
+        "NamesSelection": "Unisex:Aelwyn,Brialen,Caerith,Delys,Eirion,Faelan,Lioren,Maelith,Neryn,Rowan"
       }
     }
   }

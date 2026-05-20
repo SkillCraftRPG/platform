@@ -11,7 +11,10 @@
       "SizeCategory": "[\"Small\"]",
       "Speeds": "Walk:6",
       "Features": "[\"6d624751-7ba5-4d9f-94b6-c1fbb77fc84e\",\"6bb9c632-c7e3-4e90-9622-639cfbf6fb38\",\"0d8fc12a-3321-4ca6-857b-8d1dbd61f393\",\"af61b450-4850-4962-84f3-c2b224f0a085\"]",
-      "Languages": "[\"93eb4b4d-3c43-4730-a55a-f9b92177c7b3\"]"
+      "Languages": "[\"93eb4b4d-3c43-4730-a55a-f9b92177c7b3\"]",
+      "SizeRoll": "80+2d10",
+      "Weight": "10+1d4,14+1d6,20+1d6,26+1d6,32+1d8",
+      "Age": "6,12,35,100"
     }
   },
   "Locales": {
@@ -25,8 +28,9 @@
         "MetaDescription": "Découvrez les Kobolds, petits draconiques rusés des mines et souterrains, fascinés par les richesses, les pièges et l’ombre des dragons.",
         "Summary": "Petits draconiques fouisseurs, rusés, cupides et fascinés par les dragons.",
         "HtmlContent": "Petits humanoïdes draconiques aux membres vifs, aux écailles ternes et au museau nerveux, les Kobolds vivent dans l’ombre des mines, des collines creuses et des souterrains où l’on retrouve encore la trace des dragons. Leur origine demeure inconnue, mais nombre de savants les croient presque aussi anciens que les Grands Dragons eux-mêmes, tant leur langue, leurs instincts et leurs croyances semblent tournés vers eux. Couards lorsqu’ils sont isolés mais redoutables en bande, ils compensent leur faible stature par la ruse, les embuscades, les pièges et une obsession tenace pour les richesses, les passages secrets et les stratégies patientes. Organisés en clans querelleurs mais solidaires, ils respectent la force, l’astuce et les marques d’autorité, tout en nourrissant une admiration mêlée de crainte envers les Dragons et, plus rarement, envers les [Sang-Dragons](/regles/especes/sang-dragon).",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Les Kobolds peuvent apprendre n’importe quelle [langue](/regles/langues). Ils apprennent généralement la langue des créatures qu’ils côtoient, puisque celles-ci n’apprendront généralement pas le [Draconique](/regles/langues/draconique).",
+        "NamesText": "Les Kobolds portent un prénom unisexe, bref et sifflant, auquel s’ajoute un nom de clan hérité d’une lignée associée à une ancienne couleur draconique. Ce nom de clan agit comme un nom de famille et rappelle autant une parenté qu’une prétention symbolique à l’héritage des Dragons. Toutefois, dans la vie courante, les kobolds utilisent très souvent un surnom descriptif, moqueur ou flatteur, gagné à la mine, au terrier ou au combat, comme Longue-Mèche, Dent-Noire, Racle-Pierre, Brille-Or ou Pioche-Rapide. Entre eux, ce surnom est souvent plus employé que le nom complet, car il désigne ce que le kobold est, ou prétend être, aux yeux de sa bande.",
+        "NamesSelection": "Family:Karmek,Narkesh,Nildar,Nilgur,Surgal,Tabresh,Varshak,Varzun,Zardun,Zarvek\nUnisex:Arek,Daruk,Eshar,Hurat,Kavi,Narek,Surim,Tavir,Uram,Zerin"
       }
     }
   }

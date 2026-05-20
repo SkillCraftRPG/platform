@@ -10,7 +10,10 @@
       "ExtraLanguages": "2",
       "SizeCategory": "[\"Medium\"]",
       "Features": "[\"3a38b2a1-668b-44df-aec8-1d8c0171578a\",\"d0332a40-50da-443d-a0dd-4f7290ad3d71\",\"379bf1c1-854a-46a8-84ba-0290dd6b210d\",\"c4d62e65-4cfd-44a1-b293-23ed6d4450de\",\"e1c0cae4-ea26-4bf3-b2be-1a6aaf299126\",\"72d86aa9-2114-40be-8c7b-32edc136c828\"]",
-      "Speeds": "Walk:4,Swim:6"
+      "Speeds": "Walk:4,Swim:6",
+      "SizeRoll": "180+3d20",
+      "Weight": "10+1d8,18+1d10,28+1d10,38+1d10,48+1d12",
+      "Age": "6,12,25,50"
     }
   },
   "Locales": {
@@ -24,8 +27,9 @@
         "MetaDescription": "Découvrez les Nakkarit, des serpents marins esclavagistes venus d’un autre monde et menant des raids sur les côtes d’Ouespéro.",
         "Summary": "Serpents marins conquérants et esclavagistes venus d’un autre monde.",
         "HtmlContent": "Les Nakkarit sont d’imposants serpents marins humanoïdes à l’apparence terrifiante, dotés d’un long corps ophidien, d’une mâchoire venimeuse et d’un regard froid rappelant les profondeurs abyssales dont ils émergent. Récemment arrivés en Ouespéro depuis un autre monde, ils multiplient depuis près de deux siècles les raids sur les côtes occidentales de l’Andoce, du Beldegir, des Girizes, de Griffe Noire et des Triskîles. Convaincus d’être des êtres supérieurs envoyés afin de dominer mers et rivages, ils réduisent fréquemment les autres espèces en esclavage, particulièrement les [Shurglock](/regles/especes/shurglock), qu’ils considèrent comme une main-d’œuvre idéale. Leur civilisation théocratique et guerrière est structurée autour de castes de prêtres, de conquérants et de sorciers abyssaux, tous dévoués à l’expansion de leurs domaines sous-marins.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Les Nakkarit n’ont pas de langue propre au sens strict. Entre eux, ils communiquent par un ensemble instinctif de sifflements, claquements de mâchoire, postures, mouvements du corps et signaux aquatiques capables de transmettre des émotions, des intentions et des concepts simples. Ce mode de communication partage certaines bases avec celui des [Shurglocks](/regles/especes/shurglock), mais demeure seulement partiellement intelligible entre les deux espèces. Bien que les Nakkarit puissent apprendre n’importe quelle langue, leur gueule ophidienne et leur mâchoire peu adaptée aux sons articulés rendent leur prononciation toujours sifflante, rauque et difficile à rendre parfaitement claire. Les langues qu’ils apprennent le plus couramment sont le [Celfique](/regles/langues/celfique), le [Dallois](/regles/langues/dallois), l’[Orcique](/regles/langues/orcique) et le [Wisgorne](/regles/langues/wisgorne).",
+        "NamesText": "Les Nakkarit portent généralement un seul prénom unisexe, sans nom de famille ni surnom. Dans leur culture, le nom ne sert pas à honorer une lignée, mais à identifier clairement l’individu au sein de la cité, du culte ou de l’expédition à laquelle il appartient. Leur statut est plutôt exprimé par des titres de fonction, tels que prêtresse abyssale, maître des chaînes, gardien des pontes ou conquérant des marées, qui peuvent changer au fil de leur vie selon leurs exploits et leur rang. Le prénom demeure donc court, sifflant et facile à transmettre sous l’eau, tandis que la gloire personnelle passe par l’autorité, la domination et le service rendu aux desseins de leur peuple.",
+        "NamesSelection": "Unisex:Akara,Atissa,Havaj,Kalika,Makoss,Nakara,Oratu,Sashka,Taresh,Vashai"
       }
     }
   }

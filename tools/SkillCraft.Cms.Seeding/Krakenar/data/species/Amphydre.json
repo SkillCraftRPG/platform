@@ -29,7 +29,8 @@
         "HtmlContent": "Les Amphydres, appelés Boggards dans l’Ouest et Vodyanoi dans l’Est, sont un peuple amphibien autochtone des grands marécages du Nord de l’Ouespéro. Jadis maîtres d’un territoire immense couvrant les Triskîles, la Vorovie, la Vallie et la Loujnava, ils furent peu à peu repoussés par les invasions, colonies et expansions des espèces civilisées. Méfiants envers les étrangers, ils vivent en clans dispersés autour des rivières et des marais fertiles, où leurs prêtres-rois préservent des rites anciens liés aux eaux, aux brumes et aux esprits. Excellents nageurs et redoutables combattants en terrain aquatique, ils possèdent une culture profondément spirituelle inspirée des traditions des peuples des marais orientaux. Leur réputation sinistre cache toutefois des sociétés anciennes, disciplinées et fières de leurs origines.",
         "MetaDescription": "Découvrez les Amphydres, peuple amphibien des marécages nordiques d’Ouespéro, redouté pour ses rites anciens et ses clans aquatiques.",
         "NamesText": "Les Amphydres portent des noms unisexes et ne portent pas de nom de famille. Ils révèlent rarement leur vrai nom à ceux qui n’ont pas pleinement gagné leur confiance, utilisant le pseudonyme _Vodnik_ afin de se désigner.",
-        "NamesSelection": "Unisex:Berrik,Dema,Gebbal,Kodav,Koru,Krilim,Mibar,Rarrat,Tobbut,Vorran"
+        "NamesSelection": "Unisex:Berrik,Dema,Gebbal,Kodav,Koru,Krilim,Mibar,Rarrat,Tobbut,Vorran",
+        "LanguagesText": "Les Amphydres côtoient les locuteurs du [Kirsenien](/regles/langues/kirsenien) et du [Serselien](/regles/langues/serselien)."
       }
     }
   }

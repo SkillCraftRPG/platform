@@ -11,7 +11,9 @@
       "SizeCategory": "[\"Medium\"]",
       "SizeRoll": "140+2d20",
       "Features": "[\"972b3927-f429-48ff-83c3-f7348003bb9c\",\"ba855dbd-dd74-4d65-9d16-206afde5979d\",\"09e241b0-93d1-42ac-8657-9ecd6df480e1\"]",
-      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]",
+      "Age": "10,20,40,160",
+      "Weight": "10+1d4,14+1d4,18+1d6,24+1d6,30+1d10"
     }
   },
   "Locales": {
@@ -25,8 +27,9 @@
         "Slug": "ondin",
         "HtmlContent": "Humanoïdes aquatiques parfois appelés tritons, les Ondins se reconnaissent à leurs mains et pieds palmés, à leurs branchies et à leur teint bleuté ou verdâtre. Ils fréquentent les fonds marins peu profonds, les plages chaudes et les îles baignées par des eaux claires, où leurs communautés vivent au rythme des marées. Leur affinité avec l’Eau et les créatures marines nourrit une culture de navigation, de chants, de diplomatie et de récits transmis sous la surface. Accueillants sans être naïfs, ils savent charmer, négocier ou détourner l’attention lorsque les peuples terrestres troublent l’équilibre de leurs rivages.",
         "MetaDescription": "Découvrez l’espèce Ondin : des élémentaires aquatiques liés à l’Eau, aux récifs, aux îles chaudes et aux créatures marines.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Les langues natales des Ondins sont le [Celfique](/regles/langues/celfique), l’[Orrinique](/regles/langues/orrinique) ou le [Thrixe](/regles/langues/thrixe). Le [Harsème](/regles/langues/harseme) et le [Vodnique](/regles/langues/vodnique) sont également des langues communément apprises par les Ondins.",
+        "NamesText": "Les Ondins portent généralement un prénom fluide et chantant, choisi pour évoquer les sources, les récifs, les courants, les nymphes marines ou les anciens dieux-fleuves. Leur nom personnel demeure souvent le seul nom qu’ils utilisent entre eux, car il suffit à les situer dans le mouvement des marées, des lignées orales et des communautés côtières. Ceux qui grandissent parmi un autre peuple peuvent toutefois adopter un nom de famille emprunté, par habitude sociale ou par nécessité administrative. De la même manière, certains Ondins reçoivent un prénom étranger, mais conservent alors souvent un surnom lié à leur origine élémentaire, comme Écume-Bleue, Voix-des-Récifs ou Fils-des-Marées, afin que leur nature aquatique ne soit jamais oubliée.",
+        "NamesSelection": "Female:Amphara,Arethia,Doryssa,Euryssa,Galathëa,Halia,Kymara,Nerissa,Okeira,Thalessa\nMale:Akelon,Alpharion,Askarion,Ebrantos,Ilkaron,Ladonar,Nerthon,Okeilar,Silaron,Tarthon"
       }
     }
   }

@@ -11,7 +11,9 @@
       "SizeCategory": "[\"Medium\"]",
       "SizeRoll": "140+2d20",
       "Features": "[\"f45e6abd-a1fa-426e-bb94-3b08713d18aa\",\"db7a0af2-0d31-47a4-816f-dfab91f08ec6\"]",
-      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]",
+      "Age": "10,20,40,160",
+      "Weight": "12+1d4,16+1d4,20+1d6,26+1d8,33+1d10"
     }
   },
   "Locales": {
@@ -25,8 +27,9 @@
         "HtmlContent": "Les Salamandres sont des humanoïdes élémentaires associés au Feu, reconnaissables à leurs traits reptiliens et aux flammes vacillantes visibles entre leurs écailles. Surnommés «&nbsp;vulcains&nbsp;», ils habitent principalement une île volcanique de la mer Septentrionale, bien que quelques communautés subsistent dans les régions montagneuses et volcaniques de l’Ouespéro. Leur culture valorise la maîtrise de soi, l’intuition et le savoir-faire artisanal, particulièrement lorsque le métal, le verre ou la pierre doivent être façonnés par les flammes. Malgré leur tempérament souvent passionné, ils entretiennent une relation presque spirituelle avec le feu, qu’ils considèrent autant comme une force destructrice qu’une source de vie et de transformation. Leurs cités sont bâties autour des volcans actifs, dont ils interprètent les grondements comme les manifestations d’une puissance ancestrale.",
         "Summary": "Humanoïdes reptiliens volcaniques liés au Feu et à l’artisanat.",
         "MetaDescription": "Découvrez les Salamandres, des humanoïdes reptiliens liés au Feu vivant au cœur des volcans et réputés pour leur maîtrise des flammes.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Les langues natales des Salamandres sont l’[Austrigond](/regles/langues/austrigond) ou le [Norrien](/regles/langues/norrien). D’autres langues apprises par les Salamandres sont le [Celfique](/regles/langues/celfique), et plus rarement, le [Draconique](/regles/langues/draconique).",
+        "NamesText": "Les Salamandres portent généralement un prénom aux sonorités anciennes, rudes et incandescentes, choisi pour évoquer les volcans, les foyers, les cendres, le métal chauffé ou les îles de feu dont elles sont issues. Entre elles, le prénom suffit souvent, car leur mémoire communautaire rattache chaque individu à une cité, un atelier ou une lignée orale. Celles qui grandissent parmi un autre peuple peuvent toutefois adopter un nom de famille emprunté, par habitude sociale ou par nécessité administrative. De la même manière, certaines Salamandres reçoivent un prénom étranger, mais conservent alors souvent un surnom lié à leur origine élémentaire, comme Cœur-de-Braise, Né-des-Cendres ou Main-de-Lave, afin que leur nature volcanique ne soit jamais oubliée.",
+        "NamesSelection": "Female:Akhara,Brithia,Etruna,Harsyra,Karthisa,Laveia,Myrthia,Skaera,Therissa,Veluna\nMale:Akrun,Arveth,Branthir,Etrukar,Harkon,Karsun,Larthan,Myrvik,Therun,Velkar"
       }
     }
   }

@@ -11,7 +11,9 @@
       "Speeds": "Walk:4",
       "ExtraLanguages": "2",
       "Features": "[\"0c8e01b0-1bbe-497a-836f-248df56f1b3c\",\"840f1e39-3f90-40df-967f-bdb96478454f\",\"90e9618b-84f6-409c-a6d3-d014f32d6f25\",\"b48c653f-1c84-4e08-9b48-ed6e7ef3d964\"]",
-      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]"
+      "Category": "[\"582ec12d-1222-4e1e-bb95-88758ce55748\"]",
+      "Age": "10,20,40,160",
+      "Weight": "10+1d4,14+1d6,20+1d6,26+1d6,32+1d8"
     }
   },
   "Locales": {
@@ -25,8 +27,9 @@
         "HtmlContent": "Petits humanoïdes liés aux profondeurs et aux forces de la Terre, les Gnomes vivent souvent dans des communautés discrètes, enfouies sous les collines, les montagnes ou les quartiers oubliés des grandes cités. Poilus, barbus et plus nerveux qu’ils n’en ont l’air, ils compensent leur taille par une vive intelligence, une curiosité difficile à contenir et une habileté remarquable pour les mécanismes délicats. Leurs ateliers mêlent savoir élémentaire, horlogerie, alchimie pratique et inventions parfois utiles, parfois simplement amusantes. Malgré leur goût pour la clandestinité, ils observent le monde avec un humour espiègle et interviennent volontiers lorsqu’un mystère, un minerai rare ou une idée impossible mérite d’être exploré.",
         "Summary": "Petits élémentaires de Terre, ingénieux, discrets et espiègles.",
         "MetaDescription": "Découvrez l’espèce Gnome : de petits élémentaires de Terre, curieux, ingénieux et discrets, maîtres des mécanismes cachés.",
-        "LanguagesText": "\uD83D\uDEA7",
-        "NamesText": "\uD83D\uDEA7"
+        "LanguagesText": "Les langues natales des Gnomes sont le [Kroumien](/regles/langues/kroumien) et le [Thrixe](/regles/langues/thrixe). Certains Gnomes apprennent également l’[Arvanien](/regles/langues/arvanien), le [Berze](/regles/langues/berze) ou l’[Orrinique](/regles/langues/orrinique) en fonction de leur voisinage.",
+        "NamesText": "Les Gnomes portent généralement un prénom court et dense, choisi pour évoquer la pierre, les cavernes, les métaux, les outils, les montagnes sacrées ou les anciennes puissances de la Terre. Leur prénom suffit souvent à les identifier dans leurs propres communautés, où la réputation d’un artisan, d’un horloger ou d’un chercheur de filon vaut plus qu’une longue lignée écrite. Ceux qui grandissent parmi un autre peuple peuvent toutefois adopter un nom de famille emprunté, surtout lorsqu’ils vivent dans une cité humaine, naine ou marchande. De la même manière, certains Gnomes reçoivent un prénom étranger, mais conservent alors souvent un surnom lié à leur origine élémentaire, comme Main-de-Schiste, Sous-Racine ou Frappe-Cuivre, afin que leur lien avec la Terre demeure évident.",
+        "NamesSelection": "Female:Agdissa,Arinna,Bendida,Chalkea,Dardana,Hannara,Kybela,Makella,Rhevia,Teutana\nMale:Akmon,Ardylos,Damanek,Gordak,Idaron,Karbinos,Mylak,Oromen,Skelmis,Zalmek"
       }
     }
   }

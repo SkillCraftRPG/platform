@@ -29,7 +29,8 @@
         "HtmlContent": "Peuple autochtone d’Hyperborée, les Skames sont des hommes-loups à la fourrure dense, nés pour la taïga, les neiges profondes et les crêtes des Riphées. Méfiants sans être cruels, ils vivent en meutes-clans où le vrai nom se protège comme une piste sacrée, tandis que les surnoms-grognements suffisent aux étrangers. Leurs chants oraux conservent les routes de chasse, les hivers meurtriers et les récits d’anciens ennemis venus de l’intérieur du Nord. Rarement présents en Norrengard ou en Ouespéro sans mission précise, ils deviennent des alliés d’une fidélité redoutable lorsque la confiance est gagnée.",
         "NamesText": "Les Skames portent un prénom et ne portent pas de nom de famille. Ils révèlent rarement leur vrai nom à ceux qui n’ont pas pleinement gagné leur confiance. Ils adoptent un surnom composé d’une syllabe de leur prénom et adoptant une sonorité similaire à celle d’un grognement.",
         "NamesSelection": "Female:Alkhaia,Bikka,Ella,Gaddja,Jinga,Kirste,Maggara,Ravdna,Sira,Sunna\nMale:Airu,Bavar,Davvet,Guthar,Heaika,Issat,Lemet,Mihkku,Nihlo,Sammo",
-        "MetaDescription": "Découvrez les Skames : hommes-loups d’Hyperborée, méfiants et loyaux, liés aux meutes-clans, aux chants du Nord et aux routes de chasse."
+        "MetaDescription": "Découvrez les Skames : hommes-loups d’Hyperborée, méfiants et loyaux, liés aux meutes-clans, aux chants du Nord et aux routes de chasse.",
+        "LanguagesText": "L’[Isillambë](/regles/langues/isillambe) et le [Norrien](/regles/langues/norrien) sont des langues secondaires populaires auprès des Skames."
       }
     }
   }
