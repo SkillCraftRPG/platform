@@ -1,0 +1,23 @@
+﻿{
+  "Id": "7951a138-c4e1-40b1-b186-323a32de59c0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ouespero-geographie",
+    "DisplayName": "Géographie de l’Ouespéro",
+    "Description": null,
+    "FieldValues": {
+      "Width": "7200",
+      "Height": "5400",
+      "Source": "https://skillcraftrpg.blob.core.windows.net/ungar/maps/geographie-ouespero.jpg"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ouespero-geographie",
+      "DisplayName": "Géographie de l’Ouespéro",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

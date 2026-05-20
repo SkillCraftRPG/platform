@@ -16,9 +16,7 @@
       "DisplayName": "Continents",
       "Description": null,
       "FieldValues": {
-        "Slug": "continents",
-        "HtmlContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod diam nec tristique feugiat. Curabitur vel ante bibendum, luctus purus a, egestas dolor. Maecenas tortor ligula, pharetra vel metus vitae, semper auctor nulla. Vestibulum eleifend hendrerit massa eu pulvinar. Aenean condimentum consectetur metus, at cursus lacus tempor a. Pellentesque lorem sem, condimentum vitae ligula vitae, mattis feugiat lectus. Maecenas dapibus, orci at aliquam sodales, ante lacus mattis diam, quis congue purus massa in velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis auctor nisi non scelerisque finibus. Duis eget dignissim dui, a volutpat enim.",
-        "MetaDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis convallis arcu. Ut venenatis nisl id elit dignissim, et lobortis orci tristique odio."
+        "Slug": "continents"
       }
     }
   }

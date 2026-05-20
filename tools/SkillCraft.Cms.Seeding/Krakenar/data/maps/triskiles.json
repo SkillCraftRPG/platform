@@ -1,0 +1,23 @@
+﻿{
+  "Id": "20bdbc13-bf9d-4f17-88dc-1e2b86dff8cd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "triskiles",
+    "DisplayName": "Triskîles",
+    "Description": null,
+    "FieldValues": {
+      "Source": "https://skillcraftrpg.blob.core.windows.net/ungar/maps/triskiles.png",
+      "Width": "2250",
+      "Height": "3000"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "triskiles",
+      "DisplayName": "Triskîles",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

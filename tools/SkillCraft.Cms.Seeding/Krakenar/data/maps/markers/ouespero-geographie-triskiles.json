@@ -1,0 +1,25 @@
+﻿{
+  "Id": "fac65a96-373b-4d7b-8faf-80b3f473c8b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ouespero-geographie-triskiles",
+    "DisplayName": "Triskîles",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"7951a138-c4e1-40b1-b186-323a32de59c0\"]",
+      "X": "1125",
+      "Y": "2500"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ouespero-geographie-triskiles",
+      "DisplayName": "Triskîles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "**[Triskîles](/regions/triskiles)**"
+      }
+    }
+  }
+}
