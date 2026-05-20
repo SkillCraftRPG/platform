@@ -13,6 +13,7 @@ internal enum EntityKind
   Feature,
   Gift,
   Language,
+  Map,
   Quest,
   QuestGroup,
   QuestLog,

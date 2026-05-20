@@ -31,6 +31,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<PublishEthnicityCommand, Unit>, PublishEthnicityCommandHandler>();
     services.AddTransient<ICommandHandler<PublishFeatureCommand, Unit>, PublishFeatureCommandHandler>();
     services.AddTransient<ICommandHandler<PublishLanguageCommand, Unit>, PublishLanguageCommandHandler>();
+    services.AddTransient<ICommandHandler<PublishMapCommand, Unit>, PublishMapCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestCommand, Unit>, PublishQuestCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestGroupCommand, Unit>, PublishQuestGroupCommandHandler>();
     services.AddTransient<ICommandHandler<PublishQuestLogCommand, Unit>, PublishQuestLogCommandHandler>();
@@ -54,6 +55,7 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
     services.AddTransient<ICommandHandler<UnpublishEducationCommand, Unit>, UnpublishEducationCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishFeatureCommand, Unit>, UnpublishFeatureCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishLanguageCommand, Unit>, UnpublishLanguageCommandHandler>();
+    services.AddTransient<ICommandHandler<UnpublishMapCommand, Unit>, UnpublishMapCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishLineageCommand, Unit>, UnpublishLineageCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishQuestCommand, Unit>, UnpublishQuestCommandHandler>();
     services.AddTransient<ICommandHandler<UnpublishQuestGroupCommand, Unit>, UnpublishQuestGroupCommandHandler>();
@@ -165,6 +167,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
         case EntityKind.Language:
           await _commandBus.ExecuteAsync(new PublishLanguageCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
+        case EntityKind.Map:
+          await _commandBus.ExecuteAsync(new PublishMapCommand(@event, published.Invariant, published.Locale), cancellationToken);
+          break;
         case EntityKind.Quest:
           await _commandBus.ExecuteAsync(new PublishQuestCommand(@event, published.Invariant, published.Locale), cancellationToken);
           break;
@@ -274,6 +279,9 @@ internal class ContentMaterializationHandlers : IEventHandler<ContentLocalePubli
           break;
         case EntityKind.Language:
           await _commandBus.ExecuteAsync(new UnpublishLanguageCommand(@event), cancellationToken);
+          break;
+        case EntityKind.Map:
+          await _commandBus.ExecuteAsync(new UnpublishMapCommand(@event), cancellationToken);
           break;
         case EntityKind.Quest:
           await _commandBus.ExecuteAsync(new UnpublishQuestCommand(@event), cancellationToken);

@@ -1812,6 +1812,51 @@
     ]
   },
   {
+    "Id": "375f69e0-21c0-403c-9f81-f6273d629a59",
+    "IsInvariant": false,
+    "UniqueName": "Map",
+    "DisplayName": "Carte",
+    "Description": null,
+    "Fields": [
+      {
+        "Id": "43d13b70-1bca-4097-a48b-438f6eaecc49",
+        "FieldType": "MapDimension",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Width",
+        "DisplayName": "Largeur (pixels)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "0040e0e1-72ee-4a2d-8d4c-553ec9892192",
+        "FieldType": "MapDimension",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Height",
+        "DisplayName": "Hauteur (pixels)",
+        "Description": null,
+        "Placeholder": null
+      },
+      {
+        "Id": "dd7217af-8c1e-4c1b-9bca-94c7c4f41218",
+        "FieldType": "Url",
+        "IsInvariant": true,
+        "IsRequired": true,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Source",
+        "DisplayName": "Source",
+        "Description": null,
+        "Placeholder": null
+      }
+    ]
+  },
+  {
     "Id": "2f2c92d2-7bcb-4dfe-abf0-f583313df79f",
     "IsInvariant": false,
     "UniqueName": "Collection",
@@ -1886,6 +1931,18 @@
         "DisplayName": "Parent",
         "Description": null,
         "Placeholder": "Sélectionnez un article parent"
+      },
+      {
+        "Id": "0f4f89d4-683a-4d40-94b4-832a37674b10",
+        "FieldType": "Maps",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Maps",
+        "DisplayName": "Cartes",
+        "Description": null,
+        "Placeholder": "Sélectionnez une ou plusieurs cartes"
       },
       {
         "Id": "9d2b9c1b-230c-4dcb-aced-bd7680955bbd",
