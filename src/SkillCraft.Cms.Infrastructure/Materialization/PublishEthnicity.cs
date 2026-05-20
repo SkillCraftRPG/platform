@@ -65,14 +65,6 @@ internal class PublishEthnicityCommandHandler : ICommandHandler<PublishEthnicity
     lineage.Summary = locale.TryGetString(EthnicityDefinition.Summary);
     lineage.HtmlContent = locale.TryGetString(EthnicityDefinition.HtmlContent);
 
-    lineage.Morphology = locale.TryGetString(EthnicityDefinition.Morphology);
-    lineage.Psychology = locale.TryGetString(EthnicityDefinition.Psychology);
-    lineage.Culture = locale.TryGetString(EthnicityDefinition.Culture);
-    lineage.History = locale.TryGetString(EthnicityDefinition.History);
-    lineage.Geography = locale.TryGetString(EthnicityDefinition.Geography);
-    lineage.Politics = locale.TryGetString(EthnicityDefinition.Politics);
-    lineage.Relations = locale.TryGetString(EthnicityDefinition.Relations);
-
     lineage.Publish(@event);
 
     if (failures.Count > 0)
