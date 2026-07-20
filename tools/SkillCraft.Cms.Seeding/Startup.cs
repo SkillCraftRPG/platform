@@ -31,7 +31,12 @@ internal class Startup
     services.AddTransient<ICommandHandler<MigrateDatabaseTask, Unit>, MigrateDatabaseTaskHandler>();
     services.AddTransient<ICommandHandler<SeedContentsTask, Unit>, SeedContentsTaskHandler>();
     services.AddTransient<ICommandHandler<SeedContentTypesTask, Unit>, SeedContentTypesTaskHandler>();
+    services.AddTransient<ICommandHandler<SeedDictionariesTask, Unit>, SeedDictionariesTaskHandler>();
     services.AddTransient<ICommandHandler<SeedFieldTypesTask, Unit>, SeedFieldTypesTaskHandler>();
+    services.AddTransient<ICommandHandler<SeedLanguagesTask, Unit>, SeedLanguagesTaskHandler>();
+    services.AddTransient<ICommandHandler<SeedRealmTask, Unit>, SeedRealmTaskHandler>();
+    services.AddTransient<ICommandHandler<SeedSendersTask, Unit>, SeedSendersTaskHandler>();
+    services.AddTransient<ICommandHandler<SeedTemplatesTask, Unit>, SeedTemplatesTaskHandler>();
     services.AddTransient<ICommandHandler<SeedUsersTask, Unit>, SeedUsersTaskHandler>();
   }
 }

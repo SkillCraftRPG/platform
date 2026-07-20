@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ac3b265f-7a04-44f4-b8d2-63d153a3b819",
+  "UniqueSlug": "game",
+  "DisplayName": "Game",
+  "Description": null,
+  "Url": null,
+  "UniqueNameSettings": {
+    "AllowedCharacters": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+"
+  },
+  "PasswordSettings": {
+    "RequiredLength": 8,
+    "RequiredUniqueChars": 8,
+    "RequireNonAlphanumeric": true,
+    "RequireLowercase": true,
+    "RequireUppercase": true,
+    "RequireDigit": true,
+    "HashingStrategy": "PBKDF2"
+  },
+  "RequireUniqueEmail": true,
+  "RequireConfirmedAccount": true
+}

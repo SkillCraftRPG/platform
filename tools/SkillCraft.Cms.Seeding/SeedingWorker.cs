@@ -1,8 +1,7 @@
-﻿using Krakenar.Contracts.Users;
+﻿using Krakenar.Contracts.Realms;
+using Krakenar.Contracts.Users;
 using Krakenar.Core;
-using Krakenar.Core.Users;
 using Logitar.CQRS;
-using Logitar.EventSourcing;
 using SkillCraft.Cms.Core.Progress;
 using SkillCraft.Cms.Infrastructure.Contents;
 using SkillCraft.Cms.Seeding.Krakenar.Tasks;
@@ -52,7 +51,7 @@ internal class SeedingWorker : BackgroundService
       IUserService userService = scope.ServiceProvider.GetRequiredService<IUserService>();
       User user = await userService.ReadAsync(id: null, defaults.UniqueName, customIdentifier: null, cancellationToken)
         ?? throw new InvalidOperationException($"The user 'UniqueName={defaults.UniqueName}' was not found.");
-      _applicationContext.ActorId = new ActorId(new UserId(user.Id).Value);
+      _applicationContext.User = user;
 
       await ExecuteAsync(new SeedUsersTask(), cancellationToken);
       await ExecuteAsync(new SeedContentTypesTask(), cancellationToken);
@@ -86,6 +85,18 @@ internal class SeedingWorker : BackgroundService
       await ExecuteAsync(new SeedContentsTask(MarkerDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/maps/markers"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(CollectionDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/collections"), cancellationToken);
       await ExecuteAsync(new SeedContentsTask(ArticleDefinition.ContentTypeId, defaults.Locale, "Krakenar/data/articles"), cancellationToken);
+
+      await ExecuteAsync(new SeedRealmTask(), cancellationToken);
+
+      IRealmService realmService = scope.ServiceProvider.GetRequiredService<IRealmService>();
+      Realm realm = await realmService.ReadAsync(id: null, "game", cancellationToken)
+        ?? throw new InvalidOperationException("The realm 'UniqueSlug=game' was not found.");
+      _applicationContext.Realm = realm;
+
+      await ExecuteAsync(new SeedLanguagesTask(), cancellationToken);
+      await ExecuteAsync(new SeedDictionariesTask(), cancellationToken);
+      await ExecuteAsync(new SeedSendersTask(), cancellationToken);
+      await ExecuteAsync(new SeedTemplatesTask(), cancellationToken);
     }
     catch (Exception exception)
     {
