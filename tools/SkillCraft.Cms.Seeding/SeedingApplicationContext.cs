@@ -4,9 +4,11 @@ using Krakenar.Core;
 using Krakenar.Core.Caching;
 using Krakenar.Core.Realms;
 using Krakenar.Core.Tokens;
+using Krakenar.Core.Users;
 using Logitar.EventSourcing;
 using Configuration = Krakenar.Contracts.Configurations.Configuration;
 using Realm = Krakenar.Contracts.Realms.Realm;
+using User = Krakenar.Contracts.Users.User;
 
 namespace SkillCraft.Cms.Seeding;
 
@@ -21,7 +23,21 @@ internal class SeedingApplicationContext : IApplicationContext
 
   protected virtual Configuration Configuration => _cacheService.Configuration ?? throw new InvalidOperationException("The configuration was not found in the cache.");
 
-  public ActorId? ActorId { get; set; }
+  public User? User { get; set; }
+  public ActorId? ActorId
+  {
+    get
+    {
+      if (User is null)
+      {
+        return null;
+      }
+
+      RealmId? realmId = User.Realm is null ? null : new(User.Realm.Id);
+      UserId userId = new(User.Id, realmId);
+      return new ActorId(userId.Value);
+    }
+  }
 
   public string BaseUrl { get; set; } = "seeding";
 

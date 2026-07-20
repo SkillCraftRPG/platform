@@ -28,6 +28,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Krakenar\templates\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="System.Diagnostics" />
     <Using Include="System.Text" />
   </ItemGroup>
