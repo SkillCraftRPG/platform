@@ -1480,6 +1480,18 @@
         "Placeholder": "Sélectionnez un ou plusieurs talents"
       },
       {
+        "Id": "e3ff1989-614f-4db7-8081-f96885ea9353",
+        "FieldType": "Specializations",
+        "IsInvariant": true,
+        "IsRequired": false,
+        "IsIndexed": false,
+        "IsUnique": false,
+        "UniqueName": "Origins",
+        "DisplayName": "Origines",
+        "Description": null,
+        "Placeholder": "Sélectionnez une ou plusieurs spécialisations"
+      },
+      {
         "Id": "60440ff8-3d5a-4341-8bd9-4572bac6f563",
         "FieldType": "Slug",
         "IsInvariant": false,
