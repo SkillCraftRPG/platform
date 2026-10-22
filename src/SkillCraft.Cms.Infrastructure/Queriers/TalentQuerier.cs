@@ -25,6 +25,54 @@ internal class TalentQuerier : ITalentQuerier
     _talents = rules.Talents;
   }
 
+  public async Task<TalentTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken)
+  {
+    var talents = await _talents
+      .Select(x => new
+      {
+        x.Id,
+        ParentId = x.RequiredTalentUid,
+        x.Tier,
+        x.Slug,
+        x.Name,
+        x.AllowMultiplePurchases,
+        Skill = x.Skill!.Name,
+        x.Summary
+      })
+      .ToArrayAsync(cancellationToken);
+
+    Dictionary<Guid, InternalTalentNode> nodes = new(capacity: talents.Length);
+    foreach (var talent in talents)
+    {
+      nodes[talent.Id] = new InternalTalentNode(talent.Id, talent.Tier, talent.Slug, talent.Name, talent.AllowMultiplePurchases, talent.Skill, talent.Summary);
+    }
+
+    InternalTalentNode? target = nodes.GetValueOrDefault(id);
+    if (target is null)
+    {
+      return null;
+    }
+
+    foreach (var talent in talents)
+    {
+      if (talent.ParentId.HasValue)
+      {
+        InternalTalentNode child = nodes[talent.Id];
+        InternalTalentNode parent = nodes[talent.ParentId.Value];
+
+        child.Parent = parent;
+        parent.Children.Add(child);
+      }
+    }
+
+    InternalTalentNode root = target;
+    while (root.Parent is not null)
+    {
+      root = root.Parent;
+    }
+    return Flatten(root);
+  }
+
   public async Task<TalentModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
     TalentEntity? talent = await _talents.AsNoTracking()
@@ -145,4 +193,60 @@ internal class TalentQuerier : ITalentQuerier
 
     return talents.Select(mapper.ToTalent).ToList().AsReadOnly();
   }
+
+  private class InternalTalentNode
+  {
+    public Guid Id { get; }
+    public InternalTalentNode? Parent { get; set; }
+    public List<InternalTalentNode> Children { get; } = [];
+
+    public int Tier { get; }
+    public string Slug { get; }
+    public string Name { get; }
+
+    public bool AllowMultiplePurchases { get; }
+    public string? Skill { get; }
+    public string? Summary { get; }
+
+    public InternalTalentNode(Guid id, int tier, string slug, string name, bool allowMultiplePurchases, string? skill, string? summary)
+    {
+      Id = id;
+
+      Tier = tier;
+      Slug = slug;
+      Name = name;
+
+      AllowMultiplePurchases = allowMultiplePurchases;
+      Skill = skill;
+      Summary = summary;
+    }
+
+    public override bool Equals(object? obj) => obj is InternalTalentNode talent && talent.Id == Id;
+    public override int GetHashCode() => Id.GetHashCode();
+    public override string ToString() => $"{Name} (Id={Id})";
+  }
+
+  private static TalentTree Flatten(InternalTalentNode root) => new(MapRecursive(root).OrderBy(talent => talent.Name).ThenBy(talent => talent.Slug));
+  private static IReadOnlyCollection<TalentNode> MapRecursive(InternalTalentNode node)
+  {
+    List<TalentNode> nodes = [];
+    nodes.Add(Map(node));
+    foreach (InternalTalentNode child in node.Children)
+    {
+      nodes.AddRange(MapRecursive(child));
+    }
+    return nodes.ToList().AsReadOnly();
+  }
+  private static TalentNode Map(InternalTalentNode talent) => new()
+  {
+    Id = talent.Id,
+    Parent = talent.Parent?.Id,
+    Children = talent.Children.Select(child => child.Id).ToList(),
+    Tier = talent.Tier,
+    Slug = talent.Slug,
+    Name = talent.Name,
+    AllowMultiplePurchases = talent.AllowMultiplePurchases,
+    Skill = talent.Skill,
+    Summary = talent.Summary
+  };
 }
