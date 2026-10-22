@@ -16,7 +16,7 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.8")
+                .HasAnnotation("ProductVersion", "10.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -2107,6 +2107,33 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.ToTable("SpecializationOptionalTalents", "Rules");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationOriginEntity", b =>
+                {
+                    b.Property<int>("SpecializationId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("OriginId")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("OriginUid")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("SpecializationUid")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("SpecializationId", "OriginId");
+
+                    b.HasIndex("OriginId");
+
+                    b.HasIndex("OriginUid");
+
+                    b.HasIndex("SpecializationId");
+
+                    b.HasIndex("SpecializationUid");
+
+                    b.ToTable("SpecializationOrigins", "Rules");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpeciesCategoryEntity", b =>
                 {
                     b.Property<int>("SpeciesCategoryId")
@@ -3047,6 +3074,25 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                     b.Navigation("Talent");
                 });
 
+            modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpecializationOriginEntity", b =>
+                {
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", "Origin")
+                        .WithMany("LeadsTo")
+                        .HasForeignKey("OriginId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpecializationEntity", "Specialization")
+                        .WithMany("Origins")
+                        .HasForeignKey("SpecializationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Origin");
+
+                    b.Navigation("Specialization");
+                });
+
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryAssociationEntity", b =>
                 {
                     b.HasOne("SkillCraft.Cms.Infrastructure.Entities.SpellCategoryEntity", "SpellCategory")
@@ -3203,7 +3249,11 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                 {
                     b.Navigation("Doctrine");
 
+                    b.Navigation("LeadsTo");
+
                     b.Navigation("OptionalTalents");
+
+                    b.Navigation("Origins");
                 });
 
             modelBuilder.Entity("SkillCraft.Cms.Infrastructure.Entities.SpeciesCategoryEntity", b =>

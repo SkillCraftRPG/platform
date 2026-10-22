@@ -241,7 +241,7 @@ internal class TalentQuerier : ITalentQuerier
   {
     Id = talent.Id,
     Parent = talent.Parent?.Id,
-    Children = talent.Children.Select(child => child.Id).ToList(),
+    Children = talent.Children.Select(child => child.Id).Distinct().OrderBy(id => id).ToList(),
     Tier = talent.Tier,
     Slug = talent.Slug,
     Name = talent.Name,

@@ -37,6 +37,8 @@ internal class SpecializationEntity : AggregateEntity
 
   public DoctrineEntity? Doctrine { get; private set; }
   public List<SpecializationOptionalTalentEntity> OptionalTalents { get; private set; } = [];
+  public List<SpecializationOriginEntity> Origins { get; private set; } = [];
+  public List<SpecializationOriginEntity> LeadsTo { get; private set; } = [];
 
   public SpecializationEntity(ContentLocalePublished @event) : base(@event)
   {
@@ -50,6 +52,11 @@ internal class SpecializationEntity : AggregateEntity
   public void AddOptionalTalent(TalentEntity talent)
   {
     OptionalTalents.Add(new SpecializationOptionalTalentEntity(this, talent));
+  }
+
+  public void AddOrigin(SpecializationEntity origin)
+  {
+    Origins.Add(new SpecializationOriginEntity(this, origin));
   }
 
   public override IReadOnlyCollection<ActorId> GetActorIds()

@@ -29,6 +29,47 @@ internal class SpecializationQuerier : ISpecializationQuerier
     _sqlHelper = sqlHelper;
   }
 
+  public async Task<SpecializationTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken)
+  {
+    var specializations = await _specializations
+      .Select(x => new
+      {
+        x.Id,
+        ParentIds = x.Origins.Select(origin => origin.OriginUid),
+        x.Tier,
+        x.Slug,
+        x.Name,
+        Doctrine = x.Doctrine!.Name,
+        x.Summary
+      })
+      .ToArrayAsync(cancellationToken);
+
+    Dictionary<Guid, InternalSpecializationNode> nodes = new(capacity: specializations.Length);
+    foreach (var specialization in specializations)
+    {
+      nodes[specialization.Id] = new InternalSpecializationNode(specialization.Id, specialization.Tier, specialization.Slug, specialization.Name, specialization.Doctrine, specialization.Summary);
+    }
+
+    InternalSpecializationNode? target = nodes.GetValueOrDefault(id);
+    if (target is null)
+    {
+      return null;
+    }
+
+    foreach (var specialization in specializations)
+    {
+      foreach (Guid parentId in specialization.ParentIds)
+      {
+        InternalSpecializationNode child = nodes[specialization.Id];
+        InternalSpecializationNode parent = nodes[parentId];
+
+        child.Parents.Add(parent);
+        parent.Children.Add(child);
+      }
+    }
+    return Flatten(target);
+  }
+
   public async Task<SpecializationModel?> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
     SpecializationEntity? specialization = await _specializations.AsNoTracking()
@@ -144,4 +185,83 @@ internal class SpecializationQuerier : ISpecializationQuerier
 
     return specializations.Select(mapper.ToSpecialization).ToList().AsReadOnly();
   }
+
+  private class InternalSpecializationNode
+  {
+    public Guid Id { get; }
+    public List<InternalSpecializationNode> Parents { get; } = [];
+    public List<InternalSpecializationNode> Children { get; } = [];
+
+    public int Tier { get; }
+    public string Slug { get; }
+    public string Name { get; }
+
+    public string? Doctrine { get; }
+    public string? Summary { get; }
+
+    public InternalSpecializationNode(Guid id, int tier, string slug, string name, string? doctrine, string? summary)
+    {
+      Id = id;
+
+      Tier = tier;
+      Slug = slug;
+      Name = name;
+
+      Doctrine = doctrine;
+      Summary = summary;
+    }
+
+    public override bool Equals(object? obj) => obj is InternalSpecializationNode specialization && specialization.Id == Id;
+    public override int GetHashCode() => Id.GetHashCode();
+    public override string ToString() => $"{Name} (Id={Id})";
+  }
+  private static SpecializationTree Flatten(InternalSpecializationNode node)
+  {
+    Dictionary<Guid, SpecializationNode> nodes = [];
+    nodes[node.Id] = Map(node);
+    foreach (InternalSpecializationNode parent in node.Parents)
+    {
+      MapParentRecursive(parent, nodes);
+    }
+    foreach (InternalSpecializationNode child in node.Children)
+    {
+      MapChildrenRecursive(child, nodes);
+    }
+    return new SpecializationTree(nodes.Values.OrderBy(specialization => specialization.Tier)
+      .ThenBy(specialization => specialization.Name)
+      .ThenBy(specialization => specialization.Slug));
+  }
+  private static void MapParentRecursive(InternalSpecializationNode node, IDictionary<Guid, SpecializationNode> nodes)
+  {
+    if (!nodes.ContainsKey(node.Id))
+    {
+      nodes[node.Id] = Map(node);
+      foreach (InternalSpecializationNode parent in node.Parents)
+      {
+        MapParentRecursive(parent, nodes);
+      }
+    }
+  }
+  private static void MapChildrenRecursive(InternalSpecializationNode node, IDictionary<Guid, SpecializationNode> nodes)
+  {
+    if (!nodes.ContainsKey(node.Id))
+    {
+      nodes[node.Id] = Map(node);
+      foreach (InternalSpecializationNode child in node.Children)
+      {
+        MapChildrenRecursive(child, nodes);
+      }
+    }
+  }
+  private static SpecializationNode Map(InternalSpecializationNode specialization) => new()
+  {
+    Id = specialization.Id,
+    Parents = specialization.Parents.Select(parent => parent.Id).Distinct().OrderBy(id => id).ToList(),
+    Children = specialization.Children.Select(child => child.Id).Distinct().OrderBy(id => id).ToList(),
+    Tier = specialization.Tier,
+    Slug = specialization.Slug,
+    Name = specialization.Name,
+    Doctrine = specialization.Doctrine,
+    Summary = specialization.Summary
+  };
 }

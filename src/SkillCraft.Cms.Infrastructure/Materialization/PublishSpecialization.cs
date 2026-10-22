@@ -33,6 +33,7 @@ internal class PublishSpecializationCommandHandler : ICommandHandler<PublishSpec
     string streamId = @event.StreamId.Value;
     SpecializationEntity? specialization = await _rules.Specializations
       .Include(x => x.OptionalTalents)
+      .Include(x => x.Origins)
       .SingleOrDefaultAsync(x => x.StreamId == streamId, cancellationToken);
     if (specialization is null)
     {
@@ -47,6 +48,7 @@ internal class PublishSpecializationCommandHandler : ICommandHandler<PublishSpec
 
     specialization.Tier = (int)invariant.GetNumber(SpecializationDefinition.Tier);
     await SetTalentsAsync(specialization, invariant, failures, cancellationToken);
+    await SetOriginsAsync(specialization, invariant, failures, cancellationToken);
 
     specialization.OtherRequirements = locale.TryGetString(SpecializationDefinition.OtherRequirements);
     specialization.OtherOptions = locale.TryGetString(SpecializationDefinition.OtherOptions);
@@ -135,6 +137,48 @@ internal class PublishSpecializationCommandHandler : ICommandHandler<PublishSpec
       else
       {
         failures.Add(new ValidationFailure(nameof(SpecializationDefinition.OptionalTalents), "'{PropertyName}' must reference existing entities.", talentId)
+        {
+          ErrorCode = ErrorCodes.EntityNotFound
+        });
+      }
+    }
+  }
+
+  private async Task SetOriginsAsync(SpecializationEntity specialization, ContentLocale invariant, List<ValidationFailure> failures, CancellationToken cancellationToken)
+  {
+    HashSet<Guid> originIds = invariant.GetRelatedContent(SpecializationDefinition.Origins).ToHashSet();
+    Dictionary<Guid, SpecializationEntity> origins = originIds.Count < 1
+      ? []
+      : await _rules.Specializations.Where(x => originIds.Contains(x.Id)).ToDictionaryAsync(x => x.Id, x => x, cancellationToken);
+
+    foreach (SpecializationOriginEntity origin in specialization.Origins)
+    {
+      if (!originIds.Contains(origin.OriginUid))
+      {
+        _rules.SpecializationOrigins.Remove(origin);
+      }
+    }
+
+    HashSet<Guid> existingIds = specialization.Origins.Select(x => x.OriginUid).ToHashSet();
+    foreach (Guid originId in originIds)
+    {
+      if (origins.TryGetValue(originId, out SpecializationEntity? origin))
+      {
+        if (origin.Tier >= specialization.Tier)
+        {
+          failures.Add(new ValidationFailure(nameof(SpecializationDefinition.Origins), "'{PropertyName}' must reference a specialization of a lower tier.", originId)
+          {
+            ErrorCode = ErrorCodes.InvalidTier
+          });
+        }
+        else if (!existingIds.Contains(originId))
+        {
+          specialization.AddOrigin(origin);
+        }
+      }
+      else
+      {
+        failures.Add(new ValidationFailure(nameof(SpecializationDefinition.Origins), "'{PropertyName}' must reference an existing entity.", originId)
         {
           ErrorCode = ErrorCodes.EntityNotFound
         });

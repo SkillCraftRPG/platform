@@ -5,6 +5,8 @@ namespace SkillCraft.Cms.Core.Specializations;
 
 public interface ISpecializationQuerier
 {
+  Task<SpecializationTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken = default);
+
   Task<SpecializationModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
   Task<SpecializationModel?> ReadAsync(string slug, CancellationToken cancellationToken = default);
 
