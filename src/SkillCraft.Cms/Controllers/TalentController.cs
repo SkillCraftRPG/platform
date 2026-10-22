@@ -17,6 +17,13 @@ public class TalentController : ControllerBase
     _talentQuerier = talentQuerier;
   }
 
+  [HttpGet("{id}/tree")]
+  public async Task<ActionResult<TalentTree>> GetTreeAsync(Guid id, CancellationToken cancellationToken)
+  {
+    TalentTree? tree = await _talentQuerier.GetTreeAsync(id, cancellationToken);
+    return tree is null ? NotFound() : Ok(tree);
+  }
+
   [HttpGet("{id}")]
   public async Task<ActionResult<TalentModel>> ReadAsync(Guid id, CancellationToken cancellationToken)
   {

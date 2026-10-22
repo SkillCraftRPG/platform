@@ -5,6 +5,8 @@ namespace SkillCraft.Cms.Core.Talents;
 
 public interface ITalentQuerier
 {
+  Task<TalentTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken = default);
+
   Task<TalentModel?> ReadAsync(Guid id, CancellationToken cancellationToken = default);
   Task<TalentModel?> ReadAsync(string slug, CancellationToken cancellationToken = default);
 
