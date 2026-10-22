@@ -8,6 +8,7 @@ namespace SkillCraft.Cms.Core.Specializations;
 
 public interface ISpecializationService
 {
+  Task<SpecializationTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken = default);
   Task<SpecializationModel?> ReadAsync(Guid? id = null, string? slug = null, CancellationToken cancellationToken = default);
   Task<SearchResults<SpecializationModel>> SearchAsync(SearchSpecializationsPayload payload, CancellationToken cancellationToken = default);
 }
@@ -17,6 +18,7 @@ internal class SpecializationService : ISpecializationService
   public static void Register(IServiceCollection services)
   {
     services.AddTransient<ISpecializationService, SpecializationService>();
+    services.AddTransient<IQueryHandler<GetSpecializationTreeQuery, SpecializationTree?>, GetSpecializationTreeQueryHandler>();
     services.AddTransient<IQueryHandler<ReadSpecializationQuery, SpecializationModel?>, ReadSpecializationQueryHandler>();
     services.AddTransient<IQueryHandler<SearchSpecializationsQuery, SearchResults<SpecializationModel>>, SearchSpecializationsQueryHandler>();
   }
@@ -26,6 +28,12 @@ internal class SpecializationService : ISpecializationService
   public SpecializationService(IQueryBus queryBus)
   {
     _queryBus = queryBus;
+  }
+
+  public async Task<SpecializationTree?> GetTreeAsync(Guid id, CancellationToken cancellationToken)
+  {
+    GetSpecializationTreeQuery query = new(id);
+    return await _queryBus.ExecuteAsync(query, cancellationToken);
   }
 
   public async Task<SpecializationModel?> ReadAsync(Guid? id, string? slug, CancellationToken cancellationToken)

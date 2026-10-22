@@ -17,6 +17,13 @@ public class SpecializationController : ControllerBase
     _specializationService = specializationService;
   }
 
+  [HttpGet("{id}/tree")]
+  public async Task<ActionResult<SpecializationTree>> GetTreeAsync(Guid id, CancellationToken cancellationToken)
+  {
+    SpecializationTree? tree = await _specializationService.GetTreeAsync(id, cancellationToken);
+    return tree is null ? NotFound() : Ok(tree);
+  }
+
   [HttpGet("{id}")]
   public async Task<ActionResult<SpecializationModel>> ReadAsync(Guid id, CancellationToken cancellationToken)
   {
