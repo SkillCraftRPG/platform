@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5b096454-8450-4f85-884c-c4f42eefbc66",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Localisation_LocateCreature",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"47501238-4a04-4cef-9031-ed3a05d81a59\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Localisation_LocateCreature",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la fourrure d’un chien de chasse et une brindille fourchue.",
+        "HtmlContent": "Le personnage nomme ou décrit une créature qui lui est familière. Il ressent la direction de l’emplacement de cette créature tant que celle-ci se trouve à 300 mètres ou moins de sa position. Si la créature se déplace, il connaît la direction de ce mouvement. Le pouvoir peut localiser une créature précise connue du personnage, ou la créature la plus proche d’un type donné (par exemple un humain ou une licorne), pourvu qu’il ait déjà vu une telle créature de près (à 9 mètres ou moins) au moins une fois. Si la créature nommée ou décrite assume une forme différente, par exemple sous l’effet d’une métamorphose, ce pouvoir ne la localise pas. Ce pouvoir ne peut localiser une créature si une étendue d’eau courante d’au moins 3 mètres de large bloque un chemin direct entre le personnage et la créature."
+      }
+    }
+  }
+}

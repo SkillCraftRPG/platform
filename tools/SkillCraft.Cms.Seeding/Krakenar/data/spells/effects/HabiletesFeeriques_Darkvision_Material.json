@@ -1,7 +1,7 @@
 ﻿{
   "Id": "ac1471c9-6ca5-4702-9483-ce4887bc36ae",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "HabiletesFeeriques_Darkvision_Material",
     "DisplayName": "Matériel",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "HabiletesFeeriques_Darkvision_Material",
       "DisplayName": "Matériel",
       "Description": null,

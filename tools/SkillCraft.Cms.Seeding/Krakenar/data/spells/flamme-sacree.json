@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "flamme-sacree",
-        "Summary": "Frappe une cible d’une flamme divine et facilite la prochaine attaque.",
-        "MetaDescription": "Découvrez une flamme divine qui châtie une cible à distance, inflige des dégâts radiants croissants et confère un avantage à la prochaine attaque contre elle.",
-        "HtmlContent": "Une flamme divine frappe une cible à distance, lui infligeant des dégâts radiants croissants selon le niveau et offrant un avantage à la prochaine attaque dirigée contre elle."
+        "Summary": "Frappe une cible de lumière radiante et peut la marquer pour l’attaque suivante.",
+        "MetaDescription": "Découvrez Flamme sacrée, un pouvoir qui frappe une créature de lumière radiante et peut la marquer d’une lueur divine aidant la prochaine attaque contre elle.",
+        "HtmlContent": "Le personnage frappe une créature d’une flamme ou d’un éclair de lumière, lui infligeant des dégâts radiants. La cible peut aussi émettre une lueur divine qui aide la prochaine attaque contre elle, plus durable aux paliers supérieurs."
       }
     }
   }

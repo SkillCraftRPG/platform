@@ -24,7 +24,7 @@
       "Description": null,
       "FieldValues": {
         "Material": "Une feuille d’if.",
-        "HtmlContent": "Le personnage crée 20 kilogrammes de nourriture et 100 litres d’eau fraîche sur le sol ou dans des [contenants](/regles/equipement/general/contenants) qu’il peut voir, ce qui permet de [nourrir](/regles/aventure/environnement/alimentation) et d’[abreuver](/regles/aventure/environnement/alimentation) jusqu’à 20&nbsp;humanoïdes pour une journée."
+        "HtmlContent": "Le personnage crée 20 kilogrammes de nourriture et 80 litres d’eau fraîche sur le sol ou dans des [contenants](/regles/equipement/general/contenants) qu’il peut [voir](/regles/aventure/environnement/vision), ce qui permet de [nourrir](/regles/aventure/environnement/alimentation) et d’[abreuver](/regles/aventure/environnement/alimentation) jusqu’à 20&nbsp;humanoïdes pour une journée.\n\nLa nourriture est fade mais nourrissante et disparaît après [24 heures](/regles/aventure/temps) si elle n’est pas consommée. L’eau reste fraîche et propre même après cette période. La nourriture et l’eau peuvent également abreuver et nourrir une monture, mais cette monture mange et boit la même quantité que 3 humanoïdes."
       }
     }
   }

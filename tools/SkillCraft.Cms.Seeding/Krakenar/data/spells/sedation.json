@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3d790b15-fb50-4a73-a706-81d7c012325f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sedation",
+    "DisplayName": "Sédation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sedation",
+      "DisplayName": "Sédation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sedation",
+        "MetaDescription": "Découvrez Sédation : endormir plusieurs créatures selon leur vitalité, apaiser peurs et hostilités, puis offrir une sieste restauratrice.",
+        "Summary": "Endort, apaise les émotions, puis restaure par une sieste.",
+        "HtmlContent": "Le personnage endort d’abord plusieurs créatures selon leur vitalité restante. Plus fort, il suspend peurs et charmes ou rend indifférent. Plus fort encore, des alliés consentants somnolent, récupèrent et bénéficient d’une halte."
+      }
+    }
+  }
+}

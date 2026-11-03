@@ -14,7 +14,7 @@
       "DisplayName": "Attaque élémentaire",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts d’un type](/regles/combat/degats/types) associé à une combinaison élémentaire. Un des éléments de cette combinaison doit être sa [spécialité](/regles/specialisations/elementariste)."
+        "HtmlContent": "Lorsque le personnage effectue une [Attaque magique](/regles/talents/attaque-magique), alors il peut substituer les [dégâts magiques](/regles/combat/degats/types) par des [dégâts d’un type](/regles/combat/degats/types) associé à un élément pour lequel il a acquis le talent [Élémentarisme](/regles/talents/elementarisme) (sauf Esprit)."
       }
     }
   }

@@ -9,7 +9,7 @@
       "Spell": "[\"53d9073a-747d-41e9-bda9-4d068eaf7279\"]",
       "Level": "2",
       "CastingTime": "[\"2\"]",
-      "Duration": "10",
+      "Duration": "1",
       "DurationUnit": "[\"Minute\"]",
       "IsConcentration": "true",
       "Range": "1",
@@ -24,7 +24,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Les effets du niveau 3 s’appliquent.\n\nÉgalement, lorsque le personnage perd ou lâche sa [concentration](/regles/magie/parametres/duree), la cible est libérée de tout effet de [charme](/regles/combat/conditions/charme), de [peur](/regles/combat/conditions/apeure) ou de possession en provenance d’une créature appartenant au type sélectionné.",
+        "HtmlContent": "Le personnage est protégé contre les créatures appartenant à un des types suivants : aberration, célestiel, élémentaire, fée, infernal et mort-vivant. Le [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) de ces créatures dirigées contre le personnage est affligé du [désavantage](/regles/competences/tests/avantage-desavantage). Par une [action](/regles/combat/deroulement/tour), le personnage peut mettre fin prématurément au pouvoir afin d’utiliser une des capacités suivantes :\n\n- **Briser l’enchantement.** Il touche une créature qui est [charmée](/regles/combat/conditions/charme), [apeurée](/regles/combat/conditions/apeure) ou possédée par une créature appartenant à un des types mentionnés ci-haut et met fin à ces effets.\n- **Renvoi.** Il tente de toucher une créature appartenant à un des types mentionnés ci-haut et tente de la renvoyer dans sa dimension d’origine. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la cible est renvoyée dans sa dimension d’origine. Si elle s’y trouve déjà, elle est envoyée dans une dimension appropriée.",
         "Material": "De l’eau bénite et une pincée de poudre d’argent."
       }
     }

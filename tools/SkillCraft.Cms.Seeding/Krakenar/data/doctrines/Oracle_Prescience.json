@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Specialization": "[\"1b785f81-cefb-4be8-adbb-8e4350730d70\"]",
-      "Features": "[\"300ecead-70b2-47a3-83b6-e59a74faa319\"]"
+      "Features": "[\"300ecead-70b2-47a3-83b6-e59a74faa319\",\"b007e545-43d7-49e7-9eef-d83294b40fd6\"]"
     }
   },
   "Locales": {
@@ -17,7 +17,7 @@
       "DisplayName": "Prescience",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à l’élément Esprit ([Divination](#)) et acquiert gratuitement un de ces pouvoirs.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts radiants](/regles/combat/degats/types).\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme) et effets de [peur](/regles/combat/conditions/apeure)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme&subcategory=theurgie) de tiers 3 associés à l’élément Esprit ([Théurgie](/regles/elementarisme?category=theurgie)) et acquiert gratuitement un de ces pouvoirs.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts radiants](/regles/combat/degats/types).\nIl se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme) et effets de [peur](/regles/combat/conditions/apeure)."
       }
     }
   }

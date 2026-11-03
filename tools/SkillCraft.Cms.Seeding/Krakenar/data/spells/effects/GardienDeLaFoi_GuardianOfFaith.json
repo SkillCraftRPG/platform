@@ -1,0 +1,29 @@
+﻿{
+  "Id": "a053acb9-eff1-42e9-a523-235a072de378",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GardienDeLaFoi_GuardianOfFaith",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"93d93828-c199-4e45-9416-ec8cb0934dc2\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GardienDeLaFoi_GuardianOfFaith",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un gardien spirituel de [grande taille](/regles/especes/taille) apparaît et plane dans un espace libre que le personnage peut [voir](/regles/aventure/environnement/vision). Le gardien [occupe](/regles/aventure/mouvement/espace-occupe) cet espace et demeure indistinct, à l’exception d’une arme et d’un bouclier à l’effigie de sa divinité. Toute créature hostile envers le personnage qui se déplace dans un espace situé à 3 mètres ou moins du gardien pour la première fois pendant un [tour](/regles/combat/deroulement/tour) doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, la créature reçoit un nombre de [points de dégâts](/regles/combat/degats) égal au double de la [Puissance](/regles/statistiques/puissance) du personnage. Elle ne reçoit que la moitié des points de dégâts en cas de réussite. Le [type](/regles/combat/degats/types) des dégâts varie en fonction du [domaine divin](/regles/domaines/divins) du personnage. Le gardien disparaît lorsqu’il a infligé un total de 100 points de dégâts."
+      }
+    }
+  }
+}

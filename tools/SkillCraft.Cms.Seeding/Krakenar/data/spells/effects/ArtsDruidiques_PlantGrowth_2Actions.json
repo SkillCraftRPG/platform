@@ -1,0 +1,30 @@
+﻿{
+  "Id": "69602a4f-13ce-44e8-8bc8-a9301a005e39",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArtsDruidiques_PlantGrowth_2Actions",
+    "DisplayName": "Croissance végétale",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArtsDruidiques_PlantGrowth_2Actions",
+      "DisplayName": "Croissance végétale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage canalise de la vitalité dans les plantes d’une zone précise. Il désigne un point dans la portée. Toutes les plantes ordinaires dans un rayon de 30 mètres centré sur ce point deviennent denses et envahissantes. Une créature qui se déplace dans la zone voit sa [vitesse](/regles/aventure/mouvement/vitesse) divisée par 4. Il peut exclure une ou plusieurs zones de n’importe quelle taille à l’intérieur de la zone du pouvoir afin qu’elles ne soient pas affectées."
+      }
+    }
+  }
+}

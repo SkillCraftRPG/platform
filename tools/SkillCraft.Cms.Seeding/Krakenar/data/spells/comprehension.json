@@ -1,0 +1,27 @@
+﻿{
+  "Id": "70e4ddda-3f7c-4c3b-9982-0e60b85a6de5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "comprehension",
+    "DisplayName": "Compréhension",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "comprehension",
+      "DisplayName": "Compréhension",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "comprehension",
+        "MetaDescription": "Découvrez Compréhension : langues parlées et écrites, identification magique, savoir emprunté, puis parole comprise de tous.",
+        "Summary": "Langues, identification, savoir emprunté, puis parole universelle.",
+        "HtmlContent": "Le personnage comprend d’abord toute langue parlée ou écrite, ou identifie la magie d’un objet ou d’une créature. Plus fort, il emprunte un savoir. Plus fort encore, une créature touchée comprend et se fait comprendre de tous."
+      }
+    }
+  }
+}

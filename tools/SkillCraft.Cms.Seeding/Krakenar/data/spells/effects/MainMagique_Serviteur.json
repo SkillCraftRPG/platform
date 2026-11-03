@@ -1,0 +1,32 @@
+﻿{
+  "Id": "be6f8e2d-4bfb-444a-a26e-69902ae997bf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MainMagique_Serviteur",
+    "DisplayName": "Serviteur",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8d7b9b70-901e-4723-b5a5-f71ac163b7eb\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MainMagique_Serviteur",
+      "DisplayName": "Serviteur",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un bout de ficelle et un morceau de bois.",
+        "HtmlContent": "Ce pouvoir crée une force [invisible](/regles/combat/conditions/invisible) et sans esprit, prenant la forme de mains de [taille](/regles/especes/taille) moyenne, qui exécute des tâches simples sur l’ordre du personnage jusqu’à la fin du pouvoir. Les mains surgissent dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) au sol dans la portée. Elles sont dotées d’une [Esquive](/regles/combat/attaque/esquive) de 12, d’un point de [Vitalité](/regles/statistiques/vitalite) et d’une [Vigueur](/regles/attributs/vigueur) de -4, et elles ne peuvent attaquer. Si leurs points de Vitalité chutent à 0, le pouvoir prend fin.\n\nUne fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut ordonner mentalement aux mains de se [déplacer](/regles/combat/activites/deplacement) d’au plus 4,5 mètres et d’[interagir avec un objet](/regles/combat/activites/objet). Elles peuvent accomplir des tâches simples qu’un domestique humain pourrait faire, telles que rapporter des objets, nettoyer, raccommoder, plier du linge, allumer des feux, servir de la nourriture et verser du vin. Une fois l’ordre donné, les mains exécutent la tâche au mieux de leurs capacités jusqu’à l’avoir terminée, puis attendent le prochain ordre. Si le personnage ordonne aux mains d’accomplir une tâche qui les éloignerait de plus de 18 mètres de sa position, le pouvoir prend fin."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "346f9105-e54e-4445-9157-a2d6f965bb39",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "luminescence",
+    "DisplayName": "Luminescence",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "luminescence",
+      "DisplayName": "Luminescence",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "luminescence",
+        "MetaDescription": "Découvrez Luminescence : lumières mobiles, flamme éternelle sans chaleur, puis radiance verdâtre qui blesse, fatigue et révèle.",
+        "Summary": "Lumières mobiles, flamme éternelle, puis radiance verdâtre épuisante.",
+        "HtmlContent": "Le personnage crée d’abord des lumières flottantes ou une silhouette lumineuse. Plus fort, une flamme sans chaleur naît sur un objet jusqu’à dissipation. Plus fort encore, une lumière verdâtre blesse, fatigue et empêche l’invisibilité."
+      }
+    }
+  }
+}

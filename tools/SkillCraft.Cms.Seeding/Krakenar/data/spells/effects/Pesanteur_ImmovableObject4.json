@@ -1,0 +1,31 @@
+﻿{
+  "Id": "c678f03e-7ae5-43f0-8012-972d2ca44f42",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pesanteur_ImmovableObject4",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b83d4296-555f-462f-b353-e351d8ec7968\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pesanteur_ImmovableObject4",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un objet qui n’est ni porté ni tenu et dont le poids n’excède pas 5 kilogrammes afin de le fixer magiquement en place. Lui et les créatures qu’il désigne lorsqu’il canalise ce pouvoir peuvent déplacer l’objet normalement. Il peut également fixer un mot de passe qui, lorsqu’il est prononcé à 1,5 mètres ou moins de l’objet, suspend ce pouvoir pendant 1 minute. Si l’objet est fixé dans les airs, il peut soutenir jusqu’à 4&nbsp;000 kilogrammes. Un poids supérieur fait [chuter](/regles/aventure/environnement/chute) l’objet. Autrement, une créature peut utiliser une [action](/regles/combat/deroulement/tour) afin d’effectuer un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) avec une pénalité (–5). En cas de réussite, la créature peut déplacer l’objet d’au plus 3 mètres.",
+        "Material": "De la poussière d’or d’une valeur d’au moins 25 deniers."
+      }
+    }
+  }
+}

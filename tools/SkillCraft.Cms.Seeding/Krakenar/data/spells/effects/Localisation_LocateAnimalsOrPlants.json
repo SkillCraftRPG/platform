@@ -1,0 +1,32 @@
+﻿{
+  "Id": "27c422a1-c45f-4ddf-bdcc-bfc7d21b003b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Localisation_LocateAnimalsOrPlants",
+    "DisplayName": "Faune & Flore",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"47501238-4a04-4cef-9031-ed3a05d81a59\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Localisation_LocateAnimalsOrPlants",
+      "DisplayName": "Faune & Flore",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la fourrure d’un chien de chasse.",
+        "HtmlContent": "Le personnage nomme ou décrit un type précis de bête ou de plante. En se concentrant sur la voix de la nature autour de lui, il apprend la direction et la distance jusqu’à la créature ou la plante de ce type la plus proche située à 10 kilomètres ou moins de sa position, s’il en existe."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6b639bc0-7f88-4304-b050-a2a37d358613",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MissilesMagiques_EldritchBlast",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"85f421b5-d8b0-44b6-a5a7-d12b6d314cd9\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MissilesMagiques_EldritchBlast",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un rayon d’énergie crépitante fuse vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "La lumière dégagée par l’objet augmente à 12 mètres de [clarté](/regles/aventure/environnement/vision) et 12 mètres additionnels de [pénombre](/regles/aventure/environnement/vision).\n\nSi le personnage cible un objet tenu ou porté par une créature ennemie, celle-ci échoue automatiquement le [jet de sauvegarde](/regles/competences/tests/sauvegarde).",
+        "HtmlContent": "La lumière dégagée par l’objet augmente à 12 mètres de [clarté](/regles/aventure/environnement/vision) et 12 mètres additionnels de [pénombre](/regles/aventure/environnement/vision). Si le personnage cible un objet tenu ou porté par une créature ennemie, celle-ci échoue automatiquement le [jet de sauvegarde](/regles/competences/tests/sauvegarde).",
         "Focus": "De la mousse phosphorescente ou une luciole."
       }
     }

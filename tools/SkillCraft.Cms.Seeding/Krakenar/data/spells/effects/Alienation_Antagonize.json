@@ -1,0 +1,31 @@
+﻿{
+  "Id": "29548c70-0ac1-4fb3-856f-580085d0686c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alienation_Antagonize",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e34ef2b4-eee2-4d66-b5a2-dada67fed7c1\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alienation_Antagonize",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une carte à jouer illustrant un valet.",
+        "HtmlContent": "Le personnage chuchote des paroles magiques qui antagonisent une créature de son choix dans la portée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle reçoit [1d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et doit immédiatement utiliser sa [réaction](/regles/combat/deroulement/tour) afin d’effectuer une [attaque de mêlée](/regles/combat/attaque/melee) contre une autre créature que le personnage désigne et qu’il peut [voir](/regles/aventure/environnement/vision). Si la cible ne peut effectuer cette attaque (par exemple parce que aucune créature n’est pas à sa portée ou que sa réaction n’est pas disponible), son prochain [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) effectué avant le début du prochain [tour](/regles/combat/deroulement/tour) du personnage est affligé du [désavantage](/regles/competences/tests/avantage-desavantage). En cas de réussite, la cible ne reçoit que la moitié des points de dégâts."
+      }
+    }
+  }
+}

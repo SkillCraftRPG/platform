@@ -1,0 +1,27 @@
+﻿{
+  "Id": "4e8f624f-76cc-427c-ad9e-3a87903faff3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sceau-magique",
+    "DisplayName": "Sceau magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sceau-magique",
+      "DisplayName": "Sceau magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sceau-magique",
+        "MetaDescription": "Découvrez Sceau magique : cerner ou enfermer des êtres d’autres dimensions, les bannir, sceller les portails, ou les lier à son service.",
+        "Summary": "Cerne, enferme, bannit, scelle les portails, ou lie à son service.",
+        "HtmlContent": "Le personnage crée d’abord un cercle qui barre ou enferme des êtres d’autres dimensions et protège contre leur emprise. Plus fort, il bannit une créature ou scelle les portails. Plus fort encore, il lie un tel être à son service."
+      }
+    }
+  }
+}

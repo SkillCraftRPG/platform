@@ -1,0 +1,32 @@
+﻿{
+  "Id": "7304211d-3e4f-48c3-ac6c-59fbd14bb0e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telepathie_DetectThoughtsGiftOfAlacrity",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e73ffea8-86f7-4887-bdf6-4e4341967a5f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telepathie_DetectThoughtsGiftOfAlacrity",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un centime.",
+        "HtmlContent": "Pendant la durée, le personnage peut lire les pensées de certaines créatures. Lorsqu’il canalise le pouvoir, et par une [action](/regles/combat/deroulement/tour) à chacun de ses [tours](/regles/combat/deroulement/tour) jusqu’à la fin du pouvoir, il peut concentrer son esprit sur n’importe quelle créature qu’il peut [voir](/regles/aventure/environnement/vision) située à 9 mètres ou moins de sa position. Si la cible est dotée d’un [Intellect](/regles/attributs/intellect) inférieur à −3, ou ne parle aucune [langue](/regles/langues), elle n’est pas affectée. Si le personnage entre en [combat](/regles/combat) à cause d’une hostilité proférée par une créature affectée, il peut rejouer son [test d’Initiative](/regles/combat/deroulement/initiative) et conserver le résultat de son choix.\n\nIl apprend d’abord les pensées de surface de la créature : ce qui occupe le plus son esprit à cet instant. Par une action, il peut soit reporter son attention sur les pensées d’une autre créature, soit tenter de sonder plus profondément l’esprit de la même créature. S’il sonde plus profondément, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, il obtient un aperçu de son raisonnement (le cas échéant), de son état émotionnel, et de quelque chose qui occupe une place importante dans son esprit (telle qu’une source d’inquiétude, d’amour ou de haine). En cas de réussite, le pouvoir prend fin. Dans les deux cas, la cible sait qu’il sonde son esprit, et à moins qu’il ne reporte son attention sur les pensées d’une autre créature, celle-ci peut utiliser son action à son tour pour effectuer un [test](/regles/competences/tests) d’Intellect opposé à un test d’Intellect du personnage ; si la cible réussit le test, le pouvoir prend fin. Les questions adressées verbalement à la cible orientent naturellement le cours de ses pensées, de sorte que ce pouvoir est particulièrement efficace dans le cadre d’un interrogatoire.\n\nLe personnage peut également utiliser ce pouvoir pour détecter la présence de créatures pensantes qu’il ne peut pas voir. Lorsqu’il canalise le pouvoir ou par une action pendant la durée, il peut chercher des pensées à 9 mètres ou moins de sa position. Le pouvoir peut pénétrer les barrières, mais 60 centimètres de roche, 5 centimètres de tout métal autre que le plomb, ou une mince feuille de plomb le bloquent. Il ne peut détecter une créature dont l’Intellect est inférieur à −3, ni une créature qui ne parle aucune langue. Une fois qu’il a détecté la présence d’une créature de cette façon, il peut lire ses pensées pour le reste de la durée comme décrit ci-dessus, même s’il ne peut pas la voir, mais elle doit toujours se trouver dans la portée."
+      }
+    }
+  }
+}

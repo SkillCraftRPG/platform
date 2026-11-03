@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d06ec5e4-bcfa-4386-b11b-5b66962ca805",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "compulsion",
+    "DisplayName": "Compulsion",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "compulsion",
+      "DisplayName": "Compulsion",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "compulsion",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

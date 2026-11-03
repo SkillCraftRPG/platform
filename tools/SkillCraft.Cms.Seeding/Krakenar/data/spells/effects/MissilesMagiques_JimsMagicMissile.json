@@ -1,0 +1,31 @@
+﻿{
+  "Id": "2796338d-560b-409e-83d3-31263f981f95",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MissilesMagiques_JimsMagicMissile",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"85f421b5-d8b0-44b6-a5a7-d12b6d314cd9\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MissilesMagiques_JimsMagicMissile",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un denier.",
+        "HtmlContent": "Le personnage crée six dards lumineux de force magique. Chaque dard peut cibler une créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il tente une [attaque](/regles/magie/effets/attaque) par un nouveau [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) pour chaque missile. Les dégâts sont également roulés individuellement par missile.\n\n- En cas de réussite, le missile inflige [1+1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types).\n- En cas de [réussite critique](/regles/competences/tests/critique), le missile inflige 2+1d12 points de dégâts de force.\n- En cas d’[échec critique](/regles/competences/tests/critique), le missile fait demi-tour et l’attaque cible le personnage. Si l’attaque réussit, le personnage reçoit les dégâts."
+      }
+    }
+  }
+}

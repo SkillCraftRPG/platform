@@ -1,0 +1,27 @@
+﻿{
+  "Id": "cdef595e-f956-43db-9312-0a5339c4561b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "porte-dimensionnelle",
+    "DisplayName": "Porte dimensionnelle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "porte-dimensionnelle",
+      "DisplayName": "Porte dimensionnelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "porte-dimensionnelle",
+        "MetaDescription": "Découvrez Porte dimensionnelle : téléportation courte ou longue, coffre éthéré, courrier par portail, cercle permanent ou pas répétés.",
+        "Summary": "Téléportations, coffre, courrier, cercle ou pas répétés.",
+        "HtmlContent": "Le personnage se téléporte d’abord brièvement. Plus fort, il voyage loin avec un compagnon, cache un coffre dans l’Éthéré ou envoie un colis par portail. Plus fort encore, il ouvre un cercle vers une destination, ou enchaîne des pas."
+      }
+    }
+  }
+}

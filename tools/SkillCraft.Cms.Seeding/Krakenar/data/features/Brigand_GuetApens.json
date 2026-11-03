@@ -14,7 +14,7 @@
       "DisplayName": "Guet-apens",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[attaque](/regles/combat/attaque) effectués contre une créature [prise au dépourvu](/regles/combat/deroulement/depourvu).\n\nÉgalement, en situation de [combat](/regles/combat), la première attaque qu’il effectue contre une créature [surprise](/regles/combat/deroulement/surprise) est automatiquement une [réussite critique](/regles/competences/tests/critique)."
+        "HtmlContent": "Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) qu’il effectue contre une créature [prise au dépourvu](/regles/combat/deroulement/depourvu), et la première attaque qu’il effectue contre une créature [surprise](/regles/combat/deroulement/surprise) est automatiquement une [réussite critique](/regles/competences/tests/critique)."
       }
     }
   }

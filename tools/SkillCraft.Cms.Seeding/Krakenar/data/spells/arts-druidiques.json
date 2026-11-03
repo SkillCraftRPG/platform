@@ -1,0 +1,27 @@
+﻿{
+  "Id": "39a1638c-734b-4aab-97d4-9a4af948efac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "arts-druidiques",
+    "DisplayName": "Arts druidiques",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "arts-druidiques",
+      "DisplayName": "Arts druidiques",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "arts-druidiques",
+        "Summary": "Prodiges, réparation, bâton enchanté, discrétion, puis freine ou enrichit.",
+        "MetaDescription": "Découvrez Arts druidiques : signes de la nature, réparation, bâton enchanté, passage discret, puis végétation envahissante ou terres enrichies.",
+        "HtmlContent": "Le personnage crée d’abord de petits prodiges naturels, répare un objet ou imprègne un bâton. Plus fort, il masque le passage du groupe. Plus fort encore, il densifie la végétation pour freiner, ou enrichit les terres et leurs récoltes."
+      }
+    }
+  }
+}

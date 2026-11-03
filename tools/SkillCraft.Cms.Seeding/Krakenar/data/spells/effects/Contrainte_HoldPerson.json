@@ -1,0 +1,32 @@
+﻿{
+  "Id": "d4082b31-47a5-47ce-9059-831f849a9bfa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Contrainte_HoldPerson",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"783db1f9-ec35-434b-848b-67d5d48f7f2a\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Contrainte_HoldPerson",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit morceau de fer droit.",
+        "HtmlContent": "Le personnage désigne un humanoïde qu’il peut [voir](/regles/aventure/environnement/vision). La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [paralysée](/regles/combat/conditions/paralyse). À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), la cible peut effectuer un nouveau jet de sauvegarde. En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

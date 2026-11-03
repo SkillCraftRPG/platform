@@ -1,0 +1,21 @@
+﻿{
+  "Id": "edbd4aa4-d47a-4671-ab41-b85f0e5b18de",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Flibustier_Traitrise",
+    "DisplayName": "Traîtrise",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Flibustier_Traitrise",
+      "DisplayName": "Traîtrise",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [attaque](/regles/combat/attaque) une créature dont la [taille](/regles/especes/taille) est de catégorie inférieure ou égale à la sienne, si au moins une créature hostile envers la cible se trouve à 1,5 mètres ou moins de celle-ci, et que aucune créature se trouvant à 1,5 mètres ou moins de celle-ci est son alliée, alors le [test](/regles/competences/tests) se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage).\n\nÉgalement, lorsqu’une créature échoue une [attaque de mêlée](/regles/combat/attaque/melee) dirigée contre le personnage, il peut agir en représailles en [réaction](/regles/combat/deroulement/tour) et effectuer une des actions suivantes.\n\n- Un [pas prudent](/regles/combat/activites/pas-prudent).\n- Un [déplacement](/regles/combat/activites/deplacement) à la moitié de sa [vitesse](/regles/aventure/mouvement/vitesse). Le test des [attaques d’opportunité](/regles/combat/attaque/opportunite) déclenchées par ce déplacement se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il dépense un [point d’Espérance](/regles/competences/esperance-damnation) et force l’attaquant à rediriger l’attaque contre une autre créature qu’il peut [voir](/regles/aventure/environnement). Cette capacité est gaspillée si l’attaquant est immunisé aux [charmes](/regles/combat/conditions/charme)."
+      }
+    }
+  }
+}

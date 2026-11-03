@@ -1,0 +1,27 @@
+﻿{
+  "Id": "49f3ce5c-2283-4549-82ec-cbd7806f4578",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "faveur-divine",
+    "DisplayName": "Faveur divine",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "faveur-divine",
+      "DisplayName": "Faveur divine",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "faveur-divine",
+        "MetaDescription": "Découvrez Faveur divine : une aura qui renforce les coups alliés, une frappe sacrée unique, ou une arme bénie durable.",
+        "Summary": "Aura de frappe, coup unique sacré, ou arme bénie durable.",
+        "HtmlContent": "Le personnage émane une aura qui renforce les attaques physiques des alliés proches. Plus fort, il bénit une arme pour une seule frappe dévastatrice. Plus fort encore, l’arme reste bénie, éclaire, et peut exploser en finissant le pouvoir."
+      }
+    }
+  }
+}

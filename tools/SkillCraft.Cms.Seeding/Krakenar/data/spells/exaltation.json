@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b8e8abf0-b53c-45b7-af9e-422fa2ec0f6d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "exaltation",
+    "DisplayName": "Exaltation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "exaltation",
+      "DisplayName": "Exaltation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "exaltation",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

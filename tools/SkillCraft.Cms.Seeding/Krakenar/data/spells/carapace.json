@@ -1,0 +1,27 @@
+﻿{
+  "Id": "40b6c732-8885-411a-a36e-9aa7db58f7cd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "carapace",
+    "DisplayName": "Carapace",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "carapace",
+      "DisplayName": "Carapace",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "carapace",
+        "MetaDescription": "Découvrez Carapace : protéger une créature touchée des coups physiques, soutenir un effort, puis durcir sa chair comme la pierre.",
+        "Summary": "Protège des coups, soutient un effort, puis durcit la chair comme la pierre.",
+        "HtmlContent": "Le personnage protège d’abord une créature touchée des coups physiques et peut soutenir un de ses efforts. Plus fort, il durcit sa chair comme la pierre pour atténuer les coups. Plus fort encore, elle résiste pleinement aux coups physiques."
+      }
+    }
+  }
+}

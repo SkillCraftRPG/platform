@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "2",
-      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\",\"eb07a636-7566-42ae-b2cc-c049c08247f7\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "esprits-funebres",
-        "Summary": "\uD83D\uDEA7",
-        "MetaDescription": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "Summary": "Linceul funèbre, ombres riposteuses, puis esprit de la mort modulable.",
+        "MetaDescription": "Découvrez Esprits funèbres : linceul nécrotique ralentissant, ombres obscurcissantes qui ripostent, puis esprit de la mort aux formes variées.",
+        "HtmlContent": "Le personnage s’entoure d’abord d’esprits qui renforcent ses frappes, bloquent la guérison et ralentissent. Plus fort, des ombres l’obscurcissent et ripostent. Plus fort encore, il invoque un esprit fantôme, faucheur, putride ou squelette."
       }
     }
   }

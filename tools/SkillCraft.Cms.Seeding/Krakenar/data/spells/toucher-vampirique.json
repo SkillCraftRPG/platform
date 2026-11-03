@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "toucher-vampirique",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Toucher vampirique : blesser ou fortifier sa vitalité, siphonner pour soigner autrui, puis se soigner ou se sacrifier.",
+        "Summary": "Blesse ou fortifie, siphonne pour autrui, puis se soigne ou se sacrifie.",
+        "HtmlContent": "Le personnage inflige d’abord une blessure nécrotique ou augmente sa vitalité maximale. Plus fort, il siphonne une cible pour soigner une autre. Plus fort encore, il se soigne en drainant, ou se sacrifie pour guérir un allié."
       }
     }
   }

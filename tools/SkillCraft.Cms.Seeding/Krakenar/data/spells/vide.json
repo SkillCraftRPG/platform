@@ -1,0 +1,27 @@
+﻿{
+  "Id": "6f85e932-572c-421d-af05-074c5bc79f8f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vide",
+    "DisplayName": "Vide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vide",
+      "DisplayName": "Vide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vide",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

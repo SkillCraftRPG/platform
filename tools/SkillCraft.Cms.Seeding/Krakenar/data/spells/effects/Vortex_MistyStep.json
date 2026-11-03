@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ada7a09e-8477-486d-9159-3fe081ce5536",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vortex_MistyStep",
+    "DisplayName": "Pas brumeux",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9ec332bb-afff-4f9d-b2ae-52fcac249d89\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vortex_MistyStep",
+      "DisplayName": "Pas brumeux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Brièvement enveloppé d’une brume argentée, le personnage se téléporte d’au plus 9 mètres vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision)."
+      }
+    }
+  }
+}

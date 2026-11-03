@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8364ba1d-676d-4a45-9811-8d2da8b6056a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lames-magiques",
+    "DisplayName": "Lames magiques",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lames-magiques",
+      "DisplayName": "Lames magiques",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lames-magiques",
+        "MetaDescription": "Découvrez Lames magiques : cercle de lames spectrales, nuée de dagues, puis épée de force maniable et relançable.",
+        "Summary": "Lames autour de soi, nuée de dagues, puis épée de force.",
+        "HtmlContent": "Le personnage crée d’abord un cercle de lames spectrales autour de lui. Plus fort, des dagues tournoyantes remplissent une zone. Plus fort encore, une épée de force apparaît dans sa main et peut réapparaître s’il la lâche."
+      }
+    }
+  }
+}

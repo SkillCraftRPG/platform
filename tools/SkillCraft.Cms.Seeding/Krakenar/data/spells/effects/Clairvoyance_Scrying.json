@@ -1,0 +1,32 @@
+﻿{
+  "Id": "760e84bb-bbf0-4a06-9726-14195b8695e3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Clairvoyance_Scrying",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21030284-b0e5-46b6-ade5-20e2ec98d147\"]",
+      "Level": "2",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Clairvoyance_Scrying",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un focus d’une valeur d’au moins 1000 deniers.",
+        "HtmlContent": "Le focus est une boule de cristal, un miroir d’argent ou une vasque remplie d’eau bénite.\n\nLe personnage peut [voir](/regles/aventure/environnement/vision) et entendre une créature précise de son choix se trouvant dans la même dimension que lui. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline), modifié selon la connaissance qu’il a de la cible et le type de lien physique qu’il possède avec elle. Si une cible sait qu’il canalise ce pouvoir, elle peut échouer volontairement au jet de sauvegarde si elle souhaite être observée. Au lieu de cibler une créature, le personnage peut choisir comme cible un lieu qu’il a déjà vu. Dans ce cas, le senseur apparaît à cet emplacement et ne se déplace pas.\n\nEn cas de réussite, la cible n’est pas affectée, et le personnage ne peut plus utiliser ce pouvoir contre elle pendant 24 heures. En cas d’échec, le pouvoir crée un senseur [invisible](/regles/combat/conditions/invisible) à 3 mètres ou moins de la cible. Le personnage peut voir et entendre à travers le senseur comme s’il s’y trouvait. Le senseur se déplace avec la cible, demeurant à 3 mètres ou moins d’elle pendant la durée. Une créature qui peut voir les objets invisibles perçoit le senseur comme un orbe lumineux de 10 centimètres de diamètre.\n\n<table class=\"table table-sm text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-third\">Connaissance</th>\n      <th scope=\"col\" class=\"w-sixth\">Modificateur</th>\n      <th scope=\"col\" class=\"w-third\">Lien</th>\n      <th scope=\"col\" class=\"w-sixth\">Modificateur</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"w-third\">De seconde main (il a entendu parler de la cible)</td>\n      <td class=\"w-sixth\">+5</td>\n      <td class=\"w-third\">Ressemblance ou image</td>\n      <td class=\"w-sixth\">−2</td>\n    </tr>\n    <tr>\n      <td class=\"w-third\">De première main (il a rencontré la cible)</td>\n      <td class=\"w-sixth\">0</td>\n      <td class=\"w-third\">Possession ou vêtement</td>\n      <td class=\"w-sixth\">−4</td>\n    </tr>\n    <tr>\n      <td class=\"w-third\">Familier (il connaît bien la cible)</td>\n      <td class=\"w-sixth\">−5</td>\n      <td class=\"w-third\">Partie du corps, mèche de cheveux, bout d’ongle, etc.</td>\n      <td class=\"w-sixth\">−10</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

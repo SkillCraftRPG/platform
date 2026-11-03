@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6cf6289b-f22b-4927-90dd-0b085995ff22",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResonanceElementaire_ElementalBane",
+    "DisplayName": "Fléau élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResonanceElementaire_ElementalBane",
+      "DisplayName": "Fléau élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision), et choisit l’un des [types de dégâts](/regles/combat/degats/types) suivants : acide, feu, foudre, froid ou tonnerre. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou être affectée par le pouvoir. La première fois à chaque [round](/regles/combat/deroulement) que la cible reçoit des dégâts du type choisi, elle reçoit [2d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires de ce type. Elle perd également toute [résistance](/regles/combat/degats/efficacite) à ce type de dégâts jusqu’à la fin du pouvoir."
+      }
+    }
+  }
+}

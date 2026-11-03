@@ -1,0 +1,33 @@
+﻿{
+  "Id": "3d092e63-2ffe-4eaa-bcfc-18936ae3c8b6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Seduction_Suggestion",
+    "DisplayName": "Suggestion",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21e98215-4656-4a06-8cc8-6757d630c20c\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Seduction_Suggestion",
+      "DisplayName": "Suggestion",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un peu de rayon de miel ou une goutte d’huile douce.",
+        "Focus": "Une langue de serpent.",
+        "HtmlContent": "Le personnage suggère une conduite (limitée à une ou deux phrases) et influence magiquement une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, qui peut l’[entendre](/regles/combat/conditions/assourdi) et le comprendre. Les créatures qui ne peuvent être [charmées](/regles/combat/conditions/charme) sont immunisées à cet effet. La suggestion doit être formulée de manière à rendre la conduite raisonnable. Demander à la créature de se poignarder, de se jeter sur une lance, de s’immoler ou d’accomplir un autre acte manifestement nuisible met fin au pouvoir.\n\nLa cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle poursuit la conduite décrite au meilleur de ses capacités. La conduite suggérée peut se poursuivre pendant toute la durée. Si l’activité suggérée peut être achevée en moins de temps, le pouvoir prend fin lorsque le sujet a terminé ce qui lui a été demandé. Si le personnage ou l’un de ses compagnons inflige des [dégâts](/regles/combat/degats) à la cible, le pouvoir prend fin.\n\nLe personnage peut également préciser des conditions qui déclencheront une activité particulière pendant la durée. Par exemple, il pourrait suggérer à un chevalier de donner son destrier au premier mendiant qu’elle rencontre. Si la condition n’est pas remplie avant l’expiration du pouvoir, l’activité n’est pas effectuée."
+      }
+    }
+  }
+}

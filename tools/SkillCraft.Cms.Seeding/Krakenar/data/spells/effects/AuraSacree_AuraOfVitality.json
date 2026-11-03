@@ -1,0 +1,30 @@
+﻿{
+  "Id": "90a1486e-729e-48ec-879c-1cfd39b4c015",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AuraSacree_AuraOfVitality",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ba63c2f6-4b0f-4ca4-b2bb-99d803cd764e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AuraSacree_AuraOfVitality",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une énergie guérisseuse émane du personnage sous la forme d’une aura d’un rayon de 9 mètres. Jusqu’à la fin du pouvoir, l’aura se déplace avec lui, centrée sur sa position. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut [soigner](/regles/combat/degats/soins) une créature dans l’aura, y compris lui-même, de 1d6&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) points de [Vitalité](/regles/statistiques/vitalite)."
+      }
+    }
+  }
+}

@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Specialization": "[\"a2191a57-f6e9-45f4-ba8f-1bb4104c4759\"]",
-      "DiscountedTalents": "[\"2f330428-3e52-48a2-bbc3-4fb875f810db\",\"670ba98d-b114-435b-8d15-2940dd4dc597\",\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\"]"
+      "DiscountedTalents": "[\"2f330428-3e52-48a2-bbc3-4fb875f810db\",\"670ba98d-b114-435b-8d15-2940dd4dc597\",\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"38173a78-554b-4d1b-928b-a7d61d8c8ace\"]",
+      "Features": "[\"32a0da04-b561-4d9c-8955-e9be4c3a4e37\",\"64c01680-c348-4bfd-aedc-de0bbd79694b\",\"49b482f9-9429-4217-b628-f4f1e1a9ef0e\",\"792b0cc5-a423-42dc-8dc8-d469bc8927e2\"]"
     }
   },
   "Locales": {

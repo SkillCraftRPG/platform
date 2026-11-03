@@ -1,0 +1,31 @@
+﻿{
+  "Id": "d6eeab73-6d6f-4dea-a705-86ffab9848f2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Luminescence_SickeningRadiance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"346f9105-e54e-4445-9157-a2d6f965bb39\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Luminescence_SickeningRadiance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une lumière verdâtre et sombre se répand dans une sphère de 9 mètres de rayon centrée sur un point que le personnage désigne dans la portée. La lumière se propage autour des coins, et elle dure jusqu’à la fin du pouvoir. Lorsqu’une créature entre dans la zone du pouvoir pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y débute son tour, elle doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou recevoir [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types), subir un niveau de [Fatigue](/regles/combat/conditions/fatigue) et émettre une faible lumière verdâtre dans un rayon de 1,5 mètres. Cette lumière empêche la créature de bénéficier de l’[invisibilité](/regles/combat/conditions/invisible). La lumière et tous les niveaux de Fatigue causés par ce pouvoir disparaissent lorsque le pouvoir prend fin."
+      }
+    }
+  }
+}

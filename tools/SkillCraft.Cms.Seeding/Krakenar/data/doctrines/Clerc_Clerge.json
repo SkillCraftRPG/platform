@@ -17,7 +17,7 @@
       "DisplayName": "Clergé",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 1 spécifique à son [domaine divin](/regles/domaines/divins)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=divin) de tiers 1 associés à son [domaine divin](/regles/domaines/divins) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 1 spécifique à son [domaine divin](/regles/domaines/divins)."
       }
     }
   }

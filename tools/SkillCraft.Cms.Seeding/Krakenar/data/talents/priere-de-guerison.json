@@ -1,0 +1,28 @@
+﻿{
+  "Id": "e6d1ef75-789a-4cea-9b3f-b97fd6c8c090",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "priere-de-guerison",
+    "DisplayName": "Prière de guérison",
+    "Description": null,
+    "FieldValues": {
+      "RequiredTalent": "[\"d8473b88-7dc6-436b-9f92-9936e07362c4\"]",
+      "Tier": "1",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "priere-de-guerison",
+      "DisplayName": "Prière de guérison",
+      "Description": "Par une [action](/regles/combat/deroulement/tour), le personnage présente son [symbole divin](/regles/equipement/general) et récite une prière châtiant les créatures appartenant à un des types suivants : aberration, célestiel, élémentaire, fée, infernal ou mort-vivant. S’il a acquis la spécialisation [Clerc](/regles/specialisations/clerc) ou [Champion](/regles/specialisations/champion), il invoque son pouvoir divin pour utiliser cette capacité. Sinon, il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nLe personnage effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), et toute créature appartenant au type désigné située à 9 mètres ou moins de sa position qui peut le [voir](/regles/aventure/environnement/vision) ou l’[entendre](/regles/combat/conditions/assourdi) doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test. En cas d’échec, une créature est [étourdie](/regles/combat/conditions/etourdi) et doit utiliser toutes ses actions afin de fuir le personnage. Si elle ne peut fuir, alors elle ne peut qu’effectuer les activités [Défense](/regles/combat/activites/defense) ou [S’échapper](/regles/combat/activites/echapper). L’effet dure [une minute](/regles/aventure/temps) ou jusqu’à ce que la créature reçoive des [points de dégâts](/regles/combat/degats).\n\nSi le personnage utilise cette capacité en invoquant son pouvoir divin, tout mort-vivant ayant échoué le jet de sauvegarde et dont le [niveau](/regles/personnages/progression/niveau) est inférieur ou égal au [tiers](/regles/personnages/progression/tiers) du personnage est instantanément [détruit](/regles/combat/conditions/mort).",
+      "FieldValues": {
+        "Slug": "priere-de-guerison",
+        "MetaDescription": "Découvrez Prière de guérison, un talent spirituel permettant de soigner jusqu’à cinq créatures grâce à une prière et à la puissance divine.",
+        "Summary": "Permet de soigner jusqu’à cinq créatures grâce à une prière divine.",
+        "HtmlContent": "Le personnage récite une prière de guérison en présentant son symbole divin pendant [10 minutes](/regles/aventure/temps). S’il a acquis la spécialisation [Clerc](/regles/specialisations/clerc) ou [Champion](/regles/specialisations/champion), il invoque son pouvoir divin pour utiliser cette capacité. Sinon, il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nIl désigne ensuite jusqu’à six créatures qu’il peut [voir](/regles/aventure/environnement/vision) situées à 9 mètres ou moins de sa position, et peut s’inclure dans ce nombre. Une cible ayant assisté à la prière pendant toute sa durée [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à 4d6&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) du personnage. Les morts-vivants et constructions ne sont pas affectées par cette capacité.\n\nSi le personnage utilise cette capacité sans invoquer un pouvoir divin, les dés sont remplacés par 1."
+      }
+    }
+  }
+}

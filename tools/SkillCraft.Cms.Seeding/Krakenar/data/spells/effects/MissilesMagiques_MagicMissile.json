@@ -1,0 +1,30 @@
+﻿{
+  "Id": "d67c8010-280e-452d-8a8a-38b63b05ae2a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MissilesMagiques_MagicMissile",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"85f421b5-d8b0-44b6-a5a7-d12b6d314cd9\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MissilesMagiques_MagicMissile",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée quatre dards lumineux de force magique. Chaque dard touche une créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Un dard inflige [1+1d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) à sa cible. Les dards frappent tous simultanément, et le personnage peut les diriger vers une seule créature ou plusieurs. Tous les dards infligent les mêmes points de dégâts."
+      }
+    }
+  }
+}

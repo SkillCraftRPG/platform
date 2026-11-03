@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b77a5d93-1598-401c-b7a8-704ec69b3049",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vortex_Wristpocket",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9ec332bb-afff-4f9d-b2ae-52fcac249d89\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsVerbal": "true",
+      "IsRitual": "true",
+      "IsConcentration": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vortex_Wristpocket",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait un geste du poignet, faisant disparaître un objet dans sa main. L’objet, que le personnage doit être seul à tenir et qui ne peut peser plus de 2,5 kilogrammes, est transporté dans une poche extradimensionnelle, où il demeure pendant la durée. Jusqu’à la fin du pouvoir, il peut utiliser une [action](/regles/combat/deroulement/tour) afin de faire apparaître l’objet dans sa main libre, et il peut utiliser une action afin de le renvoyer dans la poche. Un objet encore dans la poche dimensionnelle lorsque le pouvoir prend fin réapparaît aux pieds du personnage."
+      }
+    }
+  }
+}

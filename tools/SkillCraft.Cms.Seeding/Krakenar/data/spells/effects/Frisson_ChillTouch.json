@@ -11,7 +11,7 @@
       "CastingTime": "[\"2\"]",
       "Duration": "1",
       "DurationUnit": "[\"Round\"]",
-      "Range": "24",
+      "Range": "12",
       "IsSomatic": "true",
       "IsVerbal": "true"
     }
@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage crée une main spectrale et squelettique, qui [attaque](/regles/magie/effets/attaque) une cible.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](a/regles/combat/degats/jet) [perforants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nDe plus, la main s’accroche sur la cible jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. La cible ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) pendant cette durée.\n\nSi la cible est un mort-vivant, le test de ses [attaques](/regles/combat/attaque) dirigées contre le personnage se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage) pendant cette durée."
+        "HtmlContent": "Le personnage tente d’assaillir du froid de la tombe une créature en créant une main fantomatique et squelettique dans l’espace de la cible. Ce pouvoir n’a aucun effet sur les morts-vivants ni les constructions. Le personnage choisit une des options suivantes :\n\n- Si l’[attaque](/regles/magie/effets/attaque) réussit, la main s’accroche à la cible, et la cible ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n- Si la cible échoue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance), elle tombe [renversée](/regles/combat/conditions/renverse).\n\nEn cas de réussite de l’attaque ou d’échec du jet de sauvegarde, la cible reçoit également [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types)."
       }
     }
   }

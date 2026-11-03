@@ -22,7 +22,7 @@
       "DisplayName": "Réparation",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage touche un objet afin de le réparer. La réparation ne laisse aucune trace. Si la taille de l’objet est supérieure à celle d’un cube de 30 centimètres d’arête, alors le pouvoir ne répare qu’une section pouvant être contenue dans un cube de cette taille."
+        "HtmlContent": "Le personnage touche un objet afin de réparer une seule brisure ou déchirure, telle un maillon de chaîne cassé, les deux moitiés d’une clé brisée, un manteau déchiré ou une outre qui fuit. Tant que la brisure ou la déchirure n’est pas plus grande qu’un cube de 30 centimètres d’arête, il la répare sans laisser de trace. Ce pouvoir peut réparer physiquement un objet magique ou une construction, mais il ne peut pas lui rendre sa magie."
       }
     }
   }

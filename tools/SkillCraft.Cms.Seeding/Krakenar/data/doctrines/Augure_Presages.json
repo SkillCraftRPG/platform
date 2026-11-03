@@ -18,7 +18,7 @@
       "DisplayName": "Présages",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à l'élément Esprit ([Divination](#)) et acquiert gratuitement un de ces pouvoirs.\nIl peut désormais utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme&subcategory=theurgie) de tiers 2 associés à l'élément Esprit ([Théurgie](/regles/elementarisme?category=theurgie)) et acquiert gratuitement un de ces pouvoirs.\nIl peut désormais utiliser de puissantes [capacités élémentaires](/regles/elementarisme/capacites) de tiers 2."
       }
     }
   }

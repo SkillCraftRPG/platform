@@ -1,7 +1,7 @@
 ﻿{
   "Id": "ee779a6f-5fd0-4e38-be0b-7c1cac23b1b9",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Coercition_FastFriends",
     "DisplayName": null,
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Coercition_FastFriends",
       "DisplayName": null,
       "Description": null,

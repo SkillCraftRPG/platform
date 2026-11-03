@@ -1,0 +1,32 @@
+﻿{
+  "Id": "6716c53c-7402-45a7-bfc3-a23561c88d33",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Poulpe_EvardsBlackTentacles",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c5097c6-d3c5-4158-8dc4-aa0c838bf1e2\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "IsVerbal": "true",
+      "IsSomatic": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Poulpe_EvardsBlackTentacles",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un poulpe entier.",
+        "HtmlContent": "Des tentacules d’ébène tortillants remplissent un carré de 6 mètres d’arête au sol que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée. Pendant la durée, ces tentacules transforment le sol de la zone en [terrain difficile](/regles/aventure/mouvement/terrain-difficile). Lorsqu’une créature entre dans la zone affectée pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y débute son tour, elle doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) et être [restreinte](/regles/combat/conditions/restreint) par les tentacules jusqu’à la fin du pouvoir. Une créature qui débute son tour dans la zone et qui est déjà restreinte par les tentacules reçoit automatiquement les dégâts. Une créature restreinte par les tentacules peut tenter de [se libérer](/regles/combat/activites/echapper). En cas de réussite, elle peut quitter la zone en toute sécurité."
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Les [points de dégâts](/regles/combat/degats) infligés augmentent à 4d6 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage, et la faible lumière divine dure jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+        "HtmlContent": "Les [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) augmentent à [4d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance), et la faible lumière divine dure jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage."
       }
     }
   }

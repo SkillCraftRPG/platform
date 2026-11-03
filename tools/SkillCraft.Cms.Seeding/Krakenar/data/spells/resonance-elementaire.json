@@ -1,0 +1,27 @@
+﻿{
+  "Id": "044b648d-005a-4ec4-9996-de338d8e5138",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "resonance-elementaire",
+    "DisplayName": "Résonance élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "resonance-elementaire",
+      "DisplayName": "Résonance élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "Summary": "Absorbe, arme ou protège, puis fléau ou garde élémentaire.",
+        "MetaDescription": "Découvrez Résonance primordiale : absorption, arme et protection élémentaires, fléau, puis garde contre tous les éléments.",
+        "HtmlContent": "Le personnage absorbe d’abord l’énergie élémentaire, arme une lame ou protège un allié. Plus fort, l’arme grandit ou un fléau élémentaire frappe. Plus fort encore, l’arme culmine ou une garde résiste à tous les éléments, puis immunise.",
+        "Slug": "resonance-elementaire"
+      }
+    }
+  }
+}

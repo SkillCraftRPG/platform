@@ -17,7 +17,7 @@
       "DisplayName": "Astromancie",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 1 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nLorsqu’il [acquiert](/regles/talents/acquisition) un des [talents](/regles/talents) suivants, il acquiert gratuitement l’autre : [Initiation magique](/regles/talents/initiation-magique), [Méditation](/regles/talents/meditation)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=astromancie) de tiers 1 d’[astromancie](/regles/astromancie) et acquiert gratuitement un de ces pouvoirs.\nLorsqu’il [acquiert](/regles/talents/acquisition) un des [talents](/regles/talents) suivants, il acquiert gratuitement l’autre : [Initiation magique](/regles/talents/initiation-magique), [Méditation](/regles/talents/meditation)."
       }
     }
   }

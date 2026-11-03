@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a21cbf78-f603-4f55-b274-6cb4844c1ada",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Invisibilite_GreaterInvisibility",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4f401ca1-852f-4fc3-bbc9-c801d42c7897\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Invisibilite_GreaterInvisibility",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un cil enrobé de gomme arabique.",
+        "HtmlContent": "Le personnage touche une créature consentante et celle-ci devient [invisible](/regles/combat/conditions/invisible) jusqu’à la fin du pouvoir. Tout ce qu’elle porte ou tient est invisible tant que ces objets demeurent sur elle."
+      }
+    }
+  }
+}

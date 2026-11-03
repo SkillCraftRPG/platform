@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b83d4296-555f-462f-b353-e351d8ec7968",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "pesanteur",
+    "DisplayName": "Pesanteur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "pesanteur",
+      "DisplayName": "Pesanteur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "pesanteur",
+        "MetaDescription": "Découvrez Pesanteur : amplifier la gravité, amortir une chute, ancrer un objet, puis le renforcer ou faire léviter une cible.",
+        "Summary": "Alourdit, amortit les chutes, ancre un objet, puis lévite.",
+        "HtmlContent": "Le personnage écrase d’abord une zone sous une gravité accrue, ou ralentit une chute. Plus fort, il fixe magiquement un objet en place. Plus fort encore, l’ancrage tient davantage, ou il fait léviter une créature ou un objet."
+      }
+    }
+  }
+}

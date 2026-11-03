@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6135e696-f214-432e-8139-071c96f479c0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ToucherVampirique_WitherAndBloom",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ToucherVampirique_WitherAndBloom",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage siphonne la force vitale d’une créature afin de guérir les blessures d’une autre. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). Par une [action](/regles/combat/deroulement/tour), le personnage peut ensuite toucher une créature différente de lui-même. Celle-ci [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal aux points de dégâts nécrotiques infligés, puis le pouvoir prend fin."
+      }
+    }
+  }
+}

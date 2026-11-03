@@ -1,0 +1,31 @@
+﻿{
+  "Id": "81a5993a-54ab-49a1-891e-ac3758a475fc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaveurDivine_InflictWounds",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"49f3ce5c-2283-4549-82ec-cbd7806f4578\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaveurDivine_InflictWounds",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage imprègne d’une puissance sacrée une [arme](/regles/equipement/armes) qu’il touche. La prochaine [attaque](/regles/combat/attaque) réussie en maniant cette arme inflige [4d10](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) supplémentaires, puis le pouvoir prend fin. Le [type](/regles/combat/degats/types) des dégâts supplémentaires varie en fonction du [domaine divin](/regles/domaines/divins) du personnage."
+      }
+    }
+  }
+}

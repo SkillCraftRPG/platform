@@ -1,0 +1,27 @@
+﻿{
+  "Id": "fd09ccb6-d923-4010-82a0-3efcffc2922b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "iridescence",
+    "DisplayName": "Iridescence",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "iridescence",
+      "DisplayName": "Iridescence",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "iridescence",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

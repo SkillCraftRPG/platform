@@ -1,0 +1,32 @@
+﻿{
+  "Id": "29481e40-ddb6-4338-b8ac-ef05647a6105",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Calamite_HexBestowCurse",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a9925d0b-4b15-408f-88b9-c81f43982c8e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Calamite_HexBestowCurse",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature, et celle-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) afin de ne pas être maudite. Lorsqu’il canalise le pouvoir, il choisit la nature de la malédiction parmi les options suivantes :\n\n- Il choisit un [attribut](/regles/attributs). Tous les [tests](/regles/competences/tests) de la cible associés à cet attribut sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Le test des [attaques](/regles/combat/attaque) de la cible dirigées contre le personnage se voit affligé du désavantage.\n- La cible doit effectuer un jet de sauvegarde de Discipline au début de chacun de ses [tours](/regles/combat/deroulement/tour). En cas d’échec, elle ne fait rien pendant ce tour.\n- Les attaques et pouvoirs du personnage lui infligent [1d10](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) supplémentaires.\n\nLe pouvoir [Restauration (niveau 3)](/regles/magie/pouvoirs/restauration) met fin à cet effet. Au choix du maître de jeu, le personnage peut choisir un effet de malédiction alternatif, qui ne doit pas être plus puissant que ceux décrits ci-dessus. Le maître de jeu a le dernier mot sur un tel effet.",
+        "Focus": "L’œil pétrifié d’un triton."
+      }
+    }
+  }
+}

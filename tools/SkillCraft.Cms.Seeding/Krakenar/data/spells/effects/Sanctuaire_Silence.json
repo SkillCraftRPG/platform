@@ -1,0 +1,32 @@
+﻿{
+  "Id": "bb7aa035-5eaa-4e1d-a80f-f5b46da2b208",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sanctuaire_Silence",
+    "DisplayName": "Silence",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29aad939-4a79-4a3f-bd8d-bd495c5129d3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "IsRitual": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sanctuaire_Silence",
+      "DisplayName": "Silence",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un sanctuaire de silence prenant la forme d’une sphère de 6 mètres de rayon centrée sur un point de son choix. Aucun son ne peut y être créé ni traverser le sanctuaire. Toute créature ou tout objet entièrement à l’intérieur de la sphère est [immunisé](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types), et les créatures sont [assourdies](/regles/combat/conditions/assourdi) tant qu’elles s’y trouvent entièrement. Canaliser un pouvoir requérant la composante [Verbale](/regles/magie/parametres/composantes) y est impossible."
+      }
+    }
+  }
+}

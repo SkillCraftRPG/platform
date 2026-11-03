@@ -1,0 +1,33 @@
+﻿{
+  "Id": "86790d39-59d0-4df6-b174-bd8d0e1715dd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LueurLunaire_Moonbeam",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LueurLunaire_Moonbeam",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un feldspath opalescent.",
+        "Material": "Une semence de ménispermacée.",
+        "HtmlContent": "Un rayon argenté de pâle lumière brille en un cylindre de 1,5 mètres de rayon et de 12 mètres de haut, centré sur un point. Jusqu’à la fin du pouvoir, de la [pénombre](/regles/aventure/environnement/vision) remplit le cylindre. À chacun de ses [tours](/regles/combat/deroulement/tour) après avoir canalisé ce pouvoir, le personnage peut utiliser une [action](/regles/combat/deroulement/tour) afin de déplacer le rayon d’au plus 18 mètres dans n’importe quelle direction.\n\nLorsqu’une créature entre dans la zone du pouvoir pour la première fois pendant un tour ou y débute son tour, elle est enveloppée de flammes féériques qui provoquent une douleur brûlante, et elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts.\n\nUn métamorphe est affligé du [désavantage](/regles/competences/tests/avantage-desavantage) à ce jet de sauvegarde. En cas d’échec, il reprend également instantanément sa forme d’origine et ne peut en adopter une autre tant qu’il n’a pas quitté la lumière du pouvoir."
+      }
+    }
+  }
+}

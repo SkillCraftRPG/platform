@@ -1,0 +1,27 @@
+﻿{
+  "Id": "21030284-b0e5-46b6-ade5-20e2ec98d147",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "clairvoyance",
+    "DisplayName": "Clairvoyance",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "clairvoyance",
+      "DisplayName": "Clairvoyance",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "clairvoyance",
+        "MetaDescription": "Découvrez Clairvoyance : senseur fixe de vue ou d’ouïe, œil magique mobile, puis scrutation d’une créature ou d’un lieu déjà vu.",
+        "Summary": "Senseur distant, œil mobile, puis scrutation d’une cible.",
+        "HtmlContent": "Le personnage place d’abord un senseur invisible pour voir ou entendre à distance. Plus fort, un œil magique vole et explore loin. Plus fort encore, il scrute une créature ou un lieu déjà vu, le senseur suivant sa cible."
+      }
+    }
+  }
+}

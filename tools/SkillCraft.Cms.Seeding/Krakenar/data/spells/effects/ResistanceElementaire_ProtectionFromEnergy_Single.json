@@ -1,7 +1,7 @@
 ﻿{
   "Id": "f38fe349-1eae-4d15-850a-7de22c9a64e1",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Single",
     "DisplayName": null,
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Single",
       "DisplayName": null,
       "Description": null,

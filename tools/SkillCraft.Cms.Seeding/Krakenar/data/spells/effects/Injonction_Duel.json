@@ -1,0 +1,30 @@
+﻿{
+  "Id": "44dea053-a5dd-4425-b589-f7915871e857",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Injonction_Duel",
+    "DisplayName": "Duel",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"37ef7fe9-0634-4f75-a7ea-3af0436c5c7f\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Injonction_Duel",
+      "DisplayName": "Duel",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de contraindre une créature au duel. Une créature qu’il peut [voir](/regles/aventure/environnement/vision) doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la créature est attirée vers lui, contrainte par son exigence divine. Pendant la durée :\n\n- Le [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) dirigées contre une cible autre que le personnage sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Elle doit effectuer un jet de sauvegarde de Discipline chaque fois qu’elle tente de se déplacer vers un espace situé à plus de 9 mètres du personnage. En cas de réussite, le pouvoir ne restreint pas son [déplacement](/regles/combat/activites/deplacement) pendant ce [tour](/regles/combat/deroulement/tour).\n\nLe pouvoir prend fin si le personnage attaque une autre créature, s’il canalise un pouvoir ciblant une créature hostile autre que la cible, si une créature alliée [blesse](/regles/combat/degats) la cible ou canalise un pouvoir nuisible contre celle-ci, ou si le personnage termine son tour à plus de 9 mètres de la cible."
+      }
+    }
+  }
+}

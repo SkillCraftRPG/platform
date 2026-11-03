@@ -1,0 +1,31 @@
+﻿{
+  "Id": "8dafcc05-cc33-4695-9ab1-3e190cc2eaa0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Resurrection_Resurrection",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d1d03473-5757-4e36-b916-16a67d6d39be\"]",
+      "Level": "2",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Resurrection_Resurrection",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un diamant d’une valeur d’au moins 1000 deniers.",
+        "HtmlContent": "Le personnage touche une créature [morte](/regles/combat/conditions/mort) depuis au plus un siècle, qui n’est pas morte de vieillesse et qui n’est pas un mort-vivant. Si son âme est libre et consentante, la cible revient à la vie avec tous ses points de [Vitalité](/regles/statistiques/vitalite). Ce pouvoir neutralise tout [poison](/regles/herboristerie/poisons) et guérit les maladies ordinaires qui affligeaient la créature au moment de sa [mort](/regles/combat/mort-agonie). Il ne retire toutefois pas les maladies magiques, malédictions et effets similaires ; s’ils ne sont pas retirés avant de canaliser le pouvoir, ils affligent la cible à son retour à la vie.\n\nCe pouvoir referme toutes les blessures mortelles et restaure toute partie du corps manquante. Revenir d’entre les morts est une épreuve. La cible subit une pénalité de −4 à tous ses [tests](/regles/competences/tests). Chaque fois que la cible complète une [nuit de sommeil](/regles/aventure/repos/sommeil), la pénalité est réduite de 1 jusqu’à disparaître.\n\nCanaliser ce pouvoir pour ramener à la vie une créature morte depuis un an ou plus éprouve grandement le personnage. Tant qu’il ne complète pas une nuit de sommeil, il ne peut plus canaliser de pouvoirs, et il est affligé du [désavantage](/regles/competences/tests/avantage-desavantage) à tous ses tests."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "c0b64c4a-1d99-42aa-953f-e3f5c742b619",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "balancier",
+    "DisplayName": "Balancier",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "balancier",
+      "DisplayName": "Balancier",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "balancier",
+        "MetaDescription": "Découvrez Balancier : affaiblir un succès adverse pour renforcer un allié, conférer une chance latente, puis osciller la fortune d’une cible ou d’une aura.",
+        "Summary": "Affaiblit un succès, offre une chance, puis oscille la fortune.",
+        "HtmlContent": "Le personnage force d’abord un succès à basculer au pire, tout en renforçant un autre. Plus fort, une chance latente permet de choisir. Plus fort encore, la fortune oscille pour une cible ou une aura."
+      }
+    }
+  }
+}

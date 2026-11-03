@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d8693bbe-dbf5-497f-a58e-ebb0a3bb1b2e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_Knock",
+    "DisplayName": "Déblocage",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_Knock",
+      "DisplayName": "Déblocage",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage choisit un objet qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. L’objet peut être une porte, une boîte, un coffre, des menottes, un cadenas, ou un autre objet pourvu d’un moyen banal ou magique empêchant l’accès. Une cible maintenue fermée par une serrure banale, ou qui est coincée ou barrée, est déverrouillée, décoincée ou débarrée. Si l’objet comporte plusieurs serrures, une seule d’entre elles est déverrouillée. S’il choisit une cible maintenue fermée par [Interdiction (niveau 3)](/regles/magie/pouvoirs/interdiction), ce pouvoir est suspendu pendant 10 minutes, pendant lesquelles la cible peut être ouverte et fermée normalement. Lorsque le personnage canalise le pouvoir, un fort coup audible jusqu’à 100 mètres émane de l’objet cible."
+      }
+    }
+  }
+}

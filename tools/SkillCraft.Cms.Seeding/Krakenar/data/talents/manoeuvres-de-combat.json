@@ -8,7 +8,6 @@
     "FieldValues": {
       "Tier": "1",
       "AllowMultiplePurchases": "True",
-      "Skill": "[\"bd6bedde-2e50-493f-a1cc-8e23123c45c4\"]",
       "RequiredTalent": "[\"5601b8cb-9061-4a44-9dfe-2ac1fdd46f46\"]"
     }
   },

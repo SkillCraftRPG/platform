@@ -1,0 +1,30 @@
+﻿{
+  "Id": "d6827206-d85f-4fa5-bdf6-45a05a6a8d46",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PorteDimensionnelle_FarStep",
+    "DisplayName": "Pas lointain",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cdef595e-f956-43db-9312-0a5339c4561b\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PorteDimensionnelle_FarStep",
+      "DisplayName": "Pas lointain",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se téléporte d’au plus 18 mètres vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision). Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut se téléporter de cette manière à nouveau."
+      }
+    }
+  }
+}

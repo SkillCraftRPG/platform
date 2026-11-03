@@ -1,0 +1,29 @@
+﻿{
+  "Id": "49deeb12-f579-4431-9af5-b9b4fc88fea6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_Mending",
+    "DisplayName": "Réparation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_Mending",
+      "DisplayName": "Réparation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un objet afin de réparer une seule brisure ou déchirure, telle un maillon de chaîne cassé, les deux moitiés d’une clé brisée, un manteau déchiré ou une outre qui fuit. Tant que la brisure ou la déchirure n’est pas plus grande qu’un cube de 30 centimètres d’arête, il la répare sans laisser de trace. Ce pouvoir peut réparer physiquement un objet magique ou une construction, mais il ne peut pas lui rendre sa magie."
+      }
+    }
+  }
+}

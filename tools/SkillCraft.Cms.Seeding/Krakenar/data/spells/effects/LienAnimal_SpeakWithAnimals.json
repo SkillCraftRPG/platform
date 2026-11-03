@@ -1,0 +1,31 @@
+﻿{
+  "Id": "2e94e84f-d49b-41b0-b878-8c596522926c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LienAnimal_SpeakWithAnimals",
+    "DisplayName": "Parler avec les animaux",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21ccc0f1-47b4-4361-b3c8-607516a39e76\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LienAnimal_SpeakWithAnimals",
+      "DisplayName": "Parler avec les animaux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert la capacité de comprendre les bêtes et de communiquer verbalement avec elles pendant la durée. Le savoir et la conscience de nombreuses bêtes sont limités par leur [Intellect](/regles/attributs/intellect), mais au minimum, les bêtes peuvent lui fournir des informations sur les lieux et monstres proches, y compris ce qu’elles peuvent percevoir ou ont perçu au cours de la dernière journée. Il pourrait être en mesure de persuader une bête d’accomplir une petite faveur pour lui, à la discrétion du maître de jeu."
+      }
+    }
+  }
+}

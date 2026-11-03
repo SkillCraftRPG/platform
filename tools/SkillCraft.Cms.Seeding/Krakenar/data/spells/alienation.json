@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e34ef2b4-eee2-4d66-b5a2-dada67fed7c1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "alienation",
+    "DisplayName": "Aliénation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "alienation",
+      "DisplayName": "Aliénation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "alienation",
+        "MetaDescription": "Découvrez Aliénation : fou rire immobilisant, couronne qui force l’attaque, puis provocation hostile ou confusion ami-ennemi.",
+        "Summary": "Fou rire, couronne hostile, puis attaque forcée ou démence.",
+        "HtmlContent": "Le personnage plonge d’abord une cible dans un fou rire incapacitant. Plus fort, une couronne de folie force un humanoïde à frapper. Plus fort encore, il provoque une attaque hostile ou brouille ami et ennemi."
+      }
+    }
+  }
+}

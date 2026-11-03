@@ -1,0 +1,27 @@
+﻿{
+  "Id": "2f31e9f8-4123-4c7c-8332-68db49ecddd2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lueur-lunaire",
+    "DisplayName": "Lueur lunaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lueur-lunaire",
+      "DisplayName": "Lueur lunaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lueur-lunaire",
+        "Summary": "Feu de joie, aura révélatrice, puis rayon argenté contre métamorphes.",
+        "MetaDescription": "Découvrez Lueur lunaire : allumer un feu de joie, marquer d’une aura colorée, puis frapper d’un rayon argenté qui blesse et contraint les métamorphes.",
+        "HtmlContent": "Le personnage allume d’abord un feu de joie brûlant. Plus fort, il marque objets et créatures d’une aura colorée qui les révèle. Plus fort encore, un rayon argenté déplaçable blesse et force les métamorphes à reprendre leur forme."
+      }
+    }
+  }
+}

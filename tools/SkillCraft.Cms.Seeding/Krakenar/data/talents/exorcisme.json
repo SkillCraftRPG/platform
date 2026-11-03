@@ -1,0 +1,28 @@
+﻿{
+  "Id": "0a9e78a0-14db-465d-a10d-8673b83c77ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "exorcisme",
+    "DisplayName": "Exorcisme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "AllowMultiplePurchases": "False",
+      "RequiredTalent": "[\"d8473b88-7dc6-436b-9f92-9936e07362c4\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "exorcisme",
+      "DisplayName": "Exorcisme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "exorcisme",
+        "Summary": "Repousse les créatures surnaturelles et détruit les morts-vivants faibles.",
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), le personnage présente son [symbole divin](/regles/equipement/general) et récite une prière châtiant les créatures appartenant à un des types suivants : aberration, célestiel, élémentaire, fée, infernal ou mort-vivant. S’il a acquis la spécialisation [Clerc](/regles/specialisations/clerc) ou [Champion](/regles/specialisations/champion), il invoque son pouvoir divin pour utiliser cette capacité. Sinon, il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nLe personnage effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme), et toute créature appartenant au type désigné située à 9 mètres ou moins de sa position qui peut le [voir](/regles/aventure/environnement/vision) ou l’[entendre](/regles/combat/conditions/assourdi) doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au résultat du test. En cas d’échec, une créature est [étourdie](/regles/combat/conditions/etourdi) et doit utiliser toutes ses actions afin de fuir le personnage. Si elle ne peut fuir, alors elle ne peut qu’effectuer les activités [Défense](/regles/combat/activites/defense) ou [S’échapper](/regles/combat/activites/echapper). L’effet dure [une minute](/regles/aventure/temps) ou jusqu’à ce que la créature reçoive des [points de dégâts](/regles/combat/degats).\n\nSi le personnage utilise cette capacité en invoquant son pouvoir divin, tout mort-vivant ayant échoué le jet de sauvegarde et dont le [niveau](/regles/personnages/progression/niveau) est inférieur ou égal au [tiers](/regles/personnages/progression/tiers) du personnage est instantanément [détruit](/regles/combat/conditions/mort).",
+        "MetaDescription": "Découvrez Exorcisme, un talent de SkillCraft permettant de repousser les créatures surnaturelles et de détruire les morts-vivants les plus faibles par la foi."
+      }
+    }
+  }
+}

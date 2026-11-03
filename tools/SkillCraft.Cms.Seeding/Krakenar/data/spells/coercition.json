@@ -1,7 +1,7 @@
 ﻿{
   "Id": "a3328900-e773-4816-bed6-8ca0ce122601",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "coercition",
     "DisplayName": "Coercition",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "coercition",
       "DisplayName": "Coercition",
       "Description": null,

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "1563cbd8-24b8-49f8-b33f-79f948fff2d0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Resurrection_RaiseDead",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d1d03473-5757-4e36-b916-16a67d6d39be\"]",
+      "Level": "1",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Resurrection_RaiseDead",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un diamant d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Le personnage ramène à la vie une créature [morte](/regles/combat/conditions/mort) qu’il touche, pourvu qu’elle soit morte depuis au plus 10 jours. Si l’âme de la créature est à la fois consentante et libre de rejoindre le corps, la créature revient à la vie avec 1 point de [Vitalité](/regles/statistiques/vitalite). Ce pouvoir neutralise également tout [poison](/regles/herboristerie/poisons) et guérit les maladies non magiques qui affectaient la créature au moment de sa [mort](/regles/combat/mort-agonie). Il ne retire toutefois pas les maladies magiques, malédictions ou effets similaires ; s’ils ne sont pas d’abord retirés avant de canaliser le pouvoir, ils reprennent effet lorsque la créature revient à la vie. Le pouvoir ne peut ramener un mort-vivant à la vie.\n\nCe pouvoir referme toutes les blessures mortelles, mais ne restaure pas les parties du corps manquantes. Si la créature manque de parties du corps ou d’organes indispensables à sa survie, par exemple sa tête, le pouvoir échoue automatiquement. Revenir d’entre les morts est une épreuve. La cible subit une pénalité de −4 à tous ses [tests](/regles/competences/tests). Chaque fois que la cible complète une [nuit de sommeil](/regles/aventure/repos/sommeil), la pénalité est réduite de 1 jusqu’à disparaître."
+      }
+    }
+  }
+}

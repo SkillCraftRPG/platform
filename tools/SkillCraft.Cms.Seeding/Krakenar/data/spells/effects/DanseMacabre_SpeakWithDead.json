@@ -1,7 +1,7 @@
 ﻿{
   "Id": "906ca6c2-562b-4d92-90cd-4b5c14df52e8",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "DanseMacabre_SpeakWithDead",
     "DisplayName": "\uD83D\uDEA7Speak with Dead",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "DanseMacabre_SpeakWithDead",
       "DisplayName": "\uD83D\uDEA7Speak with Dead",
       "Description": null,

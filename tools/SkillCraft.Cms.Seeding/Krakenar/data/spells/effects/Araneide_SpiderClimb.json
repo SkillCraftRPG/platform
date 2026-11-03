@@ -1,0 +1,33 @@
+﻿{
+  "Id": "7f7495fc-2b60-4b72-92c4-975886d5b607",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Araneide_SpiderClimb",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1172ec08-22d1-48ec-89da-09d62090b190\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Araneide_SpiderClimb",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de bitume.",
+        "Focus": "Une araignée.",
+        "HtmlContent": "Le personnage touche une créature consentante. La cible acquiert la capacité de [se déplacer](/regles/combat/activites/deplacement) le long des murs vers le haut, vers le bas et à travers des surfaces verticales, ainsi qu’à l’envers le long des plafonds, tout en gardant ses mains libres. La cible acquiert également une [vitesse](/regles/aventure/mouvement/vitesse) d’[escalade](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types)."
+      }
+    }
+  }
+}

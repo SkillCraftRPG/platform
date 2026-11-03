@@ -1,0 +1,21 @@
+﻿{
+  "Id": "0b9c722d-aee4-44c1-b797-b9f771528dc8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreDArmes_ArmesDePredilection",
+    "DisplayName": "Armes de prédilection",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreDArmes_ArmesDePredilection",
+      "DisplayName": "Armes de prédilection",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage possède un entraînement avancé avec trois [armes](/regles/equipement/armes) [simples](/regles/equipement/armes/simples) ou [martiales](/regles/equipement/armes/martiales) qu’il considère comme ses armes de prédilection. Au moins une de ces armes doit être une arme de mêlée, au moins une de ces armes doit être une arme à distance ([Jet](/regles/equipement/armes/proprietes) ou [Munition](/regles/equipement/armes/proprietes)), et aucune de ces armes ne doit être dotée de la propriété [Chargement](/regles/equipement/armes/proprietes) ni [Spéciale](/regles/equipement/armes/proprietes). Il est [formé](/regles/equipement/armes/formation) avec ces armes et ne peut être [désarmé](/regles/talents/manoeuvres-de-combat) de celles-ci. Il peut utiliser les capacités suivantes avec ses armes de prédilection.\n\n- **Fer croisé.** Lorsque le personnage termine un [tour](/regles/combat/deroulement/tour) en tenant une arme de prédilection dans une main, qu’il n’a pas attaqué avec cette arme pendant le tour et qu’il ne bénéficie d’aucun [bouclier](/regles/equipement/boucliers), alors il se voit conférer un bonus à sa [Défense](/regles/equipement/defense) égal au bonus d’[Attaque](/regles/equipement/armes/attaque) (minimum&nbsp;1, maximum&nbsp;3) de cette arme jusqu’au début de son prochain tour. Il perd le bonus s’il effectue une [attaque](/regles/combat/attaque) avec l’arme, par exemple une [attaque d’opportunité](/regles/combat/attaque/opportunite).\n- **Technique.** Lorsque le personnage réussit une attaque en maniant une arme de prédilection, il peut ajouter la moitié de sa [Force](/regles/statistiques/force) ou de sa [Précision](/regles/statistiques/precision) aux [points de dégâts](/regles/combat/degats) infligés. Il ajoute la moitié de sa Force si les dégâts ont été calculés avec sa Précision, et inversement. Il dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au nombre ajouté. S’il dépense les points d’Énergie avant d’effectuer l’attaque, alors il ajoute également un bonus au [test](/regles/competences/tests) de cette attaque égal à la moitié du nombre de points dépensés.\n- **Tir calculé.** Lorsque le personnage réussit une [attaque à distance](/regles/combat/attaque/distance) en maniant une arme de prédilection par [deux actions ou plus](/regles/combat/activites/viser-tirer), alors il inflige un [dé de dégâts](/regles/combat/degats/jet) supplémentaires. Cette capacité peut se combiner avec le [Tir précis](/regles/talents/tir-precis)."
+      }
+    }
+  }
+}

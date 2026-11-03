@@ -1,0 +1,27 @@
+﻿{
+  "Id": "409f7bde-9f6d-4e8b-8a7c-d8956a2e4dff",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "migraine",
+    "DisplayName": "Migraine",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "migraine",
+      "DisplayName": "Migraine",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "migraine",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

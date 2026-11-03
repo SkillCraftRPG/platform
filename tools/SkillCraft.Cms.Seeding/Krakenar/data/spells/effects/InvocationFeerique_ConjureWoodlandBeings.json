@@ -1,0 +1,32 @@
+﻿{
+  "Id": "92f697db-425f-4fb3-ae86-003135f6cae2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationFeerique_ConjureWoodlandBeings",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a252a7b5-5fe7-464a-9fc9-b28e44f7daa7\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationFeerique_ConjureWoodlandBeings",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une baie de houx par créature invoquée.",
+        "HtmlContent": "Le personnage invoque des créatures féériques qui apparaissent dans des espaces [inoccupés](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il choisit l’une des options suivantes pour ce qui apparaît :\n\n- Une créature féérique de niveau 2 ou moins\n- Deux créatures féériques de niveau 1 ou moins\n- Quatre créatures féériques de niveau ½ ou moins\n- Huit créatures féériques de niveau ¼ ou moins\n\nUne créature invoquée disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin. Les créatures invoquées sont [amicales](/regles/aventure/interaction-sociale) envers le personnage et ses compagnons. Toutes les créatures invoquées partagent la même [Initiative](/regles/combat/deroulement/initiative) et jouent pendant le même [tour](/regles/combat/deroulement/tour). Elles obéissent à tout ordre verbal qu’il leur donne (aucune [action](/regles/combat/deroulement/tour) requise de sa part). S’il ne leur donne aucun ordre, elles se défendent contre les créatures [hostiles](/regles/aventure/interaction-sociale), mais n’effectuent sinon aucune [action](/regles/combat/activites). Le maître de jeu dispose des traits et caractéristiques des créatures."
+      }
+    }
+  }
+}

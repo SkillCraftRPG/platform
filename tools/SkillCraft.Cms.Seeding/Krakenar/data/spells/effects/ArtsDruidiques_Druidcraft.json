@@ -1,0 +1,30 @@
+﻿{
+  "Id": "3831c4c3-eaf5-46e9-8c8c-9f4bf8108fce",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArtsDruidiques_Druidcraft",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArtsDruidiques_Druidcraft",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En murmurant aux esprits de la nature, le personnage crée l’un des effets suivants dans la portée :\n\n- Il crée un minuscule effet sensoriel inoffensif qui prédit le temps qu’il fera à sa position pour les 24 prochaines heures. L’effet peut se manifester sous la forme d’un orbe doré pour un ciel clair, d’un nuage pour la pluie, de flocons pour la neige, et ainsi de suite. Cet effet persiste pendant un round.\n- Il fait instantanément s’épanouir une fleur, s’ouvrir une gousse ou s’ouvrir un bourgeon de feuille.\n- Il crée un effet sensoriel inoffensif et instantané, tel que des feuilles qui tombent, une bouffée de vent, le cri d’un petit animal ou la faible odeur d’une mouffette. L’effet doit tenir dans un cube de 1,5 mètres d’arête.\n- Il allume ou éteint instantanément une chandelle, une torche ou un petit feu de camp."
+      }
+    }
+  }
+}

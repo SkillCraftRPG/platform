@@ -1,0 +1,32 @@
+﻿{
+  "Id": "33c4a0f5-a33c-4755-b11a-85b2650ccfdb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communion_Divination",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b75b441-cee9-4f60-a9ea-094191f65a14\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communion_Divination",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une offrande appropriée à l’entité d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage prend contact avec une entité appropriée à ses croyances. Il pose une seule question concernant un objectif, un événement ou une activité précis devant survenir dans les 7 prochains jours. Le maître de jeu offre une réponse véridique. La réponse peut être une courte phrase, une rime cryptique ou un présage. Le pouvoir ne tient pas compte des circonstances qui pourraient changer l’issue, telles que la canalisation d’autres pouvoirs ou la perte ou le gain d’un compagnon. Si le personnage canalise ce pouvoir deux fois ou plus avant d’avoir complété une [nuit de sommeil](/regles/aventure/repos/sommeil), il y a une chance cumulative de 25&nbsp;% à chaque canalisation après la première d’obtenir une lecture aléatoire. Le maître de jeu effectue ce jet en secret."
+      }
+    }
+  }
+}

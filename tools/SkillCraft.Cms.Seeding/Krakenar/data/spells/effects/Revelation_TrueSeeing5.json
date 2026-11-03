@@ -1,0 +1,31 @@
+﻿{
+  "Id": "bbfa7a37-d270-4786-bf4f-6dbd1830f782",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Revelation_TrueSeeing5",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"dc985830-aa06-406e-986a-de16e434c1ed\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Revelation_TrueSeeing5",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un onguent pour les yeux coûtant 25 deniers, fait de poudre de champignon, de safran et de graisse.",
+        "HtmlContent": "Le personnage se confère la capacité de voir les choses telles qu’elles sont réellement. Pendant la durée, il jouit de la [vision absolue](/regles/aventure/environnement/vision), remarque les portes secrètes dissimulées par la magie, et peut voir dans la dimension éthérée, le tout jusqu’à une portée de 36 mètres."
+      }
+    }
+  }
+}

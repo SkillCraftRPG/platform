@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6c26f290-d5ed-4b5e-ac54-e79395118e83",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LienAnimal_AnimalFriendship",
+    "DisplayName": "Amitié animale",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21ccc0f1-47b4-4361-b3c8-607516a39e76\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LienAnimal_AnimalFriendship",
+      "DisplayName": "Amitié animale",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une bouchée de nourriture.",
+        "HtmlContent": "Ce pouvoir permet au personnage de convaincre une bête qu’il ne lui veut aucun mal. Il choisit une bête qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le pouvoir échoue si l’[Intellect](/regles/attributs/intellect) de la bête est supérieure à –4. Sinon, la bête doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par le personnage pendant la durée du pouvoir. Si le personnage ou l’un de ses compagnons blesse la cible, le pouvoir prend fin."
+      }
+    }
+  }
+}

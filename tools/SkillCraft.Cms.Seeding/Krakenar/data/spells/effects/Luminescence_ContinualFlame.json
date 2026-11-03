@@ -1,0 +1,29 @@
+﻿{
+  "Id": "778803c1-88b6-43d6-99f5-f62a52d4a8d5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Luminescence_ContinualFlame",
+    "DisplayName": "Flamme éternelle",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"346f9105-e54e-4445-9157-a2d6f965bb39\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Range": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Luminescence_ContinualFlame",
+      "DisplayName": "Flamme éternelle",
+      "Description": null,
+      "FieldValues": {
+        "Material": "De la poussière de rubis d’une valeur d’au moins 50 deniers.",
+        "HtmlContent": "Une flamme, d’une luminosité équivalente à celle d’une [torche](/regles/equipement/general), jaillit d’un objet que le personnage touche. Elle émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 6 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 6 mètres additionnels. L’effet a l’apparence d’une flamme ordinaire, mais il ne produit aucune chaleur et ne consomme pas d’oxygène. Le personnage en choisit la couleur. Une flamme éternelle peut être couverte ou dissimulée, mais non étouffée ni éteinte. La flamme éclaire dans une zone de [ténèbres](/regles/aventure/environnement/vision), mais ne dissipe pas ces ténèbres."
+      }
+    }
+  }
+}

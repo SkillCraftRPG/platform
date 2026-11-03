@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "1",
-      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "liberte",
-        "Summary": "Mobilité accrue, évasion totale et déplacement sans contraintes.",
-        "MetaDescription": "Découvrez Liberté : un pouvoir de mobilité qui amplifie les sauts, efface les traces, ignore le terrain difficile et confère nage, évasion et vol temporaire.",
-        "HtmlContent": "Ce pouvoir décuple la mobilité : sauts amplifiés, furtivité sans traces, ignorance du terrain difficile, évasion des entraves et même vol temporaire selon le niveau utilisé."
+        "Summary": "Amplifie la mobilité, confère le vol, puis libère des entraves et de l’eau.",
+        "MetaDescription": "Découvrez Liberté : mobilité et sauts amplifiés, vol, puis liberté face au terrain, aux entraves et sous l’eau.",
+        "HtmlContent": "Le personnage confère d’abord mobilité accrue, sauts amplifiés et foulée libre entre les créatures. Plus fort, il donne le vol. Plus fort encore, la cible ignore le terrain difficile, se libère des entraves et évolue sous l’eau sans gêne."
       }
     }
   }

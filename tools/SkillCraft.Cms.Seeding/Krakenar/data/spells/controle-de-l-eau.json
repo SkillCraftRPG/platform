@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d12aecb0-040a-4baa-b8e7-02da32837ed4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "controle-de-l-eau",
+    "DisplayName": "Contrôle de l’eau",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "controle-de-l-eau",
+      "DisplayName": "Contrôle de l’eau",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "controle-de-l-eau",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

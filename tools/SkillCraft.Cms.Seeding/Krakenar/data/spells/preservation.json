@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "0",
-      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "preservation",
-        "Summary": "Stabilise un mourant, préserve un corps ou simule la mort pour protéger.",
-        "MetaDescription": "Découvrez Préservation, un pouvoir protecteur stabilisant les mourants, préservant les corps et feignant la mort pour protéger une créature des dangers.",
-        "HtmlContent": "Pouvoir axé sur la survie : stabilisation immédiate, conservation prolongée des corps, imitation parfaite de la mort et garde vitale empêchant l’agonie fatale."
+        "Summary": "Stabilise, préserve un cadavre, feint la mort ou parle aux morts.",
+        "MetaDescription": "Découvrez Préservation, un pouvoir qui stabilise les agonisants, protège les cadavres, feint la mort ou interroge les défunts.",
+        "HtmlContent": "Le personnage stabilise une créature agonisante, puis préserve un cadavre de la décomposition et de la nécromancie. Plus fort, il feint la mort chez un allié consentant, ou anime un cadavre assez pour qu’il réponde à ses questions."
       }
     }
   }

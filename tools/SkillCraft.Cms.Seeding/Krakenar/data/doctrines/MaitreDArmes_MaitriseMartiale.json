@@ -1,0 +1,23 @@
+﻿{
+  "Id": "802db822-fdb1-463b-adeb-9b36a05fd3dc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreDArmes_MaitriseMartiale",
+    "DisplayName": "Maîtrise martiale",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"07256e85-7fd8-4edf-b5be-0c039639aa0b\"]",
+      "DiscountedTalents": "[\"54221c09-acc1-48d6-a39f-1c7a4bcbb572\",\"a7abe59c-1c5c-43f8-b938-df2690cf437f\",\"79120f1f-0067-4888-b2b1-8eabe2a1d1a4\",\"619e0540-95ba-4bf5-be23-c4a7b1f70b0c\"]",
+      "Features": "[\"9266bf59-adcb-414b-b03b-308bc48cd4c5\",\"a0863286-ef40-44b9-9a4c-b232966fdee5\",\"0b9c722d-aee4-44c1-b797-b9f771528dc8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreDArmes_MaitriseMartiale",
+      "DisplayName": "Maîtrise martiale",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

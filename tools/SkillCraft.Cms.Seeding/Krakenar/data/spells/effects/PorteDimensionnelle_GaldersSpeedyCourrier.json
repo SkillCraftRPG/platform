@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ddf6a39d-0cdf-4356-80ac-f521531d88a1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PorteDimensionnelle_GaldersSpeedyCourrier",
+    "DisplayName": "Courrier dimensionnel",
+    "Description": null,
+    "FieldValues": {
+      "Level": "1",
+      "Spell": "[\"cdef595e-f956-43db-9312-0a5339c4561b\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PorteDimensionnelle_GaldersSpeedyCourrier",
+      "DisplayName": "Courrier dimensionnel",
+      "Description": null,
+      "FieldValues": {
+        "Material": "25 deniers ou des biens minéraux d’une valeur équivalente.",
+        "HtmlContent": "Le personnage ouvre un portail en un point dans la portée. Un coffre ouvert et vide apparaît à travers ce portail ; son intérieur mesure un mètre d’arête. Tant que le pouvoir dure, le personnage peut y déposer autant d’objets que le coffre peut contenir. Il peut ensuite nommer une créature vivante qu’il a rencontrée et vue au moins une fois, ou toute créature dont il possède une partie du corps, telle une mèche de cheveux, une rognure d’ongle ou une portion similaire du corps. Dès que le couvercle du coffre est refermé, le portail se referme et le coffre disparaît, puis réapparaît adjacent à la cible. Si la cible se trouve dans une autre dimension, ou si elle est protégée contre la détection ou la localisation magique, le coffre se vide aux pieds du personnage.\n\nLa cible est informée du contenu du coffre avant de choisir de l’ouvrir ou non, et sait combien de temps il reste à la durée du pouvoir pour récupérer le contenu. Aucune autre créature ne peut ouvrir le coffre ni en récupérer le contenu. Lorsque le pouvoir expire ou que tout le contenu du coffre a été récupéré, le coffre disparaît. Il disparaît également si la cible ordonne le renvoi des objets au personnage. Lorsque le coffre disparaît, tout objet non récupéré réapparaît au sol aux pieds du personnage."
+      }
+    }
+  }
+}

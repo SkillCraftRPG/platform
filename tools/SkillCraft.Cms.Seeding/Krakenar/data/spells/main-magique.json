@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8d7b9b70-901e-4723-b5a5-f71ac163b7eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "main-magique",
+    "DisplayName": "Main magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "main-magique",
+      "DisplayName": "Main magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "main-magique",
+        "MetaDescription": "Découvrez Main magique : main spectrale pour manipuler, mains pour servir ou porter, puis grande main qui agrippe, bouscule, frappe ou interpose.",
+        "Summary": "Main spectrale, mains pour servir ou porter, puis grande main de combat.",
+        "HtmlContent": "Le personnage crée une main spectrale pour manipuler. Plus fort, des mains invisibles servent ou portent une charge en le suivant. Plus fort encore, une grande main agrippe et broie, bouscule, frappe ou s’interpose."
+      }
+    }
+  }
+}

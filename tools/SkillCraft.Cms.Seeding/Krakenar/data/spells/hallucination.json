@@ -1,0 +1,27 @@
+﻿{
+  "Id": "73e0202c-1e32-43b9-9e22-7514affc0728",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "hallucination",
+    "DisplayName": "Hallucination",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "hallucination",
+      "DisplayName": "Hallucination",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "hallucination",
+        "MetaDescription": "Découvrez Hallucination : son ou image d’un objet, valeur perçue gonflée ou réduite, puis farce changeante qui charme, aveugle, fait ricaner ou gêne le passage.",
+        "Summary": "Son ou image, valeur gonflée ou réduite, puis charme, cécité, errance ou gêne.",
+        "HtmlContent": "Le personnage crée d’abord un son ou l’image d’un objet. Plus fort, il gonfle ou réduit la valeur perçue d’un objet. Plus fort encore, une zone change : parfum charmant, fleurs aveuglantes, rire qui fait errer sans agir, ou mélasse gênante."
+      }
+    }
+  }
+}

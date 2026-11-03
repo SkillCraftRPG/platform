@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "thaumaturgie",
-        "Summary": "Effets mineurs, réparation d’objets et prières soignantes pour plusieurs alliés.",
-        "MetaDescription": "Découvrez Thaumaturgie, un pouvoir polyvalent permettant petits miracles, réparations fines et prières de guérison affectant plusieurs alliés.",
-        "HtmlContent": "Pouvoir polyvalent offrant effets surnaturels mineurs, réparation précise d’objets et prières de guérison pouvant restaurer de nombreux alliés selon la puissance du lanceur."
+        "Summary": "Merveilles, glas, réparation, rites sacrés, puis lien de protection partagé.",
+        "MetaDescription": "Découvrez Thaumaturgie : merveilles mineures, glas nécrotique, réparation d’objets, cérémonies sacrées, puis un lien protecteur qui partage les souffrances.",
+        "HtmlContent": "Le personnage manifeste des prodiges mineurs, sonne un glas qui blesse, ou répare un objet. Plus fort, il célèbre des rites sacrés. Au plus haut palier, il se lie à un allié pour partager ses souffrances et le soigner au prix de sa santé."
       }
     }
   }

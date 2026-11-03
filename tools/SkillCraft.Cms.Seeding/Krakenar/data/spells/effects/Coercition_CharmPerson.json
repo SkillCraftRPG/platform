@@ -1,7 +1,7 @@
 ﻿{
   "Id": "76812601-1da8-4474-96f8-3199661bfae3",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Coercition_CharmPerson",
     "DisplayName": "Charme",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Coercition_CharmPerson",
       "DisplayName": "Charme",
       "Description": null,

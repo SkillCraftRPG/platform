@@ -1,0 +1,32 @@
+﻿{
+  "Id": "44034923-2490-4f5e-94ce-4909dd9aa97c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Fascination_Friends",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fc8274dc-8ec8-4150-9c15-d2850f4125f0\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Fascination_Friends",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une petite quantité de maquillage appliquée sur le visage.",
+        "HtmlContent": "Pendant la durée, le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à tous les [tests](/regles/competences/tests) de [Diplomatie](/regles/competences/diplomatie), de [Représentation](/regles/competences/representation) et de [Tromperie](/regles/competences/tromperie) dirigés contre une créature de son choix qui n’est pas [hostile](/regles/aventure/interaction-sociale) envers lui. Lorsque le pouvoir prend fin, la créature réalise qu’il a utilisé la magie pour influencer son attitude et devient hostile envers lui. Une créature encline à la violence pourrait l’[attaquer](/regles/combat/attaque). Une autre créature pourrait chercher réparation d’autres façons (à la discrétion du maître de jeu), selon la nature de son interaction avec elle."
+      }
+    }
+  }
+}

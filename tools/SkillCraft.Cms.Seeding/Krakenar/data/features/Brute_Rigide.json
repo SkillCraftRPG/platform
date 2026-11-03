@@ -14,7 +14,7 @@
       "DisplayName": "Rigide",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage ajoute sa [Santé](/regles/attributs/sante) (minimum 1) à son [Esquive](/regles/combat/attaque/esquive).\n\nS’il porte une [armure](/regles/equipement/armures), il retire de ce bonus tout bonus de [Défense](/regles/equipement/defense) conféré par son armure. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0.\n\nLe bonus de Défense conféré par un [bouclier](/regles/equipement/boucliers) n’influence pas cette capacité."
+        "HtmlContent": "Le personnage ajoute sa [Santé](/regles/attributs/sante) (minimum 1) à son [Esquive](/regles/combat/attaque/esquive). S’il porte une [armure](/regles/equipement/armures), il retire de ce bonus tout bonus de [Défense](/regles/equipement/defense) conféré par son armure. Le bonus conféré par cette capacité ne peut descendre en-deçà de 0. Le bonus de Défense conféré par un [bouclier](/regles/equipement/boucliers) n’influence pas cette capacité."
       }
     }
   }

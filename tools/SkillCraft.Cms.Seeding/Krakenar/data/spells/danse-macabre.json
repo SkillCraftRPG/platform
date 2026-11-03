@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "2",
-      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "danse-macabre",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Danse macabre : animer squelettes ou zombies durables, en commander davantage, puis une horde temporaire renforcée.",
+        "Summary": "Anime des morts durables, en contrôle plus, puis une horde temporaire.",
+        "HtmlContent": "Le personnage relève d’abord un squelette ou un zombie sous son contrôle. Plus fort, il anime plusieurs serviteurs ou étend son emprise. Plus fort encore, des fils ténébreux dressent une horde temporaire renforcée, puis inerte."
       }
     }
   }

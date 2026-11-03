@@ -14,7 +14,7 @@
       "DisplayName": "Pouvoir divin",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Une fois par jour, le personnage peut invoquer un pouvoir divin spécifique à son [domaine divin](/regles/domaines/divins).\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n\nS’il a acquis la spécialisation [Clerc](/regles/specialisations/clerc), il s’agit de la même capacité et possède désormais deux utilisations par jour."
+        "HtmlContent": "Une fois par jour, le personnage peut invoquer un pouvoir divin spécifique à son [domaine divin](/regles/domaines/divins). Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité. S’il a acquis la spécialisation [Clerc](/regles/specialisations/clerc), il s’agit de la même capacité et possède désormais deux utilisations par jour."
       }
     }
   }

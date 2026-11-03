@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage touche une créature consentante, et celle-ci [récupère](/regles/combat/degats/soins) 1d8 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+        "HtmlContent": "Le personnage touche une créature consentante et celle-ci [récupère](/regles/combat/degats/soins) 1d8&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) points de [Vitalité](/regles/statistiques/vitalite). Ce pouvoir n’a aucun effet sur les morts-vivants ni les constructions."
       }
     }
   }

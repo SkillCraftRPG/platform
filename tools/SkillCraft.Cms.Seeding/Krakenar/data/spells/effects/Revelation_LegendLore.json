@@ -1,0 +1,32 @@
+﻿{
+  "Id": "66322c3a-bd47-4bf3-85bd-b674597c7edc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Revelation_LegendLore",
+    "DisplayName": "Légendes",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"dc985830-aa06-406e-986a-de16e434c1ed\"]",
+      "Level": "0",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Revelation_LegendLore",
+      "DisplayName": "Légendes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage nomme ou décrit une personne, un lieu ou un objet. Le pouvoir lui apporte à l’esprit un bref résumé des légendes importantes concernant ce qu’il a nommé. Ces légendes peuvent consister en récits actuels, histoires oubliées, ou même savoirs secrets jamais largement connus. Si ce qu’il a nommé n’est pas d’importance légendaire, il n’obtient aucune information. Plus il possède déjà d’informations à ce sujet, plus les informations reçues sont précises et détaillées. Les informations apprises sont exactes, mais peuvent être exprimées en langage figuré.",
+        "Material": "De l’encens d’une valeur d’au moins 250 deniers.",
+        "Focus": "Quatre bandelettes d’ivoire d’une valeur d’au moins 50 deniers chacune."
+      }
+    }
+  }
+}

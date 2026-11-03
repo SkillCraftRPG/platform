@@ -1,0 +1,32 @@
+﻿{
+  "Id": "65455492-5079-48e3-8c7f-4e53e59bc482",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SceauMagique_Banishment",
+    "DisplayName": "Bannissement",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e8f624f-76cc-427c-ad9e-3a87903faff3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SceauMagique_Banishment",
+      "DisplayName": "Bannissement",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un objet répugnant pour la cible.",
+        "HtmlContent": "Le personnage tente d’envoyer dans une autre dimension une créature qu’il peut [voir](/regles/aventure/environnement/vision). La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être bannie.\n\n- Si la cible est native de la dimension où se trouve le personnage, elle est bannie dans une dimension transitoire et inoffensive. Tant qu’elle s’y trouve, elle est [incapable](/regles/combat/conditions/incapable). Elle y demeure jusqu’à la fin du pouvoir, puis réapparaît dans l’espace qu’elle a quitté, ou dans l’espace inoccupé le plus proche si celui-ci est [occupé](/regles/aventure/mouvement/espace-occupe).\n- Si la cible est native d’une autre dimension, elle est bannie dans sa dimension d’origine avec un léger claquement. Si le pouvoir prend fin avant qu’une minute se soit écoulée, la cible réapparaît dans l’espace qu’elle a quitté, ou dans l’espace inoccupé le plus proche si celui-ci est occupé. Autrement, elle ne revient pas."
+      }
+    }
+  }
+}

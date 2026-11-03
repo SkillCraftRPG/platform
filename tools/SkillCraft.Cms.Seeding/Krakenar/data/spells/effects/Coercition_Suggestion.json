@@ -1,7 +1,7 @@
 ﻿{
   "Id": "149ca27b-4c38-4ef6-a388-6442b6301db7",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Coercition_Suggestion",
     "DisplayName": null,
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Coercition_Suggestion",
       "DisplayName": null,
       "Description": null,

@@ -1,0 +1,32 @@
+﻿{
+  "Id": "df90e0c0-393f-4fe2-9647-4343927b1512",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CycleNaturel_WitherAndBloom",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "DurationUnit": "[\"Round\"]",
+      "Duration": "0",
+      "IsConcentration": "false",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CycleNaturel_WitherAndBloom",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque à la fois la mort et la vie dans une sphère de 3 mètres de rayon centrée sur un point dans la portée. Chaque créature de son choix dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts. La végétation non magique dans la zone se flétrit.\n\nÉgalement, une créature de son choix dans la zone peut [récupérer](/regles/combat/degats/soins) ⅐ (14,3 %) de sa [Vitalité maximale](/regles/statistiques/vitalite) (minimum&nbsp;1). À la fin de la prochaine [nuit de sommeil](/regles/aventure/repos/sommeil) complétée par cette créature, elle ne récupère aucun point de Vitalité, mais bénéficie tout de même des autres effets. Elle ne peut bénéficier à nouveau de ce pouvoir avant d’avoir complété une nuit de sommeil.",
+        "Focus": "Une vigne flétrie torsadée en boucle."
+      }
+    }
+  }
+}

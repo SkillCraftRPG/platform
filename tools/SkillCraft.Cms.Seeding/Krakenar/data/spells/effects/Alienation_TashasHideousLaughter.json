@@ -1,0 +1,32 @@
+﻿{
+  "Id": "59f14ab4-e0a7-4425-a5c1-e73ca886dcaa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alienation_TashasHideousLaughter",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e34ef2b4-eee2-4d66-b5a2-dada67fed7c1\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alienation_TashasHideousLaughter",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Des tartelettes et une plume agitée en l’air.",
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou perçoit tout comme atrocement drôle et est prise de fou rire. Elle tombe [renversée](/regles/combat/conditions/renverse), devient [incapable](/regles/combat/conditions/incapable) et ne peut se relever pendant la durée. Une créature dont l’[Intellect](/regles/attributs/intellect) est de –3 ou moins n’est pas affectée. À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), et chaque fois qu’elle reçoit des [dégâts](/regles/combat/degats), la cible peut effectuer un nouveau jet de sauvegarde de Discipline. Elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet si celui-ci est déclenché par des dégâts. En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

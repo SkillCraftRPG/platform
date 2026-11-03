@@ -1,0 +1,27 @@
+﻿{
+  "Id": "14eb729e-c1e4-4503-86fd-0aeb0887f3b1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "manifestation-draconique",
+    "DisplayName": "Manifestation draconique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "manifestation-draconique",
+      "DisplayName": "Manifestation draconique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "manifestation-draconique",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

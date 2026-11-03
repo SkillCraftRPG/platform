@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e1eafa55-39b9-40b0-8131-9bcae9b2251c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmureMagique_MageArmor",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3b2667c9-4fbd-428a-9139-60196d789eb3\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmureMagique_MageArmor",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un morceau de cuir tanné.",
+        "HtmlContent": "Le personnage touche une créature consentante qui ne porte pas d’[armure](/regles/equipement/armures), et une force magique protectrice l’entoure jusqu’à la fin du pouvoir. Cette force confère un bonus à l’[Esquive](/regles/statistiques/esquive) égal à 2&nbsp;+&nbsp;[tiers](/regles/personnages/progression/tiers) du personnage. Le pouvoir prend fin si la cible [enfile](/regles/equipement/armures/enfiler-retirer) une armure ou si le personnage le dissipe par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

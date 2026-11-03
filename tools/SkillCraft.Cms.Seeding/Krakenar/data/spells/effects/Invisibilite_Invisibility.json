@@ -1,0 +1,32 @@
+﻿{
+  "Id": "51a0b9e3-9f3d-482d-8467-2951d0c0566c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Invisibilite_Invisibility",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4f401ca1-852f-4fc3-bbc9-c801d42c7897\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Invisibilite_Invisibility",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante et celle-ci devient [invisible](/regles/combat/conditions/invisible) jusqu’à la fin du pouvoir. Tout ce qu’elle porte ou tient est invisible tant que ces objets demeurent sur elle. Le pouvoir si la cible effectue une [attaque](/regles/combat/attaque) ou canalise un pouvoir.",
+        "Focus": "Un cil enrobé de gomme arabique."
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "Id": "6e64f7c6-dbce-466c-9649-60f90dc67473",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Metamorphose_WaterBreathing",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b1dca58f-10f6-4004-a5e4-dc53bc9edf15\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Metamorphose_WaterBreathing",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des écailles de poisson.",
+        "HtmlContent": "Le personnage confère à dix créatures consentantes ou moins la capacité de [respirer sous l’eau](/regles/aventure/environnement/suffocation). Il doit [voir](/regles/aventure/environnement/vision) ces créatures, et ces créatures doivent se trouver dans la portée. Les créatures affectées conservent également leur mode de respiration normal. Une écaille est consommée par une créature."
+      }
+    }
+  }
+}

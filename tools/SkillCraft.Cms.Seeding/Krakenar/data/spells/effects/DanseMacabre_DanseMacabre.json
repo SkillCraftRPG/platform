@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
-      "Level": "1",
+      "Level": "2",
       "CastingTime": "[\"2\"]",
       "Duration": "1",
       "DurationUnit": "[\"Hour\"]",
@@ -24,7 +24,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "[\uD83D\uDEA7Danse macabre](https://dnd5e.wikidot.com/spell:danse-macabre)"
+        "HtmlContent": "Des fils de pouvoir ténébreux jaillissent des doigts du personnage pour percer jusqu’à cinq cadavres de [taille](/regles/especes/taille) petite ou moyenne qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Chaque cadavre se relève immédiatement et devient mort-vivant. Le personnage décide s’il s’agit d’un zombie ou d’un squelette (le maître de jeu dispose des traits et caractéristiques de ces créatures), et la créature se voit conférer un bonus au [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) et ainsi qu’à ses [jets](/regles/combat/degats/jet) de [dégâts](/regles/combat/degats) égal à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. Les créatures sont sous le contrôle du personnage jusqu’à la fin du pouvoir, après quoi elles redeviennent inanimées.\n\nUne fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut commander mentalement les créatures qu’il crée avec ce pouvoir, en donnant le même ordre à toutes. Pour recevoir l’ordre, une créature doit se trouver à 18 mètres ou moins de sa position. Il décide de l’[action](/regles/combat/activites) que les créatures entreprendront et de l’endroit où elles [se déplaceront](/regles/combat/activites/deplacement) pendant leur prochain [tour](/regles/combat/deroulement/tour), ou il peut donner un ordre général, tel que garder une chambre ou un passage contre ses ennemis. S’il ne donne aucun ordre, les créatures ne font que se défendre contre les créatures [hostiles](/regles/aventure/interaction-sociale). Une fois un ordre donné, les créatures continuent de le suivre jusqu’à ce que leur tâche soit accomplie."
       }
     }
   }

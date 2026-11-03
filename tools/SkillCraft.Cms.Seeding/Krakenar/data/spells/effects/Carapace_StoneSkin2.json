@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a8206b0b-81d5-4d62-9584-cdf88b684e47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Carapace_StoneSkin2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"40b6c732-8885-411a-a36e-9aa7db58f7cd\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Carapace_StoneSkin2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un diamant d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, une fois par [round](/regles/combat/deroulement), la cible peut réduire de moitié des [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types) ou [tranchants](/regles/combat/degats/types) physiques reçus."
+      }
+    }
+  }
+}

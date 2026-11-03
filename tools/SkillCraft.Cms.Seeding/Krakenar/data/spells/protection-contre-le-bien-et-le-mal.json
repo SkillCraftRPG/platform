@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "protection-contre-le-bien-et-le-mal",
-        "MetaDescription": "Découvrez Protection contre le bien et le mal, un pouvoir défensif permettant de détecter et repousser les entités surnaturelles hostiles.",
-        "Summary": "Détection et protection contre les créatures surnaturelles hostiles.",
-        "HtmlContent": "Ce pouvoir permet de détecter les créatures surnaturelles proches et de se protéger contre leurs attaques et influences mentales. À des niveaux supérieurs, il confère une protection active et dissipe charme, peur et possession."
+        "MetaDescription": "Découvrez Protection contre le bien et le mal : détecter les créatures surnaturelles, protéger un allié contre elles, puis briser leur emprise ou les renvoyer.",
+        "Summary": "Détecte, protège contre le surnaturel, puis brise l’emprise ou renvoie.",
+        "HtmlContent": "Le personnage détecte les créatures surnaturelles proches et les lieux consacrés ou profanés. Plus fort, il protège une créature touchée contre l’un de ces types. Plus fort encore, il se protège et peut briser leur emprise ou les renvoyer."
       }
     }
   }

@@ -1,0 +1,33 @@
+﻿{
+  "Id": "21b08cef-f8bc-4433-9eb4-cf545706a453",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Serviteur_FindFamiliar",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "CastingTime": "[\"1h\"]",
+      "IsRitual": "true",
+      "Level": "0",
+      "Spell": "[\"18cd716d-adb6-4a30-b711-2c086d682526\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Serviteur_FindFamiliar",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le charbon, l’encens et les herbes doivent être consumés par le feu dans le brasero.\n\nLe personnage obtient le service d’un familier, un esprit qui prend une forme animale de son choix : chauve-souris, chat, crabe, grenouille/crapaud, faucon, lézard, pieuvre, hibou, serpent venimeux, poisson/piranha, rat, corbeau, hippocampe, araignée ou belette. Le familier a les statistiques de la forme choisie, bien qu’il soit un célestiel, une fée ou un infernal, au choix du personnage, et non une bête. Il apparaît dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) dans la porté. Le personnage ne peut avoir plus d’un familier à la fois. S’il [canalise](/regles/magie/pouvoirs/canalisation) ce pouvoir alors qu’il a déjà un familier, il lui fait plutôt adopter une nouvelle forme. Il choisit l’une des formes de la liste ci-dessus, et son familier se transforme en la créature choisie.\n\nLorsque les points de [Vitalité](/regles/statistiques/vitalite) du familier chutent à 0, il disparaît sans laisser de forme physique. Il réapparaît dès que le personnage canalise à nouveau ce pouvoir. Par une [action](/regles/combat/deroulement/tour), le personnage peut renvoyer temporairement son familier dans une dimension de poche. Par une action alors que le familier est temporairement renvoyé, il peut le faire réapparaître dans n’importe quel espace inoccupé situé à 9 mètres ou moins de sa position. Alternativement, il peut le renvoyer à jamais par une action. Chaque fois que les points de Vitalité du familier chutent à 0 ou qu’il disparaît dans la dimension de poche, il laisse derrière lui dans son espace tout ce qu’il portait ou tenait.\n\nLe familier agit indépendamment du personnage, mais il obéit toujours à ses ordres. Il possède sa propre [Initiative](/regles/statistiques/initiative) et agit à son propre [tour](/regles/combat/deroulement/tour). Bien qu’il ne puisse [attaquer](/regles/combat/attaque), il peut effectuer d’autres [actions](/regles/combat/activites) normalement. Lorsque le familier se trouve à 30 mètres ou moins du personnage, celui-ci peut communiquer avec le familier par télépathie. Par une action, il peut [voir](/regles/aventure/environnement/vision) par les yeux du familier et entendre ce qu’il entend jusqu’au début de son prochain tour, bénéficiant de tout sens spécial que possède le familier. Pendant ce temps, il est [assourdi](/regles/combat/conditions/assourdi) et [aveuglé](/regles/combat/conditions/aveugle) quant à ses propres sens.\n\nEnfin, lorsque le personnage canalise un pouvoir dont la portée est [Toucher](/regles/magie/parametres/portee), il peut le faire au travers de son familier si celui-ci se trouve à 30 mètres ou moins de sa position. Le familier doit utiliser sa [réaction](/regles/combat/deroulement/tour) afin de transmettre le pouvoir. Le personnage utilise ses caractéristiques pour canaliser le pouvoir et en déterminer les effets.",
+        "Material": "10 deniers de charbon, d’encens et d’herbes.",
+        "Focus": "Un brasero de laiton."
+      }
+    }
+  }
+}

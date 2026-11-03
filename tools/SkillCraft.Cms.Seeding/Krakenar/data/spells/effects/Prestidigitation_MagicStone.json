@@ -1,0 +1,30 @@
+﻿{
+  "Id": "bdbc4521-f7bb-4891-b608-788d6d39ebe5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_MagicStone",
+    "DisplayName": "Projectile",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_MagicStone",
+      "DisplayName": "Projectile",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un petit objet d’une taille équivalente à celle d’un caillou (pierre, bouton, dé, écrou ou autre objet comparable) et l’imprègne de magie. Pendant la durée, une créature peut lancer l’objet ou le projeter avec une [fronde](/regles/equipement/armes/simples) en direction d’une créature qu’elle peut [voir](/regles/aventure/environnement/vision) située à 18 mètres ou moins de sa position. L’objet fuse vers la cible désignée, contournant les obstacles sur son chemin. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types). Que l’attaque réussisse ou échoue, le pouvoir prend fin. Si le personnage canalise à nouveau ce pouvoir, celui-ci prend fin prématurément sur tout objet encore affecté."
+      }
+    }
+  }
+}

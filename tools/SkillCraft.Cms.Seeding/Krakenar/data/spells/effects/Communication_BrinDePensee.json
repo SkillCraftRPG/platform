@@ -1,0 +1,30 @@
+﻿{
+  "Id": "1bbf7cf2-06e2-42d0-ba0f-b6fc9b2155aa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communication_BrinDePensee",
+    "DisplayName": "Brin de pensée",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6c1e5e25-90d8-4113-ae71-6bbc96e574b6\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsVerbal": "false",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communication_BrinDePensee",
+      "DisplayName": "Brin de pensée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage extrait de son esprit un souvenir, une idée ou un message et le transforme en un filament d’énergie lumineuse tangible appelé un brin de pensée, qui persiste pendant la durée ou jusqu’à ce qu’il canalise à nouveau ce pouvoir. Le brin de pensée apparaît dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) situé à 1,5 mètres ou moins de sa position sous la forme d’un objet de [taille](/regles/especes/taille) minuscule, sans poids et semi-solide, qui peut être tenu et porté comme un ruban ; il est autrement immobile. Une créature peut lire un brin de pensée afin d’en recevoir le souvenir, l’idée ou le message en étudiant le brin de pensée pendant une minute sans interruption.\n\nS’il canalise ce pouvoir tout en se concentrant sur un pouvoir ou une capacité qui lui permet de lire ou de manipuler les pensées d’autrui (tels [Amnésie](/regles/magie/pouvoirs/amnesie) ou [Télépathie](/regles/magie/pouvoirs/telepathie)), il peut transformer en brin de pensée les pensées ou souvenirs qu’il lit, plutôt que les siens. Canaliser ce pouvoir ou [Télépathie](/regles/magie/pouvoirs/telepathie) tout en tenant un brin de pensée lui permet de recevoir instantanément le souvenir, l’idée ou le message que contient le brin."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "93ccb3a2-df61-4a0f-aee8-a9a08503cb06",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Preservation_SpeakWithDead",
+    "DisplayName": "Parler avec les morts",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"885ad842-47ea-43b5-9cd3-361fee8631d6\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Preservation_SpeakWithDead",
+      "DisplayName": "Parler avec les morts",
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’encens en combustion.",
+        "HtmlContent": "Le personnage confère une apparence de vie et d’intelligence à un cadavre de son choix dans la portée, lui permettant de répondre aux questions qu’il pose. Le cadavre doit encore avoir une bouche et ne pas être un mort-vivant. Le pouvoir échoue si le cadavre a déjà été la cible de ce pouvoir au cours des 10 derniers jours. Jusqu’à la fin du pouvoir, le personnage peut poser jusqu’à cinq questions au cadavre.\n\nLe cadavre ne sait que ce qu’il savait de son vivant, y compris les langues qu’il connaissait. Les réponses sont généralement brèves, cryptiques ou répétitives, et le cadavre n’est pas obligé de dire la vérité si le personnage agit de manière [hostile](/regles/aventure/interaction-sociale) envers lui ou s’il le reconnaît comme un ennemi.\n\nCe pouvoir ne ramène pas l’âme de la créature dans son corps, seulement son esprit animateur. Ainsi, le cadavre ne peut apprendre de nouvelles informations, ne comprend rien de ce qui s’est produit depuis sa [mort](/regles/combat/mort-agonie) et ne peut spéculer sur des événements futurs."
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@
       "DisplayName": "Chamanisme",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=animisme) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme)."
       }
     }
   }

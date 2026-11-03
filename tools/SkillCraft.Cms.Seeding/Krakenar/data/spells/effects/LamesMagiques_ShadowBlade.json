@@ -1,0 +1,31 @@
+﻿{
+  "Id": "71e53a92-620f-4037-adfa-d646f34d510b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LamesMagiques_ShadowBlade",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8364ba1d-676d-4a45-9811-8d2da8b6056a\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LamesMagiques_ShadowBlade",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait apparaître une épée de force dans sa main libre. Elle peut être utilisée comme une [arme simple](/regles/equipement/armes/simples) de [mêlée](/regles/combat/attaque/melee) avec laquelle le personnage est [formé](/regles/equipement/armes/formation). Elle confère un bonus (+1) au [test]() des [attaques](/regles/combat/attaque) effectuées en la maniant, inflige [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types), et possède les propriétés [Finesse](/regles/equipement/armes/proprietes), [Jet (4/12)](/regles/equipement/armes/proprietes) et [Légère](/regles/equipement/armes/proprietes). Si le personnage [lâche](/regles/combat/activites/lacher) l’arme ou la [lance](/regles/combat/attaque/distance), elle se dissipe à la fin du [round](/regles/combat/deroulement). Par la suite, tant que le pouvoir persiste, il peut faire réapparaître l’épée dans sa main par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

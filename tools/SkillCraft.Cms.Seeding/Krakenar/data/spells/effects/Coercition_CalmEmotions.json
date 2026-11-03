@@ -1,7 +1,7 @@
 ﻿{
   "Id": "1d9454ea-b19c-4daa-ab12-4a8c53ce3890",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Coercition_CalmEmotions",
     "DisplayName": "Apaisement",
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Coercition_CalmEmotions",
       "DisplayName": "Apaisement",
       "Description": null,

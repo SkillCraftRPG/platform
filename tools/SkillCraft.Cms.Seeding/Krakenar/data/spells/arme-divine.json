@@ -1,7 +1,7 @@
 ﻿{
   "Id": "5893eafd-34de-4fbe-b1df-13d5eb96a55a",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "arme-divine",
     "DisplayName": "Arme divine",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "arme-divine",
       "DisplayName": "Arme divine",
       "Description": null,

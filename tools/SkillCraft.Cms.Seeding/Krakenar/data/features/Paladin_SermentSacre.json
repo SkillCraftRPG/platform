@@ -1,0 +1,21 @@
+﻿{
+  "Id": "49b482f9-9429-4217-b628-f4f1e1a9ef0e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Paladin_SermentSacre",
+    "DisplayName": "Serment sacré",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Paladin_SermentSacre",
+      "DisplayName": "Serment sacré",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prête un [serment sacré](/regles/domaines/serments) à un ensemble de préceptes et acquiert les capacités spécifiques. S’il contrevient gravement ou de manière répétée aux préceptes de son serment, alors ces capacités sont remplacées par celles du [Briseur de serment](/regles/domaines/serments/briseur)."
+      }
+    }
+  }
+}

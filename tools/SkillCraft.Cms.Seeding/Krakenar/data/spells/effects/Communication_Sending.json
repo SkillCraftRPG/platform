@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b2086683-6a6c-4f48-836b-c9a5f299f3cf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communication_Sending",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6c1e5e25-90d8-4113-ae71-6bbc96e574b6\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Range": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communication_Sending",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage envoie un court message de 25 mots ou moins à une créature qui lui est familière. La créature entend le message dans son esprit, reconnaît l’expéditeur si elle le connaît, et peut répondre de la même manière immédiatement. Si l’[Intellect](/regles/attributs/intellect) de la créature est inférieur à –4, elle entend le message mais n’en comprend pas le sens. Il peut envoyer le message à n’importe quelle distance et même vers d’autres dimensions d’existence, mais si la cible se trouve dans une dimension différente de la sienne, il y a 5&nbsp;% de chances que le message se perde et n’arrive jamais.",
+        "Material": "Un court morceau de fil de cuivre."
+      }
+    }
+  }
+}

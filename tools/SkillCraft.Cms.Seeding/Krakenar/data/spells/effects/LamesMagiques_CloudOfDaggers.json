@@ -1,0 +1,32 @@
+﻿{
+  "Id": "d9760eed-b9ca-4f3a-ab1c-0176bcb63a5a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LamesMagiques_CloudOfDaggers",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8364ba1d-676d-4a45-9811-8d2da8b6056a\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LamesMagiques_CloudOfDaggers",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage remplit l’air de dagues tournoyantes dans un cube de 1,5 mètres d’arête, centré sur un point de son choix dans la portée. Une créature reçoit \uD83D\uDEA7[2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types) lorsqu’elle entre dans la zone du pouvoir pour la première fois à un [tour](/regles/combat/deroulement/tour) ou qu’elle y commence son tour.",
+        "Focus": "Un éclat de verre."
+      }
+    }
+  }
+}

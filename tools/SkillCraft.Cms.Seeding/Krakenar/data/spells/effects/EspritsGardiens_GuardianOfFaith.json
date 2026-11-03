@@ -1,7 +1,7 @@
 ﻿{
   "Id": "de1848b3-c7ac-4d6c-bf37-490b41888565",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "EspritsGardiens_GuardianOfFaith",
     "DisplayName": null,
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "EspritsGardiens_GuardianOfFaith",
       "DisplayName": null,
       "Description": null,

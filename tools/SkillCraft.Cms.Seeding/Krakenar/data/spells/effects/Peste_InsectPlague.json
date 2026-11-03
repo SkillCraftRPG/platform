@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a14205cd-b6b2-4f3f-92ce-ad46773deaee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Peste_InsectPlague",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"18a47b60-6bc7-49e9-8420-7ca96298a128\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "60",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Peste_InsectPlague",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Quelques grains de sucre, quelques grains de céréale et une trace de graisse.",
+        "HtmlContent": "Des criquets grouillants et mordants remplissent une sphère de 6 mètres de rayon centrée sur un point que le personnage désigne. La sphère se propage autour des coins. Elle demeure pendant la durée, sa zone est [légèrement obscurcie](/regles/aventure/environnement/vision), et son terrain est [difficile](/regles/aventure/mouvement/terrain-difficile). Lorsque la zone apparaît, toute créature s’y trouvant doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [4d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types). Elle ne reçoit que la moitié des points de dégâts en cas de réussite. Une créature doit également effectuer ce jet de sauvegarde lorsqu’elle entre dans la zone du pouvoir pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou qu’elle y termine son tour."
+      }
+    }
+  }
+}

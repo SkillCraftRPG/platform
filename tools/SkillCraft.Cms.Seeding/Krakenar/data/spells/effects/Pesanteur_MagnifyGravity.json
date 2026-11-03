@@ -1,0 +1,30 @@
+﻿{
+  "Id": "735da705-8a76-4e23-8c59-e59ae54db772",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pesanteur_MagnifyGravity",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b83d4296-555f-462f-b353-e351d8ec7968\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pesanteur_MagnifyGravity",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La gravité dans une sphère de 3 mètres de rayon centrée sur un point que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée s’intensifie un instant. Chaque créature dans la sphère doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [\uD83D\uDEA714](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types), et sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite de moitié jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). En cas de réussite, une créature ne reçoit que la moitié des points de dégâts et ne subit aucune réduction de sa vitesse. Jusqu’au début du prochain tour du personnage, tout objet qui n’est ni porté ni tenu dans la sphère exige de réussir un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) afin d’être ramassé ou déplacé."
+      }
+    }
+  }
+}

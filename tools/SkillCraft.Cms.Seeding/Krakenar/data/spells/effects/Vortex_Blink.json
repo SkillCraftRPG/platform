@@ -1,0 +1,30 @@
+﻿{
+  "Id": "f966490b-2081-4916-b1fa-e767037582be",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vortex_Blink",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9ec332bb-afff-4f9d-b2ae-52fcac249d89\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vortex_Blink",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "À la fin de chacun de ses [tours](/regles/combat/deroulement/tour) pendant la durée du pouvoir, le personnage lance un dé. Sur un résultat pair, il disparaît de sa dimension  d’existence actuelle et apparaît dans la dimension éthérée. Le pouvoir échoue et l’incantation est perdue s’il s’y trouvait déjà. Dans la dimension éthérée, il peut voir et entendre la dimension d’où il vient, qui apparaît en nuances de gris, et il ne peut rien voir au-delà de 18 mètres. Il ne peut affecter ni être affecté que par d’autres créatures se trouvant dans la dimension éthérée. Les créatures qui n’y sont pas ne peuvent ni le percevoir ni interagir avec lui, à moins d’en avoir la capacité.\n\nAu début de son prochain tour, et lorsque le pouvoir prend fin alors qu’il se trouve dans la dimension éthérée, il revient dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) de son choix qu’il peut [voir](/regles/aventure/environnement/vision) situé à 3&nbsp;mètres ou moins de l’espace d’où il a disparu. Si aucun espace inoccupé n’est disponible dans cette portée, il apparaît dans l’espace inoccupé le plus proche (choisi au hasard si plusieurs espaces sont également proches). Il peut dissiper ce pouvoir par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

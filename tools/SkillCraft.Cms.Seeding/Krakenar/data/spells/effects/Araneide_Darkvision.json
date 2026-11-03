@@ -1,0 +1,32 @@
+﻿{
+  "Id": "3208b2cb-d50f-44ed-b369-8e75678886a7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Araneide_Darkvision",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1172ec08-22d1-48ec-89da-09d62090b190\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Araneide_Darkvision",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une agate.",
+        "Material": "Une carotte.",
+        "HtmlContent": "Ce pouvoir ne nécessite qu’une agate ou une carotte, et non les deux.\n\nLe personnage touche une créature consentante afin de lui conférer une [vision dans le noir](/regles/aventure/environnement/vision) à une portée de 18 mètres."
+      }
+    }
+  }
+}

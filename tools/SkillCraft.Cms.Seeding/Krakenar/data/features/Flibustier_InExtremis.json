@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c900e6a6-c403-493d-a034-033775bbace5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Flibustier_InExtremis",
+    "DisplayName": "In extremis",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Flibustier_InExtremis",
+      "DisplayName": "In extremis",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut déjouer la mort lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 en dépensant au moins un point d’[Espérance](/regles/competences/esperance-damnation) et en se [jetant au sol](/regles/combat/activites/jeter-sol).\nSes points de Vitalité chutent plutôt à&nbsp;1, et il dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal à l’excédent de [points de dégâts](/regles/combat/degats). L’effet dépend du nombre de points d’Espérance dépensés.\n\n- S’il dépense un seul point, il reçoit un nombre de points de dégâts [non létaux](/regles/combat/degats/letalite) égal à l’excédent de points de dégâts et sombre immédiatement dans l’[inconscience](/regles/combat/conditions/inconscient).\n- S’il dépense deux points ou moins, sa [Fatigue](/regles/combat/conditions/fatigue) augmente au niveau 3.\n- S’il dépense deux points ou plus, il feint d’être mort et effectue un [test](/regles/competences/tests) de [Tromperie](/regles/competences/tromperie). La ruse peut être révélée par [test opposé](/regles/competences/tests/oppose) d’[Intuition](/regles/competences/intuition).\n\nIl doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

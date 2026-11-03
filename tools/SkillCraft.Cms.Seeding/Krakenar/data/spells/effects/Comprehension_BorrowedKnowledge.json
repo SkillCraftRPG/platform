@@ -1,0 +1,31 @@
+﻿{
+  "Id": "582281ad-ccf5-4cef-a146-289ca6afe986",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Comprehension_BorrowedKnowledge",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"70e4ddda-3f7c-4c3b-9982-0e60b85a6de5\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Comprehension_BorrowedKnowledge",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un livre d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage puise dans le savoir des esprits du passé. Il choisit une [compétence](/regles/competences) pour laquelle il n’est pas [formé](/regles/competences/formation). Pendant la durée du pouvoir, il est formé à la compétence choisie. Il peut remplacer le [rang](/regles/competences/rang) de cette compétence par la moitié de son rang d’[Occultisme](/regles/competences/occultisme) s’il le désire. Le pouvoir prend fin prématurément s’il le canalise à nouveau."
+      }
+    }
+  }
+}

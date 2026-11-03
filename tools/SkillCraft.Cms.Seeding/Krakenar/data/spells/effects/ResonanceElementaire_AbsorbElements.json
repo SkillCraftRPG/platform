@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6430a30f-623a-4337-89ab-507c207859f1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResonanceElementaire_AbsorbElements",
+    "DisplayName": "Absorption élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResonanceElementaire_AbsorbElements",
+      "DisplayName": "Absorption élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage reçoit des [dégâts](/regles/combat/degats) d’un des [types](/regles/combat/degats/types) suivants, il peut absorber une partie de l’énergie entrante afin d’en atténuer les effets : acide, feu, foudre, froid ou tonnerre. Il devient [résistant](/regles/combat/degats/efficacite) à ces dégâts ainsi qu’aux dégâts de ce type jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). Également, la prochaine [attaque de mêlée](/regles/combat/attaque/melee) qu’il réussit avant la fin de son prochain tour inflige [1d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) points de dégâts supplémentaires du type des dégâts absorbés."
+      }
+    }
+  }
+}

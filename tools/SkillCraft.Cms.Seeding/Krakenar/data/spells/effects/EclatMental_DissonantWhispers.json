@@ -1,0 +1,29 @@
+﻿{
+  "Id": "714486b6-e329-4091-825d-ec28f09d8176",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatMental_DissonantWhispers",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e2e1c565-c91a-4e0e-98fc-b57b0c4f2e56\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatMental_DissonantWhispers",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage murmure une mélodie discordante qu’une seule créature de son choix dans la portée peut entendre, la tordant d’une douleur terrible. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et doit immédiatement utiliser sa [réaction](/regles/combat/deroulement/tour), si elle en dispose, afin de s’éloigner du personnage aussi loin que sa [vitesse](/regles/aventure/mouvement/vitesse) le permet. La créature ne se déplace pas vers un terrain manifestement dangereux, tel qu’un feu ou une fosse. En cas de réussite, la cible ne reçoit que la moitié des points de dégâts et n’a pas à s’éloigner. Une créature [assourdie](/regles/combat/conditions/assourdi) réussit automatiquement le jet de sauvegarde."
+      }
+    }
+  }
+}

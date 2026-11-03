@@ -1,0 +1,27 @@
+﻿{
+  "Id": "29f69009-c09f-400b-b103-782f11352414",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "controle-de-l-air",
+    "DisplayName": "Contrôle de l’air",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "controle-de-l-air",
+      "DisplayName": "Contrôle de l’air",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "controle-de-l-air",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

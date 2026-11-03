@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4770fbc5-748b-40b0-9219-0e2156b5f01e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AdaptationNaturelle_GuardianOfNature",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1a7ad8e0-6e14-41ac-a39d-5cdcad5181a2\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AdaptationNaturelle_GuardianOfNature",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des poils d’une bête féroce ou de l’écorce de chêne.",
+        "HtmlContent": "Un esprit de la nature répond à l’appel du personnage et le transforme en un puissant gardien. Le personnage assume une des formes suivantes.\n\n- **Bête primitive.** Une fourrure bestiale couvre son corps, ses traits deviennent féroces et il acquiert les capacités suivantes.\n  - Bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse).\n  - [Vision dans le noir](/regles/aventure/environnement/vision) de 36 mètres.\n  - [Avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme), de [Mêlée](/regles/competences/melee) et de [Résistance](/regles/competences/resistance).\n  - Ses [attaques de mêlée](/regles/combat/attaque/melee) infligent un nombre de [points de dégâts](/regles/combat/degats) [magiques](/regles/combat/degats/types) supplémentaires égal à la moitié de sa [Puissance](/regles/statistiques/puissance).\n- **Grand arbre.** Sa peau paraît écorcée, des feuilles poussent dans ses cheveux, et il acquiert les capacités suivantes.\n  - Il acquiert un nombre de points de [Vitalité](/regles/statistiques/vitalite) [temporaires](/regles/combat/degats/temporaire) égal à sa [Puissance](/regles/statistiques/puissance).\n  - [Avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Discipline](/regles/competences/discipline), d’[Occultisme](/regles/competences/occultisme) et d’[Orientation](/regles/competences/orientation).\n  - Le sol dans un rayon de 4,5 mètres autour de lui devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) pour ses ennemis.\n  - Il ne peut être [renversé](/regles/combat/conditions/renverse), ni déplacé contre son gré."
+      }
+    }
+  }
+}

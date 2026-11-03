@@ -25,7 +25,7 @@
       "Description": null,
       "FieldValues": {
         "Material": "Une ou plusieurs petites bandes de tissu noir imbibé de sang.",
-        "HtmlContent": "Le personnage maudit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Une bande de tissu est consommée pour chaque créature maudite.\n\nChaque créature doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline).\n\nEn cas d’échec, une créature est maudite, et elle retire 1d6 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences).\n\nLes points de [Vitalité](/regles/statistiques/vitalite) maximale d’une créature maudite sont également réduits de 5 + [Sens](/regles/attributs/sens) du personnage (minimum 5)."
+        "HtmlContent": "Le personnage maudit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Une bande de tissu est consommée pour chaque créature maudite. Chaque créature doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, une créature est maudite, et elle retire 1d4 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences). La [Vitalité](/regles/statistiques/vitalite) courante et maximale d’une créature maudite est également réduite d’un nombre de points égal à 5&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
       }
     }
   }

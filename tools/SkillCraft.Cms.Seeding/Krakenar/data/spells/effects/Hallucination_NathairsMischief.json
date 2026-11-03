@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0ee7a4d6-d78e-4792-af97-d52c584e57cf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hallucination_NathairsMischief",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"73e0202c-1e32-43b9-9e22-7514affc0728\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Duration": "1",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hallucination_NathairsMischief",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un morceau de croûte de tarte aux pommes.",
+        "HtmlContent": "Le personnage remplit un cube de 6 mètres d’arête qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée de magie féerique et draconique. L’effet magique est déterminé en jetant 1d4, et il lance à nouveau au début de chacun de ses [tours](/regles/combat/deroulement/tour) jusqu’à la fin du pouvoir. Il peut déplacer le cube d’au plus 3 mètres avant de lancer.\n\n1. L’odeur de tarte aux pommes emplit l’air, et chaque créature dans le cube doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par le personnage jusqu’au début du prochain tour du personnage.\n2. Des bouquets de fleurs apparaissent tout autour, et chaque créature dans le cube doit réussir un jet de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) ou être [aveuglée](/regles/combat/conditions/aveugle) jusqu’au début du prochain tour du personnage, les fleurs lui aspergant le visage d’eau.\n3. Chaque créature dans le cube doit réussir un jet de sauvegarde de Discipline ou se mettre à ricaner jusqu’au début du prochain tour du personnage. Une créature qui ricane est [incapable](/regles/combat/conditions/incapable) et utilise tout son [déplacement](/regles/combat/activites/deplacement) pour se déplacer dans une direction aléatoire.\n4. Des gouttes de mélasse apparaissent et planent dans le cube, le transformant en [terrain difficile](/regles/aventure/mouvement/terrain-difficile) jusqu’au début du prochain tour du personnage."
+      }
+    }
+  }
+}

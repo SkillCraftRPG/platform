@@ -18,7 +18,7 @@
       "DisplayName": "Magie raffinée",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl sélectionne un des [cercles de magie](/regles/astromancie) pour lequel il a acquis le talent [Initiation magique](/regles/talents/initiation-magique) et il acquiert la capacité de tiers 2 spécifique à ce cercle."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=astromancie) de tiers 2 d’[astromancie](/regles/astromancie) et acquiert gratuitement un de ces pouvoirs.\nIl sélectionne un des [cercles de magie](/regles/astromancie) pour lequel il a acquis le talent [Initiation magique](/regles/talents/initiation-magique) et il acquiert la capacité de tiers 2 spécifique à ce cercle."
       }
     }
   }

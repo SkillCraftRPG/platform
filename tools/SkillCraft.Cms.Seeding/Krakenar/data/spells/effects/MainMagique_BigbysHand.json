@@ -1,0 +1,33 @@
+﻿{
+  "Id": "b59f8398-b9ec-42b4-afee-153c95d0f727",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MainMagique_BigbysHand",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8d7b9b70-901e-4723-b5a5-f71ac163b7eb\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MainMagique_BigbysHand",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une coquille d’œuf.",
+        "Focus": "Un gant en peau de serpent.",
+        "HtmlContent": "Le personnage crée une main de [grande taille](/regles/especes/taille) constituée de force chatoyante et translucide dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La main dure pendant la durée du pouvoir, n’occupe pas entièrement son espace, et se déplace au commandement du personnage, imitant les mouvements de sa propre main. La main est dotée d’une [Esquive](/regles/combat/attaque/esquive) de 20, d’un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à celui du personnage, ainsi que d’une [Vigueur](/regles/attributs/vigueur) de +10. Si ses points de Vitalité chutent à 0, le pouvoir prend fin. Lorsqu’il canalise le pouvoir, et une fois par [tour](/regles/combat/deroulement/tour) par une [action](/regles/combat/deroulement/tour), le personnage peut [déplacer](/regles/combat/activites/deplacement) la main d’au plus 18 mètres, puis lui faire produire l’un des effets suivants.\n\n- **Agripper.** La main tente d’[agripper](/regles/combat/activites/agripper) une créature de taille énorme ou moindre située à 1,5 mètres ou moins d’elle. L’étreinte est résolue en utilisant la Vigueur de la main. Si la cible est de taille moyenne ou moindre, la main se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests). Une fois par tour, par une action, le personnage peut broyer une cible [agrippée](/regles/combat/conditions/agrippe) par la main. Lorsqu’il en fait ainsi, la cible reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types).\n- **Bousculer.** La main tente de [bousculer](/regles/combat/activites/bousculer) une créature située à 1,5 mètres ou moins d’elle. La bousculade est résolue en utilisant la Vigueur de la main. Si la cible est de taille moyenne ou moindre, la main se voit conférer l’avantage au test. La main se déplace, poussant simultanément la créature, d’un nombre d’espaces de 1,5 mètres inférieur ou égal à 1&nbsp;+&nbsp;[Sens](/regles/attributs/sens) du personnage (minimum&nbsp;1).\n- **Frapper.** La main tente de frapper une créature ou un objet situé à 1,5 mètres ou moins d’elle. Le personnage effectue un test d’[Occultisme](/regles/competences/occultisme). Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit 1d8&nbsp;+&nbsp;Puissance points de dégâts de [force](/regles/combat/degats/types).\n- **Interposer.** La main s’interpose entre le personnage et une créature de son choix jusqu’à ce qu’il lui donne un autre ordre. Elle se déplace afin de se maintenir entre lui et la cible, lui conférant un [demi-abri](/regles/combat/attaque/abri) contre celle-ci. La cible ne peut traverser l’espace de la main si sa Vigueur est inférieure ou égale à celle de la main. Si sa Vigueur est supérieure à celle de la main, la cible peut se déplacer vers le personnage à travers l’espace de la main, mais cet espace est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) pour elle."
+      }
+    }
+  }
+}

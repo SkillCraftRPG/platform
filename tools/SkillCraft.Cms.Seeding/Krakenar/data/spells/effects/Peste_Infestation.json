@@ -1,0 +1,32 @@
+﻿{
+  "Id": "7227a1d1-54e9-48b4-8540-d38f4ecab87a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Peste_Infestation",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"18a47b60-6bc7-49e9-8420-7ca96298a128\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "IsConcentration": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Peste_Infestation",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une puce vivante.",
+        "HtmlContent": "Le personnage fait infester une créature qu’il peut [voir](/regles/aventure/environnement/vision) par un nuage d’acariens, de puces et d’autres parasites. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [4d4](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) et devient infestée pendant la durée. En cas de réussite, elle ne reçoit que la moitié des points de dégâts, puis le pouvoir prend fin.\n\nAu début de chacun de ses [tours](/regles/combat/deroulement/tour), une créature infestée reçoit 2d4&nbsp;+&nbsp;moitié de la Puissance points de dégâts de poison et [se déplace](/regles/combat/activites/deplacement) de 3 mètres dans une direction aléatoire, si elle peut se déplacer. Ce déplacement ne provoque pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite). Si la créature est [renversée](/regles/combat/conditions/renverse), elle [rampe](/regles/aventure/mouvement/types) pendant ce déplacement. Si elle ne peut pas se déplacer dans la direction obtenue, elle tombe plutôt renversée. À la fin de chacun de ses tours, la cible peut répéter le jet de sauvegarde de Résistance. En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

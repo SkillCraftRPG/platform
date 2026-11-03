@@ -1,0 +1,29 @@
+﻿{
+  "Id": "070a9168-b450-4492-884d-745590f95a0e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatMental_TashasMindWhip",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e2e1c565-c91a-4e0e-98fc-b57b0c4f2e56\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatMental_TashasMindWhip",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fouette psychiquement une ou deux créatures qu’il peut [voir](/regles/aventure/environnement/vision) situées à 9 mètres ou moins l’une de l’autre. Une cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Investigation](/regles/competences/investigation). En cas d’échec, elle reçoit [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types), et elle est [étourdie](/regles/combat/conditions/etourdi) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). De plus, à son prochain tour, elle ne peut effectuer qu’une seule [activité](/regles/combat/activites). En cas de réussite, une cible ne reçoit que la moitié des points de dégâts et ne subit aucun des autres effets du pouvoir."
+      }
+    }
+  }
+}

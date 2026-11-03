@@ -1,0 +1,31 @@
+﻿{
+  "Id": "04ac71d0-d62e-4f01-a14b-45eafbc46a09",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SceauMagique_GateSeal",
+    "DisplayName": "Fermeture",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e8f624f-76cc-427c-ad9e-3a87903faff3\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SceauMagique_GateSeal",
+      "DisplayName": "Fermeture",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une clé de portail brisée.",
+        "HtmlContent": "Le personnage fortifie le tissu des dimensions dans un cube immobile de 9 mètres d’arête qu’il peut [voir](/regles/aventure/environnement/vision). Dans cette zone, les portails se ferment et ne peuvent être ouverts pendant la durée. Les pouvoirs et autres effets permettant le voyage dimensionnel ou l’ouverture de portails échouent s’ils sont utilisés pour entrer dans la zone ou en sortir."
+      }
+    }
+  }
+}

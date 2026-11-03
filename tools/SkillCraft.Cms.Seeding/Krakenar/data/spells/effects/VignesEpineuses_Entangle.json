@@ -3,7 +3,7 @@
   "Invariant": {
     "IsPublished": true,
     "UniqueName": "VignesEpineuses_Entangle",
-    "DisplayName": null,
+    "DisplayName": "Enchevêtrement",
     "Description": null,
     "FieldValues": {
       "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
@@ -21,11 +21,10 @@
     "fr": {
       "IsPublished": true,
       "UniqueName": "VignesEpineuses_Entangle",
-      "DisplayName": null,
+      "DisplayName": "Enchevêtrement",
       "Description": null,
       "FieldValues": {
-        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
-        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision).\n\nUn carré de 6 mètres de côté centré sur ce point se remplit d’herbes et de vignes saisissantes, et la zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nToute créature se trouvant à l’intérieur du carré lorsque le personnage [canalise](/regles/magie/pouvoirs/canalisation) le pouvoir doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme).\n\nEn cas d’échec, elle est [restreinte](/regles/combat/conditions/restreint) par les herbes et les vignes.\n\nUne fois par [tour](/regles/combat/deroulement/tour), elle peut tenter de [s’échapper](/regles/combat/activites/echapper) et tentant le jet de sauvegarde à nouveau. Les plantes disparaissent lorsque le pouvoir prend fin."
+        "HtmlContent": "Des mauvaises herbes et des vignes agrippantes jaillissent du sol dans un carré de 6 mètres d’arête partant d’un point. Pendant la durée, ces plantes transforment le sol de la zone en [terrain difficile](/regles/aventure/mouvement/terrain-difficile). Une créature se trouvant dans la zone lorsque le personnage canalise le pouvoir doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou être [restreinte](/regles/combat/conditions/restreint) par les plantes enserrantes jusqu’à la fin du pouvoir. Une créature restreinte par les plantes peut tenter de [se libérer](/regles/combat/activites/echapper) par un [test](/regles/competences/tests) d’Athlétisme. Lorsque le pouvoir prend fin, les plantes invoquées se flétrissent."
       }
     }
   }

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "38c45d1e-8bc7-4ee9-8cec-81eb82d1db4f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Debilitation_RayOfEnfeeblement",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Affaiblissement_RayOfEnfeeblement",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un faisceau noir d’énergie affaiblissante jaillit vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, jusqu’à la fin du pouvoir, les [points de dégâts](/regles/combat/degats) infligés par les [attaques](/regles/combat/attaque) physiques de la cible basées sur la [Vigueur](/regles/attributs/vigueur) ([Mêlée](/regles/competences/melee) et [Force](/regles/statistiques/force)) sont réduits de moitié. À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), la cible peut effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

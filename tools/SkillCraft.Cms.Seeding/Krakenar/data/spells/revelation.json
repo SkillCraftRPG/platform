@@ -1,0 +1,27 @@
+﻿{
+  "Id": "dc985830-aa06-406e-986a-de16e434c1ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "revelation",
+    "DisplayName": "Révélation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "revelation",
+      "DisplayName": "Révélation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "revelation",
+        "MetaDescription": "Découvrez Révélation : vision absolue et éthérée, légendes oubliées, chemin le plus court, puis partage de la vision à plusieurs alliés.",
+        "Summary": "Vision vraie, légendes, aiguillage, puis vision partagée.",
+        "HtmlContent": "Le personnage voit d’abord la réalité sans voile, ou apprend des légendes. Plus fort, il confère cette vision à un allié ou trouve le chemin le plus court. Plus fort encore, il la partage à plusieurs alliés."
+      }
+    }
+  }
+}

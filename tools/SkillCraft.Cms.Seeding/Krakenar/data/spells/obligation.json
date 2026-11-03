@@ -1,7 +1,7 @@
 ﻿{
   "Id": "a88cf716-0ed7-4a7c-a23f-bac6404f49fc",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "obligation",
     "DisplayName": "Obligation",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "obligation",
       "DisplayName": "Obligation",
       "Description": null,

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "529a1a98-744f-4e94-89e5-ece9ee766d82",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatMental_MindSliver",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e2e1c565-c91a-4e0e-98fc-b57b0c4f2e56\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatMental_MindSliver",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage enfonce une pointe désorientante d’énergie psychique dans l’esprit d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Investigation](/regles/competences/investigation) ou recevoir [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et soustraire 1d4 du prochain jet de sauvegarde qu’elle effectue avant la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

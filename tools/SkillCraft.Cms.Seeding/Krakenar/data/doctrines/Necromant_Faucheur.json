@@ -17,7 +17,7 @@
       "DisplayName": "Faucheur",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 associés à l’élément Esprit ([Nécromancie](#)) et acquiert gratuitement un de ces pouvoirs.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts nécrotiques](/regles/combat/degats/types).\nSa [Vitalité](/regles/statistiques/vitalite) maximale ne peut être réduite d’une quelconque manière."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme&subcategory=necromancie) de tiers 3 associés à l’élément Esprit ([Nécromancie](/regles/elementarisme?category=necromancie)) et acquiert gratuitement un de ces pouvoirs.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts nécrotiques](/regles/combat/degats/types).\nSa [Vitalité](/regles/statistiques/vitalite) maximale ne peut être réduite d’une quelconque manière."
       }
     }
   }

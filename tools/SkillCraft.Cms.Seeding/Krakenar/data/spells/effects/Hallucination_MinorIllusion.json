@@ -1,0 +1,30 @@
+﻿{
+  "Id": "cf492dbd-8437-4d74-9c93-029bf4806d5e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hallucination_MinorIllusion",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"73e0202c-1e32-43b9-9e22-7514affc0728\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hallucination_MinorIllusion",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un peu de toison.",
+        "HtmlContent": "Le personnage crée un son ou une image d’un objet dans la portée, qui dure pendant la durée. L’illusion prend également fin s’il la dissipe par une [action](/regles/combat/deroulement/tour) ou s’il canalise à nouveau ce pouvoir. Si une créature utilise une action pour examiner le son ou l’image, elle peut déterminer qu’il s’agit d’une illusion par un [test](/regles/competences/tests) d’[Investigation](/regles/competences/investigation). Si une créature discerne l’illusion pour ce qu’elle est, l’illusion lui apparaît ténue.\n\n- **Image.** L’image ne doit pas être plus grande qu’un cube de 1,5 mètres d’arête. Elle ne peut créer de son, de lumière, d’odeur ni aucun autre effet sensoriel. Une interaction physique avec l’image révèle qu’il s’agit d’une illusion, car les choses peuvent la traverser. Elle peut être par exemple celle d’une chaise, des empreintes boueuses ou un petit coffre.\n- **Son.** Le volume peut aller d’un murmure à un cri. Il peut s’agir de sa voix, de la voix de quelqu’un d’autre, du rugissement d’un lion, d’un battement de tambours, ou de tout autre son de son choix. Le son se poursuit sans relâche pendant toute la durée, ou il peut produire des sons distincts à différents moments avant la fin du pouvoir."
+      }
+    }
+  }
+}

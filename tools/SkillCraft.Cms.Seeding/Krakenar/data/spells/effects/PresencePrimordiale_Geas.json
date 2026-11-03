@@ -1,7 +1,7 @@
 ﻿{
   "Id": "17c32a25-b1f9-4b6c-814e-cd82d51ac11b",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "PresencePrimordiale_Geas",
     "DisplayName": "Geis",
     "Description": null,
@@ -17,7 +17,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "PresencePrimordiale_Geas",
       "DisplayName": "Geis",
       "Description": null,

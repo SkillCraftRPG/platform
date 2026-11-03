@@ -1,0 +1,31 @@
+﻿{
+  "Id": "9844c78f-b6d4-4dfd-82a1-65902dc58a66",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EveilVegetal_GraspingVine",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d911110f-0331-4b2e-ad92-c9daae7b925b\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EveilVegetal_GraspingVine",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque une vigne qui jaillit du sol dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, il peut ordonner à la vigne de fouetter une créature située à 9 mètres ou moins d’elle qu’il peut voir. Cette créature doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou être tirée de 6 mètres directement vers la vigne. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut ordonner à la vigne de fouetter une créature qu’il peut voir située à 9 mètres ou moins de la vigne."
+      }
+    }
+  }
+}

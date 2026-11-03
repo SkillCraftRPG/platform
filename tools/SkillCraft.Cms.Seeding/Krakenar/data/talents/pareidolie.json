@@ -19,7 +19,7 @@
       "Description": null,
       "FieldValues": {
         "Slug": "pareidolie",
-        "HtmlContent": "Le personnage acquiert gratuitement une [illusion](#) de tiers 1.\n\nS’il a acquis une des spécialisations parmi la liste suivante, alors il peut acquérir toutes les illusions de tiers 1 : [Astromancien](/regles/specialisations/astromancien) ou [Ménestrel](/regles/specialisations/menestrel).",
+        "HtmlContent": "Le personnage acquiert gratuitement une [illusion](/regles/annexes/illusions) de tiers 1.\n\nIl peut acquérir toutes les illusions de tiers 1 s’il a acquis une des spécialisations parmi la liste suivante : [Astromancien](/regles/specialisations/astromancien) ou [Ménestrel](/regles/specialisations/menestrel).",
         "Summary": "Permet d’apprendre les illusions de tiers 1 et d’en acquérir une.",
         "MetaDescription": "Découvrez le talent Paréidolie, qui permet d’acquérir les illusions de tiers 1 et d’élargir la maîtrise des pouvoirs visuels des Astromanciens et Ménestrels."
       }

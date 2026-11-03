@@ -1,7 +1,7 @@
 ﻿{
   "Id": "735d2706-44ad-42ae-bce8-2b799dfe93a7",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Affaiblissement_InflictWounds",
     "DisplayName": null,
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Affaiblissement_InflictWounds",
       "DisplayName": null,
       "Description": null,

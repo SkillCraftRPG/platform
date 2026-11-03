@@ -1,0 +1,21 @@
+﻿{
+  "Id": "b007e545-43d7-49e7-9eef-d83294b40fd6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Oracle_PresageSuperieur",
+    "DisplayName": "Présage supérieur",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Oracle_PresageSuperieur",
+      "DisplayName": "Présage supérieur",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage tente de recevoir un [Présage](/regles/talents/presage), il bénéficie des capacités suivantes :\n\n- La période de [temps](/regles/aventure/temps) passe de 30 minutes à 24 heures.\n- Il reçoit une courte vision expliquant le résultat et révélant une conséquence importante et probable de la démarche.\n- Il peut présenter deux démarches distinctes à propos d’une même situation et reçoit un présage pour chacune, ce qui permet de comparer la résultat et la conséquence de chaque démarche."
+      }
+    }
+  }
+}

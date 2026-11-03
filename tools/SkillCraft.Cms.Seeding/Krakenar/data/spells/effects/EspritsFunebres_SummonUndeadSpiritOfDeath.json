@@ -1,0 +1,32 @@
+﻿{
+  "Id": "486168bd-9c4c-4e97-b402-e0bcd82940b8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsFunebres_SummonUndeadSpiritOfDeath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6550f103-e1f1-4768-b656-b180b2fd998e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsFunebres_SummonUndeadSpiritOfDeath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une carte à jouer dorée d’une valeur d’au moins 400 deniers représentant un avatar de la mort.",
+        "HtmlContent": "Le personnage invoque un esprit qui incarne la mort. L’esprit se manifeste dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **Fantomatique**, **Faucheur**, **Putride** ou **Squelettique**. L’esprit ressemble à une créature morte-vivante de la forme choisie, ce qui détermine ses traits et caractéristiques. Il disparaît ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}

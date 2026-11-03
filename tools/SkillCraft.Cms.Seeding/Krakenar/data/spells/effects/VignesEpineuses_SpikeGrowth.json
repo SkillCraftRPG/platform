@@ -3,7 +3,7 @@
   "Invariant": {
     "IsPublished": true,
     "UniqueName": "VignesEpineuses_SpikeGrowth",
-    "DisplayName": null,
+    "DisplayName": "Croissance d’épines",
     "Description": null,
     "FieldValues": {
       "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
@@ -21,11 +21,11 @@
     "fr": {
       "IsPublished": true,
       "UniqueName": "VignesEpineuses_SpikeGrowth",
-      "DisplayName": null,
+      "DisplayName": "Croissance d’épines",
       "Description": null,
       "FieldValues": {
-        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
-        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision). Des ronces et racines épineuses poussent dans un rayon de 6 mètres centré sur ce point.\n\nCes plantes sont camouflées et semblent naturelles, une créature doit donc réussir un [test](/regles/competences/tests) de [Perception](/regles/competences/perception) [opposé](/regles/competences/tests/oppose) au test d’[Occultisme](/regles/competences/occultisme) du personnage afin de détecter leur présence.\n\nLa zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile), et une créature reçoit [3d4 points de dégâts](/regles/combat/degats/jet) [perforants](/regles/combat/degats/types) pour chaque espace de 1,5 mètres traversé dans la zone."
+        "HtmlContent": "Le sol dans un rayon de 6 mètres centré sur un point se déforme et fait pousser des pointes et des épines dures. La zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) pendant la durée. Lorsqu’une créature se déplace dans la zone ou y entre, elle reçoit [2+2d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types) pour chaque 1,5 mètres parcourus. La transformation du sol est camouflée pour paraître naturelle. Toute créature qui ne peut pas [voir](/regles/aventure/environnement/vision) la zone au moment où le pouvoir est canalisé doit réussir un [test](/regles/competences/tests) de [Perception](/regles/competences/perception) afin de reconnaître le terrain comme dangereux avant d’y entrer.",
+        "Material": "Une poignée d’épines acérées."
       }
     }
   }

@@ -3,11 +3,11 @@
   "Invariant": {
     "IsPublished": true,
     "UniqueName": "ToucherVampirique_LifeTransference",
-    "DisplayName": null,
+    "DisplayName": "Transfert de vie",
     "Description": null,
     "FieldValues": {
       "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
-      "Level": "1",
+      "Level": "2",
       "CastingTime": "[\"2\"]",
       "Duration": "0",
       "DurationUnit": "[\"Round\"]",
@@ -20,10 +20,10 @@
     "fr": {
       "IsPublished": true,
       "UniqueName": "ToucherVampirique_LifeTransference",
-      "DisplayName": null,
+      "DisplayName": "Transfert de vie",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "[\uD83D\uDEA7Life Transference](https://dnd5e.wikidot.com/spell:life-transference)"
+        "HtmlContent": "Le personnage peut sacrifier une part de sa vitalité afin de guérir les blessures d’une créature consentante qu’il touche. Il s’inflige [2d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) points de dégâts [nécrotiques](/regles/combat/degats/types) et la cible [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal au double des points de dégâts reçus. Ces dégâts ne peuvent être réduits d’aucune manière."
       }
     }
   }

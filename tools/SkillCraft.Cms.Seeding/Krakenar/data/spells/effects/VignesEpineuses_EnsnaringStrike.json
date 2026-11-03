@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2b930545-27bb-4b72-86a0-70c24d3692ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VignesEpineuses_EnsnaringStrike",
+    "DisplayName": "Frappe enserrante",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VignesEpineuses_EnsnaringStrike",
+      "DisplayName": "Frappe enserrante",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La prochaine [attaque](/regles/combat/attaque) physique réussie par le personnage fait apparaître une masse de vignes épineuses tortillantes u point d’impact. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou être [restreinte](/regles/combat/conditions/restreint) par les vignes magiques jusqu’à la fin du pouvoir. Une créature de [grande taille](/regles/especes/taille) ou supérieure se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ce jet de sauvegarde. Si la cible réussit le jet, les vignes se flétrissent. Tant qu’elle est restreinte par ce pouvoir, la cible reçoit [1d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types) au début de chacun de ses [tours](/regles/combat/deroulement/tour). Une créature restreinte par les vignes, ou une créature qui peut la toucher, peut tenter de [se libérer](/regles/combat/activites/echapper) par un [test](/regles/competences/tests) d’Athlétisme."
+      }
+    }
+  }
+}

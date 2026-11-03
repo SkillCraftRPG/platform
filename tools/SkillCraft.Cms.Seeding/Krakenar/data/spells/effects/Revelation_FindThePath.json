@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a82e3c0e-7a49-4f9b-9b0b-1aa95247e15a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Revelation_FindThePath",
+    "DisplayName": "Aiguillage",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"dc985830-aa06-406e-986a-de16e434c1ed\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Revelation_FindThePath",
+      "DisplayName": "Aiguillage",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La valeur des outils divinatoires doit être d’au moins 100 deniers, ces outils peuvent être constitués par exemple d’os, de bâtonnets d’ivoire, de cartes, de dents et de runes gravées.\n\nCe pouvoir permet au personnage de trouver le chemin physique le plus court et le plus direct vers un lieu fixe précis qu’il connaît, situé dans la même dimension. S’il nomme une destination dans une autre dimension, une destination qui se déplace (telle une forteresse mobile), ou une destination qui n’est pas précise (telle que «&nbsp;la tanière d’un dragon vert&nbsp;»), le pouvoir échoue. Pendant la durée, tant qu’il se trouve dans la même dimension que la destination, il sait à quelle distance elle se trouve et dans quelle direction. Tandis qu’il s’y rend, chaque fois qu’un choix de chemins se présente, il détermine automatiquement lequel est le plus court et le plus direct (sans qu’il soit nécessairement le plus sûr) vers la destination.",
+        "Focus": "Un ensemble d’outils divinatoires et un objet provenant du lieu qu’il souhaite trouver."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "1363beda-81df-455c-8d11-fbe1e43d363e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatMental_ViciousMockery",
+    "DisplayName": "Cruelles moqueries",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e2e1c565-c91a-4e0e-98fc-b57b0c4f2e56\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatMental_ViciousMockery",
+      "DisplayName": "Cruelles moqueries",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage déchaîne une salve d’insultes teintées d’envoûtements subtils contre une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Si la cible peut l’entendre (bien qu’elle n’ait pas besoin de le comprendre), elle doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou recevoir [1+1d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et voir le prochain [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) qu’elle effectue avant la fin de son prochain [tour](/regles/combat/deroulement/tour) affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

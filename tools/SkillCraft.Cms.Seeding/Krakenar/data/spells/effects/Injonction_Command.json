@@ -1,0 +1,29 @@
+﻿{
+  "Id": "84acf069-1ced-42af-b6eb-321d1c861e54",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Injonction_Command",
+    "DisplayName": "Commande",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"37ef7fe9-0634-4f75-a7ea-3af0436c5c7f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Injonction_Command",
+      "DisplayName": "Commande",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce une commande d’un seul mot en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). Si la cible n’est pas un mort-vivant, qu’elle entend et comprend le personnage, et que la commande n’est pas directement dangereuse envers celle-ci, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la créature doit exécuter l’action demandée jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). Des exemples de commandes suivent. Si le personnage donne une commande différente, le maître de jeu détermine comment la cible se comporte. Si la cible ne peut pas suivre la commande, le pouvoir prend fin.\n\n- **Approcher.** La cible [se déplace](/regles/combat/activites/deplacement) en direction du personnage par le chemin le plus court, s’arrêtant le plus près possible, puis met fin à son tour.\n- **Fuir.** La cible [se déplace](/regles/combat/activites/deplacement) le plus loin possible du personnage en utilisant toutes ses [actions](/regles/combat/deroulement/tour).\n- **Lâcher.** La cible [lâche](/regles/combat/activites/lacher) tous les objets qu’elle tient, puis met fin à son tour.\n- **Ramper.** La cible [se jette au sol](/regles/combat/activites/jeter-sol) en position [renversée](/regles/combat/conditions/renverse), puis met fin à son tour.\n- **Rester.** La cible n’effectue aucune [activité](/regles/combat/activites). Une créature [volante](/regles/aventure/mouvement/types) se maintient en position dans les airs."
+      }
+    }
+  }
+}

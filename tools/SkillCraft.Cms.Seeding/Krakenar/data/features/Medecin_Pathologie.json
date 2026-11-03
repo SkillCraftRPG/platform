@@ -1,0 +1,21 @@
+﻿{
+  "Id": "7f49aabb-a166-467a-ba85-8f0507c44dea",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Medecin_Pathologie",
+    "DisplayName": "Pathologie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Medecin_Pathologie",
+      "DisplayName": "Pathologie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) de [Médecine](/regles/competences/medecine) effectués afin de diagnostiquer maladie.\n\nÉgalement, le personnage peut concocter une des préparations suivantes en utilisant les 10 charges d’une [trousse de premiers soins](/regles/equipement/outils) et en dépensant 25 points d’[Énergie](/regles/statistiques/energie). Cette concoction prend [une heure](/regles/aventure/temps) et peut être effectuée pendant une [halte](/regles/aventure/repos).\n\n- **Inoculation.** Le personnage inocule une des maladies listées au [niveau 5](/regles/magie/pouvoirs/niveau) du pouvoir [Calamité](/regles/magie/pouvoirs/calamite). Il peut ensuite tenter d’infecter une créature par une [action](/regles/combat/deroulement/tour) en effectuant une [attaque de mêlée](/regles/combat/attaque/melee) et un test de Médecine. Si l’attaque réussit, la capacité prend l’effet du pouvoir. La [difficulté](/regles/competences/tests/difficulte) du [jet de sauvegarde](/regles/competences/tests/sauvegarde) de la cible est égale au [test passif](/regles/competences/tests/passif) de Médecine du personnage. Si la préparation n’est pas administrée dans les 24 heures suivant sa concoction, elle est perdue.\n- **Vaccin.** Le vaccin peut être administré par une action. Il immunise la cible aux nouvelles maladies non magiques contractées pendant les 7 prochains jours, mais ne guérit pas les maladies affligeant déjà la cible. S’il n’est pas administré dans les 7 jours suivant sa concoction, il est perdu."
+      }
+    }
+  }
+}

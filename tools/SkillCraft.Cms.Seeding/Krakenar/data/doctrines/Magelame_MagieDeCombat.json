@@ -17,7 +17,7 @@
       "DisplayName": "Magie de combat",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) appartenant au cercle d’Abjuration.\nLorsqu’il [acquiert](/regles/talents/acquisition) le talent [Magie guerrière](/regles/talents/magie-guerriere), alors il acquiert gratuitement le talent [Attaque magique](/regles/talents/attaque-magique)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=astromancie&subcategory=abjuration) de tiers 2 d’[astromancie](/regles/astromancie?category=abjuration) appartenant au cercle d’[Abjuration](/regles/astromancie/abjuration).\nLorsqu’il [acquiert](/regles/talents/acquisition) le talent [Magie guerrière](/regles/talents/magie-guerriere), alors il acquiert gratuitement le talent [Attaque magique](/regles/talents/attaque-magique)."
       }
     }
   }

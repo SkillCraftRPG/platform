@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5bf483be-18e1-4137-83ce-74dae222b6cf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Localisation_LocateObject",
+    "DisplayName": "Objet",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"47501238-4a04-4cef-9031-ed3a05d81a59\"]",
+      "Level": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Duration": "10",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "CastingTime": "[\"2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Localisation_LocateObject",
+      "DisplayName": "Objet",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage nomme ou décrit un objet qui lui est familier. Il ressent la direction de l’emplacement de cet objet tant que celui-ci se trouve à 300 mètres ou moins de sa position. Si l’objet est en mouvement, il connaît la direction de ce mouvement. Le pouvoir peut localiser un objet précis connu du personnage, pourvu qu’il l’ait vu de près (à 9 mètres ou moins) au moins une fois. Alternativement, le pouvoir peut localiser l’objet le plus proche d’un type donné, tel un vêtement, un bijou, un meuble, un outil ou une arme d’une certaine sorte. Ce pouvoir ne peut localiser un objet si une épaisseur quelconque de plomb, même une mince feuille, bloque un chemin direct entre le personnage et l’objet.",
+        "Focus": "Une brindille fourchue."
+      }
+    }
+  }
+}

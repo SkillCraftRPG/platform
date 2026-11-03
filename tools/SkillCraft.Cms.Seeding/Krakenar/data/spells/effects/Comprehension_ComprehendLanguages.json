@@ -1,0 +1,32 @@
+﻿{
+  "Id": "04106fcd-c6af-4083-a5ef-1c9bb75612a3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Comprehension_ComprehendLanguages",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"70e4ddda-3f7c-4c3b-9982-0e60b85a6de5\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Comprehension_ComprehendLanguages",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de suie et de sel.",
+        "HtmlContent": "Pendant la durée, le personnage comprend le sens littéral de toute [langue parlée](/regles/langues) qu’il entend. Il comprend également toute langue écrite qu’il voit, mais il doit toucher la surface sur laquelle les mots sont écrits. Il faut environ une minute pour lire une page de texte. Ce pouvoir ne décode pas les messages secrets d’un texte ou d’un glyphe, tel qu’un symbole magique, qui ne fait pas partie d’une [langue écrite](/regles/langues/scripts)."
+      }
+    }
+  }
+}

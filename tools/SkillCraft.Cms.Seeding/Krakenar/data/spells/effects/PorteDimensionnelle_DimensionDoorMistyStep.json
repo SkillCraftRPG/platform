@@ -1,0 +1,29 @@
+﻿{
+  "Id": "2fc39549-c767-48d5-8ed9-960112508d10",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PorteDimensionnelle_DimensionDoorMistyStep",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cdef595e-f956-43db-9312-0a5339c4561b\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PorteDimensionnelle_DimensionDoorMistyStep",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se [téléporte](/regles/magie) d’au plus 18 mètres vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision)."
+      }
+    }
+  }
+}

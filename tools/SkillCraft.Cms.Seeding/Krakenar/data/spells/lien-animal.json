@@ -1,0 +1,27 @@
+﻿{
+  "Id": "21ccc0f1-47b4-4361-b3c8-607516a39e76",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "lien-animal",
+    "DisplayName": "Lien animal",
+    "Description": null,
+    "FieldValues": {
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]",
+      "Tier": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "lien-animal",
+      "DisplayName": "Lien animal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "lien-animal",
+        "MetaDescription": "Découvrez Lien animal : lien télépathique, amitié ou dialogue avec les bêtes, messager animal, puis sens partagés et toucher à distance.",
+        "Summary": "Lie, charme ou parle aux bêtes, messager, puis sens partagés.",
+        "HtmlContent": "Le personnage lie d’abord une bête amie par télépathie, la charme, ou lui parle. Plus fort, un petit animal livre un message. Plus fort encore, il voit et entend par une bête, et peut canaliser un pouvoir de contact à travers elle."
+      }
+    }
+  }
+}

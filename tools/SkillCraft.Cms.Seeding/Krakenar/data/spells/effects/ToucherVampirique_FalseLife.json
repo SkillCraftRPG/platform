@@ -3,7 +3,7 @@
   "Invariant": {
     "IsPublished": true,
     "UniqueName": "ToucherVampirique_FalseLife",
-    "DisplayName": null,
+    "DisplayName": "Simulacre de vie",
     "Description": null,
     "FieldValues": {
       "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
@@ -20,11 +20,11 @@
     "fr": {
       "IsPublished": true,
       "UniqueName": "ToucherVampirique_FalseLife",
-      "DisplayName": null,
+      "DisplayName": "Simulacre de vie",
       "Description": null,
       "FieldValues": {
-        "Material": "\uD83D\uDEA7a small amount of alcohol or distilled spirits",
-        "HtmlContent": "[\uD83D\uDEA7False Life](https://dnd5e.wikidot.com/spell:false-life)"
+        "Material": "Une petite quantité d’alcool ou d’esprit distillé.",
+        "HtmlContent": "Le personnage se fortifie d’un simulacre nécromantique de vie. Sa [Vitalité](/regles/statistiques/vitalite) maximale augmente d’une valeur égale à sa [Puissance](/regles/statistiques/puissance)."
       }
     }
   }

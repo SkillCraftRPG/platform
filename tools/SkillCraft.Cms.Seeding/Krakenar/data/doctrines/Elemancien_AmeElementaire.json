@@ -18,7 +18,7 @@
       "DisplayName": "Âme élémentaire",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert gratuitement un de ces pouvoirs.\nIl peut également acquérir les pouvoirs de tiers 2 associés à une [combinaison élémentaire](#) incluant sa spécialité.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert gratuitement un de ces pouvoirs.\nIl peut utiliser de puissantes [capacités élémentaires](/regles/elementarisme/capacites) de tiers 2."
       }
     }
   }

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "21f546b2-36e6-4662-9c30-688795c5fb94",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Interdiction_Nondetection",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"475458e9-9ace-4247-84c6-59c5386ce31b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Interdiction_Nondetection",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poussière de diamant d’une valeur d’au moins 25 deniers répandue sur la cible.",
+        "HtmlContent": "Pendant la durée, le personnage dissimule une cible qu’il touche à la magie de [Divination](/regles/astromancie/divination). La cible peut être une créature consentante, ou un lieu ou un objet d’au plus 3 mètres dans toute dimension. La cible ne peut être ciblée par aucune magie de divination, ni perçue au travers de senseurs magiques de scrutation."
+      }
+    }
+  }
+}

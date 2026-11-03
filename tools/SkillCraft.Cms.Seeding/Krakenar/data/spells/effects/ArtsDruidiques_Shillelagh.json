@@ -1,0 +1,31 @@
+﻿{
+  "Id": "7f1d3faa-1ad0-4fb6-a3d1-7471bc807795",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArtsDruidiques_Shillelagh",
+    "DisplayName": "Shillelagh",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArtsDruidiques_Shillelagh",
+      "DisplayName": "Shillelagh",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Du gui, une feuille de trèfle, et une massue ou un bâton.",
+        "HtmlContent": "Le personnage imprègne le bois d’une [massue](/regles/equipement/armes/simples) ou d’un [bâton](/regles/equipement/armes/simples) qu’il tient de la puissance de la nature. L’arme devient également magique, si elle ne l’est pas déjà. Il remplace le [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) par un test d’[Occultisme](/regles/competences/occultisme) lorsqu’il effectue une [attaque](/regles/combat/attaque) en maniant cette arme, le [dé de dégâts](/regles/combat/degats/jet) de l’arme devient 1d8, et il remplace sa [Force](/regles/statistiques/force) par sa [Puissance](/regles/statistiques/puissance) dans le calcul des [points de dégâts](/regles/combat/degats) infligés. Le pouvoir prend fin s’il le canalise à nouveau ou s’il [lâche](/regles/combat/activites/lacher) l’arme."
+      }
+    }
+  }
+}

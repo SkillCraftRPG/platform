@@ -18,13 +18,13 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "VignesEpineuses_ThornWhip",
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "Focus": "La tige d’une plante épineuse dont l’une des extrémités a été aiguisée en pointe.",
-        "HtmlContent": "Le personnage fait apparaître un long fouet constitué d’une vigne épineuse dans une de ses mains libres, puis [attaque](/regles/magie/effets/attaque) une créature.\n\nSi l’attaque réussit, la créature reçoit [1d6 points de dégâts](/regles/combat/degats/jet) [perforants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nSi la [taille](/regles/especes/taille) de la cible est d’au plus une catégorie supérieure à celle du personnage, alors la cible est rapprochée de 3 mètres en direction du personnage.\n\nLe fouet disparaît à la suite à l’attaque dans un nuage de poussière de bois."
+        "Focus": "\uD83D\uDEA7",
+        "HtmlContent": "Le personnage crée un long fouet en forme de vigne couvert d’épines, qui s’abat à son commandement vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la créature reçoit [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types). Si la [taille](/regles/especes/taille) de la créature est d’au plus une catégorie supérieure à celle du personnage, le personnage tire la cible d’au plus 3 mètres vers lui. Le fouet disparaît à la suite de l’attaque dans un nuage de poussière de bois."
       }
     }
   }

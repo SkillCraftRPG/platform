@@ -1,0 +1,31 @@
+﻿{
+  "Id": "78041255-61b5-4b09-b7bb-89a1dfdae36f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LueurLunaire_CreateBonfire",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LueurLunaire_CreateBonfire",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un feu de joie sur un sol qu’il peut [voir](/regles/aventure/environnement/vision). Jusqu’à la fin du pouvoir, le feu remplit un cube de 1,5 mètres d’arête. Toute créature dans l’espace du feu lorsque le personnage canalise le pouvoir doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types). Une créature doit également effectuer ce jet de sauvegarde lorsqu’elle entre dans l’espace du feu pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y termine son tour. Le feu enflamme les objets inflammables dans sa zone qui ne sont ni portés ni tenus."
+      }
+    }
+  }
+}

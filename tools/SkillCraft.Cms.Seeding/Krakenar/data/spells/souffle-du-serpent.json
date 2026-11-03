@@ -1,0 +1,27 @@
+﻿{
+  "Id": "aff74ada-a168-48b2-9929-a79b9d17c9b4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "souffle-du-serpent",
+    "DisplayName": "Souffle du serpent",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "souffle-du-serpent",
+      "DisplayName": "Souffle du serpent",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "souffle-du-serpent",
+        "MetaDescription": "Découvrez Souffle du serpent : souffle empoisonné, neutraliser un poison et s’en protéger, puis projeter un cône toxique.",
+        "Summary": "Blesse par le poison, purge et protège, puis exhale un cône toxique.",
+        "HtmlContent": "Le personnage blesse d’abord d’un souffle empoisonné. Plus fort, il aspire et neutralise un poison, puis protège contre l’empoisonnement. Plus fort encore, il peut exhaler un cône toxique."
+      }
+    }
+  }
+}

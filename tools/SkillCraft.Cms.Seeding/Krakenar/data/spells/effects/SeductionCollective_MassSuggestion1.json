@@ -1,0 +1,33 @@
+﻿{
+  "Id": "01805576-895b-4dc1-9a43-44c02d9e504e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SeductionCollective_MassSuggestion1",
+    "DisplayName": "Suggestion",
+    "Description": null,
+    "FieldValues": {
+      "Level": "1",
+      "Spell": "[\"bd3c98e6-c9bb-4d7f-bf68-b9b0f7407546\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "IsConcentration": "false",
+      "IsRitual": "false",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SeductionCollective_MassSuggestion1",
+      "DisplayName": "Suggestion",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une langue de serpent.",
+        "Material": "Un peu de rayon de miel ou une goutte d’huile douce.",
+        "HtmlContent": "Le personnage suggère une conduite (limitée à une ou deux phrases) et influence magiquement jusqu’à 12 créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, qui peuvent l’[entendre](/regles/combat/conditions/assourdi) et le comprendre. Les créatures qui ne peuvent être [charmées](/regles/combat/conditions/charme) sont immunisées à cet effet. La suggestion doit être formulée de manière à rendre la conduite raisonnable. Demander aux créatures de se poignarder, de se jeter sur une lance, de s’immoler ou d’accomplir un autre acte manifestement nuisible met fin au pouvoir.\n\nUne cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle poursuit la conduite décrite au meilleur de ses capacités. Toutes les créatures charmées poursuivent la même conduite. La conduite suggérée peut se poursuivre pendant toute la durée. Si l’activité suggérée peut être achevée en moins de temps, le pouvoir prend fin lorsque le sujet a terminé ce qui lui a été demandé. Si le personnage ou l’un de ses compagnons inflige des [dégâts](/regles/combat/degats) à une cible, le pouvoir prend fin pour celle-ci.\n\nLe personnage peut également préciser des conditions qui déclencheront une activité particulière pendant la durée. Par exemple, il pourrait suggérer à un chevalier de donner son destrier au premier mendiant qu’elle rencontre. Si la condition n’est pas remplie avant l’expiration du pouvoir, l’activité n’est pas effectuée."
+      }
+    }
+  }
+}

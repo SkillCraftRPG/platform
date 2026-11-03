@@ -1,0 +1,31 @@
+﻿{
+  "Id": "c0400015-57b4-4e7d-bf69-7047bad15d86",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Peste_GiantInsect",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"18a47b60-6bc7-49e9-8420-7ca96298a128\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Peste_GiantInsect",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage transforme jusqu’à dix mille-pattes, trois araignées, cinq guêpes ou un scorpion en versions géantes de leurs formes naturelles. Un mille-pattes devient un mille-pattes géant, une araignée une araignée géante, une guêpe une guêpe géante, et un scorpion un scorpion géant. Chaque créature obéit aux ordres verbaux du personnage agit pendant son [tour](/regles/combat/deroulement/tour). Le maître de jeu possède les traits et caractéristiques de ces créatures et résout leurs [actions](/regles/combat/activites) et [déplacements](/regles/combat/activites/deplacement). Une créature demeure à sa taille géante pendant la durée, jusqu’à ce que sa [Vitalité](/regles/statistiques/vitalite) chute à 0, ou jusqu’à ce que le personnage utilise une [action](/regles/combat/deroulement/tour) afin de dissiper l’effet sur elle. Le maître de jeu peut autoriser le personnage à choisir d’autres cibles. Par exemple, s’il transforme une abeille, sa version géante pourrait avoir les mêmes traits et caractéristiques qu’une guêpe géante."
+      }
+    }
+  }
+}

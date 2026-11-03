@@ -1,0 +1,31 @@
+﻿{
+  "Id": "7212a759-18f2-460d-b70a-44586447106d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EveilVegetal_Awaken",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d911110f-0331-4b2e-ad92-c9daae7b925b\"]",
+      "Level": "2",
+      "CastingTime": "[\"8h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EveilVegetal_Awaken",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Après avoir passé le temps d’incantation à tracer des voies magiques dans l’agate, le personnage touche une plante de [taille](/regles/especes/taille) énorme ou moindre. La cible doit être dénuée d’[Intellect](/regles/attributs/intellect) ou avoir une valeur d’Intellect inférieure à –3.\n\nLa cible acquiert un Intellect de 0. Elle acquiert également la capacité de parler une [langue](/regles/langues) que le personnage connaît. Si la cible est une plante, elle acquiert la capacité de mouvoir ses membres, racines, vignes, tiges rampantes et ainsi de suite, ainsi que des sens similaires à ceux d’un humain. Le maître de jeu choisit des traits et caractéristiques appropriées pour la plante éveillée, telles que celles d’un arbuste éveillé ou d’un arbre éveillé.\n\nLa plante éveillée est [charmée](/regles/combat/conditions/charme) par le personnage pendant 30 jours, ou jusqu’à ce que le personnage ou ses compagnons lui fassent du mal. Lorsque le pouvoir prend fin, la créature éveillée choisit de demeurer amicale ou non envers le personnage, selon la façon dont elle a été traitée pendant qu’elle était charmée.",
+        "Material": "Une agate d’une valeur d’au moins 1000 deniers."
+      }
+    }
+  }
+}

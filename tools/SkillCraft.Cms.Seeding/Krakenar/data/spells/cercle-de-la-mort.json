@@ -1,7 +1,7 @@
 ﻿{
   "Id": "60268c2e-3b33-4755-9683-4e40069720b3",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "cercle-de-la-mort",
     "DisplayName": "Cercle de la Mort",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "cercle-de-la-mort",
       "DisplayName": "Cercle de la Mort",
       "Description": null,

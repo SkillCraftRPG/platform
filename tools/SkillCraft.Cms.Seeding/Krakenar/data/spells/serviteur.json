@@ -1,0 +1,27 @@
+﻿{
+  "Id": "18cd716d-adb6-4a30-b711-2c086d682526",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "serviteur",
+    "DisplayName": "Serviteur",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "serviteur",
+      "DisplayName": "Serviteur",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "serviteur",
+        "MetaDescription": "Découvrez Serviteur, un pouvoir qui invoque des familiers pour explorer, communiquer et transmettre la magie, ou un molosse spectral pour protéger les lieux.",
+        "Summary": "Invoquez des familiers utiles ou un molosse spectral qui garde les lieux.",
+        "HtmlContent": "Serviteur permet d’invoquer des familiers animaux capables d’explorer, de communiquer par télépathie et de transmettre des pouvoirs au toucher. Aux niveaux supérieurs, il multiplie les familiers ou fait surgir un molosse invisible qui monte la garde."
+      }
+    }
+  }
+}

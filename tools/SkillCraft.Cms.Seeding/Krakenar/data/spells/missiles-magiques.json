@@ -1,0 +1,27 @@
+﻿{
+  "Id": "85f421b5-d8b0-44b6-a5a7-d12b6d314cd9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "missiles-magiques",
+    "DisplayName": "Missiles magiques",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "missiles-magiques",
+      "DisplayName": "Missiles magiques",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "missiles-magiques",
+        "HtmlContent": "Le personnage fusille d’abord d’un rayon de force. Plus fort, des dards lumineux touchent sans manquer une ou plusieurs cibles. Plus fort encore, chaque missile peut manquer : un critique frappe plus fort, un échec critique le vise.",
+        "MetaDescription": "Découvrez Missiles magiques : rayon de force, dards lumineux sûrs, puis missiles risqués au critique redoutable ou qui se retournent.",
+        "Summary": "Rayon de force, dards sûrs, puis missiles au critique à double tranchant."
+      }
+    }
+  }
+}

@@ -20,7 +20,7 @@
       "FieldValues": {
         "Slug": "elementarisme",
         "Summary": "Permet de contrôler un élément et ses pouvoirs associés.",
-        "HtmlContent": "Le personnage sélectionne un des éléments pour lequel il n’a pas encore acquis ce talent et il peut désormais acquérir les [pouvoirs](#) de tiers 0 associés à cet élément.\n\nIl acquiert également gratuitement un pouvoir de tiers 0 associé à cet élément.\n\n- Air : [Contrôle de l’Air](#)\n- Eau : [Contrôle de l’Eau](#)\n- Feu : [Contrôle du Feu](#)\n- Terre : [Contrôle de la Terre](#)\n- Esprit : [au choix](#)",
+        "HtmlContent": "Le personnage sélectionne un des éléments pour lequel il n’a pas encore acquis ce talent et il peut désormais acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 0 associés à cet élément.\n\nIl acquiert également gratuitement un pouvoir de tiers 0 associé à cet élément.\n\n- Air : [Contrôle de l’Air](/regles/magie/pouvoirs/controle-de-l-air)\n- Eau : [Contrôle de l’Eau](/regles/magie/pouvoirs/controle-de-l-eau)\n- Feu : [Contrôle du Feu](/regles/magie/pouvoirs/controle-du-feu)\n- Terre : [Contrôle de la Terre](/regles/magie/pouvoirs/controle-de-la-terre)\n- Esprit : au choix ([Théurgie](/regles/elementarisme?category=theurgie) ou [Nécromancie](/regles/elementarisme?category=necromancie))",
         "MetaDescription": "Découvrez le talent Élémentarisme, qui permet d’accéder à la maîtrise d’un élément — air, eau, feu, terre ou esprit — et d’en apprendre les pouvoirs associés."
       }
     }

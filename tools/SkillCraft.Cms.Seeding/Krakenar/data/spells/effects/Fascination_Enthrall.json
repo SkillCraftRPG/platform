@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c4dc450b-b7f7-4f23-9cc8-6831cdde066d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Fascination_Enthrall",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fc8274dc-8ec8-4150-9c15-d2850f4125f0\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Range": "12",
+      "IsVerbal": "true",
+      "IsSomatic": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Fascination_Enthrall",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tisse un fil de paroles distrayantes, forçant des créatures de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et qui peuvent l’entendre à effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Toute créature qui ne peut être [charmée](/regles/combat/conditions/charme) réussit automatiquement ce jet de sauvegarde, et si le personnage ou ses compagnons combattent une créature, celle-ci se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet. En cas d’échec, la cible est affligée du [désavantage](/regles/competences/tests/avantage-desavantage) aux [tests](/regles/competences/tests) de [Perception](/regles/competences/perception) effectués pour percevoir toute créature autre que le personnage jusqu’à la fin du pouvoir ou jusqu’à ce que la cible ne puisse plus l’entendre. Le pouvoir prend fin si le personnage est [incapable](/regles/combat/conditions/incapable) ou ne peut plus parler."
+      }
+    }
+  }
+}

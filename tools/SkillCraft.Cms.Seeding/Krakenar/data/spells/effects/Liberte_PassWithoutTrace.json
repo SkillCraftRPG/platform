@@ -1,7 +1,7 @@
 ﻿{
   "Id": "94466358-cd25-4bca-b111-9fdd6ad4a262",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Liberte_PassWithoutTrace",
     "DisplayName": "Passage naturel",
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Liberte_PassWithoutTrace",
       "DisplayName": "Passage naturel",
       "Description": null,

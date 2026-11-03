@@ -1,0 +1,21 @@
+﻿{
+  "Id": "e33273ff-96d6-4731-b55f-661a1d2b9bcc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "HautMage_GrimoireEveille",
+    "DisplayName": "Grimoire éveillé",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "HautMage_GrimoireEveille",
+      "DisplayName": "Grimoire éveillé",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut enchanter son [grimoire](/regles/talents/astrologie) en y traçant des symboles magiques avec sa [plume magique](/regles/specialisations/mage) pendant un rituel d’une durée d’[une heure](/regles/aventure/temps) qu’il peut effectuer à la [halte](/regles/aventure/repos/halte). Si le personnage réutilise cette capacité, le grimoire perd ses capacités magiques. Lorsqu’il tient son grimoire enchanté dans une main libre, le personnage se voit conférer les capacités suivantes.\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à tous ses [tests](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme).\n- Il peut [canaliser](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs) en [rituel](/regles/magie/parametres/incantation) en utilisant l’[incantation](/regles/magie/parametres/incantation) normale du pouvoir, sans devoir y ajouter 10 minutes. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité.\n- Il peut faire manifester l’esprit de son grimoire enchanté par une [action](/regles/combat/deroulement/tour) dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) et situé à 18 mètres ou moins de sa position. L’esprit se manifeste sous la forme d’un livre fantomatique, d’une cascade de texte ou d’un savant du passé, au choix du personnage. Il dégage de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 3 mètres, est intangible, sa [taille](/regles/especes/taille) est minuscule, et il [lévite](/regles/aventure/mouvement/types).\n  - L’esprit entend et [voit dans le noir](/regles/aventure/environnement/vision) à une distance de 18 mètres. Il partage télépathiquement ses sens avec le personnage (aucune [action](/regles/combat/deroulement/tour) nécessaire).\n  - Une fois par [tour](/regles/combat/deroulement/tour), par une action, le personnage peut déplacer l’esprit de 9 mètres dans un espace qu’il peut voir. L’esprit peut traverser les créatures mais pas les objets.\n  - Le personnage peut canaliser un pouvoir au travers de l’esprit, comme s’il se trouvait dans son espace, en étant toutefois limité aux sens de l’esprit. Il peut en faire ainsi un nombre de fois égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1) et doit compléter une nuit de sommeil afin de réutiliser ces utilisations.\n  - Le personnage peut faire disparaître l’esprit par une action. L’esprit disparaît également si la distance le séparant du personnage est de plus de 90 mètres, s’il est [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie), si le grimoire enchanté est détruit ou si le personnage [meurt](/regles/combat/conditions/mort).\n  - Lorsque le personnage reçoit des [points de dégâts](/regles/combat/degats), il peut congédier l’esprit en [réaction](/regles/combat/deroulement/tour) afin de ne recevoir aucun point de dégâts. Il lance ensuite 1d6 et sélectionne un nombre de pouvoirs dans son grimoire égal au résultat. Il ne peut temporairement plus canaliser ces pouvoirs, même s’il possède un [parchemin magique](/regles/magie/artefacts/parchemins) ou un autre grimoire. Si le nombre de pouvoirs (excluant les pouvoirs temporairement perdus) dans le grimoire est inférieur au résultat, les points de [Vitalité](/regles/statistiques/vitalite) du personnage chutent instantanément à 0. Chaque fois qu’il complète une nuit de sommeil, il peut récupérer un des pouvoirs perdus. Il doit compléter une nuit de sommeil afin de pouvoir réutiliser cette réaction.\n  - Le personnage doit canaliser un pouvoir ou compléter une nuit de sommeil afin de pouvoir manifester l’esprit de son grimoire enchanté à nouveau."
+      }
+    }
+  }
+}

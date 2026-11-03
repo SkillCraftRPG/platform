@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d8 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage."
+        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d8&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
       }
     }
   }

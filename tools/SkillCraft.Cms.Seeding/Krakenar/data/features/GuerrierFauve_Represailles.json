@@ -1,0 +1,21 @@
+﻿{
+  "Id": "cb44145d-b84f-46d2-81ef-cf917fed8309",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GuerrierFauve_Represailles",
+    "DisplayName": "Représailles",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GuerrierFauve_Represailles",
+      "DisplayName": "Représailles",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage est [blessé](/regles/combat/degats) par une créature qu’il peut [voir](/regles/aventure/environnement/vision) située à 1,5 mètres ou moins de sa position, il peut effectuer une [attaque d’opportunité](/regles/combat/attaque/opportunite) contre cette créature en [réaction](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

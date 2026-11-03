@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9a320da3-b3a7-444f-8262-be96855f8825",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "invocation-infernale",
+    "DisplayName": "Invocation infernale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "invocation-infernale",
+      "DisplayName": "Invocation infernale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "invocation-infernale",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

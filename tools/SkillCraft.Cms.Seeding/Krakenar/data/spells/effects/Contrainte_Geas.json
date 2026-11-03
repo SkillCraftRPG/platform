@@ -1,0 +1,29 @@
+﻿{
+  "Id": "45df1649-68ff-4a5c-b625-9c7c0f77f750",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Contrainte_Geas",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"783db1f9-ec35-434b-848b-67d5d48f7f2a\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "30",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Contrainte_Geas",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage place un commandement magique sur une créature qu’il peut [voir](/regles/aventure/environnement/vision), la forçant à accomplir un service ou à s’abstenir d’une action ou d’une activité, au choix. Si la créature peut le comprendre, elle doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par le personnage pendant la durée. Une créature qui ne peut pas comprendre le personnage n’est pas affectée par le pouvoir.\n\nTant qu’elle est charmée, elle reçoit [6d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) chaque fois qu’elle agit d’une manière directement contraire aux instructions, mais pas plus d’une fois par jour. Le personnage peut donner n’importe quel commandement de son choix, à l’exception d’une activité qui entraînerait une [mort](/regles/combat/mort-agonie) certaine. S’il donne un ordre suicidaire, le pouvoir prend fin. Il peut y mettre fin prématurément en le dissipant par une [action](/regles/combat/deroulement/tour). Le pouvoir [Restauration (niveaux 3 et 4)](/regles/magie/pouvoirs/restauration) y met également fin."
+      }
+    }
+  }
+}

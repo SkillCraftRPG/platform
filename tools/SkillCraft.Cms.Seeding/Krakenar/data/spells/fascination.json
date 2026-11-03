@@ -1,0 +1,27 @@
+﻿{
+  "Id": "fc8274dc-8ec8-4150-9c15-d2850f4125f0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "fascination",
+    "DisplayName": "Fascination",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "fascination",
+      "DisplayName": "Fascination",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "fascination",
+        "MetaDescription": "Découvrez Fascination : charme social puis hostilité, paroles ou pièce distractrices, enfin cupidité face à une gemme.",
+        "HtmlContent": "Le personnage facilite d’abord ses échanges, puis la cible se retourne contre lui. Plus fort, il captive l’attention par la parole ou une pièce lumineuse. Plus fort encore, des témoins charmés s’approchent avidement d’une gemme.",
+        "Summary": "Charme social, distraction, puis cupidité captivante."
+      }
+    }
+  }
+}

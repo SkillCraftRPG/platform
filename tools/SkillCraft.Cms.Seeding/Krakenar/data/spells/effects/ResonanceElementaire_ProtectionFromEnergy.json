@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4bb8edc1-a51f-496d-98a2-43be106e3f65",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResonanceElementaire_ProtectionFromEnergy",
+    "DisplayName": "Protection élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResonanceElementaire_ProtectionFromEnergy",
+      "DisplayName": "Protection élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante et celle-ci devient [résistante](/regles/combat/degats/efficacite) à un [type de dégâts](/regles/combat/degats/types) de son choix parmi la liste suivante : acide, feu, foudre, froid ou tonnerre."
+      }
+    }
+  }
+}

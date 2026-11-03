@@ -1,0 +1,31 @@
+﻿{
+  "Id": "5ec50c95-3741-4bea-88bc-8d3e61544e6f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationFeerique_ConjureAnimals",
+    "DisplayName": "Bêtes féériques",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a252a7b5-5fe7-464a-9fc9-b28e44f7daa7\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationFeerique_ConjureAnimals",
+      "DisplayName": "Bêtes féériques",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque des esprits féériques qui prennent la forme de bêtes et apparaissent dans des espaces [inoccupés](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il choisit l’une des options suivantes pour ce qui apparaît :\n\n- Une bête de niveau 2 ou moins\n- Deux bêtes de niveau 1 ou moins\n- Quatre bêtes de niveau ½ ou moins\n- Huit bêtes de niveau ¼ ou moins\n\nChaque bête est également considérée comme une fée, et elle disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin. Les créatures invoquées sont [amicales](/regles/aventure/interaction-sociale) envers le personnage et ses compagnons. Toutes les créatures invoquées partagent la même [Initiative](/regles/combat/deroulement/initiative) et jouent pendant le même [tour](/regles/combat/deroulement/tour). Elles obéissent à tout ordre verbal qu’il leur donne (aucune [action](/regles/combat/deroulement/tour) requise de sa part). S’il ne leur donne aucun ordre, elles se défendent contre les créatures [hostiles](/regles/aventure/interaction-sociale), mais n’effectuent sinon aucune [action](/regles/combat/activites). Le maître de jeu dispose des traits et caractéristiques des créatures."
+      }
+    }
+  }
+}

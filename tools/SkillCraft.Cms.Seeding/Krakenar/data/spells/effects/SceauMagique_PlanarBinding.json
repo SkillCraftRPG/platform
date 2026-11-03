@@ -1,0 +1,31 @@
+﻿{
+  "Id": "bfdfd3f1-6778-41d2-ac07-1c5ad6a823d4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SceauMagique_PlanarBinding",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e8f624f-76cc-427c-ad9e-3a87903faff3\"]",
+      "Level": "2",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SceauMagique_PlanarBinding",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une gemme d’une valeur d’au moins 1000 deniers.",
+        "HtmlContent": "Le personnage tente d’asservir à son service un célestiel, un élémentaire, une fée ou un infernal. La créature doit se trouver dans la portée pendant toute l’incantation. Typiquement, elle est d’abord invoquée au centre d’un **Sceau magique (niveau 3)** inversé afin d’y être maintenue prisonnière pendant que ce pouvoir est canalisé. À la fin de l’incantation, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle est liée au service du personnage pendant la durée. Si la créature a été invoquée ou créée par un autre pouvoir, la durée de celui-ci est prolongée pour correspondre à la durée du présent pouvoir.\n\nUne créature liée doit suivre les instructions du personnage au mieux de ses capacités. Celui-ci peut lui ordonner de l’accompagner dans une aventure, de garder un lieu ou de transmettre un message. La créature obéit à la lettre des instructions, mais si elle est [hostile](/regles/aventure/interaction-sociale) envers le personnage, elle s’efforce de tordre ses paroles afin d’atteindre ses propres objectifs. Si elle accomplit entièrement ses instructions avant la fin du pouvoir, elle se rend auprès du personnage pour lui en faire rapport s’ils se trouvent dans la même dimension. S’ils se trouvent dans des dimensions différentes, elle retourne à l’endroit où elle a été liée et y demeure jusqu’à la fin du pouvoir."
+      }
+    }
+  }
+}

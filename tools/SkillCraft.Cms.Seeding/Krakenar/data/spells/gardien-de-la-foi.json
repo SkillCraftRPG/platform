@@ -1,0 +1,27 @@
+﻿{
+  "Id": "93d93828-c199-4e45-9416-ec8cb0934dc2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "gardien-de-la-foi",
+    "DisplayName": "Gardien de la foi",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "gardien-de-la-foi",
+      "DisplayName": "Gardien de la foi",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "gardien-de-la-foi",
+        "MetaDescription": "Découvrez Gardien de la foi : bouclier divin pour esquiver, arme flottante qui frappe, ou grand gardien qui blesse les hostiles selon le domaine divin.",
+        "Summary": "Protège par un bouclier, frappe avec une arme flottante ou un gardien divin.",
+        "HtmlContent": "Le personnage déploie, à l’effigie de sa divinité, un bouclier qui aide à esquiver, une arme flottante qui frappe et se déplace, ou un grand gardien au bouclier qui blesse les hostiles qui s’approchent. Les dégâts suivent son domaine divin."
+      }
+    }
+  }
+}

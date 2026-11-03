@@ -1,0 +1,27 @@
+﻿{
+  "Id": "47501238-4a04-4cef-9031-ed3a05d81a59",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "localisation",
+    "DisplayName": "Localisation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "localisation",
+      "DisplayName": "Localisation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "localisation",
+        "MetaDescription": "Découvrez Localisation : détecter les pièges, puis localiser bêtes, plantes ou objets, et enfin une créature familière.",
+        "Summary": "Détecte les pièges, localise nature ou objets, puis une créature.",
+        "HtmlContent": "Le personnage détecte d’abord la présence et la nature des pièges. Plus fort, il localise le plus proche type de bête ou de plante, ou un objet familier. Plus fort encore, il piste une créature connue ou du type désigné."
+      }
+    }
+  }
+}

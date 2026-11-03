@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Les [points de dégâts](/regles/combat/degats) infligés augmentent à 2d6 additionnés à la [Puissance](/regles/statistiques/puissance) du personnage, et la faible lumière divine dure jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+        "HtmlContent": "Un éclair de lumière file vers une créature de son choix dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). En cas d’échec, elle émet également une faible lumière divine qui confère l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de la prochaine [attaque](/regles/combat/attaque) dirigée contre la cible jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage."
       }
     }
   }

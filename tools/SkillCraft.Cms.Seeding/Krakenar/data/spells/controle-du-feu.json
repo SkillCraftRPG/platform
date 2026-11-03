@@ -1,0 +1,27 @@
+﻿{
+  "Id": "182f0545-fc3e-45ef-90b0-9092cec5c132",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "controle-du-feu",
+    "DisplayName": "Contrôle du feu",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "controle-du-feu",
+      "DisplayName": "Contrôle du feu",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "controle-du-feu",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

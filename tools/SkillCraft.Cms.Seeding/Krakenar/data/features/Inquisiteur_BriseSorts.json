@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9e7aa20c-07b3-4279-b14f-d775863df833",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Inquisiteur_BriseSorts",
+    "DisplayName": "Brise-sorts",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Inquisiteur_BriseSorts",
+      "DisplayName": "Brise-sorts",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut acquérir [à rabais](/regles/talents/points) les talents suivants :\n\n- [Discipline](/regles/talents/discipline)\n- [Barrière mentale](/regles/talents/barriere-mentale)\n- [Résilience](/regles/talents/resilience)\n- [Âme de diamant](/regles/talents/ame-de-diamant)\n\nS’il a déjà acquis un ou plusieurs de ces talents, alors le rabais est transféré aux talents [Chasse-mage](/regles/talents/chasse-mage) et [Expertise](/regles/talents/expertise) pour la compétence [Discipline](/regles/competences/discipline)."
+      }
+    }
+  }
+}

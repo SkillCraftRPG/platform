@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e6966d72-22ac-4b30-b2cd-6f7fa43562dd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLaTerre_EarthTremor1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2bfba048-8ea1-4201-b7c2-6f8018ce6985\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLaTerre_EarthTremor1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage provoque un tremblement du sol dans un rayon de 3 mètres centré sur sa position. Chaque créature autre que lui située dans la zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) et est [renversée](/regles/combat/conditions/renverse). Si le sol de la zone est de la terre meuble ou de la pierre, il devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) jusqu’à ce qu’il soit dégagé."
+      }
+    }
+  }
+}

@@ -18,7 +18,7 @@
       "DisplayName": "Fusion élémentaire",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste). Le prochain pouvoir qu’il acquiert parmi cette liste est acquis [à rabais](/regles/magie/pouvoirs/acquisition).\nIl peut également acquérir les pouvoirs de tiers 2 associés à une [combinaison élémentaire](#) incluant sa spécialité, et acquiert gratuitement un de ces pouvoirs.\nEnfin, il peut acquérir les pouvoirs de tiers 1 associés aux autres [éléments qu’il contrôle](/regles/talents/elementarisme), ainsi que ceux associés à une combinaison de ces éléments.\nIl peut utiliser de puissantes [capacités élémentaires](#) de tiers 2."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme) de tiers 2 associés à sa [spécialité élémentaire](/regles/specialisations/elementariste) et acquiert [à rabais](/regles/talents/points) un de ces pouvoirs.\nIl peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=elementarisme) de tiers 1 associés à un élément pour lequel il a acquis le talent [Élémentarisme](/regles/talents/elementarisme) (sauf Esprit).\nIl peut utiliser de puissantes [capacités élémentaires](/regles/elementarisme/capacites) de tiers 1 associées à un élément pour lequel il a acquis le talent [Élémentarisme](/regles/talents/elementarisme) (sauf Esprit)."
       }
     }
   }

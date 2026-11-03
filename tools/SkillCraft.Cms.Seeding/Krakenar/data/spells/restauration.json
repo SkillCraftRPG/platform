@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "1",
-      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+      "Categories": "[\"b9399240-ec40-47c9-b709-8f515f7984e6\",\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "restauration",
-        "Summary": "Purifie une créature en levant maladies, malédictions ou afflictions.",
-        "MetaDescription": "Découvrez un pouvoir sacré qui libère une créature des maladies, malédictions et afflictions graves, dissipant conditions, malédictions et réductions nuisibles.",
-        "HtmlContent": "Ce pouvoir purifie une créature consentante en supprimant maladies, malédictions et conditions majeures, et peut aussi restaurer attributs, Vitalité maximale ou effets nuisibles persistants."
+        "Summary": "Lève maladie, malédiction, fatigue, charme, pétrification ou vitalité maximale.",
+        "MetaDescription": "Découvrez Restauration : maladie, cécité, surdité, poison, paralysie, malédiction, puis fatigue, charme, pétrification, attribut réduit ou vitalité maximale.",
+        "HtmlContent": "Le personnage touche une créature consentante et lève maladie, cécité, surdité, poison, paralysie ou malédiction. S’il vient d’un objet maudit, elle peut alors le lâcher. Il ôte fatigue, charme, pétrification, attribut ou vitalité maximale."
       }
     }
   }

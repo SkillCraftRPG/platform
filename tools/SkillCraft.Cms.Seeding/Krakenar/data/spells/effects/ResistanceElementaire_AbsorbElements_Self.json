@@ -1,7 +1,7 @@
 ﻿{
   "Id": "c3fe7488-7720-4616-90f5-2ce0c2d08325",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "ResistanceElementaire_AbsorbElements_Self",
     "DisplayName": "Objection",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "ResistanceElementaire_AbsorbElements_Self",
       "DisplayName": "Objection",
       "Description": null,

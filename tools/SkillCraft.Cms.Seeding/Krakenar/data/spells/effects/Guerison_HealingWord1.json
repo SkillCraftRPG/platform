@@ -22,7 +22,7 @@
       "DisplayName": "Mot de guérison",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage prononce un mot de guérison en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) et celle-ci [récupère](/regles/combat/degats/soins) 1d4 points de [Vitalité](/regles/statistiques/vitalite) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+        "HtmlContent": "Le personnage prononce un mot de guérison en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) et celle-ci [récupère](/regles/combat/degats/soins) 1d4&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) points de [Vitalité](/regles/statistiques/vitalite). Ce pouvoir n’a aucun effet sur les morts-vivants ni les constructions."
       }
     }
   }

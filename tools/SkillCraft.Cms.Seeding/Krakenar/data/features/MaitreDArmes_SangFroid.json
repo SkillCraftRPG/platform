@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a0863286-ef40-44b9-9a4c-b232966fdee5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreDArmes_SangFroid",
+    "DisplayName": "Sang-froid",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreDArmes_SangFroid",
+      "DisplayName": "Sang-froid",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), le personnage fait le vide dans son esprit. Il se confère 1d10&nbsp;+&nbsp;[Santé](/regles/attributs/sante) (minimum&nbsp;1) point [temporaire](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) et dépense un nombre égal de points d’[Énergie](/regles/statistiques/energie). Le [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) jusqu’à la fin de son [tour](/regles/combat/deroulement/tour).\n\nÉgalement, lorsqu’il effectue des [attaques multiples](/regles/combat/attaque/multiples) et que le test de ses attaques se voit conférer l’avantage, il peut réduire de 5 la pénalité des attaques multiples en renonçant à l’avantage."
+      }
+    }
+  }
+}

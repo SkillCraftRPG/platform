@@ -1,0 +1,32 @@
+﻿{
+  "Id": "64f2d72a-5ea3-4449-9e13-da0367877501",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProtectionContreLaMagie_SeeInvisibilityWarpSense",
+    "DisplayName": "Détection",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ace29da4-7f8f-4188-b83b-257df2361551\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "false",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProtectionContreLaMagie_SeeInvisibilityWarpSense",
+      "DisplayName": "Détection",
+      "Description": null,
+      "FieldValues": {
+        "Material": "une pincée de talc et une légère saupoudrée d’argent en poudre.",
+        "HtmlContent": "Pendant la durée, le personnage voit les créatures et objets [invisibles](/regles/combat/conditions/invisible) comme s’ils étaient visibles, et il peut voir dans la dimension éthérée. Les créatures et objets éthérés apparaissent fantomatiques et translucides. Il détecte également la présence des portails inactifs situés à 9 mètres ou moins de sa position."
+      }
+    }
+  }
+}

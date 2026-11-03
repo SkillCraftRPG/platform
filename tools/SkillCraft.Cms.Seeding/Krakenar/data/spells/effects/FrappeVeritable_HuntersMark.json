@@ -1,0 +1,30 @@
+﻿{
+  "Id": "d2694d8c-ab7f-4d36-b440-b9c1034cc2cc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrappeVeritable_HuntersMark",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"edadbdce-1cdf-4a13-8390-3f3477562dc4\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrappeVeritable_HuntersMark",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage choisit une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et la marque mystiquement comme sa proie. Jusqu’à la fin du pouvoir, il inflige [1d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires à la cible chaque fois qu’il réussit une [attaque](/regles/combat/attaque) physique contre elle, et il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à tout [test](/regles/competences/tests) de [Perception](/regles/competences/perception) ou de [Survie](/regles/competences/survie) qu’il effectue afin de la trouver. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut marquer un nouvelle créature si les points de [Vitalité](/regles/statistiques/vitalite) de la cible chutent à 0."
+      }
+    }
+  }
+}

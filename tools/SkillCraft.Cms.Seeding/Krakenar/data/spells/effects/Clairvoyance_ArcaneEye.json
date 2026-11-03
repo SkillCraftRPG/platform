@@ -1,0 +1,32 @@
+﻿{
+  "Id": "f1e5b82c-b8ee-4e31-8b1b-db4c5a895a8f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Clairvoyance_ArcaneEye",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21030284-b0e5-46b6-ade5-20e2ec98d147\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Clairvoyance_ArcaneEye",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la fourrure de chauve-souris.",
+        "HtmlContent": "Le personnage crée un œil magique [invisible](/regles/combat/conditions/invisible) dans la portée, qui plane dans les airs pendant la durée. Il reçoit mentalement les informations visuelles de l’œil, qui jouit d’une vision normale et de la [vision dans le noir](/regles/aventure/environnement/vision) jusqu’à 9 mètres. L’œil peut regarder dans toutes les directions. Par une [action](/regles/combat/deroulement/tour), le personnage peut déplacer l’œil d’au plus 9 mètres dans n’importe quelle direction. Il n’y a pas de limite à la distance à laquelle l’œil peut s’éloigner de lui, mais l’œil ne peut entrer dans une autre dimension d’existence. Une barrière solide bloque le déplacement de l’œil, mais celui-ci peut passer par une ouverture aussi petite que 2,5 centimètres de diamètre."
+      }
+    }
+  }
+}

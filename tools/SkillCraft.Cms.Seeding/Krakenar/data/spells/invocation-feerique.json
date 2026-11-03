@@ -1,0 +1,27 @@
+﻿{
+  "Id": "a252a7b5-5fe7-464a-9fc9-b28e44f7daa7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "invocation-feerique",
+    "DisplayName": "Invocation féérique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "invocation-feerique",
+      "DisplayName": "Invocation féérique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "invocation-feerique",
+        "MetaDescription": "Découvrez Invocation féérique : esprit bestial ou féérique, meutes de bêtes ou de fées, puis grande fée risquée ou éveil d’une bête.",
+        "Summary": "Invoque bêtes et fées, puis grande fée ou éveil animal.",
+        "HtmlContent": "Le personnage appelle d’abord un esprit bestial, des bêtes féériques ou un esprit féérique. Plus fort, des créatures féériques. Plus fort encore, une puissante fée peut lui échapper s’il perd sa concentration, ou il éveille une bête."
+      }
+    }
+  }
+}

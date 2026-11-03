@@ -1,0 +1,29 @@
+﻿{
+  "Id": "b53d322a-31b7-409f-b70b-f63caeb19922",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PorteDimensionnelle_DimensionDoor",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cdef595e-f956-43db-9312-0a5339c4561b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "100",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PorteDimensionnelle_DimensionDoor",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se téléporte de son emplacement actuel vers n’importe quel autre emplacement dans la portée. Il arrive exactement à l’endroit désiré. Il peut s’agir d’un lieu qu’il peut [voir](/regles/aventure/environnement/vision), qu’il peut visualiser, ou qu’il peut décrire en indiquant une distance et une direction, telles que «&nbsp;60 mètres tout droit vers le bas&nbsp;» ou «&nbsp;vers le haut au nord-ouest selon un angle de 45 degrés, 90 mètres&nbsp;». Il peut emporter des objets tant que leur poids ne dépasse pas ce qu’il [peut porter](/regles/equipement/encombrement). Il peut également emmener une créature consentante de sa [taille](/regles/especes/taille) ou moindre qui porte un équipement jusqu’à sa capacité de charge. La créature doit se trouver à 1,5 mètres ou moins de sa position lorsqu’il canalise ce pouvoir. S’il devait arriver dans un endroit déjà [occupé](/regles/aventure/mouvement/espace-occupe) par un objet ou une créature, lui et la créature voyageant avec lui reçoivent chacun [6d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types), et le pouvoir échoue à les téléporter."
+      }
+    }
+  }
+}

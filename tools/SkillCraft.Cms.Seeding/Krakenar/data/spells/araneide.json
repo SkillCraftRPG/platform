@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1172ec08-22d1-48ec-89da-09d62090b190",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "araneide",
+    "DisplayName": "Aranéide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "araneide",
+      "DisplayName": "Aranéide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "araneide",
+        "MetaDescription": "Découvrez Aranéide : vision dans le noir, escalade murale et plafonds, puis toiles collantes, restrictives et inflammables.",
+        "HtmlContent": "Le personnage confère d’abord la vision dans le noir à une créature touchée. Plus fort, elle gravit murs et plafonds les mains libres. Plus fort encore, il conjure des toiles collantes qui entravent, obscurcissent et brûlent au feu.",
+        "Summary": "Vision nocturne, escalade d’araignée, puis toiles restrictives."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d5a5373e-4829-4761-ac1f-b5c65a8f10bf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LamesMagiques_SwordBurst",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8364ba1d-676d-4a45-9811-8d2da8b6056a\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Range": "0",
+      "IsVerbal": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LamesMagiques_SwordBurst",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un cercle momentané de lames spectrales qui balayent autour de lui. Toutes les autres créatures situées à 1,5 mètres ou moins de sa position doivent réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

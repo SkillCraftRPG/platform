@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4e04ee7e-d78a-4361-b2ac-8ff80fe722b5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaveurDivine_CrusadersMantle",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"49f3ce5c-2283-4549-82ec-cbd7806f4578\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaveurDivine_CrusadersMantle",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une puissance sacrée émane du personnage sous la forme d’une aura d’un rayon de 9 mètres, éveillant l’audace des créatures amicales. Jusqu’à la fin du pouvoir, l’aura se déplace avec lui, centrée sur sa position. Tant qu’elle se trouve dans l’aura, chaque créature non hostile, y compris le personnage, inflige [1d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires lorsqu’elle réussit une [attaque](/regles/combat/attaque) physique. Le [type](/regles/combat/degats/types) des dégâts supplémentaires dépend du [domaine divin](/regles/domaines/divins) du personnage."
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "Id": "55a21930-a687-40a1-9974-2827b307a7f5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telepathie_RarysTelepathicBond",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e73ffea8-86f7-4887-bdf6-4e4341967a5f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telepathie_RarysTelepathicBond",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des morceaux de coquille d’œuf provenant de plusieurs espèces différentes (une espèce par cible).",
+        "HtmlContent": "Le personnage forge un lien télépathique entre huit créatures consentantes ou moins de son choix dans la portée, reliant psychiquement chacune d’elles à toutes les autres pendant la durée. Les créatures dont l’[Intellect](/regles/attributs/intellect) est inférieur à −3 ne sont pas affectées par ce pouvoir. Jusqu’à la fin du pouvoir, les créatures liées peuvent communiquer par télépathie via le lien, qu’elles aient ou non une [langue](/regles/langues) en commun. La communication est possible à n’importe quelle distance, bien qu’elle ne puisse s’étendre à d’autres dimensions d’existence."
+      }
+    }
+  }
+}

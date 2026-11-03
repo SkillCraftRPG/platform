@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ad3ba69e-f572-473b-96b9-3a8fb7dc35aa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SceauMagique_MagicCircle",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e8f624f-76cc-427c-ad9e-3a87903faff3\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SceauMagique_MagicCircle",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’eau bénite ou de la poudre d’argent d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "Le personnage crée un cylindre d’énergie magique de 3 mètres de rayon et de 6 mètres de haut, centré sur un point au sol qu’il peut [voir](/regles/aventure/environnement/vision). Des runes lumineuses apparaissent là où le cylindre croise le sol ou une autre surface. Il choisit un ou plusieurs des types de créatures suivants : célestiel, élémentaire, fée, infernal ou mort-vivant. Le cercle affecte une créature d’un type choisi de la manière suivante :\n\n- La créature ne peut volontairement entrer dans le cylindre par des moyens non magiques. Si elle tente d’y entrer par téléportation ou voyage interdimensionnel, elle doit d’abord réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline).\n- Le [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) dirigées contre des cibles situées à l’iintérieur du cylindre est affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Les cibles situées dans le cylindre ne peuvent être [charmées](/regles/combat/conditions/charme), [apeurées](/regles/combat/conditions/apeure) ou possédées par la créature.\n\nLorsqu’il canalise le pouvoir, le personnage peut choisir d’en inverser l’effet, empêchant une créature d’un type spécifié de quitter le cylindre et protégeant les cibles situées à l’extérieur."
+      }
+    }
+  }
+}

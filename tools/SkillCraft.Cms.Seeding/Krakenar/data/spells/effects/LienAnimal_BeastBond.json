@@ -1,0 +1,32 @@
+﻿{
+  "Id": "acdd6ddd-f4ae-4770-af86-ded468348496",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LienAnimal_BeastBond",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21ccc0f1-47b4-4361-b3c8-607516a39e76\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LienAnimal_BeastBond",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un peu de fourrure enveloppée dans un morceau de tissu.",
+        "HtmlContent": "Le personnage établit un lien télépathique avec une bête qu’il touche et qui lui est [amicale](/regles/aventure/interaction-sociale) ou [charmée](/regles/combat/conditions/charme) par lui. Le pouvoir échoue si l’[Intellect](/regles/attributs/intellect) de la bête est supérieure à –4. Jusqu’à la fin du pouvoir, le lien est actif tant que le personnage et la bête restent dans la ligne de vue l’un de l’autre. Par ce lien, la bête peut comprendre ses messages télépathiques, et elle peut lui communiquer par télépathie des émotions et des concepts simples. Tant que le lien est actif, la bête se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) dirigées contre toute créature située à 1,5 mètres ou moins du personnage et qu’il peut [voir](/regles/aventure/environnement/vision)."
+      }
+    }
+  }
+}

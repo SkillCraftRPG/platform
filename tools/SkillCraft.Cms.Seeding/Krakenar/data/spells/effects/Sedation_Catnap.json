@@ -1,0 +1,30 @@
+﻿{
+  "Id": "95581a77-19c9-40f4-a628-aa0aa3d81356",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sedation_Catnap",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3d790b15-fb50-4a73-a706-81d7c012325f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sedation_Catnap",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de sable fin, de pétales de rose ou un grillon.",
+        "HtmlContent": "Le personnage fait un geste apaisant, et jusqu’à trois créatures consentantes de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée tombent [inconscientes](/regles/combat/conditions/inconscient) pendant la durée du pouvoir. Le pouvoir prend fin prématurément sur une cible si celle-ci reçoit des [dégâts](/regles/combat/degats) ou si quelqu’un utilise une [action](/regles/combat/deroulement/tour) afin de la secouer ou de la gifler pour la réveiller. Si une cible demeure inconsciente pendant toute la durée, elle bénéficie des effets d’une [halte](/regles/aventure/repos/halte) et [récupère](/regles/combat/degats/soins) ⅐ (14,3 %) de sa [Vitalité maximale](/regles/statistiques/vitalite) (minimum&nbsp;1). Elle ne peut plus être affectée par ce pouvoir jusqu’à ce qu’elle ait complété une [nuit de sommeil](/regles/aventure/repos/sommeil). À la fin de la prochaine nuit de sommeil complétée par cette créature, elle ne récupère aucun point de Vitalité, mais bénéficie tout de même des autres effets."
+      }
+    }
+  }
+}

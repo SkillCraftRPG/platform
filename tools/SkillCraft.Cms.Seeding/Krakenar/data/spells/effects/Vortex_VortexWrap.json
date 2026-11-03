@@ -1,0 +1,30 @@
+﻿{
+  "Id": "86359e14-0275-437b-80d8-7a8cb03f2aba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vortex_VortexWrap",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9ec332bb-afff-4f9d-b2ae-52fcac249d89\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vortex_VortexWrap",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tord magiquement l’espace autour d’une autre créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) (elle peut choisir de l’échouer) ou être téléportée vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) au choix du personnage qu’il peut voir dans la portée. L’espace choisi doit se trouver sur une surface ou dans un liquide capable de soutenir la cible sans que celle-ci ait à se faufiler."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "37b7b141-c64d-444c-9275-e1ca47536629",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "OrbeChromatique_ChromaticOrb2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a5626e7a-2ec8-44ac-8747-2c919a64c48e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "OrbeChromatique_ChromaticOrb2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une gemme listée dans la table ci-dessus.",
+        "HtmlContent": "Le personnage crée une orbe de 10 centimètres de diamètre d’énergie. L’orbe prend la couleur de la gemme utilisée afin de canaliser ce pouvoir. Le personnage lance ensuite l’orbe en direction d’une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [3d10](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats). Le [type des dégâts](/regles/combat/degats/types) dépend de la gemme utilisée afin de canaliser ce pouvoir."
+      }
+    }
+  }
+}

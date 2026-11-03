@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9ec332bb-afff-4f9d-b2ae-52fcac249d89",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vortex",
+    "DisplayName": "Vortex",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vortex",
+      "DisplayName": "Vortex",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vortex",
+        "MetaDescription": "Découvrez Vortex : poche extradimensionnelle, téléportation d’autrui ou pas brumeux, puis clignotements vers l’Éthéré.",
+        "Summary": "Poche magique, téléportations, puis clignotements éthérés.",
+        "HtmlContent": "Le personnage dissimule d’abord un petit objet dans une poche extradimensionnelle. Plus fort, il téléporte une autre créature ou se déplace dans une brume argentée. Plus fort encore, il clignote entre sa dimension et l’Éthéré."
+      }
+    }
+  }
+}

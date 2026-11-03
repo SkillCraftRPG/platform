@@ -1,0 +1,31 @@
+﻿{
+  "Id": "8139adce-7efa-44f1-9a1e-522f6934c58d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationFeerique_Awaken",
+    "DisplayName": "Éveil animal",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a252a7b5-5fe7-464a-9fc9-b28e44f7daa7\"]",
+      "Level": "2",
+      "CastingTime": "[\"8h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationFeerique_Awaken",
+      "DisplayName": "Éveil animal",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une agate d’une valeur d’au moins 1000 deniers.",
+        "HtmlContent": "Après avoir passé le temps d’incantation à tracer des voies magiques dans l’agate, le personnage touche une bête de [taille](/regles/especes/taille) énorme ou moindre. La cible doit être dénuée d’[Intellect](/regles/attributs/intellect) ou avoir une valeur d’Intellect inférieure à –3. La cible acquiert la capacité de parler une [langue](/regles/langues) que le personnage connaît. La bête éveillée est [charmée](/regles/combat/conditions/charme) par le personnage pendant 30 jours, ou jusqu’à ce que le personnage ou ses compagnons lui fassent du mal. Lorsque le pouvoir prend fin, la créature éveillée choisit de demeurer amicale ou non envers le personnage, selon la façon dont elle a été traitée pendant qu’elle était charmée."
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ﻿{
   "Id": "34fa94b7-3b74-4250-80f9-554d0e1ac539",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Preservation_DeathWard",
     "DisplayName": "Garde vitale",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Preservation_DeathWard",
       "DisplayName": "Garde vitale",
       "Description": null,

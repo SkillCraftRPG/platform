@@ -1,0 +1,31 @@
+﻿{
+  "Id": "54f068e5-6630-45dd-a0b4-b3e929d08d38",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CycleNaturel_AntilifeShell",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CycleNaturel_AntilifeShell",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une barrière chatoyante s’étend autour du personnage dans un rayon de 3 mètres, se déplace avec lui et demeure centrée sur sa position. Lorsqu’il canalise le pouvoir, le personnage peut désigner les créatures déjà présentes dans la zone et, s’il le désire, les repousser à l’extérieur de la barrière.\n\nLa barrière dure pendant la durée du pouvoir. Elle empêche une créature affectée de la traverser ou d’atteindre au-delà. Une créature affectée peut tout de même canaliser des pouvoirs ou effectuer des [attaques à distance](/regles/combat/attaque/distance) ou avec une [arme](/regles/equipement/armes) à [allonge](/regles/equipement/armes/proprietes) à travers la barrière.\n\nSi le personnage se déplace de sorte qu’une créature affectée soit forcée de traverser la barrière, le pouvoir prend fin. Les morts-vivants et les constructions ne sont pas repoussés par la barrière ni tenus à l’écart."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "cb525bdd-4fdc-4761-b851-145479fa00bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_WardingBondLifeTransference",
+    "DisplayName": "Lien de protection",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_WardingBondLifeTransference",
+      "DisplayName": "Lien de protection",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une paire d’anneaux de platine valant au moins 50 deniers chacun.",
+        "HtmlContent": "Ce pouvoir protège une créature consentante que le personnage touche et crée un lien mystique entre lui et la cible jusqu’à la fin du pouvoir. Tant que la cible se trouve à 18 mètres ou moins du personnage, elle se voit conférer un bonus (+1) à son [Esquive](/regles/statistiques/esquive) et à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde), et elle est [résistante](/regles/combat/degats/efficacite) à tous les [dégâts](/regles/combat/degats). Également, chaque fois qu’elle reçoit des points de dégâts, le personnage en reçoit le même nombre. Le pouvoir prend fin si les points de [Vitalité](/regles/statistiques/vitalite) du personnage chutent à 0, ou si lui et la cible se trouvent séparés de plus de 18 mètres. Il prend également fin si le pouvoir est canalisé à nouveau sur l’une des deux créatures liées. Le personnage peut aussi le dissiper par une [action](/regles/combat/deroulement/tour).\n\nPendant la durée du pouvoir, une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut sacrifier une part de sa vitalité afin de guérir les blessures de l’autre créature. Il s’inflige [4d6](/regles/combat/degats/jet) points de dégâts [nécrotiques](/regles/combat/degats/types), qui ne peuvent être réduits d’aucune manière, et dépense un nombre égal de points d’[Énergie](/regles/statistiques/energie). La cible [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à la somme des points de dégâts reçus et des points d’Énergie dépensés."
+      }
+    }
+  }
+}

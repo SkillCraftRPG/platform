@@ -1,0 +1,30 @@
+﻿{
+  "Id": "a0defb95-6c4b-4953-9ceb-d5ae02b0b5b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmureMagique_IntellectFortress",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3b2667c9-4fbd-428a-9139-60196d789eb3\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmureMagique_IntellectFortress",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pendant la durée, le personnage ou une créature consentante qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée devient [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types), et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Intellect](/regles/attributs/intellect), de [Sens](/regles/attributs/sens) et de [Discipline](/regles/competences/discipline)."
+      }
+    }
+  }
+}

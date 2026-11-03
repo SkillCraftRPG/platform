@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ce51b92f-2159-47d1-86bc-5d8a3aed7064",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "OrbeChromatique_ChromaticOrb4",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a5626e7a-2ec8-44ac-8747-2c919a64c48e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "OrbeChromatique_ChromaticOrb4",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un diamant d’une valeur d’au moins 50 deniers.",
+        "HtmlContent": "Le personnage choisit un des [types de dégâts](/regles/combat/degats/types) listés dans la table ci-dessus et crée une orbe de 10 centimètres de diamètre d’énergie. L’orbe prend la couleur de la gemme associée au type des dégâts. Le personnage lance ensuite l’orbe en direction d’une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [4d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) du type sélectionné."
+      }
+    }
+  }
+}

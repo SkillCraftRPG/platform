@@ -1,0 +1,32 @@
+﻿{
+  "Id": "9f2fdd58-5ca7-43c2-95b5-e8b5b4716ee9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communion_Commune4",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b75b441-cee9-4f60-a9ea-094191f65a14\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Duration": "1",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communion_Commune4",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une offrande appropriée à l’entité d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage entre en contact avec une entité appropriée à ses croyances ou fusionne avec la nature. L’effet dépend de la nature de cette communion. Si le personnage canalise ce pouvoir deux fois ou plus avant d’avoir complété une [nuit de sommeil](/regles/aventure/repos/sommeil), il y a une chance cumulative de 25&nbsp;% à chaque canalisation après la première de n’obtenir aucune réponse ou information. Le maître de jeu effectue ce jet en secret.\n\n- **Divin ([Spiritualité](/regles/talents/spiritualite), domaine divin).** Le personnage contacte une divinité ou un intermédiaire divin et pose jusqu’à deux questions pouvant recevoir une réponse par oui ou par non. Il doit poser ses questions avant la fin du pouvoir. Il reçoit une réponse correcte pour chaque question. Il peut recevoir «&nbsp;incertain&nbsp;» si la question dépasse la connaissance de la divinité. Lorsqu’une réponse d’un seul mot serait trompeuse ou contraire aux intérêts de la divinité, le maître de jeu peut offrir une courte phrase à la place.\n- **Nature ([Spiritualité](/regles/talents/spiritualite), domaine d’animisme).** Le personnage fusionne brièvement avec la nature et acquiert une connaissance du territoire environnant. En extérieur, le pouvoir porte sur les terres situées à 5 kilomètres ou moins de sa position. Dans les cavernes et autres milieux naturels souterrains, le rayon est limité à 100 mètres. Le pouvoir ne fonctionne pas là où la nature a été remplacée par la construction, comme dans les donjons et les villes. Il acquiert instantanément jusqu’à deux faits de son choix parmi les sujets suivants, tels qu’ils se rapportent à la zone :\n  - le terrain et les plans d’eau\n  - les plantes, minéraux, animaux ou peuples prédominants\n  - les célestiels, fées, infernaux, élémentaires ou morts-vivants puissants\n  - l’influence d’autres dimensions\n  - les bâtiments\n- **Occulte ([Astrologie](/regles/talents/astrologie) ou [Élémentarisme](/regles/talents/elementarisme), Esprit).** Le personnage contacte mentalement un demi-dieu, l’esprit d’un sage mort depuis longtemps, ou quelque autre entité mystérieuse d’une autre dimension. Contacter cette intelligence extraplanaire peut éprouver, voire briser, son esprit. Lorsqu’il canalise le pouvoir, il doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) de [difficulté élevée](/regles/competences/tests/difficulte). En cas d’échec, le pouvoir est perdu : il reçoit [10d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et devient fou jusqu’à ce qu’il ait complété une nuit de sommeil. Pendant sa folie, il ne peut effectuer d’[actions](/regles/combat/deroulement/tour), ne comprend pas ce que disent les autres créatures, ne peut lire, et ne parle qu’en charabia. Le pouvoir [Restauration (niveau 4)](/regles/magie/pouvoirs/restauration) met fin à cet effet. En cas de réussite, il pose jusqu’à deux questions à l’entité, selon les mêmes modalités que pour une entité divine."
+      }
+    }
+  }
+}

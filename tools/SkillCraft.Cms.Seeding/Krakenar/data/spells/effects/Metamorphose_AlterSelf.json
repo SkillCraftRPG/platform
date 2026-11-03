@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6ca1dbf9-4ff0-4c71-ace7-8253460e7d0c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Metamorphose_AlterSelf",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b1dca58f-10f6-4004-a5e4-dc53bc9edf15\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Metamorphose_AlterSelf",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage assume une forme différente. Lorsqu’il canalise le pouvoir, il choisit l’une des options suivantes, dont les effets durent pendant la durée du pouvoir. Tant que le pouvoir dure, il peut mettre fin à une option par une [action](/regles/combat/deroulement/tour) afin d’obtenir les bénéfices d’une autre.\n\n- **Adaptation aquatique.** Il adapte son corps à un environnement aquatique, faisant pousser des branchies et une palmure entre ses doigts. Il peut [respirer sous l’eau](https://www.skillcraftrpg.ca/regles/aventure/environnement/suffocation) et acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) égale à sa vitesse de [marche](/regles/aventure/mouvement/types).\n- **Apparence modifiée.** Il transforme son apparence. Il décide de son apparence, y compris sa taille, son poids, ses traits faciaux, le son de sa voix, la longueur de ses cheveux, sa coloration et ses caractéristiques distinctives, le cas échéant. Il peut se faire passer pour un membre d’une autre [ethnie](/regles/especes), bien qu’aucun de ses traits et caractéristiques ne changent. Il n’apparaît pas non plus comme une créature d’une [taille](/regles/especes/taille) différente de la sienne, et sa forme de base demeure la même ; s’il est bipède, il ne peut pas utiliser ce pouvoir pour devenir quadrupède, par exemple. À tout moment pendant la durée du pouvoir, il peut utiliser une action afin de modifier à nouveau son apparence de cette façon.\n- **Armes naturelles.** Il fait pousser des griffes, des crocs, des épines, des cornes ou une autre arme naturelle de son choix. Ses attaques à mains nues infligent [1d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types), [tranchants](/regles/combat/degats/types) ou d’[acide](/regles/combat/degats/types), selon l’arme naturelle choisie, et il est formé à ses [attaques à mains nues](/regles/combat/attaque/mains-nues). Enfin, l’arme naturelle est magique et il se voit conférer un bonus&nbsp;(+1) au [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) effectuées avec cette arme et ainsi qu’aux dégâts infligés avec cette arme."
+      }
+    }
+  }
+}

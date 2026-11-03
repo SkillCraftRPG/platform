@@ -1,0 +1,21 @@
+﻿{
+  "Id": "d6be3c1d-2e1e-44aa-9b22-bff99447d5a9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Barde_ToucheATout",
+    "DisplayName": "Touche-à-tout",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Barde_ToucheATout",
+      "DisplayName": "Touche-à-tout",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage effectue un [test](/regles/competences/tests) d’une [compétence](/regles/competences) pour laquelle il n’est pas [formé](/regles/competences/formation), il peut utiliser une des capacités suivantes.\n\n- Il ajoute un bonus à son test égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1) et dépense un nombre égal de points d’[Énergie](/regles/statistiques/energie).\n- Il utilise la moitié de son [rang](/regles/competences/rang) plutôt que seulement la moitié et dépense un nombre de points d’Énergie égal à la différence entre ces deux nombres."
+      }
+    }
+  }
+}

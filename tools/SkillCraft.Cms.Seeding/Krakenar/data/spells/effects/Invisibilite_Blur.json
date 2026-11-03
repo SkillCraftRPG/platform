@@ -1,0 +1,30 @@
+﻿{
+  "Id": "bccbda29-f844-488c-b2c9-07fcb3e40042",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Invisibilite_Blur",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4f401ca1-852f-4fc3-bbc9-c801d42c7897\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Invisibilite_Blur",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le corps du personnage devient flou, changeant et ondulant pour toute créature qui peut le [voir](/regles/aventure/environnement/vision). Pendant la durée, le [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) dirigées contre lui est affligé du [désavantage](/regles/competences/tests/avantage-desavantage). Un attaquant est immunisé à cet effet s’il ne dépend pas de la vue, comme avec la [vision aveugle](/regles/aventure/environnement/vision), ou s’il peut voir à travers les illusions, comme avec la [vision absolue](/regles/aventure/environnement/vision)."
+      }
+    }
+  }
+}

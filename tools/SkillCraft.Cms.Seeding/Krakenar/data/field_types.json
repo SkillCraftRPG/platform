@@ -74,6 +74,10 @@
           "Value": "10m"
         },
         {
+          "Text": "1 heure",
+          "Value": "1h"
+        },
+        {
           "Text": "8 heures",
           "Value": "8h"
         }

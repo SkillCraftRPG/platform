@@ -1,0 +1,28 @@
+﻿{
+  "Id": "5d9de354-8409-43a3-a4f1-432f38f6d820",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "presage",
+    "DisplayName": "Présage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "RequiredTalent": "[\"e5e59fa9-0f04-47db-9eb2-2ff9b9836c2f\"]",
+      "AllowMultiplePurchases": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "presage",
+      "DisplayName": "Présage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "presage",
+        "MetaDescription": "Découvrez le talent Présage, un rituel divinatoire permettant de consulter une entité surnaturelle pour connaître l'issue probable d'une action imminente.",
+        "Summary": "Permet de prédire l'issue favorable ou défavorable d'une action imminente.",
+        "HtmlContent": "Le personnage reçoit un présage d’une entité d’un autre monde quant aux résultats d’une démarche précise qu’il prévoit d’entreprendre dans les [30 prochaines minutes](/regles/aventure/temps). Pour se faire, il doit effectuer un rituel d’une durée d’au moins une minute pendant lequel il lance des bâtonnets incrustés de gemmes, fait rouler des os de dragon, étale des cartes ornées ou emploie quelque autre matériel divinatoire dont la valeur est de [25 deniers](/regles/equipement/monnaie) ou plus. Le maître de jeu choisit parmi les présages suivants :\n\n- **Bien**, pour de bons résultats\n- **Mal**, pour de mauvais résultats\n- **Bien et mal**, pour des résultats à la fois bons et mauvais\n- **Rien**, pour des résultats qui ne sont ni particulièrement bons ni particulièrement mauvais\n\nCette capacité ne tient pas compte des circonstances éventuelles qui pourraient changer l’issue, telles que la [canalisation](/regles/magie/pouvoirs/canalisation) de [pouvoirs](/regles/magie/pouvoirs) ou la perte ou le gain d’un compagnon. Si le personnage réutilise cette capacité avant d’avoir complété une [nuit de sommeil](/regles/aventure/repos/sommeil), il y a une chance cumulative de 25&nbsp;% à chaque canalisation après la première d’obtenir une lecture aléatoire. Le maître de jeu effectue ce jet en secret."
+      }
+    }
+  }
+}

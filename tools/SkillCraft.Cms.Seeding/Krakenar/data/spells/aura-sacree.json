@@ -1,0 +1,27 @@
+﻿{
+  "Id": "ba63c2f6-4b0f-4ca4-b2bb-99d803cd764e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "aura-sacree",
+    "DisplayName": "Aura sacrée",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "aura-sacree",
+      "DisplayName": "Aura sacrée",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "aura-sacree",
+        "MetaDescription": "Découvrez Aura sacrée : soigner dans une aura, purifier contre poison et affections, puis protéger les alliés contre la magie.",
+        "Summary": "Aura de soins, de pureté, puis de protection contre la magie.",
+        "HtmlContent": "Le personnage émet une aura qui soigne une créature proche. Plus fort, elle purifie les alliés contre maladies, poison et affections. Plus fort encore, elle les protège contre la magie et annule les dégâts si la protection tient."
+      }
+    }
+  }
+}

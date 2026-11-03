@@ -14,7 +14,7 @@
       "DisplayName": "Châtiment divin",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Lorsque le personnage réussit une [attaque de mêlée](/regles/combat/attaque/melee), il peut immédiatement dépenser une, deux ou trois tranches de 10 points d’[Énergie](/regles/statistiques/energie) afin d’infuser son [arme](/regles/equipement/armes) d’énergie divine et d’infliger des [points de dégâts](/regles/combat/degats) supplémentaires.\n\nLe [type](/regles/combat/degats/types) des dégâts dépend du [domaine divin](/regles/domaines/divins) du personnage, telle l’[Attaque divine](/regles/specialisations/pretre) du [Prêtre](/regles/specialisations/pretre).\n\nLe nombre de points de dégâts ajoutés est égal à 1d12 par tranche de points d’Énergie dépensés, additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+        "HtmlContent": "Lorsque le personnage réussit une [attaque de mêlée](/regles/combat/attaque/melee), il peut infliger [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Santé](/regles/attributs/sante) [points de dégâts](/regles/combat/degats) supplémentaires s’il le désire. Le [type](/regles/combat/degats/types) des dégâts supplémentaires varie en fonction de son [domaine divin](/regles/domaines/divins). Il dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au nombre de points de dégâts supplémentaires infligés.\n\nCette capacité ne peut être combinée avec l’[Attaque magique](/regles/talents/attaque-magique)."
       }
     }
   }

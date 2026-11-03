@@ -1,0 +1,21 @@
+﻿{
+  "Id": "4bf5d4ab-eb9d-4c1e-9ca7-6bf80ce22bf9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gladiateur_InspirationHardie",
+    "DisplayName": "Inspiration hardie",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gladiateur_InspirationHardie",
+      "DisplayName": "Inspiration hardie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Immédiatement après avoir réussi une [attaque](/regles/combat/attaque), par une [action](/regles/combat/deroulement/tour), le personnage peut inspirer la hardiesse à lui-même et aux créatures de son choix situées à 9 mètres ou moins de sa position. Il roule [Santé](/regles/attributs/sante)&nbsp;+&nbsp;[Force](/regles/statistiques/force)&nbsp;+&nbsp;2d10 et dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au résultat. Il peut répartir un nombre égal de points [temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) entre lui et les créatures inspirées."
+      }
+    }
+  }
+}

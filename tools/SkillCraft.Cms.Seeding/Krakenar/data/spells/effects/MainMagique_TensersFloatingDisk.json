@@ -1,0 +1,32 @@
+﻿{
+  "Id": "f2021411-0499-4f8d-bd6e-a09889b8fc12",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MainMagique_TensersFloatingDisk",
+    "DisplayName": "Support",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8d7b9b70-901e-4723-b5a5-f71ac163b7eb\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MainMagique_TensersFloatingDisk",
+      "DisplayName": "Support",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de mercure.",
+        "HtmlContent": "Le personnage crée une paire de mains de force d’un mètre d’envergure lorsqu’elles sont jointes pour porter une charge, qui flottent à un mètre du sol dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) de son choix qu’il peut [voir](/regles/aventure/environnement/vision). Les mains demeurent pendant la durée et peuvent soutenir jusqu’à 250 kilogrammes. Si un poids supérieur y est placé, le pouvoir prend fin et tout ce que les mains portent tombe au sol.\n\nLes mains sont immobiles tant que le personnage se trouve à 6 mètres ou moins d’elles. S’il s’éloigne de plus de 6 mètres, elles le suivent de sorte à rester à 6 mètres ou moins de sa position. Elles peuvent [se déplacer](/regles/combat/activites/deplacement) sur un terrain irrégulier, monter ou descendre des escaliers, des pentes et ainsi de suite, mais elles ne peuvent franchir un dénivelé de 3 mètres ou plus. Par exemple, les mains ne peuvent traverser une fosse de 3 mètres de profondeur, ni en sortir si elles ont été créées au fond. Si le personnage s’éloigne de plus de 30 mètres des mains (typiquement parce que celles-ci ne peuvent contourner un obstacle pour le suivre), le pouvoir prend fin."
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8fc7c8b0-9c60-4f62-add1-dc757c87670d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hallucination_DistortValue",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"73e0202c-1e32-43b9-9e22-7514affc0728\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hallucination_DistortValue",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage canalise ce pouvoir sur un objet d’au plus 60 centimètres d’arête, doublant la valeur perçue de l’objet en y ajoutant des ornements illusoires, ou réduisant de moitié sa valeur perçue à l’aide de bosses et d’éraflures illusoires. Quiconque examine l’objet doit effectuer un [test](/regles/competences/tests) d’[Investigation](/regles/competences/investigation) afin de discerner l’illusion."
+      }
+    }
+  }
+}

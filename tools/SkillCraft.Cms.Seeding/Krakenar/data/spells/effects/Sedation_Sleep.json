@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b232b785-b3c5-43ed-8781-5e816551d89a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sedation_Sleep",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3d790b15-fb50-4a73-a706-81d7c012325f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sedation_Sleep",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de sable fin, de pétales de rose ou un grillon.",
+        "HtmlContent": "Ce pouvoir plonge des créatures dans un [sommeil](/regles/combat/conditions/inconscient) magique. Le personnage lance 6d8&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) : le total indique combien de points de [Vitalité](/regles/statistiques/vitalite) le pouvoir peut affecter. Les créatures situées à 6 mètres ou moins d’un point qu’il désigne dans la portée sont affectées par ordre croissant de leurs points de Vitalité restants (en ignorant les créatures inconscientes).\n\nEn commençant par la créature dont les points de Vitalité restants sont les plus bas, chaque créature affectée tombe inconsciente jusqu’à la fin du pouvoir, jusqu’à ce que le dormeur reçoive des [dégâts](/regles/combat/degats), ou jusqu’à ce que quelqu’un utilise une [action](/regles/combat/deroulement/tour) afin de le secouer ou de le gifler pour le réveiller. On soustrait les points de Vitalité de chaque créature du total avant de passer à la créature suivante dont les points de Vitalité sont les plus bas. Les points de Vitalité d’une créature doivent être égaux ou inférieurs au total restant pour que celle-ci soit affectée. Les morts-vivants et les créatures immunisées aux [charmes](/regles/combat/conditions/charme) ne sont pas affectés par ce pouvoir."
+      }
+    }
+  }
+}

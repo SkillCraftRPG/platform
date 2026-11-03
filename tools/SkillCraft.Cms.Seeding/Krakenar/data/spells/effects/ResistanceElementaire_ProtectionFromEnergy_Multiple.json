@@ -1,7 +1,7 @@
 ﻿{
   "Id": "59bc0994-f5e5-44b5-b4e5-dbc986fca211",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Multiple",
     "DisplayName": "Résistance collective",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "ResistanceElementaire_ProtectionFromEnergy_Multiple",
       "DisplayName": "Résistance collective",
       "Description": null,

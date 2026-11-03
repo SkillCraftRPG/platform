@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6f16e599-9dd8-4408-b5eb-f8265359f244",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrappeVeritable_TrueStrike",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"edadbdce-1cdf-4a13-8390-3f3477562dc4\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrappeVeritable_TrueStrike",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tend la main et pointe du doigt une cible dans la portée. Sa magie lui confère une brève intuition des défenses de la cible. Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de sa prochaine [attaque](/regles/combat/attaque) dirigée contre la cible avant la fin de son prochain [tour](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

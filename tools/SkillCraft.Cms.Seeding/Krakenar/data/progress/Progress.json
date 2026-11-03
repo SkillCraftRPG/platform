@@ -14,13 +14,13 @@
       "Customizations": "1",
       "Castes": "1",
       "Educations": "1",
-      "Specializations": "(3+48)/(3+57)=0.85",
+      "Specializations": "1",
       "Languages": "1",
       "Equipment": "1",
       "Adventure": "1",
       "Combat": "1",
-      "Magic": "1",
-      "Annexes": "(1+0+12+8+12+7+17+31+0)/(1+4+12+8+12+7+17+31+8)=88/100=0.88",
+      "Magic": "74/146=0.5068",
+      "Annexes": "1",
       "Talents": "1"
     }
   },

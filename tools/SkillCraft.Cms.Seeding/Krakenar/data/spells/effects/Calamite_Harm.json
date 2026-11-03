@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e6fae53b-68f8-4ea3-b7bc-48bcc8caf6d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Calamite_Harm",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a9925d0b-4b15-408f-88b9-c81f43982c8e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Calamite_Harm",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "L’œil pétrifié d’un triton.",
+        "HtmlContent": "Le personnage déchaîne une maladie virulente sur une créature qu’il peut [voir](/regles/aventure/environnement/vision). La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [8d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). Les dégâts ne peuvent pas réduire la [Vitalité](/regles/statistiques/vitalite) courante de la cible en dessous de 1. Sa Vitalité maximale est réduite pendant une heure d’une quantité égale aux points de dégâts nécrotiques reçus. Tout effet qui retire une maladie permet au maximum de points de Vitalité de la créature de revenir à la normale avant ce délai, par exemple [Restauration (niveau 2)](/regles/magie/pouvoirs/restauration). En cas de réussite, la cible ne reçoit que la moitié des points de dégâts, et sa Vitalité maximale n’est pas réduite."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "17d352d5-b312-43fc-9d0a-707828123080",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Reincarnation_Revivify",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"190db934-f616-4d2c-ba31-ac5a5ea3c5f8\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Reincarnation_Revivify",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des diamants d’une valeur de 300 deniers.",
+        "HtmlContent": "Le personnage touche une créature [morte](/regles/combat/conditions/mort) depuis au plus une minute. Cette créature revient à la vie avec 1 point de [Vitalité](/regles/statistiques/vitalite). Ce pouvoir ne peut ramener à la vie une créature morte de vieillesse, ni restaurer de parties du corps manquantes."
+      }
+    }
+  }
+}

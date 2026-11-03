@@ -24,8 +24,8 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "Focus": "\uD83D\uDEA7",
-        "HtmlContent": "Le personnage invoque des esprits invulnérables et intangibles qui flottent autour de lui.\n\nLorsqu’il réussit une [attaque](/regles/combat/attaque) ciblant une créature située à 3 mètres ou moins de sa position, alors il inflige [1d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) supplémentaires, et cette créature ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n\nÉgalement, toute créature désignée par le personnage débutant son tour à 3 mètres ou moins de celui-ci voit sa [vitesse](/regles/aventure/mouvement/vitesse) réduite de 2 points de mouvement (-0,5 mètres par seconde)."
+        "Focus": "Un totem spirituel.",
+        "HtmlContent": "Le personnage invoque des esprits invulnérables et intangibles tournoyant autour de lui. Jusqu’à la fin du pouvoir, toute [attaque](/regles/combat/attaque) réussie du personnage contre une créature située à 3&nbsp;mètres ou moins de sa position inflige [1d10](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) supplémentaires. Une créature qui reçoit ces [dégâts](/regles/combat/degats) ne peut [récupérer](/regles/combat/degats/soins) de points de [Vitalité](/regles/statistiques/vitalite) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n\nÉgalement, toute créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) et qui débute son tour à 3 mètres ou moins de sa position voit sa [vitesse](/regles/aventure/mouvement/vitesse) réduite de 2 points de mouvement (3 mètres par seconde) jusqu’au début de son prochain tour."
       }
     }
   }

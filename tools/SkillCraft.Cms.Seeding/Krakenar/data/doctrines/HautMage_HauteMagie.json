@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Specialization": "[\"3a9d33b0-6e52-4dd6-bca5-77a945c1e450\"]",
-      "Features": "[\"e33273ff-96d6-4731-b55f-661a1d2b9bcc\"]"
+      "Features": "[\"e33273ff-96d6-4731-b55f-661a1d2b9bcc\"]",
+      "DiscountedTalents": "[\"55998f0a-5eee-40e5-aa8a-345b4a8a376a\",\"1fb719d3-cb6a-4ce2-b43a-9ae1cd7dff25\"]"
     }
   },
   "Locales": {
@@ -17,7 +18,7 @@
       "DisplayName": "Haute magie",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 3 d’[astromancie](#) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert les deux capacités de tiers 3 spécifiques au [cercle de magie](#) sélectionné lorsqu’il a acquis la spécialisation [Mage](/regles/specialisations/mage)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=astromancie) de tiers 3 d’[astromancie](/regles/astromancie) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert les deux capacités de tiers 3 spécifiques au [cercle de magie](/regles/astromancie) sélectionné lorsqu’il a acquis la spécialisation [Mage](/regles/specialisations/mage)."
       }
     }
   }

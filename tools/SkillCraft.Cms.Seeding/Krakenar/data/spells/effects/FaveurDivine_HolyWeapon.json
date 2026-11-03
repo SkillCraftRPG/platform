@@ -1,0 +1,31 @@
+﻿{
+  "Id": "08e700c0-77dc-4068-b5fa-9734f7f6a100",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaveurDivine_HolyWeapon",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"49f3ce5c-2283-4549-82ec-cbd7806f4578\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaveurDivine_HolyWeapon",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage imprègne d’une puissance sacrée une [arme](/regles/equipement/armes) qu’il touche. Jusqu’à la fin du pouvoir, l’arme émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 9 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 9 mètres additionnels. Également, les [attaques](/regles/combat/attaque) effectuées avec cette arme infligent [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) supplémentaires. Le [type](/regles/combat/degats/types) des dégâts supplémentaires dépend du [domaine divin](/regles/domaines/divins) du personnage. Si l’arme n’est pas déjà magique, elle le devient pendant la durée.\n\nPar une [action](/regles/combat/deroulement/tour), le personnage peut mettre fin au pouvoir et faire émettre à l’arme une explosion de puissance sacrée. Chaque créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) située à 9 mètres ou moins de l’arme doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit 3d10&nbsp;+&nbsp;moitié de la Puissance points de dégâts et subit un effet secondaire. Le type des dégâts dépend du domaine divin du personnage et détermine automatiquement l’effet secondaire. En cas de réussite, une créature ne reçoit que la moitié des points de dégâts et ne subit pas l’effet secondaire. L’effet secondaire dure pendant une minute. À la fin de chacun de ses tours, une créature affectée peut répéter le jet de sauvegarde de Résistance afin de mettre fin à cet effet.\n\n- **Acide.** [Vitesse](/regles/aventure/mouvement/vitesse) réduite de moitié\n- **Feu.** [Aveuglé](/regles/combat/conditions/aveugle)\n- **Force.** [Étourdi](/regles/combat/conditions/etourdi) et repoussé de 1,5 mètres\n- **Foudre.** [Étourdi](/regles/combat/conditions/etourdi)\n- **Froid.** [Vitesse](/regles/aventure/mouvement/vitesse) réduite de moitié\n- **Nécrotique.** [Empoisonné](/regles/combat/conditions/empoisonne)\n- **Poison.** [Empoisonné](/regles/combat/conditions/empoisonne)\n- **Psychique.** [Étourdi](/regles/combat/conditions/etourdi)\n- **Radiant.** [Aveuglé](/regles/combat/conditions/aveugle)\n- **Tonnerre.** [Assourdi](/regles/combat/conditions/assourdi) et [renversé](/regles/combat/conditions/renverse)"
+      }
+    }
+  }
+}

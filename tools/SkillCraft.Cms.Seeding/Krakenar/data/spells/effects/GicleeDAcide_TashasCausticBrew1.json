@@ -1,0 +1,32 @@
+﻿{
+  "Id": "dbbd76d4-d237-4463-92b3-db38a5e53cff",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GicleeDAcide_TashasCausticBrew1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"91df8a55-d6f3-4694-85f7-4b236764bf9b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GicleeDAcide_TashasCausticBrew1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crache un jet d’acide prenant la forme d’une ligne de 9 mètres de long par 1,5 mètres de large dans une direction de son choix. Chaque créature dans la ligne doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou être couverte d’acide pendant la durée du pouvoir, ou jusqu’à ce qu’une créature utilise une [action](/regles/combat/deroulement/tour) afin de gratter ou de laver l’acide qui la couvre ou qui couvre une autre créature. Une créature couverte d’acide reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) au début de chacun de ses [tours](/regles/combat/deroulement/tour).",
+        "Material": "De la nourriture pourrie."
+      }
+    }
+  }
+}

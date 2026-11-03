@@ -25,7 +25,7 @@
       "Description": null,
       "FieldValues": {
         "Material": "Une ou plusieurs petites bandes de tissu blanc imbibé d’eau bénite.",
-        "HtmlContent": "Le personnage bénit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Une bande de tissu est consommée pour chaque créature bénite.\n\nJusqu’à la fin du pouvoir, une créature bénite peut ajouter 1d6 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences).\n\nElle se voit également conférer un nombre de [points de Vitalité temporaires](/regles/combat/degats/temporaire) égal à 5 + [Sens](/regles/attributs/sens) du personnage (minimum 5)."
+        "HtmlContent": "Le personnage bénit jusqu’à 3 créatures qu’il peut [voir](/regles/aventure/environnement/vision). Une bande de tissu est consommée pour chaque créature bénite. Jusqu’à la fin du pouvoir, une créature bénite peut ajouter 1d4 à tous ses [tests](/regles/competences/tests) de [compétence](/regles/competences). La [Vitalité](/regles/statistiques/vitalite) courante et maximale d’une créature bénite augmente également d’un nombre de points égal à 5&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
       }
     }
   }

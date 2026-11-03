@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a8fde67c-dd0c-4109-a5de-1a385a241d2e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Clairvoyance_Clairvoyance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21030284-b0e5-46b6-ade5-20e2ec98d147\"]",
+      "Level": "0",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1000",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Clairvoyance_Clairvoyance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le focus est une corne ornée de joyaux pour l’ouïe ou un œil de verre pour la vue.\n\nLe personnage crée un senseur [invisible](/regles/combat/conditions/invisible) dans la portée, en un lieu qui lui est familier (un endroit qu’il a visité ou vu auparavant) ou en un lieu évident qui lui est inconnu (tel que derrière une porte, au détour d’un angle, ou dans un bosquet). Le senseur demeure en place pendant la durée, et il ne peut être attaqué ni faire l’objet d’une autre interaction. Lorsqu’il canalise le pouvoir, il choisit la vue ou l’ouïe. Il peut utiliser le sens choisi à travers le senseur comme s’il se trouvait dans son espace. Par une [action](/regles/combat/deroulement/tour), il peut basculer entre la vue et l’ouïe. Une créature peut [voir](/regles/aventure/environnement/vision) le senseur si elle est dotée de la [vision absolue](/regles/aventure/environnement/vision) ou qu’elle peut voir l’[invisible](/regles/magie/pouvoirs/protection-contre-la-magie). Elle perçoit un orbe lumineux et intangible d’environ 10 centimètres de diamètre.",
+        "Focus": "Un focus d’une valeur d’au moins 100 deniers."
+      }
+    }
+  }
+}

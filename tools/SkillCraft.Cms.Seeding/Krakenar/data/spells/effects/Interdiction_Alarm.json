@@ -1,0 +1,32 @@
+﻿{
+  "Id": "199cecf5-4c0e-4f61-91f6-d0863e1bb9d8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Interdiction_Alarm",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"475458e9-9ace-4247-84c6-59c5386ce31b\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Interdiction_Alarm",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une clochette et un bout de fil d’argent fin.",
+        "HtmlContent": "Le personnage pose une alarme contre les intrusions indésirables. Il choisit une porte, une fenêtre ou une zone dans la portée d’au plus un cube de 6 mètres d’arête. Jusqu’à la fin du pouvoir, une alarme l’avertit chaque fois qu’une créature de [taille](/regles/especes/taille) minuscule ou supérieure touche ou entre dans la zone protégée. Lorsqu’il canalise le pouvoir, il peut désigner des créatures qui ne déclenchent pas l’alarme. Il choisit également si l’alarme est mentale ou audible. Une alarme mentale l’avertit d’un signal dans son esprit s’il se trouve à 1,5 kilomètres ou moins de la zone protégée. Ce signal le réveille s’il dort. Une alarme audible produit le son d’une clochette pendant 10 secondes dans un rayon de 18 mètres."
+      }
+    }
+  }
+}

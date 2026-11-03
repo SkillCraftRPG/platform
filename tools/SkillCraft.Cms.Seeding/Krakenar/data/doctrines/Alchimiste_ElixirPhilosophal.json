@@ -18,7 +18,7 @@
       "DisplayName": "Élixir philosophal",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "S’il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 d’[astromancie](#) appartenant au cercle de Transmutation, alors il peut acquérir les pouvoirs de tiers 3 d’astromancie appartenant à ce cercle.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts d’acide](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types), et immunisé à l’[empoisonnement](/regles/combat/conditions/empoisonne)."
+        "HtmlContent": "S’il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=astromancie&subcategory=transmutation) de tiers 2 d’[astromancie](/regles/astromancie?category=transmutation) appartenant au cercle de [Transmutation](/regles/astromancie/transmutation), alors il peut acquérir les pouvoirs de tiers 3 d’astromancie appartenant à ce cercle.\nIl est [résistant](/regles/combat/degats/efficacite) aux [dégâts d’acide](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types), et immunisé à l’[empoisonnement](/regles/combat/conditions/empoisonne)."
       }
     }
   }

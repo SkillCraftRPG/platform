@@ -1,0 +1,29 @@
+﻿{
+  "Id": "3b43e461-b0da-4f3b-8b51-0a97fed6d9e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Balancier_SilveryBarbs",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c0b64c4a-1d99-42aa-953f-e3f5c742b619\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Balancier_SilveryBarbs",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage distrait magiquement une créature qu’il voit réussir un [test](/regles/competences/tests) et transforme son instant d’incertitude en encouragement pour une autre créature. La cible doit rejouer le test et utiliser le résultat le plus faible. Le personnage peut ensuite désigner une créature différente qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée (il peut se choisir lui-même). La nouvelle cible se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au prochain test qu’elle effectue dans la minute. Une créature ne peut être renforcée que par une seule utilisation de ce pouvoir à la fois."
+      }
+    }
+  }
+}

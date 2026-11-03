@@ -1,0 +1,30 @@
+﻿{
+  "Id": "1e8b1bd5-578d-4585-a872-94bd7b69cae1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GicleeDAcide_AcidSplash",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "IsVerbal": "true",
+      "IsSomatic": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "Spell": "[\"91df8a55-d6f3-4694-85f7-4b236764bf9b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GicleeDAcide_AcidSplash",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage lance une bulle d’acide en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, ou de deux créatures qu’il peut voir dans la portée situées à 1,5 mètres ou moins l’une de l’autre. Une cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [2d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

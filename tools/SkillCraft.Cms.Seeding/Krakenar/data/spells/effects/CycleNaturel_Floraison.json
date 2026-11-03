@@ -1,0 +1,30 @@
+﻿{
+  "Id": "251f0a29-e272-4d2f-bd59-af8ade67eb29",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CycleNaturel_Floraison",
+    "DisplayName": "Floraison",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"64186f23-b0c3-4947-8282-2364fa952e0e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CycleNaturel_Floraison",
+      "DisplayName": "Floraison",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une énergie préservatrice de la vie émane du personnage sous la forme d’une aura d’un rayon de 9 mètres. Jusqu’à la fin du pouvoir, l’aura se déplace avec lui, centrée sur sa position. Chaque créature non hostile dans l’aura, y compris le personnage, est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types), et son maximum de points de [Vitalité](/regles/statistiques/vitalite) ne peut être réduit.\n\nÉgalement, une créature vivante, non hostile, [agonisante](/regles/combat/conditions/agonisant) mais stable, [récupère](/regles/combat/degats/soins) un point de Vitalité lorsqu’elle débute son [tour](/regles/combat/deroulement/tour) dans l’aura. Si elle est vivante, non hostile, agonisante mais instable, elle est [stabilisée](/regles/combat/activites/stabiliser)."
+      }
+    }
+  }
+}

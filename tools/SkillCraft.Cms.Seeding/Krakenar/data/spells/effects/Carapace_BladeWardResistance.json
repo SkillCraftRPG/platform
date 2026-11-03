@@ -1,0 +1,32 @@
+﻿{
+  "Id": "2a998bf7-4f7d-4764-a91a-2f461dd22cfa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Carapace_BladeWardResistance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"40b6c732-8885-411a-a36e-9aa7db58f7cd\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Carapace_BladeWardResistance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) infligés par des [attaques](/regles/combat/attaque) physiques. Une fois avant la fin du pouvoir, la cible peut ajouter 1d4 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de son choix. Elle peut jeter le dé avant ou après avoir effectué le jet de sauvegarde. Le pouvoir prend ensuite fin.",
+        "Focus": "Une cape miniature."
+      }
+    }
+  }
+}

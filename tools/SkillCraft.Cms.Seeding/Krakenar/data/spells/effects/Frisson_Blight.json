@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e8fd9d7b-fed1-4ab1-befc-7275e25ad2d2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Frisson_Blight",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9477c73d-443e-41b2-9896-0561572876c3\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Frisson_Blight",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une énergie nécromantique déferle sur une créature au choix du personnage qu’il peut [voir](/regles/aventure/environnement/vision), drainant son humidité et sa vitalité. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [3d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts. Ce pouvoir n’a aucun effet sur les morts-vivants ni les constructions.\n\nSi le personnage cible une créature végétale ou une plante magique, le jet de sauvegarde est affligé du [désavantage](/regles/competences/tests/avantage-desavantage), et le pouvoir inflige les dégâts maximaux. S’il cible une plante non magique qui n’est pas une créature, telle qu’un arbre ou un arbuste, elle n’effectue pas de jet de sauvegarde : elle se flétrit simplement et meurt."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "21e98215-4656-4a06-8cc8-6757d630c20c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "seduction",
+    "DisplayName": "Séduction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "seduction",
+      "DisplayName": "Séduction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "seduction",
+        "MetaDescription": "Découvrez Séduction, un pouvoir magique pour charmer les créatures, leur suggérer des actions et rendre un humanoïde serviable, prêt à vous aider.",
+        "Summary": "Charmez vos cibles, suggérez des actions et obtenez leur aide par magie.",
+        "HtmlContent": "Séduction permet de charmer un humanoïde, puis d’étendre cet effet à d’autres créatures. Il peut aussi suggérer une conduite et, à un niveau supérieur, rendre un humanoïde serviable afin qu’il accomplisse les tâches demandées, même à contrecœur."
+      }
+    }
+  }
+}

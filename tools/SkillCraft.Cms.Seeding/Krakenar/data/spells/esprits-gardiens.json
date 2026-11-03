@@ -17,9 +17,9 @@
       "DisplayName": "Esprits gardiens",
       "Description": null,
       "FieldValues": {
-        "Summary": "Esprits protecteurs infligeant des dégâts et entravant les ennemis.",
-        "HtmlContent": "Pouvoir divin invoquant des esprits gardiens qui protègent le lanceur, ralentissent les ennemis proches et infligent des dégâts sacrés ou nécrotiques selon le niveau.",
-        "MetaDescription": "Découvrez Esprits gardiens : pouvoir divin invoquant des entités protectrices infligeant des dégâts sacrés, ralentissant les ennemis et contrôlant la zone.",
+        "Summary": "Blessent et freinent, harcèlent une zone, ou soignent et soutiennent.",
+        "HtmlContent": "Le personnage s’entoure d’esprits qui renforcent ses coups proches et freinent les ennemis. Plus fort, les esprits harcèlent une zone autour de lui. Plus fort encore, ils portent espoir et soins aux alliés désignés.",
+        "MetaDescription": "Découvrez Esprits gardiens : blesser et freiner près de soi, harceler une zone d’esprits, ou soutenir les alliés d’espoir et de soins.",
         "Slug": "esprits-gardiens"
       }
     }

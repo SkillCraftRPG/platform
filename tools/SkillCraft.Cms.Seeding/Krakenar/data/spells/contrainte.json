@@ -1,0 +1,27 @@
+﻿{
+  "Id": "783db1f9-ec35-434b-848b-67d5d48f7f2a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "contrainte",
+    "DisplayName": "Contrainte",
+    "Description": null,
+    "FieldValues": {
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]",
+      "Tier": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "contrainte",
+      "DisplayName": "Contrainte",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "contrainte",
+        "MetaDescription": "Découvrez Contrainte : paralyser un humanoïde, puis toute créature, ou imposer un commandement magique durable.",
+        "Summary": "Paralyse un humanoïde, puis une créature, ou impose un ordre durable.",
+        "HtmlContent": "Le personnage paralyse d’abord un humanoïde. Plus fort, il paralyse n’importe quelle créature sauf un mort-vivant. Plus fort encore, il impose un commandement magique durable : désobéir blesse l’esprit de la cible."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "2bfba048-8ea1-4201-b7c2-6f8018ce6985",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "controle-de-la-terre",
+    "DisplayName": "Contrôle de la terre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "controle-de-la-terre",
+      "DisplayName": "Contrôle de la terre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "controle-de-la-terre",
+        "MetaDescription": "Découvrez Contrôle de la terre : façonnez le sol, créez des terrains difficiles et déclenchez des secousses pour blesser et renverser vos ennemis.",
+        "HtmlContent": "Contrôle de la terre permet de remodeler le sol, d’y tracer des motifs et de créer des terrains difficiles. À des niveaux avancés, le personnage déclenche des secousses qui infligent des dégâts, renversent les créatures et couvrent une zone élargie.",
+        "Summary": "Façonnez le terrain et provoquez des secousses qui renversent vos ennemis."
+      }
+    }
+  }
+}

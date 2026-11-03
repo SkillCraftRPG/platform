@@ -1,0 +1,27 @@
+﻿{
+  "Id": "6c1e5e25-90d8-4113-ae71-6bbc96e574b6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "communication",
+    "DisplayName": "Communication",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "communication",
+      "DisplayName": "Communication",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "communication",
+        "HtmlContent": "Le personnage murmure d’abord à une cible proche, ou crée un brin de pensée. Plus fort, il implante un message déclenché dans un objet. Plus fort encore, il envoie un message mental à une créature familière, même entre dimensions.",
+        "MetaDescription": "Découvrez Communication : murmure à distance, brin de pensée, bouche magique déclenchée, puis message mental à n’importe quelle distance.",
+        "Summary": "Murmure, brin de pensée, bouche magique, puis message lointain."
+      }
+    }
+  }
+}

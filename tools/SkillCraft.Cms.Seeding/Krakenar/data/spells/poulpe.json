@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1c5097c6-d3c5-4158-8dc4-aa0c838bf1e2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "poulpe",
+    "DisplayName": "Poulpe",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "poulpe",
+      "DisplayName": "Poulpe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "poulpe",
+        "HtmlContent": "Le personnage répand d’abord une graisse qui entrave le sol et fait chuter. Plus fort, des ténèbres magiques occultent même la vision dans le noir. Plus fort encore, des tentacules d’ébène enserrent, écrasent et freinent la fuite.",
+        "Summary": "Graisse glissante, ténèbres magiques, puis tentacules enserrants.",
+        "MetaDescription": "Découvrez Poulpe : sol graisseux qui fait chuter, ténèbres magiques mobiles, puis tentacules d’ébène qui enserrent et écrasent."
+      }
+    }
+  }
+}

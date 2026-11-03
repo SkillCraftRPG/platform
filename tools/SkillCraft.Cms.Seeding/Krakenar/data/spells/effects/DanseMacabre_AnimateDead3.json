@@ -1,0 +1,31 @@
+﻿{
+  "Id": "20cbea16-2489-4d14-88a6-ae97d0701758",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "DanseMacabre_AnimateDead3",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c0b27c3-8482-4140-b73c-f83ac990b7d9\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "DanseMacabre_AnimateDead3",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de sang, un morceau de chair et une pincée de poussière d’os.",
+        "HtmlContent": "Ce pouvoir crée un serviteur mort-vivant. Le personnage choisit un tas d’os ou un cadavre d’humanoïde de [taille](/regles/especes/taille) moyenne ou petite dans la portée. Son pouvoir imprègne la cible d’une imitation corruptrice de la vie, la relevant en créature morte-vivante. La cible devient un squelette s’il a choisi des os, ou un zombie s’il a choisi un cadavre (le maître de jeu dispose des traits et caractéristiques de la créature).\n\nUne fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut commander mentalement toute créature qu’il a créée avec ce pouvoir si celle-ci se trouve à 18 mètres ou moins de sa position (s’il contrôle plusieurs créatures, il peut en commander une ou toutes en même temps, en donnant le même ordre à chacune). Il décide de l’[action](/regles/combat/activites) que la créature entreprendra et de l’endroit où elle [se déplacera](/regles/combat/activites/deplacement) pendant son prochain tour, ou il peut donner un ordre général, tel que garder une chambre ou un corridor précis. S’il ne donne aucun ordre, la créature se défend seulement contre les créatures [hostiles](/regles/aventure/interaction-sociale). Une fois un ordre donné, la créature continue de le suivre jusqu’à ce que sa tâche soit accomplie.\n\nLa créature est sous le contrôle du personnage pendant 24 heures, après quoi elle cesse d’obéir à tout ordre qu’il lui a donné. Afin de maintenir le contrôle de la créature pour 24 heures supplémentaires, il doit canaliser à nouveau ce pouvoir sur la créature avant la fin de la période de 24 heures en cours. Cet usage du pouvoir réaffirme son contrôle sur jusqu’à quatre créatures qu’il a animées avec ce pouvoir, plutôt que d’en animer une nouvelle."
+      }
+    }
+  }
+}

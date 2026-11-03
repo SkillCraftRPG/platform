@@ -1,0 +1,32 @@
+﻿{
+  "Id": "2abc6eaa-df4e-49b6-84f1-5810c6725589",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Liberte_JumpLongstriderKineticJaunt",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7c19f9ee-7079-471c-b601-504fba54dbfc\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "IsConcentration": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Liberte_JumpLongstriderKineticJaunt",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une patte arrière de sauterelle.",
+        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’à la fin du pouvoir, la cible se voit conférer un bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse) et la distance de ses [sauts](/regles/aventure/mouvement/types) est triplée. Ses [déplacements]() ne provoquent pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite) et elle peut traverser un espace [occupé](/regles/aventure/mouvement/espace-occupe) par une autre créature sans que cela ne compte comme du [terrain difficile](/regles/aventure/mouvement/terrain-difficile)."
+      }
+    }
+  }
+}

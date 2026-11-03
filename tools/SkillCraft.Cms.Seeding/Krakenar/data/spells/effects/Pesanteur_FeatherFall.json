@@ -1,0 +1,31 @@
+﻿{
+  "Id": "1cdb30cd-02bb-44f0-b40a-54b231547a6c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pesanteur_FeatherFall",
+    "DisplayName": "Légèreté",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b83d4296-555f-462f-b353-e351d8ec7968\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pesanteur_FeatherFall",
+      "DisplayName": "Légèreté",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une petite plume ou un brin de duvet.",
+        "HtmlContent": "Le personnage désigne jusqu’à cinq créatures en [chute](/regles/aventure/environnement/chute) dans la portée et peut s’inclure dans ce nombre. La vitesse de descente d’une créature en chute est réduite à 18 mètres par [round](/regles/combat/deroulement) jusqu’à la fin du pouvoir. Si la créature atterrit avant la fin du pouvoir, elle ne reçoit aucun [point de dégâts](/regles/combat/degats) de chute et peut atterrir sur ses pieds, puis le pouvoir prend fin pour cette créature."
+      }
+    }
+  }
+}

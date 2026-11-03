@@ -1,0 +1,27 @@
+﻿{
+  "Id": "7f83f7f7-dfc9-4d29-81f0-6a604cb931ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "forteresse",
+    "DisplayName": "Forteresse",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "forteresse",
+      "DisplayName": "Forteresse",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "forteresse",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

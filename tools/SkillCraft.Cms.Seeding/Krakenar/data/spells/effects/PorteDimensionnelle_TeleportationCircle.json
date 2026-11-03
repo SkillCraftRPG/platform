@@ -1,0 +1,31 @@
+﻿{
+  "Id": "2361c607-4e05-46dc-b284-0afc7441a1a4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "PorteDimensionnelle_TeleportationCircle",
+    "DisplayName": "Cercle de téléportation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cdef595e-f956-43db-9312-0a5339c4561b\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "PorteDimensionnelle_TeleportationCircle",
+      "DisplayName": "Cercle de téléportation",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des craies et encres rares imprégnées de gemmes précieuses d’une valeur de 50 deniers.",
+        "HtmlContent": "En canalisant le pouvoir, le personnage trace au sol un cercle de 3 mètres de diamètre inscrit de symboles qui relient son emplacement à un cercle de téléportation permanent de son choix dont il connaît la séquence de symboles et qui se trouve dans la même dimension que lui. Un portail chatoyant s’ouvre dans le cercle qu’il a tracé et demeure ouvert jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). Toute créature qui entre dans le portail apparaît instantanément à 1,5 mètres ou moins du cercle de destination, ou dans l’espace inoccupé le plus proche si cet espace est [occupé](/regles/aventure/mouvement/espace-occupe).\n\nDe nombreux temples majeurs, guildes et autres lieux importants ont des cercles de téléportation permanents inscrits quelque part dans leurs murs. Un cercle de téléportation permanent peut être créé en canalisant ce pouvoir au même endroit chaque jour pendant un an. Chaque cercle de ce type comporte une séquence de symboles uniques : une chaîne de runes magiques arrangées selon un motif particulier. Le personnage peut apprendre une nouvelle séquence de symboles après l’avoir étudiée pendant une minute."
+      }
+    }
+  }
+}

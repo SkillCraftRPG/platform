@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a0584983-43d7-46b4-ab5e-01b0ee75eafc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsFunebres_ShadowOfMoil",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6550f103-e1f1-4768-b656-b180b2fd998e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Month\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsFunebres_ShadowOfMoil",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un œil de mort-vivant enchâssé dans une gemme d’une valeur d’au moins 150 deniers.",
+        "HtmlContent": "Des ombres flamboyantes enveloppent le corps du personnage jusqu’à la fin du pouvoir, le rendant [lourdement obscurci](/regles/aventure/environnement/vision) aux yeux d’autrui. Les ombres transforment la [pénombre](/regles/aventure/environnement/vision) située à 3 mètres ou moins de sa position en [ténèbres](/regles/aventure/environnement/vision), et la [clarté](/regles/aventure/environnement/vision) dans la même zone en pénombre. Le personnage devient [résistant](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). Également, chaque fois qu’une créature située à 3 mètres ou moins de sa position réussit une [attaque](/regles/combat/attaque) le ciblant, les ombres fouettent cette créature et lui infligent [2d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

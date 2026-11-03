@@ -1,0 +1,34 @@
+﻿{
+  "Id": "6c523578-a4e6-4336-9cf0-9d73b80f0370",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Serviteur_FlockOfFamiliars1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"18cd716d-adb6-4a30-b711-2c086d682526\"]",
+      "Level": "1",
+      "CastingTime": "[\"1h\"]",
+      "IsRitual": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "IsConcentration": "false",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Serviteur_FlockOfFamiliars1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque deux familiers tel que décrit ci-dessus. Tous les familiers invoqués prennent la même forme. S’il a déjà un familier invoqué, un seul nouveau familier est invoqué, et il prend la même forme que le familier déjà invoqué.",
+        "Focus": "Un brasero de laiton.",
+        "Material": "10 deniers de charbon, d’encens et d’herbes par familier invoqué."
+      }
+    }
+  }
+}

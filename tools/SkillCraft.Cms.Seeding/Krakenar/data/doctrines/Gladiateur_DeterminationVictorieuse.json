@@ -7,7 +7,8 @@
     "Description": null,
     "FieldValues": {
       "Specialization": "[\"b66f6475-8c7c-4548-a695-335d1a6dd0fb\"]",
-      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"6b200bdb-a4b7-43a2-92ab-7817608a46bc\",\"36d6b4b3-1ce4-4aa4-8382-d08596c338d8\",\"8457ebd2-0fa1-4315-94cb-3de7760cae02\"]"
+      "DiscountedTalents": "[\"36619d6e-77a9-4e89-8cf5-dae93755a94d\",\"36d6b4b3-1ce4-4aa4-8382-d08596c338d8\",\"8457ebd2-0fa1-4315-94cb-3de7760cae02\"]",
+      "Features": "[\"a3729675-f807-4c4e-9f59-493e75063801\",\"b349d4bf-636a-4dfd-98e0-2761047a1a67\",\"4bf5d4ab-eb9d-4c1e-9ca7-6bf80ce22bf9\",\"080013a0-e80d-4bdd-9faf-4d8745856be4\"]"
     }
   },
   "Locales": {
@@ -16,7 +17,9 @@
       "UniqueName": "Gladiateur_DeterminationVictorieuse",
       "DisplayName": "Détermination victorieuse",
       "Description": null,
-      "FieldValues": {}
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) le talent [Frénésie](/regles/talents/frenesie) au coût de [2 points de talent](/regles/talents/points) seulement."
+      }
     }
   }
 }

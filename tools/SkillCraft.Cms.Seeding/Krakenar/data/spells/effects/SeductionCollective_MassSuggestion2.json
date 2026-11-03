@@ -1,0 +1,31 @@
+﻿{
+  "Id": "14518c95-d5f7-4ca4-a960-3af544f7fd94",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SeductionCollective_MassSuggestion2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"bd3c98e6-c9bb-4d7f-bf68-b9b0f7407546\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SeductionCollective_MassSuggestion2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une langue de serpent.",
+        "Material": "Un peu de rayon de miel ou une goutte d’huile douce.",
+        "HtmlContent": "Le personnage suggère une conduite à plusieurs créatures, tel qu’au niveau 6. La durée augmente à 10 jours."
+      }
+    }
+  }
+}

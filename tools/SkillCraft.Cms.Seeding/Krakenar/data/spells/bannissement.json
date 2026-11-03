@@ -1,7 +1,7 @@
 ﻿{
   "Id": "47350862-65eb-4aa8-8c5f-65f4d5f057af",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "bannissement",
     "DisplayName": "Bannissement",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "bannissement",
       "DisplayName": "Bannissement",
       "Description": null,

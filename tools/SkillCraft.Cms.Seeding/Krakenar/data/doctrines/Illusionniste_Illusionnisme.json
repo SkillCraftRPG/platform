@@ -17,7 +17,7 @@
       "DisplayName": "Illusionnisme",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [illusions](#) de tiers 2 et acquiert gratuitement un de ces [pouvoirs](/regles/magie/pouvoirs)."
+        "HtmlContent": "Il peut acquérir les [illusions](/regles/annexes/illusions) de tiers 2 et acquiert gratuitement un de ces [pouvoirs](/regles/magie/pouvoirs?category=illusion)."
       }
     }
   }

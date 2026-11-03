@@ -1,0 +1,32 @@
+﻿{
+  "Id": "71959afb-5b2a-4e93-90c2-632e5efa2fd1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telepathie_MindSpikeTelepathic",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e73ffea8-86f7-4887-bdf6-4e4341967a5f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telepathie_MindSpikeTelepathic",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une dîme.",
+        "HtmlContent": "Le personnage acquiert la capacité à parler par télépathie à toute créature qu’il peut [voir](/regles/aventure/environnement/vision) située à 18 mètres ou moins de sa position. Ses propos télépathiques sont exprimés dans une [langue](/regles/langues) qu’il connaît, et la créature ne le comprend que si elle connaît cette langue. Cette communication ne confère pas à la créature la capacité de lui répondre par télépathie. Par une [action](/regles/combat/deroulement/tour), le personnage peut mettre fin au pouvoir et tente de s’immiscer dans l’esprit d’une créature qu’il peut [voir](/regles/aventure/environnement/vision) située à 18 mètres ou moins de sa position. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types). La cible ne reçoit que la moitié des points de dégâts en cas de réussite."
+      }
+    }
+  }
+}

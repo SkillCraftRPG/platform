@@ -1,0 +1,32 @@
+﻿{
+  "Id": "22c0891a-29ad-461f-8b3c-4e32c42f6372",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Pesanteur_Levitate",
+    "DisplayName": "Lévitation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b83d4296-555f-462f-b353-e351d8ec7968\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Pesanteur_Levitate",
+      "DisplayName": "Lévitation",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un morceau de fil d’or plié en forme de coupe avec une longue tige à une extrémité.",
+        "HtmlContent": "Le personnage désigne une créature ou un objet qui n’est ni porté ni tenu qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible s’élève verticalement, jusqu’à 9 mètres, et demeure suspendue là pendant la durée. Le pouvoir peut faire léviter une cible pesant jusqu’à 250 kilogrammes. Une créature non consentante doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) afin de ne pas être affectée. La cible ne peut [se déplacer](/regles/combat/activites/deplacement) qu’en poussant ou en tirant contre un objet ou une surface fixe à sa portée (tel qu’un mur ou un plafond), ce qui lui permet de se déplacer comme si elle [escaladait](/regles/aventure/mouvement/types). Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut augmenter ou réduire l’altitude de la cible d’au plus 9 mètres. Si le personnage se désigne lui-même comme cible, il acquiert une [vitesse](/regles/aventure/mouvement/vitesse) de [lévitation](/regles/aventure/mouvement/types) de 9 mètres. Il peut effectuer ce [déplacement](/regles/combat/activites/deplacement) une fois par tour. Lorsque le pouvoir prend fin, la cible redescend doucement au sol si elle est encore en l’air."
+      }
+    }
+  }
+}

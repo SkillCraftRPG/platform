@@ -1,0 +1,27 @@
+﻿{
+  "Id": "475458e9-9ace-4247-84c6-59c5386ce31b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "interdiction",
+    "DisplayName": "Interdiction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "interdiction",
+      "DisplayName": "Interdiction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "interdiction",
+        "Summary": "Alarme, verrou magique, puis occultation contre la divination.",
+        "MetaDescription": "Découvrez Interdiction : alarme mentale ou audible, verrou magique à mot de passe, puis dissimulation contre la divination et la scrutation.",
+        "HtmlContent": "Le personnage pose d’abord une alarme mentale ou audible sur une entrée ou une zone. Plus fort, il verrouille une entrée avec mot de passe. Plus fort encore, il dissimule une créature, un lieu ou un objet à la divination et à la scrutation."
+      }
+    }
+  }
+}

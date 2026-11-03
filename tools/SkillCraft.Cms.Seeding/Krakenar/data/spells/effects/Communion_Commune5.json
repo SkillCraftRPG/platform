@@ -1,0 +1,32 @@
+﻿{
+  "Id": "832ef50f-d2e6-439e-871d-456da715d4e0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communion_Commune5",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b75b441-cee9-4f60-a9ea-094191f65a14\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communion_Commune5",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une offrande appropriée à l’entité d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage pose jusqu’à trois questions pouvant recevoir une réponse par oui ou par non (**Divin** ou **Occulte**) ou apprend jusqu’à trois faits de son choix à propos de la zone (**Nature**)."
+      }
+    }
+  }
+}

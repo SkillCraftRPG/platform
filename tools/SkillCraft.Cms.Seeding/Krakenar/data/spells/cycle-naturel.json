@@ -1,0 +1,27 @@
+﻿{
+  "Id": "64186f23-b0c3-4947-8282-2364fa952e0e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cycle-naturel",
+    "DisplayName": "Cycle naturel",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cycle-naturel",
+      "DisplayName": "Cycle naturel",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cycle-naturel",
+        "MetaDescription": "Découvrez Cycle naturel : mort et vie en une sphère, flétrir ou préserver, puis repousser derrière une coquille antivie.",
+        "HtmlContent": "Le personnage flétrit d’abord une zone tout en soignant une cible. Plus fort, il flétrit une créature ou déploie une aura qui préserve la vie. Plus fort encore, il dresse une barrière et peut en repousser les créatures déjà présentes.",
+        "Summary": "Mort et vie, flétrissure ou floraison, puis coquille antivie."
+      }
+    }
+  }
+}

@@ -22,7 +22,7 @@
       "DisplayName": "Mot de guérison",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d4 additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+        "HtmlContent": "La [guérison](/regles/combat/degats/soins) augmente à 4d4&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance)."
       }
     }
   }

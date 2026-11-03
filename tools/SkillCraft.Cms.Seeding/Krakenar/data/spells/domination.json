@@ -1,0 +1,27 @@
+﻿{
+  "Id": "56b232db-24fb-41fc-a8f6-cdd3c7736235",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "domination",
+    "DisplayName": "Domination",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "domination",
+      "DisplayName": "Domination",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "domination",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

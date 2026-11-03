@@ -1,0 +1,30 @@
+﻿{
+  "Id": "f87ad6e5-436a-4eb5-b388-c14ff86cdb65",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_Pyrotechnics",
+    "DisplayName": "Pyrotechnie",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "CastingTime": "[\"2\"]",
+      "Level": "2",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_Pyrotechnics",
+      "DisplayName": "Pyrotechnie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage choisit une zone de flammes qu’il peut [voir](/regles/aventure/environnement/vision) et qui tient dans un cube de 1,5 mètres d’arête dans la portée. Il peut éteindre le feu dans cette zone, et créer un des effets suivants.\n\n- **Feux d’artifice.** La cible explose en un éblouissant éclat de couleurs. Chaque créature située à 3 mètres ou moins de la cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou être [aveuglée](/regles/combat/conditions/aveugle) jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage.\n- **Fumée.** Une épaisse fumée noire se répand depuis la cible dans un rayon de 6 mètres, en contournant les coins. La zone de fumée est [lourdement obscurcie](/regles/aventure/environnement/vision). La fumée persiste pendant une minute ou jusqu’à ce qu’un vent fort la dissipe."
+      }
+    }
+  }
+}

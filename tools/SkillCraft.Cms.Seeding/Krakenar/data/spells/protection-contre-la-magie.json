@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "1",
-      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"1101ee27-ddf6-4be3-b7e8-e5673dd8aed0\",\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\",\"5cb39d5d-e826-456f-946a-408a007857fb\",\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\",\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "protection-contre-la-magie",
-        "Summary": "Détection, dissipation et interruption des effets magiques adverses.",
-        "MetaDescription": "Découvrez Protection contre la magie : pouvoir polyvalent permettant de détecter la magie, dissiper les enchantements et interrompre les incantations ennemies.",
-        "HtmlContent": "Pouvoir défensif et utilitaire permettant de détecter la magie, dissiper les effets surnaturels actifs et interrompre les incantations ennemies en réaction."
+        "Summary": "Détecte la magie, voit l’invisible, dissipe ou interrompt une canalisation.",
+        "MetaDescription": "Découvrez Protection contre la magie : détecter auras et portails, voir l’invisible et l’éthéré, dissiper des effets, ou interrompre une canalisation.",
+        "HtmlContent": "Le personnage détecte la magie proche, lit les auras et peut étudier un portail. Plus fort, il voit l’invisible et l’éthéré, repère les portails inactifs, dissipe des effets surnaturels, ou interrompt une canalisation."
       }
     }
   }

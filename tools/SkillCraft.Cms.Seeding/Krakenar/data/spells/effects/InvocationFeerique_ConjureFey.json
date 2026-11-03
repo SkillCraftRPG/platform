@@ -1,0 +1,31 @@
+﻿{
+  "Id": "593357b9-8f4e-4708-ac07-3429c6d96a34",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationFeerique_ConjureFey",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a252a7b5-5fe7-464a-9fc9-b28e44f7daa7\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationFeerique_ConjureFey",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque une créature féérique de niveau 5 ou moins, ou un esprit féérique qui prend la forme d’une bête de niveau 5 ou moins. Elle apparaît dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La créature féérique disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin. La créature féérique est [amicale](/regles/aventure/interaction-sociale) envers le personnage et ses compagnons pendant la durée. La créature possède sa propre [Initiative](/regles/combat/deroulement/initiative) et son propre [tour](/regles/combat/deroulement/tour). Elle obéit à tout ordre verbal qu’il lui donne (aucune [action](/regles/combat/deroulement/tour) requise de sa part), tant que cela ne viole pas son alignement. S’il ne lui donne aucun ordre, elle se défend contre les créatures [hostiles](/regles/aventure/interaction-sociale) mais n’effectue sinon aucune [action](/regles/combat/activites).\n\nSi la [concentration](/regles/magie/parametres/duree) du personnage est rompue, la créature féérique ne disparaît pas. Au lieu de cela, il en perd le contrôle, elle devient hostile envers lui et ses compagnons, et elle pourrait [attaquer](/regles/combat/attaque). Une créature féérique incontrôlée ne peut être [renvoyée](/regles/magie/pouvoirs/sceau-magique) par lui, et elle disparaît une heure après avoir été invoquée. Le maître de jeu dispose des traits et caractéristiques de la créature féérique."
+      }
+    }
+  }
+}

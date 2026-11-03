@@ -1,0 +1,32 @@
+﻿{
+  "Id": "bde5f6d7-8ff0-4d02-9bd3-ad790ebbd7b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CordeEnchantee_Earthbind",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d84b9cf-a0c9-4f0e-80a8-8d24184ba262\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsVerbal": "true",
+      "IsSomatic": "false",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "60"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CordeEnchantee_Earthbind",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une corde de 15 mètres.",
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La corde s’enroule autour de la créature. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou voir sa [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) (le cas échéant) réduite à 0 pendant la durée du pouvoir. Une créature aérienne affectée par ce pouvoir descend de 18 mètres par [round](/regles/combat/deroulement) jusqu’à ce qu’elle atteigne le sol ou que le pouvoir prenne fin."
+      }
+    }
+  }
+}

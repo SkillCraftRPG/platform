@@ -1,0 +1,27 @@
+﻿{
+  "Id": "a5626e7a-2ec8-44ac-8747-2c919a64c48e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orbe-chromatique",
+    "DisplayName": "Orbe chromatique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"962a99ed-bc33-4eb1-8f0e-f21363d08ac5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orbe-chromatique",
+      "DisplayName": "Orbe chromatique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orbe-chromatique",
+        "MetaDescription": "Découvrez Orbe chromatique : orbe chaotique qui peut bondir, orbe lié à une gemme, puis orbe au type d’énergie choisi.",
+        "Summary": "Orbe chaotique bondissant, orbe de gemme, puis orbe au type choisi.",
+        "HtmlContent": "Le personnage lance d’abord une orbe chaotique dont le type d’énergie varie et qui peut bondir vers une autre cible. Plus fort, une gemme fixe le type des dégâts. Plus fort encore, il choisit librement le type d’énergie de l’orbe.\n\n<table class=\"table table-sm text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-sixth\">d8</th>\n      <th scope=\"col\" class=\"w-sixth\">Gemme</th>\n      <th scope=\"col\" class=\"w-sixth\">Type</th>\n      <th scope=\"col\" class=\"w-sixth\">d8</th>\n      <th scope=\"col\" class=\"w-sixth\">Gemme</th>\n      <th scope=\"col\" class=\"w-sixth\">Type</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"w-sixth\">1</td>\n      <td class=\"w-sixth\">Malachite</td>\n      <td class=\"w-sixth\">Poison</td>\n      <td class=\"w-sixth\">5</td>\n      <td class=\"w-sixth\">Saphir</td>\n      <td class=\"w-sixth\">Froid</td>\n    </tr>\n    <tr>\n      <td class=\"w-sixth\">2</td>\n      <td class=\"w-sixth\">Émeraude</td>\n      <td class=\"w-sixth\">Acide</td>\n      <td class=\"w-sixth\">6</td>\n      <td class=\"w-sixth\">Améthyste</td>\n      <td class=\"w-sixth\">Tonnerre</td>\n    </tr>\n    <tr>\n      <td class=\"w-sixth\">3</td>\n      <td class=\"w-sixth\">Rubis</td>\n      <td class=\"w-sixth\">Feu</td>\n      <td class=\"w-sixth\">7</td>\n      <td class=\"w-sixth\">Opale</td>\n      <td class=\"w-sixth\">Psychique</td>\n    </tr>\n    <tr>\n      <td class=\"w-sixth\">4</td>\n      <td class=\"w-sixth\">Topaze</td>\n      <td class=\"w-sixth\">Foudre</td>\n      <td class=\"w-sixth\">8</td>\n      <td class=\"w-sixth\">Diamant</td>\n      <td class=\"w-sixth\">Force</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

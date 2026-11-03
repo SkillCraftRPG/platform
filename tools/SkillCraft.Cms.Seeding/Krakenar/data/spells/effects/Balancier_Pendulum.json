@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0b6bb1e7-6237-4e70-b5f5-7791b6e0c0f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Balancier_Pendulum",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c0b64c4a-1d99-42aa-953f-e3f5c742b619\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Balancier_Pendulum",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit pendule en laiton et en palissandre d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "Le personnage tente de toucher une créature afin d’influencer sa chance. Elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin d’éviter le contact et peut volontairement échouer le jet de sauvegarde. En cas d’échec, les [tests](/regles/competences/tests) de la cible, excluant les jets de sauvegarde, sont affligés de l’avantage et du désavantage en alternance. Le personnage choisit si la séquence débute par l’avantage ou le désavantage. À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), la cible peut effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline). En cas de réussite, le pouvoir prend fin.\n\nAlternativement, une aura magique émane du personnage dans un rayon de 3 mètres. Tous les tests effectués dans l’aura, incluant les jets de sauvegarde et les tests du personnage, sont affligés de l’avantage et du désavantage. Le personnage choisit si la séquence débute par l’avantage ou le désavantage. La seule manière de se soustraire à ce pouvoir est de sortir de l’aura."
+      }
+    }
+  }
+}

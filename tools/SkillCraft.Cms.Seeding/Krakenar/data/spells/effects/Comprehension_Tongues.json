@@ -1,0 +1,31 @@
+﻿{
+  "Id": "235ee885-e136-4d44-9b74-a079489a53e0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Comprehension_Tongues",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"70e4ddda-3f7c-4c3b-9982-0e60b85a6de5\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Comprehension_Tongues",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une petite figurine d’argile représentant une ziggourat.",
+        "HtmlContent": "Ce pouvoir confère à la créature que le personnage touche la capacité de comprendre toute [langue parlée](/regles/langues) qu’elle entend. Également, lorsque la cible parle, toute créature qui connaît au moins une langue et qui peut l’entendre comprend ce qu’elle dit."
+      }
+    }
+  }
+}

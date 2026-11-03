@@ -1,0 +1,30 @@
+﻿{
+  "Id": "9514da20-2c04-4e86-861d-b99a089b5edf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communication_MagicMouth",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6c1e5e25-90d8-4113-ae71-6bbc96e574b6\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communication_MagicMouth",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un petit morceau de rayon de miel et de la poussière de jade d’une valeur d’au moins 10 deniers.",
+        "HtmlContent": "Le personnage implante un message dans un objet dans la portée, message qui est énoncé lorsqu’une condition de déclenchement est remplie. Il choisit un objet qu’il peut [voir](/regles/aventure/environnement/vision) et qui n’est ni porté ni transporté par une autre créature. Il prononce ensuite le message, qui doit compter 25 mots ou moins, bien qu’il puisse être délivré pendant jusqu’à 10 minutes. Enfin, il détermine la circonstance qui déclenchera le pouvoir afin de délivrer son message.\n\nLorsque cette circonstance survient, une bouche magique apparaît sur l’objet et récite le message de sa voix et au même volume que lorsqu’il l’a prononcé. Si l’objet choisi possède une bouche ou quelque chose qui ressemble à une bouche (par exemple, la bouche d’une statue), la bouche magique apparaît à cet endroit de sorte que les mots semblent provenir de la bouche de l’objet. Lorsqu’il canalise ce pouvoir, il peut faire en sorte que le pouvoir prenne fin après avoir délivré son message, ou qu’il demeure et répète son message chaque fois que le déclencheur survient.\n\nLa circonstance de déclenchement peut être aussi générale ou aussi détaillée qu’il le souhaite, bien qu’elle doive reposer sur des conditions visuelles ou audibles survenant à 9 mètres ou moins de l’objet. Par exemple, il pourrait instruire la bouche de parler lorsqu’une créature quelconque se déplace à 9 mètres ou moins de l’objet, ou lorsqu’une cloche d’argent sonne à 9 mètres ou moins de celui-ci."
+      }
+    }
+  }
+}

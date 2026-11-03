@@ -1,0 +1,31 @@
+﻿{
+  "Id": "56005ff0-704c-49e3-91f4-c263ad45f2e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SeductionCollective_FastFriends",
+    "DisplayName": "Séduction",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"bd3c98e6-c9bb-4d7f-bf68-b9b0f7407546\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "false",
+      "IsVerbal": "true",
+      "DurationUnit": "[\"Hour\"]",
+      "Level": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SeductionCollective_FastFriends",
+      "DisplayName": "Séduction",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de [charmer](/regles/combat/conditions/charme) jusqu’à 4 humanoïde qu’il peut [voir](/regles/aventure/environnement/vision), qui l’[entendent](/regles/combat/conditions/assourdi) et le comprennent. Une cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) si le personnage ou un de ses compagnons agit de manière [hostile](/regles/aventure/interaction-sociale) envers celle-ci. En cas d’échec, une cible est charmée jusqu’à la fin du pouvoir. Elle est [serviable](/regles/aventure/interaction-sociale) envers le personnage et effectue les tâches et services demandés au meilleur de ses habiletés.\n\nLe personnage peut lui affecter de nouvelles tâches lorsqu’une tâche est complétée, ou arrêter une tâche active. S’il lui demande une tâche ou un service dangereux ou entrant en conflit avec ses activités normales et ses désirs, celle-ci peut répéter le jet de sauvegarde afin de contrer le pouvoir. Le pouvoir prend fin pour une cible si la tâche cause la [mort](/regles/combat/mort-agonie) certaine de la cible. Lorsque le pouvoir prend fin, une cible sait qu’elle a été charmée."
+      }
+    }
+  }
+}

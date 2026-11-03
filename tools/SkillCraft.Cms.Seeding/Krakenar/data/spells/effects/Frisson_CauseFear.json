@@ -1,0 +1,31 @@
+﻿{
+  "Id": "797df013-dc89-4ccb-8959-40ee174fbf81",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Frisson_CauseFear",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9477c73d-443e-41b2-9896-0561572876c3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Frisson_CauseFear",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage éveille le sentiment de mortalité chez une créature qu’il peut [voir](/regles/aventure/environnement/vision). Une construction ou un mort-vivant est immunisé à cet effet. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [apeurée](/regles/combat/conditions/apeure) par le personnage jusqu’à la fin du pouvoir. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses [tours](/regles/combat/deroulement/tour). En cas de réussite, l’effet prend fin."
+      }
+    }
+  }
+}

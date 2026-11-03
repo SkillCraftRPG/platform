@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0bf307a8-1c1e-4a9b-90ff-75b859496e37",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Alienation_Demence",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e34ef2b4-eee2-4d66-b5a2-dada67fed7c1\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Alienation_Demence",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne un humanoïde qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par lui pendant la durée. Tant que la cible est charmée de cette façon, une couronne tordue de fer dentelé apparaît sur sa tête, et une folie brille dans ses yeux. Au début de son [tour](/regles/combat/deroulement/tour), la cible doit utiliser une [action](/regles/combat/deroulement/tour) afin d’effectuer une [attaque de mêlée](/regles/combat/attaque/melee) contre une créature autre qu’elle-même que le personnage désigne mentalement. La cible peut agir normalement à son tour si le personnage ne désigne aucune créature ou si aucune ne se trouve à sa portée. À chacun de ses tours subséquents, le personnage doit utiliser une action afin de maintenir le contrôle sur la cible, sinon le pouvoir prend fin. La cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours. En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

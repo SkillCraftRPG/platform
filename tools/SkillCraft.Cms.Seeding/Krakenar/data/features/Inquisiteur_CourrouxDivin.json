@@ -1,0 +1,21 @@
+﻿{
+  "Id": "66452cb8-0724-4ff7-a989-58c4e586edc5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Inquisiteur_CourrouxDivin",
+    "DisplayName": "Courroux divin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Inquisiteur_CourrouxDivin",
+      "DisplayName": "Courroux divin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage réussit une [attaque de mêlée](/regles/combat/attaque/melee), il peut infliger [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires s’il le désire. Le [type](/regles/combat/degats/types) des dégâts supplémentaires dépend de son [domaine&nbsp;divin](/regles/domaines/divins).\n\nÉgalement, lorsqu’il réussit une [attaque d’opportunité](/regles/combat/attaque/opportunite), il peut immédiatement effectuer un [pas prudent](/regles/combat/activites/pas-prudent) ou un [déplacement](/regles/combat/activites/deplacement) à la moitié de sa [vitesse](/regles/aventure/mouvement/vitesse) au cours de la même [réaction](/regles/combat/deroulement/tour). Le [test](/regles/competences/tests) des attaques d’opportunité déclenchées par ce déplacement se voit affligé du [désavantage](/regles/competences/tests/avantage-desavantage)."
+      }
+    }
+  }
+}

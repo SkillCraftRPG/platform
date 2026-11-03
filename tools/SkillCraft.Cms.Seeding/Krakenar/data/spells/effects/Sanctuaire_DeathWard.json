@@ -1,0 +1,31 @@
+﻿{
+  "Id": "3caf40b3-d2f7-4b3d-81f4-90238e258fba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sanctuaire_DeathWard",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29aad939-4a79-4a3f-bd8d-bd495c5129d3\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sanctuaire_DeathWard",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante et la protège contre la [mort](/regles/combat/mort-agonie). La première fois que les points de [Vitalité](/regles/statistiques/vitalite) de la cible chuteraient à 0 à la suite de points de [dégâts](/regles/combat/degats) reçus, ceux-ci chutent plutôt à 1, et le pouvoir prend fin. Si le pouvoir est encore en effet lorsque la cible est soumise à un effet qui la tuerait instantanément sans infliger de dégâts, cet effet est annulé contre la cible, et le pouvoir prend fin. Une créature ne peut bénéficier que d’une seule protection de ce genre à la fois.",
+        "Focus": "Un petit miroir d’argent."
+      }
+    }
+  }
+}

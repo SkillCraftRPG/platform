@@ -1,0 +1,30 @@
+﻿{
+  "Id": "7fed0ef1-810d-4aee-84a9-47cf3692220d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sanctuaire_ZoneOfTruth",
+    "DisplayName": "Vérité",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29aad939-4a79-4a3f-bd8d-bd495c5129d3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sanctuaire_ZoneOfTruth",
+      "DisplayName": "Vérité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un sanctuaire de vérité prenant la forme d’une sphère de 4,5 mètres de rayon centrée sur un point de son choix. Jusqu’à la fin du pouvoir, une créature qui entre dans la zone pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou qui y débute son tour doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, une créature ne peut pas [mentir](/regles/competences/tromperie) délibérément tant qu’elle s’y trouve. Le personnage sait si une créature réussit ou échoue le jet de sauvegarde. Une créature affectée est consciente du pouvoir et peut donc éviter de répondre aux questions auxquelles elle répondrait normalement par un mensonge. Elle peut demeurer évasive dans ses réponses tant qu’elle reste dans les limites de la vérité."
+      }
+    }
+  }
+}

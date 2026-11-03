@@ -1,0 +1,29 @@
+﻿{
+  "Id": "e51b3abd-8236-4a39-a469-c16eac4f4567",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLaTerre_MoldEarth",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2bfba048-8ea1-4201-b7c2-6f8018ce6985\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLaTerre_MoldEarth",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une portion de terre ou de pierre qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et qui tient dans un cube de 1,5 mètres d’arête. Il la manipule de l’une des façons suivantes :\n\n- S’il cible une zone de terre meuble, il peut instantanément l’excaver, la déplacer le long du sol et la déposer à 1,5 mètres ou moins. Ce déplacement n’a pas assez de force pour infliger des [points de dégâts](/regles/combat/degats).\n- Il fait apparaître des formes, des couleurs, ou les deux, sur la terre ou la pierre, afin d’épeler des mots, de créer des images ou de façonner des motifs. Les changements durent une heure.\n- Si la terre ou la pierre ciblée se trouve au sol, il la transforme en [terrain difficile](/regles/aventure/mouvement/terrain-difficile). Alternativement, il peut transformer le sol en terrain normal s’il s’agit déjà de terrain difficile. Ce changement dure une heure.\n\nS’il canalise ce pouvoir plusieurs fois, il ne peut avoir plus de deux de ses effets non instantanés actifs à la fois, et il peut dissiper un tel effet par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

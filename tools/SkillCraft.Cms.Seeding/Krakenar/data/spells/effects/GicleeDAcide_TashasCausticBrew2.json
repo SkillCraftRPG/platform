@@ -1,0 +1,32 @@
+﻿{
+  "Id": "b91697f0-d666-477c-93ab-3c5699d5c536",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GicleeDAcide_TashasCausticBrew2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"91df8a55-d6f3-4694-85f7-4b236764bf9b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GicleeDAcide_TashasCausticBrew2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De la nourriture pourrie.",
+        "HtmlContent": "Les [dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) récurrents augmentent à [2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

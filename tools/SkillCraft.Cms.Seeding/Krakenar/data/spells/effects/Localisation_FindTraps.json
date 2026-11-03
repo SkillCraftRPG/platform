@@ -1,0 +1,30 @@
+﻿{
+  "Id": "37f19f36-0fc9-421d-9bb7-3efc986eb603",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Localisation_FindTraps",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"47501238-4a04-4cef-9031-ed3a05d81a59\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Localisation_FindTraps",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage détecte la présence de tout piège situé dans la portée et dans sa ligne de vue. Un piège correspond à tout ce qui infligerait un effet soudain ou inattendu que le personnage considère comme nuisible ou indésirable, et qui a été conçu comme tel par son créateur. Ainsi, le pouvoir détecte une zone affectée par une [alarme](/regles/magie/pouvoirs/interdiction), un [glyphe](/regles/magie/pouvoirs/glyphe) ou un piège mécanique à fosse, mais ne révèle pas une faiblesse naturelle du sol, un plafond instable ou un gouffre dissimulé. Seulement la présence des pièges est révélée. Le personnage n’en apprend pas l’emplacement exact, mais il apprend la nature générale du danger posé par un piège qu’il détecte."
+      }
+    }
+  }
+}

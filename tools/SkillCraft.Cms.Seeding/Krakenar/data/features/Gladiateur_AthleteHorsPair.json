@@ -1,0 +1,21 @@
+﻿{
+  "Id": "080013a0-e80d-4bdd-9faf-4d8745856be4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gladiateur_AthleteHorsPair",
+    "DisplayName": "Athlète hors pair",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gladiateur_AthleteHorsPair",
+      "DisplayName": "Athlète hors pair",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Par une [action](/regles/combat/deroulement/tour), le personnage renforce ses capacités physiques. Pendant les prochaines [10 minutes](/regles/aventure/temps), le personnage acquiert ces capacités :\n\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme) et d’[Acrobaties](/regles/competences/acrobaties).\n- Sa [taille](/regles/especes/taille) est considérée d’une catégorie supérieure lorsqu’il porte, pousse, traîne ou soulève un poids.\n- La distance de ses [sauts en longueur](/regles/combat/activites/deplacement) et la hauteur de ses [sauts en hauteur](/regles/combat/activites/deplacement) augmente de 3 mètres."
+      }
+    }
+  }
+}

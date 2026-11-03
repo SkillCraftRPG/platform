@@ -1,0 +1,31 @@
+﻿{
+  "Id": "21cd10c4-cccf-4eb2-818f-cf43a0fd4fd8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResonanceElementaire_ElementalWeapon3",
+    "DisplayName": "Arme élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResonanceElementaire_ElementalWeapon3",
+      "DisplayName": "Arme élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une [arme](/regles/equipement/armes) non magique, et celle-ci devient magique. Il choisit un des [types de dégâts](/regles/combat/degats/types) suivants : acide, feu, foudre, froid ou tonnerre. Pendant la durée, le [test](/regles/competences/tests) des [attaques](/regles/combat/attaque) effectuées en maniant cette arme se voit conférer un bonus (+1), et l’arme inflige [1d2](/regles/combat/degats/jet) [point de dégât](/regles/combat/degats) supplémentaire du type choisi."
+      }
+    }
+  }
+}

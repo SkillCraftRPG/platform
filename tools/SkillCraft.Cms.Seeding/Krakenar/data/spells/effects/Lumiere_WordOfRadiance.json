@@ -1,0 +1,31 @@
+﻿{
+  "Id": "5a0ea5a9-ddf0-4be6-81cd-3108a78184d7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Lumiere_WordOfRadiance",
+    "DisplayName": "Radiance",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"cba08313-bd3f-4529-b474-2dce47309769\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Lumiere_WordOfRadiance",
+      "DisplayName": "Radiance",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole sacré.",
+        "HtmlContent": "Le personnage prononce un mot divin, et une radiance brûlante émane de lui. Chaque créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) située à 1,5 mètres de sa position doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou recevoir [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

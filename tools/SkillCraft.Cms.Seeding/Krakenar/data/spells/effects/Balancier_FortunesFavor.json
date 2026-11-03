@@ -1,0 +1,31 @@
+﻿{
+  "Id": "3f9febb5-b55a-46e0-ab5b-af2493271f02",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Balancier_FortunesFavor",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c0b64c4a-1d99-42aa-953f-e3f5c742b619\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Balancier_FortunesFavor",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une perle blanche d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "Le personnage confère une chance latente à lui-même ou à une créature consentante qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsque la cible effectue un [test](/regles/competences/tests) avant la fin du pouvoir, elle peut mettre fin à ce pouvoir sur elle-même afin de rejouer le test et conserver le résultat de son choix. Alternativement, lorsqu’un test d’[attaque](/regles/combat/attaque) est effectué contre la cible, elle peut mettre fin à ce pouvoir sur elle-même afin de jeter [2d10](/regles/competences/tests/2d10), puis choisit son résultat ou celui de l’attaquant. Si le test original se voyait conférer l’[avantage](/regles/competences/tests/avantage-desavantage) ou affligé du [désavantage](/regles/competences/tests/avantage-desavantage), le nouveau test est également effectué avec avantage ou désavantage."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "a925df3b-91a4-4c7a-9004-2132535f90b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Fascination_JimsGlowingCoin",
+    "DisplayName": "Pièce rutilante",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fc8274dc-8ec8-4150-9c15-d2850f4125f0\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Fascination_JimsGlowingCoin",
+      "DisplayName": "Pièce rutilante",
+      "Description": null,
+      "FieldValues": {
+        "Material": "2 deniers.",
+        "Focus": "Une pièce de monnaie.",
+        "HtmlContent": "Lorsqu’il canalise le pouvoir, le personnage lance la pièce de monnaie (focus) vers n’importe quel point dans la portée. La pièce s’allume comme sous l’effet du pouvoir [Lumière&nbsp;(niveau&nbsp;1)](/regles/magie/pouvoirs/lumiere). Chaque créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) située à 9 mètres ou moins de la pièce doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être distraite pendant la durée. Une créature distraite voit ses [tests](/regles/competences/tests) de [Perception](/regles/competences/perception) affligés du [désavantage](/regles/competences/tests/avantage-desavantage). De plus, elle doit rejouer ses tests d’[Initiative](/regles/combat/deroulement/initiative) et conserver le résultat le plus faible."
+      }
+    }
+  }
+}

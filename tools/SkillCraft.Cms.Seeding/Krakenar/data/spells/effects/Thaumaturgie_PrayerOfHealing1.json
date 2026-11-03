@@ -1,7 +1,7 @@
 ﻿{
   "Id": "0d7748ee-aec3-4e2d-ae3b-2deacccfb395",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Thaumaturgie_PrayerOfHealing1",
     "DisplayName": null,
     "Description": null,
@@ -17,7 +17,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Thaumaturgie_PrayerOfHealing1",
       "DisplayName": null,
       "Description": null,

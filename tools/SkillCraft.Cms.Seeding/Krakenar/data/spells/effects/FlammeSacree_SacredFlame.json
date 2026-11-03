@@ -23,7 +23,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage tente de châtier une créature en lui projetant une flamme sacrée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties).\n\nEn cas d’échec, elle reçoit 1d6 [points de dégâts radiants](/regles/combat/degats/types) additionnés à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage.\n\nElle émet également une faible lumière divine qui confère l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de la prochaine [attaque](/regles/combat/attaque) dirigée contre la cible jusqu’à la fin du [tour](/regles/combat/deroulement/tour) du personnage."
+        "HtmlContent": "Un rayonnement semblable à une flamme descend sur une créature que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). La cible ne tire aucun bénéfice d’un [abri](/regles/combat/attaque/abri) pour ce jet de sauvegarde. En cas d’échec, elle émet également une faible lumière divine qui confère l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de la prochaine [attaque](/regles/combat/attaque) dirigée contre la cible jusqu’à la fin du [tour](/regles/combat/deroulement/tour) du personnage."
       }
     }
   }

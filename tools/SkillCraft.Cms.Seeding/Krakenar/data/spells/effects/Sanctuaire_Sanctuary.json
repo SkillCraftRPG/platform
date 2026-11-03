@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4ad7f7c1-efc5-4dc6-8614-a48c29c948ea",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Sanctuaire_Sanctuary",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29aad939-4a79-4a3f-bd8d-bd495c5129d3\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Sanctuaire_Sanctuary",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit miroir d’argent.",
+        "HtmlContent": "Le personnage protège une créature contre les attaques. Jusqu’à la fin du pouvoir, toute créature qui cible la créature protégée avec une [attaque](/regles/combat/attaque) ou un pouvoir nuisible doit d’abord effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la créature doit choisir une nouvelle cible ou perdre l’attaque ou le pouvoir. Ce pouvoir ne protège pas la créature contre les effets de zone. Si la créature protégée effectue une attaque, canalise un pouvoir qui affecte un ennemi, ou [blesse](/regles/combat/degats) une autre créature, ce pouvoir prend fin."
+      }
+    }
+  }
+}

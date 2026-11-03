@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e8e956bf-fd3e-438f-8586-837f47963b07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "amnesie",
+    "DisplayName": "Amnésie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "amnesie",
+      "DisplayName": "Amnésie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "amnesie",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

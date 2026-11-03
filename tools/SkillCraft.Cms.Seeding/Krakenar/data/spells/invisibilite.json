@@ -1,0 +1,27 @@
+﻿{
+  "Id": "4f401ca1-852f-4fc3-bbc9-c801d42c7897",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "invisibilite",
+    "DisplayName": "Invisibilité",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "invisibilite",
+      "DisplayName": "Invisibilité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "invisibilite",
+        "MetaDescription": "Découvrez Invisibilité : corps flou qui gêne les coups, puis disparition d’un consentant touché qui cesse s’il agit, ou qui persiste malgré cela.",
+        "Summary": "Corps flou, disparition rompue par l’action, puis invisibilité qui tient.",
+        "HtmlContent": "Le personnage floute son corps et gêne qui se fie à la vue, sauf illusion percée. Plus fort, il rend invisible une créature consentante et son équipement jusqu’à ce qu’elle frappe ou canalise. Plus fort encore, elle le reste même alors."
+      }
+    }
+  }
+}

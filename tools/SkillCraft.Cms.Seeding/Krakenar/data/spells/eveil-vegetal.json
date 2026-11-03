@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d911110f-0331-4b2e-ad92-c9daae7b925b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "eveil-vegetal",
+    "DisplayName": "Éveil végétal",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "eveil-vegetal",
+      "DisplayName": "Éveil végétal",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "eveil-vegetal",
+        "MetaDescription": "Découvrez Éveil végétal : parler aux plantes et modeler le terrain, tirer avec une vigne, puis éveiller une plante intelligente.",
+        "HtmlContent": "Le personnage anime d’abord les plantes pour dialoguer, modifier le terrain ou libérer des captifs. Plus fort, une vigne tire une créature vers elle. Plus fort encore, il éveille une plante intelligente, brièvement charmée.",
+        "Summary": "Parle aux plantes, tire avec une vigne, puis éveille une plante."
+      }
+    }
+  }
+}

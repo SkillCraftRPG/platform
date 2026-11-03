@@ -1,0 +1,30 @@
+﻿{
+  "Id": "375883eb-23bd-4440-8355-c8195eb4fd98",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MainMagique_MageHand",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"8d7b9b70-901e-4723-b5a5-f71ac163b7eb\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MainMagique_MageHand",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une main spectrale flottante apparaît à un point désigné par le personnage. Il peut la dissiper par une [action](/regles/combat/deroulement/tour). Elle disparaît si elle se trouve à plus de 9 mètres du personnage ou s’il canalise à nouveau ce pouvoir. Le personnage peut utiliser une action afin de contrôler la main. Il peut s’en servir pour [manipuler un objet](/regles/combat/activites/objet), ouvrir une porte ou un [contenant](/regles/equipement/general/contenants) non verrouillé, ranger ou récupérer un objet dans un contenant ouvert, ou verser le contenu d’une fiole. Il peut [déplacer](/regles/combat/activites/deplacement) la main d’au plus 9 mètres chaque fois qu’il l’utilise. La main ne peut attaquer, activer d’objets magiques, ni porter plus de 5 kilogrammes."
+      }
+    }
+  }
+}

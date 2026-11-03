@@ -1,0 +1,27 @@
+﻿{
+  "Id": "edadbdce-1cdf-4a13-8390-3f3477562dc4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frappe-veritable",
+    "DisplayName": "Frappe véritable",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frappe-veritable",
+      "DisplayName": "Frappe véritable",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frappe-veritable",
+        "HtmlContent": "Le personnage guide d’abord sa prochaine frappe contre une cible. Plus fort, il marque une proie pour la blesser davantage et la retrouver. Plus fort encore, la marque révèle en permanence où elle se trouve et empêche toute dissimulation.",
+        "MetaDescription": "Découvrez Frappe véritable : intuition pour frapper juste, marque de proie qui blesse et aide à pister, puis localisation permanente.",
+        "Summary": "Frappe guidée, marque de proie, puis piste magique permanente."
+      }
+    }
+  }
+}

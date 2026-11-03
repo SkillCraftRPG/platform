@@ -1,0 +1,21 @@
+﻿{
+  "Id": "546bc9ff-4b57-4b4d-b6e5-03055babcf74",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mage_PlumeMagique",
+    "DisplayName": "Plume magique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mage_PlumeMagique",
+      "DisplayName": "Plume magique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut enchanter une [plume à écrire](/regles/equipement/general) par un rituel d’une durée d’[une heure](/regles/aventure/temps) qu’il peut effectuer à la [halte](/regles/aventure/repos/halte). La plume perd ses propriétés magiques si le personnage [meurt](/regles/combat/conditions/mort) ou effectue ce rituel à nouveau. Lorsque le personnage écrit avec la plume, celle-ci ne nécessite pas d’encre : elle produit sur la surface une encre de la couleur au choix du personnage. Par une [action](/regles/combat/deroulement/tour), il peut effacer du texte qu’il a écrit avec la plume en passant celle-ci sur le texte.\n\nIl peut utiliser sa plume magique afin de créer un [parchemin magique](/regles/magie/artefacts/parchemins). Pour se faire, il copie un [pouvoir](/regles/magie/pouvoirs) qu’il a [acquis](/regles/magie/pouvoirs/acquisition) et inscrit dans son [grimoire](/regles/talents/astrologie) sur un [parchemin](/regles/equipement/general) ou une [feuille de papier](/regles/equipement/general) vierge. Le [tiers](/regles/personnages/progression/tiers) du pouvoir doit être inférieur ou égal à 1, l’[incantation](/regles/magie/parametres/incantation) de la capacité ciblée doit être d’au plus deux actions, et cette capacité ne doit pas requérir de composante [Focus](/regles/magie/parametres/composantes) ni [Matériel](/regles/magie/parametres/composantes) indiquant un [coût](/regles/equipement/monnaie).\n\nLa création de ce parchemin nécessite un nombre de minutes égal à 1&nbsp;+&nbsp;[niveau](/regles/magie/pouvoirs/niveau) de la capacité. Le personnage doit posséder son grimoire avec lui en tout temps pendant ce processus. Seul le personnage peut lire, comprendre et utiliser le parchemin magique. Le parchemin est réduit en cendres lorsqu’il est utilisé, si le personnage crée un nouveau parchemin, ou 24&nbsp;heures après sa création.\n\nLe personnage doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de créer un nouveau parchemin magique."
+      }
+    }
+  }
+}

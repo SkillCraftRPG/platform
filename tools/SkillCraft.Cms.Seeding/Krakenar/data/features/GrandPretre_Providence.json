@@ -1,0 +1,21 @@
+﻿{
+  "Id": "6c0375b2-e223-4768-8a10-c8876e79b666",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GrandPretre_Providence",
+    "DisplayName": "Providence",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GrandPretre_Providence",
+      "DisplayName": "Providence",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut invoquer son [pouvoir divin](/regles/specialisations/clerc) afin de [canaliser](/regles/magie/pouvoirs/canalisation) un [pouvoir](/regles/magie/pouvoirs?category=divin) de tiers 0 ou 1 associé à son [domaine divin](/regles/domaines/divins). Pour se faire, il récite une prière ([Verbal](/regles/magie/parametres/composantes)) en touchant son [symbole divin](/regles/equipement/general) ([Somatique](/regles/magie/parametres/composantes)). Les composantes [Focus](/regles/magie/parametres/composantes) et [Matériel](/regles/magie/parametres/composantes) dont la valeur ne dépassent pas [100 deniers](/regles/equipement/monnaie) sont fournies par le pouvoir divin. La canalisation réussit automatiquement et il ne [dépense](/regles/magie/pouvoirs/energie) aucun point d’[Énergie](/regles/statistiques/energie). Il effectue tout de même un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) puisque cette réussite ne garantit pas que le pouvoir affecte la ou les cibles."
+      }
+    }
+  }
+}

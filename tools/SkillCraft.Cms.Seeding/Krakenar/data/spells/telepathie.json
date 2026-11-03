@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e73ffea8-86f7-4887-bdf6-4e4341967a5f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "telepathie",
+    "DisplayName": "Télépathie",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"69ac2700-0c05-4b85-81d5-8077ca6de3bc\",\"865faf0f-b4f3-4cff-9783-10218bcaba3f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "telepathie",
+      "DisplayName": "Télépathie",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "telepathie",
+        "MetaDescription": "Découvrez Télépathie : lire ou détecter les pensées, parler mentalement puis frapper l’esprit, enfin unir plusieurs alliés par un lien.",
+        "Summary": "Lit les pensées, parle ou frappe l’esprit, puis lie des alliés.",
+        "HtmlContent": "Le personnage lit d’abord les pensées ou détecte des esprits cachés, et peut reprendre l’initiative si l’hostilité éclate. Plus fort, il parle par télépathie, puis peut blesser l’esprit. Plus fort encore, il unit des alliés consentants."
+      }
+    }
+  }
+}

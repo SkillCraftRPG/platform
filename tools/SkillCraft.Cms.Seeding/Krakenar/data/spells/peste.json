@@ -6,8 +6,8 @@
     "DisplayName": "Peste",
     "Description": null,
     "FieldValues": {
-      "Tier": "3",
-      "Categories": "[\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
+      "Tier": "2",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "peste",
-        "MetaDescription": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Peste : infester de parasites, grossir des insectes géants, puis déchaîner un fléau de criquets.",
+        "HtmlContent": "Le personnage couvre d’abord une cible de parasites durables. Plus fort, il grossit des mille-pattes, araignées, guêpes ou un scorpion. Plus fort encore, une nuée de criquets obscurcit et blesse dans une zone.",
+        "Summary": "Parasites, insectes géants, puis fléau de criquets."
       }
     }
   }

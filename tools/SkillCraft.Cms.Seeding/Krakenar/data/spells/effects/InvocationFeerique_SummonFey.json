@@ -1,0 +1,32 @@
+﻿{
+  "Id": "9cbd6da6-b656-4584-9340-160f3bab31b2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationFeerique_SummonFey",
+    "DisplayName": "Esprit féérique",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a252a7b5-5fe7-464a-9fc9-b28e44f7daa7\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationFeerique_SummonFey",
+      "DisplayName": "Esprit féérique",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une fleur dorée d’une valeur d’au moins 300 deniers.",
+        "HtmlContent": "Le personnage appelle un esprit féérique. Celui-ci se manifeste dans un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit une humeur : **Enjoué**, **Furibond** ou **Malicieux**. La créature ressemble à une fée de son choix marquée par l’humeur choisie, ce qui détermine ses traits et caractéristiques. La créature disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin. La créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/combat/deroulement/initiative) et agit immédiatement après lui pendant son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux (aucune [action](/regles/combat/deroulement/tour) requise de sa part). S’il n’en donne aucun, elle se place en [position défensive](/regles/combat/activites/defense) et [se déplace](/regles/combat/activites/deplacement) pour éviter le danger.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ﻿{
   "Id": "deaac9ff-a919-4735-bba5-8a924f6ccf43",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "HabiletesFeeriques_Darkvision_Focus",
     "DisplayName": "Focus",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "HabiletesFeeriques_Darkvision_Focus",
       "DisplayName": "Focus",
       "Description": null,

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "abbfa2dd-98d5-40e8-905e-defa4835fb2b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ToucherVampirique_InflictWounds",
+    "DisplayName": "Blessure",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aee35884-6833-4d7b-a691-0567fc4905ba\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ToucherVampirique_InflictWounds",
+      "DisplayName": "Blessure",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

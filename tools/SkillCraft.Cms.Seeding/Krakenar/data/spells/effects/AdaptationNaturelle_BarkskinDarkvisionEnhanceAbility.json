@@ -1,0 +1,32 @@
+﻿{
+  "Id": "2506e1f2-b6c5-4dce-b31a-a2e5b115828e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AdaptationNaturelle_BarkskinDarkvisionEnhanceAbility",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1a7ad8e0-6e14-41ac-a39d-5cdcad5181a2\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AdaptationNaturelle_BarkskinDarkvisionEnhanceAbility",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des poils, des plumes ou des écailles de l’animal sélectionné, ou de l’écorce de chêne.",
+        "HtmlContent": "Le personnage touche une créature consentante afin de lui insuffler un des effets suivants.\n\n- **Écholocalisation de la chauve-souris.** La cible se voit conférer une [vision nocturne](/regles/aventure/environnement/vision) à une distance de 18 mètres.\n- **Endurance de l’ours.** Confère l’[avantage](/regles/competences/tests/avantage-desavantage) aux [tests](/regles/competences/tests) de [Résistance](/regles/competences/resistance). La cible se voit également conférer un nombre de points de [Vitalité](/regles/statistiques/vitalite) [temporaires](/regles/combat/degats/temporaire) égal à la [Puissance](/regles/statistiques/puissance) du personnage.\n- **Férocité du dragon.** Confère l’avantage aux tests de [Discipline](/regles/competences/discipline) et d’[Occultisme](/regles/competences/occultisme). Les pouvoirs de la cible infligent un nombre de points de dégâts [magiques](https://www.skillcraftrpg.ca/regles/combat/degats/types) supplémentaires égal à son [tiers](/regles/personnages/progression/tiers) (minimum&nbsp;1), et elle peut retirer un nombre égal aux points de dégâts reçus infligés par un effet surnaturel ou un pouvoir.\n- **Force du taureau.** Confère l’avantage aux tests d’[Athlétisme](/regles/competences/athletisme) et de [Mêlée](/regles/competences/melee). La [taille](/regles/especes/taille) de la cible est considérée comme étant d’une catégorie supérieure pour l’[encombrement](/regles/equipement/encombrement).\n- **Grâce féline.** Confère l’avantage aux tests d’[Acrobaties](/regles/competences/acrobaties) et de [Furtivité](/regles/competences/furtivite). La cible retire 6 mètres à la hauteur des [chutes](/regles/aventure/environnement/chute) qu’elle subit dans le calcul des [points de dégâts](/regles/combat/degats) lorsqu’elle n’est pas [incapable](/regles/combat/conditions/incapable).\n- **Habileté du raton laveur.** Confère l’avantage aux tests d’[Artisanat](/regles/competences/artisanat), d’[Orientation](/regles/competences/orientation) et de [Roublardise](/regles/competences/roublardise). Lorsqu’elle travaille en manipulant des [outils](/regles/equipement/outils), par exemple par un test d’Artisanat ou de Roublardise, elle réduit de moitié le temps nécessaire à sa tâche.\n- **Peau d’écorce.** Sa peau durcit, prenant une texture similaire à celle de l’écorce, et sa [Défense](/regles/combat/attaque/defense) prend la valeur de 18, ignorant l’[armure](/regles/equipement/armures) qu’elle porte, mais pas son [bouclier](/regles/equipement/boucliers).\n- **Ruse du renard.** Confère l’avantage aux tests de [Connaissance](/regles/competences/connaissance), d’[Investigation](/regles/competences/investigation), de [Linguistique](/regles/competences/linguistique) et de [Médecine](/regles/competences/medecine). La cible ajoute un bonus égal à son [tiers](/regles/personnages/progression/tiers) à tous ses tests de [compétence](/regles/competences).\n- **Sagesse du hibou.** Confère l’avantage aux tests d’[Intuition](/regles/competences/intuition), de [Perception](/regles/competences/perception) et de [Survie](/regles/competences/survie). La cible peut également rejouer ses tests d’[Initiative](/regles/combat/deroulement/initiative) et utiliser le résultat de son choix.\n- **Splendeur de l’aigle.** Confère l’avantage aux tests de [Diplomatie](/regles/competences/diplomatie), de [Représentation](/regles/competences/representation) et de [Tromperie](/regles/competences/tromperie), ainsi qu’un bonus (+5) aux [tests passifs](/regles/competences/tests/passif) afin de déterminer l’[attitude initiale](/regles/aventure/interaction-sociale) des personnages non joueurs."
+      }
+    }
+  }
+}

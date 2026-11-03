@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4ff72300-bd9f-40b1-9ed1-d6d0dfc744fa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Poulpe_Darkness",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c5097c6-d3c5-4158-8dc4-aa0c838bf1e2\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Poulpe_Darkness",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un poulpe entier.",
+        "HtmlContent": "Des [ténèbres](/regles/aventure/environnement/vision) magiques se répandent depuis un point que le personnage désigne dans la portée pour remplir une sphère de 4,5 mètres de rayon pendant la durée. Les ténèbres se propagent autour des coins. Même une créature dotée d’une [vision dans le noir](/regles/aventure/environnement/vision) ne peut voir à travers ces ténèbres. Si le point choisi se trouve sur un objet que le personnage tient, ou sur un objet qui n’est ni porté ni tenu, les ténèbres émanent de l’objet et se déplacent avec lui. Couvrir complètement la source des ténèbres avec un objet opaque, tel qu’un bol ou un heaume, bloque les ténèbres. Certains pouvoirs, par exemple [Lumière](/regles/magie/pouvoirs/lumiere), peuvent dissiper ces ténèbres."
+      }
+    }
+  }
+}

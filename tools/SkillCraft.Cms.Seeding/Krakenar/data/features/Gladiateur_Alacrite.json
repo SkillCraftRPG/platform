@@ -1,0 +1,21 @@
+﻿{
+  "Id": "a3729675-f807-4c4e-9f59-493e75063801",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gladiateur_Alacrite",
+    "DisplayName": "Alacrité",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gladiateur_Alacrite",
+      "DisplayName": "Alacrité",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage émane une aura qui remplit lui et ses compagnons d’une vitesse surnaturelle, leur permettant de traverser un champ de bataille en formation.\n\nSa [vitesse](/regles/aventure/mouvement/vitesse) de [marche](/regles/aventure/mouvement/types) augmente de 3 mètres (2 points de mouvement).\n\nÉgalement, s’il n’est pas [incapable](/regles/combat/conditions/incapable), la vitesse de marche de toute créature [amicale](/regles/aventure/interaction-sociale) envers lui qui commence son [tour](/regles/combat/deroulement/tour) à 1,5 mètres ou moins de sa position augmente de 3 mètres (2&nbsp;points de mouvement) jusqu’à la fin de ce tour."
+      }
+    }
+  }
+}

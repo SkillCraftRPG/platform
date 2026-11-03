@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a77838ef-c9ab-49d3-804d-8df1c9369100",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Comprehension_Identify",
+    "DisplayName": "Identification",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"70e4ddda-3f7c-4c3b-9982-0e60b85a6de5\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Comprehension_Identify",
+      "DisplayName": "Identification",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une perle d’une valeur d’au moins 100 deniers et une plume de hibou.",
+        "HtmlContent": "Le personnage reste en contact avec un objet pendant toute la durée de l’incantation. Si l’objet est un [artefact magique](/regles/magie/artefacts) ou un objet imprégné de magie, il en apprend les propriétés et la façon de s’en servir, s’il exige une [harmonisation](/regles/magie/artefacts/harmonisation) pour être utilisé, et combien de charges il possède, le cas échéant. Il apprend si des pouvoirs affectent l’objet et lesquels. Si l’objet a été créé par un pouvoir, il apprend quel pouvoir l’a créé. S’il touche plutôt une créature pendant toute l’incantation, il apprend quels pouvoirs, le cas échéant, l’affectent actuellement."
+      }
+    }
+  }
+}

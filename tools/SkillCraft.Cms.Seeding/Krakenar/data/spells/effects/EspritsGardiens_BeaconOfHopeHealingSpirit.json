@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5219e563-8c02-4adb-ba16-adeb75ad872f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EspritsGardiens_BeaconOfHopeHealingSpirit",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"459daeec-d147-4cea-8d5f-df0bb9a3a375\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EspritsGardiens_BeaconOfHopeHealingSpirit",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole divin.",
+        "HtmlContent": "Le personnage invoque des esprits d’espoir et de vitalité. Les esprits sont invulnérables et intangibles, et ils tournoyent autour du personnage dans un rayon de 9 mètres. Lorsqu’il canalise le pouvoir, le personnage peut désigner n’importe créature afin qu’elle bénéficie des effets du pouvoir. Une cible bénéficie des capacités suivantes :\n\n- Elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline).\n- Elle peut rejouer le test contre la [mort](/regles/combat/mort-agonie) et choisir le résultat de son choix.\n- Elle [récupère](/regles/combat/degats/soins) le maximum de points de [Vitalité](/regles/statistiques/vitalite) possible de tout soin reçu.\n\nÉgalement, une fois par [round](/regles/combat/deroulement), en [action libre](/regles/combat/deroulement/tour), le personnage peut soigner une créature se trouvant dans la zone d’un nombre de points de Vitalité égal à la moitié de sa [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

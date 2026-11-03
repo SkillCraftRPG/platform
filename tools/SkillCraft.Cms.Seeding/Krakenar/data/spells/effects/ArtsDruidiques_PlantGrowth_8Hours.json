@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c98f4f83-dc04-4c5f-91a5-07b45a6848b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArtsDruidiques_PlantGrowth_8Hours",
+    "DisplayName": "Enrichissement des terres",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "2",
+      "CastingTime": "[\"8h\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Year\"]",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArtsDruidiques_PlantGrowth_8Hours",
+      "DisplayName": "Enrichissement des terres",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage canalise de la vitalité dans les plantes d’une zone précise afin d’enrichir la terre. Toutes les plantes dans un rayon de 1 kilomètre centré sur un point dans la portée deviennent enrichies pendant un an. Lorsqu’elles sont récoltées, ces plantes produisent le double de la quantité normale de nourriture."
+      }
+    }
+  }
+}

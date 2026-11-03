@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9298abcd-cee0-4949-af46-61c4707ed512",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "prestidigitation",
+    "DisplayName": "Prestidigitation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "prestidigitation",
+      "DisplayName": "Prestidigitation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "prestidigitation",
+        "MetaDescription": "Découvrez Prestidigitation : tours mineurs, projectile guidé, réparation, catapulte d’objet, déblocage, puis feux d’artifice ou fumée.",
+        "Summary": "Tours mineurs, projectile, réparation, catapulte, déblocage et pyrotechnie.",
+        "HtmlContent": "Le personnage pratique d’abord des tours mineurs, lance un projectile guidé ou répare une brisure. Plus fort, il propulse un objet pour blesser. Plus fort encore, il déverrouille, ou transforme des flammes en éclat aveuglant ou en fumée."
+      }
+    }
+  }
+}

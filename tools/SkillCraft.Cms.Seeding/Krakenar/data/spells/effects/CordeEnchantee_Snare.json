@@ -1,0 +1,30 @@
+﻿{
+  "Id": "8d6c5aab-9c74-433d-93c1-0f46a641ba0b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CordeEnchantee_Snare",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d84b9cf-a0c9-4f0e-80a8-8d24184ba262\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CordeEnchantee_Snare",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En canalisant ce pouvoir, le personnage utilise la corde pour créer un cercle d’un rayon de 1,5 mètres sur le sol ou le plancher. Lorsqu’il termine l’incantation, la corde disparaît et le cercle devient un piège magique. Ce piège est presque [invisible](/regles/combat/conditions/invisible) : le discerner exige de réussir un [test](/regles/competences/tests) d’[Investigation](/regles/competences/investigation). Le piège se déclenche lorsqu’une créature de [taille](/regles/especes/taille) petite, moyenne ou grande se déplace sur le sol ou le plancher dans le rayon du pouvoir. Cette créature doit réussir un jet de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) ou être magiquement hissée dans les airs, la laissant suspendue la tête en bas à un mètre au-dessus du sol ou du plancher. La créature est [restreinte](/regles/combat/conditions/restreint) à cet endroit jusqu’à la fin du pouvoir.\n\nUne créature restreinte peut réessayer le jet de sauvegarde à la fin de chacun de ses [tours](/regles/combat/deroulement/tour), mettant fin à l’effet sur elle-même en cas de réussite. Alternativement, la créature, ou une autre qui peut l’atteindre, peut tenter de la [libérer](/regles/combat/activites/echapper) par un test d’[Occultisme](/regles/competences/occultisme). En cas de réussite, l’effet de restriction prend fin. Après le déclenchement du piège, le pouvoir prend fin lorsque toute créature n’est plus restreinte par celui-ci.",
+        "Material": "Une section de corde de 7,5 mètres."
+      }
+    }
+  }
+}

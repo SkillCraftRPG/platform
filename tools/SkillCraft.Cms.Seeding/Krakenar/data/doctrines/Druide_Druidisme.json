@@ -17,7 +17,7 @@
       "DisplayName": "Druidisme",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut prendre la forme d’une bête de niveau inférieur ou égal à 1, et celle-ci peut être dotée d’une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) et de [vol](/regles/aventure/mouvement/types)."
+        "HtmlContent": "Il peut acquérir les [pouvoirs](/regles/magie/pouvoirs?category=animisme) de tiers 2 associés à son [domaine d’animisme](/regles/domaines/animisme) et acquiert gratuitement un de ces pouvoirs.\nIl acquiert une capacité de tiers 2 spécifique à son [domaine d’animisme](/regles/domaines/animisme).\nIl peut désormais assumer sa [forme sauvage](/regles/specialisations/animiste) deux fois par jour. Il doit compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de récupérer ces utilisations. Également, il peut prendre la forme d’une bête de niveau inférieur ou égal à 1, et celle-ci peut être dotée d’une [vitesse](/regles/aventure/mouvement/vitesse) de [nage](/regles/aventure/mouvement/types) et de [vol](/regles/aventure/mouvement/types)."
       }
     }
   }

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ef166d8d-342e-45c3-890d-9f8de0bfef2d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_Catapult",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_Catapult",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage choisit un objet pesant entre 0,5 à 2,5 kilogrammes dans la portée qui n’est ni porté ni tenu. L’objet vole en ligne droite sur une distance maximale 27 mètres dans une direction de son choix avant de tomber au sol, s’arrêtant plus tôt s’il heurte une surface solide. Si l’objet devait frapper une créature, celle-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, l’objet frappe la cible et cesse de se déplacer. Lorsque l’objet frappe quelque chose, l’objet et ce qu’il frappe reçoivent chacun [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

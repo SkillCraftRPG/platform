@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9d7aa197-d2bf-44db-817a-0debc3225e09",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "debilitation",
+    "DisplayName": "Débilitation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"eb07a636-7566-42ae-b2cc-c049c08247f7\",\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "debilitation",
+      "DisplayName": "Débilitation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "debilitation",
+        "Summary": "Empoisonne, affaiblit les coups, puis aveugle ou assourdit.",
+        "MetaDescription": "Découvrez Débilitation : empoisonner d’un rayon, affaiblir les coups physiques, puis aveugler ou assourdir et étourdir.",
+        "HtmlContent": "Le personnage frappe d’abord d’un rayon empoisonné. Plus fort, il affaiblit les coups physiques d’une cible. Plus fort encore, il la rend aveugle, ou assourdie et étourdie."
+      }
+    }
+  }
+}

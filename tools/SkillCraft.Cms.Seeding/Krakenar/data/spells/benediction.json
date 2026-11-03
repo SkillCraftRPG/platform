@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "benediction",
-        "MetaDescription": "Découvrez Bénédiction, un pouvoir sacré offrant un bonus aux tests, ou sa version maudite qui affaiblit et entrave les adversaires.",
-        "Summary": "Octroie un bonus sacré aux alliés ou inflige un malus maudit aux ennemis.",
-        "HtmlContent": "Sort lumineux ou occulte qui améliore les tests d’alliés ou réduit ceux des ennemis, selon qu’il s’agisse d’une bénédiction protectrice ou d’une malédiction affaiblissante."
+        "MetaDescription": "Découvrez Bénédiction : bénir ou maudire selon le niveau, d’un allié touché à plusieurs cibles, puis vitalité temporaire ou réduite.",
+        "Summary": "Bénit ou maudit : un allié, plusieurs cibles, puis vitalité en plus ou en moins.",
+        "HtmlContent": "Le personnage bénit d’abord une créature touchée pour un effort, puis bénit ou maudit plusieurs créatures pour renforcer ou affaiblir leurs tests. Plus fort, il ajoute de la vitalité temporaire ou entame la vitalité maximale."
       }
     }
   }

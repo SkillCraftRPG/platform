@@ -1,0 +1,29 @@
+﻿{
+  "Id": "15ef9860-3cf5-4b0a-9d32-d583535cadb4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Interdiction_ArcaneLock",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"475458e9-9ace-4247-84c6-59c5386ce31b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Interdiction_ArcaneLock",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De la poussière d’or d’une valeur d’au moins 25 deniers.",
+        "HtmlContent": "Le personnage touche une porte, une fenêtre, une grille, un coffre ou une autre entrée fermée, et verrouille celle-ci pendant la durée. Le personnage et les créatures qu’il désigne lorsqu’il canalise ce pouvoir peuvent ouvrir l’objet normalement. Il peut également fixer un mot de passe qui, lorsqu’il est prononcé à 1,5 mètres ou moins de l’objet, suspend ce pouvoir pendant une minute. Autrement, l’objet est infranchissable jusqu’à ce qu’il soit brisé, ou que le pouvoir soit dissipé ou suspendu. Canaliser le pouvoir [Prestidigitation (niveau 3)](/regles/magie/pouvoirs/prestidigitation) sur l’objet suspend le verrou pendant 10 minutes. Tant qu’il est affecté par ce pouvoir, l’objet est plus difficile à briser ou à forcer : la [difficulté](/regles/competences/tests/difficulte) pour le [briser](/regles/aventure/interaction-objets) ou [crocheter](/regles/competences/roublardise) toute serrure qu’il comporte augmente de 10."
+      }
+    }
+  }
+}

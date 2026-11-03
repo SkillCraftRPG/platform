@@ -1,0 +1,27 @@
+﻿{
+  "Id": "37ef7fe9-0634-4f75-a7ea-3af0436c5c7f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "injonction",
+    "DisplayName": "Injonction",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"d86fed43-66fa-4a52-9d83-a878196b83a8\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "injonction",
+      "DisplayName": "Injonction",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "injonction",
+        "MetaDescription": "Découvrez Injonction : ordonner une action d’un mot, forcer un duel, calmer les émotions, ou charmer un humanoïde pour le servir.",
+        "Summary": "Ordonne, force un duel, calme les émotions, ou charme un humanoïde.",
+        "HtmlContent": "Le personnage impose une commande d’un mot ou contraint une créature au duel. Plus fort, il apaise un groupe en suspendant charmes et peurs ou en rendant indifférent. Plus fort encore, il charme un humanoïde pour qu’il serve amicalement."
+      }
+    }
+  }
+}

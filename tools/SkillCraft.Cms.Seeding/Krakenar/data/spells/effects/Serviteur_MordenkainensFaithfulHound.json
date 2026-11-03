@@ -1,0 +1,31 @@
+﻿{
+  "Id": "c6f8f412-f246-4b25-a970-a6fdb9790ed1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Serviteur_MordenkainensFaithfulHound",
+    "DisplayName": "Fidèle molosse",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"18cd716d-adb6-4a30-b711-2c086d682526\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Serviteur_MordenkainensFaithfulHound",
+      "DisplayName": "Fidèle molosse",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un minuscule sifflet d’argent, un morceau d’os et un fil.",
+        "HtmlContent": "Le personnage invoque un chien de garde fantômatique dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée en prononçant un mot de passe. Celui-ci y demeure pendant la durée, jusqu’à ce que le personnage le dissipe par une [action](/regles/combat/deroulement/tour), ou jusqu’à ce qu’il s’éloigne à plus de 30 mètres de lui. Le molosse est [invisible](/regles/combat/conditions/invisible) pour toutes les créatures, à l’exception du personnage, et ne peut être blessé.\n\nLorsqu’une créature de [taille](/regles/especes/taille) petite ou supérieure s’approche à 9 mètres ou moins de lui sans avoir d’abord prononcé le mot de passe, le molosse se met à aboyer bruyamment. Le molosse voit les créatures invisibles et peut voir dans la dimension éthérée, et il ignore les illusions.\n\nAu début de chacun des [tours](/regles/combat/deroulement/tour) du personnage, le molosse tente de mordre une créature située à 1,5 mètres ou moins de sa position qui est [hostile](/regles/aventure/interaction-sociale) envers le personnage. Le personnage effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme). En cas de réussite, l’[attaque](/regles/magie/effets/attaque) inflige [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [perforants](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

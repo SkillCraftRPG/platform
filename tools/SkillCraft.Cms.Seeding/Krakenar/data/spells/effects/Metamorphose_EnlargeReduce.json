@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4436dfc8-3136-4fbd-a237-3ca621cc4a3b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Metamorphose_EnlargeReduce",
+    "DisplayName": "Variation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b1dca58f-10f6-4004-a5e4-dc53bc9edf15\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Metamorphose_EnlargeReduce",
+      "DisplayName": "Variation",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poudre de fer.",
+        "HtmlContent": "Le personnage fait grandir ou rapetisser une créature ou un objet qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée pendant la durée. Il choisit soit une créature, soit un objet qui n’est ni porté ni tenu. Si la cible n’est pas consentante, elle peut réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou être affectée par le pouvoir. Si la cible est une créature, tout ce qu’elle porte et tient change de [taille](/regles/especes/taille) avec elle. Tout [objet](/regles/equipement) lâché par une créature affectée reprend immédiatement sa taille normale.\n\n- **Agrandissement.** La taille de la cible double dans toutes les dimensions, et son poids est multiplié par huit. Cette croissance augmente sa taille d’une catégorie ; de moyenne à grande, par exemple. S’il n’y a pas assez de place pour que la cible double de taille, la créature ou l’objet atteint la taille maximale possible dans l’espace disponible. Jusqu’à la fin du pouvoir, la cible se voit également conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses tests de [Vigueur](/regles/attributs/vigueur). Les [armes](/regles/equipement/armes) de la cible grandissent également pour correspondre à sa nouvelle taille. Tant que ces armes sont agrandies, les [attaques](/regles/combat/attaque) de la cible effectuées avec celles-ci infligent [1+1d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires.\n- **Rapetissement.** La taille de la cible est réduite de moitié dans toutes les dimensions, et son poids est réduit à un huitième de la normale. Cette réduction diminue sa taille d’une catégorie ; de moyenne à petite, par exemple. Jusqu’à la fin du pouvoir, les tests de Vigueur de la cible sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage). Les armes de la cible rapetissent également pour correspondre à sa nouvelle taille. Tant que ces armes sont rapetissées, les attaques de la cible effectuées avec celles-ci infligent 1+1d4 points de dégâts en moins (minimum&nbsp;1)."
+      }
+    }
+  }
+}

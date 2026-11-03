@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "frisson",
-        "Summary": "Main spectrale, mot d’effroi ou onde vitale infligeant peur, drains ou soins.",
-        "MetaDescription": "Découvrez Frisson, un pouvoir spectral alliant main glaciale entravant la vitalité, mot d’effroi terrifiant et onde nécrotique drainant vie ou soignant.",
-        "HtmlContent": "Pouvoir spectral mêlant attaque nécrotique, entrave de la régénération, terreur ciblée et onde de vie ou de mort capable d’infliger de lourds dégâts ou de soigner."
+        "Summary": "Froid de la tombe, peur, puis flétrissement qui draine la vitalité.",
+        "MetaDescription": "Découvrez Frisson : main glaciale de la tombe, peur de la mortalité, puis flétrissement qui draine et tue les plantes.",
+        "HtmlContent": "Le personnage assaille d’abord du froid de la tombe : il empêche de soigner ou renverse, tout en blessant. Plus fort, il éveille la peur de la mortalité. Plus fort encore, il draine vitalité et humidité, flétrissant surtout les plantes."
       }
     }
   }

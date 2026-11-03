@@ -1,0 +1,32 @@
+﻿{
+  "Id": "78990ddd-797b-41d2-b6c3-fcfad6face3d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArtsDruidiques_PassWithoutTrace",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"39a1638c-734b-4aab-97d4-9a4af948efac\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArtsDruidiques_PassWithoutTrace",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Des cendres d’une feuille de gui brûlée et un brin d’épinette.",
+        "HtmlContent": "Un voile d’ombres et de silence émane du personnage, le masquant, lui et ses compagnons, à la détection. Pendant la durée, chaque créature de son choix située à 9 mètres ou moins de sa position (y compris lui-même) se voit conférer un bonus (+10) à ses [tests](/regles/competences/tests) de [Furtivité](/regles/competences/furtivite) et ne peut être pistée que par des moyens magiques. Une créature qui reçoit ce bonus ne laisse derrière elle ni traces ni autres indices de son passage."
+      }
+    }
+  }
+}

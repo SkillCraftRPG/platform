@@ -1,0 +1,32 @@
+﻿{
+  "Id": "f2814271-c8a9-4fe0-b825-49d27c32414d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GardienDeLaFoi_ShieldOfFaith",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"93d93828-c199-4e45-9416-ec8cb0934dc2\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GardienDeLaFoi_ShieldOfFaith",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit parchemin portant un texte sacré.",
+        "HtmlContent": "Le personnage crée un bouclier spirituel à l’effigie de sa divinité tournoyant autour d’une créature. Le bouclier confère un bonus (+2) à l’[Esquive](/regles/statistiques/esquive) de la cible."
+      }
+    }
+  }
+}

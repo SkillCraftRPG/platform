@@ -1,0 +1,27 @@
+﻿{
+  "Id": "91df8a55-d6f3-4694-85f7-4b236764bf9b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "giclee-d-acide",
+    "DisplayName": "Giclée d’acide",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "giclee-d-acide",
+      "DisplayName": "Giclée d’acide",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "giclee-d-acide",
+        "MetaDescription": "Découvrez Giclée d’acide, un pouvoir qui projette de l’acide sur vos ennemis, puis les recouvre d’un jet corrosif infligeant des dégâts au fil des tours.",
+        "Summary": "Projetez de l’acide sur vos ennemis pour infliger des dégâts persistants.",
+        "HtmlContent": "Giclée d’acide permet d’atteindre une ou deux créatures avec une bulle corrosive. À des niveaux supérieurs, le personnage crache un jet d’acide qui recouvre plusieurs ennemis, leur inflige des dégâts à chaque tour et persiste jusqu’à son retrait."
+      }
+    }
+  }
+}

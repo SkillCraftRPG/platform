@@ -1,0 +1,30 @@
+﻿{
+  "Id": "4ca37f40-f750-44a6-84f6-20df5895394c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Debilitation_RayOfSickness",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9d7aa197-d2bf-44db-817a-0debc3225e09\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Debilitation_RayOfSickness",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un rayon d’énergie verdâtre nauséabonde fuse vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) et doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle est également [empoisonnée](/regles/combat/conditions/empoisonne) jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

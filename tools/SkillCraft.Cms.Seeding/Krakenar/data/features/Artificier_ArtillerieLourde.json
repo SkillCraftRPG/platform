@@ -1,0 +1,21 @@
+﻿{
+  "Id": "c0422729-0eee-4822-b34f-a6e2d5e13e57",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Artificier_ArtillerieLourde",
+    "DisplayName": "Artillerie lourde",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Artificier_ArtillerieLourde",
+      "DisplayName": "Artillerie lourde",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut désormais avoir deux [canons](/regles/talents/artillerie) à la fois. Chaque canon doit être [activé](/regles/talents/artillerie) séparément. Ses canons bénéficient également des améliorations suivantes.\n\n- Les [dés de dégâts](/regles/combat/degats/jet) de la [baliste de force](/regles/talents/artillerie) augmentent à 2d8, et ceux du [lance-flammes](/regles/talents/artillerie) augmentent à 3d8. Les dés du [protecteur](/regles/talents/artillerie) augmentent à 2d8.\n- Lorsqu’il [détruit](/regles/talents/artillerie) le canon par une [action](/regles/combat/deroulement/tour), il peut le faire détoner. Il effectue un [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme) et toute créature située à 6 mètres ou moins de l’explosion doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit 3d10 [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types). Elle ne reçoit que la moitié des points de dégâts en cas de réussite.\n- Un canon confère un [demi-abri](/regles/combat/attaque/abri) au personnage et à toute créature [amicale](/regles/aventure/interaction-sociale) envers celui-ci dans un rayon de 3 mètres centré sur sa position. Une créature ne peut bénéficier de cet abri que d’un seul canon à la fois."
+      }
+    }
+  }
+}

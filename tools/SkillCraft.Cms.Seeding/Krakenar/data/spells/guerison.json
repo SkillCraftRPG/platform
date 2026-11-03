@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "guerison",
-        "Summary": "Guérit une ou plusieurs créatures au toucher ou par un mot à distance.",
-        "MetaDescription": "Découvrez un pouvoir de guérison flexible permettant de soigner une ou plusieurs créatures, au toucher ou à distance, selon le niveau utilisé.",
-        "HtmlContent": "Pouvoir de guérison permettant de restaurer la Vitalité d’une ou plusieurs créatures, au toucher ou à distance. Les morts-vivants et les constructions ne sont pas affectés par ce pouvoir."
+        "Summary": "Soigne au toucher ou par un mot, une puis plusieurs cibles.",
+        "MetaDescription": "Découvrez Guérison : soigner au toucher ou par un mot à distance, une ou plusieurs créatures, sans effet sur morts-vivants ni constructions.",
+        "HtmlContent": "Le personnage soigne d'abord une créature consentante au toucher ou une créature vue par un mot. Plus fort, la guérison s'amplifie. Au plus haut niveau, il soigne plusieurs créatures. Sans effet sur les morts-vivants ni les constructions."
       }
     }
   }

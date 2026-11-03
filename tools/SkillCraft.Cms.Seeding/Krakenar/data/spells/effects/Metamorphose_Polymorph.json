@@ -1,0 +1,32 @@
+﻿{
+  "Id": "d2bb4dd3-88d1-49e6-b007-f33328331f85",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Metamorphose_Polymorph",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b1dca58f-10f6-4004-a5e4-dc53bc9edf15\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Metamorphose_Polymorph",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un cocon de chenille.",
+        "HtmlContent": "Ce pouvoir transforme une créature que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée en une nouvelle forme. Une créature non consentante doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être affectée par le pouvoir. Un métamorphe réussit automatiquement ce jet de sauvegarde. La nouvelle forme peut être n’importe quelle bête dont le [niveau](/regles/personnages/progression/niveau) est d’au plus celui de la cible. Les traits et caractéristiques de jeu de la cible sont remplacées par ceux de la bête choisie. Elle conserve son alignement et sa personnalité.\n\nLa transformation termine à la fin de la durée, lorsque les points de [Vitalité](/regles/statistiques/vitalite) de la cible chutent à 0 ou lorsque la cible [meurt](/regles/combat/conditions/mort). La cible assume les points de Vitalité de sa nouvelle forme. Lorsqu’elle reprend sa forme normale, la cible retrouve le nombre de points de Vitalité qu’elle avait avant sa transformation. Si elle reprend sa forme parce que ses points de Vitalité sont tombés à 0, tout excès de [dégâts](/regles/combat/degats) est reporté sur sa forme normale. Tant que cet excès de dégâts ne réduit pas la forme normale de la cible à 0 point de Vitalité, elle n’est pas [inconsciente](/regles/combat/conditions/inconscient).\n\nLa cible est limitée dans les [actions](/regles/combat/activites) qu’elle peut accomplir par la nature de sa nouvelle forme, et elle ne peut ni parler, ni canaliser de pouvoirs, ni effectuer aucune autre action nécessitant des mains ou la parole. L’[équipement](/regles/equipement) de la cible fusionne avec la nouvelle forme. La cible ne peut activer, utiliser, manier ni bénéficier autrement d’aucun de ses équipements. Ce pouvoir ne peut affecter une cible dont les points de Vitalité sont à 0."
+      }
+    }
+  }
+}

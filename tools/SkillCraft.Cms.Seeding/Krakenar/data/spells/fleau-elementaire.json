@@ -1,7 +1,7 @@
 ﻿{
   "Id": "66e891ce-cd5f-4975-b399-f044517e36f2",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "fleau-elementaire",
     "DisplayName": "Fléau élémentaire",
     "Description": null,
@@ -12,7 +12,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "fleau-elementaire",
       "DisplayName": "Fléau élémentaire",
       "Description": null,

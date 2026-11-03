@@ -1,0 +1,21 @@
+﻿{
+  "Id": "9266bf59-adcb-414b-b03b-308bc48cd4c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "MaitreDArmes_ExpertiseMartiale",
+    "DisplayName": "Expertise martiale",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "MaitreDArmes_ExpertiseMartiale",
+      "DisplayName": "Expertise martiale",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut [acquérir](/regles/talents/acquisition) les talents dans la liste suivante au coût de [2 points de talent](/regles/talents/points) seulement. Ce rabais ne s’applique que sur les nouvelles acquisitions, et non sur les talents déjà acquis.\n\n- [Dérobade](/regles/talents/derobade)\n- [Destruction](/regles/talents/destruction)\n- [Double attaque](/regles/talents/double-attaque)\n- [Frappe précise](/regles/talents/frappe-precise)\n- [Lancer précis](/regles/talents/lancer-precis)\n- [Onde de choc](/regles/talents/onde-de-choc)\n- [Protection](/regles/talents/protection)\n- [Tir précis](/regles/talents/tir-precis)\n\nIl peut également acquérir [à rabais](/regles/talents/points) le talent [Expertise](/regles/talents/expertise) pour les compétences [Mêlée](/regles/competences/melee) et [Orientation](/regles/competences/orientation)."
+      }
+    }
+  }
+}

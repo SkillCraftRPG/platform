@@ -1,0 +1,27 @@
+﻿{
+  "Id": "1a7ad8e0-6e14-41ac-a39d-5cdcad5181a2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "adaptation-naturelle",
+    "DisplayName": "Adaptation naturelle",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "adaptation-naturelle",
+      "DisplayName": "Adaptation naturelle",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "adaptation-naturelle",
+        "MetaDescription": "Découvrez Adaptation naturelle : insuffler des dons animaux ou une peau d’écorce, respirer sous l’eau, puis devenir bête primitive ou grand arbre.",
+        "HtmlContent": "Le personnage insuffle d’abord à une créature un don animal ou une peau d’écorce. Plus fort, il permet à plusieurs créatures de respirer sous l’eau. Plus fort encore, il devient une bête primitive féroce ou un grand arbre enraciné.",
+        "Summary": "Dons naturels, respiration aquatique, puis bête ou arbre gardien."
+      }
+    }
+  }
+}

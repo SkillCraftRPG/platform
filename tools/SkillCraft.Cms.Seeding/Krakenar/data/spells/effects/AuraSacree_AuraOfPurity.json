@@ -1,0 +1,30 @@
+﻿{
+  "Id": "f0470e92-bb4e-4d32-91fb-6ce36384b43f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AuraSacree_AuraOfPurity",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ba63c2f6-4b0f-4ca4-b2bb-99d803cd764e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AuraSacree_AuraOfPurity",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une énergie purificatrice émane du personnage sous la forme d’une aura d’un rayon de 9 mètres. Jusqu’à la fin du pouvoir, l’aura se déplace avec lui, centrée sur sa position. Chaque créature non hostile dans l’aura, y compris le personnage, ne peut contracter de maladie, est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types), et se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les effets provoquant l’une des [conditions](/regles/combat/conditions) suivantes : [aveuglé](/regles/combat/conditions/aveugle), [charmé](/regles/combat/conditions/charme), [assourdi](/regles/combat/conditions/assourdi), [apeuré](/regles/combat/conditions/apeure), [paralysé](/regles/combat/conditions/paralyse), [empoisonné](/regles/combat/conditions/empoisonne) et étourdi."
+      }
+    }
+  }
+}

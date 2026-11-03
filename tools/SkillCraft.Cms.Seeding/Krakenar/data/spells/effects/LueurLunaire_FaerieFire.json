@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0391baf7-466d-47e6-ad33-55578b4bfbe2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LueurLunaire_FaerieFire",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2f31e9f8-4123-4c7c-8332-68db49ecddd2\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LueurLunaire_FaerieFire",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une aura colorée émettant de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 3 mètres émane des objets se trouvant dans un cube de 6 mètres d’arête. La couleur est bleue, verte ou violette, au choix du personnage. Toute créature dans la zone lorsque le pouvoir est canalisé doit également réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin d'éviter que l'aura n'émane de celle-ci. Tout [test](/regles/competences/tests) d’[attaque](/regles/combat/attaque) dirigé contre une créature ou un objet affecté se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) si l’attaquant peut le [voir](/regles/aventure/environnement/vision), et la créature ou l’objet affecté ne peut bénéficier de l’état [invisible](/regles/combat/conditions/invisible)."
+      }
+    }
+  }
+}

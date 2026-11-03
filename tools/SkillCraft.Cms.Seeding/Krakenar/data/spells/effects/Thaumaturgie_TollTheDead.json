@@ -1,0 +1,30 @@
+﻿{
+  "Id": "4a4fbb17-cb0c-428e-8461-170aa58daadf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_TollTheDead",
+    "DisplayName": "Glas",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_TollTheDead",
+      "DisplayName": "Glas",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, et le son d’une cloche funèbre remplit l’air autour d’elle un instant. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou recevoir [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). Si la [Vitalité](/regles/statistiques/vitalite) courante de la cible est inférieure à sa Vitalité maximale, elle reçoit plutôt 1d8&nbsp;+&nbsp;moitié de la Puissance points de dégâts nécrotiques."
+      }
+    }
+  }
+}

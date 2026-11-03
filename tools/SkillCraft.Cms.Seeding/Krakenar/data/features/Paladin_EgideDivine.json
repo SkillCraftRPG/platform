@@ -1,0 +1,21 @@
+﻿{
+  "Id": "792b0cc5-a423-42dc-8dc8-d469bc8927e2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Paladin_EgideDivine",
+    "DisplayName": "Égide divine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Paladin_EgideDivine",
+      "DisplayName": "Égide divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’une créature se trouvant dans l’[aura protectrice](/regles/specialisations/champion) du personnage est [blessée](/regles/combat/degats), il peut utiliser sa [réaction](/regles/combat/deroulement/tour) afin de prendre les dégâts à la place de la cible. Ces dégâts ne peuvent être [réduits ni empêchés](/regles/combat/degats/efficacite) d’aucune façon.\n\nÉgalement, une créature [amicale](/regles/aventure/interaction-sociale) envers le personnage se trouvant dans l’aura se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les [charmes](/regles/combat/conditions/charme) et les effets de possession."
+      }
+    }
+  }
+}

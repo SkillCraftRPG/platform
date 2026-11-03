@@ -1,0 +1,31 @@
+﻿{
+  "Id": "9e0ee778-b1cb-42d5-ad77-5c3ee640bc7b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GardienDeLaFoi_SpiritualWeapon",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"93d93828-c199-4e45-9416-ec8cb0934dc2\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GardienDeLaFoi_SpiritualWeapon",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit parchemin portant un texte sacré.",
+        "HtmlContent": "Le personnage crée une arme spirituelle à l’effigie de sa divinité flottant dans un espace libre. Elle disparaît s’il canalise à nouveau ce pouvoir. Lorsqu’il canalise le pouvoir, l’arme peut effectuer une [attaque](/regles/magie/effets/attaque) de mêlée. En cas de réussite, la cible reçoit [1d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) dont le [type](/regles/combat/degats/types) varie en fonction du [domaine divin](/regles/domaines/divins) du personnage. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut déplacer l’arme d’au plus 6 mètres et répéter l’attaque par un nouveau [test](/regles/competences/tests) d’[Occultisme](/regles/competences/occultisme)."
+      }
+    }
+  }
+}

@@ -9,8 +9,8 @@
       "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
       "Level": "0",
       "CastingTime": "[\"2\"]",
-      "Duration": "0",
-      "DurationUnit": "[\"Round\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
       "Range": "6",
       "IsVerbal": "true"
     }
@@ -22,7 +22,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage crée un effet surnaturel et inoffensif parmi la liste suivante.\n\n- Sa voix est amplifiée pendant [une minute](/regles/aventure/temps).\n- Il fait vaciller, assombrir, éclaircir ou change la couleur de flammes pendant une minute.\n- Il fait vibrer doucement la terre pendant une minute.\n- Il crée un son instantané provenant d’un point de son choix, par exemple un grondement de tonnerre, le cri d’un oiseau ou des murmures sinistres.\n- Une porte ou une fenêtre non verrouillée s’ouvre ou se ferme violemment.\n- Le personnage modifie l’apparence de ses yeux pendant une minute."
+        "HtmlContent": "Le personnage manifeste une merveille mineure, signe de puissance surnaturelle, dans la portée. Il crée l’un des effets magiques suivants dans la portée :\n\n- Sa voix résonne jusqu’à trois fois plus fort que la normale pendant une minute.\n- Il fait vaciller, s’intensifier, s’atténuer ou changer de couleur des flammes pendant une minute.\n- Il provoque d’innocents tremblements dans le sol pendant une minute.\n- Il crée un son instantané provenant d’un point de son choix dans la portée, tel un roulement de tonnerre, le cri d’un corbeau ou des murmures inquiétants.\n- Il fait instantanément s’ouvrir ou se claquer une porte ou une fenêtre déverrouillée.\n- Il modifie l’apparence de ses yeux pendant une minute.\n\nS’il canalise ce pouvoir plusieurs fois, il peut avoir jusqu’à trois de ses effets d’une durée d’une minute actifs simultanément, et il peut dissiper un tel effet par une [action](/regles/combat/deroulement/tour)."
       }
     }
   }

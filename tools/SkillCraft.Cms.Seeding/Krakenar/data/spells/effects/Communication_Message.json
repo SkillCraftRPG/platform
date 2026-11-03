@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b358f30e-08c8-4eb0-8440-447896d800b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Communication_Message",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6c1e5e25-90d8-4113-ae71-6bbc96e574b6\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Communication_Message",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un court morceau de fil de cuivre.",
+        "HtmlContent": "Le personnage pointe le doigt vers une créature dans la portée et murmure un message. La cible (et elle seule) entend le message et peut répondre d’un murmure que seul le personnage peut entendre. Il peut canaliser ce pouvoir à travers des objets solides s’il est familier avec la cible et sait qu’elle se trouve au-delà de la barrière. Un [sanctuaire de silence](/regles/magie/pouvoirs/sanctuaire), 30 centimètres de pierre, 2,5 centimètres de métal commun, une mince feuille de plomb, ou 90 centimètres de bois bloquent le pouvoir. Le pouvoir n’a pas à suivre une ligne droite et peut se propager librement autour des angles ou à travers des ouvertures."
+      }
+    }
+  }
+}

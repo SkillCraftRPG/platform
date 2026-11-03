@@ -1,0 +1,30 @@
+﻿{
+  "Id": "688e414f-e2c8-440a-b449-7e5ff5eb3ec2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VignesEpineuses_HailOfThorns",
+    "DisplayName": "Grêle d’épines",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4e58d109-8f36-40cd-9d6f-646b0d0d4256\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VignesEpineuses_HailOfThorns",
+      "DisplayName": "Grêle d’épines",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La prochaine [attaque à distance](/regles/combat/attaque/distance) physique réussie par le personnage crée une pluie d’épines qui jaillit autour de la cible. En plus de l’effet normal de l’attaque, la cible de l’attaque et chaque créature située à 1,5 mètres ou moins d’elle doivent effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [4d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [perçants](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts."
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "Id": "ab46c2c5-c010-4ef0-98e1-a7e6e8f49d4e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Ensorceleur_RepresentationMajestueuse",
+    "DisplayName": "Représentation majestueuse",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Ensorceleur_RepresentationMajestueuse",
+      "DisplayName": "Représentation majestueuse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut charger une représentation de magie féérique et séduisante. Cette représentation peut être par exemple un spectacle de chant, de danse, ou un poème qu’il récite. Par une [action](/regles/combat/deroulement/tour), il débute la représentation et se drape d’une magie féérique qui le rend plus beau, majestueux et farouche. Il dépense un point d’[Énergie](/regles/statistiques/energie) par [seconde](/regles/aventure/temps) afin de maintenir la représentation. En situation de [combat](/regles/combat), il peut maintenir la représentation en [action libre](/regles/combat/deroulement/tour) et dépense 6 points d’Énergie par [tour](/regles/combat/deroulement/tour).\n\nPendant la représentation, une fois par tour, par une action, le personnage peut donner une [Commande](/regles/magie/pouvoirs/injonction) à une créature par un [test](/regles/competences/tests) de [Représentation](/regles/competences/representation) et en [dépensant](/regles/magie/pouvoirs/energie) les points d’[Énergie](/regles/statistiques/energie). Une créature déjà [charmée](/regles/combat/conditions/charme) par le personnage échoue automatiquement le [jet de sauvegarde](/regles/competences/tests/sauvegarde).\n\nSi une créature tente de l’[attaquer](/regles/combat/attaque) ou d’utiliser un [pouvoir](/regles/magie/pouvoirs) nuisible contre lui pendant la représentation, elle doit effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline) de [difficulté](/regles/competences/tests/difficulte) égale au [test passif](/regles/competences/tests/passif) de Représentation du personnage. En cas d’échec, la créature doit choisir une nouvelle cible pour perdre l’attaque ou le pouvoir. Cette capacité ne protège pas le personnage contre les effets de zone.\n\nLorsque la représentation atteint une minute, le personnage peut désigner un nombre d’humanoïdes inférieur ou égal à son [Intellect](/regles/attributs/intellect) (minimum&nbsp;1) situés à 18 mètres ou moins de sa position ayant [regardé](/regles/aventure/environnement/vision) et écouté l’intégralité du spectacle, puis il effectue ensuite un test de Représentation (il peut effectuer un test passif). Une cible doit réussir un jet de sauvegarde de Discipline de difficulté égale au résultat du test ou être charmée par le personnage. Si elle réussit le jet de sauvegarde, elle ne se doute aucunement que le personnage a tenté de la charmer.\n\nUne créature charmée idolâtre le personnage, parle de lui en termes élogieux à quiconque lui adresse la parole, et entrave quiconque s’oppose à lui, en évitant la violence sauf si elle était déjà encline à combattre pour sa cause. L’effet prend fin après une heure, si la cible reçoit des [dégâts](/regles/combat/degats), si le personnage l’attaque, ou si elle le voit attaquer ou blesser l’un de ses alliés.\n\nLe personnage doit faire [halte](/regles/aventure/repos/halte) ou compléter une [nuit de sommeil](/regles/aventure/repos/sommeil) afin de réutiliser cette capacité."
+      }
+    }
+  }
+}

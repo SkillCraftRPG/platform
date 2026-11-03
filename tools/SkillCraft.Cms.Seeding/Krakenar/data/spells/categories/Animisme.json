@@ -2,7 +2,7 @@
   "Id": "ffed3a54-a461-4135-934c-7e4859d08e72",
   "Invariant": {
     "IsPublished": true,
-    "UniqueName": "Animisme",
+    "UniqueName": "animisme",
     "DisplayName": "Animisme",
     "Description": null,
     "FieldValues": {}
@@ -10,7 +10,7 @@
   "Locales": {
     "fr": {
       "IsPublished": true,
-      "UniqueName": "Animisme",
+      "UniqueName": "animisme",
       "DisplayName": "Animisme",
       "Description": null,
       "FieldValues": {}

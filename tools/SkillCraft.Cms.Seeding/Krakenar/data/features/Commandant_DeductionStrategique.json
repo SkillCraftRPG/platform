@@ -1,0 +1,21 @@
+﻿{
+  "Id": "3e568d82-4dbe-49b0-8ee9-6f50d24c0cf5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Commandant_DeductionStrategique",
+    "DisplayName": "Déduction stratégique",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Commandant_DeductionStrategique",
+      "DisplayName": "Déduction stratégique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage utilise [Déduction guerrière](/regles/specialisations/soldat) (il doit avoir acquis la spécialisation), il peut additionnellement déterminer si les caractéristiques suivantes de la cible sont supérieures, inférieures ou égales aux siennes, à la discrétion du maître de jeu :\n\n- [Intellect](/regles/attributs/intellect)\n- [Sens](/regles/attributs/sens)\n- [Initiative](/regles/statistiques/initiative)\n- [Force](/regles/statistiques/force)\n- [Précision](/regles/statistiques/precision)\n- [Puissance](/regles/statistiques/puissance)\n- [Stratagème](/regles/statistiques/stratageme)"
+      }
+    }
+  }
+}

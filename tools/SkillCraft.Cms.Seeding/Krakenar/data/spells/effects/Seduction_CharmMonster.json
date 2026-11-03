@@ -1,0 +1,30 @@
+﻿{
+  "Id": "956a7467-d968-4dd7-80b6-58b8a8f719a4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Seduction_CharmMonster",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21e98215-4656-4a06-8cc8-6757d630c20c\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Seduction_CharmMonster",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de [charmer](/regles/combat/conditions/charme) une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline), et elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) si le personnage ou ses compagnons la [combattent](/regles/combat). En cas d’échec, elle est charmée par le personnage pendant la durée, ou jusqu’à ce que le personnage ou ses compagnons lui fassent du mal. La créature charmée le considère comme une connaissance [amicale](/regles/aventure/interaction-sociale). Lorsque le pouvoir prend fin, la créature sait qu’elle a été charmée par le personnage."
+      }
+    }
+  }
+}

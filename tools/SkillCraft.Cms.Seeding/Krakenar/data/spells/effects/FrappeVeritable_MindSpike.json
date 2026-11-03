@@ -1,0 +1,31 @@
+﻿{
+  "Id": "24a616ed-9225-4974-a668-54b88e10c262",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrappeVeritable_MindSpike",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"edadbdce-1cdf-4a13-8390-3f3477562dc4\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrappeVeritable_MindSpike",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage choisit une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et la marque mystiquement comme sa proie. Jusqu’à la fin du pouvoir, il inflige [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) supplémentaires à la cible chaque fois qu’il réussit une [attaque](/regles/combat/attaque) physique contre elle. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut marquer un nouvelle créature si les points de [Vitalité](/regles/statistiques/vitalite) de la cible chutent à 0.\n\nÉgalement, le personnage connaît en permanence l’emplacement de la cible jusqu’à la fin du pouvoir, tant qu’ils se trouvent tous deux dans la même dimension. Tant qu’il dispose de cette connaissance, la cible ne peut se dissimuler de lui, et si elle est [invisible](/regles/combat/conditions/invisible), elle ne tire aucun bénéfice de cet état contre lui."
+      }
+    }
+  }
+}

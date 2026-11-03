@@ -17,7 +17,7 @@
       "DisplayName": "Élémentarisme",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Il peut convertir des points d’[Énergie](/regles/statistiques/energie) en points d’[essence élémentaire](#) afin d’utiliser de puissantes [capacités élémentaires](#) de tiers 1."
+        "HtmlContent": "Il peut convertir des points d’[Énergie](/regles/statistiques/energie) en points d’[essence élémentaire](/regles/elementarisme/essence) afin d’utiliser de puissantes [capacités élémentaires](/regles/elementarisme/capacites) de tiers 1."
       }
     }
   }

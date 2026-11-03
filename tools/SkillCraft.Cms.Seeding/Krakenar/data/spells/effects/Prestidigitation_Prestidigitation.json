@@ -1,0 +1,30 @@
+﻿{
+  "Id": "529af19f-879f-47ea-b6e5-4326ab2bf2e3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Prestidigitation_Prestidigitation",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "CastingTime": "[\"2\"]",
+      "Spell": "[\"9298abcd-cee0-4949-af46-61c4707ed512\"]",
+      "Level": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "2"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Prestidigitation_Prestidigitation",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ce pouvoir est un tour magique mineur dont se servent les apprentis pour s’exercer. Le personnage crée l’un des effets magiques suivants dans la portée :\n\n- Il crée un effet sensoriel inoffensif et instantané, tel qu’une pluie d’étincelles, une bouffée de vent, de faibles notes musicales ou une odeur étrange.\n- Il allume ou éteint instantanément une chandelle, une torche ou un petit feu de camp.\n- Il nettoie ou salit instantanément un objet d’au plus un cube de 30 centimètres d’arête.\n- Il refroidit, réchauffe ou assaisonne jusqu’à un cube de 30 centimètres d’arête de matière non vivante pendant 1 heure.\n- Il fait apparaître une couleur, une petite marque ou un symbole sur un objet ou une surface pendant 1 heure.\n- Il crée un bibelot non magique ou une image illusoire qui tient dans sa main et qui dure jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour).\n\nS’il canalise ce pouvoir plusieurs fois, il peut avoir jusqu’à trois de ses effets non instantanés actifs à la fois, et il peut dissiper un tel effet par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

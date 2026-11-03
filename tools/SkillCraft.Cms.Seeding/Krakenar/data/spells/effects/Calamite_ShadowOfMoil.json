@@ -1,7 +1,7 @@
 ﻿{
   "Id": "4da1ba8d-9d16-4ed1-945b-fde22299c33f",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Calamite_ShadowOfMoil",
     "DisplayName": null,
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Calamite_ShadowOfMoil",
       "DisplayName": null,
       "Description": null,

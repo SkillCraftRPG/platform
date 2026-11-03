@@ -1,0 +1,21 @@
+﻿{
+  "Id": "1802c3d1-4ba1-4b9d-8071-ed3fa828786e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Champion_ProtectionDivine",
+    "DisplayName": "Protection divine",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Champion_ProtectionDivine",
+      "DisplayName": "Protection divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une aura protectrice émane du personnage dans un rayon de 3 mètres lorsqu’il est [conscient](/regles/combat/conditions/inconscient).\n\nLorsque le personnage ou une créature dans la zone effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde), il peut conférer un bonus au [test](/regles/competences/tests) égal à sa [Santé](/regles/attributs/sante) (minimum&nbsp;1) après avoir jeté les [dés](/regles/competences/tests/2d10) mais avant de savoir si le test est réussi ou échoué. Lorsqu’il en fait ainsi, il dépense un nombre de points d’[Énergie](/regles/statistiques/energie) égal au bonus conféré. Cette capacité ne nécessite aucune [action](/regles/combat/deroulement/tour) ni [réaction](/regles/combat/deroulement/tour).\n\nÉgalement, le personnage et toute créature [amicale](/regles/aventure/interaction-sociale) envers lui se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses jets de sauvegarde contre la [peur](/regles/combat/conditions/apeure)."
+      }
+    }
+  }
+}

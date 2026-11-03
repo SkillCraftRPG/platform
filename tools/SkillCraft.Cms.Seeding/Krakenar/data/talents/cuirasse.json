@@ -8,7 +8,8 @@
     "FieldValues": {
       "Tier": "1",
       "AllowMultiplePurchases": "False",
-      "RequiredTalent": "[\"5601b8cb-9061-4a44-9dfe-2ac1fdd46f46\"]"
+      "RequiredTalent": "[\"5601b8cb-9061-4a44-9dfe-2ac1fdd46f46\"]",
+      "Skill": "[\"bd6bedde-2e50-493f-a1cc-8e23123c45c4\"]"
     }
   },
   "Locales": {

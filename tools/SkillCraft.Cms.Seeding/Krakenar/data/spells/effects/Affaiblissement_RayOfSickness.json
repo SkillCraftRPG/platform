@@ -1,7 +1,7 @@
 ﻿{
   "Id": "331a4b8d-74e9-4ba6-9957-06175e686d1e",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "Affaiblissement_RayOfSickness",
     "DisplayName": "Rayon d’affaiblissement",
     "Description": null,
@@ -18,7 +18,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "Affaiblissement_RayOfSickness",
       "DisplayName": "Rayon d’affaiblissement",
       "Description": null,

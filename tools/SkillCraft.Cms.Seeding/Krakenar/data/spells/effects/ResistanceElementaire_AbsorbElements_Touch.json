@@ -1,7 +1,7 @@
 ﻿{
   "Id": "2c321383-cbe3-4274-81fe-eb4dbb938ebb",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "ResistanceElementaire_AbsorbElements_Touch",
     "DisplayName": null,
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "ResistanceElementaire_AbsorbElements_Touch",
       "DisplayName": null,
       "Description": null,

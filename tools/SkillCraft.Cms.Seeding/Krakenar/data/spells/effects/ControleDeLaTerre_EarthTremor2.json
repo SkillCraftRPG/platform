@@ -1,0 +1,30 @@
+﻿{
+  "Id": "0d13843b-ebae-46cd-aa59-9766754eba34",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLaTerre_EarthTremor2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "CastingTime": "[\"2\"]",
+      "Level": "2",
+      "Spell": "[\"2bfba048-8ea1-4201-b7c2-6f8018ce6985\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLaTerre_EarthTremor2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La rayon du tremblement de terre augmente à 4,5 mètres, et il ajoute la moitié de sa [Puissance](/regles/statistiques/puissance) aux [points de dégâts](/regles/combat/degats) infligés."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3b2667c9-4fbd-428a-9139-60196d789eb3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "armure-magique",
+    "DisplayName": "Armure magique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "armure-magique",
+      "DisplayName": "Armure magique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "armure-magique",
+        "MetaDescription": "Découvrez Armure magique : force protectrice durable, barrière réactive contre une attaque ou des missiles, puis résistance psychique et esprit fortifié.",
+        "Summary": "Armure de force, barrière réactive, puis esprit blindé contre le psychique.",
+        "HtmlContent": "Le personnage enveloppe d’abord une créature sans armure d’une force protectrice. Plus fort, une barrière la protège contre une attaque ou des missiles magiques. Plus fort encore, elle résiste au psychique et fortifie son esprit."
+      }
+    }
+  }
+}

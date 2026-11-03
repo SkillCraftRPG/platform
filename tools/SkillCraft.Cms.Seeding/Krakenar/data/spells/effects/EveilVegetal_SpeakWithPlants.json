@@ -1,0 +1,30 @@
+﻿{
+  "Id": "a7bc8f56-0cc3-4454-acce-3ea4e1474c21",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EveilVegetal_SpeakWithPlants",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d911110f-0331-4b2e-ad92-c9daae7b925b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Range": "0",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EveilVegetal_SpeakWithPlants",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage imprègne les plantes situées à 9 mètres ou moins de sa position d’une conscience et d’une animation limitées, ce qui leur permet de communiquer avec lui et d’obéir à ses ordres simples. Il peut interroger les plantes sur les événements survenus dans la zone du pouvoir au cours de la dernière journée, obtenant des informations sur les créatures qui y sont passées, la météo et d’autres circonstances. Si une créature végétale se trouve dans la zone, le personnage peut communiquer avec elle comme s’ils partageaient une langue commune, mais il n’acquiert aucune capacité magique à l’influencer.\n\nIl peut également transformer un [terrain difficile](/regles/aventure/mouvement/terrain-difficile) causé par la végétation (tels des fourrés ou un sous-bois) en terrain ordinaire pour la durée. Ou il peut transformer un terrain ordinaire où des plantes sont présentes en terrain difficile pour la durée, faisant par exemple entraver les poursuivants par des vignes et des branches. Les plantes pourraient accomplir d’autres tâches en son nom, à la discrétion du maître de jeu. Le pouvoir ne leur permet pas de se déraciner et de se déplacer, mais elles peuvent librement mouvoir branches, vrilles et tiges. Ce pouvoir peut faire libérer une ou plusieurs créatures [restreintes](/regles/combat/conditions/restreint) par les plantes créées par le pouvoir [Vignes épineuses](/regles/magie/pouvoirs/vignes-epineuses)."
+      }
+    }
+  }
+}

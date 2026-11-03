@@ -1,0 +1,27 @@
+﻿{
+  "Id": "bd3c98e6-c9bb-4d7f-bf68-b9b0f7407546",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "seduction-collective",
+    "DisplayName": "Séduction collective",
+    "Description": null,
+    "FieldValues": {
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]",
+      "Tier": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "seduction-collective",
+      "DisplayName": "Séduction collective",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "seduction-collective",
+        "MetaDescription": "Découvrez Séduction collective : charmez plusieurs créatures, obtenez l’aide d’humanoïdes serviables ou imposez une même suggestion à tout un groupe.",
+        "Summary": "Charmez plusieurs créatures, obtenez leur aide ou imposez une suggestion.",
+        "HtmlContent": "Séduction collective permet de charmer plusieurs créatures à la fois, puis de rendre des humanoïdes serviables et de leur confier des tâches distinctes. Elle permet aussi d’imposer une même suggestion à douze créatures pendant un à dix jours."
+      }
+    }
+  }
+}

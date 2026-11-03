@@ -1,0 +1,32 @@
+﻿{
+  "Id": "b7eb3c02-563c-4b02-8d8e-22273965ea91",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LienAnimal_AnimalMessenger",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21ccc0f1-47b4-4361-b3c8-607516a39e76\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LienAnimal_AnimalMessenger",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage utilise un animal pour livrer un message. Il choisit une bête de [taille](/regles/especes/taille) minuscule qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, telle qu’un écureuil, un geai bleu ou une chauve-souris. Il précise un lieu, qu’il doit avoir visité, et un destinataire correspondant à une description générale, telle que « un homme ou une femme vêtu de l’uniforme de la garde de la ville » ou « un nain aux cheveux roux portant un chapeau pointu ». Il prononce également un message d’au plus 25 mots.\n\nLa bête voyage pendant la durée du pouvoir vers le lieu précisé, parcourant jusqu’à ⅔ lieue par heure pour un messager volant, ou la moitié pour les autres animaux. Lorsque le messager arrive, il délivre le message à la créature décrite, en reproduisant le son de la voix du personnage. Le messager ne s’adresse qu’à une créature correspondant à la description donnée. Si le messager n’atteint pas sa destination avant la fin du pouvoir, le message est perdu, et la bête regagne l’endroit où le pouvoir a été canalisé.",
+        "Material": "Une bouchée de nourriture."
+      }
+    }
+  }
+}

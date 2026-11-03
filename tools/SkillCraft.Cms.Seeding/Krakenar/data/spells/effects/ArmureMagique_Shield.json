@@ -1,0 +1,30 @@
+﻿{
+  "Id": "aa4bbb98-bcf0-477f-b69a-986c65eec90c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmureMagique_Shield",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3b2667c9-4fbd-428a-9139-60196d789eb3\"]",
+      "Level": "1",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmureMagique_Shield",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une barrière invisible de force magique apparaît et protège le personnage, ou une créature consentante qu’il touche, contre une [attaque](/regles/combat/attaque) ou le pouvoir [Missiles magiques](/regles/magie/pouvoirs/missiles-magiques). Jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage, la cible se voit conférer un bonus (+5) l’[Esquive](/regles/statistiques/esquive), y compris contre l’attaque déclencheuse, et elle ne reçoit aucun [dégât](/regles/combat/degats) des missiles magiques."
+      }
+    }
+  }
+}

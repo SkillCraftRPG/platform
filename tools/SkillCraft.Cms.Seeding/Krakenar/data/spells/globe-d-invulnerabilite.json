@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3783ce9c-4dda-4cd8-b840-4552d94384b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "globe-d-invulnerabilite",
+    "DisplayName": "Globe d’invulnérabilité",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"b9399240-ec40-47c9-b709-8f515f7984e6\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "globe-d-invulnerabilite",
+      "DisplayName": "Globe d’invulnérabilité",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "globe-d-invulnerabilite",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

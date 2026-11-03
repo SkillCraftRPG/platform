@@ -1,0 +1,30 @@
+﻿{
+  "Id": "7fd1193e-78c8-461d-b10b-ac2d5b522b6f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SeductionCollective_CharmPersonCharmMonster",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"bd3c98e6-c9bb-4d7f-bf68-b9b0f7407546\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SeductionCollective_CharmPersonCharmMonster",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de [charmer](/regles/combat/conditions/charme) jusqu’à 4 humanoïdes qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Une cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline), et elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) si le personnage ou ses compagnons la [combattent](/regles/combat). En cas d’échec, elle est charmée par le personnage pendant la durée, ou jusqu’à ce que le personnage ou ses compagnons lui fassent du mal. Une créature charmée le considère comme une connaissance [amicale](/regles/aventure/interaction-sociale). Lorsque le pouvoir prend fin, une créature sait qu’elle a été charmée par le personnage.\n\nAlternativement, il peut tenter de charmer jusqu’à 2 créatures non humanoïdes, ou 2 humanoïdes et une créature non humanoïde."
+      }
+    }
+  }
+}

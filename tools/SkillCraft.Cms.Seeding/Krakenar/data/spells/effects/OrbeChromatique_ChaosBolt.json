@@ -1,0 +1,30 @@
+﻿{
+  "Id": "7c8fd241-66a7-4a50-8bba-de2645787411",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "OrbeChromatique_ChaosBolt",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"a5626e7a-2ec8-44ac-8747-2c919a64c48e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "OrbeChromatique_ChaosBolt",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage lance une orbe ondoyante et chevrotante de 10 centimètres de diamètre d’énergie chaotique vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats). Le personnage choisit un des d8, ce qui détermine le [type des dégâts](/regles/combat/degats/type) infligés, tel que indiqué ci-dessus. S’il obtient le même nombre sur les deux dés, l’orbe peut bondir de la cible vers une créature différente située à 9 mètres ou moins de la cible ou disparaître, au choix du personnage. Si l’orbe bondit, le personnage effectue un nouvelle attaque contre la cible, et si l’attaque réussit, il roule les dégâts à nouveau, ce qui pourrait changer le type des dégâts contre cette créature, et pourrait encore faire bondir l’orbe. Une créature ne peut être ciblée qu’une seule fois pour chaque canalisation de ce pouvoir."
+      }
+    }
+  }
+}

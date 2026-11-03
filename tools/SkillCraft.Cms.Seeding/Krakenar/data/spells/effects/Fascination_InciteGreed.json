@@ -1,0 +1,32 @@
+﻿{
+  "Id": "216d3271-a7da-4fe6-8476-e9b40d2e4e07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Fascination_InciteGreed",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fc8274dc-8ec8-4150-9c15-d2850f4125f0\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Fascination_InciteGreed",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une gemme d’une valeur d’au moins 50 deniers.",
+        "HtmlContent": "Lorsqu’il canalise ce pouvoir, le personnage présente la gemme (focus) et désigne une ou plusieurs créatures qui peuvent le [voir](/regles/aventure/environnement/vision). Chaque cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par le personnage jusqu’à la fin du pouvoir, ou jusqu’à ce que le personnage ou ses compagnons lui fassent du mal. Tant qu’elle est charmée de cette façon, une créature ne peut rien faire d’autre que de [se déplacer](/regles/combat/activites/deplacement) pour s’approcher du personnage de manière sûre. Tant qu’une créature affectée se trouve à 1,5 mètres ou moins de lui, elle ne peut se déplacer, mais fixe simplement avec cupidité la gemme qu’il présente. À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), une cible affectée peut répéter le jet de sauvegarde. En cas de réussite, l’effet prend fin pour cette cible."
+      }
+    }
+  }
+}

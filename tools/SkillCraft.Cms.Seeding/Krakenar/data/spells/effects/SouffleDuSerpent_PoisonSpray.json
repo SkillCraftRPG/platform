@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2f561935-0b99-4247-af9e-8bf8551cffa2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "SouffleDuSerpent_PoisonSpray",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"aff74ada-a168-48b2-9929-a79b9d17c9b4\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "SouffleDuSerpent_PoisonSpray",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage exhale un souffle empoisonné en direction d’une créature qu’il peut [voir](/regles/aventure/environnement/vision). La créature doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) ou recevoir [1d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

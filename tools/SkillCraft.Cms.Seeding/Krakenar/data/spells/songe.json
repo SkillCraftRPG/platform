@@ -1,0 +1,27 @@
+﻿{
+  "Id": "28178a01-040f-4e1e-8b84-8d01864412b5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "songe",
+    "DisplayName": "Songe",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "songe",
+      "DisplayName": "Songe",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "songe",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "e2e1c565-c91a-4e0e-98fc-b57b0c4f2e56",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "eclat-mental",
+    "DisplayName": "Éclat mental",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"9bfed560-3230-456d-aa5b-1efe1e5ce24a\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "eclat-mental",
+      "DisplayName": "Éclat mental",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "eclat-mental",
+        "MetaDescription": "Découvrez Éclat mental : pointe psychique ou insultes envoûtantes, mélodie qui fait fuir, puis fouet qui étourdit une ou deux cibles.",
+        "Summary": "Blesse l’esprit : pointe, insultes, fuite, puis étourdissement.",
+        "HtmlContent": "Le personnage frappe d’abord l’esprit ou raille pour compromettre l’attaque. Plus fort, une mélodie force la cible à fuir. Plus fort encore, un fouet psychique étourdit une ou deux cibles et ne leur laisse qu’une activité."
+      }
+    }
+  }
+}

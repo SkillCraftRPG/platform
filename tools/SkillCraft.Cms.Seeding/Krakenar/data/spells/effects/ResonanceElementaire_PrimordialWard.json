@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0365168a-c38e-40ab-bddd-748e5519d5b9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ResonanceElementaire_PrimordialWard",
+    "DisplayName": "Garde élémentaire",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"044b648d-005a-4ec4-9996-de338d8e5138\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ResonanceElementaire_PrimordialWard",
+      "DisplayName": "Garde élémentaire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pendant la durée du pouvoir, le personnage est [résistant](/regles/combat/degats/efficacite) aux [dégâts des types](/regles/combat/degats/types) suivants : acide, feu, foudre, froid et tonnerre. Lorsqu’il devrait recevoir des dégâts d’un de ces types, il peut se conférer en [réaction](/regles/combat/deroulement/tour) l’[immunité](/regles/combat/degats/efficacite) contre ces dégât, puis le pouvoir prend fin."
+      }
+    }
+  }
+}

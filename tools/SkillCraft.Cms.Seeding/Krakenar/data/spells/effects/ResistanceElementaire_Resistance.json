@@ -1,7 +1,7 @@
 ﻿{
   "Id": "88d9cc18-3c55-407e-ae9d-17d094e4f12b",
   "Invariant": {
-    "IsPublished": true,
+    "IsPublished": false,
     "UniqueName": "ResistanceElementaire_Resistance",
     "DisplayName": null,
     "Description": null,
@@ -19,7 +19,7 @@
   },
   "Locales": {
     "fr": {
-      "IsPublished": true,
+      "IsPublished": false,
       "UniqueName": "ResistanceElementaire_Resistance",
       "DisplayName": null,
       "Description": null,

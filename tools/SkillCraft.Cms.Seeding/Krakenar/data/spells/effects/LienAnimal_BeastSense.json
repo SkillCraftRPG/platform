@@ -1,0 +1,32 @@
+﻿{
+  "Id": "f2dd34f9-1f89-43f6-9d42-86df42dc0508",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "LienAnimal_BeastSense",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"21ccc0f1-47b4-4361-b3c8-607516a39e76\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "LienAnimal_BeastSense",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une bête consentante. Pendant la durée du pouvoir, il peut utiliser une [action](/regles/combat/deroulement/tour) afin de [voir](/regles/aventure/environnement/vision) par les yeux de la bête et d’entendre ce qu’elle entend, et continuer ainsi jusqu’à ce qu’il utilise une autre action pour retrouver ses sens normaux. Également, pendant qu’il voit et entend par la bête, il peut canaliser un pouvoir dont la portée est [Toucher](/regles/magie/parametres/portee) au travers de celle-ci, comme s’il [occupait](/regles/aventure/mouvement/espace-occupe) son espace, si la distance le séparant de la bête est d’au plus 30 mètres. Elle doit utiliser sa [réaction](/regles/combat/deroulement/tour) afin de délivrer le pouvoir."
+      }
+    }
+  }
+}

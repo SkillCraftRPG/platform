@@ -1,0 +1,31 @@
+﻿{
+  "Id": "30e431f0-8681-43ca-a4da-559aadd15b27",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Poulpe_Grease",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1c5097c6-d3c5-4158-8dc4-aa0c838bf1e2\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Poulpe_Grease",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un poulpe entier.",
+        "HtmlContent": "Une graisse glissante couvre le sol dans un carré de 3 mètres d’arête centré sur un point dans la portée et le transforme en [terrain difficile](/regles/aventure/mouvement/terrain-difficile) pendant la durée. Lorsque la graisse apparaît, chaque créature se trouvant dans la zone doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou tomber [renversée](/regles/combat/conditions/renverse). Une créature qui entre dans la zone ou y termine son [tour](/regles/combat/deroulement/tour) doit également réussir un jet de sauvegarde d’Acrobaties ou tomber renversée."
+      }
+    }
+  }
+}

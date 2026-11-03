@@ -1,0 +1,21 @@
+﻿{
+  "Id": "5ebfe0ae-e719-48e0-b9b1-6fd3600c7a0d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Inquisiteur_ZeleDivin",
+    "DisplayName": "Zèle divin",
+    "Description": null,
+    "FieldValues": {}
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Inquisiteur_ZeleDivin",
+      "DisplayName": "Zèle divin",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une aura de conquête émane du personnage dans un rayon de 3 mètres lorsqu’il est [conscient](/regles/combat/conditions/inconscient). Le personnage et toute créature [amicale](/regles/aventure/interaction-sociale) envers lui se trouvant dans l’aura se voient conférer un bonus égal à sa [Santé](/regles/attributs/sante) (minimum&nbsp;1) à leurs tests d’[Initiative](/regles/combat/deroulement/initiative).\n\nÉgalement, si une créature [apeurée](/regles/combat/conditions/apeure) par le personnage se trouve dans l’aura, sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite à 0 tant qu’elle reste dans la zone, et elle reçoit [1d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) lorsqu’elle débute son [tour](/regles/combat/deroulement/tour) dans la zone. Le [type](/regles/combat/degats/types) des dégâts varie en fonction de son [domaine divin](/regles/domaines/divins)."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "2ee18065-e84d-44e5-97b5-5789dc908133",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AuraSacree_CircleOfPower",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ba63c2f6-4b0f-4ca4-b2bb-99d803cd764e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AuraSacree_CircleOfPower",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une énergie divine émane du personnage, déformant et dispersant l’énergie magique dans un rayon de 9 mètres. Jusqu’à la fin du pouvoir, la sphère se déplace avec lui, centrée sur sa position. Pendant la durée, chaque créature alliée dans la zone, y compris le personnage, se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) contre les pouvoirs et autres effets magiques. Également, lorsqu’une créature affectée réussit un jet de sauvegarde contre un pouvoir ou un effet magique qui lui permettrait de ne recevoir que la moitié des [points de dégâts](/regles/combat/degats), elle n’en reçoit aucun."
+      }
+    }
+  }
+}

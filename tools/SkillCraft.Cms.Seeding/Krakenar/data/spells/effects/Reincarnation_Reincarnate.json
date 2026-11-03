@@ -1,0 +1,31 @@
+﻿{
+  "Id": "db4b89c0-ad38-4b71-a246-39c14142be6d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Reincarnation_Reincarnate",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"190db934-f616-4d2c-ba31-ac5a5ea3c5f8\"]",
+      "Level": "2",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Reincarnation_Reincarnate",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un humanoïde [mort](/regles/combat/conditions/mort) ou un fragment d’humanoïde mort. Pourvu que la créature soit morte depuis au plus un siècle, le pouvoir façonne pour elle un nouveau corps adulte, puis appelle l’âme à y entrer. Si l’âme de la cible n’est pas libre ou consentante, le pouvoir échoue. La magie façonne un nouveau corps pour que la créature l’habite, ce qui change vraisemblablement son [espèce et ethnie](/regles/especes). Le maître de jeu détermine aléatoirement la nouvelle forme que la créature prend en revenant à la vie, ou il choisit une forme.\n\nLa créature réincarnée se souvient de sa vie et de ses expériences antérieures. Elle conserve les capacités qu’elle avait sous sa forme d’origine, sauf qu’elle échange son espèce et ethnie d’origine contre les nouvelles et modifie ses traits ethniques en conséquence. Revenir d’entre les morts est une épreuve. La cible subit une pénalité de −4 à tous ses [tests](/regles/competences/tests). Chaque fois que la cible complète une [nuit de sommeil](/regles/aventure/repos/sommeil), la pénalité est réduite de 1 jusqu’à disparaître.",
+        "Material": "Des huiles et onguents rares d’une valeur d’au moins 500 deniers."
+      }
+    }
+  }
+}

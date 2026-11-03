@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b1dca58f-10f6-4004-a5e4-dc53bc9edf15",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "metamorphose",
+    "DisplayName": "Métamorphose",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "metamorphose",
+      "DisplayName": "Métamorphose",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "metamorphose",
+        "MetaDescription": "Découvrez Métamorphose : adapter son corps, agrandir ou rapetisser une cible, respirer sous l’eau, puis transformer une créature en bête.",
+        "HtmlContent": "Le personnage modifie d’abord son corps (aquatique, apparence ou armes naturelles) ou change la taille d’une cible. Plus fort, plusieurs créatures respirent sous l’eau. Plus fort encore, il transforme une créature en bête.",
+        "Summary": "Change le corps ou la taille, puis la respiration, puis la forme en bête."
+      }
+    }
+  }
+}

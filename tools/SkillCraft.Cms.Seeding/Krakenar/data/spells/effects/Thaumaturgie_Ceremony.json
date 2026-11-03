@@ -1,0 +1,32 @@
+﻿{
+  "Id": "e1685783-9c96-4de3-a9a6-48f0d784f5b7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Thaumaturgie_Ceremony",
+    "DisplayName": "Cérémonie",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"67cb93d4-a102-4217-8890-b1402eb5d5e3\"]",
+      "Level": "1",
+      "IsRitual": "true",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "CastingTime": "[\"1h\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Thaumaturgie_Ceremony",
+      "DisplayName": "Cérémonie",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage accomplit l’une de plusieurs cérémonies religieuses. Lorsqu’il canalise le pouvoir, il choisit l’une des cérémonies suivantes, dont la cible doit se trouver à 3 mètres ou moins de sa position pendant toute l’incantation.\n\n- **Absolution.** Il touche une créature consentante dont l’alignement a changé et il restaure l’alignement d’origine de la cible.\n- **Bénir l’eau.** Il touche une fiole d’eau et la transforme en eau bénite.\n- **Dédicace.** Il touche un humanoïde qui souhaite se consacrer au service de sa divinité. Pendant les 24 heures suivantes, chaque fois que la cible effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde), elle peut jeter 1d4 et ajouter le résultat obtenu au jet. Une créature ne peut bénéficier de ce rite qu’une seule fois.\n- **Mariage.** Il touche des humanoïdes adultes consentants à être unis par le mariage. Pendant les 7 jours suivants, chaque cible se voit conférer un bonus de +2 à son [Esquive](/regles/statistiques/esquive) tant qu’elle se trouve à 9 mètres ou moins de l’autre. Une créature ne peut bénéficier à nouveau de ce rite que si elle est veuve.\n- **Passage à l’âge adulte.** Il touche un humanoïde jeune adulte. Pendant les [24 heures](/regles/aventure/temps) suivantes, chaque fois que la cible effectue un [test](/regles/competences/tests) de [compétence](/regles/competences), elle peut jeter 1d4 et ajouter le résultat obtenu au test. Une créature ne peut bénéficier de ce rite qu’une seule fois.\n- **Rite funéraire.** Il touche un cadavre et, pendant les 7 jours suivants, la cible ne peut devenir mort-vivante par aucun moyen autre qu’un pouvoir de souhait.",
+        "Material": "De la poudre d’argent d’une valeur d’au moins 25 deniers."
+      }
+    }
+  }
+}

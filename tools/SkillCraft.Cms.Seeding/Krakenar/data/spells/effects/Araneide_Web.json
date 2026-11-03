@@ -1,0 +1,32 @@
+﻿{
+  "Id": "84d31ebe-298e-4458-b6b0-ddcfaa139485",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Araneide_Web",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"1172ec08-22d1-48ec-89da-09d62090b190\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Araneide_Web",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un peu de toile d’araignée.",
+        "HtmlContent": "Le personnage conjure une masse de toiles épaisses et collantes en un point de son choix dans la portée. Les toiles remplissent un cube de 9 mètres d’arête à partir de ce point pendant la durée. Les toiles constituent du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) et [obscurcissent légèrement](/regles/aventure/environnement/vision) leur zone. Les toiles sont inflammables. Tout cube de toiles de 1,5 mètres d’arête exposé au feu brûle en un [round](/regles/combat/deroulement), infligeant [4d4](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) à toute créature qui commence son tour dans le feu.\n\nSi les toiles ne sont pas ancrées entre deux masses solides (telles que des murs ou des arbres) ou étendues sur un sol, un mur ou un plafond, la toile conjurée s’effondre sur elle-même, et le pouvoir prend fin au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. Les toiles étendues sur une surface plane ont une profondeur de 1,5 mètres. Chaque créature qui commence son tour dans les toiles ou qui y entre pendant son tour doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, la créature est [restreinte](/regles/combat/conditions/restreint) tant qu’elle demeure dans les toiles. Une créature peut tenter de [se libérer](/regles/combat/activites/echapper) par un [test](/regles/competences/tests) d’[Athlétisme](/regles/competences/athletisme)."
+      }
+    }
+  }
+}

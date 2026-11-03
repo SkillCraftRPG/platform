@@ -1,0 +1,23 @@
+﻿{
+  "Id": "33222858-94c1-4c42-81be-ce6392a580d3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Artificier_Armurier",
+    "DisplayName": "Armurier",
+    "Description": null,
+    "FieldValues": {
+      "Specialization": "[\"3e1d27d6-9210-4e76-9f8a-7b3fe37935c8\"]",
+      "DiscountedTalents": "[\"1cc8a4b4-e5af-4a51-9295-448b43304b5e\",\"55998f0a-5eee-40e5-aa8a-345b4a8a376a\",\"326302ae-b229-435c-a055-c87c6f6353be\",\"e434855f-3fac-4ff0-bca9-8807ec4ca19d\"]",
+      "Features": "[\"c0422729-0eee-4822-b34f-a6e2d5e13e57\",\"10c00709-99f2-4a52-9e3d-a338529a09c5\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Artificier_Armurier",
+      "DisplayName": "Armurier",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}
