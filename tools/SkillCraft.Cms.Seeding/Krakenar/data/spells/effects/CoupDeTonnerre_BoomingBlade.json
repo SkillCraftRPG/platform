@@ -1,0 +1,30 @@
+﻿{
+  "Id": "7198b93f-d1b5-4131-a2fa-873dec247d0e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CoupDeTonnerre_BoomingBlade",
+    "DisplayName": "Lame du tonnnerre",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9b5f9096-8108-4946-b67d-868bfbfa4972\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "Level": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CoupDeTonnerre_BoomingBlade",
+      "DisplayName": "Lame du tonnnerre",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage brandit l’arme utilisée pour canaliser le pouvoir et effectue une [attaque de mêlée](/regles/combat/attaque/melee) de mêlée avec celle-ci contre une créature. En cas de réussite, la cible subit les effets normaux de l’attaque, puis est enveloppée d’énergie tonnante jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. Si la cible se déplace volontairement de 1,5 mètres ou plus avant ce moment, elle reçoit [1d10](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types), et le pouvoir prend fin.",
+        "Focus": "Une arme de mêlée d’une valeur d’au moins 1 denier."
+      }
+    }
+  }
+}

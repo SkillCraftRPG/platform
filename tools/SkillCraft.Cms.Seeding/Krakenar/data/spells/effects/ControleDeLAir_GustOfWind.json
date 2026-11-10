@@ -1,0 +1,32 @@
+﻿{
+  "Id": "db659fe0-4328-40b3-817c-bc770114c4f4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLAir_GustOfWind",
+    "DisplayName": "Bourrasque",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29f69009-c09f-400b-b103-782f11352414\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLAir_GustOfWind",
+      "DisplayName": "Bourrasque",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une graine de légumineuse.",
+        "HtmlContent": "Une ligne de vent fort de 18 mètres de longueur par 3 mètres de largeur jaillit du personnage dans une direction de son choix pendant la durée du pouvoir. Chaque créature qui débute son [tour](/regles/combat/deroulement/tour) dans la ligne doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou être repoussée de 4,5 mètres loin du personnage dans la direction de la ligne. Si une créature [se déplace](/regles/combat/activites/deplacement) dans la ligne de vent, sa [vitesse](/regles/aventure/mouvement/vitesse) est doublée si elle s’éloigne du personnage, et elle est réduite de moitié s’il s’en rapproche. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut changer la direction dans laquelle la ligne jaillit de lui.\n\nLe vent disperse gaz et vapeurs, et éteint chandelles, torches et flammes non protégées similaires dans la zone. Il fait danser violemment les flammes protégées, telles que celles des lanternes, et chacune a 50&nbsp;% de chances de s’éteindre."
+      }
+    }
+  }
+}

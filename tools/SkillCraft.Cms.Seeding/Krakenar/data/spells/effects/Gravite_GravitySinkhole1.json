@@ -1,0 +1,31 @@
+﻿{
+  "Id": "80bde4b7-c25e-4765-9fd7-d6c9761b6e24",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gravite_GravitySinkhole1",
+    "DisplayName": "Doline",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ca155a10-46b4-4be8-a848-86c6a96284bf\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gravite_GravitySinkhole1",
+      "DisplayName": "Doline",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une bille noire.",
+        "HtmlContent": "Une sphère de force écrasante de 6 mètres de rayon se forme en un point que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée et tire sur les créatures qui s’y trouvent. Chaque créature dans la sphère doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [10d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) et est tirée en ligne droite vers le centre de la sphère, terminant son déplacement dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) aussi proche que possible du centre (même si cet espace est dans les [airs](/regles/aventure/mouvement/types)). En cas de réussite, une créature ne reçoit que la moitié des points de dégâts et n’est pas tirée."
+      }
+    }
+  }
+}

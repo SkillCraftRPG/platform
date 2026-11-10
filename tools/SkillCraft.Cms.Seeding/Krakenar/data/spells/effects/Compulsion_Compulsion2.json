@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e5f2b1b1-b291-4bf5-a86d-34f7274dcb9d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Compulsion_Compulsion2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d06ec5e4-bcfa-4386-b11b-5b66962ca805\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Compulsion_Compulsion2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage peut désigner plusieurs créatures. Les effets sont identiques au niveau 3 pour chacune de ces créatures."
+      }
+    }
+  }
+}

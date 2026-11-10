@@ -1,0 +1,32 @@
+﻿{
+  "Id": "fdf2c755-e40b-4120-a2c8-fd63d46630df",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatSolaire_Sunbeam",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"afe09da5-94d1-4b1a-8084-923074607a3b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatSolaire_Sunbeam",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une loupe.",
+        "HtmlContent": "Un rayon de lumière éclatante jaillit de la main du personnage en une ligne de 1,5 mètres de large et de 18 mètres de long. Chaque créature dans la ligne doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [7d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) et est [aveuglée](/regles/combat/conditions/aveugle) jusqu’au prochain [tour](/regles/combat/deroulement/tour) du personnage. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas aveuglée. Les morts-vivants et les limons sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage) à ce jet de sauvegarde.\n\nPendant la durée, une parcelle de radiance brille dans sa main. Elle émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 9 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 9 mètres additionnels. Cette lumière est de la lumière du soleil. Une fois par tour, jusqu’à la fin du pouvoir, le personnage peut créer une nouvelle ligne de radiance par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

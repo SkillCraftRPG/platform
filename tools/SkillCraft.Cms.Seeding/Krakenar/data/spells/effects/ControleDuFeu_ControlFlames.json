@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5031f33e-0229-4e64-ad02-293fa9006667",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDuFeu_ControlFlames",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"182f0545-fc3e-45ef-90b0-9092cec5c132\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDuFeu_ControlFlames",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une flamme non magique qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et qui tient dans un cube de 1,5 mètres d’arête. Il l’affecte de l’une des façons suivantes :\n\n- Il étend instantanément la flamme de 1,5 mètres dans une direction, pourvu que du bois ou un autre combustible soit présent à ce nouvel emplacement.\n- Il éteint instantanément les flammes à l’intérieur du cube.\n- Il double ou réduit de moitié la zone de [clarté](/regles/aventure/environnement/vision) et de [pénombre](/regles/aventure/environnement/vision) produite par la flamme, change sa couleur, ou les deux. Le changement dure une heure.\n- Il fait apparaître des formes simples, telle la silhouette vague d’une créature, d’un objet inanimé ou d’un lieu, dans les flammes et les anime à sa guise. Les formes durent une heure.\n\nS’il canalise ce pouvoir plusieurs fois, il ne peut avoir plus de trois de ses effets non instantanés actifs à la fois, et il peut dissiper un tel effet par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "controle-du-feu",
-        "MetaDescription": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Contrôle du feu : façonnez les flammes, changez leur apparence ou éteignez-les, puis chauffez les armes et armures pour brûler vos adversaires.",
+        "HtmlContent": "Contrôle du feu permet d’étendre ou d’éteindre les flammes, d’en modifier la lumière et la couleur ou d’y animer des silhouettes. Aux niveaux supérieurs, le personnage chauffe des objets métalliques pour brûler leurs porteurs et gêner leurs actions.",
+        "Summary": "Manipulez les flammes et chauffez armes et armures pour brûler vos ennemis."
       }
     }
   }

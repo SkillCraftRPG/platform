@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3eaefe77-e3bf-45cd-a9a3-c62677eb0b3b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "decharge",
+    "DisplayName": "Décharge",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "decharge",
+      "DisplayName": "Décharge",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "decharge",
+        "MetaDescription": "Découvrez Décharge : électrocutez vos ennemis au toucher, attirez-les avec un fouet électrique et maintenez un arc de foudre pour leur infliger des dégâts.",
+        "Summary": "Électrocutez vos ennemis, attirez-les et frappez-les avec un arc de foudre.",
+        "HtmlContent": "Décharge permet d’étourdir une créature avec un choc de foudre ou de l’attirer avec un fouet électrique. Aux niveaux supérieurs, le personnage crée un arc de foudre soutenu, qu’il peut maintenir pour infliger automatiquement des dégâts à chaque tour."
+      }
+    }
+  }
+}

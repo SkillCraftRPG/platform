@@ -1,0 +1,32 @@
+﻿{
+  "Id": "42f34a56-c7c0-4b60-8c97-25a3c009735d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vide_HungerOfHadar",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6f85e932-572c-421d-af05-074c5bc79f8f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vide_HungerOfHadar",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un tentacule de poulpe mariné.",
+        "HtmlContent": "Le personnage ouvre une porte vers l’obscurité entre les étoiles, une région infestée d’horreurs inconnues. Une sphère de noirceur et de froid mordant de 6 mètres de rayon apparaît, centrée sur un point dans la portée, et dure pendant la durée. Ce vide est rempli d’une cacophonie de murmures doux et de bruits de succion qui peuvent être entendus jusqu’à 9 mètres. Aucune [lumière](/regles/aventure/environnement/vision), magique ou non, ne peut illuminer la zone, et les créatures entièrement situées dans la zone sont [aveuglées](/regles/combat/conditions/aveugle).\n\nLe vide crée une distorsion dans le tissu de l’espace, et la zone est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile). Toute créature qui débute son [tour](/regles/combat/deroulement/tour) dans la zone reçoit [2d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types). Toute créature qui termine son tour dans la zone doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir 2d6 points de dégâts d’[acide](/regles/combat/degats/types) lorsque des tentacules laiteux et d’outre-monde la frôlent. La moitié de la [Puissance](/regles/statistiques/puissance) du personnage est ajoutée aux points de dégâts infligés."
+      }
+    }
+  }
+}

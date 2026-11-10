@@ -1,0 +1,30 @@
+﻿{
+  "Id": "5e166e71-2eb3-4477-959c-2cd1d8e03eac",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CoupDeTonnerre_Thunderwave2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9b5f9096-8108-4946-b67d-868bfbfa4972\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CoupDeTonnerre_Thunderwave2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais les [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types) infligés augmentent à [4d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

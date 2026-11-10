@@ -1,0 +1,27 @@
+﻿{
+  "Id": "335c1422-4089-48ee-a04f-ec9845bb372e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "mistral",
+    "DisplayName": "Mistral",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "mistral",
+      "DisplayName": "Mistral",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "mistral",
+        "MetaDescription": "Découvrez Mistral : engourdissez ou ralentissez l'ennemi avec un rayon glacial, projetez un cône de froid ou déclenchez une rafale de boules de neige magiques.",
+        "HtmlContent": "Mistral permet d'attaquer une cible avec un rayon de froid qui l'engourdit ou ralentit ses pas. À des niveaux supérieurs, le personnage projette un cône de froid capable de geler les liquides, puis une rafale de boules de neige magiques sur une zone.",
+        "Summary": "Engourdissez ou ralentissez vos ennemis avec des rafales de froid glacial."
+      }
+    }
+  }
+}

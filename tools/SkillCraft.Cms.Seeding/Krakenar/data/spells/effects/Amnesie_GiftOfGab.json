@@ -1,0 +1,31 @@
+﻿{
+  "Id": "d6ce0320-524e-4505-9191-67a7f4a9a4f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amnesie_GiftOfGab",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e8e956bf-fd3e-438f-8586-837f47963b07\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amnesie_GiftOfGab",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsqu’il canalise ce pouvoir, le personnage remodèle habilement les souvenirs des auditeurs dans son voisinage, de sorte que chaque créature de son choix située à 3&nbsp;mètres ou moins de sa position oublie tout ce qu’il a dit pendant la dernière minute. Ces créatures se souviennent alors que le personnage a en fait dit les mots qu’il prononce comme composante verbale du pouvoir.",
+        "Material": "2 deniers."
+      }
+    }
+  }
+}

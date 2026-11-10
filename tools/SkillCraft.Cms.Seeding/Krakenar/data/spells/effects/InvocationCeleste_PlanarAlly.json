@@ -1,0 +1,30 @@
+﻿{
+  "Id": "144796a1-0cd2-48fe-87a7-d670a7485d1a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationCeleste_PlanarAlly",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9066b351-698b-424d-a39b-b50753d4688a\"]",
+      "Level": "1",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationCeleste_PlanarAlly",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage implore l’aide d’une entité d’un autre monde. L’être doit lui être connu : une divinité, un primordial, un prince démoniaque, ou quelque autre être de puissance cosmique. Cette entité envoie un célestiel, un élémentaire ou un infernal qui lui est loyal pour l’aider, faisant apparaître la créature dans un espace inoccupé dans la portée. S’il connaît le nom d’une créature précise, il peut le prononcer lorsqu’il canalise le pouvoir afin de la demander, bien qu’il puisse recevoir une créature différente (au choix du maître de jeu).\n\nLorsque la créature apparaît, elle n’est sous aucune contrainte de se comporter d’une manière particulière. Le personnage peut lui demander d’accomplir un service en échange d’un paiement, mais elle n’y est pas obligée. La tâche demandée peut aller du simple (franchir un gouffre en vol, aider à combattre) au complexe (espionner des ennemis, protéger le groupe durant une exploration). Il doit pouvoir communiquer avec la créature pour négocier ses services.\n\nLe paiement peut prendre diverses formes. Un célestiel peut exiger une donation substantielle d’or ou d’objets magiques à un temple allié, tandis qu’un infernal peut réclamer un sacrifice vivant ou un don de trésor. Certaines créatures échangent leur service contre une quête entreprise par le personnage.\n\nEn règle générale, une tâche mesurable en minutes exige un paiement d’une valeur de [100 deniers](/regles/equipement/monnaie) par minute. Une tâche mesurable en heures exige 1&nbsp;000 deniers par heure. Une tâche mesurable en jours (jusqu’à 10 jours) exige 10&nbsp;000 deniers par jour. Le maître de jeu peut ajuster ces paiements selon les circonstances. Si la tâche s’accorde avec l’éthique de la créature, le paiement peut être réduit de moitié ou même renoncé. Les tâches non dangereuses n’exigent typiquement que la moitié du paiement suggéré, tandis que les tâches particulièrement dangereuses peuvent exiger un don plus important. Les créatures acceptent rarement des tâches qui semblent suicidaires.\n\nAprès que la créature a accompli la tâche, ou lorsque la durée de service convenue expire, elle retourne dans sa dimension d’origine après avoir fait rapport au personnage, si cela convient à la tâche et si c’est possible. S’ils ne parviennent pas à s’entendre sur un prix, la créature retourne immédiatement dans sa dimension d’origine.\n\nUne créature engagée pour rejoindre le groupe en compte comme un membre, recevant une part entière des points d’[expérience](/regles/personnages/progression/experience) accordés."
+      }
+    }
+  }
+}

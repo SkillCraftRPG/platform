@@ -1,0 +1,29 @@
+﻿{
+  "Id": "55c15b5d-7f9f-4226-ba74-eefb7d562c72",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Decharge_LightningLure",
+    "DisplayName": "Appât électrique",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3eaefe77-e3bf-45cd-a9a3-c62677eb0b3b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Decharge_LightningLure",
+      "DisplayName": "Appât électrique",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un fouet d’électricité qui frappe une créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) située à 4,5 mètres ou moins de sa position. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou être tirée d’vau plus 3 mètres en ligne droite ers le personnage, puis recevoir [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) si elle se trouve alors à 1,5&nbsp;mètres ou moins de sa position."
+      }
+    }
+  }
+}

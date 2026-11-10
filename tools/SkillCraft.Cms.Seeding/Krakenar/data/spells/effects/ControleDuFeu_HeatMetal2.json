@@ -1,0 +1,32 @@
+﻿{
+  "Id": "d1593c0a-b2a9-4888-936b-4835b0b8e960",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDuFeu_HeatMetal2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"182f0545-fc3e-45ef-90b0-9092cec5c132\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDuFeu_HeatMetal2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un morceau de fer et une flamme.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais les [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) infligés augmentent à [1d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

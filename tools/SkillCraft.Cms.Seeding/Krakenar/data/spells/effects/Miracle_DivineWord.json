@@ -1,0 +1,29 @@
+﻿{
+  "Id": "c097ddf8-4be9-416e-bc9c-6ae74af919bb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Miracle_DivineWord",
+    "DisplayName": "Parole divine",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b052db83-e841-4da6-b862-767fc08c0d67\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Miracle_DivineWord",
+      "DisplayName": "Parole divine",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce une parole divine, imprégnée de la puissance qui façonna le monde à l’aube de la création. Il désigne n’importe quel nombre de créatures qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Chaque créature qui peut l’entendre doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, une créature subit un effet selon sa [Vitalité](/regles/statistiques/vitalite) courante :\n\n- 50 points ou moins : [assourdie](/regles/combat/conditions/assourdi) pendant une minute\n- 40 points ou moins : assourdie et [aveuglée](/regles/combat/conditions/aveugle) pendant 10 minutes\n- 30 points ou moins : aveuglée, assourdie et [assommée](/regles/combat/conditions/assomme) pendant une heure\n- 20 points ou moins : [tuée](/regles/combat/mort-agonie) instantanément\n\nIndépendamment de sa Vitalité actuelle, un célestiel, un élémentaire, une fée ou un infernal qui échoue le jet de sauvegarde est renvoyé dans sa dimension d’origine (s’il ne s’y trouve pas déjà) et ne peut revenir dans la dimension actuelle du personnage pendant 24 heures par aucun moyen autre qu’une capacité surnaturelle de très grande puissance."
+      }
+    }
+  }
+}

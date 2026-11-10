@@ -1,0 +1,32 @@
+﻿{
+  "Id": "e8735abb-4454-4881-a349-70d3ff39ecbf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationInfernale_SummonGreaterDemon",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9a320da3-b3a7-444f-8262-be96855f8825\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationInfernale_SummonGreaterDemon",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une fiole de sang d’un humanoïde tué au cours des 24 dernières heures.",
+        "HtmlContent": "Le personnage prononce des paroles impies et trace un cercle au sol avec le sang. Le cercle est assez grand pour englober son espace seulement. Le démon invoqué ne peut ni traverser le cercle ni l’endommager, et il ne peut cibler personne à l’intérieur. Il invoque un démon depuis le chaos des Abysses de niveau 5 ou moins.\n\nLe joueur choisit le démon, et celui-ci apparaît dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le démon est [hostile](/regles/aventure/interaction-sociale), envers toutes les créatures, y compris le personnage. Il possède sa propre [Initiative](/regles/statistiques/initiative) et joue pendant son propre [tour](/regles/combat/deroulement/tour). Le démon disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nAu moment où le démon est invoqué, et à chacun des tours du personnage par la suite, le personnage peut donner un ordre verbal au démon en [action libre](/regles/combat/deroulement/tour), lui indiquant ce qu’il doit faire lors de son prochain tour. S’il ne donne aucun ordre, le démon passe son tour à [attaquer](/regles/combat/attaque) toute créature à sa portée qui l’a attaqué.\n\nÀ la fin de chacun de ses tours, le démon effectue un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). Le test est affligé du [désavantage](/regles/competences/tests/avantage-desavantage) si le personnage a invoqué le démon en prononçant son vrai nom. En cas d’échec, le démon continue d’obéir. En cas de réussite, le contrôle du personnage sur le démon prend fin pour le reste de la durée, et le démon passe ses tours à [poursuivre](/regles/combat/activites/deplacement) et à attaquer les créatures non démoniaques les plus proches, du mieux qu’il le peut. Si le personnage perd sa [concentration](/regles/magie/parametres/duree) avant que le pouvoir n’atteigne sa durée complète, un démon incontrôlé ne disparaît qu’après 1d6 [rounds](/regles/combat/deroulement) s’il lui reste des points de Vitalité."
+      }
+    }
+  }
+}

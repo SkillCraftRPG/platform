@@ -1,0 +1,31 @@
+﻿{
+  "Id": "b3812a79-797e-42e5-bcb3-7fc09efdb478",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ConvoiDivin_PlaneShift",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"145d300e-0529-436b-9a7d-df4edfbba15c\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ConvoiDivin_PlaneShift",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage et jusqu’à huit créatures consentantes qui se tiennent par la main en cercle sont transportés vers une autre dimension. Il peut indiquer une destination cible en termes généraux, et le groupe apparaît dans cette destination ou à proximité. Le maître de jeu détermine l’emplacement exact d’arrivée.\n\nAlternativement, s’il connaît la séquence de symboles d’un [cercle de téléportation](/regles/magie/pouvoirs/porte-dimensionnelle) situé dans une autre dimension, ce pouvoir peut l’y conduire. Si le cercle est trop petit pour contenir toutes les créatures transportées, elles apparaissent dans les espaces [inoccupés](/regles/aventure/mouvement/espace-occupe) les plus proches du cercle.\n\nLe personnage peut également utiliser ce pouvoir en touchant une créature afin de la [bannir](/regles/magie/pouvoirs/sceau-magique) vers une autre dimension. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être transportée vers un emplacement aléatoire de la dimension qu’il précise. Elle peut volontairement échouer le jet de sauvegarde. Une créature ainsi transportée doit trouver par elle-même le moyen de revenir dans la dimension actuelle du personnage.",
+        "Focus": "Une tige métallique fourchue d’une valeur d’au moins 250 deniers accordée à la dimension."
+      }
+    }
+  }
+}

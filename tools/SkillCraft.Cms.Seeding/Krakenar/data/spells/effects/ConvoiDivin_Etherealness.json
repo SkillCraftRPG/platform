@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c16f77c7-46c5-403b-b7b7-1a2ada354911",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ConvoiDivin_Etherealness",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"145d300e-0529-436b-9a7d-df4edfbba15c\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ConvoiDivin_Etherealness",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage passe dans les régions frontalières de la dimension éthérée, là où elle chevauche sa dimension actuelle. Ce pouvoir n’a aucun effet s’il le canalise alors qu’il se trouve déjà dans la dimension éthérée ou dans une dimension qui ne la borde pas. Il demeure sur cette frontière pendant la durée, ou jusqu’à ce qu’il mette fin au pouvoir par une [action](/regles/combat/deroulement/tour). Pendant ce temps, il peut [se déplacer](/regles/aventure/mouvement) dans n’importe quelle direction. S’il monte ou descend en altitude, sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite de moitié. Il peut [voir](/regles/aventure/environnement/vision) et [entendre](/regles/combat/conditions/assourdi) la dimension d’où il vient, mais tout y paraît gris, et il ne peut rien voir au-delà de 18 mètres.\n\nTant qu’il se trouve dans la dimension éthérée, il ne peut affecter et n’être affecté que par d’autres créatures qui s’y trouvent également. Les créatures qui n’y sont pas ne peuvent ni le percevoir ni interagir avec lui, sauf si une capacité surnaturelle leur permet.\n\nIl ignore tous les objets et effets qui ne se trouvent pas dans la dimension éthérée, ce qui lui permet de traverser les objets qu’il perçoit dans sa dimension d’origine. Lorsque le pouvoir prend fin, il retourne immédiatement dans sa dimension d’origine à l’emplacement qu’il occupe alors. S’il occupe le même emplacement qu’un objet solide ou qu’une créature, il est aussitôt déplacé vers l’espace inoccupé le plus proche qu’il peut occuper et reçoit un nombre de [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) égal à 10 pour chaque 1,5 mètres dont il est déplacé."
+      }
+    }
+  }
+}

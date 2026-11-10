@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5edaddd5-1141-4e8f-b247-f3e8eaa2f999",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temporalite_HurryDelay",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"eff15283-2941-4dd1-8fd4-997a0a6653da\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temporalite_HurryDelay",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un copeau de racine de réglisse (Hâte) ou une goutte de mélasse (Entrave).",
+        "HtmlContent": "Le personnage accélère ou ralentit brièvement le temps pour une créature (autre que lui) de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Une créature non consentante doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas de réussite, le pouvoir n’a aucun effet. Sinon, le personnage choisit l’un des effets suivants :\n\n- **Hâte.** L’[Initiative](/regles/combat/deroulement/initiative) de la cible augmente à une valeur supérieure à sa valeur actuelle et inférieure à celle du personnage, au choix de ce dernier. La cible se voit également conférer un bonus (+2) à l’[Esquive](/regles/combat/attaque/esquive) ainsi que l’[avantage](/regles/competences/tests/avantage-desavantage) à ses jets de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) pendant la durée du pouvoir.\n- **Entrave.** L’Initiative de la cible diminue à une valeur inférieure à sa valeur actuelle et inférieure à celle du personnage, au choix de ce dernier. La cible se voit également affligée d’une pénalité (–2) à l’Esquive ainsi que le [désavantage](/regles/competences/tests/avantage-desavantage) à ses jets de sauvegarde d’Acrobaties pendant la durée du pouvoir."
+      }
+    }
+  }
+}

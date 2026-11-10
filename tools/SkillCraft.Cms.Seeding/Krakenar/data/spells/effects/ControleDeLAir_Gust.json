@@ -1,0 +1,30 @@
+﻿{
+  "Id": "d3ac3b37-7af0-4a32-8710-049d721eb371",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLAir_Gust",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29f69009-c09f-400b-b103-782f11352414\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLAir_Gust",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage saisit l’air et le contraint à produire l’un des effets suivants en un point qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée :\n\n- Une créature de [taille](/regles/especes/taille) moyenne ou inférieure de son choix doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme) ou être repoussée d’au plus 1,5 mètres loin du personnage.\n- Il crée une petite bourrasque capable de déplacer un objet qui n’est ni tenu ni porté et qui pèse au plus 2,5 kilogrammes. L’objet est poussé d’au plus 3 mètres loin du personnage. Il n’est pas poussé avec assez de force pour infliger des [points de dégâts](/regles/combat/degats).\n- Il crée un effet sensoriel inoffensif au moyen de l’air, par exemple faire bruisser des feuilles, claquer des volets ou faire onduler ses vêtements dans une brise."
+      }
+    }
+  }
+}

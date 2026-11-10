@@ -1,0 +1,30 @@
+﻿{
+  "Id": "bb71d58f-46f4-4ccd-9d29-db6178915ea5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ReseauDeRacine_TransportViaPlants",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"0a4c913b-4506-4c7d-8343-597889d08219\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ReseauDeRacine_TransportViaPlants",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un lien magique entre une plante inanimée de taille [Grande](/regles/especes/taille) ou supérieure située dans la portée et une autre plante, à n’importe quelle distance, dans la même dimension. Le personnage doit avoir vu ou touché la plante de destination au moins une fois auparavant. Pendant la durée, toute créature peut entrer dans la plante cible et ressortir par la plante de destination en dépensant un [point de mouvement](/regles/aventure/mouvement/vitesse)."
+      }
+    }
+  }
+}

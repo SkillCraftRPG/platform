@@ -1,0 +1,31 @@
+﻿{
+  "Id": "1147f312-b08f-4a4d-92d8-f61cb105edb1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Bosquet_WrathOfNature",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c8495acc-454f-469d-9aa8-822346289f3a\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Bosquet_WrathOfNature",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage appelle les esprits de la nature afin de les dresser contre ses ennemis. Il désigne un point qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Les esprits animent les arbres, les roches et les herbes dans un cube de 18 mètres d’arête centré sur ce point jusqu’à la fin du pouvoir.\n\n- **Arbres.** Au début de chacun de ses [tours](/regles/combat/deroulement/tour), une créature [hostile](/regles/aventure/interaction-sociale) envers le personnage située à 3 mètres ou moins d’un arbre dans la zone doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types) des branches le fouettant.\n- **Herbes et broussailles.** Toute portion de sol dans la zone couverte d’herbe ou de broussailles est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) pour une créature hostile envers le personnage.\n- **Racines et vignes.** À la fin de chacun de ses tours, une créature de son choix qui se trouve au sol dans la zone doit réussir un jet de sauvegarde d’[Athlétisme](/regles/competences/athletisme) ou être [restreinte](/regles/combat/conditions/restreint) jusqu’à la fin du pouvoir. Une créature restreinte peut tenter de [s’échapper](/regles/combat/activites/echapper) par un [test](/regles/competences/tests) d’Athlétisme, mettant fin à l’effet sur elle-même en cas de réussite.\n- **Rochers.** Une fois par tour, par une [action](/regles/combat/deroulement/tour), le personnage peut faire lancer une roche détachée de la zone contre une créature qu’il peut voir dans la zone. Il effectue une [attaque](/regles/magie/effets/attaque) par un test d’[Occultisme](/regles/competences/occultisme). En cas de réussite, l’impact inflige [1d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) non magiques, et elle doit réussir un jet de sauvegarde d’Athlétisme ou tomber [renversée](/regles/combat/conditions/renverse)."
+      }
+    }
+  }
+}

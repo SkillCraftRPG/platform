@@ -1,0 +1,30 @@
+﻿{
+  "Id": "3012e8fb-ebd4-441a-a4c5-1f84f7f23f1a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLAir_WardingWind",
+    "DisplayName": "Rempart venteux",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29f69009-c09f-400b-b103-782f11352414\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLAir_WardingWind",
+      "DisplayName": "Rempart venteux",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un vent fort (30 kilomètres à l’heure) souffle autour du personnage dans un rayon de 3 mètres et se déplace avec lui, demeurant centré sur sa position. Le vent a les effets suivants :\n\n- Il [assourdit](/regles/combat/conditions/assourdi) les créatures dans la zone, incluant le personnage.\n- Il éteint les flammes non protégées dans sa zone qui sont de la taille d’une torche ou moindre.\n- La zone est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile), sauf pour le personnage.\n- Le [test](/regles/competences/tests) des [attaques à distance](/regles/combat/attaque/distance) traversant le vent en y entrant ou en y sortant est affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- Il tient à l’écart vapeur, gaz et brouillard pouvant être dispersés par un vent fort."
+      }
+    }
+  }
+}

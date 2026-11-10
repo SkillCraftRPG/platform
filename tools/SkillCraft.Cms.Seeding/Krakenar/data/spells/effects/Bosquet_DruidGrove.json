@@ -1,0 +1,32 @@
+﻿{
+  "Id": "704e6d69-6a31-427e-b41e-d27ba6575b47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Bosquet_DruidGrove",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c8495acc-454f-469d-9aa8-822346289f3a\"]",
+      "Level": "1",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "false",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Bosquet_DruidGrove",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque les esprits de la nature afin de protéger une zone en extérieur ou sous terre. La zone peut être aussi petite qu’un cube de 9 mètres d’arête ou aussi grande qu’un cube de 27 mètres d’arête. Les bâtiments et autres structures sont exclus de la zone affectée. S’il canalise ce pouvoir dans la même zone chaque jour pendant une année, le pouvoir dure jusqu’à dissipation. Le pouvoir crée les effets suivants dans la zone. Lorsqu’il le canalise, il peut désigner des créatures comme amies, immunisées à ces effets. Il peut également préciser un mot de passe qui, prononcé à voix haute, rend l’orateur immunisé à ces effets. Toute la zone protégée rayonne de magie. Une [dissipation](/regles/magie/pouvoirs/protection-contre-la-magie) canalisée sur la zone, si elle réussit, ne retire qu’un des effets suivants, et non la zone entière. Celui qui canalise cette dissipation choisit quel effet prendre fin. Ce n’est que lorsque tous ses effets ont disparu que le présent pouvoir est dissipé.\n\n- **Brouillard dense.** Il peut remplir n’importe quel nombre de cases de 1,5 mètres au sol d’un brouillard épais, les rendant [lourdement obscurcies](/regles/aventure/environnement/vision). Le brouillard s’élève à 3 mètres. Une créature [se déplaçant](/regles/combat/activites/deplacement) dans le brouillard voit sa vitesse divisée par 3. Pour une créature immunisée à cet effet, le brouillard n’obscurcit rien, ne la ralentit pas, et apparaît comme une brume douce, avec des particules de lumière verte flottant dans l’air.\n- **Broussailles agrippantes.** Il peut remplir n’importe quel nombre de cases de 1,5 mètres au sol qui ne sont pas remplies de brouillard d’herbes et de vignes agrippantes, comme sous l’effet du pouvoir [Enchevêtrement](/regles/magie/pouvoirs/vignes-epineuses). Pour une créature immunisée à cet effet, les herbes et vignes semblent douces et se remodèlent afin de servir de sièges ou de lits temporaires.\n- **Gardiens du bosquet.** Il peut animer jusqu’à quatre arbres dans la zone, les faisant se déraciner. Ces arbres ont les mêmes statistiques qu’un [arbre éveillé](/regles/magie/pouvoirs/eveil-vegetal), sauf qu’ils ne peuvent parler et que leur écorce est couverte de symboles druidiques. Si une créature non immunisée à cet effet entre dans la zone protégée, les gardiens du bosquet combattent jusqu’à avoir chassé ou tué les intrus. Les gardiens obéissent également aux ordres verbaux du personnage, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) tant qu’il se trouve dans la zone. S’il ne leur donne aucun ordre et qu’aucun intrus n’est présent, les gardiens ne font rien. Les gardiens ne peuvent quitter la zone protégée. Lorsque le pouvoir prend fin, la magie qui les anime disparaît, et les arbres s’enracinent à nouveau si possible.\n- **Effet supplémentaire.** Il peut placer dans la zone protégée l’un des effets magiques suivants, au choix. Pour une créature immunisée à cet effet, les vents sont une brise parfumée et douce, et la zone d’épines est inoffensive.\n  - Une [Bourrasque](/regles/magie/pouvoirs/controle-de-l-air) constante en deux emplacements de son choix ;\n  - Une [Croissance d’épines](/regles/magie/pouvoirs/vignes-epineuses) en un emplacement de son choix ;\n  - Un [Mur de vent](/regles/magie/pouvoirs/vents-violents) en deux emplacements de son choix.",
+        "Material": "Du gui cueilli avec une serpe d’or à la lumière de la pleine lune."
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5dae24b5-6abd-4bd9-b9b3-bb14e75a2dc1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mistral_SnillocsSnowballSwarm",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"335c1422-4089-48ee-a04f-ec9845bb372e\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "18",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mistral_SnillocsSnowballSwarm",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit éclat de pierre blanche.",
+        "HtmlContent": "Ce pouvoir ne nécessite qu’un petit éclat de pierre blanche ou un morceau de glace, et non les deux.\n\nUne rafale de boules de neige magiques jaillit d’un point que le personnage choisit dans la portée. Chaque créature dans une sphère de 1,5 mètres de rayon centrée sur ce point doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts.",
+        "Material": "Un morceau de glace."
+      }
+    }
+  }
+}

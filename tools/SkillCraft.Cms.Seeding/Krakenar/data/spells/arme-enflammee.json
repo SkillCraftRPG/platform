@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b07e7e81-0f5f-4a7c-8fa7-509d99699a32",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "arme-enflammee",
+    "DisplayName": "Arme enflammée",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "arme-enflammee",
+      "DisplayName": "Arme enflammée",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "arme-enflammee",
+        "MetaDescription": "Découvrez Arme enflammée : embrasez vos attaques de mêlée, invoquez une lame de feu et enchantez des flèches ou carreaux pour infliger des dégâts brûlants.",
+        "Summary": "Enflammez vos attaques, invoquez une lame de feu et embrasez vos munitions.",
+        "HtmlContent": "Arme enflammée permet de propager une flamme d’une cible frappée à une autre créature voisine. Aux niveaux supérieurs, le personnage invoque une lame de feu lumineuse ou enchante son carquois pour ajouter des dégâts de feu à ses prochaines munitions."
+      }
+    }
+  }
+}

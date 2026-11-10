@@ -1,0 +1,32 @@
+﻿{
+  "Id": "09cae213-57cc-4725-82f7-8ef9dd61d8cd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmeEnflammee_FlameBlade",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b07e7e81-0f5f-4a7c-8fa7-509d99699a32\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmeEnflammee_FlameBlade",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une feuille de sumac.",
+        "HtmlContent": "Le personnage évoque une lame enflammée dans une main libre. La lame est de taille et de forme similaires à celles d’un [cimeterre](/regles/equipement/armes/martiales), et elle dure pendant la durée. S’il [lâche](/regles/combat/activites/lacher) la lame, elle disparaît, mais il peut l’évoquer à nouveau par une [action](/regles/combat/deroulement/tour) tant qu’il [maintient](/regles/combat/activites/concentration) sa [concentration](/regles/magie/parametres/duree). Par une [action](/regles/combat/deroulement/tour), il peut effectuer une [attaque de mêlée](/regles/magie/effets/attaque). En cas de réussite, la cible reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types). La lame enflammée émet de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 3 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 3 mètres additionnels."
+      }
+    }
+  }
+}

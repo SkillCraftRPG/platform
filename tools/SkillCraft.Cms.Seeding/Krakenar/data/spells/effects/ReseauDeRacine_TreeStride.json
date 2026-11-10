@@ -1,0 +1,31 @@
+﻿{
+  "Id": "5d670495-1bd7-47cb-b650-2f78be48d756",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ReseauDeRacine_TreeStride",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Level": "0",
+      "Spell": "[\"0a4c913b-4506-4c7d-8343-597889d08219\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ReseauDeRacine_TreeStride",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert la capacité d’entrer dans un arbre et de se déplacer de l’intérieur de celui-ci vers l’intérieur d’un autre arbre de la même espèce situé à 150 mètres ou moins.\n\nLes deux arbres doivent être vivants et au moins de la même [taille](/regles/especes/taille) que le personnage. Il doit dépenser un [point de mouvement](/regles/aventure/mouvement/vitesse) afin d’entrer dans un arbre. Il connaît instantanément l’emplacement de tous les autres arbres de la même espèce situés à 150 mètres ou moins et, dans le cadre du déplacement utilisé pour entrer dans l’arbre, peut soit passer dans l’un de ces arbres, soit ressortir de l’arbre dans lequel il se trouve. Il apparaît à un endroit de son choix situé à 1,5 mètres ou moins de l’arbre de destination, en dépensant encore un point de mouvement. S’il n’a plus de mouvement, il apparaît à 1,5 mètres ou moins de l’arbre dans lequel il est entré.\n\nIl peut utiliser cette capacité de transport une fois par [round](/regles/combat/deroulement) pendant la durée. Il doit terminer chacun de ses [tours](/regles/combat/deroulement/tour) à l’extérieur d’un arbre."
+      }
+    }
+  }
+}

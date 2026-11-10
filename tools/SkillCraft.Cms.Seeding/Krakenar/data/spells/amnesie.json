@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "amnesie",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Amnésie : effacez vos paroles de la mémoire des témoins, semez la confusion chez vos ennemis et réécrivez les souvenirs d’une créature.",
+        "Summary": "Effacez des paroles, désorientez vos ennemis et altérez leurs souvenirs.",
+        "HtmlContent": "Amnésie permet d’effacer de la mémoire des témoins les paroles dites durant la dernière minute. À des niveaux supérieurs, le personnage sème la confusion dans un groupe de créatures, puis peut effacer, modifier ou inventer le souvenir d’un événement."
       }
     }
   }

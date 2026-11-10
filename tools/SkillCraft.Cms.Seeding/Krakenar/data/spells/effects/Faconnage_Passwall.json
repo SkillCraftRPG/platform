@@ -1,0 +1,31 @@
+﻿{
+  "Id": "014f4961-e8b7-49d5-a6d1-f91cae5bf813",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Faconnage_Passwall",
+    "DisplayName": "Passe-muraille",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6561c1d5-2218-4bbd-a352-b8da1b5df759\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Faconnage_Passwall",
+      "DisplayName": "Passe-muraille",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de graines de sésame.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision) sur une surface de bois, de plâtre ou de pierre (telle qu’un mur, un plafond ou un plancher) dans la portée, et un passage y apparaît pendant la durée. Il choisit les dimensions de l’ouverture : au plus 1,5 mètres de large, 2,5 mètres de haut et 6 mètres de profondeur. Le passage ne crée aucune instabilité dans la structure qui l’entoure. Lorsque l’ouverture disparaît, toute créature ou tout objet encore dans le passage créé par le pouvoir est expulsé en toute sécurité vers un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) le plus proche de la surface sur laquelle le pouvoir a été canalisé."
+      }
+    }
+  }
+}

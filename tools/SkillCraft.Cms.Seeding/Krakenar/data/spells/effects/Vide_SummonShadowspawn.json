@@ -1,0 +1,32 @@
+﻿{
+  "Id": "3271699b-9dc8-4643-8619-2aeeec041342",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vide_SummonShadowspawn",
+    "DisplayName": "Invocation ténébreuse",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6f85e932-572c-421d-af05-074c5bc79f8f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vide_SummonShadowspawn",
+      "DisplayName": "Invocation ténébreuse",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Des larmes dans une fiole de cristal d’une valeur d’au moins 400 deniers.",
+        "HtmlContent": "Le personnage invoque un esprit ténébreux qui se manifeste dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **Désespoir**, **Fureur** ou **Terreur**. L’esprit ressemble à une aberration de la forme choisie ; cette forme détermine ses traits et caractéristiques. Il disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLa créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/statistiques/initiative) et agit immédiatement après son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) pendant son tour. S’il n’en donne aucun, elle se place en position défensive et se déplace afin d’éviter les dangers.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "1ff78c18-79fb-4327-986a-c4fd4bf4bad0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Miracle_Heal",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b052db83-e841-4da6-b862-767fc08c0d67\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Miracle_Heal",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante. Une vague d’énergie positive parcourt la créature, qui [récupère](/regles/combat/degats/soins) 60 points de [Vitalité](/regles/statistiques/vitalite). Le pouvoir met également fin à la [cécité](/regles/combat/conditions/aveugle), à la [surdité](/regles/combat/conditions/assourdi), à tout poison et toute maladie affectant la cible, ainsi qu’à tout effet de [peur](/regles/combat/conditions/apeure), [charme](/regles/combat/conditions/charme) ou possession. Ce pouvoir n’a aucun effet sur les constructions ni les morts-vivants."
+      }
+    }
+  }
+}

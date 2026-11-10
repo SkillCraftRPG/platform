@@ -1,0 +1,31 @@
+﻿{
+  "Id": "12c7cec0-7383-4ab0-84ce-f8856fa885c9",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "Vide_ArmsOfHadar",
+    "DisplayName": "Poulpe",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6f85e932-572c-421d-af05-074c5bc79f8f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Poulpe",
+      "DisplayName": "Poulpe",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un tentacule de poulpe mariné.",
+        "HtmlContent": "Des tentacules laiteux et d’outre-monde jaillissent du personnage afin de frôler toute créature située à 3 mètres ou moins de sa position. Chaque cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme). En cas d’échec, une cible reçoit [4d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) et est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). En cas de réussite, une cible ne reçoit que la moitié des points de dégâts et ne subit aucun autre effet."
+      }
+    }
+  }
+}

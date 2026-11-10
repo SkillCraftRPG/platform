@@ -1,0 +1,32 @@
+﻿{
+  "Id": "49a18c70-b1df-42f2-9e13-38b9f6e94f06",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatSolaire_Dawn",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"afe09da5-94d1-4b1a-8084-923074607a3b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatSolaire_Dawn",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un pendentif d’éclat solaire d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "La lumière de l’aube brille sur un emplacement que le personnage désigne dans la portée. Jusqu’à la fin du pouvoir, un cylindre de [clarté](/regles/aventure/environnement/vision) de 9 mètres de rayon et de 12 mètres de haut y scintille. Cette lumière est de la lumière du soleil. Lorsque le cylindre apparaît, chaque créature qui s’y trouve doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [4d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts. Une créature doit également effectuer ce jet de sauvegarde chaque fois qu’elle termine son [tour](/regles/combat/deroulement/tour) dans le cylindre. Une fois par tour, si le personnage se trouve à 18 mètres ou moins du cylindre, il peut le déplacer d’au plus 18 mètres par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

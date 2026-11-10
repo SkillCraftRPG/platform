@@ -1,0 +1,29 @@
+﻿{
+  "Id": "92397131-b89b-4acd-a70a-a1dc77382caa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ConvoiDivin_WordOfRecall",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"145d300e-0529-436b-9a7d-df4edfbba15c\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ConvoiDivin_WordOfRecall",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage et jusqu’à quatre créatures consentantes qu’il touche se téléportent instantanément vers un sanctuaire préalablement désigné. Lui et les créatures qui se téléportent avec lui apparaissent dans l’espace inoccupé le plus proche de l’emplacement désigné lors de la préparation du sanctuaire. S’il canalise ce pouvoir sans avoir d’abord préparé un sanctuaire, le pouvoir n’a aucun effet. Le personnage doit désigner un sanctuaire en canalisant ce pouvoir dans un lieu, tel qu’un temple, consacré ou fortement lié à sa divinité. S’il tente de le canaliser de cette manière dans une zone qui n’est pas consacrée à sa divinité, le pouvoir n’a aucun effet."
+      }
+    }
+  }
+}

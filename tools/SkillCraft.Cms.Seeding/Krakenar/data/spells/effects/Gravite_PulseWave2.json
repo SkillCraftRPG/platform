@@ -1,0 +1,30 @@
+﻿{
+  "Id": "b8c07fa3-877b-4e23-8c5b-5192c41eaab6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gravite_PulseWave2",
+    "DisplayName": "Pulsation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ca155a10-46b4-4be8-a848-86c6a96284bf\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gravite_PulseWave2",
+      "DisplayName": "Pulsation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 3, mais la zone augmente à un cône de 9 mètres, et le personnage ajoute la totalité de sa [Puissance](/regles/statistiques/puissance) aux [points de dégâts](/regles/combat/degats) infligés plutôt que seulement la moitié."
+      }
+    }
+  }
+}

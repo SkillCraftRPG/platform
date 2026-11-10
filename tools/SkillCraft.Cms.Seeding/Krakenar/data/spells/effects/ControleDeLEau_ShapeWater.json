@@ -1,0 +1,29 @@
+﻿{
+  "Id": "85da31c6-638a-414a-8a62-5dfec9e1b55b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLEau_ShapeWater",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d12aecb0-040a-4baa-b8e7-02da32837ed4\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLEau_ShapeWater",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une portion d’eau qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée et qui tient dans un cube de 1,5 mètres d’arête. Il la manipule de l’une des façons suivantes :\n\n- Il déplace instantanément l’eau ou en altère autrement le courant selon ses indications, jusqu’à 1,5 mètres dans n’importe quelle direction. Ce déplacement n’a pas assez de force pour infliger des [points de dégâts](/regles/combat/degats).\n- Il façonne l’eau en formes simples et l’anime selon ses indications. Ce changement dure une heure.\n- Il change la couleur ou l’opacité de l’eau. L’eau doit être modifiée de la même façon partout. Ce changement dure une heure.\n- Il gèle l’eau, pourvu qu’aucune créature ne s’y trouve. L’eau dégèle en une heure.\n\nS’il canalise ce pouvoir plusieurs fois, il ne peut avoir plus de deux de ses effets non instantanés actifs à la fois, et il peut dissiper un tel effet par une [action](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

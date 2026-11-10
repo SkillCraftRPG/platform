@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "gravite",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Gravité : attirez ou repoussez créatures et objets par une onde de force, puis créez une doline gravitationnelle qui écrase et renverse vos ennemis.",
+        "Summary": "Attirez ou repoussez vos ennemis et écrasez-les dans une sphère de gravité.",
+        "HtmlContent": "Gravité permet de projeter une onde de force qui attire ou repousse créatures et objets. Aux niveaux supérieurs, le personnage crée une grande sphère gravitationnelle qui rassemble les ennemis, les renverse et transforme la zone en terrain difficile."
       }
     }
   }

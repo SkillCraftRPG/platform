@@ -1,0 +1,31 @@
+﻿{
+  "Id": "575ba05f-0cc1-4c79-b434-1fb4ef0474b6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Compulsion_Compulsion1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d06ec5e4-bcfa-4386-b11b-5b66962ca805\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Compulsion_Compulsion1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une créature dans la portée qu’il peut [voir](/regles/aventure/environnement/vision) et qui peut l’[entendre](/regles/combat/conditions/assourdi). La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) afin de ne pas être affectée. La cible réussit automatiquement ce jet de sauvegarde si elle ne peut être [charmée](/regles/combat/conditions/charme).\n\nPendant la durée, une fois par [tour](/regles/combat/deroulement/tour), le personnage peut utiliser une [action](/regles/combat/deroulement/tour) afin de désigner une direction horizontale par rapport à lui. La cible charmée doit alors effectuer un [déplacement](/regles/combat/activites/deplacement) dans cette direction pendant son prochain tour. La cible décide à quel moment pendant son tour elle effectue ce déplacement. Elle se déplace autant que possible, et s’arrête si son déplacement est bloqué, ou s’il mène à un danger manifestement mortel, tel qu’une fosse en feu, mais les déplacements effectués provoquent des [attaques d’opportunité](/regles/combat/attaque/opportunite). Après s’être déplacée de cette façon, elle peut répéter le jet de sauvegarde, mettant fin à l’effet si elle réussit."
+      }
+    }
+  }
+}

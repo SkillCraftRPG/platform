@@ -1,0 +1,31 @@
+﻿{
+  "Id": "9a7838e7-478e-4f76-b335-e537ff3488ee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLEau_CreateOrDestroyWater2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d12aecb0-040a-4baa-b8e7-02da32837ed4\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLEau_CreateOrDestroyWater2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau pour créer de l’eau, ou quelques grains de sable pour la détruire.",
+        "HtmlContent": "Le personnage crée ou détruit de l’eau.\n\n- **Création.** Il crée jusqu’à 80 litres d’eau propre dans un [contenant](/regles/equipement/general/contenants) ouvert dans la portée. Alternativement, l’eau tombe en pluie dans un cube de 12 mètres d’arête dans la portée, éteignant les flammes exposées dans la zone.\n- **Destruction.** Il détruit jusqu’à 80 litres d’eau dans un contenant ouvert dans la portée. Alternativement, il détruit le brouillard dans un cube de 12 mètres d’arête dans la portée."
+      }
+    }
+  }
+}

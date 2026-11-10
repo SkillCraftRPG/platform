@@ -1,0 +1,30 @@
+﻿{
+  "Id": "bc2c1460-842c-4ad0-91ec-7175e0019a20",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Faconnage_Fabricate",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6561c1d5-2218-4bbd-a352-b8da1b5df759\"]",
+      "Level": "1",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Faconnage_Fabricate",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage convertit des matières premières en produits de la même matière. Par exemple, il peut fabriquer un pont de bois à partir d’un groupe d’arbres, une corde à partir d’un massif de chanvre, et des vêtements à partir de lin ou de laine. Les créatures et les objets magiques ne peuvent être créés ni transmutés par ce pouvoir. Il ne peut pas non plus s’en servir afin de créer des objets qui exigent normalement un haut degré d’artisanat, tels que des bijoux, des armes, du verre ou une armure, à moins d’être [formé](/regles/talents/artisanat) au type d’[outils d’artisan](/regles/equipement/outils) servant à fabriquer de tels objets.\n\nIl désigne des matières premières qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il peut fabriquer un objet de [taille](/regles/especes/taille) grande ou inférieure (contenu dans un cube de 3 mètres d’arête, ou huit cubes de 1,5 mètres d’arête connectés), pourvu d’une quantité suffisante de matière première. S’il travaille le métal, la pierre ou une autre substance minérale, toutefois, l’objet fabriqué ne peut être plus grand que de taille moyenne (contenu dans un seul cube de 1,5 mètres d’arête). La qualité des objets créés par le pouvoir est à la mesure de celle des matières premières."
+      }
+    }
+  }
+}

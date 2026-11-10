@@ -1,0 +1,31 @@
+﻿{
+  "Id": "73dbdf93-a198-4144-9672-d3e31fb8bcd8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gravite_GravitySinkhole2",
+    "DisplayName": "Doline",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ca155a10-46b4-4be8-a848-86c6a96284bf\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gravite_GravitySinkhole2",
+      "DisplayName": "Doline",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une bille noire.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 4, mais le personnage ajoute la totalité de sa [Puissance](/regles/statistiques/puissance) aux [points de dégâts](/regles/combat/degats) infligés plutôt que seulement la moitié, et une créature déplacée est également [renversée](/regles/combat/conditions/renverse). De plus, l’intérieur de la sphère devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

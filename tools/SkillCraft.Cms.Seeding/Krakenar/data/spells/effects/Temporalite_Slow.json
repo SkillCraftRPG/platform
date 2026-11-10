@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0ae8bc4d-40d3-4ee9-8591-858c2f223cee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temporalite_Slow",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"eff15283-2941-4dd1-8fd4-997a0a6653da\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temporalite_Slow",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte de mélasse.",
+        "HtmlContent": "Le personnage altère le temps autour d’un maximum de dix créatures de son choix situées dans un cube de 12 mètres d’arête dans la portée. Chaque cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être affectée par ce pouvoir pendant la durée. La [vitesse](/regles/aventure/mouvement/vitesse) d’une cible affectée est réduite de moitié, la cible subit une pénalité (−2) à son [Esquive](/regles/statistiques/esquive), ses jets de sauvegarde d’[Acrobaties](/regles/competences/acrobaties) sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage), elle est [étourdie](/regles/combat/conditions/etourdi), et elle ne dispose que de deux [actions](/regles/combat/deroulement/tour) lors de son [tour](/regles/combat/deroulement/tour). Une cible peut répéter le jet de sauvegarde à la fin de chacun de ses tours. En cas de réussite, l’effet prend fin pour cette cible."
+      }
+    }
+  }
+}

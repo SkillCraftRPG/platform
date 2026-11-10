@@ -1,0 +1,32 @@
+﻿{
+  "Id": "7dcdd70f-b0d7-450e-8eba-d6e4882fe130",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amnesie_Confusion",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e8e956bf-fd3e-438f-8586-837f47963b07\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amnesie_Confusion",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Trois coquilles de noix.",
+        "HtmlContent": "Ce pouvoir assaille et tord l’esprit des créatures, engendrant des illusions et provoquant des actes incontrôlés. Chaque créature dans une sphère de 3 mètres de rayon centrée sur un point que le personnage désigne dans la portée doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) lorsqu’il canalise ce pouvoir, ou en être affectée. Une cible affectée est [étourdie](/regles/combat/conditions/etourdi) et doit lancer un d10 au début de chacun de ses [tours](/regles/combat/deroulement/tour) afin de déterminer son comportement pour ce tour. À la fin de ses tours, une cible affectée peut effectuer un jet de sauvegarde. En cas de réussite, l’effet prend fin pour cette cible.\n\n- **1.** La créature doit effectuer un [déplacement](/regles/combat/activites/deplacement) dans une direction aléatoire. Pour déterminer la direction, on lance un d8 et on assigne une direction à chaque face. La créature met ensuite fin à son tour.\n- **2–6.** La créature passe son tour.\n- **7–8.** Si la créature peut atteindre au moins une créature par une [attaque de mêlée](/regles/combat/attaque/melee), elle effectue cette [attaque](/regles/combat/attaque). Elle met ensuite fin à son tour, même si elle n’a pas effectué cette attaque. Si elle peut atteindre plusieurs cibles, alors sa cible est déterminée au hasard.\n- **9–10.** La créature peut [agir](/regles/combat/activites) normalement."
+      }
+    }
+  }
+}

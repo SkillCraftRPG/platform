@@ -1,0 +1,31 @@
+﻿{
+  "Id": "44a286df-76cf-4715-afd8-9d6460c5f55b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Vide_HellishRebuke",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6f85e932-572c-421d-af05-074c5bc79f8f\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Vide_HellishRebuke",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un tentacule de poulpe mariné (facultatif).",
+        "HtmlContent": "Lorsque le personnage est [blessé](/regles/combat/degats) par une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, il pointe du doigt son assaillant et murmure une invocation muette du Vide. Un tentacule laiteux et d’outre-monde jaillit du personnage et frôle l’assaillant. Celui-ci doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, l’assaillant reçoit [1d6&nbsp;+&nbsp;1d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats), est [étourdie](/regles/combat/conditions/etourdi) et souffre d’une [condition](/regles/combat/conditions) supplémentaire jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour). En cas de réussite, il ne reçoit que la moitié des points de dégâts et ne souffre d’aucun effet supplémentaire. Le [type](/regles/combat/degats/types) des dégâts ainsi que la condition supplémentaire varient en fonction du résultat du d8.\n\nAlternativement, si le personnage tient le tentacule de poulpe mariné au moment où il canalise le pouvoir, il peut choisir le type de dégâts. Il jette tout de même le d8 pour les dégâts. La condition supplémentaire dépend du type de dégâts sélectionné.\n\n<table class=\"table table-striped text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-10\">1d8</th>\n      <th scope=\"col\" class=\"w-10\">Type</th>\n      <th scope=\"col\" class=\"w-80\">Condition supplémentaire</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"w-10\">1</td>\n      <td class=\"w-10\">Poison</td>\n      <td class=\"w-80\">Un nuage toxique <a href=\"/regles/combat/conditions/empoisonne\">empoisonne</a> la cible.</td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">2</td>\n      <td class=\"w-10\">Acide</td>\n      <td class=\"w-80\">Des vapeurs âcres <a href=\"/regles/combat/conditions/aveugle\">aveuglent</a> la cible.</td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">3</td>\n      <td class=\"w-10\">Feu</td>\n      <td class=\"w-80\">\n        Des flammes noires empêchent la cible de <a href=\"/regles/combat/degats/soins\">récupérer</a> des points de\n        <a href=\"/regles/statistiques/vitalite\">Vitalité</a>.\n      </td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">4</td>\n      <td class=\"w-10\">Foudre</td>\n      <td class=\"w-80\">Un courant électrique parcourt le corps de la cible et la <a href=\"/regles/combat/conditions/paralyse\">paralyse</a>.</td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">5</td>\n      <td class=\"w-10\">Froid</td>\n      <td class=\"w-80\">Des engelures <a href=\"/regles/combat/conditions/restreint\">restreignent</a> la cible.</td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">6</td>\n      <td class=\"w-10\">Tonnerre</td>\n      <td class=\"w-80\">\n        Un bang sonore violent audible à une distance de 100 mètres <a href=\"/regles/combat/conditions/assourdi\">assourdit</a> et\n        <a href=\"/regles/combat/conditions/renverse\">renverse</a> la cible.\n      </td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">7</td>\n      <td class=\"w-10\">Psychique</td>\n      <td class=\"w-80\">Une migraine brutale <a href=\"/regles/combat/conditions/assomme\">assomme</a> la cible.</td>\n    </tr>\n    <tr>\n      <td class=\"w-10\">8</td>\n      <td class=\"w-10\">Force</td>\n      <td class=\"w-80\">Une vague d’énergie pure inflige 1d6 points de dégâts supplémentaires à la cible, la repousse de 3 mètres et la renverse.</td>\n    </tr>\n  </tbody>\n</table>"
+      }
+    }
+  }
+}

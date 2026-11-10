@@ -1,0 +1,31 @@
+﻿{
+  "Id": "8f9ce04c-70e3-4910-8293-16d7b67416f0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationCeleste_ConjureCelestial",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9066b351-698b-424d-a39b-b50753d4688a\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationCeleste_ConjureCelestial",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage invoque un célestiel de niveau 4 ou moins, qui apparaît dans un espace inoccupé qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le célestiel disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLe célestiel est [amical](/regles/aventure/interaction-sociale) envers le personnage et ses compagnons pendant la durée. Il possède sa propre [Initiative](/regles/statistiques/initiative) et joue pendant son propre [tour](/regles/combat/deroulement/tour). Il obéit à tout ordre verbal que le personnage lui donne en [action libre](/regles/combat/deroulement/tour) pendant son tour, tant que cela ne viole pas son alignement. Si le personnage ne donne aucun ordre, le célestiel se défend contre les créatures [hostiles](/regles/aventure/interaction-sociale) mais n’effectue sinon aucune action. Le maître de jeu dispose des traits et caractéristiques des créatures."
+      }
+    }
+  }
+}

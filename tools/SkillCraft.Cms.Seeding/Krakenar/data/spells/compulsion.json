@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "compulsion",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Compulsion : forcez vos ennemis à se déplacer contre leur volonté, influencez plusieurs créatures ou condamnez une cible à danser sur place.",
+        "Summary": "Forcez plusieurs créatures à se déplacer ou une cible à danser sur place.",
+        "HtmlContent": "Compulsion permet de forcer une créature à se déplacer dans une direction imposée, au risque de subir des attaques d’opportunité. Aux niveaux supérieurs, elle peut affecter plusieurs cibles ou contraindre une créature à danser sur place, restreinte."
       }
     }
   }

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "d6c49173-cd84-4145-a693-81c1a4c25ee2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CarreauDeFeu_ScorchingRay2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"050fb327-bff0-4015-a94e-868971860780\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CarreauDeFeu_ScorchingRay2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais un rayon supplémentaire est créé, pour un total de trois."
+      }
+    }
+  }
+}

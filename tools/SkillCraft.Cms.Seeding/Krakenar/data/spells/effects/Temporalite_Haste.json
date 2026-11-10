@@ -1,0 +1,32 @@
+﻿{
+  "Id": "2c2d7d92-2d1d-4e83-ab5a-da2a4a55ca07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temporalite_Haste",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"eff15283-2941-4dd1-8fd4-997a0a6653da\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temporalite_Haste",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un copeau de racine de réglisse.",
+        "HtmlContent": "Le personnage touche une créature consentante. Pendant la durée du pouvoir, la [vitesse](/regles/aventure/mouvement/vitesse) de la cible est doublée, la cible se voit conférer un bonus (+2) à l’[Esquive](/regles/statistiques/esquive) et l’[avantage](/regles/competences/tests/avantage-desavantage) à ses [jets de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties), et elle peut effectuer une [action](/regles/combat/deroulement/tour) supplémentaire lors de chacun de ses [tours](/regles/combat/deroulement/tour). Cette action supplémentaire ne peut servir qu’à effectuer une [attaque](/regles/combat/attaque), [se&nbsp;déplacer](/regles/combat/activites/deplacement), [se cacher](/regles/combat/activites/cacher) ou utiliser un [objet](/regles/combat/activites/objet). Lorsque le pouvoir prend fin, une vague de léthargie submerge la cible et celle-ci est [incapable](/regles/combat/conditions/incapable) jusqu’à la fin de son prochain tour."
+      }
+    }
+  }
+}

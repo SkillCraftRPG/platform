@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c3c49472-0416-4baf-8ae9-1a56077474bd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mistral_FrostFingers",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"335c1422-4089-48ee-a04f-ec9845bb372e\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mistral_FrostFingers",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un froid glacial jaillit des doigts du personnage en un cône de 4,5 mètres. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts. Le froid gèle les liquides non magiques de la zone qui ne sont ni portés ni tenus."
+      }
+    }
+  }
+}

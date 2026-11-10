@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6ed614ed-5201-4284-8feb-f12cae970fce",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CarreauDeFeu_ScorchingRay1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"050fb327-bff0-4015-a94e-868971860780\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CarreauDeFeu_ScorchingRay1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée deux rayons de feu et les lance sur des cibles dans la portée. Il peut les diriger vers une seule cible ou vers plusieurs. Chaque rayon exige un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une cible reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types). En cas de réussite, elle esquive le rayon et ne reçoit aucun point de dégât. Les rayons enflamment les objets inflammables qu’ils touchent, pourvu qu’ils ne soient ni tenus ni portés."
+      }
+    }
+  }
+}

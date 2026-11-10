@@ -1,0 +1,31 @@
+﻿{
+  "Id": "f0b1000a-41e5-4d5b-8368-ad70df2c37d1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Amnesie_ModifyMemory",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"e8e956bf-fd3e-438f-8586-837f47963b07\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Amnesie_ModifyMemory",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente de remodeler les souvenirs d’une autre créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) afin de ne pas être [charmée](/regles/combat/conditions/charme) pendant la durée. Si le personnage [combat](/regles/combat) la cible, celle-ci se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet de sauvegarde. La cible charmée est [inconsciente](/regles/combat/conditions/inconscient) de son environnement, bien qu’elle puisse toujours l’entendre. Si elle est [blessée](/regles/combat/degats) ou est ciblée par un autre pouvoir, celui-ci prend fin et aucun de ses souvenirs n’est modifié.\n\nTant que ce charme dure, le personnage peut affecter le souvenir de la cible concernant un événement qu’elle a vécu au cours des dernières 24&nbsp;heures et qui a duré au plus&nbsp;10 minutes. Il peut éliminer définitivement tout souvenir de l’événement, permettre à la cible de s’en rappeler avec une clarté et une précision parfaites, en modifier les détails, ou créer le souvenir d’un autre événement.\n\nIl doit parler à la cible afin de décrire comment ses souvenirs sont affectés, et celle-ci doit pouvoir comprendre sa langue pour que les souvenirs modifiés s’enracinent. Son esprit comble les lacunes des détails de la description. Si le pouvoir prend fin avant qu’il ait fini de décrire les souvenirs modifiés, la mémoire de la créature n’est pas altérée. Sinon, les souvenirs modifiés s’installent lorsque le pouvoir prend fin.\n\nUn souvenir modifié n’affecte pas nécessairement la conduite d’une créature, en particulier s’il contredit ses inclinations naturelles, son alignement ou ses croyances. Un souvenir modifié illogique, comme implanter le souvenir d’avoir pris plaisir à s’asperger d’acide, est écarté, peut-être comme un mauvais rêve. Le maître de jeu peut juger qu’un souvenir modifié trop absurde n’affecte pas la créature de manière significative.\n\nLe pouvoir [Restauration](/regles/magie/pouvoirs/restauration) (niveau 3 ou 4) canalisé sur la cible restaure sa mémoire véritable."
+      }
+    }
+  }
+}

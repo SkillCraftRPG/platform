@@ -1,0 +1,30 @@
+﻿{
+  "Id": "5b15c64e-a2f6-4059-af61-2de3e8e007c9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Compulsion_OttosIrresistibleDance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d06ec5e4-bcfa-4386-b11b-5b66962ca805\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Compulsion_OttosIrresistibleDance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible est [restreinte](/regles/combat/conditions/restreint) et se met à danser sur place de façon comique : elle traîne les pieds, tape du pied et cabriole pendant la durée. Les créatures qui ne peuvent être [charmées](/regles/combat/conditions/charme) sont immunisées à ce pouvoir. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), la cible peut tenter un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas de réussite, elle reprend contrôle de son corps et le pouvoir prend fin."
+      }
+    }
+  }
+}

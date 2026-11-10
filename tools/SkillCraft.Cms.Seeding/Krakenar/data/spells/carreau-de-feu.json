@@ -1,0 +1,27 @@
+﻿{
+  "Id": "050fb327-bff0-4015-a94e-868971860780",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "carreau-de-feu",
+    "DisplayName": "Carreau de feu",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "carreau-de-feu",
+      "DisplayName": "Carreau de feu",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "carreau-de-feu",
+        "MetaDescription": "Découvrez Carreau de feu : créez une flamme qui éclaire ou brûle vos ennemis, puis projetez plusieurs rayons ardents capables d’enflammer les objets.",
+        "HtmlContent": "Carreau de feu permet de faire apparaître une flamme dans la main du personnage, qui éclaire les environs et peut être lancée sur un ennemi. Aux niveaux suivants, il projette plusieurs rayons de feu sur une ou plusieurs cibles et enflamme les objets.",
+        "Summary": "Créez une flamme lumineuse et lancez des rayons de feu sur vos adversaires."
+      }
+    }
+  }
+}

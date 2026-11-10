@@ -1,0 +1,30 @@
+﻿{
+  "Id": "ff7f6b40-7116-4dbb-852d-a31b7ad228e9",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Decharge_ShockingGrasp",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3eaefe77-e3bf-45cd-a9a3-c62677eb0b3b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Decharge_ShockingGrasp",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La foudre jaillit de la main du personnage afin de délivrer un choc à une créature qu’il tente de toucher. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types), et elle est [étourdie](/regles/combat/conditions/etourdi) jusqu’au début de son prochain tour. Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de son attaque si la cible porte une [armure](/regles/equipement/armures) faite de métal."
+      }
+    }
+  }
+}

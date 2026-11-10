@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "temporalite",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Temporalité : modifiez l’initiative et les réflexes d’une créature, accélérez un allié ou ralentissez jusqu’à dix adversaires en combat.",
+        "Summary": "Modifiez l’initiative, accélérez vos alliés ou ralentissez vos adversaires.",
+        "HtmlContent": "Temporalité permet d’accélérer ou de ralentir le temps d’une créature pour modifier son initiative et ses réflexes. À des niveaux supérieurs, le personnage accorde une action supplémentaire à un allié ou entrave jusqu’à dix ennemis simultanément."
       }
     }
   }

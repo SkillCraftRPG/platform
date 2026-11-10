@@ -1,0 +1,30 @@
+﻿{
+  "Id": "26ee53d9-1a51-4bf0-8133-05a0eb5cd5ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CarreauDeFeu_FireBoltProduceFlame",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"050fb327-bff0-4015-a94e-868971860780\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CarreauDeFeu_FireBoltProduceFlame",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une flamme vacillante apparaît dans la main du personnage. Elle y demeure pendant la durée et ne blesse ni lui ni son [équipement](/regles/equipement). La flamme dégage de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 3 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 3 mètres additionnels. Le pouvoir prend fin s’il le dissipe par une [action](/regles/combat/deroulement/tour) ou s’il le canalise à nouveau.\n\nPendant un [tour](/regles/combat/deroulement/tour) subséquent, par une action, il peut [attaquer](/regles/magie/effets/attaque) en lançant la flamme en direction d’une créature située à 9 mètres ou moins de sa position. En cas de réussite, la cible reçoit [1d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types), puis le pouvoir prend fin. Il peut également effectuer cette attaque immédiatement après avoir canalisé le pouvoir, en [action libre](/regles/combat/deroulement/tour). Lorsqu’il en fait ainsi, il ajoute la moitié de sa [Puissance](/regles/statistiques/puissance) aux points de dégâts infligés, puis le pouvoir prend fin. Un objet inflammable touché par cette attaque s’enflamme s’il n’est ni porté ni tenu."
+      }
+    }
+  }
+}

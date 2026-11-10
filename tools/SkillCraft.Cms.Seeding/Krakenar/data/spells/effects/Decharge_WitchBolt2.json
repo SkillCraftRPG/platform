@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0461e5c6-6f81-4ef4-8281-8af33da06950",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Decharge_WitchBolt2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3eaefe77-e3bf-45cd-a9a3-c62677eb0b3b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Decharge_WitchBolt2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une brindille d’un arbre frappé par la foudre.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais les [points de dégâts](/regles/combat/degats) infligés par l’[attaque](/regles/magie/effets/attaque) initiale augmentent à [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

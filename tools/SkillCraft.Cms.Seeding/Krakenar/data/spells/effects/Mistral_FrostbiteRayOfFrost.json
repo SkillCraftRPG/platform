@@ -1,0 +1,30 @@
+﻿{
+  "Id": "05b242d4-4234-4fc5-a02d-8fd4eca3db1a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mistral_FrostbiteRayOfFrost",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"335c1422-4089-48ee-a04f-ec9845bb372e\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mistral_FrostbiteRayOfFrost",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un rayon glacial de lumière bleuâtre file vers une créature dans la portée. Le personnage choisit une des options suivantes.\n\n- **Engelure.** Du givre engourdissant apparaît sur une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types), et le [test](/regles/competences/tests) de la prochaine [attaque](/regles/combat/attaque) physique qu’elle effectue avant la fin de son prochain [tour](/regles/combat/deroulement/tour) est affligé du [désavantage](/regles/competences/tests/avantage-desavantage).\n- **Rayon de givre.** Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types), et sa [vitesse](/regles/aventure/mouvement/vitesse) est réduite de 3 mètres (2 points de mouvement) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage."
+      }
+    }
+  }
+}

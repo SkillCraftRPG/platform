@@ -1,0 +1,32 @@
+﻿{
+  "Id": "f14972f7-6f99-41d0-8bb4-fe3692df1adf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EclatSolaire_Sunburst",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"afe09da5-94d1-4b1a-8084-923074607a3b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "30",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EclatSolaire_Sunburst",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une lumière solaire éclatante fulgure dans un rayon de 18 mètres centré sur un point que le personnage choisit dans la portée. Chaque créature dans cette lumière doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [15d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) et est [aveuglée](/regles/combat/conditions/aveugle) pendant une minute. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas aveuglée. Les morts-vivants et les limons sont affligés du [désavantage](/regles/competences/tests/avantage-desavantage) à ce jet de sauvegarde.\n\nUne créature aveuglée par ce pouvoir effectue un nouveau jet de sauvegarde de Résistance à la fin de chacun de ses [tours](/regles/combat/deroulement/tour). En cas de réussite, elle n’est plus aveuglée.\n\nCe pouvoir dissipe toutes [ténèbres](/regles/aventure/environnement/vision) créées par un pouvoir dans sa zone.",
+        "Focus": "Un fragment de pierre de soleil.",
+        "Material": "Du feu."
+      }
+    }
+  }
+}

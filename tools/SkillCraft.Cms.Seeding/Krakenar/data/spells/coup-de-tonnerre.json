@@ -1,0 +1,27 @@
+﻿{
+  "Id": "9b5f9096-8108-4946-b67d-868bfbfa4972",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "coup-de-tonnerre",
+    "DisplayName": "Coup de tonnerre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "0",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "coup-de-tonnerre",
+      "DisplayName": "Coup de tonnerre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "coup-de-tonnerre",
+        "MetaDescription": "Découvrez Coup de tonnerre : déclenchez des décharges sonores, chargez votre arme d’énergie tonnante et repoussez vos ennemis avec une onde de choc.",
+        "Summary": "Déchaînez le tonnerre, frappez avec une lame chargée et repoussez vos ennemis.",
+        "HtmlContent": "Coup de tonnerre permet de libérer une décharge sonore autour du personnage ou d’envelopper une arme d’énergie tonnante qui punit les déplacements. Aux niveaux suivants, une onde de choc inflige des dégâts de tonnerre et repousse créatures et objets."
+      }
+    }
+  }
+}

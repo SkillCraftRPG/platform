@@ -1,0 +1,32 @@
+﻿{
+  "Id": "fb0e17b0-f299-4c9e-850d-e45c6df9d075",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationCeleste_SummonCelestial",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9066b351-698b-424d-a39b-b50753d4688a\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationCeleste_SummonCelestial",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un reliquaire doré d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Le personnage invoque un esprit célestiel qui se manifeste dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **Défenseur** ou **Vengeur**. L’esprit ressemble à un célestiel de la forme choisie ; cette forme détermine ses traits et caractéristiques. Il disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLa créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/statistiques/initiative) et agit immédiatement après son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) pendant son tour. S’il n’en donne aucun, elle se place en position défensive et se déplace afin d’éviter les dangers.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}

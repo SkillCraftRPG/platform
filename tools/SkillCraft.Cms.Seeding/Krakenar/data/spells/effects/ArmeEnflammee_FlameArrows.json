@@ -1,0 +1,31 @@
+﻿{
+  "Id": "85308475-57b7-4d87-928e-63175d837533",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmeEnflammee_FlameArrows",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b07e7e81-0f5f-4a7c-8fa7-509d99699a32\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmeEnflammee_FlameArrows",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un [carquois](/regles/equipement/armes/munitions) contenant des [flèches](/regles/equipement/armes/munitions) ou des [carreaux](/regles/equipement/armes/munitions). Lorsqu’une cible est touchée par une [attaque à distance](/regles/combat/attaque/distance) utilisant une [munition](/regles/equipement/armes/munitions) tirée de ce carquois, elle reçoit un nombre de [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) supplémentaires égal à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage. La magie du pouvoir prend fin sur la munition lorsqu’elle touche ou rate, et le pouvoir prend fin lorsque dix munitions ont été tirées du carquois."
+      }
+    }
+  }
+}

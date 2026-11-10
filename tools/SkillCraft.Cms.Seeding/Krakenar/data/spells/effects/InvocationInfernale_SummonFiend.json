@@ -1,0 +1,32 @@
+﻿{
+  "Id": "1928e47d-c702-4576-8ddb-e0619331d7ba",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationInfernale_SummonFiend",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9a320da3-b3a7-444f-8262-be96855f8825\"]",
+      "Level": "2",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "CastingTime": "[\"2\"]",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationInfernale_SummonFiend",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Du sang d’humanoïde dans une fiole de rubis d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Le personnage invoque un esprit infernal qui se manifeste dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **Daimôn**, **Démon** ou **Diable**. L’esprit ressemble à un infernal de la forme choisie ; cette forme détermine ses traits et caractéristiques. Il disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLa créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/combat/deroulement/initiative) et agit immédiatement après son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) pendant son tour. S’il n’en donne aucun, elle se place en [position défensive](/regles/combat/activites/defense) et [se déplace](/regles/combat/activites/deplacement) afin d’éviter les dangers.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}

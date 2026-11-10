@@ -1,0 +1,31 @@
+﻿{
+  "Id": "98d2192d-915e-46fb-bf4d-008731f5b3c4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Miracle_HeroesFeast",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b052db83-e841-4da6-b862-767fc08c0d67\"]",
+      "Level": "0",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Miracle_HeroesFeast",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait apparaître un grand festin, comprenant nourriture et boisson magnifiques. Le festin prend une heure à consommer (durée de l’incantation) et disparaît à la fin de ce temps. Les effets bénéfiques ne s’appliquent qu’une fois cette heure écoulée. Jusqu’à 10 créatures peuvent prendre part au festin. Une créature qui y participe acquiert les bienfaits suivants.\n\n- Elle est guérie de tout [poison](/regles/herboristerie/poisons) et toute maladie, et devient immunisée contre les [poisons](/regles/combat/degats/types) et maladies.\n- Elle est guérie de tout effet de [peur](/regles/combat/conditions/apeure), [charme](/regles/combat/conditions/charme) et possession, et devient immunisée contre ces effets.\n- Elle se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à tous ses [jets de sauvegarde](/regles/competences/tests/sauvegarde).\n- Sa [Vitalité](/regles/statistiques/vitalite) courante et maximale augmente de 1d12&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance).",
+        "Material": "Un bol incrusté de gemmes d’une valeur d’au moins 1000 deniers."
+      }
+    }
+  }
+}

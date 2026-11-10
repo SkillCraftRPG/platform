@@ -1,0 +1,29 @@
+﻿{
+  "Id": "092676e0-14a8-4e86-8b53-01268380c9f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CoupDeTonnerre_Thunderclap",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9b5f9096-8108-4946-b67d-868bfbfa4972\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "Level": "0"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CoupDeTonnerre_Thunderclap",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée une explosion de son tonitruant, pouvant être entendue jusqu’à 30 mètres. Chaque créature autre que lui située à 1,5 mètres ou moins de sa position doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

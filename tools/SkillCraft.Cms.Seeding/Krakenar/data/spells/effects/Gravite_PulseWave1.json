@@ -1,0 +1,30 @@
+﻿{
+  "Id": "affc93f8-e927-44cf-925e-ab98dc93b4e7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Gravite_PulseWave1",
+    "DisplayName": "Pulsation",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ca155a10-46b4-4be8-a848-86c6a96284bf\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Gravite_PulseWave1",
+      "DisplayName": "Pulsation",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée une pression intense, la libère en un cône de 9 mètres, et décide si cette pression attire ou repousse les créatures et les objets. Chaque créature dans ce cône doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Une créature reçoit [7d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nÉgalement, chaque créature qui échoue le jet de sauvegarde est soit tirée de 4,5 mètres vers le personnage, soit repoussée de 4,5 mètres loin de lui, selon le choix qu’il a fait pour le pouvoir. Les objets qui ne sont ni tenus ni portés et qui se trouvent entièrement dans le cône sont également tirés ou repoussés de 4,5 mètres."
+      }
+    }
+  }
+}

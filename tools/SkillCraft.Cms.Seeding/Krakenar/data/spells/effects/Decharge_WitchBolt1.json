@@ -1,0 +1,32 @@
+﻿{
+  "Id": "9794928b-996a-437d-824f-6075c8eee7e8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Decharge_WitchBolt1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3eaefe77-e3bf-45cd-a9a3-c62677eb0b3b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Decharge_WitchBolt1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une brindille d’un arbre frappé par la foudre.",
+        "HtmlContent": "Un rayon d’énergie bleue crépitante file vers une créature dans la portée, formant un arc de foudre soutenu entre le personnage et la cible. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) et l’arc est formé. Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au test de son attaque si la cible porte une [armure](/regles/equipement/armures) faite de métal.\n\nTant que l’arc est en place, une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut électrocuter la cible, lui infligeant automatiquement 1d12 points de dégâts de foudre. Si la distance séparant la cible du personnage dépasse la portée du pouvoir, si la cible bénéficie d’un [abri total](/regles/combat/attaque/abri), si le personnage canalise un autre pouvoir, ou s’il termine un tour sans avoir électrocuté la cible, alors l’arc est détruit et le pouvoir prend fin."
+      }
+    }
+  }
+}

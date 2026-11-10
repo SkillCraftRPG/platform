@@ -1,0 +1,30 @@
+﻿{
+  "Id": "c5060a1d-c964-4d72-9177-53a4c07f1286",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CoupDeTonnerre_Thunderwave1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9b5f9096-8108-4946-b67d-868bfbfa4972\"]",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "Level": "1"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CoupDeTonnerre_Thunderwave1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une vague de force tonitruante se propage à partir du personnage, émettant un bang tonitruant audible dans un rayon de 100 mètres. Chaque créature dans un cube de 4,5 mètres d’arête centré sur sa position doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [2d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types) et est repoussée de 3 mètres. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas repoussée.\n\nÉgalement, les objets qui ne sont ni tenus ni portés et qui se trouvent entièrement dans la zone d’effet sont automatiquement repoussés de 3 mètres."
+      }
+    }
+  }
+}

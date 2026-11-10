@@ -1,0 +1,30 @@
+﻿{
+  "Id": "b5f3f1c1-1c8f-4cb5-a336-f6f6263a0329",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ArmeEnflammee_GreenFlameBlade",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b07e7e81-0f5f-4a7c-8fa7-509d99699a32\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ArmeEnflammee_GreenFlameBlade",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une arme de mêlée d’une valeur d’au moins 1 denier.",
+        "HtmlContent": "Le personnage brandit l’[arme](/regles/equipement/armes) utilisée afin de canaliser le pouvoir et effectue une [attaque de mêlée](/regles/combat/attaque) avec celle-ci. En cas de réussite, la cible subit les effets normaux de l’[attaque](/regles/combat), et il peut faire jaillir une flamme de la cible vers une autre créature de son choix qu’il peut [voir](/regles/aventure/environnement/vision) située à 1,5 mètres ou moins de celle-ci. La seconde créature reçoit un nombre de [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) égal à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage."
+      }
+    }
+  }
+}

@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "controle-de-l-air",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Contrôle de l’air : repoussez créatures et objets, évitez les attaques d’opportunité et déchaînez des vents puissants pour gêner vos ennemis.",
+        "Summary": "Repoussez vos ennemis, évitez les ripostes et déchaînez de puissants vents.",
+        "HtmlContent": "Contrôle de l’air permet de déplacer des objets et de repousser des créatures avec le vent. Aux niveaux supérieurs, le personnage évite les attaques d’opportunité, déploie une bourrasque qui modifie les déplacements ou s’entoure d’un rempart venteux."
       }
     }
   }

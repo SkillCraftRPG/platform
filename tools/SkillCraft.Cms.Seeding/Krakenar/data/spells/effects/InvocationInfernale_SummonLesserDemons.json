@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0a4e4ef2-2dc5-45c3-9a70-8d827656608f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationInfernale_SummonLesserDemons",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9a320da3-b3a7-444f-8262-be96855f8825\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationInfernale_SummonLesserDemons",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une fiole de sang d’un humanoïde tué au cours des 24 dernières heures.",
+        "HtmlContent": "Le personnage prononce des paroles impies et trace un cercle au sol avec le sang. Le cercle est assez grand pour englober son espace seulement. Les démons invoqués ne peuvent ni traverser le cercle ni l’endommager, et ils ne peuvent cibler personne à l’intérieur. Il invoque des démons depuis le chaos des Abysses et lance un dé afin de déterminer ce qui apparaît.\n\n- **1–2.** Deux démons de niveau 1 ou moins\n- **3–4.** Quatre démons de niveau ½ ou moins\n- **5–6.** Huit démons de niveau ¼ ou moins\n\nLe maître de jeu choisit les démons et le personnage choisit les [espaces inoccupés](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée où ils apparaissent. Les démons sont [hostiles](/regles/aventure/interaction-sociale) envers toutes les créatures, y compris le personnage. Ils possèdent leur propre [Initiative](/regles/statistiques/initiative) et jouent pendant leur propre [tour](/regles/combat/deroulement/tour). Les démons poursuivent et attaquent les créatures non démoniaques les plus proches, du mieux qu’ils le peuvent. Un démon invoqué disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin."
+      }
+    }
+  }
+}

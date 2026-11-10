@@ -1,0 +1,32 @@
+﻿{
+  "Id": "0c38fc0c-ce2c-4efb-bb07-f6c1a283f633",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Bosquet_WallOfThorns",
+    "DisplayName": "Mur d’épines",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c8495acc-454f-469d-9aa8-822346289f3a\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Bosquet_WallOfThorns",
+      "DisplayName": "Mur d’épines",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une poignée d’épines.",
+        "HtmlContent": "Le personnage crée un mur de broussailles denses, souples et enchevêtrées, hérissées d’épines acérées comme des aiguilles. Le mur apparaît dans la portée sur une surface solide pendant la durée. Il choisit de le faire mesurer au plus 18 mètres de long, 3 mètres de haut et 1,5 mètres d’épaisseur, ou de former un cercle de 6 mètres de diamètre mesurant au plus 6 mètres de haut et 1,5 mètres d’épaisseur. Le mur bloque la [ligne de vue](/regles/aventure/environnement/vision).\n\nLorsque le mur apparaît, chaque créature dans la zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [8d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [perforants](/regles/combat/degats/types). Elle ne reçoit que la moitié des points de dégâts en cas de réussite.\n\nUne créature peut traverser le mur, bien que lentement et douloureusement. Pour chaque 1,5 mètre qu’elle parcourt à travers le mur, elle doit dépenser 4 [points de mouvement](/regles/aventure/mouvement/vitesse). De plus, la première fois qu’une créature entre dans le mur lors d’un [tour](/regles/combat/deroulement/tour) ou y termine son tour, elle doit effectuer un jet de sauvegarde d’Acrobaties. Elle reçoit [8d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite."
+      }
+    }
+  }
+}

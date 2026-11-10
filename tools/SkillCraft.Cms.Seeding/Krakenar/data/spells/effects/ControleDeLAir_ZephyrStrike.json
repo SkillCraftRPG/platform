@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e922eacf-2b8d-4668-bf67-b6dfed9dee6e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ControleDeLAir_ZephyrStrike",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"29f69009-c09f-400b-b103-782f11352414\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ControleDeLAir_ZephyrStrike",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage se déplace comme le vent. Pendant la durée, ses [déplacements](/regles/combat/activites/deplacement) ne provoquent pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite).\n\nUne fois avant la fin du pouvoir, il peut se conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au test d’une [attaque](/regles/combat/attaque) physique lors de son [tour](/regles/combat/deroulement/tour). Cette attaque inflige [1d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) supplémentaires en cas de réussite. Que l’attaque réussisse ou non, sa [vitesse](/regles/aventure/mouvement/vitesse) de [marche](/regles/aventure/mouvement/types) augmente de 9 mètres jusqu’à la fin de ce tour."
+      }
+    }
+  }
+}

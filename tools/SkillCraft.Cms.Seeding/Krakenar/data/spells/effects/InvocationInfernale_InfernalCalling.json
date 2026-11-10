@@ -1,0 +1,32 @@
+﻿{
+  "Id": "de491e23-6a8c-4eee-a8f0-029396407a07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "InvocationInfernale_InfernalCalling",
+    "DisplayName": "Appel des Enfers",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"9a320da3-b3a7-444f-8262-be96855f8825\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "InvocationInfernale_InfernalCalling",
+      "DisplayName": "Appel des Enfers",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un rubis d’une valeur d’au moins 1000 deniers.",
+        "HtmlContent": "En prononçant une sombre incantation, le personnage invoque un diable des Enfers. Il choisit le type du diable, qui doit être de niveau 6 ou moins. Le diable apparaît dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le diable disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLe diable est [inamical](/regles/aventure/interaction-sociale) envers le personnage et ses compagnons. Il possède sa propre [Initiative](/regles/statistiques/initiative) et joue pendant son propre [tour](/regles/combat/deroulement/tour). Il est sous le contrôle du maître de jeu et agit selon sa nature à chacun de ses tours, ce qui peut le conduire à [attaquer](/regles/combat/attaque) le personnage s’il croit pouvoir l’emporter, ou à tenter de le pousser à accomplir un acte maléfique en échange d’un service limité.\n\nÀ chacun de ses tours, le personnage peut donner un ordre verbal au démon en [action libre](/regles/combat/deroulement/tour). Le diable obéit si l’issue probable s’accorde avec ses désirs, surtout si le résultat pousserait le personnage vers le mal. Sinon, le personnage doit effectuer un [test](/regles/competences/tests) de [Diplomatie](/regles/competences/diplomatie), de [Représentation](/regles/competences/representation) ou de [Tromperie](/regles/competences/tromperie) [opposé](/regles/competences/tests/oppose) à un test d’[Intuition](/regles/competences/intuition) du diable. Le personnage se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) s’il prononce le vrai nom du diable. En cas d’échec, le diable devient immunisé aux ordres verbaux du personnage pour la durée du pouvoir, bien qu’il puisse encore exécuter ses ordres s’il le souhaite. En cas de réussite, le diable exécute l’ordre, tel que « attaque mes ennemis », « explore la pièce devant » ou « porte ce message à la reine », jusqu’à ce qu’il achève l’activité, après quoi il revient auprès du personnage pour lui en faire rapport.\n\nSi le personnage perd sa [concentration]() avant que le pouvoir n’atteigne sa durée complète, le diable ne disparaît pas s’il est devenu immunisé aux ordres verbaux. Au lieu de cela, il agit comme bon lui semble pendant 3d6 minutes, puis disparaît.\n\nSi le personnage possède le talisman d’un diable particulier, il peut invoquer ce diable si celui-ci est de niveau 7 ou moins, et celui-ci obéit à tous ses ordres, aucun test opposé requis."
+      }
+    }
+  }
+}

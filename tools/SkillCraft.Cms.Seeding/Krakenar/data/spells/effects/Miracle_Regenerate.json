@@ -1,0 +1,32 @@
+﻿{
+  "Id": "41359451-c5ce-462a-9026-026f2ce923e6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Miracle_Regenerate",
+    "DisplayName": "Régénération",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b052db83-e841-4da6-b862-767fc08c0d67\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Miracle_Regenerate",
+      "DisplayName": "Régénération",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une roue à prières.",
+        "Material": "De l’eau bénite.",
+        "HtmlContent": "Le personnage touche une créature consentante et stimule sa capacité naturelle de guérison. La cible [récupère](/regles/combat/degats/soins) instantanément 4d12&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) points de [Vitalité](/regles/statistiques/vitalite). Pendant la durée du pouvoir, elle récupère un point de Vitalité au début de chacun de ses [tours](/regles/combat/deroulement/tour) (10 points de Vitalité par minute).\n\nLes membres sectionnés de la cible (doigts, jambes, queues, et ainsi de suite), le cas échéant, sont restaurés après 2 minutes. Si le personnage possède la partie sectionnée et la maintient contre le moignon, le pouvoir fait instantanément se rattacher le membre."
+      }
+    }
+  }
+}

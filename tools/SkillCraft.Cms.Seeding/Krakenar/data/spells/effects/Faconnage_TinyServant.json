@@ -1,0 +1,30 @@
+﻿{
+  "Id": "e960a19b-97e1-4763-9ddc-5c6b75d8f3f1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Faconnage_TinyServant",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6561c1d5-2218-4bbd-a352-b8da1b5df759\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Faconnage_TinyServant",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un objet non magique de [taille](/regles/especes/taille) minuscule qui n’est pas fixé à un autre objet ni à une surface et qui n’est pas porté par une autre créature. La cible s’anime, et des petits bras et de petites jambes lui poussent, devenant une créature sous son contrôle jusqu’à la fin du pouvoir ou jusqu’à ce que les points de [Vitalité](/regles/statistiques/vitalite) de la créature chutent à 0. Lorsque les points de Vitalité de la créature chutent à 0, elle reprend sa forme d’origine, et tout dégât restant est reporté sur cette forme.\n \nPar une [action](/regles/combat/deroulement/tour), il peut commander mentalement la créature si elle se trouve à 36 mètres ou moins de sa position. S’il contrôle plusieurs créatures avec ce pouvoir, il peut commander une ou plusieurs créatures en même temps, mais donne le même ordre à chacune. Il décide des [actions](/regles/combat/activites) et [déplacements](/regles/combat/activites/deplacement) que la créature entreprendra lors de son prochain [tour](/regles/combat/deroulement/tour), ou il peut donner un ordre simple et général, tel que rapporter une clé, monter la garde ou empiler des livres. S’il ne donne aucun ordre, le serviteur ne fait rien d’autre que [se défendre](/regles/combat/activites/defense) contre les créatures [hostiles](/regles/aventure/interaction-sociale). Une fois un ordre donné, le serviteur continue de le suivre jusqu’à ce que sa tâche soit achevée.\n\n\uD83D\uDEA7Stat Block"
+      }
+    }
+  }
+}
