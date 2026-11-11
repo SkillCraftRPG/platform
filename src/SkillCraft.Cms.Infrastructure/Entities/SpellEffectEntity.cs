@@ -34,7 +34,7 @@ internal class SpellEffectEntity : AggregateEntity
   public TimeUnit? DurationUnit { get; set; }
   public bool IsConcentration { get; set; }
 
-  public int Range { get; set; }
+  public int? Range { get; set; }
 
   public bool IsSomatic { get; set; }
   public bool IsVerbal { get; set; }

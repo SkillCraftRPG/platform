@@ -2417,7 +2417,7 @@ namespace SkillCraft.Cms.PostgreSQL.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("character varying(255)");
 
-                    b.Property<int>("Range")
+                    b.Property<int?>("Range")
                         .HasColumnType("integer");
 
                     b.Property<int>("SpellId")

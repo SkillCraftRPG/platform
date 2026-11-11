@@ -54,7 +54,8 @@ internal class PublishSpellEffectCommandHandler : ICommandHandler<PublishSpellEf
     SetDurationTime(spellEffect, invariant, failures);
     spellEffect.IsConcentration = invariant.GetBoolean(SpellEffectDefinition.IsConcentration);
 
-    spellEffect.Range = (int)invariant.GetNumber(SpellEffectDefinition.Range);
+    double? range = invariant.TryGetNumber(SpellEffectDefinition.Range);
+    spellEffect.Range = range.HasValue ? (int)range.Value : null;
 
     spellEffect.IsSomatic = invariant.GetBoolean(SpellEffectDefinition.IsSomatic);
     spellEffect.IsVerbal = invariant.GetBoolean(SpellEffectDefinition.IsVerbal);
