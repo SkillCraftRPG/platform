@@ -967,7 +967,7 @@
         "Id": "fdf89bf7-9913-4580-8fa7-e2f5af9711f0",
         "FieldType": "Range",
         "IsInvariant": true,
-        "IsRequired": true,
+        "IsRequired": false,
         "IsIndexed": false,
         "IsUnique": false,
         "UniqueName": "Range",

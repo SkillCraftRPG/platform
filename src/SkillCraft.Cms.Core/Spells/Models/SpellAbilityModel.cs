@@ -7,7 +7,7 @@ public record SpellAbilityModel
 
   public SpellCastingModel Casting { get; set; } = new();
   public SpellDurationModel? Duration { get; set; }
-  public int Range { get; set; }
+  public int? Range { get; set; }
   public SpellComponentsModel Components { get; set; } = new();
 
   public string? HtmlContent { get; set; }
