@@ -1,0 +1,33 @@
+﻿{
+  "Id": "07afb44a-0b91-437c-92c7-675826e4555e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temple_Forbiddance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d01f041-1f65-4ed2-86e1-67675446cdd3\"]",
+      "Level": "1",
+      "CastingTime": "[\"10m\"]",
+      "IsRitual": "true",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temple_Forbiddance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée une garde contre le voyage magique qui protège jusqu’à 4000 mètres carrés de surface au sol, jusqu’à une hauteur de 9 mètres au-dessus du sol. Le pouvoir échoue si le rayon de ce pouvoir inclut une zone déjà sous l’effet de ce pouvoir. Pendant la durée, les créatures ne peuvent se téléporter dans la zone ni utiliser de portails pour y entrer. Le pouvoir protège également la zone contre le voyage dimensionnel, empêchant ainsi d’y accéder par une autre dimension.\n\nÉgalement, le pouvoir [blesse](/regles/combat/degats) les créatures appartenant à un des types de créatures que le personnage désigne lorsqu’il canalise le pouvoir. Il choisit un ou plusieurs des types suivants : célestiel, élémentaire, fée, infernal et mort-vivant. Lorsqu’une créature appartenant à un de ces types entre dans la zone pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y débute son tour, elle reçoit [5d10](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats). Le [type](/regles/combat/degats/types) des dégâts varie en fonction du [domaine divin](/regles/domaines/divins) du personnage.\n\nLorsqu’il canalise le pouvoir, il peut désigner un mot de passe. Une créature qui prononce ce mot de passe en entrant dans la zone ne reçoit pas les dégâts.\n\nSi le personnage canalise ce pouvoir chaque jour pendant 30 jours au même endroit, le pouvoir dure jusqu’à dissipation, et la poudre de rubis est consommée.",
+        "Focus": "De la poudre de rubis d’une valeur d’au moins 1000 deniers.",
+        "Material": "De l’eau bénite et de l’encens rare."
+      }
+    }
+  }
+}

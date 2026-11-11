@@ -1,0 +1,29 @@
+﻿{
+  "Id": "8cbb9951-7775-4a20-b69d-5ef50276fba0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temple_Hallow",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d01f041-1f65-4ed2-86e1-67675446cdd3\"]",
+      "Level": "0",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true",
+      "CastingTime": "[\"24h\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temple_Hallow",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche un point et imprègne la zone environnante d’une puissance sacrée ou profane. La zone peut avoir un rayon d’au plus 18 mètres, et le pouvoir échoue si ce rayon inclut une zone déjà sous l’effet de ce pouvoir. La zone affectée est sujette aux effets suivants.\n\nD’abord, les célestiels, élémentaires, fées, infernaux et morts-vivants ne peuvent entrer dans la zone, ni charmer, apeurer ou posséder les créatures qui s’y trouvent. Toute créature [charmée](/regles/combat/conditions/charme), [apeurée](/regles/combat/conditions/apeure) ou possédée par une telle créature ne l’est plus en entrant dans la zone. Le personnage peut exclure un ou plusieurs de ces types de créatures de cet effet.\n\nEnsuite, il peut lier un effet supplémentaire à la zone. Il choisit l’effet dans la liste suivante, ou un effet proposé par le maître de jeu. Certains de ces effets s’appliquent aux créatures dans la zone ; il peut désigner si l’effet s’applique à toutes les créatures, aux créatures qui suivent une divinité ou un chef précis, ou aux créatures d’un type précis. Lorsqu’une créature qui serait affectée entre dans la zone du pouvoir pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y débute son tour, elle peut effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas de réussite, la créature ignore l’effet supplémentaire jusqu’à ce qu’elle quitte la zone.\n\n- **Courage.** Les créatures affectées ne peuvent être apeurées tant qu’elles se trouvent dans la zone.\n- **Effroi.** Les créatures affectées sont apeurées tant qu’elles se trouvent dans la zone.\n- **Interférence extra-dimensionnelle.** Les créatures affectées ne peuvent se déplacer ni voyager par téléportation ni par des moyens extra-dimensionnels ou interdimensionnels.\n- **Langues.** Les créatures affectées peuvent communiquer avec toute autre créature dans la zone, même si elles ne partagent pas de [langue](/regles/langues) commune.\n- **Lumière du jour.** La [clarté](/regles/aventure/environnement/vision) remplit la zone. Les ténèbres créées par des pouvoirs de niveau inférieur à celui-ci utilisé pour canaliser ce pouvoir ne peut éteindre cette lumière.\n- **Obscurité.** Des [ténèbres](/regles/aventure/environnement/vision) remplissent la zone. La lumière normale, ainsi que la lumière magique créée par des pouvoirs de niveau inférieur à celui-ci, ne peut éclairer la zone.\n- **Protection énergétique.** Les créatures affectées dans la zone sont [résistantes](/regles/combat/degats/efficacite) à un [type](/regles/combat/degats/types) de dégâts au choix du personnage, à l’exception des dégâts [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) ou [tranchants](/regles/combat/degats/types).\n- **Repos éternel.** Les corps morts ensevelis dans la zone ne peuvent être transformés en morts-vivants.\n- **Silence.** Aucun son ne peut émaner de l’intérieur de la zone, et aucun son ne peut y pénétrer.\n- **Vulnérabilité énergétique.** Les créatures affectées dans la zone sont [vulnérables](/regles/combat/degats/efficacite) à un [type](/regles/combat/degats/types) de dégâts au choix du personnage, à l’exception des dégâts [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) ou [tranchants](/regles/combat/degats/types).",
+        "Material": "Des herbes, des huiles et de l’encens d’une valeur d’au moins 1000 deniers."
+      }
+    }
+  }
+}

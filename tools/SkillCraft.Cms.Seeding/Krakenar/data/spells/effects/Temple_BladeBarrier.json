@@ -1,0 +1,31 @@
+﻿{
+  "Id": "bc5560ed-6500-49c8-9101-00fbc18a89c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temple_BladeBarrier",
+    "DisplayName": "Barrière de lames",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d01f041-1f65-4ed2-86e1-67675446cdd3\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temple_BladeBarrier",
+      "DisplayName": "Barrière de lames",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un mur vertical de lames tourbillonnantes et tranchantes constituées d’énergie magique. Le mur apparaît dans la portée et dure pendant la durée. Il peut en faire un mur droit d’au plus 30 mètres de long, 6 mètres de haut et 1,5 mètres d’épaisseur, ou un mur en anneau d’au plus 18 mètres de diamètre, 6 mètres de haut et 1,5 mètres d’épaisseur. Le mur confère un [abri aux trois quarts](/regles/combat/attaque/abri) aux créatures derrière lui, et son espace est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nLorsqu’une créature entre dans la zone du mur pour la première fois pendant un [tour](/regles/combat/deroulement/tour) ou y débute son tour, elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, la créature reçoit [6d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts."
+      }
+    }
+  }
+}

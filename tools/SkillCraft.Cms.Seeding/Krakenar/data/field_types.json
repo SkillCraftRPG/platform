@@ -80,6 +80,10 @@
         {
           "Text": "8 heures",
           "Value": "8h"
+        },
+        {
+          "Text": "24 heures",
+          "Value": "24h"
         }
       ]
     }

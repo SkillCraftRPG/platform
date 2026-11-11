@@ -1,0 +1,31 @@
+﻿{
+  "Id": "8d104053-8ffb-4bac-babd-0afeff928252",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Temple_TempleOfTheGods",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2d01f041-1f65-4ed2-86e1-67675446cdd3\"]",
+      "Level": "2",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Temple_TempleOfTheGods",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un symbole divin.",
+        "HtmlContent": "Le personnage fait miroiter un temple à l’existence sur un sol qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le temple doit tenir dans un cube d’[espace inoccupé](/regles/aventure/mouvement/espace-occupe) d’au plus 36 mètres d’arête. Il demeure jusqu’à la fin du pouvoir. Il est dédié à la divinité, au panthéon ou à la philosophie représenté par le symbole divin utilisé pour la canalisation. L’intérieur du temple est un espace ouvert avec une idole ou un autel à une extrémité. Une odeur d’encens brûlé emplit l’air, et la température y est douce. Le personnage décide de l’apparence du temple. L’intérieur est clos par un sol, des murs et un toit, avec une porte donnant accès à l’intérieur et autant de fenêtres qu’il le souhaite. Seuls lui et les créatures qu’il désigne lorsqu’il canalise le pouvoir peuvent ouvrir ou fermer la porte.\n\n- Le personnage décide si le temple est éclairé et si cet éclairage est de la [clarté](/regles/aventure/environnement/vision) ou de la [pénombre](/regles/aventure/environnement/vision).\n- Le temple s’oppose aux créatures appartenant aux types désignés par le personnage lorsqu’il canalise le pouvoir. Il choisit un ou plusieurs des types suivants : célestiel, élémentaire, fée, infernal ou mort-vivant. Si une créature d’un type choisi tente d’entrer dans le temple, elle doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, elle ne peut entrer dans le temple pendant 24 heures. Même si la créature peut y entrer, la magie du lieu la gêne : chaque fois qu’elle effectue un [test](/regles/competences/tests) à l’intérieur du temple, elle subit une pénalité de 1d4.\n- Les senseurs créés par des pouvoirs de [divination](/regles/astromancie/divination) ne peuvent apparaître à l’intérieur du temple, et les créatures qui s’y trouvent ne peuvent être ciblées par des pouvoirs de divination.\n- Chaque fois qu’une créature dans le temple [récupère](/regles/combat/degats/soins) des points de [Vitalité](/regles/statistiques/vitalite) grâce à un pouvoir, elle récupère un nombre de points de Vitalité supplémentaires égal à la moitié de la [Puissance](/regles/statistiques/puissance) du personnage (minimum&nbsp;1).\n- Le temple est constitué de force magique opaque qui s’étend dans la dimension éthérée, bloquant ainsi le voyage éthéré vers l’intérieur.\n- Rien ne peut physiquement traverser l’extérieur du temple.\n- Il ne peut être [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie), mais un pouvoir de [désintégration](/regles/magie/pouvoirs/telekinesie) détruit le temple instantanément.\n\nCanaliser ce pouvoir au même endroit chaque jour pendant un an rend cet effet permanent."
+      }
+    }
+  }
+}

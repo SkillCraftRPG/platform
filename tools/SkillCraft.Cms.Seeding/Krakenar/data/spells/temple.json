@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "temple",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Temple, un pouvoir divin qui sanctifie un territoire, repousse les intrus, bloque les voyages magiques et fait surgir un sanctuaire protecteur.",
+        "Summary": "Sanctifie une zone, repousse les intrus et érige un sanctuaire protecteur.",
+        "HtmlContent": "Temple permet de consacrer durablement un lieu à une puissance sacrée ou profane. Ses protections repoussent certaines créatures, entravent les voyages magiques et dressent une barrière de lames. Enfin, il fait apparaître un sanctuaire inviolable."
       }
     }
   }
