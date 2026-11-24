@@ -1,0 +1,27 @@
+﻿{
+  "Id": "c7698e85-915e-4894-89b9-d1a18df585b0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "faconnage-de-pierre",
+    "DisplayName": "Façonnage de pierre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "faconnage-de-pierre",
+      "DisplayName": "Façonnage de pierre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "faconnage-de-pierre",
+        "MetaDescription": "Découvrez Façonnage de pierre, un pouvoir qui provoque des éruptions rocheuses, sculpte la pierre et érige des murs solides pouvant devenir permanents.",
+        "Summary": "Provoque des éruptions rocheuses, façonne la pierre et érige des murailles.",
+        "HtmlContent": "Façonnage de pierre permet de faire jaillir terre et roches pour blesser les ennemis, de remodeler la pierre en objets ou en passages, puis de dresser des murs solides. En se concentrant assez longtemps, le personnage rend ses murs permanents."
+      }
+    }
+  }
+}

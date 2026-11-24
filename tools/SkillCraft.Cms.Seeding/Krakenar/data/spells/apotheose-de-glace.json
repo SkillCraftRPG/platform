@@ -1,0 +1,27 @@
+﻿{
+  "Id": "fce0d79d-fa9a-4266-a97e-305a76ec6a87",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apotheose-de-glace",
+    "DisplayName": "Apothéose de glace",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apotheose-de-glace",
+      "DisplayName": "Apothéose de glace",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apotheose-de-glace",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "Id": "8817164a-5a32-491a-8a22-b9a2d12224fa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDraconique_SummonDraconicSpirit",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"14eb729e-c1e4-4503-86fd-0aeb0887f3b1\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDraconique_SummonDraconicSpirit",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un objet gravé de l’image d’un dragon, d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Le personnage invoque un esprit draconique qui se manifeste dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **chromatique**, **gemme** ou **métallique**. L’esprit ressemble à un dragon de la forme choisie ; cette forme détermine ses traits et caractéristiques. Il disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLa créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/combat/deroulement/initiative) et agit immédiatement après son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) pendant son tour. S’il n’en donne aucun, elle se place en [position défensive](/regles/combat/activites/defense) et [se déplace](/regles/combat/activites/deplacement) afin d’éviter les dangers.\n\n\uD83D\uDC09Stat Block"
+      }
+    }
+  }
+}

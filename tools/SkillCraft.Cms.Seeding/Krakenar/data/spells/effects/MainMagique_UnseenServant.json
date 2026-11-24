@@ -2,7 +2,7 @@
   "Id": "be6f8e2d-4bfb-444a-a26e-69902ae997bf",
   "Invariant": {
     "IsPublished": true,
-    "UniqueName": "MainMagique_Serviteur",
+    "UniqueName": "MainMagique_UnseenServant",
     "DisplayName": "Serviteur",
     "Description": null,
     "FieldValues": {
@@ -20,7 +20,7 @@
   "Locales": {
     "fr": {
       "IsPublished": true,
-      "UniqueName": "MainMagique_Serviteur",
+      "UniqueName": "MainMagique_UnseenServant",
       "DisplayName": "Serviteur",
       "Description": null,
       "FieldValues": {

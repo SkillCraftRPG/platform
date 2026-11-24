@@ -1,0 +1,25 @@
+﻿{
+  "Id": "1df10014-356c-4ffb-82bd-1f3f5e81a7bc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-stawall",
+    "DisplayName": "Stawall",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3290",
+      "Y": "3190"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-stawall",
+      "DisplayName": "Stawall",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Stawall\n\nCité interdite des Elfes des bois"
+      }
+    }
+  }
+}

@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "stase",
-        "MetaDescription": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Stase, un pouvoir temporel qui interrompt les attaques et incantations, fait disparaître des créatures et suspend le temps pour préserver une cible.",
+        "HtmlContent": "Stase manipule le temps pour interrompre des attaques ou incantations en faisant disparaître brièvement une ou deux créatures. À son apogée, elle soustrait sa cible au vieillissement et à la détection jusqu’à ce qu’une condition mette fin au pouvoir.",
+        "Summary": "Interrompt les actions ennemies et soustrait une cible au passage du temps."
       }
     }
   }

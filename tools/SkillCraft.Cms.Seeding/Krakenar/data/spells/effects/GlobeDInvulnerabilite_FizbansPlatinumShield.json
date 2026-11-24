@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4f182887-8e19-4f17-b6cc-d7a05441a7b2",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "GlobeDInvulnerabilite_FizbansPlatinumShield",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"3783ce9c-4dda-4cd8-b840-4552d94384b0\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "GlobeDInvulnerabilite_FizbansPlatinumShield",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une écaille de dragon plaquée de platine d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Le personnage crée un champ de lumière argentée qui enveloppe une créature de son choix dans la portée, et peut se cibler lui-même. Le champ dégage de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 1,5 mètres. Tant qu’elle est enveloppée par le champ, une créature acquiert les bienfaits suivants :\n\n- **Abri.** La créature bénéficie d’un [demi-abri](/regles/combat/attaque/abri).\n- **Résistance aux dégâts.** La créature est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types), de [feu](/regles/combat/degats/types), de [foudre](/regles/combat/degats/types), de [froid](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types).\n- **Esquive.** Si la créature est soumise à un effet qui lui permet d’effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin de ne recevoir que la moitié des points de dégâts, elle ne reçoit aucun point de dégâts si elle réussit le jet de sauvegarde, et seulement la moitié des points de dégâts si elle échoue.\n\nUne fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut déplacer le champ vers une autre créature située à 18 mètres ou moins du champ."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "9d97f38d-fa7c-46b0-b2ca-9c6e5b74cf00",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CageSpirituelle_SoulCage",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"de6f1aea-8e2e-4eb8-9207-2a6f43071ba9\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CageSpirituelle_SoulCage",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une minuscule cage d’argent d’une valeur de 100 deniers.",
+        "HtmlContent": "Ce pouvoir saisit l’âme d’un humanoïde au moment de sa mort et la piège dans la minuscule cage utilisée afin de canaliser le pouvoir. Une âme volée demeure dans la cage jusqu’à la fin du pouvoir ou jusqu’à ce que le personnage détruise la cage, ce qui met fin au pouvoir. Tant qu’il a une âme dans la cage, il peut l’exploiter de l’une des façons décrites ci-dessous. Il peut utiliser une âme piégée jusqu’à cinq fois. Une fois qu’il a exploité une âme pour la cinquième fois, celle-ci est libérée, et le pouvoir prend fin. Tant qu’une âme est piégée, l’humanoïde [mort](/regles/combat/conditions/mort) dont elle provenait ne peut être [ressuscité](/regles/combat/mort-agonie).\n\n- **Emprunter l’expérience.** Par une [action](/regles/combat/deroulement/tour), il peut se renforcer de l’expérience de vie de l’âme : il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) à son prochain [test](/regles/competences/tests). S’il n’utilise pas ce bienfait avant le début de son prochain [tour](/regles/combat/deroulement/tour), celui-ci est perdu.\n- **Interroger l’âme.** Il pose une question à l’âme en [action libre](/regles/combat/deroulement/tour) et reçoit une brève réponse télépathique, qu’il comprend quelle que soit la [langue](/regles/langues) employée. L’âme ne connaît que ce qu’elle savait de son vivant, mais elle doit lui répondre sincèrement et au mieux de ses capacités. La réponse ne dépasse pas une ou deux phrases et peut être énigmatique.\n- **Voler la vie.** Par une [action](/regles/combat/deroulement/tour), le personnage peut drainer la vigueur de l’âme et [récupérer](/regles/combat/degats/soins) [1d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) points de [Vitalité](/regles/statistiques/vitalite).\n- **Yeux des morts.** Par une [action](/regles/combat/deroulement/tour), il peut nommer un lieu que l’humanoïde a vu de son vivant, ce qui crée un senseur [invisible](/regles/combat/conditions/invisible) quelque part dans ce lieu s’il se trouve dans la dimension où se trouve actuellement le personnage. Le senseur demeure aussi longtemps que le personnage [se concentre](/regles/combat/activites/concentration), comme s’il se [concentrait](/regles/magie/parametres/duree) sur un pouvoir, ou jusqu’à 10 minutes. Il reçoit des informations visuelles et auditives du senseur comme s’il se trouvait dans son espace en utilisant ses sens. Une créature qui peut [voir](/regles/aventure/environnement/vision) le senseur, telle qu’une créature qui [voit l’invisible](/regles/magie/pouvoirs/protection-contre-la-magie) ou possédant la [vision absolue](/regles/aventure/environnement/vision), aperçoit une image translucide de l’humanoïde tourmenté dont l’âme a été mise en cage."
+      }
+    }
+  }
+}

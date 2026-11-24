@@ -1,0 +1,31 @@
+﻿{
+  "Id": "689a4f84-d361-40af-85ea-0c0662001597",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Songe_Dream",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"28178a01-040f-4e1e-8b84-8d01864412b5\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Songe_Dream",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ce pouvoir façonne les rêves d’une créature. Le personnage désigne comme cible une créature qu’il connaît. La cible doit se trouver dans la même dimension que lui. Les créatures qui ne dorment pas, telles les [Elfes](/regles/especes/elfe), ne peuvent être contactées par ce pouvoir. Lui-même, ou une créature consentante qu’il touche, entre dans un état de transe, agissant comme messager. Pendant la transe, le messager est conscient de son environnement, mais ne peut entreprendre d’[action](/regles/combat/deroulement/tour) ni [se déplacer](/regles/combat/activites/deplacement).\n\nSi la cible est endormie, le messager apparaît dans ses rêves et peut converser avec elle tant qu’elle demeure endormie, pendant la durée du pouvoir. Le messager peut également modeler l’environnement du rêve, créant des paysages, des objets et d’autres images. Il peut sortir de la transe à tout moment, mettant fin prématurément à l’effet du pouvoir. La cible se souvient parfaitement du rêve à son réveil. Si la cible est éveillée lorsque le personnage canalise le pouvoir, le messager le sait, et peut soit mettre fin à la transe (et au pouvoir), soit attendre que la cible s’endorme, auquel cas le messager apparaît dans ses rêves.\n\nLe personnage peut faire apparaître le messager sous une forme monstrueuse et terrifiante aux yeux de la cible. S’il le fait, le messager peut délivrer un message d’au plus dix mots, puis la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, les échos de la monstruosité fantasmagorique engendrent un cauchemar qui dure pendant tout le sommeil de la cible et l’empêche de tirer tout bénéfice de ce repos. Également, lorsque la cible se réveille, elle reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types).\n\nS’il possède une partie du corps de la cible, une mèche de cheveux, un bout d’ongle ou une portion similaire de son corps, le jet de sauvegarde de la cible est affligé du [désavantage](/regles/competences/tests/avantage-desavantage).",
+        "Material": "Une poignée de sable et une touche d’encre.",
+        "Focus": "Une plume d’écriture arrachée à un oiseau endormi."
+      }
+    }
+  }
+}

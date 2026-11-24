@@ -1,0 +1,30 @@
+﻿{
+  "Id": "fb93f421-d932-4152-bed1-7199cfb08e31",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mirage_MirageArcane",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7a05fc30-b52f-4769-8722-163d9099deb5\"]",
+      "Level": "2",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Day\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mirage_MirageArcane",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait en sorte qu’un terrain dans une zone d’au plus 1,5 kilomètres de côté ait l’apparence, le son, l’odeur et même le toucher d’un autre type de terrain. La forme générale du terrain demeure toutefois la même. Des champs ouverts ou une route peuvent ressembler à un marécage, une colline, une crevasse, ou à quelque autre terrain difficile ou infranchissable. Un étang peut sembler une prairie herbeuse, un précipice une pente douce, ou un ravin jonché de rochers une large route lisse. De même, il peut modifier l’apparence de structures, ou en ajouter là où il n’y en a pas. Le pouvoir ne déguise, ne dissimule ni n’ajoute de créatures.\n\nL’illusion comprend des éléments auditifs, visuels, tactiles et olfactifs, de sorte qu’elle peut transformer un sol dégagé en [terrain difficile](/regles/aventure/mouvement/terrain-difficile) (ou l’inverse) ou autrement entraver le [mouvement](/regles/aventure/mouvement/vitesse) dans la zone. Tout morceau du terrain illusoire (telle une roche ou un bâton) retiré de la zone du pouvoir disparaît immédiatement.\n\nLes créatures bénéficiant de la [vision absolue](/regles/aventure/environnement/vision) peuvent voir à travers l’illusion jusqu’à la forme véritable du terrain ; néanmoins, tous les autres éléments de l’illusion demeurent, de sorte que, bien que la créature soit consciente de la présence de l’illusion, elle peut toujours interagir physiquement avec celle-ci.",
+        "Focus": "Une pierre, un rameau et un peu de plante verte."
+      }
+    }
+  }
+}

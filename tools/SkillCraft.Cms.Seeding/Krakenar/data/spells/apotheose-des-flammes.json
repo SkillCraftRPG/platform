@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8b8edee9-eae0-4511-9ee0-dfa01639234e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apotheose-des-flammes",
+    "DisplayName": "Apothéose des flammes",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apotheose-des-flammes",
+      "DisplayName": "Apothéose des flammes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apotheose-des-flammes",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

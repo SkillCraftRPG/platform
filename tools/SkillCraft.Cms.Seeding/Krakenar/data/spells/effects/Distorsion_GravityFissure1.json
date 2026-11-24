@@ -1,0 +1,31 @@
+﻿{
+  "Id": "163a28b4-4a10-4cb1-b548-b79b87d82582",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Distorsion_GravityFissure1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b0c4aa55-3b63-47ae-99da-6b964f9d7509\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Distorsion_GravityFissure1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une poignée de limaille de fer.",
+        "HtmlContent": "Le personnage manifeste un ravin d’énergie gravitationnelle en une ligne partant de sa position, longue de 30 mètres et large de 1,5 mètres. Chaque créature dans cette ligne doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [5d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts.\n\nChaque créature située à 3 mètres ou moins de la ligne mais qui ne s’y trouve pas doit réussir un jet de sauvegarde de Résistance ou recevoir [5d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) et être tirée vers la ligne jusqu’à se trouver dans sa zone."
+      }
+    }
+  }
+}

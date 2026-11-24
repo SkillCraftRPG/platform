@@ -1,0 +1,27 @@
+﻿{
+  "Id": "8ca5ab92-d3b7-459b-a533-84844c04aa75",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "tempete-de-flammes",
+    "DisplayName": "Tempête de flammes",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "tempete-de-flammes",
+      "DisplayName": "Tempête de flammes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "tempete-de-flammes",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

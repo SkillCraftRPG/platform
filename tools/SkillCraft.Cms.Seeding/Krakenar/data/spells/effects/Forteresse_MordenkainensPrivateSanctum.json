@@ -1,0 +1,32 @@
+﻿{
+  "Id": "3f082916-929e-4950-80f0-c92497aa27e6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Forteresse_MordenkainensPrivateSanctum",
+    "DisplayName": "Sanctuaire privé",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7f83f7f7-dfc9-4d29-81f0-6a604cb931ae\"]",
+      "Level": "0",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Forteresse_MordenkainensPrivateSanctum",
+      "DisplayName": "Sanctuaire privé",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage rend magiquement sûre une zone dans la portée. La zone est un cube qui peut être aussi petit que 1,5 mètres d’arête ou aussi grand que 60 mètres d’arête. Il peut mettre fin au pouvoir par une [action](/regles/combat/deroulement/tour). Lorsqu’il canalise le pouvoir, il décide du type de sécurité que celui-ci procure, en choisissant l’une ou l’autre des propriétés suivantes, ou toutes :\n\n- le son ne peut traverser la barrière à la lisière de la zone gardée\n- la barrière de la zone gardée apparaît sombre et brumeuse, empêchant la [vision](/regles/aventure/environnement/vision) (y compris la [vision dans le noir](/regles/aventure/environnement/vision)) à travers elle\n- les senseurs créés par des pouvoirs de [divination](/regles/astromancie/divination) ne peuvent apparaître à l’intérieur de la zone protégée ni traverser la barrière à son périmètre\n- les créatures dans la zone ne peuvent être ciblées par des pouvoirs de [divination](/regles/astromancie/divination)\n- rien ne peut se téléporter vers l’intérieur ou l’extérieur de la zone gardée\n- le voyage dimensionnel est bloqué à l’intérieur de la zone gardée\n\nCanaliser ce pouvoir au même endroit chaque jour pendant un an rend cet effet permanent.",
+        "Focus": "Une mince feuille de plomb, un morceau de verre opaque et une boule de coton ou de tissu.",
+        "Material": "De la chrysolite en poudre."
+      }
+    }
+  }
+}

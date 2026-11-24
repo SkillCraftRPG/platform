@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4651ae30-13f5-4115-8243-9cd85ebbc424",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrontiereAquatique_WaterWalk",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d797becd-2a45-40f2-9259-df1d7201ec4d\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrontiereAquatique_WaterWalk",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un morceau de liège.",
+        "HtmlContent": "Le personnage confère à 10 créatures consentantes ou moins qu’il peut [voir](/regles/aventure/environnement/vision) la capacité de [se déplacer](/regles/combat/activites/deplacement) sur n’importe quelle surface liquide, telle que l’eau, l’acide, la boue, la neige, les sables mouvants ou la lave, comme s’il s’agissait d’un sol solide inoffensif (les créatures traversant de la lave en fusion peuvent néanmoins recevoir des [dégâts](/regles/combat/degats) de la chaleur). Il peut s’inclure dans ce nombre.\n\nSi une cible est immergée dans un liquide, le pouvoir porte la cible à la surface du liquide à raison de 18 mètres par [round](/regles/combat/deroulement)."
+      }
+    }
+  }
+}

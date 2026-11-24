@@ -1,0 +1,27 @@
+﻿{
+  "Id": "960a5e47-3c76-42f5-b787-6186ed3b6afd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "marees",
+    "DisplayName": "Marées",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "marees",
+      "DisplayName": "Marées",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "marees",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

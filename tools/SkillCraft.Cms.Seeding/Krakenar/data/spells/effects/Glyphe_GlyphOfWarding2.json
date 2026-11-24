@@ -1,0 +1,29 @@
+﻿{
+  "Id": "c9c3066c-e2c2-4874-8d87-7f1478072082",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Glyphe_GlyphOfWarding2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ad0c0133-1471-4e3c-b62b-a6f626147b00\"]",
+      "Level": "1",
+      "CastingTime": "[\"1h\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Glyphe_GlyphOfWarding2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’encens et de la poudre de diamant d’une valeur d’au moins 200 deniers.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais l’effet est plus puissant.\n\n- **Glyphe de pouvoir.** Le personnage peut stocker dans le glyphe un pouvoir de niveau 6 ou moins.\n- **Runes explosives.** Le personnage ajoute la totalité de sa [Puissance](/regles/statistiques/puissance) aux [points de dégâts](/regles/combat/degats) infligés plutôt que seulement la moitié."
+      }
+    }
+  }
+}

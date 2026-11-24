@@ -24,7 +24,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le toucher de la main ombreuse du personnage peut siphonner la force vitale d’autrui afin de guérir ses blessures. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types), et le personnage [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à la moitié des points de dégâts infligés. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), le personnage peut tenter cette attaque à nouveau jusqu’à la fin du pouvoir."
+        "HtmlContent": "Le toucher de la main ombreuse du personnage peut siphonner la force vitale d’autrui afin de guérir ses blessures. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types), et le personnage [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à la moitié des points de dégâts infligés. Une fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut tenter cette attaque à nouveau jusqu’à la fin du pouvoir."
       }
     }
   }

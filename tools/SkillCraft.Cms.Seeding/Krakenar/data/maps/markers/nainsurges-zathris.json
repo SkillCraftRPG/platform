@@ -1,0 +1,25 @@
+﻿{
+  "Id": "316f4eb7-a1a5-477b-92f1-773ece9ac17b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-zathris",
+    "DisplayName": "Zathris",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3995",
+      "Y": "3120"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-zathris",
+      "DisplayName": "Zathris",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Zathris\n\nCité thrixe ; centre de mycélium"
+      }
+    }
+  }
+}

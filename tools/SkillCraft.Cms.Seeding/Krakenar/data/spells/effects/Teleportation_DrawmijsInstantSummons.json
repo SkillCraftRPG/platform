@@ -1,0 +1,30 @@
+﻿{
+  "Id": "13cfebf8-0a40-48e2-9c2b-aac25a9af457",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Teleportation_DrawmijsInstantSummons",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"82e9307f-4c3f-4936-8cfc-83efd75f45b9\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Teleportation_DrawmijsInstantSummons",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un saphir d’une valeur de 1000 deniers.",
+        "HtmlContent": "Le personnage touche un objet pesant 5 kilogrammes ou moins dont la plus grande dimension est de 1,8 mètres ou moins. Le pouvoir laisse une marque [invisible](/regles/combat/conditions/invisible) à sa surface et inscrit invisiblement le nom de l’objet sur le saphir utilisé comme composante. Chaque fois que le personnage canalise ce pouvoir, il doit utiliser un saphir différent, sauf si le pouvoir est préalablement [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie).\n\nÀ tout moment par la suite, il peut utiliser une [action](/regles/combat/deroulement/tour) afin de prononcer le nom de l’objet. L’objet apparaît instantanément dans sa main, quelles que soient les distances physiques ou dimensionnelles. Si une autre créature tient ou porte l’objet, l’objet n’est pas transporté, mais le personnage apprend qui possède l’objet et approximativement où se trouve cette créature à cet instant. Que l’objet soit transporté ou non, le saphir se brise. Il ne peut être réutilisé afin de canaliser ce pouvoir, mais ses fragments peuvent être récupérés et réutilisés comme matériaux."
+      }
+    }
+  }
+}

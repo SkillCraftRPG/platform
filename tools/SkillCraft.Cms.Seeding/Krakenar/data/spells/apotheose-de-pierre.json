@@ -1,0 +1,27 @@
+﻿{
+  "Id": "5b567173-3110-41c2-8ba2-a9f6b0935e3a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apotheose-de-pierre",
+    "DisplayName": "Apothéose de pierre",
+    "Description": null,
+    "FieldValues": {
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]",
+      "Tier": "3"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apotheose-de-pierre",
+      "DisplayName": "Apothéose de pierre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apotheose-de-pierre",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

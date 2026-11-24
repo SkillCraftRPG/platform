@@ -1,0 +1,30 @@
+﻿{
+  "Id": "4784f15f-b09a-4c89-ad62-c876635c84bf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Iridescence_PrismaticSpray",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fd09ccb6-d923-4010-82a0-3efcffc2922b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Iridescence_PrismaticSpray",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Sept rayons de lumière multicolores jaillissent de la main du personnage. Chaque rayon est d’une couleur différente et possède un pouvoir et un dessein distincts. Chaque créature dans un cône de 18 mètres doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Pour chaque cible, on lance 1d8 afin de déterminer quel rayon de couleur l’affecte.\n\n1. **Rouge.** La cible reçoit [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n2. **Orange.** La cible reçoit [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) d’[acide](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n3. **Jaune.** La cible reçoit [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n4. **Vert.** La cible reçoit [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [poison](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n5. **Bleu.** La cible reçoit [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n6. **Indigo.** En cas d’échec, la cible est [restreinte](/regles/combat/conditions/restreint). Elle doit ensuite effectuer un jet de sauvegarde de [Résistance](/regles/competences/resistance) à la fin de chacun de ses [tours](/regles/combat/deroulement/tour). Si elle réussit trois fois, le pouvoir prend fin. Si elle échoue trois fois, elle est [pétrifiée](/regles/combat/conditions/petrifie). Les réussites et les échecs n’ont pas à être consécutifs ; on les compte séparément jusqu’à ce que la cible en accumule trois d’un même type.\n7. **Violet.** En cas d’échec, la cible est [aveuglée](/regles/combat/conditions/aveugle). Elle doit ensuite effectuer un jet de sauvegarde de [Discipline](/regles/competences/discipline) au début du prochain tour du personnage. Une réussite met fin à l’aveuglement. En cas d’échec, la créature est transportée vers une autre dimension au choix du maître de jeu et n’est plus aveuglée. Typiquement, une créature qui se trouve dans une dimension autre que sa dimension d’origine y est bannie, tandis que les autres créatures sont généralement projetées dans la dimension astrale ou éthérée.\n8. La cible est frappée par deux rayons. On lance deux fois de plus, en relançant tout 8 jusqu’à l’obtention de deux résultats différents de 8."
+      }
+    }
+  }
+}

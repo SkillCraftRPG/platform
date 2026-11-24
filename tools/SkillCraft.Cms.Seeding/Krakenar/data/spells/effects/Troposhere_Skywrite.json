@@ -1,0 +1,30 @@
+﻿{
+  "Id": "3bfe7914-7114-4d86-a67c-39368a2c853b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Troposhere_Skywrite",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2892f215-4017-44bf-8778-cefb5cfb3505\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "IsConcentration": "true",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Troposhere_Skywrite",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait apparaître jusqu’à dix mots dans une partie du ciel qu’il peut [voir](/regles/aventure/environnement/vision). Les mots semblent faits de nuages et demeurent en place pendant la durée du pouvoir. Ils se dissipent lorsque le pouvoir prend fin. Un vent fort peut disperser les nuages et mettre fin prématurément au pouvoir."
+      }
+    }
+  }
+}

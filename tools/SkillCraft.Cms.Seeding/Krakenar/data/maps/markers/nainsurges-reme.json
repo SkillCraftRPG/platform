@@ -1,0 +1,25 @@
+﻿{
+  "Id": "4822c445-0871-4ba9-8179-fa53931dd0b1",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "nainsurges-reme",
+    "DisplayName": "Rême",
+    "Description": null,
+    "FieldValues": {
+      "X": "3130",
+      "Y": "4575",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": false,
+      "UniqueName": "nainsurges-reme",
+      "DisplayName": "Rême",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Rême\n\nCité humaine de la Pavathine (La Familia)"
+      }
+    }
+  }
+}

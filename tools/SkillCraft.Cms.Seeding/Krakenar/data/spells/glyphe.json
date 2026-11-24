@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "glyphe",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Glyphe, un pouvoir qui grave des runes magiques capables de piéger les intrus, déclencher des sorts, exploser ou infliger de puissantes afflictions.",
+        "Summary": "Grave des glyphes qui piègent les intrus avec des sorts ou des malédictions.",
+        "HtmlContent": "Glyphe permet de graver des runes discrètes sur une surface ou un objet. Déclenchées selon des conditions précises, elles libèrent un pouvoir stocké, une explosion élémentaire ou des effets dévastateurs capables de terroriser, neutraliser ou tuer."
       }
     }
   }

@@ -1,0 +1,25 @@
+﻿{
+  "Id": "3b933d68-daf6-46c3-a515-e8a11a0666c5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-orrixe",
+    "DisplayName": "Orrixe",
+    "Description": null,
+    "FieldValues": {
+      "X": "4050",
+      "Y": "3930",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-orrixe",
+      "DisplayName": "Orrixe",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Orrixe\n\nOn peut y trouver du cumin."
+      }
+    }
+  }
+}

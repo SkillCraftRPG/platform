@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6263d61c-22c6-41c7-8bcf-639739d090e1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProjectionDeFlammes_AganazzarsScorcher1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6105abec-b3b8-4e5c-8bba-432321c9489f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProjectionDeFlammes_AganazzarsScorcher1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une écaille de dragon rouge.",
+        "HtmlContent": "Une ligne de flammes rugissantes de 9 mètres de long et de 1,5 mètres de large émane du personnage dans une direction de son choix. Chaque créature dans la ligne doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Une créature reçoit [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite."
+      }
+    }
+  }
+}

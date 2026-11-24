@@ -1,0 +1,25 @@
+﻿{
+  "Id": "b6cadff9-9cf1-4cc2-b58c-28017fbc932f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-minas-annun",
+    "DisplayName": "Minas Annûn",
+    "Description": null,
+    "FieldValues": {
+      "X": "1490",
+      "Y": "3300",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-minas-annun",
+      "DisplayName": "Minas Annûn",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Minas Annûn\n\nCité des [Elfes des mers](https://www.skillcraftrpg.ca/regles/especes/elfe/mers) où prendre un navire pour Ymland."
+      }
+    }
+  }
+}

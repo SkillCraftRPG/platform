@@ -1,0 +1,25 @@
+﻿{
+  "Id": "bc807dd5-92d1-420d-b464-5002e8b511df",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-ymland",
+    "DisplayName": "Ymland",
+    "Description": null,
+    "FieldValues": {
+      "X": "790",
+      "Y": "1350",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-ymland",
+      "DisplayName": "Ymland",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Ymland\n\nLieu sacré des [Goliath](https://www.skillcraftrpg.ca/regles/especes/goliath)."
+      }
+    }
+  }
+}

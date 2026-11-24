@@ -1,0 +1,32 @@
+﻿{
+  "Id": "23cc55ab-a0eb-4b17-b718-842df8e7eba7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDeForce_WallOfForce",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"89c79373-ff0b-4d3b-b069-f051bd772169\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDeForce_WallOfForce",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poudre obtenue en écrasant une gemme transparente.",
+        "HtmlContent": "Un mur de force [invisible](/regles/combat/conditions/invisible) surgit en un point choisi par le personnage dans la portée. Le mur apparaît dans l’orientation de son choix, comme une barrière horizontale ou verticale ou selon un angle. Il peut flotter librement ou reposer sur une surface solide. Le personnage peut le former en un dôme hémisphérique ou en une sphère d’un rayon d’au plus 4,5 mètres, ou façonner une surface plane composée de 15 panneaux de 3 mètres sur 3 mètres. Chaque panneau doit être contigu à un autre panneau. Sous quelque forme que ce soit, le mur a une épaisseur de 5 millimètres.\n\nSi le mur traverse l’[espace](/regles/aventure/mouvement/espace-occupe) d’une créature lorsqu’il apparaît, celle-ci est repoussée d’un côté du mur (au choix du personnage). Rien ne peut physiquement traverser le mur. Il est immunisé à tous les [dégâts](/regles/combat/degats) et ne peut être [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie). Le mur est détruit instantanément s’il est [désintégré](/regles/magie/pouvoirs/telekinesie). Le mur s’étend également dans la dimension éthérée, bloquant le voyage éthéré à travers le mur."
+      }
+    }
+  }
+}

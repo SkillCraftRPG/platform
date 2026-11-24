@@ -1,0 +1,32 @@
+﻿{
+  "Id": "89270717-256a-4ebe-828e-b26173c037a4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Homoncule_CreateHomunculus",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6220d644-fca1-417b-8c77-04bf95f5d29c\"]",
+      "Level": "1",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Homoncule_CreateHomunculus",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Tout en prononçant une incantation complexe, le personnage se coupe avec une dague incrustée de joyaux, recevant [2d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [perforants](/regles/combat/degats/types) qui ne peuvent être réduits d’aucune façon. Il fait ensuite goutter son sang sur les composantes matérielles du pouvoir et les touche, les transformant en une construction spéciale appelée homoncule. C’est son compagnon fidèle, et il [meurt](/regles/combat/conditions/mort) si le personnage meurt. Le maître de jeu dispose des caractéristiques de l’homoncule.\n\nChaque fois que le personnage complète une [nuit de sommeil](/regles/aventure/repos/sommeil), il peut transférer sa [Vitalité](/regles/statistiques/vitalite) à l’homoncule si les deux se trouvent dans la même dimension. Il divise sa Vitalité totale par 10, et peut jeter un nombre de d10 inférieur ou égal à ce nombre. Il ajoute sa [Santé](/regles/attributs/sante) (minimum&nbsp;0) pour chaque dé jeté au total. Sa Vitalité courante et maximale est réduite de ce nombre, et la Vitalité courante et maximale de l’homoncule augmente d’un nombre égal. Ce transfert ne peut réduire sa Vitalité maximale à 0 point ou moins. Le transfert prend fin lorsque le personnage complète une nuit de sommeil. Cette réduction de Vitalité maximale ne peut être retirée par aucun moyen, sauf par la mort de l’homoncule.\n\nLe personnage ne peut avoir qu’un seul homoncule à la fois. S’il canalise ce pouvoir alors que son homoncule vit, la canalisation échoue.",
+        "Material": "De l’argile, de la cendre et de la racine de mandragore.",
+        "Focus": "Une dague incrustée de joyaux d’une valeur d’au moins 1000 deniers."
+      }
+    }
+  }
+}

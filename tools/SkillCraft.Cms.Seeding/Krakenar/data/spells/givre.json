@@ -1,0 +1,27 @@
+﻿{
+  "Id": "ed2286c8-f49b-4a28-b977-7176ebccce6f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "givre",
+    "DisplayName": "Givre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "givre",
+      "DisplayName": "Givre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "givre",
+        "MetaDescription": "Découvrez Givre, un pouvoir qui forme une armure glaciale, projette un éclat de glace explosif et déchaîne un cône de froid immobilisant.",
+        "HtmlContent": "Givre enveloppe le personnage d’une armure glaciale qui blesse ses assaillants, lui permet de lancer un éclat de glace explosif et de projeter un cône de froid capable d’immobiliser ses ennemis. Ces effets gagnent en puissance selon le niveau.",
+        "Summary": "Protège d’une armure de givre, lance des éclats et immobilise par le froid."
+      }
+    }
+  }
+}

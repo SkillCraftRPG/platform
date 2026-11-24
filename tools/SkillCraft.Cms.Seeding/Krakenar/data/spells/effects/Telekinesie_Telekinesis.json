@@ -1,0 +1,31 @@
+﻿{
+  "Id": "88106f92-8340-4b51-ace3-36e5d0a1d12e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telekinesie_Telekinesis",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4b328748-30f1-4b3c-b28d-b467baaae315\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telekinesie_Telekinesis",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage acquiert la capacité de déplacer ou de manipuler des créatures ou des objets par la pensée. Lorsqu’il canalise le pouvoir, et par une [action](/regles/combat/deroulement/tour), une fois par [tour](/regles/combat/deroulement/tour) pendant la durée, il peut exercer sa volonté sur une créature ou un objet qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, provoquant l’effet approprié ci-dessous. Il peut affecter la même cible tour après tour, ou en choisir une nouvelle à tout moment. S’il change de cible, la cible précédente n’est plus affectée par le pouvoir.\n\n- **Créature.** Il peut tenter de déplacer une créature de [taille](/regles/especes/taille) énorme ou moindre. La cible doit effectuer un test [opposé](/regles/competences/tests/oppose) d’[Athlétisme](/regles/competences/athletisme). Si le personnage remporte l’opposition, il déplace la créature d’au plus 9 mètres dans n’importe quelle direction, y compris vers le haut, mais sans dépasser la portée du pouvoir. Jusqu’à la fin de son prochain tour, la créature est [restreinte](/regles/combat/conditions/restreint) dans son emprise télékinétique. Une créature soulevée vers le haut demeure suspendue dans les airs. Lors des tours suivants, il peut utiliser une action afin de tenter de maintenir son emprise télékinétique sur la créature en répétant l’opposition.\n- **Objet.** Il peut tenter de déplacer un objet pesant jusqu’à 500 kilogrammes. Si l’objet n’est ni porté ni tenu, il le déplace automatiquement d’au plus 9 mètres dans n’importe quelle direction, mais sans dépasser la portée du pouvoir. Si l’objet est porté ou tenu par une créature, la cible doit effectuer un test [opposé](/regles/competences/tests/oppose) d’[Athlétisme](/regles/competences/athletisme). Si le personnage remporte l’opposition, il arrache l’objet à cette créature et peut le déplacer d’au plus 9 mètres dans n’importe quelle direction, mais sans dépasser la portée du pouvoir. Il peut exercer un contrôle fin sur les objets saisis par son emprise télékinétique, par exemple manipuler un [outil](/regles/equipement/outils) simple, ouvrir une porte ou un [contenant](/regles/equipement/general/contenants), ranger ou retirer un objet d’un contenant ouvert, ou verser le contenu d’une fiole."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "ad2e5562-5a02-4bab-867c-95103da4b347",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "foudroiement",
+    "DisplayName": "Foudroiement",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "foudroiement",
+      "DisplayName": "Foudroiement",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "foudroiement",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

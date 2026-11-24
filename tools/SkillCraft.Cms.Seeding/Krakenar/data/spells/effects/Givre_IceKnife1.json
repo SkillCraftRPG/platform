@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ee88b404-6dfb-4058-994c-869304315039",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_IceKnife1",
+    "DisplayName": "Éclat de glace",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_IceKnife1",
+      "DisplayName": "Éclat de glace",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau ou un morceau de glace.",
+        "HtmlContent": "Le personnage crée un éclat de glace et le lance vers une créature dans la portée. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [perforants](/regles/combat/degats/types). Que l’attaque réussisse ou échoue, l’éclat explose ensuite. La cible et toute créature située à 1,5 mètres ou moins du point où l’éclat a explosé doivent réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou recevoir [2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

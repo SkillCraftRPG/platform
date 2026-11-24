@@ -1,0 +1,25 @@
+﻿{
+  "Id": "e0c256bb-1e18-4509-98b9-f3a41fd80b8f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-brelkar",
+    "DisplayName": "Brelkar",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3525",
+      "Y": "2900"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-brelkar",
+      "DisplayName": "Brelkar",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Brelkar\n\nCité thrixe de la Poléchie"
+      }
+    }
+  }
+}

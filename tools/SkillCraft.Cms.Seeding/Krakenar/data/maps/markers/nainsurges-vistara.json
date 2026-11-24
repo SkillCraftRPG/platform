@@ -1,0 +1,25 @@
+﻿{
+  "Id": "e4427510-22c4-4830-9b82-f731a946e259",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-vistara",
+    "DisplayName": "Vistara",
+    "Description": null,
+    "FieldValues": {
+      "X": "3450",
+      "Y": "2660",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-vistara",
+      "DisplayName": "Vistara",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Vistara\n\nCité multiethnique de la Poléchie ; centre de mycélium"
+      }
+    }
+  }
+}

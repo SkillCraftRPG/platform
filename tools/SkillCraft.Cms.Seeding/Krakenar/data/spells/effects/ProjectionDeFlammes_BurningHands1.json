@@ -1,0 +1,30 @@
+﻿{
+  "Id": "0039e9f2-cb2e-426c-b65d-5a740ab87f47",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProjectionDeFlammes_BurningHands1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6105abec-b3b8-4e5c-8bba-432321c9489f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProjectionDeFlammes_BurningHands1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage joint les pouces et écarte les doigts, et une fine nappe de flammes jaillit de ses doigts tendus. Chaque créature dans un cône de 4,5 mètres doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Une créature reçoit [3d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nLe feu enflamme les objets inflammables de la zone qui ne sont ni portés ni tenus."
+      }
+    }
+  }
+}

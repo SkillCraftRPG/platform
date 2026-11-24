@@ -1,0 +1,31 @@
+﻿{
+  "Id": "40888e7e-04df-4e6a-a300-a00129263bcd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VentsViolents_Shatter",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4874b802-2357-40a3-8bd1-95b6246e19ed\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VentsViolents_Shatter",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un éclat de mica.",
+        "HtmlContent": "Un bruit de sonnerie soudain, douloureusement intense, éclate depuis un point au choix du personnage dans la portée. Chaque créature dans une sphère de 3 mètres de rayon centrée sur ce point doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Une créature reçoit [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [tonnerre](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite. Une créature faite de matière inorganique telle que la pierre, le cristal ou le métal est affligée du [désavantage](/regles/competences/tests/avantage-desavantage) à ce jet de sauvegarde.\n\nUn objet non magique qui n’est ni porté ni tenu reçoit également les dégâts s’il se trouve dans la zone du pouvoir."
+      }
+    }
+  }
+}

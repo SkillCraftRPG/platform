@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4dbaddf4-cb32-4b66-adaf-24d32a75da77",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Forteresse_MordenkainensMagnificentMansion",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7f83f7f7-dfc9-4d29-81f0-6a604cb931ae\"]",
+      "Level": "2",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "60",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Forteresse_MordenkainensMagnificentMansion",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Les objets requis afin de canaliser ce pouvoir sont un portail miniature sculpté dans l’ivoire, un petit morceau de marbre poli et une minuscule cuillère d’argent.\n\nLe personnage conjure une demeure extra-dimensionnelle dans la portée qui dure pendant la durée. Il choisit où se situe son unique entrée. L’entrée miroite faiblement et mesure 1,5 mètres de large et 3 mètres de haut. Lui et toute créature qu’il désigne lorsqu’il canalise le pouvoir peuvent entrer dans la demeure extra-dimensionnelle tant que le portail demeure ouvert. Il peut ouvrir ou fermer le portail s’il se trouve à 9 mètres ou moins de celui-ci. Tant qu’il est fermé, le portail est [invisible](/regles/combat/conditions/invisible). Au-delà du portail se trouve un vestibule magnifique, suivi de nombreuses chambres. L’atmosphère est propre, fraîche et chaude.\n\nIl peut créer n’importe quel plan d’étage de son choix, mais l’espace ne peut dépasser 50 cubes, chaque cube mesurant 3 mètres d’arête. Le lieu est meublé et décoré comme il le souhaite. Il contient suffisamment de nourriture pour servir un banquet de neuf services à jusqu’à 100 personnes. Un personnel de 100 domestiques quasi transparents sert tous ceux qui entrent. Il décide de l’apparence visuelle de ces domestiques et de leur tenue. Ils obéissent complètement à ses ordres. Chaque domestique peut accomplir toute tâche qu’un domestique humain normal pourrait accomplir, mais ne peut [attaquer](/regles/combat/attaque) ni entreprendre d’[action](/regles/combat/activites) qui nuirait directement à une autre créature. Ainsi, les domestiques peuvent rapporter des [objets](/regles/equipement), nettoyer, raccommoder, plier du linge, allumer des feux, servir de la nourriture, verser du vin, et ainsi de suite. Les domestiques peuvent aller n’importe où dans le manoir, mais ne peuvent le quitter. Le mobilier et les autres objets créés par ce pouvoir se dissipent en fumée s’ils sont retirés du manoir. Lorsque le pouvoir prend fin, toute créature ou tout objet se trouvant dans l’espace extra-dimensionnel est expulsé vers les [espaces inoccupés](/regles/aventure/mouvement/espace-occupe) les plus proches de l’entrée.",
+        "Focus": "Trois petits objets d’une valeur d’au moins 5 deniers chacun."
+      }
+    }
+  }
+}

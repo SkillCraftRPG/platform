@@ -1,0 +1,32 @@
+﻿{
+  "Id": "9d151434-5207-4d19-a83c-20a7a07d09d3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necrogenese_CreateUndead",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"bb2b7195-ee73-4ef3-902e-3e417abfa354\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necrogenese_CreateUndead",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage ne peut canaliser ce pouvoir que de nuit. Il désigne jusqu’à trois cadavres d’humanoïdes de [taille](/regles/especes/taille) moyenne ou petite situés dans la portée. Chaque cadavre devient une goule sous son contrôle. Le maître de jeu dispose des statistiques de jeu de ces créatures.\n\nIl peut commander mentalement toute créature qu’il a animée avec ce pouvoir par une [action](/regles/combat/deroulement/tour) si celle-ci se trouve à 36 mètres ou moins de sa position. S’il contrôle plusieurs créatures, il peut en commander n’importe laquelle ou toutes à la fois, en donnant le même ordre à chacune. Il décide des [actions](/regles/combat/activites) que la créature entreprendra et de l’endroit où elle [se déplacera](/regles/combat/activites/deplacement) pendant son prochain tour, ou il peut donner un ordre général, tel que garder une chambre ou un couloir particulier. S’il ne donne aucun ordre, la créature ne fait que se défendre contre les créatures [hostiles](/regles/aventure/interaction-sociale). Une fois un ordre donné, la créature continue de le suivre jusqu’à ce que sa tâche soit accomplie.\n\nUne créature est sous le contrôle du personnage pendant 24 heures, après quoi elle cesse d’obéir à tout ordre qu’il lui a donné. Pour maintenir le contrôle d’une créature pendant 24 heures supplémentaires, il doit canaliser ce pouvoir sur la créature avant la fin de la période de 24 heures en cours. Cet usage du pouvoir réaffirme son contrôle sur jusqu’à trois créatures qu’il a animées avec ce pouvoir, plutôt que d’en animer de nouvelles.",
+        "Material": "Un pot d’argile rempli de terre de tombe et un pot d’argile rempli d’eau saumâtre par cadavre.",
+        "Focus": "Une pierre d’onyx noir de 150 deniers par cadavre."
+      }
+    }
+  }
+}

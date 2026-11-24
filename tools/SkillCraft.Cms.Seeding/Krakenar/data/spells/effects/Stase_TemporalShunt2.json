@@ -1,0 +1,30 @@
+﻿{
+  "Id": "ca4df369-d39f-4efb-8d48-fdd46001ef82",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stase_TemporalShunt2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c1e52a60-77e9-490a-b2fe-5f090b60018b\"]",
+      "Level": "1",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stase_TemporalShunt2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais le personnage peut cibler une seconde créature située à 9 mètres ou moins de la cible."
+      }
+    }
+  }
+}

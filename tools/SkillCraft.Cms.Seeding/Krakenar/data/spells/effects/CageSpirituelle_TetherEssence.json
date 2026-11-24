@@ -1,0 +1,32 @@
+﻿{
+  "Id": "11ebb73f-f201-434b-ab37-a4234e36aeb1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CageSpirituelle_TetherEssence",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"de6f1aea-8e2e-4eb8-9207-2a6f43071ba9\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CageSpirituelle_TetherEssence",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Deux créatures que le personnage peut [voir](/regles/aventure/environnement/vision) dans la portée doivent effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Leur jet est affligé du [désavantage](/regles/competences/tests/avantage-desavantage) si elles se trouvent à 9 mètres ou moins l’une de l’autre. Chacune des deux créatures peut échouer volontairement au jet. Si l’un des jets réussit, le pouvoir n’a aucun effet. Si les deux jets échouent, les créatures sont magiquement liées pendant la durée, quelle que soit la distance qui les sépare. Si une des créatures liées est [blessée](/regles/combat/degats), l’autre reçoit les mêmes points de dégâts. Si une des créatures liées est [soignée](/regles/combat/degats/soins), l’autre récupère un nombre égal de points de [Vitalité](/regles/statistiques/vitalite). Si les points de Vitalité d’une des créatures liées chutent à 0, le pouvoir prend fin pour les deux. Lorsque le pouvoir prend fin pour une des créatures, il prend fin pour les deux.",
+        "Material": "Une bobine de fil de platine d’une valeur d’au moins 250 deniers."
+      }
+    }
+  }
+}

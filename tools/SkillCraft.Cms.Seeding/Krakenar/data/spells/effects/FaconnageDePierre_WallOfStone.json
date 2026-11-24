@@ -1,0 +1,32 @@
+﻿{
+  "Id": "3f6f4a0a-a4ba-4d51-b76d-c0c74e986fcd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaconnageDePierre_WallOfStone",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c7698e85-915e-4894-89b9-d1a18df585b0\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaconnageDePierre_WallOfStone",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un petit bloc de granite.",
+        "HtmlContent": "Un mur non magique de pierre solide surgit en un point choisi par le personnage dans la portée. Le mur a 15 centimètres d’épaisseur et est composé de dix panneaux de 3 mètres sur 3 mètres. Chaque panneau doit être contigu à au moins un autre panneau. Alternativement, il peut créer des panneaux de 3 mètres sur 6 mètres qui n’ont que 7,5 centimètres d’épaisseur.\n\nSi le mur traverse l’[espace](/regles/aventure/mouvement/espace-occupe) d’une créature lorsqu’il apparaît, celle-ci est repoussée d’un côté du mur (au choix du personnage). Si une créature devait être entourée de tous côtés par le mur (ou par le mur et une autre surface solide), cette créature peut effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas de réussite, elle peut [se déplacer](/regles/combat/activites/deplacement) en [réaction](/regles/combat/deroulement/tour) d’une distance au plus égale à sa [vitesse](/regles/aventure/mouvement/vitesse) de sorte à n’être plus enfermée par le mur.\n\nLe mur peut avoir n’importe quelle forme désirée, bien qu’il ne puisse occuper le même espace qu’une créature ou un objet. Il n’a pas besoin d’être vertical ni de reposer sur une fondation ferme. Il doit cependant fusionner avec de la pierre existante et en être solidement soutenu. Ainsi, le personnage peut utiliser ce pouvoir afin de jeter un pont sur un gouffre ou de créer une rampe.\n\nS’il crée une travée de plus de 6 mètres de longueur, il doit réduire de moitié la taille de chaque panneau afin de créer des supports. Il peut façonner grossièrement le mur afin de créer des créneaux, des remparts, et ainsi de suite.\n\nLe mur est un objet de pierre qui peut être endommagé et ainsi percé. Chaque panneau est doté d’une [Défense](/regles/combat/attaque/defense) de 20 et 30 points de [Résistance](/regles/aventure/interaction-objets) par 2,5 centimètres d’épaisseur. Réduire un panneau à 0 point de Résistance le détruit et peut entraîner l’effondrement des panneaux connectés, à la discrétion du maître de jeu.\n\nSi le personnage maintient sa concentration sur ce pouvoir pendant toute sa durée, le mur devient permanent et ne peut être [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie). Autrement, le mur disparaît lorsque le pouvoir prend fin."
+      }
+    }
+  }
+}

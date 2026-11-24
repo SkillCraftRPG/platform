@@ -1,0 +1,31 @@
+﻿{
+  "Id": "bfb51a1f-6068-410c-82f2-04fc5d0904ae",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EmanationsSepulcrales_CircleOfDeath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b8c7e92-ec56-4d45-8893-2ce4746462d9\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "30",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EmanationsSepulcrales_CircleOfDeath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "La poudre d’une perle noire écrasée d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "Une sphère d’énergie négative ondoyante s’étend dans un rayon de 18 mètres depuis un point dans la portée. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Une cible reçoit [12d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite."
+      }
+    }
+  }
+}

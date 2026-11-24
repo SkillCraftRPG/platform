@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d797becd-2a45-40f2-9259-df1d7201ec4d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "frontiere-aquatique",
+    "DisplayName": "Frontière aquatique",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "frontiere-aquatique",
+      "DisplayName": "Frontière aquatique",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "frontiere-aquatique",
+        "MetaDescription": "Découvrez Frontière aquatique, un pouvoir qui déploie un brouillard épais, permet de respirer sous l’eau et de marcher sur les surfaces liquides.",
+        "Summary": "Crée du brouillard, permet de respirer sous l’eau et de marcher sur l’eau.",
+        "HtmlContent": "Frontière aquatique maîtrise les limites entre l’air, l’eau et la terre. Le personnage invoque un brouillard pour masquer la zone, permet à ses compagnons de respirer sous l’eau et leur donne la capacité de marcher sur les liquides sans s’y enfoncer."
+      }
+    }
+  }
+}

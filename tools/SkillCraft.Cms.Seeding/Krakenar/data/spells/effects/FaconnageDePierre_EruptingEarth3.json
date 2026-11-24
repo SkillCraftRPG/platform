@@ -1,0 +1,30 @@
+﻿{
+  "Id": "1a2ebdb5-9c1f-4c62-a02f-a8601e8d9504",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaconnageDePierre_EruptingEarth3",
+    "DisplayName": "Éruption rocheuse",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c7698e85-915e-4894-89b9-d1a18df585b0\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaconnageDePierre_EruptingEarth3",
+      "DisplayName": "Éruption rocheuse",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 3, mais les [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) infligés augmentent à [8d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

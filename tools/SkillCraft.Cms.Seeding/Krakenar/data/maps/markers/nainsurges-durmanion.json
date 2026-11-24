@@ -1,0 +1,25 @@
+﻿{
+  "Id": "a92f98d6-1558-4655-9c1f-43c2cdda3b27",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-durmanion",
+    "DisplayName": "Durmanion",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3620",
+      "Y": "3930"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-durmanion",
+      "DisplayName": "Durmanion",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Durmanion\n\nCité multiethnique de l’Orrixe"
+      }
+    }
+  }
+}

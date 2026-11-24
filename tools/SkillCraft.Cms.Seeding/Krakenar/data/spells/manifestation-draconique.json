@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "3",
-      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"59a3b5eb-79c7-46fc-b702-60a978307b46\"]"
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"59a3b5eb-79c7-46fc-b702-60a978307b46\",\"3b65d6a6-a109-4af3-83b1-4589841352ff\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "manifestation-draconique",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Manifestation draconique, un pouvoir qui confère un souffle élémentaire, invoque un esprit dragon et transforme son lanceur en créature ailée.",
+        "Summary": "Confère un souffle draconique, invoque un dragon et transforme le lanceur.",
+        "HtmlContent": "Manifestation draconique permet d'insuffler un souffle magique à un allié, d'invoquer un esprit dragon ou d'adopter soi-même des traits draconiques. Du cône élémentaire aux ailes et à la vision aveugle, chaque niveau révèle une facette des dragons."
       }
     }
   }

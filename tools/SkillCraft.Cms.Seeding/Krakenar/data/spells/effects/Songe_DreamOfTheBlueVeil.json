@@ -1,0 +1,31 @@
+﻿{
+  "Id": "1f0990f6-94a2-4462-b082-7d6d0c5de65e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Songe_DreamOfTheBlueVeil",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"28178a01-040f-4e1e-8b84-8d01864412b5\"]",
+      "Level": "2",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "6",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "4",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Songe_DreamOfTheBlueVeil",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un objet magique ou une créature consentante provenant du monde de destination.",
+        "HtmlContent": "Le personnage et jusqu’à huit créatures consentantes situées dans la portée tombent [inconscientes](/regles/combat/conditions/inconscient) pendant la durée du pouvoir et vivent des visions d’un autre monde de la dimension matérielle. Si le pouvoir atteint sa durée complète, les visions se concluent par la rencontre, pour chacun d’eux, d’un mystérieux rideau bleu qu’ils tirent. Le pouvoir prend alors fin en les transportant mentalement et physiquement vers le monde qui figurait dans les visions.\n\nPour canaliser ce pouvoir, le personnage doit posséder un objet magique provenant du monde qu’il souhaite atteindre, et il doit être conscient de l’existence de ce monde, même s’il n’en connaît pas le nom. Sa destination dans l’autre monde est un lieu sûr situé à 1,5 kilomètres ou moins de l’endroit où l’objet magique a été créé. Alternativement, il peut canaliser le pouvoir si l’une des créatures affectées est née dans l’autre monde, ce qui fait de sa destination un lieu sûr situé à 1,5 kilomètres ou moins de l’endroit où cette créature est née.\n\nLe pouvoir prend fin prématurément pour une créature si celle-ci reçoit des [points de dégâts](/regles/combat/degats), et la créature n’est pas transportée. Si le personnage reçoit des dégâts, le pouvoir prend fin pour lui et pour toutes les autres créatures, aucune d’elles n’étant transportée."
+      }
+    }
+  }
+}

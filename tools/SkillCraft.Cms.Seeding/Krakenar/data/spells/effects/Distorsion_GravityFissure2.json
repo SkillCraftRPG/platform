@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e961ed8c-3471-42a6-8340-826dcd875637",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Distorsion_GravityFissure2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b0c4aa55-3b63-47ae-99da-6b964f9d7509\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Distorsion_GravityFissure2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une poignée de limaille de fer.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais les [points de dégâts](/regles/combat/degats) infligés augmentent à [6d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "fc4d8d26-17f7-4b9c-b65e-0a044dbcedbc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "materialisation",
+    "DisplayName": "Matérialisation",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "materialisation",
+      "DisplayName": "Matérialisation",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "materialisation",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

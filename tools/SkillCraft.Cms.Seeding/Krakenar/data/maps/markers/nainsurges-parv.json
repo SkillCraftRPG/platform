@@ -1,0 +1,25 @@
+﻿{
+  "Id": "6562e450-1e4f-475a-b64a-13a6db6489f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-parv",
+    "DisplayName": "Parv",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "4660",
+      "Y": "2980"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-parv",
+      "DisplayName": "Parv",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Parv\n\nCité centaure et charmate ; centre de mycélium"
+      }
+    }
+  }
+}

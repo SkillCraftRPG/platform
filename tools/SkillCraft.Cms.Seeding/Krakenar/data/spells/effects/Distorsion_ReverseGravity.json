@@ -1,0 +1,33 @@
+﻿{
+  "Id": "5b7f3c46-c3ba-4217-b52d-aef8f6369e0a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Distorsion_ReverseGravity",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b0c4aa55-3b63-47ae-99da-6b964f9d7509\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "20",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Distorsion_ReverseGravity",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une poignée de limaille de fer.",
+        "Focus": "Une pierre d’aimant.",
+        "HtmlContent": "Ce pouvoir inverse la gravité dans un cylindre de 15 mètres de rayon et de 30 mètres de hauteur centré sur un point dans la portée. Toutes les créatures et tous les objets qui ne sont pas d’une manière ou d’une autre ancrés au sol dans la zone [chutent](/regles/aventure/environnement/chute) vers le haut et atteignent le sommet de la zone lorsque le personnage canalise ce pouvoir. Une créature peut effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) afin de s’accrocher à un objet fixe à sa portée, évitant ainsi la chute.\n\nSi un objet solide (tel un plafond) est rencontré durant cette chute, les objets et créatures en chute le percutent comme lors d’une chute normale vers le bas. Si un objet ou une créature atteint le sommet de la zone sans rien heurter, il y demeure, oscillant légèrement, pendant la durée.\n\nÀ la fin de la durée, les objets et créatures affectés retombent."
+      }
+    }
+  }
+}

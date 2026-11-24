@@ -25,7 +25,7 @@
       "Description": null,
       "FieldValues": {
         "Material": "De la poussière de diamant d’une valeur d’au moins 100 deniers.",
-        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) physiques."
+        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) physiques."
       }
     }
   }

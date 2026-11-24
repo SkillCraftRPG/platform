@@ -1,0 +1,29 @@
+﻿{
+  "Id": "6cb33e78-2be5-4a4c-a935-5ec053888eb7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Migraine_PowerWordPain",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"409f7bde-9f6d-4e8b-8a7c-d8956a2e4dff\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Migraine_PowerWordPain",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage prononce un mot de pouvoir qui fait assaillir une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée par des vagues de douleur intense. Si la [Vitalité](/regles/statistiques/vitalite) actuelle de la cible est inférieure ou égale à 100, elle est sujette à une douleur atroce. Sinon, le pouvoir n’a aucun effet sur elle. Une cible est également non affectée si elle est immunisée à la condition [charmé](/regles/combat/conditions/charme).\n\nTant que la cible est affectée par cette douleur, aucune de ses [vitesses](/regles/aventure/mouvement/vitesse) ne peut être supérieure à 3 mètres (2 points de mouvement). La cible est également affligée du [désavantage](/regles/competences/tests/avantage-desavantage) à tous ses [tests](/regles/competences/tests), à l’exception des [jets de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Enfin, si la cible tente de canaliser un pouvoir, elle doit d’abord réussir un jet de sauvegarde de Résistance, ou l’incantation échoue et le pouvoir est gaspillé.\n\nUne cible souffrant de cette douleur peut effectuer un jet de sauvegarde de Résistance à la fin de chacun de ses [tours](/regles/combat/deroulement/tour). En cas de réussite, la douleur prend fin."
+      }
+    }
+  }
+}

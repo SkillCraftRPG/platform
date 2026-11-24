@@ -1,0 +1,25 @@
+﻿{
+  "Id": "f64ae822-4d9e-4e19-b88d-c2bc999a25d9",
+  "Invariant": {
+    "IsPublished": false,
+    "UniqueName": "nainsurges-borzis",
+    "DisplayName": "Borzis",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3540",
+      "Y": "3090"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": false,
+      "UniqueName": "nainsurges-borzis",
+      "DisplayName": "Borzis",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Borzis\n\nCité sacrée des Thrixes dans les Dargates, à proximité des Hauteurs de Zal Zal."
+      }
+    }
+  }
+}

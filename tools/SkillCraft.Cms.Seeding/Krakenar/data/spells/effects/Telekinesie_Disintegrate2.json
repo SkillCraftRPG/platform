@@ -1,0 +1,32 @@
+﻿{
+  "Id": "710b14bc-863f-4697-a3d9-442d2e8c847b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telekinesie_Disintegrate2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4b328748-30f1-4b3c-b28d-b467baaae315\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telekinesie_Disintegrate2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poussière.",
+        "Focus": "Une pierre d’aimant.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais il inflige [7d12](/regles/combat/degats/jet)&nbsp;+&nbsp;(5&nbsp;×&nbsp;[Puissance](/regles/statistiques/puissance)) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types)."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "0d8d55fb-7ad0-4e48-b08c-d08dfaadbd3c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_ArmorOfAgathys1",
+    "DisplayName": "Armure de givre",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_ArmorOfAgathys1",
+      "DisplayName": "Armure de givre",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un verre d’eau.",
+        "HtmlContent": "Une force magique protectrice entoure le personnage, se manifestant sous la forme d’un givre spectral qui le couvre, lui et son équipement. Il se voit conférer un nombre de points [temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) égal à la moitié de sa [Puissance](/regles/statistiques/puissance) pendant la durée. Si une créature le [blesse](/regles/combat/degats) par une [attaque](/regles/combat/attaque) physique de [mêlée](/regles/combat/attaque/melee) alors qu’il possède ces points, cette créature reçoit un nombre de points de dégâts de [froid](/regles/combat/degats/types) égal au nombre de points temporaires perdus. Le pouvoir prend fin lorsqu’il perd tous les points temporaires."
+      }
+    }
+  }
+}

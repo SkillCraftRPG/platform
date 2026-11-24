@@ -1,0 +1,27 @@
+﻿{
+  "Id": "766913c2-2b6e-432d-ab25-a4001e45cc88",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "masque",
+    "DisplayName": "Masque",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "masque",
+      "DisplayName": "Masque",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "masque",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

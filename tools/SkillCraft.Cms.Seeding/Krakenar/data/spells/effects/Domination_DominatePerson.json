@@ -1,0 +1,31 @@
+﻿{
+  "Id": "3e6f3225-de08-43ab-8943-c9df3925382c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Domination_DominatePerson",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"56b232db-24fb-41fc-a8f6-cdd3c7736235\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Domination_DominatePerson",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais il peut cibler un humanoïde."
+      }
+    }
+  }
+}

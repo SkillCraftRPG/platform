@@ -1,0 +1,30 @@
+﻿{
+  "Id": "a842688e-d6da-47b2-b7a2-134b3670dfd1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_RimesBindingIce1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_RimesBindingIce1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une fiole d’eau de fonte.",
+        "HtmlContent": "Une rafale d’énergie froide émane du personnage en un cône de 9 mètres. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types) et est gênée par des formations de glace pendant une minute, ou jusqu’à ce qu’elle ou une autre créature située à sa portée utilise une [action](/regles/combat/deroulement/tour) afin de briser la glace. Une créature gênée par la glace voit sa [vitesse](/regles/aventure/mouvement/vitesse) réduite à 0. En cas de réussite, une créature ne reçoit que la moitié des points de dégâts et n’est pas gênée par la glace."
+      }
+    }
+  }
+}

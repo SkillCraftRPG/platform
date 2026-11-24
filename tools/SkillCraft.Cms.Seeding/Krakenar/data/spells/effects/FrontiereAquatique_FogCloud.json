@@ -1,0 +1,31 @@
+﻿{
+  "Id": "a26d5dce-3209-4d2f-84ed-b5f0999cf38c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrontiereAquatique_FogCloud",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d797becd-2a45-40f2-9259-df1d7201ec4d\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrontiereAquatique_FogCloud",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée une sphère de brouillard de 6 mètres de rayon centrée sur un point dans la portée. La sphère se propage autour des coins, et sa zone est [lourdement obscurcie](/regles/aventure/environnement/vision). Elle dure pendant la durée ou jusqu’à ce qu’un vent de vitesse modérée ou supérieure (au moins 15 kilomètres à l’heure) la disperse."
+      }
+    }
+  }
+}

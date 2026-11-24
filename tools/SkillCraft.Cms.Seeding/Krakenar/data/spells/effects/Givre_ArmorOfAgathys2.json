@@ -1,0 +1,31 @@
+﻿{
+  "Id": "48ffd737-f74b-434c-8c10-f8e2bcbee3c3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_ArmorOfAgathys2",
+    "DisplayName": "Armure de givre",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_ArmorOfAgathys2",
+      "DisplayName": "Armure de givre",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Un verre d’eau.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent (_Armure de givre_), mais le nombre de points [temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite) conférés augmente à une valeur égale à sa [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

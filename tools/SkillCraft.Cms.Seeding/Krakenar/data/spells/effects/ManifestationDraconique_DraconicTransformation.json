@@ -1,0 +1,32 @@
+﻿{
+  "Id": "721a7767-2d86-48bf-a419-33ea9851119e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDraconique_DraconicTransformation",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"14eb729e-c1e4-4503-86fd-0aeb0887f3b1\"]",
+      "Level": "2",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDraconique_DraconicTransformation",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une statuette de dragon d’une valeur d’au moins 500 deniers.",
+        "HtmlContent": "En poussant un rugissement, le personnage puise dans la magie des dragons afin de se transformer, adoptant des traits draconiques. Il acquiert les bienfaits suivants jusqu’à la fin du pouvoir :\n\n- **Ailes.** Des ailes incorporelles poussent dans son dos, lui conférant une [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) de 18 mètres.\n- **Souffle.** En [action libre](/regles/combat/deroulement/tour) lorsqu’il canalise ce pouvoir, et une fois par [tour](/regles/combat/deroulement/tour) subséquent par une [action](/regles/combat/deroulement/tour), il peut exhaler une énergie chatoyante dans un cône de 18 mètres. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, elle reçoit [4d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types). En cas de réussite, elle ne reçoit que la moitié des points de dégâts.\n- **Vision.** Il dispose d’une [vision aveugle](/regles/aventure/environnement/vision) à une distance de 9 mètres. Dans cette portée, il peut effectivement voir tout ce qui n’est pas derrière un [abri total](/regles/combat/attaque/abri), même s’il est [aveuglé](/regles/combat/conditions/aveugle) ou dans les [ténèbres](/regles/aventure/environnement/vision). De plus, il peut voir une créature [invisible](/regles/combat/conditions/invisible), sauf si celle-ci réussit à [se cacher](/regles/combat/activites/cacher) de lui."
+      }
+    }
+  }
+}

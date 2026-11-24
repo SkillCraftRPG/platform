@@ -1,0 +1,30 @@
+﻿{
+  "Id": "28a123cf-21e5-4431-8bca-b07aedc15192",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Mirage_HallucinatoryTerrain2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7a05fc30-b52f-4769-8722-163d9099deb5\"]",
+      "CastingTime": "[\"10m\"]",
+      "Level": "1",
+      "Duration": "3",
+      "DurationUnit": "[\"Day\"]",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Mirage_HallucinatoryTerrain2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une pierre, un rameau et un peu de plante verte.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais la zone peut désormais mesurer jusqu’à 300 mètres de côté et l’illusion acquiert des propriétés tactiles. L’illusion peut ainsi transformer un sol dégagé en [terrain difficile](/regles/aventure/mouvement/terrain-difficile), ou inversement, et autrement entraver le mouvement des créatures dans la zone. Cependant, elle ne peut modifier la forme générale du terrain, créer des structures artificielles ou rendre un passage complètement infranchissable. Tout élément de terrain illusoire retiré de la zone du pouvoir disparaît immédiatement."
+      }
+    }
+  }
+}

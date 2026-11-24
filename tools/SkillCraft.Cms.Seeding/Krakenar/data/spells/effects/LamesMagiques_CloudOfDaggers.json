@@ -24,7 +24,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage remplit l’air de dagues tournoyantes dans un cube de 1,5 mètres d’arête, centré sur un point de son choix dans la portée. Une créature reçoit \uD83D\uDEA7[2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types) lorsqu’elle entre dans la zone du pouvoir pour la première fois à un [tour](/regles/combat/deroulement/tour) ou qu’elle y commence son tour.",
+        "HtmlContent": "Le personnage remplit l’air de dagues tournoyantes dans un cube de 1,5 mètres d’arête, centré sur un point de son choix dans la portée. Une créature reçoit [2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [tranchants](/regles/combat/degats/types) lorsqu’elle entre dans la zone du pouvoir pour la première fois à un [tour](/regles/combat/deroulement/tour) ou qu’elle y commence son tour.",
         "Focus": "Un éclat de verre."
       }
     }

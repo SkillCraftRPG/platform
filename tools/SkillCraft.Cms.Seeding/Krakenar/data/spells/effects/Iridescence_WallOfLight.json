@@ -1,0 +1,32 @@
+﻿{
+  "Id": "1b849a01-673a-45f3-9431-06c9caa10fcf",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Iridescence_WallOfLight",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fd09ccb6-d923-4010-82a0-3efcffc2922b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Iridescence_WallOfLight",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un miroir de poche.",
+        "HtmlContent": "Un mur chatoyant de [clarté](/regles/aventure/environnement/vision) apparaît en un point choisi par le personnage dans la portée. Le mur apparaît dans l’orientation de son choix : horizontale, verticale ou diagonale. Il peut flotter librement, ou reposer sur une surface solide. Le mur peut mesurer au plus 18 mètres de longueur, 3 mètres de hauteur et 1,5 mètres d’épaisseur. Il bloque la [vision](/regles/aventure/environnement/vision), mais les créatures et les objets peuvent le traverser. Il émet de la clarté dans un rayon de 36 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 36 mètres additionnels.\n\nLorsque le mur apparaît, chaque créature dans sa zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, une créature reçoit [3d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types) et est [aveuglée](/regles/combat/conditions/aveugle) pendant une minute. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas aveuglée. Une créature aveuglée peut effectuer un jet de sauvegarde de Résistance à la fin de chacun de ses [tours](/regles/combat/deroulement/tour), mettant fin à l’effet sur elle-même en cas de réussite.\n\nUne créature qui termine son tour dans la zone du mur reçoit [3d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types).\n\nUne fois par tour, le personnage peut utiliser une [action](/regles/combat/deroulement/tour) afin de lancer un rayon de radiance depuis le mur vers une créature qu’il peut [voir](/regles/aventure/environnement/vision) située à 18 mètres ou moins du mur. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [2d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). Que l’attaque réussisse ou échoue, la longueur du mur est réduite de 3 mètres. Si la longueur du mur tombe à 0, le pouvoir prend fin."
+      }
+    }
+  }
+}

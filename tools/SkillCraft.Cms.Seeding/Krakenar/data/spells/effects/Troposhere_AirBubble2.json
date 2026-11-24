@@ -1,0 +1,29 @@
+﻿{
+  "Id": "a90d0d49-f5f5-4906-b851-6bca5045362c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Troposhere_AirBubble2",
+    "DisplayName": "Bulle d’air",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2892f215-4017-44bf-8778-cefb5cfb3505\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Troposhere_AirBubble2",
+      "DisplayName": "Bulle d’air",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais il crée jusqu’à quatre globes d’air."
+      }
+    }
+  }
+}

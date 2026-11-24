@@ -1,0 +1,30 @@
+﻿{
+  "Id": "9c37bedb-1f63-4725-a603-4c5cff2e6bf6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necrogenese_FingerOfDeath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "CastingTime": "[\"2\"]",
+      "Level": "2",
+      "Spell": "[\"bb2b7195-ee73-4ef3-902e-3e417abfa354\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necrogenese_FingerOfDeath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage fait courir de l’énergie négative à travers une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, lui causant une douleur cuisante. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). Elle reçoit [12d6](/regles/combat/degats/jet)&nbsp;+&nbsp;(3&nbsp;×&nbsp;[Puissance](/regles/statistiques/puissance)) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite. Un humanoïde [tué](/regles/combat/mort-agonie) par ce pouvoir se relève au début du prochain [tour](/regles/combat/deroulement/tour) du personnage sous forme de zombie placé de façon permanente sous ses ordres, suivant ses ordres verbaux au mieux de ses capacités."
+      }
+    }
+  }
+}

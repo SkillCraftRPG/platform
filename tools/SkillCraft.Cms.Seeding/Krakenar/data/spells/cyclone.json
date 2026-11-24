@@ -1,0 +1,27 @@
+﻿{
+  "Id": "27e3b84c-f3e6-470e-8f83-4ec11a844ca7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cyclone",
+    "DisplayName": "Cyclone",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cyclone",
+      "DisplayName": "Cyclone",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cyclone",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

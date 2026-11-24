@@ -1,0 +1,27 @@
+﻿{
+  "Id": "05d36d51-22d8-4056-94ac-74a721f2aa3b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "entrave-terrestre",
+    "DisplayName": "Entrave terrestre",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "entrave-terrestre",
+      "DisplayName": "Entrave terrestre",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "entrave-terrestre",
+        "MetaDescription": "Découvrez Entrave terrestre, un pouvoir qui dissimule des pièges d’argile, saisit les ennemis d’une main de terre et érige un mur de sable aveuglant.",
+        "Summary": "Piège les ennemis, les saisit d’une main de terre et crée un mur de sable.",
+        "HtmlContent": "Entrave terrestre permet de préparer un piège presque invisible qui retient ses proies, de faire surgir une main de terre capable de saisir et broyer une cible, puis d’ériger un mur de sable qui bloque la vue et ralentit les déplacements des intrus."
+      }
+    }
+  }
+}

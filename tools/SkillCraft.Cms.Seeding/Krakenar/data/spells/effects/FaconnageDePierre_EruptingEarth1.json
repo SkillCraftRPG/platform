@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4ba72186-0181-4b7d-8dde-bedd95204ee7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaconnageDePierre_EruptingEarth1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c7698e85-915e-4894-89b9-d1a18df585b0\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaconnageDePierre_EruptingEarth1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un morceau d’obsidienne.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision) au sol dans la portée. Une fontaine de terre et de pierre remuées fait éruption dans un cube de 6 mètres d’arête centré sur ce point. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Une créature reçoit [5d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite. Également, le sol de cette zone devient du [terrain difficile](/regles/aventure/mouvement/terrain-difficile) jusqu’à ce qu’il soit dégagé. Chaque portion de 1,5 mètres de côté de la zone exige au moins une minute pour être dégagée à la main."
+      }
+    }
+  }
+}

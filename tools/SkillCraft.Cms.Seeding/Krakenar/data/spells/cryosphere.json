@@ -1,0 +1,27 @@
+﻿{
+  "Id": "700c0e53-73da-45fa-ab62-d771938b5135",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "cryosphere",
+    "DisplayName": "Cryosphère",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"33d8701a-a13e-4ed3-8ac0-b48e9ef86331\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "cryosphere",
+      "DisplayName": "Cryosphère",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "cryosphere",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

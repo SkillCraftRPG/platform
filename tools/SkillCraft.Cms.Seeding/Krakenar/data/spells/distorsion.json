@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "distorsion",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Distorsion, un pouvoir gravitationnel qui déchire l’espace, attire les ennemis dans une faille et inverse la gravité pour les projeter en l’air.",
+        "Summary": "Déchire l’espace, attire les ennemis et inverse la gravité sur une zone.",
+        "HtmlContent": "Distorsion manipule la gravité pour ouvrir une faille qui blesse les créatures et attire celles qui se trouvent à proximité. À son apogée, le pouvoir inverse la gravité dans une vaste zone, projetant êtres et objets vers le ciel avant leur chute."
       }
     }
   }

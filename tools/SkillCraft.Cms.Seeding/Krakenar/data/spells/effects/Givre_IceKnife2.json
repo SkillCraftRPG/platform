@@ -1,0 +1,30 @@
+﻿{
+  "Id": "bb0804e9-b467-4a5f-8a48-5bf0b9567ff0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_IceKnife2",
+    "DisplayName": "Éclat de glace",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_IceKnife2",
+      "DisplayName": "Éclat de glace",
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau ou un morceau de glace.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 2 (_Éclat de glace_), mais les [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types) infligés augmentent à [4d4](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@
       "DisplayName": "Pas lointain",
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage se téléporte d’au plus 18 mètres vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision). Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut se téléporter de cette manière à nouveau."
+        "HtmlContent": "Le personnage se téléporte d’au plus 18 mètres vers un espace [inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision). Une fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), il peut se téléporter de cette manière à nouveau."
       }
     }
   }

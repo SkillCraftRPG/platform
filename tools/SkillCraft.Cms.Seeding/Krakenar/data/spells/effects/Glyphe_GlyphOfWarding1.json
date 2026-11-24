@@ -1,0 +1,29 @@
+﻿{
+  "Id": "36392ef1-2bbf-4217-9599-cf26d722df95",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Glyphe_GlyphOfWarding1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ad0c0133-1471-4e3c-b62b-a6f626147b00\"]",
+      "Level": "0",
+      "CastingTime": "[\"1h\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Glyphe_GlyphOfWarding1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’encens et de la poudre de diamant d’une valeur d’au moins 200 deniers.",
+        "HtmlContent": "Le personnage grave un glyphe qui crée un effet magique déclenché par d’autres créatures, soit sur une surface (telle qu’une table, une portion de sol ou de mur), soit à l’intérieur d’un objet pouvant être fermé (tel qu’un livre, un parchemin ou un coffre) afin de dissimuler le glyphe. Celui-ci peut couvrir une zone d’au plus 3 mètres de diamètre. Si la surface ou l’objet est déplacé de plus de 3 mètres depuis l’endroit où le pouvoir a été canalisé, le glyphe se brise et le pouvoir prend fin sans se déclencher. Le glyphe est presque invisible : le trouver exige de réussir un [test](/regles/competences/tests) d’[Investigation](/regles/competences/investigation).\n\nLorsqu’il canalise le pouvoir, le personnage décide ce qui déclenche le glyphe. Pour un glyphe inscrit sur une surface, les déclencheurs typiques comprennent le toucher ou le fait de se tenir sur le glyphe, le retrait d’un objet qui le couvre, l’approche à une certaine distance, ou la manipulation de l’objet sur lequel il est inscrit. Pour un glyphe inscrit dans un objet, les déclencheurs courants comprennent l’ouverture de l’objet, l’approche à une certaine distance, ou le fait de voir ou de lire le glyphe. Une fois le glyphe déclenché, le pouvoir prend fin. Il peut affiner le déclencheur pour que le pouvoir ne s’active que dans certaines circonstances ou selon des caractéristiques physiques (taille ou poids), le type de créature (par exemple aberrations), ou l’alignement. Il peut aussi définir des conditions pour les créatures qui ne déclenchent pas le glyphe, comme celles qui prononcent un certain mot de passe.\n\nIl choisit une des options suivantes.\n\n- **Glyphe de pouvoir.** Le personnage peut stocker dans le glyphe un pouvoir de tiers 2 ou moins en le canalisant dans le cadre de la création du glyphe. Le pouvoir doit cibler une seule créature ou une zone. Le pouvoir stocké n’a aucun effet immédiat lorsqu’il est ainsi canalisé. Lorsque le glyphe est déclenché, le pouvoir stocké est canalisé. S’il a une cible, il cible la créature qui a déclenché le glyphe. S’il affecte une zone, celle-ci est centrée sur cette créature. S’il invoque des créatures hostiles ou crée des objets ou pièges nuisibles, ceux-ci apparaissent aussi près que possible de l’intrus et l’attaquent. Si le pouvoir exige de la concentration, il dure jusqu’à la fin de sa durée complète.\n- **Runes explosives.** Lorsqu’il est déclenché, le glyphe explose d’énergie magique dans une sphère de 6 mètres de rayon centrée sur le glyphe. La sphère se propage autour des coins. Chaque créature dans la zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [12d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) d’[acide](/regles/combat/degats/types), de [feu](/regles/combat/degats/types), de [foudre](/regles/combat/degats/types), de [froid](/regles/combat/degats/types) ou de [tonnerre](/regles/combat/degats/types), au choix du personnage lors de la création du glyphe. En cas de réussite, elle ne reçoit que la moitié des points de dégâts."
+      }
+    }
+  }
+}

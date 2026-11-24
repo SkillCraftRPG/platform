@@ -1,0 +1,29 @@
+﻿{
+  "Id": "818e7e51-9f1f-4e10-9f13-c5dc8faa7404",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "CageSpirituelle_MagicJar",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"de6f1aea-8e2e-4eb8-9207-2a6f43071ba9\"]",
+      "Level": "1",
+      "CastingTime": "[\"1m\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "CageSpirituelle_MagicJar",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le corps du personnage tombe dans un état catatonique tandis que son âme le quitte et pénètre le contenant utilisé afin de canaliser le pouvoir. Tant que son âme habite le contenant, il est conscient de son environnement comme s’il se trouvait dans l’espace du contenant. Il ne peut ni [se déplacer](/regles/combat/activites/deplacement) ni utiliser de [réaction](/regles/combat/deroulement/tour). La seule [action](/regles/combat/deroulement/tour) qu’il peut entreprendre est de projeter son âme jusqu’à 30 mètres hors du contenant, soit pour revenir dans son corps vivant (et mettre fin au pouvoir), soit pour tenter de posséder le corps d’un humanoïde.\n\nIl peut tenter de posséder n’importe quel humanoïde situé à 30 mètres ou moins de sa position qu’il peut [voir](/regles/aventure/environnement/vision). La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, l’âme du personnage entre dans le corps de la cible, et l’âme de celle-ci se retrouve piégée dans le contenant. En cas de réussite, la possession échoue, et le personnage ne peut plus tenter de posséder la cible pendant 24 heures.\n\nUne fois qu’il possède le corps d’une créature, il le contrôle. Ses caractéristiques sont remplacées par celles de la créature, bien qu’il conserve son alignement, son [Intellect](/regles/attributs/intellect) et ses [Sens](/regles/attributs/sens). Il conserve ses propres [talents](/regles/talents) et capacités de [spécialisations](/regles/specialisations), et ne peut utiliser les talents ni capacités de spécialisations de la cible possédée. Pendant ce temps, l’âme de la créature possédée peut percevoir depuis le contenant avec ses propres sens, mais elle ne peut ni se déplacer ni entreprendre d’action.\n\nTant qu’il possède un corps, il peut utiliser une action afin de revenir du corps hôte vers le contenant si celui-ci se trouve à 30 mètres ou moins de sa position, renvoyant l’âme de la créature hôte dans son corps. Si le corps hôte [meurt](/regles/combat/mort-agonie) pendant qu’il s’y trouve, la créature meurt, et le personnage doit effectuer un jet de sauvegarde de Discipline. En cas de réussite, il revient dans le contenant si celui-ci se trouve à 30 mètres ou moins de sa position. Sinon, il meurt.\n\nSi le contenant est détruit ou que le pouvoir prend fin, l’âme du personnage retourne immédiatement dans son corps. Si son corps se trouve à plus de 30 mètres de sa position, ou s’il est mort lorsqu’il tente d’y revenir, il meurt. Si l’âme d’une autre créature se trouve dans le contenant lorsqu’il est détruit, l’âme de cette créature retourne dans son corps si celui-ci est vivant et situé à 30 mètres ou moins. Sinon, cette créature meurt.\n\nLorsque le pouvoir prend fin, le contenant est détruit.",
+        "Focus": "Une gemme, un cristal, un reliquaire ou un autre contenant ornemental valant au moins 500 deniers."
+      }
+    }
+  }
+}

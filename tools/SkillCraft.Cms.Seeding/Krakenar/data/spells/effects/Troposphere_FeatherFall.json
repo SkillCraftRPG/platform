@@ -1,0 +1,31 @@
+﻿{
+  "Id": "26ab5d84-ad14-4198-a7a8-d56893b7698d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Troposphere_FeatherFall",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2892f215-4017-44bf-8778-cefb5cfb3505\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Troposphere_FeatherFall",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne jusqu’à cinq créatures en [chute](/regles/aventure/environnement/chute) dans la portée et peut s’inclure dans ce nombre. La vitesse de descente d’une créature en chute est réduite à 18 mètres par [round](/regles/combat/deroulement) jusqu’à la fin du pouvoir. Si la créature atterrit avant la fin du pouvoir, elle ne reçoit aucun [point de dégâts](/regles/combat/degats) de chute et peut atterrir sur ses pieds, puis le pouvoir prend fin pour cette créature.",
+        "Focus": "Une petite plume ou un brin de duvet."
+      }
+    }
+  }
+}

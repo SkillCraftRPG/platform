@@ -1,0 +1,27 @@
+﻿{
+  "Id": "2892f215-4017-44bf-8778-cefb5cfb3505",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "troposphere",
+    "DisplayName": "Troposphère",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\",\"f73dae6b-0081-4520-a5cf-6391b76f7538\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "troposphere",
+      "DisplayName": "Troposphère",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "troposphere",
+        "MetaDescription": "Découvrez Troposphère, un pouvoir de magie aérienne qui ralentit les chutes, crée des bulles d’air respirable et inscrit des messages dans les nuages.",
+        "Summary": "Ralentit les chutes, fournit de l’air et écrit des messages dans les nuages.",
+        "HtmlContent": "Troposphère manipule l’air pour protéger les créatures en chute et leur permettre de respirer dans des milieux hostiles. À des niveaux supérieurs, le personnage fait apparaître des messages dans le ciel et enveloppe plusieurs alliés de bulles d’air."
+      }
+    }
+  }
+}

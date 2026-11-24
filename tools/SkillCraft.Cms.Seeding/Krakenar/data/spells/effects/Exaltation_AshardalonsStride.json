@@ -1,0 +1,31 @@
+﻿{
+  "Id": "2f4bbf32-4d4f-4a2b-8b75-2a28b2f58ec5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Exaltation_AshardalonsStride",
+    "DisplayName": "Foulée",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b8e8abf0-b53c-45b7-af9e-422fa2ec0f6d\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Exaltation_AshardalonsStride",
+      "DisplayName": "Foulée",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Des courants d'énergie magique tourbillonnent autour des pieds du personnage, le propulsant à une vitesse fulgurante. Pendant la durée, sa [vitesse](/regles/aventure/mouvement/vitesse) augmente de 9 mètres (6 points de mouvement) et son [déplacement](/regles/combat/activites/deplacement) ne provoque pas d’[attaques d’opportunité](/regles/combat/attaque/opportunite).\n\nLorsqu’il se déplace à 1,5 mètres ou moins d’une créature ou d’un objet qui n’est ni porté ni tenu, celle-ci ou celui-ci reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) provoqués par l’onde d’énergie laissée dans son sillage. Une créature ou un objet ne peut recevoir ces dégâts qu’une seule fois pendant un [tour](/regles/combat/deroulement/tour)."
+      }
+    }
+  }
+}

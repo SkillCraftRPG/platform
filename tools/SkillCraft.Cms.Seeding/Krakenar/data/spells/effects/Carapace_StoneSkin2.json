@@ -25,7 +25,7 @@
       "Description": null,
       "FieldValues": {
         "Focus": "Un diamant d’une valeur d’au moins 100 deniers.",
-        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, une fois par [round](/regles/combat/deroulement), la cible peut réduire de moitié des [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types) ou [tranchants](/regles/combat/degats/types) physiques reçus."
+        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, une fois par [round](/regles/combat/deroulement), la cible peut réduire de moitié des [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) ou [tranchants](/regles/combat/degats/types) physiques reçus."
       }
     }
   }

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "4655c4ec-c98c-4e3d-ae8a-d3102a64584a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Necrogenese_NegativeEnergyFlood",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"bb2b7195-ee73-4ef3-902e-3e417abfa354\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "false",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Necrogenese_NegativeEnergyFlood",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un os brisé et un carré de soie noire.",
+        "HtmlContent": "Le personnage envoie des rubans d’énergie négative vers une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Si la cible est un mort-vivant, elle se voit conférer 8d8&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) points [temporaire](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite). Sinon, la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance). En cas d’échec, elle reçoit [8d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types). Elle ne reçoit que la moitié des points de dégâts en cas de réussite. Une cible [tuée](/regles/combat/mort-agonie) par ces dégâts se relève en zombie au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. Le zombie poursuit la créature qu’il peut voir la plus proche de lui. Le maître de jeu dispose des statistiques du zombie."
+      }
+    }
+  }
+}

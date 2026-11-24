@@ -1,0 +1,31 @@
+﻿{
+  "Id": "727838d2-d925-479b-8dcf-9e270e2a9868",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Teleportation_ArcaneGate",
+    "DisplayName": "Portail",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"82e9307f-4c3f-4936-8cfc-83efd75f45b9\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "100",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Teleportation_ArcaneGate",
+      "DisplayName": "Portail",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée des portails de téléportation liés qui demeurent ouverts pendant la durée. Il désigne deux points au sol qu’il peut [voir](/regles/aventure/environnement/vision), l’un situé à 3 mètres ou moins de sa position et l’autre à 150 mètres ou moins. Un portail circulaire de 3 mètres de diamètre s’ouvre au-dessus de chaque point. Si le portail devait s’ouvrir dans l’[espace occupé](/regles/aventure/mouvement/espace-occupe) par une créature, le pouvoir échoue, et l’incantation est perdue.\n\nLes portails sont des anneaux lumineux bidimensionnels remplis de brume, flottant à quelques centimètres du sol et perpendiculaires à celui-ci aux points choisis. Un anneau n’est visible que d’un seul côté (au choix du personnage), qui est le côté fonctionnant comme portail.\n\nToute créature ou tout objet entrant dans le portail ressort par l’autre portail comme si les deux étaient adjacents ; passer à travers un portail depuis le côté non portail n’a aucun effet. La brume qui remplit chaque portail est opaque et bloque la vision à travers. Une fois par [tour](/regles/combat/deroulement/tour), le personnage peut faire pivoter les anneaux par une [action](/regles/combat/deroulement/tour) afin que le côté actif soit orienté dans une autre direction."
+      }
+    }
+  }
+}

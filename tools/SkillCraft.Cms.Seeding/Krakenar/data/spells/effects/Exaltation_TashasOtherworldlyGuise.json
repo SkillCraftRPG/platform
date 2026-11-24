@@ -1,0 +1,32 @@
+﻿{
+  "Id": "a1a77808-5912-4e24-a815-0608a357ff26",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Exaltation_TashasOtherworldlyGuise",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b8e8abf0-b53c-45b7-af9e-422fa2ec0f6d\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Exaltation_TashasOtherworldlyGuise",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "En prononçant une incantation, le personnage puise dans la magie des dimensions inférieures ou supérieures, au choix, afin de se transformer. Il acquiert les bienfaits suivants pendant la durée :\n\n- Il est immunisé aux [dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) et de [poison](/regles/combat/degats/types) (dimensions inférieures) ou aux dégâts [radiants](/regles/combat/degats/types) et [nécrotiques](/regles/combat/degats/types) (dimensions supérieures).\n- Il est immunisé à la condition [empoisonné](/regles/combat/conditions/empoisonne) (dimensions inférieures) ou à la condition [charmé](/regles/combat/conditions/charme) (dimensions supérieures).\n- Des ailes spectrales apparaissent dans son dos, lui conférant une [vitesse](/regles/aventure/mouvement/vitesse) de [vol](/regles/aventure/mouvement/types) de 12 mètres (8 points de mouvement).\n- Il se voit conférer un bonus de +2 à son [Esquive](/regles/combat/attaque/esquive).\n- Toutes ses [attaques](/regles/combat/attaque) physiques deviennent magiques, et lorsqu’il effectue une attaque physique, il peut remplacer le [test](/regles/competences/tests) de [Mêlée](/regles/competences/melee) ou d’[Orientation](/regles/competences/orientation) par un test d’[Occultisme](/regles/competences/occultisme). Lorsqu’il en fait ainsi, il remplace également sa [Force](/regles/statistiques/force) ou sa [Précision](/regles/statistiques/precision) par sa [Puissance](/regles/statistiques/puissance).\n- Il ignore la pénalité des [Attaques multiples](/regles/combat/attaque/multiples).",
+        "Focus": "Un objet gravé d’un symbole des dimensions extérieures, d’une valeur d’au moins 500 deniers."
+      }
+    }
+  }
+}

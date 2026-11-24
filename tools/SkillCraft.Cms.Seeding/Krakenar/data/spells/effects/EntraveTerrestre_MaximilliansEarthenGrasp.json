@@ -1,0 +1,32 @@
+﻿{
+  "Id": "c2159fd6-d7b5-44ce-af9f-363e665cebe8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EntraveTerrestre_MaximilliansEarthenGrasp",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"05d36d51-22d8-4056-94ac-74a721f2aa3b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EntraveTerrestre_MaximilliansEarthenGrasp",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une main miniature sculptée dans l’argile.",
+        "HtmlContent": "Le personnage désigne un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) de 1,5 mètres de côté au sol qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Une main de [taille](/regles/especes/taille) moyenne faite de terre compactée s’y élève et s’étend vers une créature qu’il peut voir située à 1,5 mètres ou moins d’elle. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme). En cas d’échec, la cible reçoit [2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) et est [restreinte](/regles/combat/conditions/restreint) pendant la durée du pouvoir.\n\nUne fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut faire broyer la cible restreinte par la main. Celle-ci doit effectuer un jet de sauvegarde d’Athlétisme. Elle reçoit [2d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite. Alternativement, il peut faire s’étendre la main vers une créature différente ou la [déplacer](/regles/combat/activites/deplacement) vers un autre espace inoccupé dans la portée. La main libère une cible restreinte s’il fait l’un ou l’autre.\n\nPar une action, une cible restreinte peut tenter de [s’échapper](/regles/combat/activites/echapper) par un [test](/regles/competences/tests) d’Athlétisme."
+      }
+    }
+  }
+}

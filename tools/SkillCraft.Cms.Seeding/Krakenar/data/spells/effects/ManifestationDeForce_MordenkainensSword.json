@@ -1,0 +1,32 @@
+﻿{
+  "Id": "639433c4-abcd-485c-882d-6e77827c34e6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDeForce_MordenkainensSword",
+    "DisplayName": "Épée de force",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"89c79373-ff0b-4d3b-b069-f051bd772169\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDeForce_MordenkainensSword",
+      "DisplayName": "Épée de force",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La valeur du focus doit être d’au moins 250 deniers.\n\nLe personnage crée un plan de force en forme d’épée qui plane dans la portée. Il dure pendant la durée. Lorsque l’épée apparaît, il tente une [attaque](/regles/magie/effets/attaque) contre une cible de son choix située à 1,5 mètres ou moins de l’épée. En cas de réussite, la cible reçoit [2d10](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types). Jusqu’à la fin du pouvoir, une fois par [tour](/regles/combat/deroulement/tour), il peut utiliser une [action](/regles/combat/deroulement/tour) afin de déplacer l’épée d’au plus 6 mètres vers un endroit qu’il peut [voir](/regles/aventure/environnement/vision) et de répéter cette attaque contre la même cible ou une différente.",
+        "Focus": "Une épée miniature de platine avec une poignée et un pommeau de cuivre et de zinc."
+      }
+    }
+  }
+}

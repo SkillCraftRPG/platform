@@ -1,0 +1,23 @@
+﻿{
+  "Id": "2273af7c-35d3-4e7d-8635-722da7bbbe07",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges",
+    "DisplayName": "Nainsurgés",
+    "Description": null,
+    "FieldValues": {
+      "Width": "7200",
+      "Height": "5400",
+      "Source": "https://skillcraftrpg.blob.core.windows.net/ungar/maps/geographie-ouespero.jpg"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges",
+      "DisplayName": "Nainsurgés",
+      "Description": null,
+      "FieldValues": {}
+    }
+  }
+}

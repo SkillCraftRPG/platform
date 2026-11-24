@@ -1,0 +1,32 @@
+﻿{
+  "Id": "d84827c2-8994-440b-8e86-65450a6fd4e1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDeForce_OtilukesResilientSphere",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"89c79373-ff0b-4d3b-b069-f051bd772169\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "6",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDeForce_OtilukesResilientSphere",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Une sphère de force chatoyante enferme une créature ou un objet de [taille énorme](/regles/especes/taille) ou moindre dans la portée. Une créature non consentante doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties) ou être enfermée pendant la durée.\n\nRien (ni objets physiques, ni énergie, ni autres effets de pouvoir) ne peut traverser la barrière, vers l’intérieur ou l’extérieur, bien qu’une créature dans la sphère puisse y respirer. La sphère est immunisée à tous les [dégâts](/regles/combat/degats), et une créature ou un objet à l’intérieur ne peut être endommagé par des [attaques](/regles/combat/attaque) ou des effets provenant de l’extérieur ; de même, une créature à l’intérieur de la sphère ne peut endommager quoi que ce soit à l’extérieur.\n\nLa sphère est sans poids et juste assez grande pour contenir la créature ou l’objet à l’intérieur. Une créature enfermée peut utiliser une [action](/regles/combat/deroulement/tour) afin de pousser contre les parois de la sphère et ainsi faire rouler la sphère jusqu’à la moitié de sa [vitesse](/regles/aventure/mouvement/vitesse). De même, le globe peut être soulevé et déplacé par d’autres créatures.\n\nLe globe peut être [désintégré](/regles/magie/pouvoirs/telekinesie) sans nuire à quoi que ce soit se trouvant à l’intérieur.",
+        "Focus": "Un morceau hémisphérique de cristal transparent et un morceau hémisphérique de gomme arabique."
+      }
+    }
+  }
+}

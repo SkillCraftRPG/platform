@@ -1,0 +1,27 @@
+﻿{
+  "Id": "b75d2f2d-35c6-46d3-8a88-cd11e86d91ec",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vitriol",
+    "DisplayName": "Vitriol",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vitriol",
+      "DisplayName": "Vitriol",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vitriol",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

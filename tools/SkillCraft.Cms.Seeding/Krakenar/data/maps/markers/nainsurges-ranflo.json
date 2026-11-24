@@ -1,0 +1,25 @@
+﻿{
+  "Id": "b99f3b92-49f6-436f-84fa-14097d85a784",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-ranflo",
+    "DisplayName": "Ranflo",
+    "Description": null,
+    "FieldValues": {
+      "X": "3430",
+      "Y": "2410",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-ranflo",
+      "DisplayName": "Ranflo",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Ranflo\n\nCité norienne de la Poléchie"
+      }
+    }
+  }
+}

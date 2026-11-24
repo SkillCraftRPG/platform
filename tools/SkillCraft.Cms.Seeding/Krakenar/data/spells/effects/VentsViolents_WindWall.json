@@ -1,0 +1,32 @@
+﻿{
+  "Id": "38dcad95-0316-4458-9e85-75d9bb785af4",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VentsViolents_WindWall",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4874b802-2357-40a3-8bd1-95b6246e19ed\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VentsViolents_WindWall",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un minuscule éventail et une plume d’origine exotique.",
+        "HtmlContent": "Un mur de vent fort s’élève du sol en un point choisi par le personnage dans la portée. Il peut faire mesurer le mur jusqu’à 15 mètres de long, 4,5 mètres de haut et 30 centimètres d’épaisseur. Il peut façonner le mur de n’importe quelle façon tant qu’il forme un chemin continu le long du sol. Le mur dure pendant la durée. Lorsque le mur apparaît, chaque créature dans sa zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme). Une créature reçoit [3d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nLe vent fort tient à l’écart le brouillard, la fumée et les autres gaz. Les créatures ou objets volants de [taille](/regles/especes/taille) petite ou moindre ne peuvent traverser le mur. Les matériaux lâches et légers amenés dans le mur s’envolent vers le haut. Les flèches, carreaux et autres projectiles ordinaires lancés vers des cibles derrière le mur sont déviés vers le haut et ratent automatiquement. Les rochers lancés par des géants ou des engins de siège, et les projectiles similaires, ne sont pas affectés. Les créatures sous forme gazeuse ne peuvent le traverser."
+      }
+    }
+  }
+}

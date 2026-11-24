@@ -1,0 +1,27 @@
+﻿{
+  "Id": "514bc2c5-bb90-4a3b-a896-45ff2ae21bca",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "projection",
+    "DisplayName": "Projection",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "projection",
+      "DisplayName": "Projection",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "projection",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

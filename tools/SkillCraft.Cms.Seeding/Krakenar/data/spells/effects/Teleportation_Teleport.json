@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d3e4399d-d0f0-4a2d-99e3-1098b268b8ef",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Teleportation_Teleport",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"82e9307f-4c3f-4936-8cfc-83efd75f45b9\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "2",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Teleportation_Teleport",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage et jusqu’à huit créatures consentantes de son choix qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée, ou un seul objet qu’il peut voir dans la portée, sont instantanément téléportés vers une destination qu’il sélectionne. S’il cible un objet, celui-ci doit pouvoir entrer entièrement dans un cube de 3 mètres d’arête, et il ne doit être ni tenu ni porté par une créature non consentante. La destination choisie doit lui être connue, et elle doit se trouver dans la même dimension que lui.\n\nSa familiarité avec la destination détermine s’il y arrive avec succès. Si la destination est un [cercle de téléportation](/regles/magie/pouvoirs/porte-dimensionnelle) permanent dont le personnage connaît la séquence de symboles, ou s’il possède un [objet](/regles/equipement) tiré de cette destination il y a 6 mois ou moins, la téléportation réussit instantanément. Sinon, le maître de jeu (ou le joueur, au choix du maître de jeu) lance 1d100 et consulte la table suivante.\n\n<table class=\"table table-sm text-center\">\n  <thead>\n    <tr>\n      <th scope=\"col\" class=\"w-third\">Familiarité</th>\n      <th scope=\"col\" class=\"w-sixth\">Malchance</th>\n      <th scope=\"col\" class=\"w-sixth\">Zone similaire</th>\n      <th scope=\"col\" class=\"w-sixth\">Hors cible</th>\n      <th scope=\"col\" class=\"w-sixth\">Cible</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td class=\"w-third\">Très familier</td>\n      <td class=\"w-sixth\">1–5</td>\n      <td class=\"w-sixth\">6–13</td>\n      <td class=\"w-sixth\">14–24</td>\n      <td class=\"w-sixth\">25–100</td>\n    </tr>\n    <tr>\n      <td class=\"w-third\">Assez familier</td>\n      <td class=\"w-sixth\">1–33</td>\n      <td class=\"w-sixth\">34–43</td>\n      <td class=\"w-sixth\">44–53</td>\n      <td class=\"w-sixth\">54–100</td>\n    </tr>\n    <tr>\n      <td class=\"w-third\">Peu familier</td>\n      <td class=\"w-sixth\">1–43</td>\n      <td class=\"w-sixth\">44–53</td>\n      <td class=\"w-sixth\">54–73</td>\n      <td class=\"w-sixth\">74–100</td>\n    </tr>\n    <tr>\n      <td class=\"w-third\">Fausse destination</td>\n      <td class=\"w-sixth\">1–50</td>\n      <td class=\"w-sixth\">51–100</td>\n      <td class=\"w-sixth\">\n        <span class=\"text-muted\">—</span>\n      </td>\n      <td class=\"w-sixth\">\n        <span class=\"text-muted\">—</span>\n      </td>\n    </tr>\n  </tbody>\n</table>\n\n<h4 class=\"h6\">Familiarité</h4>\n\n- **Très familier.** Un lieu où il s’est rendu très souvent, un lieu qu’il a soigneusement étudié, ou un lieu qu’il peut voir lorsqu’il canalise le pouvoir.\n- **Assez familier.** Un endroit qu’il a vu plus d’une fois, mais avec lequel il n’est pas très familier.\n- **Peu familier.** Un lieu qu’il a vu une seule fois, éventuellement au moyen de la magie, ou un lieu dont l’emplacement et l’apparence lui sont connus par la description d’autrui, peut-être d’après une carte.\n- **Fausse destination.** Un lieu qui n’existe pas, par exemple à cause d’un mirage ou d’une illusion, ou qui n’existe plus.\n\n<h4 class=\"h6\">Résultats</h4>\n\n- **Malchance.** La magie imprévisible du pouvoir entraîne un voyage difficile. Chaque créature téléportée (ou l’objet cible) reçoit [3d12](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types), et le maître de jeu (ou le joueur, au choix du maître de jeu) relance sur la table afin de déterminer où ils aboutissent (plusieurs malchances peuvent survenir, infligeant des dégâts à chaque fois).\n- **Zone similaire.** Les créatures téléportées (ou l’objet cible) aboutissent dans une zone différente, visuellement ou thématiquement similaire à la zone cible. S’il se dirigeait vers son laboratoire personnel, par exemple, il pourrait aboutir dans le laboratoire d’un autre magicien ou dans une boutique de fournitures alchimiques présentant de nombreux outils et instruments semblables. Généralement, il apparaît dans le lieu similaire le plus proche, mais comme le pouvoir n’a pas de limite de portée, il pourrait en principe aboutir n’importe où dans la dimension.\n- **Hors cible.** Les créatures téléportées (ou l’objet cible) apparaissent à une distance aléatoire de la destination, dans une direction aléatoire. La distance hors cible est de 1d10&nbsp;×&nbsp;1d10 pour cent de la distance qui devait être parcourue. Par exemple, s’il tentait de parcourir 180 kilomètres, arrivait hors cible, et obtenait 5 et 3 aux deux d10, il serait hors cible de 15&nbsp;%, soit 27 kilomètres. Le maître de jeu détermine la direction hors cible de façon aléatoire en lançant 1d8 et en désignant 1 comme le nord, 2 le nord-est, 3 l’est, et ainsi de suite autour des points cardinaux. S’il se téléportait vers une ville côtière et se retrouvait à 27 kilomètres en mer, il pourrait être en difficulté.\n- **Cible.** Les créatures téléportées (ou l’objet cible) apparaissent à la destination souhaitée."
+      }
+    }
+  }
+}

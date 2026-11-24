@@ -24,7 +24,7 @@
       "DisplayName": null,
       "Description": null,
       "FieldValues": {
-        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perçants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) infligés par des [attaques](/regles/combat/attaque) physiques. Une fois avant la fin du pouvoir, la cible peut ajouter 1d4 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de son choix. Elle peut jeter le dé avant ou après avoir effectué le jet de sauvegarde. Le pouvoir prend ensuite fin.",
+        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) infligés par des [attaques](/regles/combat/attaque) physiques. Une fois avant la fin du pouvoir, la cible peut ajouter 1d4 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de son choix. Elle peut jeter le dé avant ou après avoir effectué le jet de sauvegarde. Le pouvoir prend ensuite fin.",
         "Focus": "Une cape miniature."
       }
     }

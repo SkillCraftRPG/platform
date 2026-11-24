@@ -1,0 +1,27 @@
+﻿{
+  "Id": "3c19ee62-08c7-4742-b536-6e02e1bdd93b",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "barriere-ardente",
+    "DisplayName": "Barrière ardente",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "barriere-ardente",
+      "DisplayName": "Barrière ardente",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "barriere-ardente",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "d623ef75-c5e8-4d9c-8e1a-9a08bbd366ab",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EmanationsSepulcrales_Eyebite",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b8c7e92-ec56-4d45-8893-2ce4746462d9\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "IsConcentration": "true",
+      "DurationUnit": "[\"Minute\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EmanationsSepulcrales_Eyebite",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Pendant la durée du pouvoir, les yeux du personnage deviennent un vide d’encre imprégné d’une puissance terrifiante. Une créature de son choix située à 18 mètres ou moins de sa position qu’il peut [voir](/regles/aventure/environnement/vision) doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être affectée par l’un des effets suivants, au choix du personnage. Pendant la durée, une fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), il peut cibler une autre créature n’ayant pas déjà réussi le jet de sauvegarde.\n\n- **Maladie.** La cible est affligée du [désavantage](/regles/competences/tests/avantage-desavantage) à ses [tests](/regles/competences/tests), excluant les jets de sauvegarde. À la fin de chacun de ses tours, elle peut répéter le jet de sauvegarde afin de mettre fin à l’effet.\n- **Panique.** La cible est [apeurée](/regles/combat/conditions/apeure) par le personnage. À chacun de ses tours, la créature apeurée doit s’éloigner le plus loin possible du personnage en [courant](/regles/combat/activites/deplacement) par l’itinéraire disponible le plus sûr et le plus court, à moins qu’il n’y ait nulle part où aller. Si la distance séparant la cible du personnage dépasse 18 mètres et qu’elle ne le voit plus, l’effet prend fin.\n- **Sommeil.** La cible tombe [inconsciente](/regles/combat/conditions/inconscient). Elle se réveille si elle reçoit des [dégâts](/regles/combat/degats) ou si une autre créature utilise une action afin de secouer le dormeur pour le réveiller."
+      }
+    }
+  }
+}

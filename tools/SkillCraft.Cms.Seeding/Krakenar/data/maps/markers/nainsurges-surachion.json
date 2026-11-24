@@ -1,0 +1,25 @@
+﻿{
+  "Id": "bee3bab0-0868-4538-8d24-4d1b07831327",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-surachion",
+    "DisplayName": "Surachion",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3820",
+      "Y": "4600"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-surachion",
+      "DisplayName": "Surachion",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Surachion\n\nOn peut y trouver une _Heward’s Handy Spice Pouch_."
+      }
+    }
+  }
+}

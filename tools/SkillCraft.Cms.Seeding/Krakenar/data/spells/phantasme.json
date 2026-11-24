@@ -1,0 +1,27 @@
+﻿{
+  "Id": "7f04532e-b4ab-48e2-9d67-0cb8d377ad2f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "phantasme",
+    "DisplayName": "Phantasme",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "phantasme",
+      "DisplayName": "Phantasme",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "phantasme",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

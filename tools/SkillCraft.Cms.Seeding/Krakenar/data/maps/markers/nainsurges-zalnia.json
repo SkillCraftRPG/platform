@@ -1,0 +1,25 @@
+﻿{
+  "Id": "d3b80b14-a480-4599-8430-4feb3ab4a532",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-zalnia",
+    "DisplayName": "Zalnia",
+    "Description": null,
+    "FieldValues": {
+      "X": "4000",
+      "Y": "2365",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-zalnia",
+      "DisplayName": "Zalnia",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Zalnia\n\nCité marécageuse svite et demi-orque ; centre de mécylium"
+      }
+    }
+  }
+}

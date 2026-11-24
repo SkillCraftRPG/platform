@@ -1,0 +1,29 @@
+﻿{
+  "Id": "eb8da4ee-bddf-4274-adc3-599657bc5d1f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Givre_RimesBindingIce2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ed2286c8-f49b-4a28-b977-7176ebccce6f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Givre_RimesBindingIce2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent (_Givre_), mais les [points de dégâts](/regles/combat/degats) de [froid](/regles/combat/degats/types) infligés augmentent à [4d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+  "Id": "1d7cdf4d-f282-4a8b-b1cd-a183eecfe514",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-sporov",
+    "DisplayName": "Sporov",
+    "Description": null,
+    "FieldValues": {
+      "X": "4935",
+      "Y": "2860",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-sporov",
+      "DisplayName": "Sporov",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Sporov\n\nVillage du clan Moldstag"
+      }
+    }
+  }
+}

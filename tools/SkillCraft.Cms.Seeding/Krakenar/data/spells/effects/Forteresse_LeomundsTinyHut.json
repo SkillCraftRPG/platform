@@ -1,0 +1,32 @@
+﻿{
+  "Id": "e5ac9a8d-73fd-488d-8697-c51aee0982df",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Forteresse_LeomundsTinyHut",
+    "DisplayName": "Hutte",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7f83f7f7-dfc9-4d29-81f0-6a604cb931ae\"]",
+      "Level": "0",
+      "CastingTime": "[\"1m\"]",
+      "IsRitual": "true",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Forteresse_LeomundsTinyHut",
+      "DisplayName": "Hutte",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une petite bille de cristal.",
+        "HtmlContent": "Un dôme de force immobile de 4,5 mètres de rayon surgit autour et au-dessus du personnage et demeure stationnaire pendant la durée. Le pouvoir prend fin s’il quitte la zone.\n\nDouze créatures de [taille](/regles/especes/taille) grande ou moindre peuvent tenir dans le dôme, incluant le personnage, pourvu qu’elles puissent toutes tenir à l’intérieur. Le pouvoir échoue si sa zone inclut une créature plus grande ou plus de douze créatures. Les créatures et objets se trouvant dans le dôme lorsque le personnage canalise ce pouvoir peuvent le traverser librement. Toutes les autres créatures et tous les autres objets sont empêchés de le traverser. Les pouvoirs et autres effets magiques ne peuvent s’étendre à travers le dôme ni être canalisés à travers celui-ci. L’atmosphère à l’intérieur de l’espace est confortable et sèche, quelle que soit la météo à l’extérieur.\n\nJusqu’à la fin du pouvoir, le personnage peut ordonner que l’intérieur soit faiblement éclairé ([pénombre](/regles/aventure/environnement/vision)) ou plongé dans l’[obscurité](/regles/aventure/environnement/vision). Le dôme est opaque de l’extérieur, de la couleur de son choix, mais transparent de l’intérieur."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "0c3c71ff-b6e0-4418-8bf2-30f7471ec692",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vapeurs",
+    "DisplayName": "Vapeurs",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vapeurs",
+      "DisplayName": "Vapeurs",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vapeurs",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

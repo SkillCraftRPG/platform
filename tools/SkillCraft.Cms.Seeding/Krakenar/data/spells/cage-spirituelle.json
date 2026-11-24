@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "3",
-      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\"]"
+      "Categories": "[\"ef34e823-8574-4a29-abab-631fd4205a62\",\"eb07a636-7566-42ae-b2cc-c049c08247f7\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "cage-spirituelle",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Cage spirituelle, un pouvoir qui emprisonne les âmes des morts, permet de posséder un corps vivant et lie le destin de deux créatures.",
+        "Summary": "Capture les âmes, possède les vivants et unit le destin de deux créatures.",
+        "HtmlContent": "Cage spirituelle permet de capturer l’âme d’un défunt pour puiser dans ses souvenirs et sa vitalité. À un niveau supérieur, le personnage projette son âme dans un autre corps ou relie deux créatures afin qu’elles partagent blessures et guérisons."
       }
     }
   }

@@ -1,0 +1,29 @@
+﻿{
+  "Id": "5e41047f-fd8c-4695-a2f0-3a949afd5332",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Teleportation_Scatter",
+    "DisplayName": "Dispersion",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"82e9307f-4c3f-4936-8cfc-83efd75f45b9\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Teleportation_Scatter",
+      "DisplayName": "Dispersion",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "L’air frémit autour d’au plus cinq créatures au choix du personnage qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Une créature non consentante doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) afin de résister. Chaque cible affectée est téléportée vers un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut voir situé à 36 mètres ou moins de sa position. Cet espace doit être sur une surface plane telle le sol ou un plancher."
+      }
+    }
+  }
+}

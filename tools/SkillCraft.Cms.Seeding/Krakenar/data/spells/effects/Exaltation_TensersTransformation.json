@@ -1,0 +1,32 @@
+﻿{
+  "Id": "72c0f453-2393-4af9-a74f-255af4ced6d1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Exaltation_TensersTransformation",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b8e8abf0-b53c-45b7-af9e-422fa2ec0f6d\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Exaltation_TensersTransformation",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Quelques poils de taureau.",
+        "HtmlContent": "Le personnage s’imprègne d’endurance et de prouesse martiale alimentées par la magie. Jusqu’à la fin du pouvoir, il ne peut canaliser de pouvoirs, et il acquiert les bienfaits suivants :\n\n- Il acquiert 70 points [temporaires](/regles/combat/degats/temporaire) de [Vitalité](/regles/statistiques/vitalite). S’il en reste lorsque le pouvoir prend fin, ils sont perdus.\n- Il se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au [test](/regles/competences/tests) de ses [attaques](/regles/combat/attaque) physiques.\n- Lorsqu’il touche une cible avec une attaque physiques, celle-ci reçoit [2d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) supplémentaires.\n- Il est [formé](/regles/equipement/armures/formation) au port de toutes les [armures](/regles/equipement/armures), à l’utilisation des [boucliers](/regles/equipement/boucliers), ainsi qu’à l’emploi de toutes les [armes](/regles/equipement/armes).\n- Il est [formé](/regles/competences/formation) en [Athlétisme](/regles/competences/athletisme) et en [Résistance](/regles/competences/resistance). Il peut remplacer le [rang](/regles/competences/rang) de ces compétences par la moitié de sa [Puissance](/regles/statistiques/puissance) s’il le désire.\n- Il ignore la pénalité des [Attaques multiples](/regles/combat/attaque/multiples).\n\nImmédiatement après la fin du pouvoir, il doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Résistance](/regles/competences/resistance) de [difficulté élevée](/regles/competences/tests/difficulte) ou subir un niveau de [Fatigue](/regles/combat/conditions/fatigue)."
+      }
+    }
+  }
+}

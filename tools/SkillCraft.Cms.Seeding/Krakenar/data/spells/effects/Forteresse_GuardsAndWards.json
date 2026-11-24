@@ -1,0 +1,32 @@
+﻿{
+  "Id": "cb678ebc-334e-4f0c-9421-283583304fbd",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Forteresse_GuardsAndWards",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7f83f7f7-dfc9-4d29-81f0-6a604cb931ae\"]",
+      "Level": "1",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Forteresse_GuardsAndWards",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "De l’encens brûlant, un peu de soufre et d’huile, et une petite quantité de sang de destrier brun.",
+        "Focus": "Une ficelle nouée et une petite verge d’argent d’une valeur d’au moins 10 deniers.",
+        "HtmlContent": "Le personnage crée une garde qui protège jusqu’à 225 mètres carrés de surface au sol (une zone de 15 mètres de côté, ou 100 cases de 1,5 mètres, ou 25 cases de 3 mètres). La zone gardée peut mesurer jusqu’à 6 mètres de haut, et être façonnée comme il le désire. Il peut garder plusieurs étages d’une place forte en répartissant la zone entre eux, pourvu qu’il puisse marcher dans chaque zone contiguë pendant qu’il canalise le pouvoir. Lorsqu’il canalise ce pouvoir, il peut désigner des individus non affectés par l’un ou l’autre des effets qu’il choisit, ou par tous. Il peut également préciser un mot de passe qui, prononcé à voix haute, rend l’orateur immunisé à ces effets. Les effets suivants sont créés dans la zone gardée.\n\n- **Couloirs.** Du brouillard remplit tous les couloirs gardés, les rendant [lourdement obscurcis](/regles/aventure/environnement/vision). De plus, à chaque intersection ou passage ramifié offrant un choix de direction, une créature autre que le personnage a 50&nbsp;% de chance de croire qu’elle se dirige dans la direction opposée à celle qu’elle a choisie.\n- **Escaliers.** D’épaisses et collantes [toiles d’araignée](/regles/magie/pouvoirs/araneide) remplissent tous les escaliers de la zone gardée de haut en bas. Ces fils repoussent en 10 minutes s’ils sont brûlés ou arrachés tant que Gardes et liens dure.\n- **Portes.** Toutes les portes de la zone gardée sont [magiquement verrouillées](/regles/magie/pouvoirs/interdiction). De plus, il peut recouvrir jusqu’à dix portes d’une [illusion](/regles/magie/pouvoirs/hallucination) afin de les faire paraître comme de simples sections de mur.\n- **Autre effet de pouvoir.** Il peut placer, au choix, l’un des effets magiques suivants dans la zone gardée de la place forte :\n  - placer des [lumières dansantes](/regles/magie/pouvoirs/luminescence) dans quatre couloirs ; il peut désigner un programme simple que les lumières répètent tant que le pouvoir dure.\n  - placer une [bouche magique](/regles/magie/pouvoirs/communication) en deux emplacements.\n  - placer un [nuage nauséabond](/regles/magie/pouvoirs/vapeurs) en deux emplacements ; les vapeurs apparaissent aux endroits qu’il désigne ; elles reviennent en 10 minutes si le vent les disperse tant que le pouvoir dure.\n  - placer une [bourrasque](/regles/magie/pouvoirs/controle-de-l-air) constante dans un couloir ou une pièce.\n  - placer une [suggestion](/regles/magie/pouvoirs/seduction) en un emplacement ; il sélectionne une zone d’au plus 1,5 mètres de côté, et toute créature qui entre dans la zone ou la traverse reçoit mentalement la suggestion.\n\nToute la zone gardée rayonne de magie. Chaque effet doit être [dissipé](/regles/magie/pouvoirs/protection-contre-la-magie) séparément. Le pouvoir prend fin si tous les effets sont dissipés.\n\nIl peut créer une structure gardée et liée de façon permanente en canalisant ce pouvoir à cet endroit chaque jour pendant un an."
+      }
+    }
+  }
+}

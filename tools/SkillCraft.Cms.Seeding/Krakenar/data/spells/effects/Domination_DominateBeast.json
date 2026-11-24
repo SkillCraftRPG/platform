@@ -1,0 +1,31 @@
+﻿{
+  "Id": "aaaa2acc-7f57-4cac-9024-64ac9dfee583",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Domination_DominateBeast",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"56b232db-24fb-41fc-a8f6-cdd3c7736235\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Domination_DominateBeast",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage tente d’envoûter une bête qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Elle doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou être [charmée](/regles/combat/conditions/charme) par lui pendant la durée. Si le personnage ou des créatures qui lui sont [amicales](/regles/aventure/interaction-sociale) combattent la bête, celle-ci se voit conférer l’[avantage](/regles/competences/tests/avantage-desavantage) au jet de sauvegarde.\n\nUn lien télépathique est créé entre le personnage et la bête. Ce lien persiste tant que la bête est charmée, et que celle-ci se trouve dans la même dimension que le personnage. Il peut utiliser ce lien télépathique afin de lui donner des ordres en [action libre](/regles/combat/deroulement/tour) tant qu’il est conscient, et elle s’efforce de lui obéir au mieux. Il peut préciser une conduite simple et générale, telle que « Attaque cette créature », « Cours jusque-là » ou « Rapporte cet objet ». Si la créature accomplit l’ordre et ne reçoit pas de nouvelle directive de sa part, elle se défend et se préserve au mieux de ses capacités.\n\nIl peut utiliser une [action](/regles/combat/deroulement/tour) afin de prendre le contrôle total et précis de la cible. Jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour), la créature n’entreprend que les actions qu’il choisit, et ne fait rien qu’il ne lui permette pas. Pendant ce temps, il peut également lui faire utiliser une [réaction](/regles/combat/deroulement/tour), mais cela exige qu’il utilise également sa propre réaction.\n\nChaque fois que la cible reçoit des [points de dégâts](/regles/combat/degats), elle effectue un nouveau jet de sauvegarde de Discipline contre le pouvoir. En cas de réussite, le pouvoir prend fin."
+      }
+    }
+  }
+}

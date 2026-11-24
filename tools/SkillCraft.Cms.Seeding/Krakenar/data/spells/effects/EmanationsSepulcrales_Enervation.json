@@ -1,0 +1,31 @@
+﻿{
+  "Id": "6fa7933e-97f4-40a6-a511-af4a14f42d14",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EmanationsSepulcrales_Enervation",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"5b8c7e92-ec56-4d45-8893-2ce4746462d9\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EmanationsSepulcrales_Enervation",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un tentacule d’encre obscure s’étend depuis le personnage, touchant une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée afin d’en drainer la vie. La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, la cible reçoit [5d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [nécrotiques](/regles/combat/degats/types) et le tentacule s’attache à la cible. En cas de réussite, la cible ne reçoit que la moitié des points de dégâts, et le pouvoir prend fin.\n\nTant que le tentacule est attaché, une fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut infliger automatiquement 5d6&nbsp;+&nbsp;moitié de la Puissance points de dégâts nécrotiques à la cible. Le tentacule se détache et le pouvoir prend fin si la distance séparant le personnage de la cible dépasse la portée, si la cible bénéficie d’un [abri total](/regles/combat/attaque/abri), si le personnage canalise un autre pouvoir, ou s’il termine un tour sans avoir infligé ces dégâts.\n\nChaque fois que le pouvoir inflige des dégâts à une cible, le personnage [récupère](/regles/combat/degats/soins) un nombre de points de [Vitalité](/regles/statistiques/vitalite) égal à la moitié des points de dégâts infligés."
+      }
+    }
+  }
+}

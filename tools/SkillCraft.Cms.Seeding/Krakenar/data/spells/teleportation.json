@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "teleportation",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Téléportation, un pouvoir qui rappelle des objets à distance, disperse des créatures, ouvre des portails et permet de voyager entre les dimensions.",
+        "Summary": "Rappelle des objets, téléporte des créatures et ouvre des portails magiques.",
+        "HtmlContent": "Téléportation permet de rappeler instantanément un objet marqué, de déplacer plusieurs créatures et d’ouvrir des portails entre deux lieux. À son apogée, le personnage voyage sur de grandes distances ou traverse les dimensions avec ses compagnons."
       }
     }
   }

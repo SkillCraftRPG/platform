@@ -1,0 +1,24 @@
+﻿{
+  "Id": "987f9886-642c-4b9c-9938-5c7dfcce4dd1",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges",
+    "DisplayName": "Nainsurgés",
+    "Description": null,
+    "FieldValues": {
+      "Collection": "[\"cdf808d4-894d-4553-8d32-6c3ea40e5f51\"]",
+      "Maps": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges",
+      "DisplayName": "Nainsurgés",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "nainsurges"
+      }
+    }
+  }
+}

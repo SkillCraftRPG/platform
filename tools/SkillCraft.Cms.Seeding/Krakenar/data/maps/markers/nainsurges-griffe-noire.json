@@ -1,0 +1,25 @@
+﻿{
+  "Id": "41458985-c5cf-4ce9-b8fc-d955f86af608",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-griffe-noire",
+    "DisplayName": "Griffe Noire",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "1420",
+      "Y": "3125"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-griffe-noire",
+      "DisplayName": "Griffe Noire",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Griffe Noire\n\nPortail à la croisée des chemins dans la Griffe Noire."
+      }
+    }
+  }
+}

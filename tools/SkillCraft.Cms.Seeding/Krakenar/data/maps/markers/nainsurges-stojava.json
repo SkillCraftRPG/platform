@@ -1,0 +1,25 @@
+﻿{
+  "Id": "98a1abc3-906e-4093-af9f-baf252779121",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-stojava",
+    "DisplayName": "Stojava",
+    "Description": null,
+    "FieldValues": {
+      "X": "3670",
+      "Y": "2770",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-stojava",
+      "DisplayName": "Stojava",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Stojava\n\nCité naine de la Poléchie"
+      }
+    }
+  }
+}

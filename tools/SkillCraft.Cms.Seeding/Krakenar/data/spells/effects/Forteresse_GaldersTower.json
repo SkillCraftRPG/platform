@@ -1,0 +1,32 @@
+﻿{
+  "Id": "b18040a3-2ff0-4a7e-8684-5bcd4c648dee",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Forteresse_GaldersTower",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"7f83f7f7-dfc9-4d29-81f0-6a604cb931ae\"]",
+      "Level": "0",
+      "CastingTime": "[\"10m\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Forteresse_GaldersTower",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage conjure une tour de deux à quatre étages faite de pierre, de bois ou d’un matériau similaire suffisamment solide. La tour peut être de forme ronde ou carrée. Chaque étage de la tour mesure 3 mètres de haut et a une surface d’au plus 9 mètres carrés. L’accès entre les étages consiste en une simple échelle et une trappe. Chaque étage prend l’une des formes suivantes, choisie par le personnage lorsqu’il canalise le pouvoir :\n\n- une chambre avec un lit, des chaises, un coffre et une cheminée magique\n- un cabinet d’étude avec bureaux, livres, bibliothèques, parchemins, encre et plumes\n- un espace à manger avec une table, des chaises, une cheminée magique, des contenants et des ustensiles de cuisine\n- un salon avec canapés, fauteuils, tables d’appoint et repose-pieds\n- une salle d’eau avec toilettes, baquets, un brasero magique et des bancs de sauna\n- un observatoire avec un télescope et des cartes du ciel nocturne\n- une pièce vide, non meublée\n\nL’intérieur de la tour est chaud et sec, quelles que soient les conditions extérieures. Tout équipement ou mobilier conjuré avec la tour se dissipe en fumée s’il en est retiré. À la fin de la durée du pouvoir, toutes les créatures et tous les objets se trouvant dans la tour qui n’ont pas été créés par le pouvoir apparaissent en sécurité à l’extérieur sur le sol, et toute trace de la tour et de son mobilier disparaît.\n\nLe personnage peut canaliser à nouveau ce pouvoir pendant qu’il est actif afin de maintenir l’existence de la tour pendant 24 heures de plus. Il peut créer une tour permanente en canalisant ce pouvoir au même endroit et avec la même configuration chaque jour pendant un an.",
+        "Focus": "Un fragment de pierre.",
+        "Material": "Un fragment de bois."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Id": "c9a1d86a-192b-45a3-8415-e2db20c71e59",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "affinite-minerale",
+    "DisplayName": "Affinité minérale",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"b5cf4d52-3016-4bf0-bb8c-590a932fe4a3\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "affinite-minerale",
+      "DisplayName": "Affinité minérale",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "affinite-minerale",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

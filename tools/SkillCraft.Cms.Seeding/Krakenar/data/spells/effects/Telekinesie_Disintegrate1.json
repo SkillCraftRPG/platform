@@ -1,0 +1,32 @@
+﻿{
+  "Id": "8e0f31b1-471a-47ae-87b1-9246d1c22260",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Telekinesie_Disintegrate1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4b328748-30f1-4b3c-b28d-b467baaae315\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Telekinesie_Disintegrate",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Un mince rayon noir jaillit du doigt pointé du personnage vers une cible qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La cible peut être une créature ou un objet.\n\n- **Créature.** La cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, la cible reçoit [6d12](/regles/combat/degats/jet)&nbsp;+&nbsp;(4&nbsp;×&nbsp;[Puissance](/regles/statistiques/puissance)) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types). Si ces dégâts réduisent la cible à 0 point de [Vitalité](/regles/statistiques/vitalite), celle-ci est désintégrée. Une créature désintégrée, ainsi que tout ce qu’elle porte et tient à l’exception des objets magiques, est réduite en un tas de fine poussière grise. La créature ne peut être ramenée à la vie que par une [Résurrection](/regles/magie/pouvoirs/resurrection) ou une [Réincarnation](/regles/magie/pouvoirs/reincarnation).\n- **Objet.** Un objet non magique de [grande taille](/regles/especes/taille) ou moindre, ou une [création de force magique](/regles/magie/pouvoirs/manifestation-de-force), est automatiquement désintégré. Si la cible est de taille énorme ou supérieure, le pouvoir en désintègre une portion formant un cube de 3 mètres d’arête. Un objet magique n’est pas affecté par ce pouvoir.",
+        "Focus": "Une pierre d’aimant.",
+        "Material": "Une pincée de poussière."
+      }
+    }
+  }
+}

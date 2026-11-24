@@ -7,7 +7,7 @@
     "Description": null,
     "FieldValues": {
       "Tier": "3",
-      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\"]"
+      "Categories": "[\"ffed3a54-a461-4135-934c-7e4859d08e72\",\"a9afcc4b-9206-4964-8b97-052e6deda17f\"]"
     }
   },
   "Locales": {
@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "mirage",
-        "MetaDescription": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Mirage, un pouvoir d’illusion qui métamorphose les paysages, rend le terrain trompeur et fait apparaître de vastes structures illusoires.",
+        "HtmlContent": "Mirage altère l’apparence, les sons et les odeurs d’un paysage pour tromper autrui. À mesure que sa puissance augmente, ses illusions deviennent tangibles, modifient les déplacements et peuvent faire surgir des structures dans un vaste territoire.",
+        "Summary": "Transforme les paysages avec des illusions visuelles et tactiles durables."
       }
     }
   }

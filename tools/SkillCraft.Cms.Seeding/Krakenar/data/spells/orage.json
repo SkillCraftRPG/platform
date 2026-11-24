@@ -1,0 +1,27 @@
+﻿{
+  "Id": "08c500b5-330f-4021-8167-29a4324e5c58",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "orage",
+    "DisplayName": "Orage",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "orage",
+      "DisplayName": "Orage",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "orage",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

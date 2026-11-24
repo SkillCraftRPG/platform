@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "globe-d-invulnerabilite",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Globe d’invulnérabilité, un pouvoir défensif qui bloque les pouvoirs adverses et enveloppe une créature d’un champ protecteur contre les dégâts.",
+        "Summary": "Bloque les pouvoirs adverses et protège une créature des dégâts élémentaires.",
+        "HtmlContent": "Globe d’invulnérabilité déploie une barrière contre les pouvoirs canalisés depuis l’extérieur. Il peut aussi envelopper une créature d’un champ argenté qui renforce ses défenses. Au niveau 7, la barrière bloque même les pouvoirs de tiers 3."
       }
     }
   }

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e82870c4-775e-4481-9625-08786f7ddb75",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaconnageDePierre_StoneShape",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c7698e85-915e-4894-89b9-d1a18df585b0\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaconnageDePierre_StoneShape",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De l’argile molle travaillée approximativement selon la forme désirée de l’objet de pierre.",
+        "HtmlContent": "Le personnage touche un objet de pierre de [taille](/regles/especes/taille) moyenne ou moindre, ou une section de pierre d’au plus 1,5 mètres dans toute dimension, et la façonne en toute forme qui convient à son dessein. Ainsi, par exemple, il pourrait façonner un gros rocher en arme, idole ou coffret, ou pratiquer un petit passage à travers un mur, pourvu que le mur ait moins de 1,5 mètres d’épaisseur. Il pourrait également façonner une porte de pierre ou son encadrement afin de sceller la porte. L’objet qu’il crée peut comporter jusqu’à deux charnières et un loquet, mais un détail mécanique plus fin n’est pas possible."
+      }
+    }
+  }
+}

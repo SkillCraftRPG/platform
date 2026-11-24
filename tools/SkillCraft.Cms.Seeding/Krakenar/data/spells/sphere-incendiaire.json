@@ -1,0 +1,27 @@
+﻿{
+  "Id": "33e2e6aa-f58c-4adf-aa1a-392415f90dd0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "sphere-incendiaire",
+    "DisplayName": "Sphère incendiaire",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "2",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "sphere-incendiaire",
+      "DisplayName": "Sphère incendiaire",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "sphere-incendiaire",
+        "MetaDescription": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

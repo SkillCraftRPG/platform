@@ -1,0 +1,30 @@
+﻿{
+  "Id": "6f26630f-b34e-4d1f-a579-bfe631b0da93",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Migraine_SynapticStatic",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"409f7bde-9f6d-4e8b-8a7c-d8956a2e4dff\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Migraine_SynapticStatic",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage désigne un point dans la portée et y fait exploser de l’énergie psychique. Chaque créature dans une sphère de 6 mètres de rayon centrée sur ce point doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Investigation](/regles/competences/investigation). Une créature dotée d’un [Intellect](/regles/attributs/intellect) de –4 ou moins ne peut être affectée par ce pouvoir. Une cible reçoit [6d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nUne cible échouant le jet de sauvegarde se retrouve avec les pensées embrouillées pendant une minute. Pendant ce temps, elle soustrait 1d6 à tous ses [tests](/regles/competences/tests), à l’exception des jets de sauvegarde (sauf pour [maintenir](/regles/combat/activites/concentration) sa [concentration](/regles/magie/parametres/duree)). La cible peut répéter le jet de sauvegarde à la fin de chacun de ses [tours](/regles/combat/deroulement/tour), mettant fin à l’effet sur elle-même en cas de réussite."
+      }
+    }
+  }
+}

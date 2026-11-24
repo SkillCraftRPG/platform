@@ -1,0 +1,29 @@
+﻿{
+  "Id": "ea6aed74-0c8f-4229-82a3-a25a546b6179",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Troposhere_AirBubble1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"2892f215-4017-44bf-8778-cefb5cfb3505\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Day\"]",
+      "Range": "12",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Troposhere_AirBubble1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage crée un globe spectral autour de la tête d’une créature consentante qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Le globe est rempli d’air frais qui dure jusqu’à la fin du pouvoir. Si la créature a plus d’une tête, le globe d’air n’apparaît qu’autour d’une seule de ses têtes (ce qui suffit à la créature pour éviter la [suffocation](/regles/aventure/environnement/suffocation), pourvu que toutes ses têtes partagent le même système respiratoire)."
+      }
+    }
+  }
+}

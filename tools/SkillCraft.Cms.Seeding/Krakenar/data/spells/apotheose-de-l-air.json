@@ -1,0 +1,27 @@
+﻿{
+  "Id": "d4c44d63-7f38-4eb7-a71f-570fe81ec781",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "apotheose-de-l-air",
+    "DisplayName": "Apothéose de l’air",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "3",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "apotheose-de-l-air",
+      "DisplayName": "Apothéose de l’air",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "apotheose-de-l-air",
+        "MetaDescription": "\uD83D\uDEA7",
+        "HtmlContent": "\uD83D\uDEA7",
+        "Summary": "\uD83D\uDEA7"
+      }
+    }
+  }
+}

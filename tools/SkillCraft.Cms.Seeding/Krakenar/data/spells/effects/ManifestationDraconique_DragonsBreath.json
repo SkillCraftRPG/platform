@@ -1,0 +1,32 @@
+﻿{
+  "Id": "cec4a9d1-8c27-4814-ac5b-c8fe98256c38",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDraconique_DragonsBreath",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"14eb729e-c1e4-4503-86fd-0aeb0887f3b1\"]",
+      "Level": "0",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDraconique_DragonsBreath",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un objet gravé de l’image d’un dragon ou une statuette de dragon.",
+        "HtmlContent": "Le personnage touche une créature consentante et l’imprègne du pouvoir de vomir de l’énergie magique par la bouche, pourvu qu’elle en ait une. Il choisit un des [types](/regles/combat/degats/types) de dégâts suivants : [acide](/regles/combat/degats/types), [feu](/regles/combat/degats/types), [foudre](/regles/combat/degats/types), [froid](/regles/combat/degats/types), [poison](/regles/combat/degats/types), [psychique](/regles/combat/degats/types) ou [tonnerre](/regles/combat/degats/types). Jusqu’à la fin du pouvoir, une fois par [tour](/regles/combat/deroulement/tour), la cible peut utiliser une [action](/regles/combat/deroulement/tour) afin d’exhaler de l’énergie du type choisi dans un cône de 6 mètres. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, elle reçoit [3d12](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) du type choisi. En cas de réussite, elle ne reçoit que la moitié des points de dégâts."
+      }
+    }
+  }
+}

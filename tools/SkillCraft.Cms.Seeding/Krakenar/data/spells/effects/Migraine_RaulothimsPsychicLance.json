@@ -1,0 +1,30 @@
+﻿{
+  "Id": "5b5a35cc-93af-41f9-bff6-cda52647f9ad",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Migraine_RaulothimsPsychicLance",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"409f7bde-9f6d-4e8b-8a7c-d8956a2e4dff\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Migraine_RaulothimsPsychicLance",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage déchaîne depuis son front une lance chatoyante de puissance psychique vers une créature qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Alternativement, il peut prononcer le nom d’une créature. Si la cible nommée se trouve dans la portée, elle devient la cible du pouvoir même s’il ne peut la voir. Si la cible nommée n’est pas dans la portée, la lance se dissipe sans effet.\n\nLa cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Investigation](/regles/competences/investigation). En cas d’échec, elle reçoit [8d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [psychiques](/regles/combat/degats/types) et est [incapable](/regles/combat/conditions/incapable) jusqu’au début du prochain [tour](/regles/combat/deroulement/tour) du personnage. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas incapable."
+      }
+    }
+  }
+}

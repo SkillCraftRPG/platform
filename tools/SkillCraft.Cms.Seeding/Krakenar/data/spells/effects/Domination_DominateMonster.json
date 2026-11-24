@@ -1,0 +1,31 @@
+﻿{
+  "Id": "e6ee87bb-a04c-416c-9de2-9a894490d293",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Domination_DominateMonster",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"56b232db-24fb-41fc-a8f6-cdd3c7736235\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Domination_DominateMonster",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais il peut cibler n’importe quelle créature."
+      }
+    }
+  }
+}

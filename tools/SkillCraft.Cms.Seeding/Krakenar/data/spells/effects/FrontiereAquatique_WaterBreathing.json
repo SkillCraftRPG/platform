@@ -1,0 +1,32 @@
+﻿{
+  "Id": "865a6fe9-c935-456f-bb3e-14e7b342b21a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FrontiereAquatique_WaterBreathing",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"d797becd-2a45-40f2-9259-df1d7201ec4d\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "24",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FrontiereAquatique_WaterBreathing",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage confère à dix créatures consentantes ou moins la capacité de [respirer sous l’eau](/regles/aventure/environnement/suffocation). Il doit [voir](/regles/aventure/environnement/vision) ces créatures, et ces créatures doivent se trouver dans la portée. Les créatures affectées conservent également leur mode de respiration normal. Une écaille est consommée par une créature.",
+        "Material": "Des écailles de poisson."
+      }
+    }
+  }
+}

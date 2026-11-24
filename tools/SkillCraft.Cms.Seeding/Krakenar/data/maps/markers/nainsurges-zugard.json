@@ -1,0 +1,25 @@
+﻿{
+  "Id": "8cdfb50a-4627-4b1a-a135-a05aff32cd99",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-zugard",
+    "DisplayName": "Zugard",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3290",
+      "Y": "2695"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-zugard",
+      "DisplayName": "Zugard",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Zugard\n\nCité elfique de la Poléchie"
+      }
+    }
+  }
+}

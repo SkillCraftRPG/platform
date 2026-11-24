@@ -1,0 +1,31 @@
+﻿{
+  "Id": "d234df84-0a03-442d-aff9-07689a7c58aa",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "FaconnageDePierre_EruptingEarth2",
+    "DisplayName": "Éruption rocheuse",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c7698e85-915e-4894-89b9-d1a18df585b0\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "FaconnageDePierre_EruptingEarth2",
+      "DisplayName": "Éruption rocheuse",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un morceau d’obsidienne.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais les [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) infligés augmentent à [7d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

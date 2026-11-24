@@ -1,0 +1,27 @@
+﻿{
+  "Id": "6105abec-b3b8-4e5c-8bba-432321c9489f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "projection-de-flammes",
+    "DisplayName": "Projection de flammes",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"c3dce187-68ab-4ab6-bede-68d6f15b30e2\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "projection-de-flammes",
+      "DisplayName": "Projection de flammes",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "projection-de-flammes",
+        "MetaDescription": "Découvrez Projection de flammes, un pouvoir qui embrase les ennemis dans un cône ou une ligne de feu, avec des dégâts croissants selon le niveau.",
+        "Summary": "Projette des flammes en cône ou en ligne pour brûler plusieurs adversaires.",
+        "HtmlContent": "Projection de flammes permet de déchaîner le feu sous deux formes : un cône de flammes qui embrase les créatures proches ou une ligne ardente qui traverse les ennemis. À mesure que le personnage progresse, les dégâts de chaque projection augmentent."
+      }
+    }
+  }
+}

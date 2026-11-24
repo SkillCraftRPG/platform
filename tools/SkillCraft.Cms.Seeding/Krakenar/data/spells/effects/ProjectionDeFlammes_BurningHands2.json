@@ -1,0 +1,30 @@
+﻿{
+  "Id": "3939217d-1276-47e2-8c26-e26cca3edf1c",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProjectionDeFlammes_BurningHands2",
+    "DisplayName": "Cône",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6105abec-b3b8-4e5c-8bba-432321c9489f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProjectionDeFlammes_BurningHands2",
+      "DisplayName": "Cône",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 2, mais les [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) infligés augmentent à [4d6](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

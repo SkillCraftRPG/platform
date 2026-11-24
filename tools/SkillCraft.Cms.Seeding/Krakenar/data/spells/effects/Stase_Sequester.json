@@ -1,0 +1,29 @@
+﻿{
+  "Id": "d40becfb-a151-4ee8-87be-e967a04609e0",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stase_Sequester",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c1e52a60-77e9-490a-b2fe-5f090b60018b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stase_Sequester",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage touche une créature consentante ou un objet et le dissimule, à l’abri de toute détection, pendant la durée. La cible devient alors [invisible](/regles/combat/conditions/invisible) et ne peut être ciblée par des pouvoirs de [Divination](/regles/astromancie/divination) ni perçue par des [senseurs](/regles/magie/pouvoirs/clairvoyance) d’espionnage créés par ces pouvoirs.\n\nSi la cible est une créature, elle tombe dans un état d’animation suspendue. Le temps cesse de s’écouler pour elle, et elle ne vieillit pas.\n\nLe personnage peut fixer une condition pour que le pouvoir prenne fin prématurément. La condition peut être n’importe laquelle de son choix, mais elle doit survenir ou être visible à 1,5 kilomètres ou moins de la cible. Des exemples incluent « après mille ans » ou « lorsque le dragon s’éveille ». Ce pouvoir prend également fin si la cible reçoit des [points de dégâts](/regles/combat/degats).",
+        "Material": "De la poussière de diamant, d’émeraude, de rubis et de saphir d’une valeur d’au moins 5000 deniers."
+      }
+    }
+  }
+}

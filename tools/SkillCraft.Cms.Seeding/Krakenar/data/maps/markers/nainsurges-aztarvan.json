@@ -1,0 +1,25 @@
+﻿{
+  "Id": "f5a21e18-9cc8-42b3-b975-ed1420c18c68",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-aztarvan",
+    "DisplayName": "Aztarvan",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "6455",
+      "Y": "3965"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-aztarvan",
+      "DisplayName": "Aztarvan",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Aztarvan\n\nContrée des [Petit-Gens Savant](https://www.skillcraftrpg.ca/regles/especes/petit-gens/savant).\n\nOn peut y trouver de la moutarde brune."
+      }
+    }
+  }
+}

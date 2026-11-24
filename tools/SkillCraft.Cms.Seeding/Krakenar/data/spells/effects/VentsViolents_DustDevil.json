@@ -1,0 +1,32 @@
+﻿{
+  "Id": "308c7a41-33d5-4085-95a7-8a1ae641c182",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "VentsViolents_DustDevil",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"4874b802-2357-40a3-8bd1-95b6246e19ed\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "VentsViolents_DustDevil",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poussière.",
+        "HtmlContent": "Le personnage désigne un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) formant un cube d’air de 1,5 mètres d’arête qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Une force élémentaire ressemblant à un diable de poussière apparaît dans le cube et dure pendant la durée du pouvoir. Toute créature qui termine son [tour](/regles/combat/deroulement/tour) à 1,5 mètres ou moins du diable de poussière doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme). En cas d’échec, la créature reçoit [1d4](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types) et est repoussée de 3 mètres. En cas de réussite, elle ne reçoit que la moitié des points de dégâts et n’est pas repoussée.\n\nUne fois par [tour](/regles/combat/deroulement/tour) subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut déplacer le diable de poussière d’au plus 9 mètres dans n’importe quelle direction. Si le diable de poussière passe au-dessus de sable, de poussière, de terre meuble ou de petits graviers, il aspire le matériau et forme un nuage de débris de 3 mètres de rayon autour de lui qui dure jusqu’au début du prochain tour du personnage. Le nuage [obscurcit lourdement](/regles/aventure/environnement/vision) sa zone."
+      }
+    }
+  }
+}

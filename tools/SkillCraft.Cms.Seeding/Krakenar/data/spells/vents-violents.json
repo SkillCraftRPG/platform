@@ -1,0 +1,27 @@
+﻿{
+  "Id": "4874b802-2357-40a3-8bd1-95b6246e19ed",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "vents-violents",
+    "DisplayName": "Vents violents",
+    "Description": null,
+    "FieldValues": {
+      "Tier": "1",
+      "Categories": "[\"71b92bd3-a2bc-4da1-b15b-5eb594bbae4e\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "vents-violents",
+      "DisplayName": "Vents violents",
+      "Description": null,
+      "FieldValues": {
+        "Slug": "vents-violents",
+        "MetaDescription": "Découvrez Vents violents, un pouvoir qui invoque un diable de poussière, déchaîne une onde de tonnerre et érige un mur de vent pour repousser les ennemis.",
+        "Summary": "Invoque un tourbillon, déchaîne le tonnerre et dresse un mur de vent fort.",
+        "HtmlContent": "Vents violents façonne les courants d’air en armes et en défenses. Un diable de poussière repousse les créatures et soulève des débris, une détonation de tonnerre frappe une zone, puis un mur de vent détourne les projectiles et disperse les gaz."
+      }
+    }
+  }
+}

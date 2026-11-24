@@ -1,0 +1,31 @@
+﻿{
+  "Id": "97c66094-0994-4fb9-b072-1c8b220272f7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ManifestationDeForce_Forcecage",
+    "DisplayName": "Cage de force",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"89c79373-ff0b-4d3b-b069-f051bd772169\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "20",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ManifestationDeForce_Forcecage",
+      "DisplayName": "Cage de force",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "De la poussière de rubis d’une valeur de 1500 deniers.",
+        "HtmlContent": "Une prison immobile et [invisible](/regles/combat/conditions/invisible), en forme de cube et composée de force magique, surgit autour d’une zone choisie par le personnage dans la portée. La prison peut être une cage ou une boîte solide, à son choix. Une prison en forme de cage peut mesurer jusqu’à 6 mètres d’arête et est faite de barreaux d’un diamètre de 1,5 centimètres espacés de 1,5 centimètres. Une prison en forme de boîte peut mesurer jusqu’à 3 mètres d’arête, créant une barrière solide qui empêche toute matière de la traverser et bloque tout pouvoir canalisé vers l’intérieur ou l’extérieur de la zone.\n\nLorsque le personnage canalise le pouvoir, toute créature entièrement à l’intérieur de la zone de la cage est piégée. Les créatures seulement partiellement dans la zone, ou trop grandes pour y tenir, sont repoussées loin du centre de la zone jusqu’à se trouver entièrement à l’extérieur.\n\nUne créature à l’intérieur de la cage ne peut la quitter par des moyens non magiques. Si la créature tente d’utiliser la téléportation ou le voyage interdimensionnel pour quitter la cage, elle doit d’abord effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas de réussite, la créature peut utiliser cette capacité pour sortir de la cage. En cas d’échec, elle ne peut sortir de la cage et la capacité est gaspillée. La cage s’étend également dans la dimension éthérée, bloquant le voyage éthéré.\n\nCette prison ne peut être [dissipée](/regles/magie/pouvoirs/protection-contre-la-magie)."
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+﻿{
+  "Id": "9656b24c-9e96-4ed0-afe1-1d77b0a2a224",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Stase_TemporalShunt1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c1e52a60-77e9-490a-b2fe-5f090b60018b\"]",
+      "Level": "0",
+      "CastingTime": "[\"R\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Stase_TemporalShunt1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Lorsque le personnage [voit](/regles/aventure/environnement/vision) une créature effectuer une [attaque](/regles/combat/attaque) ou [canaliser](/regles/combat/activites/canaliser) un pouvoir, il peut tenter de la projeter dans un autre point dans le temps, ce qui fait échouer l’attaque ou gaspille le pouvoir. La cible doit réussir un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline) ou disparaître jusqu’au début de son prochain [tour](/regles/combat/deroulement/tour), où elle réapparaît à l’endroit où elle se trouvait ou dans l’[espace inoccupé](/regles/aventure/mouvement/espace-occupe) le plus proche. La cible ne se souvient ni que le personnage a canalisé le pouvoir, ni d’avoir été affectée par celui-ci."
+      }
+    }
+  }
+}

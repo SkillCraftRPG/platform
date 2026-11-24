@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ee3d69ea-f524-43c8-a8bb-d1e0a9cb89c7",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Exaltation_SkillEmpowerment",
+    "DisplayName": "Expertise",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"b8e8abf0-b53c-45b7-af9e-422fa2ec0f6d\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Exaltation_SkillEmpowerment",
+      "DisplayName": "Expertise",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La magie du personnage approfondit la compréhension qu’une créature a de son propre talent. Il touche une créature consentante et lui confère une [expertise](/regles/talents/expertise) dans une [compétence](/regles/competences) de son choix. Il doit choisir une compétence dans laquelle la cible est [formée](/regles/competences/formation) et qui ne bénéficie pas déjà du talent [Expertise](/regles/talents/expertise)."
+      }
+    }
+  }
+}

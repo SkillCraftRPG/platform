@@ -1,0 +1,25 @@
+﻿{
+  "Id": "8d304cdc-6715-447f-9573-7e2d7cfbb715",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-asparam",
+    "DisplayName": "Asparam",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "4000",
+      "Y": "2780"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-asparam",
+      "DisplayName": "Asparam",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Asparam\n\nCroisée des chemins entre les centres de mycélium"
+      }
+    }
+  }
+}

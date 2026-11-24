@@ -1,0 +1,25 @@
+﻿{
+  "Id": "c2497620-795b-4748-be7b-2c705b85fd3e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-bisarpat",
+    "DisplayName": "Bisarpat",
+    "Description": null,
+    "FieldValues": {
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]",
+      "X": "3615",
+      "Y": "2475"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-bisarpat",
+      "DisplayName": "Bisarpat",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Bisarpat\n\nCité svite de la Poléchie"
+      }
+    }
+  }
+}

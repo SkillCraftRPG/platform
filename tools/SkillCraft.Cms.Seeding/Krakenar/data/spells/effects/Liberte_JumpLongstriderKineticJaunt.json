@@ -25,7 +25,7 @@
       "Description": null,
       "FieldValues": {
         "Focus": "Une patte arrière de sauterelle.",
-        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’à la fin du pouvoir, la cible se voit conférer un bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse) et la distance de ses [sauts](/regles/aventure/mouvement/types) est triplée. Ses [déplacements]() ne provoquent pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite) et elle peut traverser un espace [occupé](/regles/aventure/mouvement/espace-occupe) par une autre créature sans que cela ne compte comme du [terrain difficile](/regles/aventure/mouvement/terrain-difficile)."
+        "HtmlContent": "Le personnage touche une créature consentante. Jusqu’à la fin du pouvoir, la cible se voit conférer un bonus de [2 points de mouvement](/regles/aventure/mouvement/vitesse) et la distance de ses [sauts](/regles/aventure/mouvement/types) est triplée. Ses [déplacements](/regles/combat/activites/deplacement) ne provoquent pas d’[attaque d’opportunité](/regles/combat/attaque/opportunite) et elle peut traverser un espace [occupé](/regles/aventure/mouvement/espace-occupe) par une autre créature sans que cela ne compte comme du [terrain difficile](/regles/aventure/mouvement/terrain-difficile)."
       }
     }
   }

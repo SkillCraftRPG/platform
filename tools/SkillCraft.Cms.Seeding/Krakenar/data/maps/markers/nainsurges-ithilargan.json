@@ -1,0 +1,25 @@
+﻿{
+  "Id": "91de0bf3-d9a7-4fd2-bac3-b0a30e5a5d10",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "nainsurges-ithilargan",
+    "DisplayName": "Ithilargan",
+    "Description": null,
+    "FieldValues": {
+      "X": "3415",
+      "Y": "3150",
+      "Map": "[\"2273af7c-35d3-4e7d-8635-722da7bbbe07\"]"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "nainsurges-ithilargan",
+      "DisplayName": "Ithilargan",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "##### Ithilargan\n\nCité ayant autrefois appartenu aux [Elfes cramoisis](https://www.skillcraftrpg.ca/regles/especes/elfe/cramoisi)"
+      }
+    }
+  }
+}

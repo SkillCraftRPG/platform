@@ -1,0 +1,32 @@
+﻿{
+  "Id": "5a94b1fb-d432-49ce-9906-fbef2448b124",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "EntraveTerrestre_WallOfSand",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"05d36d51-22d8-4056-94ac-74a721f2aa3b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "EntraveTerrestre_WallOfSand",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une poignée de sable.",
+        "HtmlContent": "Le personnage conjure un mur de sable tourbillonnant au sol en un point qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il peut faire mesurer le mur jusqu’à 9&nbsp;mètres de long, 3&nbsp;mètres de haut et 3&nbsp;mètres d’épaisseur, et celui-ci disparaît lorsque le pouvoir prend fin. Il bloque la ligne de vue, mais pas le [déplacement](/regles/combat/activites/deplacement). Une créature est [aveuglée](/regles/combat/conditions/aveugle) tant qu’elle se trouve dans l’espace du mur et doit dépenser 3 [points de mouvement](/regles/aventure/mouvement/vitesse) pour chaque 1,5 mètre qu’elle parcourt à travers le mur."
+      }
+    }
+  }
+}

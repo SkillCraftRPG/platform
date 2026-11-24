@@ -1,0 +1,30 @@
+﻿{
+  "Id": "b1d4984b-de3f-42d6-b36b-922901a92c12",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Iridescence_CrownOfStars",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"fd09ccb6-d923-4010-82a0-3efcffc2922b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Iridescence_CrownOfStars",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Six parcelles de lumière semblables à des étoiles apparaissent et orbitent autour de la tête du personnage jusqu’à la fin du pouvoir. Une fois par [tour](/regles/combat/deroulement/tour), par une [action](/regles/combat/deroulement/tour), il peut envoyer l’une de ces parcelles filer vers une créature ou un objet situé à 36 mètres ou moins de sa position. Si l’[attaque](/regles/magie/effets/attaque) réussit, la cible reçoit [4d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) [radiants](/regles/combat/degats/types). Que l’attaque réussisse ou échoue, la parcelle s’éteint et disparaît. Le pouvoir prend fin prématurément s’il utilise la dernière parcelle. S’il lui reste quatre parcelles ou plus, elles dégagent de la [clarté](/regles/aventure/environnement/vision) dans un rayon de 9 mètres et de la [pénombre](/regles/aventure/environnement/vision) dans un rayon de 9 mètres additionnels. S’il lui reste trois parcelles ou moins, elles dégagent de la pénombre dans un rayon de 9&nbsp;mètres."
+      }
+    }
+  }
+}

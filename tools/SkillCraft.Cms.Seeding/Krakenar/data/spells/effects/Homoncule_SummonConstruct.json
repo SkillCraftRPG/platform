@@ -1,0 +1,32 @@
+﻿{
+  "Id": "746d75ef-53f2-4178-8d0d-93b0b0e98e84",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Homoncule_SummonConstruct",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6220d644-fca1-417b-8c77-04bf95f5d29c\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Homoncule_SummonConstruct",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un coffret orné de pierre et de métal d’une valeur d’au moins 400 deniers.",
+        "HtmlContent": "Le personnage invoque un esprit de construction qui se manifeste dans un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Lorsqu’il canalise le pouvoir, le personnage choisit la forme de la créature : **Argile**, **Métal** ou **Pierre**. L’esprit ressemble à un golem ou à un drone fait du matériau choisi, ce qui détermine ses traits et caractéristiques. Il disparaît lorsque ses points de [Vitalité](/regles/statistiques/vitalite) chutent à 0 ou lorsque le pouvoir prend fin.\n\nLa créature est une alliée du personnage et de ses compagnons. En combat, elle partage son [Initiative](/regles/combat/deroulement/initiative) et agit immédiatement après son [tour](/regles/combat/deroulement/tour). Elle obéit à ses ordres verbaux, qu’il peut donner en [action libre](/regles/combat/deroulement/tour) pendant son tour. S’il n’en donne aucun, elle se place en [position défensive](/regles/combat/activites/defense) et [se déplace](/regles/combat/activites/deplacement) afin d’éviter les dangers.\n\n\uD83D\uDC09Stat Block"
+      }
+    }
+  }
+}

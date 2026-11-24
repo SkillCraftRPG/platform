@@ -1,0 +1,32 @@
+﻿{
+  "Id": "55d130c8-9ecf-498c-9363-23a4a66f505e",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Homoncule_CreateMagen",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6220d644-fca1-417b-8c77-04bf95f5d29c\"]",
+      "Level": "2",
+      "CastingTime": "[\"1h\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Homoncule_CreateMagen",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une fiole de mercure d’une valeur de 500 deniers et une poupée humaine grandeur nature.",
+        "Focus": "Une verge de cristal complexe d’une valeur d’au moins 1500 deniers.",
+        "HtmlContent": "Pendant qu’il canalise le pouvoir, le personnage place une fiole de mercure dans la poitrine d’une poupée humaine grandeur nature remplie de cendre ou de poussière. Il coud ensuite la poupée et fait goutter son sang dessus. À la fin de l’incantation, il tape la poupée avec une verge de cristal, la transformant en un Magen vêtu de ce que portait la poupée. Le type de Magen est choisi par le personnage pendant la canalisation du pouvoir. Tout Magen qu’il crée avec ce pouvoir obéit à ses ordres sans question. Le maître de jeu dispose des caractéristiques des Magens.\n\nLorsque le Magen apparaît, la [Vitalité](/regles/statistiques/vitalite) courante et maximale du personnage diminue d’un montant égal au niveau du Magen (minimum&nbsp;1). Seul un pouvoir de souhait peut annuler cette réduction de sa Vitalité maximale."
+      }
+    }
+  }
+}

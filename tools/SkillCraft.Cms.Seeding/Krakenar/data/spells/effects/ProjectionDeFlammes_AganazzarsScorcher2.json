@@ -1,0 +1,30 @@
+﻿{
+  "Id": "ea6db217-4a62-44e0-897a-7c69b384c311",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "ProjectionDeFlammes_AganazzarsScorcher2",
+    "DisplayName": "Ligne",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"6105abec-b3b8-4e5c-8bba-432321c9489f\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "6",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "ProjectionDeFlammes_AganazzarsScorcher2",
+      "DisplayName": "Ligne",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 3, mais les [points de dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) infligés augmentent à [4d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}
