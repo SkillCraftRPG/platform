@@ -1,0 +1,30 @@
+﻿{
+  "Id": "41da52e6-308b-497c-a142-ee1a617d5b0d",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hypnose_ColorSpray2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ea88e6df-059d-4d44-9fd6-a440746a2318\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hypnose_ColorSpray2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais le nombre de points de [Vitalité](/regles/statistiques/vitalite) affectés augmente à 10d10."
+      }
+    }
+  }
+}

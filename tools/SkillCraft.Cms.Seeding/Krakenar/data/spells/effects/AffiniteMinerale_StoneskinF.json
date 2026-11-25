@@ -1,0 +1,32 @@
+﻿{
+  "Id": "c61a05f8-e3b6-4d82-8a28-3177497d2dc8",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AffiniteMinerale_StoneskinF",
+    "DisplayName": "Focus",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c9a1d86a-192b-45a3-8415-e2db20c71e59\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AffiniteMinerale_StoneskinF",
+      "DisplayName": "Focus",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un diamant d’une valeur d’au moins 100 deniers.",
+        "HtmlContent": "Ce pouvoir rend la chair d’une créature consentante que le personnage touche aussi dure que la pierre. Jusqu’à la fin du pouvoir, la cible est [résistante](/regles/combat/degats/efficacite) aux [dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types), [perforants](/regles/combat/degats/types) et [tranchants](/regles/combat/degats/types) physiques."
+      }
+    }
+  }
+}

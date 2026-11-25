@@ -1,0 +1,31 @@
+﻿{
+  "Id": "be681dc7-87b9-42e4-86b5-4d7636482e27",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AffiniteMinerale_MeldIntoStone",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c9a1d86a-192b-45a3-8415-e2db20c71e59\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "IsRitual": "true",
+      "Duration": "8",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AffiniteMinerale_MeldIntoStone",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage pénètre dans un objet ou une surface de pierre assez grande pour contenir entièrement son corps, fusionnant avec la pierre, lui et tout l’[équipement](/regles/equipement) qu’il porte, pendant la durée. Il entre dans la pierre en un point qu’il peut toucher en s’y [déplaçant](/regles/combat/activites/deplacement). Rien de sa présence ne demeure visible ni autrement détectable par des sens non magiques.\n\nTant qu’il est fusionné à la pierre, il ne peut [voir](/regles/aventure/environnement/vision) ce qui se produit à l’extérieur, et tout [test](/regles/competences/tests) de [Perception](/regles/competences/perception) qu’il effectue pour entendre des sons à l’extérieur est affligé du [désavantage](/regles/competences/tests/avantage-desavantage). Il demeure conscient du passage du temps et peut canaliser des pouvoirs sur lui-même tant qu’il est fusionné à la pierre. Il peut quitter la pierre à l’endroit où il y est entré en s’y déplaçant, ce qui met fin au pouvoir. Autrement, il ne peut se déplacer.\n\nDes dommages physiques mineurs à la pierre ne lui nuisent pas, mais sa destruction partielle ou un changement de forme (au point qu’il n’y tienne plus) l’expulse et lui inflige [6d6](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) [contondants](/regles/combat/degats/types). La destruction complète de la pierre (ou sa transmutation en une substance différente) l’expulse et lui inflige 50 points de dégâts contondants. S’il est expulsé, il tombe [renversé](/regles/combat/conditions/renverse) dans l’[espace inoccupé](/regles/aventure/mouvement/espace-occupe) le plus proche de l’endroit où il est entré."
+      }
+    }
+  }
+}

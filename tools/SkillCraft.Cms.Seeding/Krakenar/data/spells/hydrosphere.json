@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "hydrosphere",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Hydrosphère, un pouvoir qui érige un mur d’eau protecteur et conjure une sphère aquatique capable d’emprisonner et de déplacer plusieurs ennemis.",
+        "Summary": "Dresse un mur d’eau protecteur et emprisonne des ennemis dans une sphère.",
+        "HtmlContent": "Hydrosphère permet de dresser un mur d’eau qui entrave les déplacements, gêne les attaques à distance et atténue le feu. Le personnage peut aussi conjurer une sphère d’eau mobile qui engloutit et transporte plusieurs créatures, puis l’agrandir."
       }
     }
   }

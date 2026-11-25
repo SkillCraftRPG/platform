@@ -1,17 +1,17 @@
 ﻿{
-  "Id": "4d14ab95-e9f8-40eb-aea5-27e85a87d4d4",
+  "Id": "24ddb6a5-a311-450e-9b93-9a5fcbe356b4",
   "Invariant": {
     "IsPublished": true,
-    "UniqueName": "Carapace_StoneSkin4",
-    "DisplayName": null,
+    "UniqueName": "AffiniteMinerale_StoneskinM",
+    "DisplayName": "Matériel",
     "Description": null,
     "FieldValues": {
-      "Spell": "[\"40b6c732-8885-411a-a36e-9aa7db58f7cd\"]",
-      "Level": "2",
+      "Spell": "[\"c9a1d86a-192b-45a3-8415-e2db20c71e59\"]",
+      "Level": "1",
       "CastingTime": "[\"2\"]",
       "Duration": "1",
       "DurationUnit": "[\"Hour\"]",
-      "IsConcentration": "true",
+      "IsConcentration": "false",
       "Range": "1",
       "IsSomatic": "true",
       "IsVerbal": "true"
@@ -20,8 +20,8 @@
   "Locales": {
     "fr": {
       "IsPublished": true,
-      "UniqueName": "Carapace_StoneSkin4",
-      "DisplayName": null,
+      "UniqueName": "AffiniteMinerale_StoneskinM",
+      "DisplayName": "Matériel",
       "Description": null,
       "FieldValues": {
         "Material": "De la poussière de diamant d’une valeur d’au moins 100 deniers.",

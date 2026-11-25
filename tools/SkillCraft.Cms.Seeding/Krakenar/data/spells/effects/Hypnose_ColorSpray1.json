@@ -1,0 +1,31 @@
+﻿{
+  "Id": "12697eeb-6d44-4eaa-83f6-51a82beee06a",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hypnose_ColorSpray1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ea88e6df-059d-4d44-9fd6-a440746a2318\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hypnose_ColorSpray1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de poudre ou de sable colorée de rouge, de jaune et de bleu.",
+        "HtmlContent": "Un éblouissant éventail de lumières colorées jaillit de la main du personnage. Il lance 8d10 : le total indique combien de points de [Vitalité](/regles/statistiques/vitalite) le pouvoir peut affecter. Les créatures dans un cône de 4,5 mètres originant depuis sa position sont affectées par ordre croissant de leurs points courants de Vitalité, en ignorant les créatures [inconscientes](/regles/combat/conditions/inconscient) et celles qui ne peuvent pas [voir](/regles/aventure/environnement/vision).\n\nEn commençant par la créature dont les points courants de Vitalité sont les plus bas, chaque créature affectée est [aveuglée](/regles/combat/conditions/aveugle) jusqu’à la fin du prochain [tour](/regles/combat/deroulement/tour) du personnage. On soustrait les points de Vitalité de chaque créature du total avant de passer à la créature suivante dont les points de Vitalité sont les plus bas. Les points de Vitalité d’une créature doivent être égaux ou inférieurs au total restant pour que celle-ci soit affectée."
+      }
+    }
+  }
+}

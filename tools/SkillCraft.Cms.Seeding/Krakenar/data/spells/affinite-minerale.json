@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "affinite-minerale",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Affinité minérale, un pouvoir qui permet de fusionner avec la pierre, de durcir la chair contre les coups et d’ouvrir des passages à travers les murs.",
+        "Summary": "Fusionne avec la pierre, durcit la chair et ouvre un passage dans les murs.",
+        "HtmlContent": "Affinité minérale permet au personnage de se fondre dans la pierre pour se dissimuler, de rendre la chair d’une créature résistante aux dégâts physiques et d’ouvrir des passages temporaires dans les surfaces de bois, de plâtre ou de pierre."
       }
     }
   }

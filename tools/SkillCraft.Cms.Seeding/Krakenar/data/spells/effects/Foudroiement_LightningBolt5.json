@@ -1,0 +1,32 @@
+﻿{
+  "Id": "47ceac03-4e8a-41d8-b227-dc9e7299473f",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Foudroiement_LightningBolt5",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ad2e5562-5a02-4bab-867c-95103da4b347\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Foudroiement_LightningBolt5",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau 3, mais les [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) infligés augmentent à [8d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance).",
+        "Focus": "Une tige d’ambre, de cristal ou de verre.",
+        "Material": "Un peu de fourrure."
+      }
+    }
+  }
+}

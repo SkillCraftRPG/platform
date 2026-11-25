@@ -1,0 +1,32 @@
+﻿{
+  "Id": "4a395f9a-cfab-4fd1-a130-3a791d875408",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hydrosphere_WallOfWater",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ee4049f7-c970-436d-99a0-2ad4a861513b\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "10",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "12",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hydrosphere_WallOfWater",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau.",
+        "HtmlContent": "Le personnage conjure un mur d’eau au sol en un point qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. Il peut faire mesurer le mur jusqu’à 9 mètres de long, 3 mètres de haut et 30 centimètres d’épaisseur, ou former un mur annulaire d’un diamètre d’au plus 6 mètres, de 6 mètres de haut et de 30 centimètres d’épaisseur. Le mur disparaît lorsque le pouvoir prend fin. L’espace du mur est du [terrain difficile](/regles/aventure/mouvement/terrain-difficile).\n\nLe [test](/regles/competences/tests) de toute [attaque à distance](/regles/combat/attaque/distance) physique qui entre dans l’espace du mur est affligé du [désavantage](/regles/competences/tests/avantage-desavantage), et les [dégâts](/regles/combat/degats) de [feu](/regles/combat/degats/types) sont réduits de moitié si l’effet de feu traverse le mur pour atteindre sa cible. Les pouvoirs qui infligent des dégâts de [froid](/regles/combat/degats/types) et qui traversent le mur font geler solidement la portion du mur qu’ils traversent (au moins une section de 1,5 mètres de côté). Chaque section gelée de 1,5 mètres de côté est dotée d’une [Défense](/regles/combat/activites/defense) de 5 et de 15 points de [Résistance](/regles/aventure/interaction-objets). Réduire une section gelée à 0 point de Résistance la détruit. Lorsqu’une section est détruite, l’eau du mur ne la comble pas."
+      }
+    }
+  }
+}

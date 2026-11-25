@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "carapace",
-        "MetaDescription": "Découvrez Carapace : protéger une créature touchée des coups physiques, soutenir un effort, puis durcir sa chair comme la pierre.",
-        "Summary": "Protège des coups, soutient un effort, puis durcit la chair comme la pierre.",
-        "HtmlContent": "Le personnage protège d’abord une créature touchée des coups physiques et peut soutenir un de ses efforts. Plus fort, il durcit sa chair comme la pierre pour atténuer les coups. Plus fort encore, elle résiste pleinement aux coups physiques."
+        "MetaDescription": "Découvrez Carapace, un pouvoir défensif qui réduit les dégâts physiques, renforce les jets de sauvegarde et durcit la chair comme la pierre.",
+        "Summary": "Réduit les dégâts physiques, renforce les sauvegardes et durcit la chair.",
+        "HtmlContent": "Carapace protège le personnage contre les attaques physiques et aide une créature à réussir ses jets de sauvegarde. En progressant, il combine ces protections, puis durcit la chair d’un allié comme la pierre pour résister aux dégâts physiques."
       }
     }
   }

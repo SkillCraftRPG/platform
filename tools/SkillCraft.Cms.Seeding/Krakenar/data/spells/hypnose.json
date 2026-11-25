@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "hypnose",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Hypnose, un pouvoir qui aveugle par des éclats colorés, projette des cartes spectrales et plonge les ennemis dans une transe incapacitante.",
+        "Summary": "Aveugle avec des lumières et des cartes, puis hypnotise les adversaires.",
+        "HtmlContent": "Hypnose éblouit les créatures dans un cône de lumières colorées, puis leur lance des cartes spectrales qui infligent des dégâts et aveuglent. À son apogée, un motif lumineux ensorcelle les ennemis et les laisse incapables d'agir jusqu'à leur réveil."
       }
     }
   }

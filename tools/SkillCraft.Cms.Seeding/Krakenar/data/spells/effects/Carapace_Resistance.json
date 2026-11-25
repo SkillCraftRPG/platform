@@ -1,0 +1,32 @@
+﻿{
+  "Id": "1e3fa80d-fb20-4086-a23b-e50f3fca7dd3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Carapace_Resistance",
+    "DisplayName": "Protection",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"40b6c732-8885-411a-a36e-9aa7db58f7cd\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "1",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Carapace_Resistance",
+      "DisplayName": "Protection",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une cape miniature.",
+        "HtmlContent": "Le personnage touche une créature consentante. Une fois avant la fin du pouvoir, la cible peut ajouter 1d4 à un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de son choix. Elle peut jeter le dé avant ou après avoir effectué le jet de sauvegarde. Le pouvoir prend ensuite fin."
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿{
+  "Id": "ad979c46-e68f-4e10-b130-6ff288b01198",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Foudroiement_LightningArrow",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ad2e5562-5a02-4bab-867c-95103da4b347\"]",
+      "Level": "1",
+      "CastingTime": "[\"1\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "0",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Foudroiement_LightningArrow",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "La prochaine fois que le personnage effectue une [attaque à distance](/regles/combat/attaque/distance) pendant la durée du pouvoir, la [munition](/regles/equipement/armes/proprietes) de l’[arme](/regles/equipement/armes), ou l’arme elle-même s’il s’agit d’une arme de [jet](/regles/equipement/armes/proprietes), se transforme en un éclair. Si l’attaque réussit, la cible reçoit [4d8](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) à la place des dégâts normaux infligés par l’arme. Si elle échoue, la cible ne reçoit que la moitié de ces points de dégâts.\n\nQue l’[attaque](/regles/combat/attaque) réussisse ou échoue, chaque créature située à 3 mètres ou moins de la cible doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Chacune de ces créatures reçoit [2d8](/regles/combat/degats/jet) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nLa [munition](/regles/equipement/armes/munitions) ou l’arme reprend ensuite sa forme normale."
+      }
+    }
+  }
+}

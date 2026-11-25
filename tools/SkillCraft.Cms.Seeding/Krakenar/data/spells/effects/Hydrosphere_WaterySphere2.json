@@ -1,0 +1,32 @@
+﻿{
+  "Id": "bc32a515-4b19-4d04-9b36-841706d48a97",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hydrosphere_WaterySphere2",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ee4049f7-c970-436d-99a0-2ad4a861513b\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hydrosphere_WaterySphere2",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent, mais le rayon de la sphère augmente à 3 mètres, lui permettant de contenir jusqu’à 8 créatures de [taille](/regles/especes/taille) moyenne ou 2 créatures de grande taille."
+      }
+    }
+  }
+}

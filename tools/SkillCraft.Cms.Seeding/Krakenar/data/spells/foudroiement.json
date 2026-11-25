@@ -18,9 +18,9 @@
       "Description": null,
       "FieldValues": {
         "Slug": "foudroiement",
-        "MetaDescription": "\uD83D\uDEA7",
-        "Summary": "\uD83D\uDEA7",
-        "HtmlContent": "\uD83D\uDEA7"
+        "MetaDescription": "Découvrez Foudroiement, un pouvoir qui projette un éclair dévastateur en ligne droite et transforme une attaque à distance en projectile de foudre explosif.",
+        "Summary": "Projette un éclair en ligne et transforme un tir en explosion de foudre.",
+        "HtmlContent": "Foudroiement déchaîne un puissant éclair qui traverse les ennemis sur une longue ligne. Il permet aussi de charger une attaque à distance d’électricité, frappant sa cible et les créatures voisines, avant de renforcer la puissance de l’éclair initial."
       }
     }
   }

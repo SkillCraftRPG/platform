@@ -1,0 +1,33 @@
+﻿{
+  "Id": "85761bbb-f8a5-4983-8303-301415c477d6",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hypnose_HypnoticPattern",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ea88e6df-059d-4d44-9fd6-a440746a2318\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "24",
+      "IsSomatic": "true",
+      "IsVerbal": "false"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hypnose_HypnoticPattern",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Ce pouvoir ne nécessite qu’une fiole ou un bâtonnet, et non les deux.\n\nLe personnage crée un motif torsadé de couleurs qui ondule dans l’air à l’intérieur d’un cube de 9 mètres d’arête dans la portée. Le motif apparaît un instant, puis s’évanouit. Chaque créature dans la zone qui [voit](/regles/aventure/environnement/vision) le motif doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) de [Discipline](/regles/competences/discipline). En cas d’échec, la créature est [charmée](/regles/combat/conditions/charme) pendant la durée. Tant qu’elle est charmée par ce pouvoir, elle est [incapable](/regles/combat/conditions/incapable).\n\nLe pouvoir prend fin pour une créature affectée si celle-ci est [blessée](/regles/combat/degats) ou si quelqu’un la secoue pour la tirer de sa torpeur par une [action](/regles/combat/deroulement/tour).",
+        "Material": "Un bâtonnet d’encens allumé.",
+        "Focus": "Une fiole de cristal remplie d’une matière phosphorescente."
+      }
+    }
+  }
+}

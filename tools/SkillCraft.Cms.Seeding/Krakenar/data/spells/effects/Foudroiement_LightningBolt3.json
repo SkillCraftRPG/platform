@@ -1,0 +1,32 @@
+﻿{
+  "Id": "b70f593d-b717-4c67-b7e6-0c5b548714eb",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Foudroiement_LightningBolt3",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ad2e5562-5a02-4bab-867c-95103da4b347\"]",
+      "Level": "0",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Foudroiement_LightningBolt3",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Une tige d’ambre, de cristal ou de verre.",
+        "Material": "Un peu de fourrure.",
+        "HtmlContent": "Un trait de foudre formant une ligne de 30 mètres de long et de 1,5 mètres de large jaillit du personnage dans une direction de son choix. Chaque créature dans la ligne doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). Une créature reçoit [7d8](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [foudre](/regles/combat/degats/types) en cas d’échec, ou la moitié des points de dégâts en cas de réussite.\n\nLa foudre enflamme les objets inflammables de la zone qui ne sont ni portés ni tenus."
+      }
+    }
+  }
+}

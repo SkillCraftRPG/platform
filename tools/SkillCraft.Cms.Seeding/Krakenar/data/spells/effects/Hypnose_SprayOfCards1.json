@@ -1,0 +1,31 @@
+﻿{
+  "Id": "16043a40-01de-49f2-9a6b-310e23db7988",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hypnose_SprayOfCards1",
+    "DisplayName": "Jet de cartes",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ea88e6df-059d-4d44-9fd6-a440746a2318\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hypnose_SprayOfCards1",
+      "DisplayName": "Jet de cartes",
+      "Description": null,
+      "FieldValues": {
+        "HtmlContent": "Le personnage projette un cône de 4,5 mètres de cartes spectrales. Chaque créature dans cette zone doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Acrobaties](/regles/competences/acrobaties). En cas d’échec, une créature reçoit [2d10](/regles/combat/degats/jet)&nbsp;+&nbsp;moitié de la [Puissance](/regles/statistiques/puissance) [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) et est [aveuglée](/regles/combat/conditions/aveugle) jusqu’à la fin de son prochain [tour](/regles/combat/deroulement/tour). En cas de réussite, elle ne reçoit que la moitié des points de dégâts.",
+        "Focus": "Un jeu de cartes."
+      }
+    }
+  }
+}

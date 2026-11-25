@@ -1,0 +1,32 @@
+﻿{
+  "Id": "48a54e9a-8712-4c8e-b4f4-11b65d01fde3",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hydrosphere_WaterySphere1",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ee4049f7-c970-436d-99a0-2ad4a861513b\"]",
+      "Level": "1",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Minute\"]",
+      "IsConcentration": "true",
+      "Range": "18",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hydrosphere_WaterySphere1",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une goutte d’eau.",
+        "HtmlContent": "Le personnage conjure une sphère d’eau d’un rayon de 1,5 mètres en un point qu’il peut [voir](/regles/aventure/environnement/vision) dans la portée. La sphère peut planer dans les airs à au plus 3 mètres du sol. Elle demeure pendant la durée du pouvoir.\n\nToute créature dans l’espace de la sphère doit effectuer un [jet de sauvegarde](/regles/competences/tests/sauvegarde) d’[Athlétisme](/regles/competences/athletisme). En cas de réussite, elle est éjectée de cet espace vers l’[espace inoccupé](/regles/aventure/mouvement/espace-occupe) le plus proche à l’extérieur de la sphère. Une créature de [taille](/regles/especes/taille) énorme ou supérieure réussit automatiquement ce jet de sauvegarde. En cas d’échec, la créature est [restreinte](/regles/combat/conditions/restreint) par la sphère et engloutie par l’eau. À la fin de chacun de ses [tours](/regles/combat/deroulement/tour), une cible restreinte peut répéter le jet de sauvegarde.\n\nLa sphère peut restreindre au maximum quatre créatures de taille moyenne ou moindre, ou une créature de taille grande. Si elle restreint une créature au-delà de ces nombres, une créature déjà restreinte par la sphère, choisie au hasard, en tombe et atterrit [renversée](/regles/combat/conditions/renverse) dans un espace situé à 1,5 mètres ou moins de celle-ci.\n\nUne fois par tour subséquent, par une [action](/regles/combat/deroulement/tour), le personnage peut déplacer la sphère d’au plus 9 mètres en ligne droite. Si elle passe au-dessus d’une fosse, d’une falaise ou d’une autre dénivellation, elle redescend en sécurité jusqu’à planer à 3 mètres du sol. Toute créature restreinte par la sphère se déplace avec elle. Il peut projeter la sphère contre des créatures, les forçant à effectuer le jet de sauvegarde.\n\nLorsque le pouvoir prend fin, la sphère tombe au sol et éteint toutes les flammes normales situées à 9 mètres ou moins d’elle. Toute créature restreinte par la sphère est renversée dans l’espace où celle-ci s’écrase."
+      }
+    }
+  }
+}

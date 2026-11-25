@@ -1,0 +1,31 @@
+﻿{
+  "Id": "f0eee30c-03f6-4447-bad5-9a13a2b67bd5",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "Hypnose_SprayOfCards2",
+    "DisplayName": "Jet de cartes",
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"ea88e6df-059d-4d44-9fd6-a440746a2318\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "0",
+      "DurationUnit": "[\"Round\"]",
+      "Range": "0",
+      "IsSomatic": "true",
+      "IsVerbal": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "Hypnose_SprayOfCards2",
+      "DisplayName": "Jet de cartes",
+      "Description": null,
+      "FieldValues": {
+        "Focus": "Un jeu de cartes.",
+        "HtmlContent": "Le pouvoir produit le même effet que le niveau précédent (_Jet de cartes_), mais les [points de dégâts](/regles/combat/degats) de [force](/regles/combat/degats/types) infligés augmentent à [2d12](/regles/combat/degats/jet)&nbsp;+&nbsp;[Puissance](/regles/statistiques/puissance)."
+      }
+    }
+  }
+}

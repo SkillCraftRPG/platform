@@ -1,0 +1,31 @@
+﻿{
+  "Id": "d57c10a7-a773-4b0c-9835-0203ae282fdc",
+  "Invariant": {
+    "IsPublished": true,
+    "UniqueName": "AffiniteMinerale_Passwall",
+    "DisplayName": null,
+    "Description": null,
+    "FieldValues": {
+      "Spell": "[\"c9a1d86a-192b-45a3-8415-e2db20c71e59\"]",
+      "Level": "2",
+      "CastingTime": "[\"2\"]",
+      "Duration": "1",
+      "DurationUnit": "[\"Hour\"]",
+      "Range": "6",
+      "IsVerbal": "true",
+      "IsSomatic": "true"
+    }
+  },
+  "Locales": {
+    "fr": {
+      "IsPublished": true,
+      "UniqueName": "AffiniteMinerale_Passwall",
+      "DisplayName": null,
+      "Description": null,
+      "FieldValues": {
+        "Material": "Une pincée de graines de sésame.",
+        "HtmlContent": "Le personnage désigne un point qu’il peut [voir](/regles/aventure/environnement/vision) sur une surface de bois, de plâtre ou de pierre (telle qu’un mur, un plafond ou un plancher) dans la portée, et un passage y apparaît pendant la durée. Il choisit les dimensions de l’ouverture : au plus 1,5 mètres de large, 2,5 mètres de haut et 6 mètres de profondeur. Le passage ne crée aucune instabilité dans la structure qui l’entoure. Lorsque l’ouverture disparaît, toute créature ou tout objet encore dans le passage créé par le pouvoir est expulsé en toute sécurité vers un [espace inoccupé](/regles/aventure/mouvement/espace-occupe) le plus proche de la surface sur laquelle le pouvoir a été canalisé."
+      }
+    }
+  }
+}
